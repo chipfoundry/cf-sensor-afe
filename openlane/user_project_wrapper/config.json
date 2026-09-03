@@ -21,39 +21,28 @@
 
     "//": "Macros configurations",
     "MACROS": {
-        "user_proj_example": {
+        "CF_BGR": {
             "gds": [
-                "dir::../../gds/user_proj_example.gds"
+                "dir::../../ip/CF_BGR/layout/gds/CF_BGR.gds"
             ],
             "lef": [
-                "dir::../../lef/user_proj_example.lef"
+                "dir::../../ip/CF_BGR/layout/lef/CF_BGR.lef"
             ],
             "instances": {
-                "mprj": {
-                    "location": [60, 15],
+                "u_cf_bgr": {
+                    "location": [100, 100],
                     "orientation": "N"
                 }
             },
             "nl": [
-                "dir::../../verilog/gl/user_proj_example.v"
-            ],
-            "spef": {
-                "min_*": [
-                    "dir::../../spef/multicorner/user_proj_example.min.spef"
-                ],
-                "nom_*": [
-                    "dir::../../spef/multicorner/user_proj_example.nom.spef"
-                ],
-                "max_*": [
-                    "dir::../../spef/multicorner/user_proj_example.max.spef"
-                ]
-            },
-            "lib": {
-                "*": "dir::../../lib/user_proj_example.lib"
-            }
+                "dir::../../ip/CF_BGR/hdl/gl/CF_BGR.v"
+            ]
         }
     },
-    "PDN_MACRO_CONNECTIONS": ["mprj vccd2 vssd2 vccd1 vssd1"],
+    "PDN_MACRO_CONNECTIONS": [
+        "u_cf_bgr vccd1 vssd1 vpwr vgnd",
+        "u_cf_bgr vccd1 vssd1 vpb vnb"
+    ],
 
     "//": "PDN configurations",
     "FP_PDN_VOFFSET": 5,

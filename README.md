@@ -21,11 +21,35 @@
 - [Checklist for Shuttle Submission](#checklist-for-shuttle-submission)
 
 ## Overview
-This repository contains a user project designed for integration into the **Caravel chip user space**. Use it as a template for integrating custom RTL with Caravel's system-on-chip (SoC) utilities, including:
+This project integrates one `CF_BGR` bandgap-reference hard macro into the
+**Caravel chip user space**. The macro uses Caravel's 1.8 V user supply
+(`vccd1`/`vssd1`), exposes its analog outputs on GPIO 7–15, and accepts
+trim, power, and DFT controls from Logic Analyzer bits 0–23.
 
-* **IO Pads:** Configurable general-purpose input/output.
-* **Logic Analyzer Probes:** 128 signals for non-intrusive hardware debugging.
-* **Wishbone Port:** A 32-bit standard bus interface for communication between the RISC-V management core and your custom hardware.
+The default Logic Analyzer state asserts `pd` and `pd_ibg`, keeping the macro
+powered down until firmware enables and drives those probes.
+
+### CF_BGR connections
+
+| Caravel connection | CF_BGR signal |
+| --- | --- |
+| GPIO 7–15 / `analog_io[0:8]` | `Vout`, `ictat`, `iptat`, `ibg_2p5uA`, `ibg_10uA`, `mux1out`, `mux2out`, `vbias`, `vbias_cascode` |
+| LA 0–6 | `trimTC[6:0]` |
+| LA 7–13 | `trimCurr[6:0]` |
+| LA 14–15 | `CurrAbsTrim[1:0]` |
+| LA 16–17 | `inl_ctrl[1:0]` |
+| LA 18–19 | `mux1sel[1:0]` |
+| LA 20 | `mux2sel` |
+| LA 21 | `dft_sel` |
+| LA 22 | `pd` |
+| LA 23 | `pd_ibg` |
+
+The IP is installed reproducibly with:
+
+```bash
+ipm install CF_BGR --version 0.1.0 --include-drafts \
+  --local-file ip/catalog.json
+```
 
 ---
 

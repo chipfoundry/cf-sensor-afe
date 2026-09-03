@@ -1,0 +1,33 @@
+{
+  "CF_BGR": {
+    "description": "Voltage and current bandgap reference hard macro.",
+    "repo": "github.com/chipfoundry/CF_BGR",
+    "author": "ChipFoundry",
+    "email": "support@chipfoundry.io",
+    "owner": "ChipFoundry",
+    "category": "Voltage References",
+    "technology": "sky130",
+    "license": "proprietary",
+    "tags": [
+      "bandgap",
+      "reference"
+    ],
+    "release": {
+      "0.1.0": {
+        "date": "9-3-2026",
+        "maturity": "np",
+        "bus": [],
+        "type": "hard",
+        "width": "408.465",
+        "height": "256.25",
+        "cell_count": "4",
+        "clock_freq_mhz": "0",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "600b0deff51022f12b12dfad7b6152bf54f2779ef9616836c54bf0cd86a97687"
+      }
+    }
+  }
+}

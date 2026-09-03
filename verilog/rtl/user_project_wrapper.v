@@ -78,44 +78,68 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
-/*--------------------------------------*/
-/* User project is instantiated  here   */
-/*--------------------------------------*/
+/*
+ * CF_BGR controls are driven by management-core Logic Analyzer outputs:
+ *   [6:0]   trimTC
+ *   [13:7]  trimCurr
+ *   [15:14] CurrAbsTrim
+ *   [17:16] inl_ctrl
+ *   [19:18] mux1sel
+ *   [20]    mux2sel
+ *   [21]    dft_sel
+ *   [22]    pd
+ *   [23]    pd_ibg
+ *
+ * An LA bit is used when its active-low output enable is asserted. Otherwise
+ * the safe default powers down both the voltage and current references.
+ */
+localparam [23:0] BGR_CONTROL_DEFAULT = 24'hC00000;
+wire [23:0] bgr_control;
 
-user_proj_example mprj (
+assign bgr_control =
+    (~la_oenb[23:0] & la_data_in[23:0]) |
+    ( la_oenb[23:0] & BGR_CONTROL_DEFAULT);
+
+assign wbs_ack_o  = 1'b0;
+assign wbs_dat_o  = 32'b0;
+assign la_data_out = 128'b0;
+assign io_out     = {`MPRJ_IO_PADS{1'b0}};
+assign io_oeb     = {`MPRJ_IO_PADS{1'b1}};
+assign user_irq   = 3'b000;
+
+CF_BGR u_cf_bgr (
+    // Analog outputs: analog_io[N] is Caravel GPIO N+7.
+    .Vout(analog_io[0]),
+    .ictat(analog_io[1]),
+    .iptat(analog_io[2]),
+    .ibg_2p5uA(analog_io[3]),
+    .ibg_10uA(analog_io[4]),
+    .mux1out(analog_io[5]),
+    .mux2out(analog_io[6]),
+    .vbias(analog_io[7]),
+    .vbias_cascode(analog_io[8]),
+
+    .trimTC(bgr_control[6:0]),
+    .trimCurr(bgr_control[13:7]),
+    .CurrAbsTrim(bgr_control[15:14]),
+    .inl_ctrl(bgr_control[17:16]),
+    .mux1sel(bgr_control[19:18]),
+    .mux2sel(bgr_control[20]),
+    .dft_sel(bgr_control[21]),
+    .pd(bgr_control[22]),
+    .pd_ibg(bgr_control[23]),
+
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+    .vgnd(vssd1),
+    .vnb(vssd1),
+    .vpb(vccd1),
+    .vpwr(vccd1)
+`else
+    .vgnd(1'b0),
+    .vnb(1'b0),
+    .vpb(1'b1),
+    .vpwr(1'b1)
 `endif
-
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
-
-    // MGMT SoC Wishbone Slave
-
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
-
-    // Logic Analyzer
-
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
-
-    // IO Pads
-
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]}),
-
-    // IRQ
-    .irq(user_irq)
 );
 
 endmodule	// user_project_wrapper
