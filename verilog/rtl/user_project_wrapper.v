@@ -78,44 +78,128 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
-/*--------------------------------------*/
-/* User project is instantiated  here   */
-/*--------------------------------------*/
+/*
+ * CF_BGR controls come straight from management-core Logic Analyzer outputs.
+ * This wrapper is elaborated, not synthesized, so it must stay structural:
+ * firmware selects trim codes and power state by driving these probes.
+ *
+ *   [6:0]   trimTC         [27:26] mux1sel
+ *   [12:7]  trimCurr       [28]    mux2sel
+ *   [18:13] CurrAbsTrim    [29]    dft_sel
+ *   [25:19] inl_ctrl       [30]    pd
+ *   [32]    finetune       [31]    pd_ibg
+ *   [33]    en_startb (active low)
+ *
+ * Unused Caravel outputs are tied with sky130_fd_sc_hd__conb_1. LibreLane
+ * rejects assign statements in an elaborate-only netlist.
+ */
 
-user_proj_example mprj (
+genvar tie_i;
+generate
+    sky130_fd_sc_hd__conb_1 tie_wbs_ack (
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+        .VPWR(vccd1),
+        .VGND(vssd1),
+        .VPB(vccd1),
+        .VNB(vssd1),
 `endif
+        .LO(wbs_ack_o)
+    );
 
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+    for (tie_i = 0; tie_i < 32; tie_i = tie_i + 1) begin : tie_wbs_dat
+        sky130_fd_sc_hd__conb_1 conb (
+`ifdef USE_POWER_PINS
+            .VPWR(vccd1),
+            .VGND(vssd1),
+            .VPB(vccd1),
+            .VNB(vssd1),
+`endif
+            .LO(wbs_dat_o[tie_i])
+        );
+    end
 
-    // MGMT SoC Wishbone Slave
+    for (tie_i = 0; tie_i < 128; tie_i = tie_i + 1) begin : tie_la_out
+        sky130_fd_sc_hd__conb_1 conb (
+`ifdef USE_POWER_PINS
+            .VPWR(vccd1),
+            .VGND(vssd1),
+            .VPB(vccd1),
+            .VNB(vssd1),
+`endif
+            .LO(la_data_out[tie_i])
+        );
+    end
 
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
+    for (tie_i = 0; tie_i < `MPRJ_IO_PADS; tie_i = tie_i + 1) begin : tie_io
+        sky130_fd_sc_hd__conb_1 conb (
+`ifdef USE_POWER_PINS
+            .VPWR(vccd1),
+            .VGND(vssd1),
+            .VPB(vccd1),
+            .VNB(vssd1),
+`endif
+            .LO(io_out[tie_i]),
+            .HI(io_oeb[tie_i])
+        );
+    end
 
-    // Logic Analyzer
+    for (tie_i = 0; tie_i < 3; tie_i = tie_i + 1) begin : tie_irq
+        sky130_fd_sc_hd__conb_1 conb (
+`ifdef USE_POWER_PINS
+            .VPWR(vccd1),
+            .VGND(vssd1),
+            .VPB(vccd1),
+            .VNB(vssd1),
+`endif
+            .LO(user_irq[tie_i])
+        );
+    end
+endgenerate
 
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
+CF_BGR u_cf_bgr (
+    // Analog outputs: analog_io[N] is Caravel GPIO N+7.
+    .Vout(analog_io[0]),
+    .ictat(analog_io[1]),
+    .iptat(analog_io[2]),
+    .ibg_2p375uA(analog_io[3]),
+    .ibg_3uA(analog_io[4]),
+    .mux1out(analog_io[5]),
+    .mux2out(analog_io[6]),
+    .vbias(analog_io[7]),
+    .vbias_cascode(analog_io[8]),
+    .dft_curr_in(analog_io[9]),
+    .vb2_fast(analog_io[10]),
+    .boost3(analog_io[11]),
+    .boost4(analog_io[12]),
+    .boost5(analog_io[13]),
+    .boost6(analog_io[14]),
+    .boost7(analog_io[15]),
+    .vout_ictat(analog_io[16]),
+    .pbias_ctat(analog_io[17]),
 
-    // IO Pads
+    .trimTC(la_data_in[6:0]),
+    .trimCurr(la_data_in[12:7]),
+    .CurrAbsTrim(la_data_in[18:13]),
+    .inl_ctrl(la_data_in[25:19]),
+    .mux1sel(la_data_in[27:26]),
+    .mux2sel(la_data_in[28]),
+    .dft_sel(la_data_in[29]),
+    .pd(la_data_in[30]),
+    .pd_ibg(la_data_in[31]),
+    .finetune(la_data_in[32]),
+    .en_startb(la_data_in[33]),
 
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]}),
-
-    // IRQ
-    .irq(user_irq)
+`ifdef USE_POWER_PINS
+    .vgnd(vssd1),
+    .vnb(vssd1),
+    .vpb(vccd1),
+    .vpwr(vccd1)
+`else
+    .vgnd(1'b0),
+    .vnb(1'b0),
+    .vpb(1'b1),
+    .vpwr(1'b1)
+`endif
 );
 
 endmodule	// user_project_wrapper

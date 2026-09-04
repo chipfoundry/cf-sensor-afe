@@ -8,52 +8,42 @@
     
     "//": "Hardening strategy variables (this is for 1-Macro-First Hardening). Visit https://docs.google.com/document/d/1pf-wbpgjeNEM-1TcvX2OJTkHjqH_C9p-LURCASS0Zo8 for more info",
     "SYNTH_ELABORATE_ONLY": true,
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "RUN_POST_GPL_DESIGN_REPAIR": false,
     "RUN_POST_CTS_RESIZER_TIMING": false,
     "DESIGN_REPAIR_BUFFER_INPUT_PORTS": false,
-    "FP_PDN_ENABLE_RAILS": false,
+    "FP_PDN_ENABLE_RAILS": true,
     "RUN_ANTENNA_REPAIR": false,
     "RUN_FILL_INSERTION": false,
-    "RUN_TAP_ENDCAP_INSERTION": false,
+    "RUN_TAP_ENDCAP_INSERTION": true,
     "RUN_CTS": false,
     "RUN_IRDROP_REPORT": false,
     "ERROR_ON_SYNTH_CHECKS": false,
 
     "//": "Macros configurations",
     "MACROS": {
-        "user_proj_example": {
+        "CF_BGR": {
             "gds": [
-                "dir::../../gds/user_proj_example.gds"
+                "dir::../../ip/CF_BGR/layout/gds/CF_BGR.gds"
             ],
             "lef": [
-                "dir::../../lef/user_proj_example.lef"
+                "dir::../../ip/CF_BGR/layout/lef/CF_BGR.lef"
             ],
             "instances": {
-                "mprj": {
-                    "location": [60, 15],
+                "u_cf_bgr": {
+                    "location": [99.82, 100.64],
                     "orientation": "N"
                 }
             },
             "nl": [
-                "dir::../../verilog/gl/user_proj_example.v"
-            ],
-            "spef": {
-                "min_*": [
-                    "dir::../../spef/multicorner/user_proj_example.min.spef"
-                ],
-                "nom_*": [
-                    "dir::../../spef/multicorner/user_proj_example.nom.spef"
-                ],
-                "max_*": [
-                    "dir::../../spef/multicorner/user_proj_example.max.spef"
-                ]
-            },
-            "lib": {
-                "*": "dir::../../lib/user_proj_example.lib"
-            }
+                "dir::../../ip/CF_BGR/hdl/gl/CF_BGR.v"
+            ]
         }
     },
-    "PDN_MACRO_CONNECTIONS": ["mprj vccd2 vssd2 vccd1 vssd1"],
+    "PDN_MACRO_CONNECTIONS": [
+        "u_cf_bgr vccd1 vssd1 vpwr vgnd",
+        "u_cf_bgr vccd1 vssd1 vpb vnb"
+    ],
 
     "//": "PDN configurations",
     "FP_PDN_VOFFSET": 5,
