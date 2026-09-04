@@ -79,26 +79,16 @@ module user_project_wrapper #(
 );
 
 /*
- * CF_BGR controls are driven by management-core Logic Analyzer outputs:
- *   [6:0]   trimTC
- *   [13:7]  trimCurr
- *   [15:14] CurrAbsTrim
- *   [17:16] inl_ctrl
- *   [19:18] mux1sel
- *   [20]    mux2sel
- *   [21]    dft_sel
- *   [22]    pd
- *   [23]    pd_ibg
+ * CF_BGR controls come straight from management-core Logic Analyzer outputs.
+ * This wrapper is elaborated, not synthesized, so it must stay structural:
+ * firmware selects trim codes and power state by driving these probes.
  *
- * An LA bit is used when its active-low output enable is asserted. Otherwise
- * the safe default powers down both the voltage and current references.
+ *   [6:0]   trimTC       [19:18] mux1sel
+ *   [13:7]  trimCurr     [20]    mux2sel
+ *   [15:14] CurrAbsTrim  [21]    dft_sel
+ *   [17:16] inl_ctrl     [22]    pd
+ *                        [23]    pd_ibg
  */
-localparam [23:0] BGR_CONTROL_DEFAULT = 24'hC00000;
-wire [23:0] bgr_control;
-
-assign bgr_control =
-    (~la_oenb[23:0] & la_data_in[23:0]) |
-    ( la_oenb[23:0] & BGR_CONTROL_DEFAULT);
 
 assign wbs_ack_o  = 1'b0;
 assign wbs_dat_o  = 32'b0;
@@ -119,15 +109,15 @@ CF_BGR u_cf_bgr (
     .vbias(analog_io[7]),
     .vbias_cascode(analog_io[8]),
 
-    .trimTC(bgr_control[6:0]),
-    .trimCurr(bgr_control[13:7]),
-    .CurrAbsTrim(bgr_control[15:14]),
-    .inl_ctrl(bgr_control[17:16]),
-    .mux1sel(bgr_control[19:18]),
-    .mux2sel(bgr_control[20]),
-    .dft_sel(bgr_control[21]),
-    .pd(bgr_control[22]),
-    .pd_ibg(bgr_control[23]),
+    .trimTC(la_data_in[6:0]),
+    .trimCurr(la_data_in[13:7]),
+    .CurrAbsTrim(la_data_in[15:14]),
+    .inl_ctrl(la_data_in[17:16]),
+    .mux1sel(la_data_in[19:18]),
+    .mux2sel(la_data_in[20]),
+    .dft_sel(la_data_in[21]),
+    .pd(la_data_in[22]),
+    .pd_ibg(la_data_in[23]),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),

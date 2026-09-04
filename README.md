@@ -26,8 +26,11 @@ This project integrates one `CF_BGR` bandgap-reference hard macro into the
 (`vccd1`/`vssd1`), exposes its analog outputs on GPIO 7–15, and accepts
 trim, power, and DFT controls from Logic Analyzer bits 0–23.
 
-The default Logic Analyzer state asserts `pd` and `pd_ibg`, keeping the macro
-powered down until firmware enables and drives those probes.
+`user_project_wrapper` is elaborated rather than synthesized, so it contains
+only the macro instance and wiring. The Logic Analyzer probes drive the macro
+inputs directly: firmware must enable the probes (`la_oenb`) and drive the trim
+codes and power-down bits. With the probes at their power-on value of zero,
+both the voltage and current references are enabled with zero trim codes.
 
 ### CF_BGR connections
 
