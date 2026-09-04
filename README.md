@@ -23,34 +23,38 @@
 ## Overview
 This project integrates one `CF_BGR` bandgap-reference hard macro into the
 **Caravel chip user space**. The macro uses Caravel's 1.8 V user supply
-(`vccd1`/`vssd1`), exposes its analog outputs on GPIO 7–15, and accepts
-trim, power, and DFT controls from Logic Analyzer bits 0–23.
+(`vccd1`/`vssd1`), exposes analog pins on GPIO 7–24, and accepts trim, power,
+DFT, and startup-boost controls from Logic Analyzer bits 0–33.
 
 `user_project_wrapper` is elaborated rather than synthesized, so it contains
 only the macro instance and wiring. The Logic Analyzer probes drive the macro
 inputs directly: firmware must enable the probes (`la_oenb`) and drive the trim
 codes and power-down bits. With the probes at their power-on value of zero,
-both the voltage and current references are enabled with zero trim codes.
+both the voltage and current references are enabled with zero trim codes, and
+`en_startb` is low so startup boost is on.
 
 ### CF_BGR connections
 
 | Caravel connection | CF_BGR signal |
 | --- | --- |
-| GPIO 7–15 / `analog_io[0:8]` | `Vout`, `ictat`, `iptat`, `ibg_2p5uA`, `ibg_10uA`, `mux1out`, `mux2out`, `vbias`, `vbias_cascode` |
+| GPIO 7–15 / `analog_io[0:8]` | `Vout`, `ictat`, `iptat`, `ibg_2p375uA`, `ibg_3uA`, `mux1out`, `mux2out`, `vbias`, `vbias_cascode` |
+| GPIO 16–24 / `analog_io[9:17]` | `dft_curr_in`, `vb2_fast`, `boost3`–`boost7`, `vout_ictat`, `pbias_ctat` |
 | LA 0–6 | `trimTC[6:0]` |
-| LA 7–13 | `trimCurr[6:0]` |
-| LA 14–15 | `CurrAbsTrim[1:0]` |
-| LA 16–17 | `inl_ctrl[1:0]` |
-| LA 18–19 | `mux1sel[1:0]` |
-| LA 20 | `mux2sel` |
-| LA 21 | `dft_sel` |
-| LA 22 | `pd` |
-| LA 23 | `pd_ibg` |
+| LA 7–12 | `trimCurr[5:0]` |
+| LA 13–18 | `CurrAbsTrim[5:0]` |
+| LA 19–25 | `inl_ctrl[6:0]` |
+| LA 26–27 | `mux1sel[1:0]` |
+| LA 28 | `mux2sel` |
+| LA 29 | `dft_sel` |
+| LA 30 | `pd` |
+| LA 31 | `pd_ibg` |
+| LA 32 | `finetune` |
+| LA 33 | `en_startb` (active low) |
 
 The IP is installed reproducibly with:
 
 ```bash
-ipm install CF_BGR --version 0.1.0 --include-drafts \
+ipm install CF_BGR --version 0.2.0 --include-drafts \
   --local-file ip/catalog.json
 ```
 

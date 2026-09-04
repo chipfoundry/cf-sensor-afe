@@ -8,13 +8,14 @@
     
     "//": "Hardening strategy variables (this is for 1-Macro-First Hardening). Visit https://docs.google.com/document/d/1pf-wbpgjeNEM-1TcvX2OJTkHjqH_C9p-LURCASS0Zo8 for more info",
     "SYNTH_ELABORATE_ONLY": true,
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "RUN_POST_GPL_DESIGN_REPAIR": false,
     "RUN_POST_CTS_RESIZER_TIMING": false,
     "DESIGN_REPAIR_BUFFER_INPUT_PORTS": false,
-    "FP_PDN_ENABLE_RAILS": false,
+    "FP_PDN_ENABLE_RAILS": true,
     "RUN_ANTENNA_REPAIR": false,
     "RUN_FILL_INSERTION": false,
-    "RUN_TAP_ENDCAP_INSERTION": false,
+    "RUN_TAP_ENDCAP_INSERTION": true,
     "RUN_CTS": false,
     "RUN_IRDROP_REPORT": false,
     "ERROR_ON_SYNTH_CHECKS": false,
@@ -30,7 +31,7 @@
             ],
             "instances": {
                 "u_cf_bgr": {
-                    "location": [100, 100],
+                    "location": [99.82, 100.64],
                     "orientation": "N"
                 }
             },
