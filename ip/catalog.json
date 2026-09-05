@@ -1,62 +1,31 @@
 {
-  "CF_BGR": {
-    "description": "Voltage and current bandgap reference hard macro.",
-    "repo": "github.com/chipfoundry/CF_BGR",
+  "CF_BUF_HIZ": {
+    "description": "High-impedance differential input buffer hard macro.",
+    "repo": "github.com/chipfoundry/CF_BUF_HIZ",
     "author": "ChipFoundry",
     "email": "support@chipfoundry.io",
     "owner": "ChipFoundry",
-    "category": "Voltage References",
+    "category": "Analog / Mixed-Signal",
     "technology": "sky130",
     "license": "proprietary",
     "tags": [
-      "bandgap",
-      "reference"
+      "buffer",
+      "analog"
     ],
     "release": {
-      "0.1.0": {
-        "date": "9-3-2026",
-        "maturity": "np",
-        "bus": [],
-        "type": "hard",
-        "width": "408.465",
-        "height": "256.25",
-        "cell_count": "4",
-        "clock_freq_mhz": "0",
-        "supply_voltage": [
-          "1.8"
-        ],
-        "draft": true,
-        "sha256": "600b0deff51022f12b12dfad7b6152bf54f2779ef9616836c54bf0cd86a97687"
-      },
-      "0.1.1": {
-        "date": "9-4-2026",
-        "maturity": "np",
-        "bus": [],
-        "type": "hard",
-        "width": "408.465",
-        "height": "256.25",
-        "cell_count": "4",
-        "clock_freq_mhz": "0",
-        "supply_voltage": [
-          "1.8"
-        ],
-        "draft": true,
-        "sha256": "efcedc4ef02b77c919578d94338a67df15df536ef513bb1cf340c009d3b9babe"
-      },
       "0.2.0": {
-        "date": "9-4-2026",
-        "maturity": "np",
+        "date": "9-5-2026",
+        "maturity": "Production",
         "bus": [],
         "type": "hard",
-        "width": "408.465",
-        "height": "281.22",
-        "cell_count": "1",
-        "clock_freq_mhz": "0",
+        "width": "246.52",
+        "height": "419.97",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
         "supply_voltage": [
           "1.8"
         ],
-        "draft": true,
-        "sha256": "96de34129124101171311cc41cfd7f0f97b6022685505f5d2d4bdc000d721019"
+        "draft": true
       }
     }
   }

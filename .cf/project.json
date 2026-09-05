@@ -1,0 +1,12 @@
+{
+  "project": {
+    "name": "cf-sensor-afe",
+    "type": "digital",
+    "user": "jdicorpo",
+    "version": "1",
+    "user_project_wrapper_hash": "",
+    "submission_state": "Draft",
+    "github_repo_url": "https://github.com/chipfoundry/cf-sensor-afe",
+    "platform_project_id": ""
+  }
+}

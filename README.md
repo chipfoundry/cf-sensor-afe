@@ -21,40 +21,45 @@
 - [Checklist for Shuttle Submission](#checklist-for-shuttle-submission)
 
 ## Overview
-This project integrates one `CF_BGR` bandgap-reference hard macro into the
-**Caravel chip user space**. The macro uses Caravel's 1.8 V user supply
-(`vccd1`/`vssd1`), exposes analog pins on GPIO 7–24, and accepts trim, power,
-DFT, and startup-boost controls from Logic Analyzer bits 0–33.
+`cf-sensor-afe` is the ChipFoundry **sensor analog front-end** reference
+application on Caravel. The intended chain is:
 
-`user_project_wrapper` is elaborated rather than synthesized, so it contains
-only the macro instance and wiring. The Logic Analyzer probes drive the macro
-inputs directly: firmware must enable the probes (`la_oenb`) and drive the trim
-codes and power-down bits. With the probes at their power-on value of zero,
-both the voltage and current references are enabled with zero trim codes, and
-`en_startb` is low so startup boost is on.
+```
+sensor pads → CF_BUF_HIZ → CF_ADC_SAR12 → firmware/UART
+                 ↑                ↑
+              CF_BGR bias    CF_ADC_SAR12_sar_refs
+                 ↑
+              CF_REFBUF (buffered Vout monitor)
+```
 
-### CF_BGR connections
+This first drop is the same 1-macro-first shell as `cf-bgr-test-project`,
+with only `CF_BUF_HIZ` placed. Chip PDN is Caravel's 1.8 V user supply
+(`vccd1`/`vssd1` → wrap `vpwr`/`vgnd`). Analog inputs, output, bias, and
+current nodes are on GPIO 7–27 (`analog_io[0:20]`). Power-down, test, and
+boost controls come from Logic Analyzer bits 0–6. `CF_BGR`, `CF_REFBUF`,
+and `CF_ADC_SAR12` are follow-on macros.
 
-| Caravel connection | CF_BGR signal |
+`user_project_wrapper` is elaborated rather than synthesized. It contains only
+the macro instance and wiring (no taps, stdcell rails, or tie cells). The
+Logic Analyzer probes drive the macro inputs directly: firmware must enable
+the probes (`la_oenb`). Companion bias/pump cells are not placed in this
+1-macro-first check.
+
+### CF_BUF_HIZ connections
+
+| Caravel connection | CF_BUF_HIZ signal |
 | --- | --- |
-| GPIO 7–15 / `analog_io[0:8]` | `Vout`, `ictat`, `iptat`, `ibg_2p375uA`, `ibg_3uA`, `mux1out`, `mux2out`, `vbias`, `vbias_cascode` |
-| GPIO 16–24 / `analog_io[9:17]` | `dft_curr_in`, `vb2_fast`, `boost3`–`boost7`, `vout_ictat`, `pbias_ctat` |
-| LA 0–6 | `trimTC[6:0]` |
-| LA 7–12 | `trimCurr[5:0]` |
-| LA 13–18 | `CurrAbsTrim[5:0]` |
-| LA 19–25 | `inl_ctrl[6:0]` |
-| LA 26–27 | `mux1sel[1:0]` |
-| LA 28 | `mux2sel` |
-| LA 29 | `dft_sel` |
-| LA 30 | `pd` |
-| LA 31 | `pd_ibg` |
-| LA 32 | `finetune` |
-| LA 33 | `en_startb` (active low) |
+| GPIO 7–8 / `analog_io[0:1]` | `vout`, `ibias` |
+| GPIO 9–14 / `analog_io[2:7]` | `vinp_p`, `vinn_p`, `vinp_n`, `vinn_n`, `vinp_na`, `vinn_na` |
+| GPIO 15–16 / `analog_io[8:9]` | `ion`, `iop` |
+| GPIO 17–27 / `analog_io[10:20]` | `vbpt`, `vbnt`, `vbpb`, `vbpc`, `vbnc`, `vbpci`, `vbnci`, `vbpcis`, `vbncis`, `vbpcid`, `vbptd` |
+| LA 0–6 | `e_pd`, `en_pd`, `tp`, `clk2_boost`, `e_n_boost`, `e_na_boost`, `clk1_boostr` |
+| `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
 
 The IP is installed reproducibly with:
 
 ```bash
-ipm install CF_BGR --version 0.2.0 --include-drafts \
+ipm install CF_BUF_HIZ --version 0.2.0 --include-drafts \
   --local-file ip/catalog.json
 ```
 
