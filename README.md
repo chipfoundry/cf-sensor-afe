@@ -32,34 +32,99 @@ sensor pads → CF_BUF_HIZ → CF_ADC_SAR12 → firmware/UART
               CF_REFBUF (buffered Vout monitor)
 ```
 
-This first drop is the same 1-macro-first shell as `cf-bgr-test-project`,
-with only `CF_BUF_HIZ` placed. Chip PDN is Caravel's 1.8 V user supply
-(`vccd1`/`vssd1` → wrap `vpwr`/`vgnd`). Analog inputs, output, bias, and
-current nodes are on GPIO 7–27 (`analog_io[0:20]`). Power-down, test, and
-boost controls come from Logic Analyzer bits 0–6. `CF_BGR`, `CF_REFBUF`,
-and `CF_ADC_SAR12` are follow-on macros.
+This drop 4 adds wrapped `CF_ADC_SAR12_sar_refs` to the four other catalog
+IPs. Chip PDN is Caravel's 1.8 V user supply (`vccd1`/`vssd1` → wrap
+`vpwr`/`vgnd` on every macro). On-chip analog:
+
+- `CF_BUF_HIZ.vout` → `CF_ADC_SAR12.vinp`
+- `CF_BGR.ibg_2p375uA` → `CF_BUF_HIZ.ibias`, `CF_ADC_SAR12.ibias2p5u`, and
+  `sar_refs` `IREF_*`
+- `CF_BGR.Vout` → `CF_REFBUF.ref_1v2`
+- `CF_BGR.ibg_3uA` → `CF_REFBUF.nbias`
+- `sar_refs.REFHI` / `REFBY2` → `CF_ADC_SAR12.vrefhi` / `refby2`
+
+Sensor inputs stay on GPIO 8–13. `CF_REFBUF.out` is the buffered `Vout`
+monitor on GPIO 14. `sar_refs.refout` is on GPIO 28. West-edge `sar_refs`
+controls use a local LEF overlay so OpenLane can access the vendor-skinny
+pads; GDS and PDN still come from the 0.2.1 wrap.
 
 `user_project_wrapper` is elaborated rather than synthesized. It contains only
-the macro instance and wiring (no taps, stdcell rails, or tie cells). The
+the macro instances and wiring (no taps, stdcell rails, or tie cells). The
 Logic Analyzer probes drive the macro inputs directly: firmware must enable
-the probes (`la_oenb`). Companion bias/pump cells are not placed in this
-1-macro-first check.
+the probes (`la_oenb`).
 
 ### CF_BUF_HIZ connections
 
 | Caravel connection | CF_BUF_HIZ signal |
 | --- | --- |
-| GPIO 7–8 / `analog_io[0:1]` | `vout`, `ibias` |
-| GPIO 9–14 / `analog_io[2:7]` | `vinp_p`, `vinn_p`, `vinp_n`, `vinn_n`, `vinp_na`, `vinn_na` |
-| GPIO 15–16 / `analog_io[8:9]` | `ion`, `iop` |
-| GPIO 17–27 / `analog_io[10:20]` | `vbpt`, `vbnt`, `vbpb`, `vbpc`, `vbnc`, `vbpci`, `vbnci`, `vbpcis`, `vbncis`, `vbpcid`, `vbptd` |
+| on-chip `afe_vout` | `vout` → `CF_ADC_SAR12.vinp` |
+| on-chip `afe_ibias` | `ibias` ← `CF_BGR.ibg_2p375uA` |
+| GPIO 8–13 / `analog_io[1:6]` | `vinp_p`, `vinn_p`, `vinp_n`, `vinn_n`, `vinp_na`, `vinn_na` |
+| GPIO 16–26 / `analog_io[9:19]` | `vbpt`, `vbnt`, `vbpb`, `vbpc`, `vbnc`, `vbpci`, `vbnci`, `vbpcis`, `vbncis`, `vbpcid`, `vbptd` |
 | LA 0–6 | `e_pd`, `en_pd`, `tp`, `clk2_boost`, `e_n_boost`, `e_na_boost`, `clk1_boostr` |
 | `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
 
-The IP is installed reproducibly with:
+### CF_ADC_SAR12 connections
+
+| Caravel connection | CF_ADC_SAR12 signal |
+| --- | --- |
+| on-chip `afe_vout` | `vinp` |
+| on-chip `afe_ibias` | `ibias2p5u`, `ibias2p5u_1` |
+| GPIO 27 / `analog_io[20]` | `vinm` |
+| on-chip `afe_refhi` / `afe_refby2` | `vrefhi`, `refby2` ← `sar_refs` |
+| GPIO 29 / `analog_io[22]` | `vreflo` |
+| GPIO 32–34 / `analog_io[25:27]` | `vdda`, `vssa`, `VPUMP` |
+| `user_clock2` | `refclk` |
+| LA in 8–52 | power-down, framing, trim, DFT (see wrapper header) |
+| LA out 0–12 | `data_out[11:0]`, `eof` |
+| `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
+
+### CF_BGR connections
+
+| Caravel connection | CF_BGR signal |
+| --- | --- |
+| on-chip `afe_ibias` | `ibg_2p375uA` |
+| on-chip `afe_nbias` | `ibg_3uA` → `CF_REFBUF.nbias` |
+| on-chip `afe_vref` | `Vout` → `CF_REFBUF.ref_1v2` |
+| GPIO 7 / `analog_io[0]` | `vb2_fast` |
+| GPIO 31 / `analog_io[24]` | `dft_curr_in` |
+| LA 64–97 | trim, mux, pd, `en_startb` (see wrapper header) |
+| `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
+
+### CF_REFBUF connections
+
+| Caravel connection | CF_REFBUF signal |
+| --- | --- |
+| on-chip `afe_vref` | `ref_1v2` |
+| on-chip `afe_nbias` | `nbias` |
+| GPIO 14 / `analog_io[7]` | `out`, `ch1`, `ch2` (monitor + feedback) |
+| GPIO 15 / `analog_io[8]` | `ng`, `vpwre` |
+| LA 104–107 | `pd`, `switchon`, `boost`, `ch_cont` |
+| `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
+
+### CF_ADC_SAR12_sar_refs connections
+
+| Caravel connection | CF_ADC_SAR12_sar_refs signal |
+| --- | --- |
+| on-chip `afe_refhi` / `afe_refby2` | `REFHI`, `REFBY2` → SAR `vrefhi` / `refby2` |
+| on-chip `afe_ibias` | `IREF_VCMBUF`, `IREF_VREFBUF` |
+| GPIO 28 / `analog_io[21]` | `refout` |
+| GPIO 32–34 / `analog_io[25:27]` | `vdda`, `vssa` + `vssa_shield`, `VPUMP` |
+| LA 8, 9, 13, 15 | `pd`, `pd_ana`, `hiz`, `enable_hv` (shared with SAR) |
+| LA 53–63 | `vref[4:0]`, `PWR_CTRL_VREF[1:0]`, `muxsarref[2:0]`, `EN_RESVDA` |
+| LA 108–122 | `sw_start`, `pd_vcmbuf`, `S_LV[7:0]`, `refout_en`, `sw_holdb`, `enpdb_hv`, `PD_BUF_VREF`, `dft_comp_en` |
+| `vccd1` / `vssd1` | wrap `vpwr` / `vgnd` |
+
+The IPs are installed reproducibly with:
 
 ```bash
 ipm install CF_BUF_HIZ --version 0.2.0 --include-drafts \
+  --local-file ip/catalog.json
+ipm install CF_ADC_SAR12 --version 0.2.1 --include-drafts \
+  --local-file ip/catalog.json
+ipm install CF_BGR --version 0.2.3 --include-drafts \
+  --local-file ip/catalog.json
+ipm install CF_REFBUF --version 0.2.2 --include-drafts \
   --local-file ip/catalog.json
 ```
 

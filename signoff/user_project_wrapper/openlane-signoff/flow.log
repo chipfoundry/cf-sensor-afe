@@ -1,95 +1,188 @@
 Starting…
-Running 'Verilator.Lint' at 'user_project_wrapper/runs/26_09_05_10_22/01-verilator-lint'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/01-verilator-lint/verilator-lint.log'[/repr.filename]…
-Running 'Checker.LintTimingConstructs' at 'user_project_wrapper/runs/26_09_05_10_22/02-checker-linttimingconstructs'…
+Running 'Verilator.Lint' at 'user_project_wrapper/runs/26_09_05_14_31/01-verilator-lint'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/01-verilator-lint/verilator-lint.log'[/repr.filename]…
+Running 'Checker.LintTimingConstructs' at 'user_project_wrapper/runs/26_09_05_14_31/02-checker-linttimingconstructs'…
 Check for Lint Timing Errors clear.
-Running 'Checker.LintErrors' at 'user_project_wrapper/runs/26_09_05_10_22/03-checker-linterrors'…
+Running 'Checker.LintErrors' at 'user_project_wrapper/runs/26_09_05_14_31/03-checker-linterrors'…
 Check for Lint errors clear.
-Running 'Checker.LintWarnings' at 'user_project_wrapper/runs/26_09_05_10_22/04-checker-lintwarnings'…
-19 Lint warnings found.
-Running 'Yosys.JsonHeader' at 'user_project_wrapper/runs/26_09_05_10_22/05-yosys-jsonheader'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/05-yosys-jsonheader/yosys-jsonheader.log'[/repr.filename]…
-Running 'Yosys.Synthesis' at 'user_project_wrapper/runs/26_09_05_10_22/06-yosys-synthesis'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/06-yosys-synthesis/yosys-synthesis.log'[/repr.filename]…
+Running 'Checker.LintWarnings' at 'user_project_wrapper/runs/26_09_05_14_31/04-checker-lintwarnings'…
+57 Lint warnings found.
+Running 'Yosys.JsonHeader' at 'user_project_wrapper/runs/26_09_05_14_31/05-yosys-jsonheader'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/05-yosys-jsonheader/yosys-jsonheader.log'[/repr.filename]…
+Running 'Yosys.Synthesis' at 'user_project_wrapper/runs/26_09_05_14_31/06-yosys-synthesis'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/06-yosys-synthesis/yosys-synthesis.log'[/repr.filename]…
 Parsing synthesis checks…
-Running 'Checker.YosysUnmappedCells' at 'user_project_wrapper/runs/26_09_05_10_22/07-checker-yosysunmappedcells'…
+Running 'Checker.YosysUnmappedCells' at 'user_project_wrapper/runs/26_09_05_14_31/07-checker-yosysunmappedcells'…
 Check for Unmapped Yosys instances clear.
-Running 'Checker.YosysSynthChecks' at 'user_project_wrapper/runs/26_09_05_10_22/08-checker-yosyssynthchecks'…
+Running 'Checker.YosysSynthChecks' at 'user_project_wrapper/runs/26_09_05_14_31/08-checker-yosyssynthchecks'…
 Check for Yosys check errors clear.
-Running 'Checker.NetlistAssignStatements' at 'user_project_wrapper/runs/26_09_05_10_22/09-checker-netlistassignstatements'…
-Running 'OpenROAD.CheckSDCFiles' at 'user_project_wrapper/runs/26_09_05_10_22/10-openroad-checksdcfiles'…
-Running 'OpenROAD.CheckMacroInstances' at 'user_project_wrapper/runs/26_09_05_10_22/11-openroad-checkmacroinstances'…
+Running 'Checker.NetlistAssignStatements' at 'user_project_wrapper/runs/26_09_05_14_31/09-checker-netlistassignstatements'…
+Running 'OpenROAD.CheckSDCFiles' at 'user_project_wrapper/runs/26_09_05_14_31/10-openroad-checksdcfiles'…
+Running 'OpenROAD.CheckMacroInstances' at 'user_project_wrapper/runs/26_09_05_14_31/11-openroad-checkmacroinstances'…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/11-openroad-checkmacroinstances/openroad-checkmacroinstances.log'[/repr.filename]…
-Running 'OpenROAD.STAPrePNR' at 'user_project_wrapper/runs/26_09_05_10_22/12-openroad-staprepnr'…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/11-openroad-checkmacroinstances/openroad-checkmacroinstances.log'[/repr.filename]…
+Running 'OpenROAD.STAPrePNR' at 'user_project_wrapper/runs/26_09_05_14_31/12-openroad-staprepnr'…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 Starting STA for the nom_tt_025C_1v80 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/12-openroad-staprepnr/nom_tt_025C_1v80/sta.log'[/repr.filename]…
+No libs found for macro CF_REFBUF at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ss_100C_1v60. The module will be black-boxed.
 Starting STA for the nom_ss_100C_1v60 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ff_n40C_1v95. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/12-openroad-staprepnr/nom_tt_025C_1v80/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/12-openroad-staprepnr/nom_ss_100C_1v60/sta.log'[/repr.filename]…
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ff_n40C_1v95. The module will be black-boxed.
 Starting STA for the nom_ff_n40C_1v95 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_tt_025C_1v80. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/12-openroad-staprepnr/nom_ss_100C_1v60/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/12-openroad-staprepnr/nom_ff_n40C_1v95/sta.log'[/repr.filename]…
+No libs found for macro CF_REFBUF at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_tt_025C_1v80. The module will be black-boxed.
 Skipping corner min_tt_025C_1v80 for STA (identical to nom_tt_025C_1v80 at this stage)…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ss_100C_1v60. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/12-openroad-staprepnr/nom_ff_n40C_1v95/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ss_100C_1v60. The module will be black-boxed.
 Skipping corner min_ss_100C_1v60 for STA (identical to nom_ss_100C_1v60 at this stage)…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ff_n40C_1v95. The module will be black-boxed.
 Skipping corner min_ff_n40C_1v95 for STA (identical to nom_ff_n40C_1v95 at this stage)…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_tt_025C_1v80. The module will be black-boxed.
 Skipping corner max_tt_025C_1v80 for STA (identical to nom_tt_025C_1v80 at this stage)…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ss_100C_1v60. The module will be black-boxed.
 Skipping corner max_ss_100C_1v60 for STA (identical to nom_ss_100C_1v60 at this stage)…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
 Skipping corner max_ff_n40C_1v95 for STA (identical to nom_ff_n40C_1v95 at this stage)…
 Finished STA for the nom_ss_100C_1v60 timing corner.
 Finished STA for the nom_tt_025C_1v80 timing corner.
 Finished STA for the nom_ff_n40C_1v95 timing corner.
-Running 'OpenROAD.Floorplan' at 'user_project_wrapper/runs/26_09_05_10_22/13-openroad-floorplan'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/13-openroad-floorplan/openroad-floorplan.log'[/repr.filename]…
+Running 'OpenROAD.Floorplan' at 'user_project_wrapper/runs/26_09_05_14_31/13-openroad-floorplan'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/13-openroad-floorplan/openroad-floorplan.log'[/repr.filename]…
+[ORD-2011] LEF master CF_ADC_SAR12 has no liberty cell.
+[ORD-2011] LEF master CF_ADC_SAR12_sar_refs has no liberty cell.
+[ORD-2011] LEF master CF_BGR has no liberty cell.
 [ORD-2011] LEF master CF_BUF_HIZ has no liberty cell.
-Running 'Odb.CheckMacroAntennaProperties' at 'user_project_wrapper/runs/26_09_05_10_22/14-odb-checkmacroantennaproperties'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/14-odb-checkmacroantennaproperties/odb-checkmacroantennaproperties.log'[/repr.filename]…
+[ORD-2011] LEF master CF_REFBUF has no liberty cell.
+Running 'Odb.CheckMacroAntennaProperties' at 'user_project_wrapper/runs/26_09_05_14_31/14-odb-checkmacroantennaproperties'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/14-odb-checkmacroantennaproperties/odb-checkmacroantennaproperties.log'[/repr.filename]…
 Cell 'CF_BUF_HIZ' has (11) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'CF_BUF_HIZ' has (16) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'CF_BUF_HIZ' has (1) output pin(s) without antenna diffusion information. They might not be driven.
-Running 'Odb.SetPowerConnections' at 'user_project_wrapper/runs/26_09_05_10_22/15-odb-setpowerconnections'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/15-odb-setpowerconnections/odb-setpowerconnections.log'[/repr.filename]…
-Running 'Odb.ManualMacroPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/16-odb-manualmacroplacement'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/16-odb-manualmacroplacement/odb-manualmacroplacement.log'[/repr.filename]…
-Running 'OpenROAD.CutRows' at 'user_project_wrapper/runs/26_09_05_10_22/17-openroad-cutrows'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/17-openroad-cutrows/openroad-cutrows.log'[/repr.filename]…
+Running 'Odb.SetPowerConnections' at 'user_project_wrapper/runs/26_09_05_14_31/15-odb-setpowerconnections'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/15-odb-setpowerconnections/odb-setpowerconnections.log'[/repr.filename]…
+Running 'Odb.ManualMacroPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/16-odb-manualmacroplacement'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/16-odb-manualmacroplacement/odb-manualmacroplacement.log'[/repr.filename]…
+Running 'OpenROAD.CutRows' at 'user_project_wrapper/runs/26_09_05_14_31/17-openroad-cutrows'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/17-openroad-cutrows/openroad-cutrows.log'[/repr.filename]…
 Gating variable for step 'OpenROAD.TapEndcapInsertion' set to 'False'- the step will be skipped.
 Skipping step 'Tap/Decap Insertion'…
-Running 'Odb.AddPDNObstructions' at 'user_project_wrapper/runs/26_09_05_10_22/18-odb-addpdnobstructions'…
+Running 'Odb.AddPDNObstructions' at 'user_project_wrapper/runs/26_09_05_14_31/18-odb-addpdnobstructions'…
 'PDN_OBSTRUCTIONS' is not defined. Skipping 'Odb.AddPDNObstructions'…
-Running 'OpenROAD.GeneratePDN' at 'user_project_wrapper/runs/26_09_05_10_22/19-openroad-generatepdn'…
+Running 'OpenROAD.GeneratePDN' at 'user_project_wrapper/runs/26_09_05_14_31/19-openroad-generatepdn'…
 'FP_PDN_CFG' not explicitly set, setting it to /nix/store/qx9hc4l6vr4pbhihbl6i832pf0ng5mlv-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/common/pdn_cfg.tcl…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/19-openroad-generatepdn/openroad-generatepdn.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/19-openroad-generatepdn/openroad-generatepdn.log'[/repr.filename]…
 [PDN-0239] Core ring shape falls outside the die bounds.
-Running 'Odb.RemovePDNObstructions' at 'user_project_wrapper/runs/26_09_05_10_22/20-odb-removepdnobstructions'…
+[PDN-0110] No via inserted between met4 and met5 at (443.3700, 88.7300) - (446.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (623.3700, 88.7300) - (626.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (803.3700, 88.7300) - (806.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 88.7300) - (1166.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 271.2750) - (1166.4700, 271.8300) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 88.7300) - (1346.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 271.2750) - (1346.4700, 271.8300) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 88.7300) - (1526.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 271.2750) - (1526.4700, 271.8300) on vdda1
+Running 'Odb.RemovePDNObstructions' at 'user_project_wrapper/runs/26_09_05_14_31/20-odb-removepdnobstructions'…
 'PDN_OBSTRUCTIONS' is not defined. Skipping 'Odb.RemovePDNObstructions'…
-Running 'Odb.AddRoutingObstructions' at 'user_project_wrapper/runs/26_09_05_10_22/21-odb-addroutingobstructions'…
+Running 'Odb.AddRoutingObstructions' at 'user_project_wrapper/runs/26_09_05_14_31/21-odb-addroutingobstructions'…
 'ROUTING_OBSTRUCTIONS' is not defined. Skipping 'Odb.AddRoutingObstructions'…
-Running 'OpenROAD.GlobalPlacementSkipIO' at 'user_project_wrapper/runs/26_09_05_10_22/22-openroad-globalplacementskipio'…
-I/O pins were loaded from /Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/fixed_dont_change/user_project_wrapper.def. Skipping the first global placement iteration…
-Running 'OpenROAD.IOPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/23-openroad-ioplacement'…
-I/O pins were loaded from /Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/fixed_dont_change/user_project_wrapper.def. Skipping OpenROAD.IOPlacement…
-Running 'Odb.CustomIOPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/24-odb-customioplacement'…
+Running 'OpenROAD.GlobalPlacementSkipIO' at 'user_project_wrapper/runs/26_09_05_14_31/22-openroad-globalplacementskipio'…
+I/O pins were loaded from /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/fixed_dont_change/user_project_wrapper.def. Skipping the first global placement iteration…
+Running 'OpenROAD.IOPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/23-openroad-ioplacement'…
+I/O pins were loaded from /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/fixed_dont_change/user_project_wrapper.def. Skipping OpenROAD.IOPlacement…
+Running 'Odb.CustomIOPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/24-odb-customioplacement'…
 No custom floorplan file configured, skipping…
-Running 'Odb.ApplyDEFTemplate' at 'user_project_wrapper/runs/26_09_05_10_22/25-odb-applydeftemplate'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/25-odb-applydeftemplate/odb-applydeftemplate.log'[/repr.filename]…
+Running 'Odb.ApplyDEFTemplate' at 'user_project_wrapper/runs/26_09_05_14_31/25-odb-applydeftemplate'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/25-odb-applydeftemplate/odb-applydeftemplate.log'[/repr.filename]…
 Bterm vssa2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vdda2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssa1 is declared as a 'GROUND' pin. It will be ignored.
@@ -98,37 +191,37 @@ Bterm vssd2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssd1 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd1 is declared as a 'POWER' pin. It will be ignored.
-Running 'OpenROAD.GlobalPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/26-openroad-globalplacement'…
-'PL_TARGET_DENSITY_PCT' not explicitly set, using dynamically calculated target density: 11.0176100…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/26-openroad-globalplacement/openroad-globalplacement.log'[/repr.filename]…
+Running 'OpenROAD.GlobalPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/26-openroad-globalplacement'…
+'PL_TARGET_DENSITY_PCT' not explicitly set, using dynamically calculated target density: 16.1002300…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/26-openroad-globalplacement/openroad-globalplacement.log'[/repr.filename]…
 All instances are FIXED/FIRM.
 No need to perform global placement.
 Skipping…
-Running 'Odb.WriteVerilogHeader' at 'user_project_wrapper/runs/26_09_05_10_22/27-odb-writeverilogheader'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/27-odb-writeverilogheader/odb-writeverilogheader.log'[/repr.filename]…
-Running 'Checker.PowerGridViolations' at 'user_project_wrapper/runs/26_09_05_10_22/28-checker-powergridviolations'…
+Running 'Odb.WriteVerilogHeader' at 'user_project_wrapper/runs/26_09_05_14_31/27-odb-writeverilogheader'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/27-odb-writeverilogheader/odb-writeverilogheader.log'[/repr.filename]…
+Running 'Checker.PowerGridViolations' at 'user_project_wrapper/runs/26_09_05_14_31/28-checker-powergridviolations'…
 Check for power grid violations (as reported by OpenROAD PSM- you may ignore these if LVS passes) clear.
-Running 'OpenROAD.STAMidPNR' at 'user_project_wrapper/runs/26_09_05_10_22/29-openroad-stamidpnr'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/29-openroad-stamidpnr/openroad-stamidpnr.log'[/repr.filename]…
+Running 'OpenROAD.STAMidPNR' at 'user_project_wrapper/runs/26_09_05_14_31/29-openroad-stamidpnr'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/29-openroad-stamidpnr/openroad-stamidpnr.log'[/repr.filename]…
 [GRT-0097] No global routing found for nets.
 Gating variable for step 'OpenROAD.RepairDesignPostGPL' set to 'False'- the step will be skipped.
 Skipping step 'Repair Design (Post-Global Placement)'…
-Running 'Odb.ManualGlobalPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/30-odb-manualglobalplacement'…
+Running 'Odb.ManualGlobalPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/30-odb-manualglobalplacement'…
 'MANUAL_GLOBAL_PLACEMENTS' not set, skipping…
-Running 'OpenROAD.DetailedPlacement' at 'user_project_wrapper/runs/26_09_05_10_22/31-openroad-detailedplacement'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/31-openroad-detailedplacement/openroad-detailedplacement.log'[/repr.filename]…
+Running 'OpenROAD.DetailedPlacement' at 'user_project_wrapper/runs/26_09_05_14_31/31-openroad-detailedplacement'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/31-openroad-detailedplacement/openroad-detailedplacement.log'[/repr.filename]…
 Gating variable for step 'OpenROAD.CTS' set to 'False'- the step will be skipped.
 Skipping step 'Clock Tree Synthesis'…
-Running 'OpenROAD.STAMidPNR-1' at 'user_project_wrapper/runs/26_09_05_10_22/32-openroad-stamidpnr-1'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/32-openroad-stamidpnr-1/openroad-stamidpnr-1.log'[/repr.filename]…
+Running 'OpenROAD.STAMidPNR-1' at 'user_project_wrapper/runs/26_09_05_14_31/32-openroad-stamidpnr-1'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/32-openroad-stamidpnr-1/openroad-stamidpnr-1.log'[/repr.filename]…
 [GRT-0097] No global routing found for nets.
 Gating variable for step 'OpenROAD.ResizerTimingPostCTS' set to 'False'- the step will be skipped.
 Skipping step 'Resizer Timing Optimizations (Post-Clock Tree Synthesis)'…
-Running 'OpenROAD.STAMidPNR-2' at 'user_project_wrapper/runs/26_09_05_10_22/33-openroad-stamidpnr-2'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/33-openroad-stamidpnr-2/openroad-stamidpnr-2.log'[/repr.filename]…
+Running 'OpenROAD.STAMidPNR-2' at 'user_project_wrapper/runs/26_09_05_14_31/33-openroad-stamidpnr-2'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/33-openroad-stamidpnr-2/openroad-stamidpnr-2.log'[/repr.filename]…
 [GRT-0097] No global routing found for nets.
-Running 'OpenROAD.GlobalRouting' at 'user_project_wrapper/runs/26_09_05_10_22/34-openroad-globalrouting'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/34-openroad-globalrouting/openroad-globalrouting.log'[/repr.filename]…
+Running 'OpenROAD.GlobalRouting' at 'user_project_wrapper/runs/26_09_05_14_31/34-openroad-globalrouting'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/34-openroad-globalrouting/openroad-globalrouting.log'[/repr.filename]…
 [GRT-0036] Pin analog_io[0] is outside die area.
 [GRT-0036] Pin analog_io[10] is outside die area.
 [GRT-0036] Pin analog_io[11] is outside die area.
@@ -963,6 +1056,12 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
@@ -1161,6 +1260,13 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
@@ -1354,6 +1460,7 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
+[GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
@@ -1546,6 +1653,12 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
@@ -1733,26 +1846,6 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
@@ -1767,11 +1860,11 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] message limit reached, this message will no longer print
-Running 'OpenROAD.CheckAntennas' at 'user_project_wrapper/runs/26_09_05_10_22/35-openroad-checkantennas'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/35-openroad-checkantennas/openroad-checkantennas.log'[/repr.filename]…
+Running 'OpenROAD.CheckAntennas' at 'user_project_wrapper/runs/26_09_05_14_31/35-openroad-checkantennas'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/35-openroad-checkantennas/openroad-checkantennas.log'[/repr.filename]…
 Gating variable for step 'OpenROAD.RepairDesignPostGRT' set to 'False'- the step will be skipped.
 Skipping step 'Repair Design (Post-Global Routing)'…
-Running 'Odb.DiodesOnPorts' at 'user_project_wrapper/runs/26_09_05_10_22/36-odb-diodesonports'…
+Running 'Odb.DiodesOnPorts' at 'user_project_wrapper/runs/26_09_05_14_31/36-odb-diodesonports'…
 'DIODE_ON_PORTS' is set to 'none': skipping…
 Gating variable for step 'Odb.HeuristicDiodeInsertion' set to 'False'- the step will be skipped.
 Skipping step 'Heuristic Diode Insertion'…
@@ -1779,11 +1872,11 @@ Gating variable for step 'OpenROAD.RepairAntennas' set to 'False'- the step will
 Skipping step 'Antenna Repair'…
 Gating variable for step 'OpenROAD.ResizerTimingPostGRT' set to 'False'- the step will be skipped.
 Skipping step 'Resizer Timing Optimizations (Post-Global Routing)'…
-Running 'OpenROAD.STAMidPNR-3' at 'user_project_wrapper/runs/26_09_05_10_22/37-openroad-stamidpnr-3'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/37-openroad-stamidpnr-3/openroad-stamidpnr-3.log'[/repr.filename]…
-Running 'OpenROAD.DetailedRouting' at 'user_project_wrapper/runs/26_09_05_10_22/38-openroad-detailedrouting'…
+Running 'OpenROAD.STAMidPNR-3' at 'user_project_wrapper/runs/26_09_05_14_31/37-openroad-stamidpnr-3'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/37-openroad-stamidpnr-3/openroad-stamidpnr-3.log'[/repr.filename]…
+Running 'OpenROAD.DetailedRouting' at 'user_project_wrapper/runs/26_09_05_14_31/38-openroad-detailedrouting'…
 Running TritonRoute with 10 threads…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/38-openroad-detailedrouting/openroad-detailedrouting.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/38-openroad-detailedrouting/openroad-detailedrouting.log'[/repr.filename]…
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
@@ -1794,6 +1887,44 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/finetune
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/en_startb
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux2sel
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux1sel[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux1sel[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/dft_sel
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/pd_ibg
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/pd
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[6]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/dft_curr_in
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/Vout
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/ibg_3uA
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/ibg_2p375uA
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[6]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[4]
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/tp
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/clk2_boost
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/clk1_boostr
@@ -2286,106 +2417,759 @@ Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/3
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] Macro pin has more than 1 polygon
-Running 'Odb.RemoveRoutingObstructions' at 'user_project_wrapper/runs/26_09_05_10_22/39-odb-removeroutingobstructions'…
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] message limit reached, this message will no longer print
+Running 'Odb.RemoveRoutingObstructions' at 'user_project_wrapper/runs/26_09_05_14_31/39-odb-removeroutingobstructions'…
 'ROUTING_OBSTRUCTIONS' is not defined. Skipping 'Odb.RemoveRoutingObstructions'…
-Running 'OpenROAD.CheckAntennas-1' at 'user_project_wrapper/runs/26_09_05_10_22/40-openroad-checkantennas-1'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/40-openroad-checkantennas-1/openroad-checkantennas-1.log'[/repr.filename]…
-Running 'Checker.TrDRC' at 'user_project_wrapper/runs/26_09_05_10_22/41-checker-trdrc'…
+Running 'OpenROAD.CheckAntennas-1' at 'user_project_wrapper/runs/26_09_05_14_31/40-openroad-checkantennas-1'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/40-openroad-checkantennas-1/openroad-checkantennas-1.log'[/repr.filename]…
+Running 'Checker.TrDRC' at 'user_project_wrapper/runs/26_09_05_14_31/41-checker-trdrc'…
 Check for Routing DRC errors clear.
-Running 'Odb.ReportDisconnectedPins' at 'user_project_wrapper/runs/26_09_05_10_22/42-odb-reportdisconnectedpins'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/42-odb-reportdisconnectedpins/odb-reportdisconnectedpins.log'[/repr.filename]…
-Running 'Checker.DisconnectedPins' at 'user_project_wrapper/runs/26_09_05_10_22/43-checker-disconnectedpins'…
+Running 'Odb.ReportDisconnectedPins' at 'user_project_wrapper/runs/26_09_05_14_31/42-odb-reportdisconnectedpins'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/42-odb-reportdisconnectedpins/odb-reportdisconnectedpins.log'[/repr.filename]…
+Running 'Checker.DisconnectedPins' at 'user_project_wrapper/runs/26_09_05_14_31/43-checker-disconnectedpins'…
 Check for critical disconnected pins clear.
-Running 'Odb.ReportWireLength' at 'user_project_wrapper/runs/26_09_05_10_22/44-odb-reportwirelength'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/44-odb-reportwirelength/odb-reportwirelength.log'[/repr.filename]…
-Running 'Checker.WireLength' at 'user_project_wrapper/runs/26_09_05_10_22/45-checker-wirelength'…
+Running 'Odb.ReportWireLength' at 'user_project_wrapper/runs/26_09_05_14_31/44-odb-reportwirelength'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/44-odb-reportwirelength/odb-reportwirelength.log'[/repr.filename]…
+Running 'Checker.WireLength' at 'user_project_wrapper/runs/26_09_05_14_31/45-checker-wirelength'…
 Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
 Gating variable for step 'OpenROAD.FillInsertion' set to 'False'- the step will be skipped.
 Skipping step 'Fill Insertion'…
-Running 'Odb.CellFrequencyTables' at 'user_project_wrapper/runs/26_09_05_10_22/46-odb-cellfrequencytables'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/46-odb-cellfrequencytables/buffer_list.txt'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/46-odb-cellfrequencytables/odb-cellfrequencytables.log'[/repr.filename]…
-Running 'OpenROAD.RCX' at 'user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx'…
-Running RCX for corners matching nom_* (/Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/nom/rcx.log)…
-Running RCX for corners matching min_* (/Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/min/rcx.log)…
-Running RCX for corners matching max_* (/Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/max/rcx.log)…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/nom/rcx.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/min/rcx.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/47-openroad-rcx/max/rcx.log'[/repr.filename]…
+Running 'Odb.CellFrequencyTables' at 'user_project_wrapper/runs/26_09_05_14_31/46-odb-cellfrequencytables'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/46-odb-cellfrequencytables/buffer_list.txt'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/46-odb-cellfrequencytables/odb-cellfrequencytables.log'[/repr.filename]…
+Running 'OpenROAD.RCX' at 'user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx'…
+Running RCX for corners matching nom_* (/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/nom/rcx.log)…
+Running RCX for corners matching min_* (/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/min/rcx.log)…
+Running RCX for corners matching max_* (/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/max/rcx.log)…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/nom/rcx.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/min/rcx.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/47-openroad-rcx/max/rcx.log'[/repr.filename]…
+Finished RCX for corners matching max_*.
 Finished RCX for corners matching min_*.
 Finished RCX for corners matching nom_*.
-Finished RCX for corners matching max_*.
-Running 'OpenROAD.STAPostPNR' at 'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr'…
+Running 'OpenROAD.STAPostPNR' at 'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr'…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 Starting STA for the nom_tt_025C_1v80 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ss_100C_1v60. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_tt_025C_1v80/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ss_100C_1v60. The module will be black-boxed.
 Starting STA for the nom_ss_100C_1v60 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_ss_100C_1v60/sta.log'[/repr.filename]…
+No libs found for macro CF_REFBUF at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ff_n40C_1v95. The module will be black-boxed.
 Starting STA for the nom_ff_n40C_1v95 timing corner…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_tt_025C_1v80/sta.log'[/repr.filename]…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_ss_100C_1v60/sta.log'[/repr.filename]…
 No libs found for macro CF_BUF_HIZ at corner min_tt_025C_1v80. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_ff_n40C_1v95/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_ff_n40C_1v95/sta.log'[/repr.filename]…
+No libs found for macro CF_BGR at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_tt_025C_1v80. The module will be black-boxed.
 Starting STA for the min_tt_025C_1v80 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_tt_025C_1v80/sta.log'[/repr.filename]…
+No libs found for macro CF_REFBUF at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ss_100C_1v60. The module will be black-boxed.
 Starting STA for the min_ss_100C_1v60 timing corner…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_tt_025C_1v80/sta.log'[/repr.filename]…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ff_n40C_1v95. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_ss_100C_1v60/sta.log'[/repr.filename]…
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ff_n40C_1v95. The module will be black-boxed.
 Starting STA for the min_ff_n40C_1v95 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_ss_100C_1v60/sta.log'[/repr.filename]…
 No libs found for macro CF_BUF_HIZ at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_tt_025C_1v80. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_ff_n40C_1v95/sta.log'[/repr.filename]…
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_tt_025C_1v80. The module will be black-boxed.
 Starting STA for the max_tt_025C_1v80 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_ff_n40C_1v95/sta.log'[/repr.filename]…
 No libs found for macro CF_BUF_HIZ at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ss_100C_1v60. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_tt_025C_1v80/sta.log'[/repr.filename]…
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ss_100C_1v60. The module will be black-boxed.
 Starting STA for the max_ss_100C_1v60 timing corner…
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ff_n40C_1v95. The module will be black-boxed.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_tt_025C_1v80/sta.log'[/repr.filename]…
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ff_n40C_1v95. The module will be black-boxed.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_ss_100C_1v60/sta.log'[/repr.filename]…
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
 Starting STA for the max_ff_n40C_1v95 timing corner…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_ss_100C_1v60/sta.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_ff_n40C_1v95/sta.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_ff_n40C_1v95/sta.log'[/repr.filename]…
 Finished STA for the nom_tt_025C_1v80 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
-Finished STA for the min_tt_025C_1v80 timing corner.
-Finished STA for the min_ss_100C_1v60 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
-Finished STA for the min_ff_n40C_1v95 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/min_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
-Finished STA for the max_tt_025C_1v80 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
-Finished STA for the max_ff_n40C_1v95 timing corner.
-Finished STA for the max_ss_100C_1v60 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/max_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
-Finished STA for the nom_ff_n40C_1v95 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
 Finished STA for the nom_ss_100C_1v60 timing corner.
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/48-openroad-stapostpnr/nom_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
+Finished STA for the nom_ff_n40C_1v95 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/nom_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
+Finished STA for the min_tt_025C_1v80 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
+Finished STA for the min_ss_100C_1v60 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
+Finished STA for the min_ff_n40C_1v95 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/min_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
+Finished STA for the max_ff_n40C_1v95 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_ff_n40C_1v95/filter_unannotated.log'[/repr.filename]…
+Finished STA for the max_tt_025C_1v80 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_tt_025C_1v80/filter_unannotated.log'[/repr.filename]…
+Finished STA for the max_ss_100C_1v60 timing corner.
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/48-openroad-stapostpnr/max_ss_100C_1v60/filter_unannotated.log'[/repr.filename]…
 Gating variable for step 'OpenROAD.IRDropReport' set to 'False'- the step will be skipped.
 Skipping step 'IR Drop Report'…
 Gating variable for step 'Magic.StreamOut' set to 'False'- the step will be skipped.
 Skipping step 'GDSII Stream Out (Magic)'…
-Running 'KLayout.StreamOut' at 'user_project_wrapper/runs/26_09_05_10_22/49-klayout-streamout'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/49-klayout-streamout/klayout-streamout.log'[/repr.filename]…
-Running 'Magic.WriteLEF' at 'user_project_wrapper/runs/26_09_05_10_22/50-magic-writelef'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/50-magic-writelef/magic-writelef.log'[/repr.filename]…
+Running 'KLayout.StreamOut' at 'user_project_wrapper/runs/26_09_05_14_31/49-klayout-streamout'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/49-klayout-streamout/klayout-streamout.log'[/repr.filename]…
+Running 'Magic.WriteLEF' at 'user_project_wrapper/runs/26_09_05_14_31/50-magic-writelef'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/50-magic-writelef/magic-writelef.log'[/repr.filename]…
 Error while reading cell "CF_BUF_HIZ" (byte position 18426): Unknown layer/datatype in boundary, layer=67 type=10
 
 Error while reading cell "CF_BUF_HIZ" (byte position 18490): Unknown layer/datatype in boundary, layer=68 type=10
 
 Error while reading cell "CF_BUF_HIZ" (byte position 18874): Unknown layer/datatype in boundary, layer=69 type=10
 
-Running 'Odb.CheckDesignAntennaProperties' at 'user_project_wrapper/runs/26_09_05_10_22/51-odb-checkdesignantennaproperties'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/51-odb-checkdesignantennaproperties/odb-checkdesignantennaproperties.log'[/repr.filename]…
+Error while reading cell "CF_ADC_SAR12_core" (byte position 192): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 256): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 4288): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 15232): Unknown layer/datatype in boundary, layer=70 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 25472): Unknown layer/datatype in boundary, layer=71 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 47642): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 47706): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 51994): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 378): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 442): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 1274): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_BGR" (byte position 18810): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_BGR" (byte position 18874): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_BGR" (byte position 19962): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF_core" (byte position 380): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_REFBUF_core" (byte position 1724): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 16588): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 18700): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 25168): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 200): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 264): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 1672): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 24072): Unknown layer/datatype in boundary, layer=70 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 35208): Unknown layer/datatype in boundary, layer=71 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 43758): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 43822): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 44462): Unknown layer/datatype in boundary, layer=69 type=10
+
+Running 'Odb.CheckDesignAntennaProperties' at 'user_project_wrapper/runs/26_09_05_14_31/51-odb-checkdesignantennaproperties'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/51-odb-checkdesignantennaproperties/odb-checkdesignantennaproperties.log'[/repr.filename]…
 Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'user_project_wrapper' has (368) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'user_project_wrapper' has (240) output pin(s) without antenna diffusion information. They might not be driven.
@@ -2395,29 +3179,29 @@ Gating variable for step 'Checker.XOR' set to 'False'- the step will be skipped.
 Skipping step 'XOR Difference Checker'…
 Gating variable for step 'Magic.DRC' set to 'False'- the step will be skipped.
 Skipping step 'DRC'…
-Running 'KLayout.DRC' at 'user_project_wrapper/runs/26_09_05_10_22/52-klayout-drc'…
+Running 'KLayout.DRC' at 'user_project_wrapper/runs/26_09_05_14_31/52-klayout-drc'…
 Running KLayout DRC with 10 threads…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/52-klayout-drc/klayout-drc.log'[/repr.filename]…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/52-klayout-drc/xml_drc_report_to_json.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/52-klayout-drc/klayout-drc.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/52-klayout-drc/xml_drc_report_to_json.log'[/repr.filename]…
 Gating variable for step 'Checker.MagicDRC' set to 'False'- the step will be skipped.
 Skipping step 'Magic DRC Checker'…
-Running 'Checker.KLayoutDRC' at 'user_project_wrapper/runs/26_09_05_10_22/53-checker-klayoutdrc'…
+Running 'Checker.KLayoutDRC' at 'user_project_wrapper/runs/26_09_05_14_31/53-checker-klayoutdrc'…
 Check for KLayout DRC errors clear.
-Running 'Magic.SpiceExtraction' at 'user_project_wrapper/runs/26_09_05_10_22/54-magic-spiceextraction'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/54-magic-spiceextraction/magic-spiceextraction.log'[/repr.filename]…
-Running 'Checker.IllegalOverlap' at 'user_project_wrapper/runs/26_09_05_10_22/55-checker-illegaloverlap'…
+Running 'Magic.SpiceExtraction' at 'user_project_wrapper/runs/26_09_05_14_31/54-magic-spiceextraction'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/54-magic-spiceextraction/magic-spiceextraction.log'[/repr.filename]…
+Running 'Checker.IllegalOverlap' at 'user_project_wrapper/runs/26_09_05_14_31/55-checker-illegaloverlap'…
 Check for Magic Illegal Overlap errors clear.
-Running 'Netgen.LVS' at 'user_project_wrapper/runs/26_09_05_10_22/56-netgen-lvs'…
-Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_10_22/56-netgen-lvs/netgen-lvs.log'[/repr.filename]…
-Running 'Checker.LVS' at 'user_project_wrapper/runs/26_09_05_10_22/57-checker-lvs'…
+Running 'Netgen.LVS' at 'user_project_wrapper/runs/26_09_05_14_31/56-netgen-lvs'…
+Logging subprocess to [repr.filename]'user_project_wrapper/runs/26_09_05_14_31/56-netgen-lvs/netgen-lvs.log'[/repr.filename]…
+Running 'Checker.LVS' at 'user_project_wrapper/runs/26_09_05_14_31/57-checker-lvs'…
 Check for LVS errors clear.
 Gating variable for step 'Yosys.EQY' set to 'False'- the step will be skipped.
 Skipping step 'Equivalence Check'…
-Running 'Checker.SetupViolations' at 'user_project_wrapper/runs/26_09_05_10_22/58-checker-setupviolations'…
+Running 'Checker.SetupViolations' at 'user_project_wrapper/runs/26_09_05_14_31/58-checker-setupviolations'…
 No setup violations found
-Running 'Checker.HoldViolations' at 'user_project_wrapper/runs/26_09_05_10_22/59-checker-holdviolations'…
+Running 'Checker.HoldViolations' at 'user_project_wrapper/runs/26_09_05_14_31/59-checker-holdviolations'…
 No hold violations found
-Running 'Checker.MaxSlewViolations' at 'user_project_wrapper/runs/26_09_05_10_22/60-checker-maxslewviolations'…
+Running 'Checker.MaxSlewViolations' at 'user_project_wrapper/runs/26_09_05_14_31/60-checker-maxslewviolations'…
 Max Slew violations found in the following corners:
 * max_ff_n40C_1v95
 * max_ss_100C_1v60
@@ -2429,9 +3213,9 @@ Max Slew violations found in the following corners:
 * nom_ss_100C_1v60
 * nom_tt_025C_1v80
 No max slew violations found
-Running 'Checker.MaxCapViolations' at 'user_project_wrapper/runs/26_09_05_10_22/61-checker-maxcapviolations'…
+Running 'Checker.MaxCapViolations' at 'user_project_wrapper/runs/26_09_05_14_31/61-checker-maxcapviolations'…
 No max cap violations found
-Running 'Misc.ReportManufacturability' at 'user_project_wrapper/runs/26_09_05_10_22/62-misc-reportmanufacturability'…
+Running 'Misc.ReportManufacturability' at 'user_project_wrapper/runs/26_09_05_14_31/62-misc-reportmanufacturability'…
 magic__drc_error__count not reported. Magic.DRC may have been skipped.
-Saving views to '/Users/jeffdi/Projects/chipignite-ip/cf-buf-hiz-test-project/openlane/user_project_wrapper/runs/26_09_05_10_22/final'…
+Saving views to '/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_05_14_31/final'…
 Flow complete.

@@ -1,4 +1,226 @@
 
+Cell CF_ADC_SAR12 (0) disconnected node: en_pump_lv
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[1]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[3]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[4]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[5]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[6]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[7]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[8]
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[9]
+Cell CF_ADC_SAR12 (0) disconnected node: vreflo
+Cell CF_ADC_SAR12 (0) disconnected node: resolution[0]
+Cell CF_ADC_SAR12 (0) disconnected node: resolution[1]
+Cell CF_ADC_SAR12 (0) disconnected node: scan_test_mode
+Cell CF_ADC_SAR12 (0) disconnected node: test_scanin
+Cell CF_ADC_SAR12 (0) disconnected node: test_scanen
+Cell CF_ADC_SAR12 (0) disconnected node: test_scanout
+Cell CF_ADC_SAR12 (0) disconnected node: en_csel_dft
+Cell CF_ADC_SAR12 (0) disconnected node: sel_csel_dft[0]
+Cell CF_ADC_SAR12 (0) disconnected node: sel_csel_dft[2]
+Cell CF_ADC_SAR12 (0) disconnected node: sel_csel_dft[3]
+Cell CF_ADC_SAR12 (0) disconnected node: hiz
+Cell CF_ADC_SAR12 (0) disconnected node: sof
+Cell CF_ADC_SAR12 (0) disconnected node: test_sea
+Cell CF_ADC_SAR12 (0) disconnected node: reset_n
+Cell CF_ADC_SAR12 (0) disconnected node: eof
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[0]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[3]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[4]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[5]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[6]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[10]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[11]
+Cell CF_ADC_SAR12 (0) disconnected node: iso_en
+Cell CF_ADC_SAR12 (0) disconnected node: next
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[0]
+Cell CF_ADC_SAR12 (0) disconnected node: vinp
+Cell CF_ADC_SAR12 (0) disconnected node: vinm
+Cell CF_ADC_SAR12 (0) disconnected node: vrefhi
+Cell CF_ADC_SAR12 (0) disconnected node: vssa_q
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inp
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inm
+Cell CF_ADC_SAR12 (0) disconnected node: dft_op
+Cell CF_ADC_SAR12 (0) disconnected node: dft_om
+Cell CF_ADC_SAR12 (0) disconnected node: trimunit
+Cell CF_ADC_SAR12 (0) disconnected node: vpwr_lv_int
+Cell CF_ADC_SAR12 (0) disconnected node: vdda
+Cell CF_ADC_SAR12 (0) disconnected node: sel_csel_dft[1]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[9]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[7]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[8]
+Cell CF_ADC_SAR12 (0) disconnected node: vdda_q
+Cell CF_ADC_SAR12 (0) disconnected node: vgnd
+Cell CF_ADC_SAR12 (0) disconnected node: VPUMP
+Cell CF_ADC_SAR12 (0) disconnected node: vboost
+Cell CF_ADC_SAR12 (0) disconnected node: vssa
+Cell CF_ADC_SAR12 (0) disconnected node: refby2
+Cell CF_ADC_SAR12 (0) disconnected node: cap_trim[2]
+Cell CF_ADC_SAR12 (0) disconnected node: cap_trim[1]
+Cell CF_ADC_SAR12 (0) disconnected node: pumpclk
+Cell CF_ADC_SAR12 (0) disconnected node: dft_enc
+Cell CF_ADC_SAR12 (0) disconnected node: cap_trim[0]
+Cell CF_ADC_SAR12 (0) disconnected node: pd
+Cell CF_ADC_SAR12 (0) disconnected node: pd_ana
+Cell CF_ADC_SAR12 (0) disconnected node: refclk
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inc[3]
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inc[2]
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inc[1]
+Cell CF_ADC_SAR12 (0) disconnected node: dft_inc[0]
+Cell CF_ADC_SAR12 (0) disconnected node: dft_outc[2]
+Cell CF_ADC_SAR12 (0) disconnected node: dft_outc[1]
+Cell CF_ADC_SAR12 (0) disconnected node: vccd_q
+Cell CF_ADC_SAR12 (0) disconnected node: sample_width[2]
+Cell CF_ADC_SAR12 (0) disconnected node: vpwr_int
+Cell CF_ADC_SAR12 (0) disconnected node: vpwr
+Cell CF_ADC_SAR12 (0) disconnected node: vpwrd_int
+Cell CF_ADC_SAR12 (0) disconnected node: icont_lv[1]
+Cell CF_ADC_SAR12 (0) disconnected node: vsub_vic
+Cell CF_ADC_SAR12 (0) disconnected node: vsub_agr
+Cell CF_ADC_SAR12 (0) disconnected node: icont_lv[0]
+Cell CF_ADC_SAR12 (0) disconnected node: dly_inc
+Cell CF_ADC_SAR12 (0) disconnected node: dcen
+Cell CF_ADC_SAR12 (0) disconnected node: ibiasin
+Cell CF_ADC_SAR12 (0) disconnected node: ibias2p5u
+Cell CF_ADC_SAR12 (0) disconnected node: ibias2p5u_out
+Cell CF_ADC_SAR12 (0) disconnected node: ibias2p5u_1
+Cell CF_ADC_SAR12 (0) disconnected node: dft_outc[0]
+Cell CF_ADC_SAR12 (0) disconnected node: enable_hv
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[2]
+Cell CF_ADC_SAR12 (0) disconnected node: data_out[1]
+
+Subcircuit pins:
+Circuit 1: CF_ADC_SAR12                    |Circuit 2: CF_ADC_SAR12                    
+-------------------------------------------|-------------------------------------------
+en_pump_lv                                 |en_pump_lv                                 
+sample_width[1]                            |sample_width[1]                            
+sample_width[3]                            |sample_width[3]                            
+sample_width[4]                            |sample_width[4]                            
+sample_width[5]                            |sample_width[5]                            
+sample_width[6]                            |sample_width[6]                            
+sample_width[7]                            |sample_width[7]                            
+sample_width[8]                            |sample_width[8]                            
+sample_width[9]                            |sample_width[9]                            
+vreflo                                     |vreflo                                     
+resolution[0]                              |resolution[0]                              
+resolution[1]                              |resolution[1]                              
+scan_test_mode                             |scan_test_mode                             
+test_scanin                                |test_scanin                                
+test_scanen                                |test_scanen                                
+sel_csel_dft[0]                            |sel_csel_dft[0]                            
+sel_csel_dft[2]                            |sel_csel_dft[2]                            
+sel_csel_dft[3]                            |sel_csel_dft[3]                            
+hiz                                        |hiz                                        
+sof                                        |sof                                        
+test_sea                                   |test_sea                                   
+reset_n                                    |reset_n                                    
+eof                                        |eof                                        
+data_out[0]                                |data_out[0]                                
+data_out[3]                                |data_out[3]                                
+data_out[4]                                |data_out[4]                                
+data_out[5]                                |data_out[5]                                
+data_out[6]                                |data_out[6]                                
+data_out[10]                               |data_out[10]                               
+data_out[11]                               |data_out[11]                               
+iso_en                                     |iso_en                                     
+next                                       |next                                       
+sample_width[0]                            |sample_width[0]                            
+vinp                                       |vinp                                       
+vinm                                       |vinm                                       
+vrefhi                                     |vrefhi                                     
+trimunit                                   |trimunit                                   
+vdda                                       |vdda                                       
+sel_csel_dft[1]                            |sel_csel_dft[1]                            
+data_out[9]                                |data_out[9]                                
+data_out[7]                                |data_out[7]                                
+data_out[8]                                |data_out[8]                                
+vgnd                                       |vgnd                                       
+VPUMP                                      |VPUMP                                      
+vssa                                       |vssa                                       
+refby2                                     |refby2                                     
+cap_trim[2]                                |cap_trim[2]                                
+cap_trim[1]                                |cap_trim[1]                                
+pumpclk                                    |pumpclk                                    
+cap_trim[0]                                |cap_trim[0]                                
+pd                                         |pd                                         
+pd_ana                                     |pd_ana                                     
+refclk                                     |refclk                                     
+dft_inc[3]                                 |dft_inc[3]                                 
+dft_inc[2]                                 |dft_inc[2]                                 
+dft_inc[1]                                 |dft_inc[1]                                 
+dft_inc[0]                                 |dft_inc[0]                                 
+dft_outc[2]                                |dft_outc[2]                                
+dft_outc[1]                                |dft_outc[1]                                
+sample_width[2]                            |sample_width[2]                            
+vpwr                                       |vpwr                                       
+icont_lv[1]                                |icont_lv[1]                                
+icont_lv[0]                                |icont_lv[0]                                
+dly_inc                                    |dly_inc                                    
+dcen                                       |dcen                                       
+ibias2p5u                                  |ibias2p5u                                  
+ibias2p5u_1                                |ibias2p5u_1                                
+dft_outc[0]                                |dft_outc[0]                                
+enable_hv                                  |enable_hv                                  
+data_out[2]                                |data_out[2]                                
+data_out[1]                                |data_out[1]                                
+test_scanout                               |(no matching pin)                          
+en_csel_dft                                |(no matching pin)                          
+vssa_q                                     |(no matching pin)                          
+dft_inp                                    |(no matching pin)                          
+dft_inm                                    |(no matching pin)                          
+dft_op                                     |(no matching pin)                          
+dft_om                                     |(no matching pin)                          
+vpwr_lv_int                                |(no matching pin)                          
+vdda_q                                     |(no matching pin)                          
+vboost                                     |(no matching pin)                          
+dft_enc                                    |(no matching pin)                          
+vccd_q                                     |(no matching pin)                          
+vpwr_int                                   |(no matching pin)                          
+vpwrd_int                                  |(no matching pin)                          
+vsub_vic                                   |(no matching pin)                          
+vsub_agr                                   |(no matching pin)                          
+ibiasin                                    |(no matching pin)                          
+ibias2p5u_out                              |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes CF_ADC_SAR12 and CF_ADC_SAR12 are equivalent.
+
+Cell CF_REFBUF (0) disconnected node: nbias
+Cell CF_REFBUF (0) disconnected node: out
+Cell CF_REFBUF (0) disconnected node: switchoff
+Cell CF_REFBUF (0) disconnected node: ref_1v2
+Cell CF_REFBUF (0) disconnected node: vgnd
+Cell CF_REFBUF (0) disconnected node: pd
+Cell CF_REFBUF (0) disconnected node: ng
+Cell CF_REFBUF (0) disconnected node: switchon
+Cell CF_REFBUF (0) disconnected node: ch_cont
+Cell CF_REFBUF (0) disconnected node: boost
+Cell CF_REFBUF (0) disconnected node: vpwre
+Cell CF_REFBUF (0) disconnected node: ch2
+Cell CF_REFBUF (0) disconnected node: vpwr
+Cell CF_REFBUF (0) disconnected node: ch1
+
+Subcircuit pins:
+Circuit 1: CF_REFBUF                       |Circuit 2: CF_REFBUF                       
+-------------------------------------------|-------------------------------------------
+nbias                                      |nbias                                      
+out                                        |out                                        
+ref_1v2                                    |ref_1v2                                    
+vgnd                                       |vgnd                                       
+pd                                         |pd                                         
+ng                                         |ng                                         
+switchon                                   |switchon                                   
+ch_cont                                    |ch_cont                                    
+boost                                      |boost                                      
+vpwre                                      |vpwre                                      
+ch2                                        |ch2                                        
+vpwr                                       |vpwr                                       
+ch1                                        |ch1                                        
+switchoff                                  |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes CF_REFBUF and CF_REFBUF are equivalent.
+
 Cell CF_BUF_HIZ (0) disconnected node: tp
 Cell CF_BUF_HIZ (0) disconnected node: vgnd
 Cell CF_BUF_HIZ (0) disconnected node: clk2_boost
@@ -45,8 +267,6 @@ vout                                       |vout
 vbpci                                      |vbpci                                      
 vbnt                                       |vbnt                                       
 ibias                                      |ibias                                      
-ion                                        |ion                                        
-iop                                        |iop                                        
 e_pd                                       |e_pd                                       
 vbnci                                      |vbnci                                      
 vbpcid                                     |vbpcid                                     
@@ -63,17 +283,229 @@ vinn_p                                     |vinn_p
 vinp_p                                     |vinp_p                                     
 e_na_boost                                 |e_na_boost                                 
 e_n_boost                                  |e_n_boost                                  
+ion                                        |(no matching pin)                          
+iop                                        |(no matching pin)                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes CF_BUF_HIZ and CF_BUF_HIZ are equivalent.
 
-Cell user_project_wrapper (0) disconnected node: analog_io[21]
-Cell user_project_wrapper (0) disconnected node: analog_io[22]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vdda
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vda_int
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vpwr
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vpwrd_int
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: VPUMP
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vssa
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vgnd
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vref[4]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vref[3]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vref[2]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vref[1]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vref[0]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: pd
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: hiz
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: PWR_CTRL_VREF[1]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: muxsarref[2]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: muxsarref[1]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: muxsarref[0]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: REFBY2
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: pd_ana
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: EN_RESVDA
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: IREF_VCMBUF
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: sw_start
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: PWR_CTRL_VREF[0]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: pd_vcmbuf
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[7]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: px_in
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: px
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: refout
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: refout_en
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: sw_holdb
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: enpdb_hv
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: en_pxin_cap
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[6]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[5]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[4]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[3]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[2]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[1]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: S_LV[0]
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: REFHI
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: enable_hv
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: IREF_VREFBUF
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: PD_BUF_VREF
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: vssa_shield
+Cell CF_ADC_SAR12_sar_refs (0) disconnected node: dft_comp_en
+
+Subcircuit pins:
+Circuit 1: CF_ADC_SAR12_sar_refs           |Circuit 2: CF_ADC_SAR12_sar_refs           
+-------------------------------------------|-------------------------------------------
+vdda                                       |vdda                                       
+vpwr                                       |vpwr                                       
+VPUMP                                      |VPUMP                                      
+vssa                                       |vssa                                       
+vgnd                                       |vgnd                                       
+vref[4]                                    |vref[4]                                    
+vref[3]                                    |vref[3]                                    
+vref[2]                                    |vref[2]                                    
+vref[1]                                    |vref[1]                                    
+vref[0]                                    |vref[0]                                    
+pd                                         |pd                                         
+hiz                                        |hiz                                        
+PWR_CTRL_VREF[1]                           |PWR_CTRL_VREF[1]                           
+muxsarref[2]                               |muxsarref[2]                               
+muxsarref[1]                               |muxsarref[1]                               
+muxsarref[0]                               |muxsarref[0]                               
+REFBY2                                     |REFBY2                                     
+pd_ana                                     |pd_ana                                     
+EN_RESVDA                                  |EN_RESVDA                                  
+IREF_VCMBUF                                |IREF_VCMBUF                                
+sw_start                                   |sw_start                                   
+PWR_CTRL_VREF[0]                           |PWR_CTRL_VREF[0]                           
+pd_vcmbuf                                  |pd_vcmbuf                                  
+S_LV[7]                                    |S_LV[7]                                    
+refout                                     |refout                                     
+refout_en                                  |refout_en                                  
+sw_holdb                                   |sw_holdb                                   
+enpdb_hv                                   |enpdb_hv                                   
+S_LV[6]                                    |S_LV[6]                                    
+S_LV[5]                                    |S_LV[5]                                    
+S_LV[4]                                    |S_LV[4]                                    
+S_LV[3]                                    |S_LV[3]                                    
+S_LV[2]                                    |S_LV[2]                                    
+S_LV[1]                                    |S_LV[1]                                    
+S_LV[0]                                    |S_LV[0]                                    
+REFHI                                      |REFHI                                      
+enable_hv                                  |enable_hv                                  
+IREF_VREFBUF                               |IREF_VREFBUF                               
+PD_BUF_VREF                                |PD_BUF_VREF                                
+vssa_shield                                |vssa_shield                                
+dft_comp_en                                |dft_comp_en                                
+vda_int                                    |(no matching pin)                          
+vpwrd_int                                  |(no matching pin)                          
+px_in                                      |(no matching pin)                          
+px                                         |(no matching pin)                          
+en_pxin_cap                                |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes CF_ADC_SAR12_sar_refs and CF_ADC_SAR12_sar_refs are equivalent.
+
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[5]
+Cell CF_BGR (0) disconnected node: finetune
+Cell CF_BGR (0) disconnected node: boost4
+Cell CF_BGR (0) disconnected node: boost7
+Cell CF_BGR (0) disconnected node: boost6
+Cell CF_BGR (0) disconnected node: boost5
+Cell CF_BGR (0) disconnected node: en_startb
+Cell CF_BGR (0) disconnected node: trimCurr[5]
+Cell CF_BGR (0) disconnected node: trimCurr[4]
+Cell CF_BGR (0) disconnected node: trimCurr[3]
+Cell CF_BGR (0) disconnected node: trimCurr[2]
+Cell CF_BGR (0) disconnected node: trimCurr[0]
+Cell CF_BGR (0) disconnected node: trimCurr[1]
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[0]
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[1]
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[2]
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[3]
+Cell CF_BGR (0) disconnected node: CurrAbsTrim[4]
+Cell CF_BGR (0) disconnected node: mux2sel
+Cell CF_BGR (0) disconnected node: mux1sel[0]
+Cell CF_BGR (0) disconnected node: mux1sel[1]
+Cell CF_BGR (0) disconnected node: dft_sel
+Cell CF_BGR (0) disconnected node: pd_ibg
+Cell CF_BGR (0) disconnected node: pd
+Cell CF_BGR (0) disconnected node: trimTC[6]
+Cell CF_BGR (0) disconnected node: trimTC[5]
+Cell CF_BGR (0) disconnected node: trimTC[4]
+Cell CF_BGR (0) disconnected node: trimTC[3]
+Cell CF_BGR (0) disconnected node: trimTC[2]
+Cell CF_BGR (0) disconnected node: trimTC[0]
+Cell CF_BGR (0) disconnected node: trimTC[1]
+Cell CF_BGR (0) disconnected node: inl_ctrl[0]
+Cell CF_BGR (0) disconnected node: inl_ctrl[1]
+Cell CF_BGR (0) disconnected node: vbias_cascode
+Cell CF_BGR (0) disconnected node: vbias
+Cell CF_BGR (0) disconnected node: boost3
+Cell CF_BGR (0) disconnected node: dft_curr_in
+Cell CF_BGR (0) disconnected node: vb2_fast
+Cell CF_BGR (0) disconnected node: Vout
+Cell CF_BGR (0) disconnected node: ibg_3uA
+Cell CF_BGR (0) disconnected node: ibg_2p375uA
+Cell CF_BGR (0) disconnected node: mux1out
+Cell CF_BGR (0) disconnected node: mux2out
+Cell CF_BGR (0) disconnected node: ictat
+Cell CF_BGR (0) disconnected node: iptat
+Cell CF_BGR (0) disconnected node: inl_ctrl[6]
+Cell CF_BGR (0) disconnected node: inl_ctrl[5]
+Cell CF_BGR (0) disconnected node: vgnd
+Cell CF_BGR (0) disconnected node: vpwr
+Cell CF_BGR (0) disconnected node: inl_ctrl[3]
+Cell CF_BGR (0) disconnected node: inl_ctrl[2]
+Cell CF_BGR (0) disconnected node: pbias_ctat
+Cell CF_BGR (0) disconnected node: vout_ictat
+Cell CF_BGR (0) disconnected node: inl_ctrl[4]
+
+Subcircuit pins:
+Circuit 1: CF_BGR                          |Circuit 2: CF_BGR                          
+-------------------------------------------|-------------------------------------------
+CurrAbsTrim[5]                             |CurrAbsTrim[5]                             
+finetune                                   |finetune                                   
+en_startb                                  |en_startb                                  
+trimCurr[5]                                |trimCurr[5]                                
+trimCurr[4]                                |trimCurr[4]                                
+trimCurr[3]                                |trimCurr[3]                                
+trimCurr[2]                                |trimCurr[2]                                
+trimCurr[0]                                |trimCurr[0]                                
+trimCurr[1]                                |trimCurr[1]                                
+CurrAbsTrim[0]                             |CurrAbsTrim[0]                             
+CurrAbsTrim[1]                             |CurrAbsTrim[1]                             
+CurrAbsTrim[2]                             |CurrAbsTrim[2]                             
+CurrAbsTrim[3]                             |CurrAbsTrim[3]                             
+CurrAbsTrim[4]                             |CurrAbsTrim[4]                             
+mux2sel                                    |mux2sel                                    
+mux1sel[0]                                 |mux1sel[0]                                 
+mux1sel[1]                                 |mux1sel[1]                                 
+dft_sel                                    |dft_sel                                    
+pd_ibg                                     |pd_ibg                                     
+pd                                         |pd                                         
+trimTC[6]                                  |trimTC[6]                                  
+trimTC[5]                                  |trimTC[5]                                  
+trimTC[4]                                  |trimTC[4]                                  
+trimTC[3]                                  |trimTC[3]                                  
+trimTC[2]                                  |trimTC[2]                                  
+trimTC[0]                                  |trimTC[0]                                  
+trimTC[1]                                  |trimTC[1]                                  
+inl_ctrl[0]                                |inl_ctrl[0]                                
+inl_ctrl[1]                                |inl_ctrl[1]                                
+dft_curr_in                                |dft_curr_in                                
+vb2_fast                                   |vb2_fast                                   
+Vout                                       |Vout                                       
+ibg_3uA                                    |ibg_3uA                                    
+ibg_2p375uA                                |ibg_2p375uA                                
+inl_ctrl[6]                                |inl_ctrl[6]                                
+inl_ctrl[5]                                |inl_ctrl[5]                                
+vgnd                                       |vgnd                                       
+vpwr                                       |vpwr                                       
+inl_ctrl[3]                                |inl_ctrl[3]                                
+inl_ctrl[2]                                |inl_ctrl[2]                                
+inl_ctrl[4]                                |inl_ctrl[4]                                
+boost4                                     |(no matching pin)                          
+boost7                                     |(no matching pin)                          
+boost6                                     |(no matching pin)                          
+boost5                                     |(no matching pin)                          
+vbias_cascode                              |(no matching pin)                          
+vbias                                      |(no matching pin)                          
+boost3                                     |(no matching pin)                          
+mux1out                                    |(no matching pin)                          
+mux2out                                    |(no matching pin)                          
+ictat                                      |(no matching pin)                          
+iptat                                      |(no matching pin)                          
+pbias_ctat                                 |(no matching pin)                          
+vout_ictat                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes CF_BGR and CF_BGR are equivalent.
+
 Cell user_project_wrapper (0) disconnected node: analog_io[23]
-Cell user_project_wrapper (0) disconnected node: analog_io[24]
-Cell user_project_wrapper (0) disconnected node: analog_io[25]
-Cell user_project_wrapper (0) disconnected node: analog_io[26]
-Cell user_project_wrapper (0) disconnected node: analog_io[27]
 Cell user_project_wrapper (0) disconnected node: analog_io[28]
 Cell user_project_wrapper (0) disconnected node: io_in[0]
 Cell user_project_wrapper (0) disconnected node: io_in[10]
@@ -193,124 +625,14 @@ Cell user_project_wrapper (0) disconnected node: la_data_in[100]
 Cell user_project_wrapper (0) disconnected node: la_data_in[101]
 Cell user_project_wrapper (0) disconnected node: la_data_in[102]
 Cell user_project_wrapper (0) disconnected node: la_data_in[103]
-Cell user_project_wrapper (0) disconnected node: la_data_in[104]
-Cell user_project_wrapper (0) disconnected node: la_data_in[105]
-Cell user_project_wrapper (0) disconnected node: la_data_in[106]
-Cell user_project_wrapper (0) disconnected node: la_data_in[107]
-Cell user_project_wrapper (0) disconnected node: la_data_in[108]
-Cell user_project_wrapper (0) disconnected node: la_data_in[109]
-Cell user_project_wrapper (0) disconnected node: la_data_in[10]
-Cell user_project_wrapper (0) disconnected node: la_data_in[110]
-Cell user_project_wrapper (0) disconnected node: la_data_in[111]
-Cell user_project_wrapper (0) disconnected node: la_data_in[112]
-Cell user_project_wrapper (0) disconnected node: la_data_in[113]
-Cell user_project_wrapper (0) disconnected node: la_data_in[114]
-Cell user_project_wrapper (0) disconnected node: la_data_in[115]
-Cell user_project_wrapper (0) disconnected node: la_data_in[116]
-Cell user_project_wrapper (0) disconnected node: la_data_in[117]
-Cell user_project_wrapper (0) disconnected node: la_data_in[118]
-Cell user_project_wrapper (0) disconnected node: la_data_in[119]
-Cell user_project_wrapper (0) disconnected node: la_data_in[11]
-Cell user_project_wrapper (0) disconnected node: la_data_in[120]
-Cell user_project_wrapper (0) disconnected node: la_data_in[121]
-Cell user_project_wrapper (0) disconnected node: la_data_in[122]
 Cell user_project_wrapper (0) disconnected node: la_data_in[123]
 Cell user_project_wrapper (0) disconnected node: la_data_in[124]
 Cell user_project_wrapper (0) disconnected node: la_data_in[125]
 Cell user_project_wrapper (0) disconnected node: la_data_in[126]
 Cell user_project_wrapper (0) disconnected node: la_data_in[127]
-Cell user_project_wrapper (0) disconnected node: la_data_in[12]
-Cell user_project_wrapper (0) disconnected node: la_data_in[13]
-Cell user_project_wrapper (0) disconnected node: la_data_in[14]
-Cell user_project_wrapper (0) disconnected node: la_data_in[15]
-Cell user_project_wrapper (0) disconnected node: la_data_in[16]
-Cell user_project_wrapper (0) disconnected node: la_data_in[17]
-Cell user_project_wrapper (0) disconnected node: la_data_in[18]
-Cell user_project_wrapper (0) disconnected node: la_data_in[19]
-Cell user_project_wrapper (0) disconnected node: la_data_in[20]
-Cell user_project_wrapper (0) disconnected node: la_data_in[21]
-Cell user_project_wrapper (0) disconnected node: la_data_in[22]
-Cell user_project_wrapper (0) disconnected node: la_data_in[23]
-Cell user_project_wrapper (0) disconnected node: la_data_in[24]
-Cell user_project_wrapper (0) disconnected node: la_data_in[25]
-Cell user_project_wrapper (0) disconnected node: la_data_in[26]
-Cell user_project_wrapper (0) disconnected node: la_data_in[27]
-Cell user_project_wrapper (0) disconnected node: la_data_in[28]
-Cell user_project_wrapper (0) disconnected node: la_data_in[29]
-Cell user_project_wrapper (0) disconnected node: la_data_in[30]
-Cell user_project_wrapper (0) disconnected node: la_data_in[31]
-Cell user_project_wrapper (0) disconnected node: la_data_in[32]
-Cell user_project_wrapper (0) disconnected node: la_data_in[33]
-Cell user_project_wrapper (0) disconnected node: la_data_in[34]
-Cell user_project_wrapper (0) disconnected node: la_data_in[35]
-Cell user_project_wrapper (0) disconnected node: la_data_in[36]
-Cell user_project_wrapper (0) disconnected node: la_data_in[37]
-Cell user_project_wrapper (0) disconnected node: la_data_in[38]
-Cell user_project_wrapper (0) disconnected node: la_data_in[39]
-Cell user_project_wrapper (0) disconnected node: la_data_in[40]
-Cell user_project_wrapper (0) disconnected node: la_data_in[41]
-Cell user_project_wrapper (0) disconnected node: la_data_in[42]
-Cell user_project_wrapper (0) disconnected node: la_data_in[43]
-Cell user_project_wrapper (0) disconnected node: la_data_in[44]
-Cell user_project_wrapper (0) disconnected node: la_data_in[45]
-Cell user_project_wrapper (0) disconnected node: la_data_in[46]
-Cell user_project_wrapper (0) disconnected node: la_data_in[47]
-Cell user_project_wrapper (0) disconnected node: la_data_in[48]
-Cell user_project_wrapper (0) disconnected node: la_data_in[49]
-Cell user_project_wrapper (0) disconnected node: la_data_in[50]
-Cell user_project_wrapper (0) disconnected node: la_data_in[51]
-Cell user_project_wrapper (0) disconnected node: la_data_in[52]
-Cell user_project_wrapper (0) disconnected node: la_data_in[53]
-Cell user_project_wrapper (0) disconnected node: la_data_in[54]
-Cell user_project_wrapper (0) disconnected node: la_data_in[55]
-Cell user_project_wrapper (0) disconnected node: la_data_in[56]
-Cell user_project_wrapper (0) disconnected node: la_data_in[57]
-Cell user_project_wrapper (0) disconnected node: la_data_in[58]
-Cell user_project_wrapper (0) disconnected node: la_data_in[59]
-Cell user_project_wrapper (0) disconnected node: la_data_in[60]
-Cell user_project_wrapper (0) disconnected node: la_data_in[61]
-Cell user_project_wrapper (0) disconnected node: la_data_in[62]
-Cell user_project_wrapper (0) disconnected node: la_data_in[63]
-Cell user_project_wrapper (0) disconnected node: la_data_in[64]
-Cell user_project_wrapper (0) disconnected node: la_data_in[65]
-Cell user_project_wrapper (0) disconnected node: la_data_in[66]
-Cell user_project_wrapper (0) disconnected node: la_data_in[67]
-Cell user_project_wrapper (0) disconnected node: la_data_in[68]
-Cell user_project_wrapper (0) disconnected node: la_data_in[69]
-Cell user_project_wrapper (0) disconnected node: la_data_in[70]
-Cell user_project_wrapper (0) disconnected node: la_data_in[71]
-Cell user_project_wrapper (0) disconnected node: la_data_in[72]
-Cell user_project_wrapper (0) disconnected node: la_data_in[73]
-Cell user_project_wrapper (0) disconnected node: la_data_in[74]
-Cell user_project_wrapper (0) disconnected node: la_data_in[75]
-Cell user_project_wrapper (0) disconnected node: la_data_in[76]
-Cell user_project_wrapper (0) disconnected node: la_data_in[77]
-Cell user_project_wrapper (0) disconnected node: la_data_in[78]
-Cell user_project_wrapper (0) disconnected node: la_data_in[79]
 Cell user_project_wrapper (0) disconnected node: la_data_in[7]
-Cell user_project_wrapper (0) disconnected node: la_data_in[80]
-Cell user_project_wrapper (0) disconnected node: la_data_in[81]
-Cell user_project_wrapper (0) disconnected node: la_data_in[82]
-Cell user_project_wrapper (0) disconnected node: la_data_in[83]
-Cell user_project_wrapper (0) disconnected node: la_data_in[84]
-Cell user_project_wrapper (0) disconnected node: la_data_in[85]
-Cell user_project_wrapper (0) disconnected node: la_data_in[86]
-Cell user_project_wrapper (0) disconnected node: la_data_in[87]
-Cell user_project_wrapper (0) disconnected node: la_data_in[88]
-Cell user_project_wrapper (0) disconnected node: la_data_in[89]
-Cell user_project_wrapper (0) disconnected node: la_data_in[8]
-Cell user_project_wrapper (0) disconnected node: la_data_in[90]
-Cell user_project_wrapper (0) disconnected node: la_data_in[91]
-Cell user_project_wrapper (0) disconnected node: la_data_in[92]
-Cell user_project_wrapper (0) disconnected node: la_data_in[93]
-Cell user_project_wrapper (0) disconnected node: la_data_in[94]
-Cell user_project_wrapper (0) disconnected node: la_data_in[95]
-Cell user_project_wrapper (0) disconnected node: la_data_in[96]
-Cell user_project_wrapper (0) disconnected node: la_data_in[97]
 Cell user_project_wrapper (0) disconnected node: la_data_in[98]
 Cell user_project_wrapper (0) disconnected node: la_data_in[99]
-Cell user_project_wrapper (0) disconnected node: la_data_in[9]
-Cell user_project_wrapper (0) disconnected node: la_data_out[0]
 Cell user_project_wrapper (0) disconnected node: la_data_out[100]
 Cell user_project_wrapper (0) disconnected node: la_data_out[101]
 Cell user_project_wrapper (0) disconnected node: la_data_out[102]
@@ -321,7 +643,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[106]
 Cell user_project_wrapper (0) disconnected node: la_data_out[107]
 Cell user_project_wrapper (0) disconnected node: la_data_out[108]
 Cell user_project_wrapper (0) disconnected node: la_data_out[109]
-Cell user_project_wrapper (0) disconnected node: la_data_out[10]
 Cell user_project_wrapper (0) disconnected node: la_data_out[110]
 Cell user_project_wrapper (0) disconnected node: la_data_out[111]
 Cell user_project_wrapper (0) disconnected node: la_data_out[112]
@@ -332,7 +653,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[116]
 Cell user_project_wrapper (0) disconnected node: la_data_out[117]
 Cell user_project_wrapper (0) disconnected node: la_data_out[118]
 Cell user_project_wrapper (0) disconnected node: la_data_out[119]
-Cell user_project_wrapper (0) disconnected node: la_data_out[11]
 Cell user_project_wrapper (0) disconnected node: la_data_out[120]
 Cell user_project_wrapper (0) disconnected node: la_data_out[121]
 Cell user_project_wrapper (0) disconnected node: la_data_out[122]
@@ -341,7 +661,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[124]
 Cell user_project_wrapper (0) disconnected node: la_data_out[125]
 Cell user_project_wrapper (0) disconnected node: la_data_out[126]
 Cell user_project_wrapper (0) disconnected node: la_data_out[127]
-Cell user_project_wrapper (0) disconnected node: la_data_out[12]
 Cell user_project_wrapper (0) disconnected node: la_data_out[13]
 Cell user_project_wrapper (0) disconnected node: la_data_out[14]
 Cell user_project_wrapper (0) disconnected node: la_data_out[15]
@@ -349,7 +668,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[16]
 Cell user_project_wrapper (0) disconnected node: la_data_out[17]
 Cell user_project_wrapper (0) disconnected node: la_data_out[18]
 Cell user_project_wrapper (0) disconnected node: la_data_out[19]
-Cell user_project_wrapper (0) disconnected node: la_data_out[1]
 Cell user_project_wrapper (0) disconnected node: la_data_out[20]
 Cell user_project_wrapper (0) disconnected node: la_data_out[21]
 Cell user_project_wrapper (0) disconnected node: la_data_out[22]
@@ -360,7 +678,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[26]
 Cell user_project_wrapper (0) disconnected node: la_data_out[27]
 Cell user_project_wrapper (0) disconnected node: la_data_out[28]
 Cell user_project_wrapper (0) disconnected node: la_data_out[29]
-Cell user_project_wrapper (0) disconnected node: la_data_out[2]
 Cell user_project_wrapper (0) disconnected node: la_data_out[30]
 Cell user_project_wrapper (0) disconnected node: la_data_out[31]
 Cell user_project_wrapper (0) disconnected node: la_data_out[32]
@@ -371,7 +688,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[36]
 Cell user_project_wrapper (0) disconnected node: la_data_out[37]
 Cell user_project_wrapper (0) disconnected node: la_data_out[38]
 Cell user_project_wrapper (0) disconnected node: la_data_out[39]
-Cell user_project_wrapper (0) disconnected node: la_data_out[3]
 Cell user_project_wrapper (0) disconnected node: la_data_out[40]
 Cell user_project_wrapper (0) disconnected node: la_data_out[41]
 Cell user_project_wrapper (0) disconnected node: la_data_out[42]
@@ -382,7 +698,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[46]
 Cell user_project_wrapper (0) disconnected node: la_data_out[47]
 Cell user_project_wrapper (0) disconnected node: la_data_out[48]
 Cell user_project_wrapper (0) disconnected node: la_data_out[49]
-Cell user_project_wrapper (0) disconnected node: la_data_out[4]
 Cell user_project_wrapper (0) disconnected node: la_data_out[50]
 Cell user_project_wrapper (0) disconnected node: la_data_out[51]
 Cell user_project_wrapper (0) disconnected node: la_data_out[52]
@@ -393,7 +708,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[56]
 Cell user_project_wrapper (0) disconnected node: la_data_out[57]
 Cell user_project_wrapper (0) disconnected node: la_data_out[58]
 Cell user_project_wrapper (0) disconnected node: la_data_out[59]
-Cell user_project_wrapper (0) disconnected node: la_data_out[5]
 Cell user_project_wrapper (0) disconnected node: la_data_out[60]
 Cell user_project_wrapper (0) disconnected node: la_data_out[61]
 Cell user_project_wrapper (0) disconnected node: la_data_out[62]
@@ -404,7 +718,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[66]
 Cell user_project_wrapper (0) disconnected node: la_data_out[67]
 Cell user_project_wrapper (0) disconnected node: la_data_out[68]
 Cell user_project_wrapper (0) disconnected node: la_data_out[69]
-Cell user_project_wrapper (0) disconnected node: la_data_out[6]
 Cell user_project_wrapper (0) disconnected node: la_data_out[70]
 Cell user_project_wrapper (0) disconnected node: la_data_out[71]
 Cell user_project_wrapper (0) disconnected node: la_data_out[72]
@@ -415,7 +728,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[76]
 Cell user_project_wrapper (0) disconnected node: la_data_out[77]
 Cell user_project_wrapper (0) disconnected node: la_data_out[78]
 Cell user_project_wrapper (0) disconnected node: la_data_out[79]
-Cell user_project_wrapper (0) disconnected node: la_data_out[7]
 Cell user_project_wrapper (0) disconnected node: la_data_out[80]
 Cell user_project_wrapper (0) disconnected node: la_data_out[81]
 Cell user_project_wrapper (0) disconnected node: la_data_out[82]
@@ -426,7 +738,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[86]
 Cell user_project_wrapper (0) disconnected node: la_data_out[87]
 Cell user_project_wrapper (0) disconnected node: la_data_out[88]
 Cell user_project_wrapper (0) disconnected node: la_data_out[89]
-Cell user_project_wrapper (0) disconnected node: la_data_out[8]
 Cell user_project_wrapper (0) disconnected node: la_data_out[90]
 Cell user_project_wrapper (0) disconnected node: la_data_out[91]
 Cell user_project_wrapper (0) disconnected node: la_data_out[92]
@@ -437,7 +748,6 @@ Cell user_project_wrapper (0) disconnected node: la_data_out[96]
 Cell user_project_wrapper (0) disconnected node: la_data_out[97]
 Cell user_project_wrapper (0) disconnected node: la_data_out[98]
 Cell user_project_wrapper (0) disconnected node: la_data_out[99]
-Cell user_project_wrapper (0) disconnected node: la_data_out[9]
 Cell user_project_wrapper (0) disconnected node: la_oenb[0]
 Cell user_project_wrapper (0) disconnected node: la_oenb[100]
 Cell user_project_wrapper (0) disconnected node: la_oenb[101]
@@ -566,7 +876,6 @@ Cell user_project_wrapper (0) disconnected node: la_oenb[97]
 Cell user_project_wrapper (0) disconnected node: la_oenb[98]
 Cell user_project_wrapper (0) disconnected node: la_oenb[99]
 Cell user_project_wrapper (0) disconnected node: la_oenb[9]
-Cell user_project_wrapper (0) disconnected node: user_clock2
 Cell user_project_wrapper (0) disconnected node: user_irq[0]
 Cell user_project_wrapper (0) disconnected node: user_irq[1]
 Cell user_project_wrapper (0) disconnected node: user_irq[2]
@@ -682,7 +991,6 @@ Cell user_project_wrapper (0) disconnected node: wbs_sel_i[2]
 Cell user_project_wrapper (0) disconnected node: wbs_sel_i[3]
 Cell user_project_wrapper (0) disconnected node: wbs_stb_i
 Cell user_project_wrapper (0) disconnected node: wbs_we_i
-Cell user_project_wrapper (1) disconnected node: user_clock2
 Cell user_project_wrapper (1) disconnected node: wb_clk_i
 Cell user_project_wrapper (1) disconnected node: wb_rst_i
 Cell user_project_wrapper (1) disconnected node: wbs_ack_o
@@ -696,13 +1004,7 @@ Cell user_project_wrapper (1) disconnected node: vdda1
 Cell user_project_wrapper (1) disconnected node: vssd2
 Cell user_project_wrapper (1) disconnected node: vccd2
 Cell user_project_wrapper (1) disconnected node: analog_io[28]
-Cell user_project_wrapper (1) disconnected node: analog_io[27]
-Cell user_project_wrapper (1) disconnected node: analog_io[26]
-Cell user_project_wrapper (1) disconnected node: analog_io[25]
-Cell user_project_wrapper (1) disconnected node: analog_io[24]
 Cell user_project_wrapper (1) disconnected node: analog_io[23]
-Cell user_project_wrapper (1) disconnected node: analog_io[22]
-Cell user_project_wrapper (1) disconnected node: analog_io[21]
 Cell user_project_wrapper (1) disconnected node: io_in[37]
 Cell user_project_wrapper (1) disconnected node: io_in[36]
 Cell user_project_wrapper (1) disconnected node: io_in[35]
@@ -822,121 +1124,12 @@ Cell user_project_wrapper (1) disconnected node: la_data_in[126]
 Cell user_project_wrapper (1) disconnected node: la_data_in[125]
 Cell user_project_wrapper (1) disconnected node: la_data_in[124]
 Cell user_project_wrapper (1) disconnected node: la_data_in[123]
-Cell user_project_wrapper (1) disconnected node: la_data_in[122]
-Cell user_project_wrapper (1) disconnected node: la_data_in[121]
-Cell user_project_wrapper (1) disconnected node: la_data_in[120]
-Cell user_project_wrapper (1) disconnected node: la_data_in[119]
-Cell user_project_wrapper (1) disconnected node: la_data_in[118]
-Cell user_project_wrapper (1) disconnected node: la_data_in[117]
-Cell user_project_wrapper (1) disconnected node: la_data_in[116]
-Cell user_project_wrapper (1) disconnected node: la_data_in[115]
-Cell user_project_wrapper (1) disconnected node: la_data_in[114]
-Cell user_project_wrapper (1) disconnected node: la_data_in[113]
-Cell user_project_wrapper (1) disconnected node: la_data_in[112]
-Cell user_project_wrapper (1) disconnected node: la_data_in[111]
-Cell user_project_wrapper (1) disconnected node: la_data_in[110]
-Cell user_project_wrapper (1) disconnected node: la_data_in[109]
-Cell user_project_wrapper (1) disconnected node: la_data_in[108]
-Cell user_project_wrapper (1) disconnected node: la_data_in[107]
-Cell user_project_wrapper (1) disconnected node: la_data_in[106]
-Cell user_project_wrapper (1) disconnected node: la_data_in[105]
-Cell user_project_wrapper (1) disconnected node: la_data_in[104]
 Cell user_project_wrapper (1) disconnected node: la_data_in[103]
 Cell user_project_wrapper (1) disconnected node: la_data_in[102]
 Cell user_project_wrapper (1) disconnected node: la_data_in[101]
 Cell user_project_wrapper (1) disconnected node: la_data_in[100]
 Cell user_project_wrapper (1) disconnected node: la_data_in[99]
 Cell user_project_wrapper (1) disconnected node: la_data_in[98]
-Cell user_project_wrapper (1) disconnected node: la_data_in[97]
-Cell user_project_wrapper (1) disconnected node: la_data_in[96]
-Cell user_project_wrapper (1) disconnected node: la_data_in[95]
-Cell user_project_wrapper (1) disconnected node: la_data_in[94]
-Cell user_project_wrapper (1) disconnected node: la_data_in[93]
-Cell user_project_wrapper (1) disconnected node: la_data_in[92]
-Cell user_project_wrapper (1) disconnected node: la_data_in[91]
-Cell user_project_wrapper (1) disconnected node: la_data_in[90]
-Cell user_project_wrapper (1) disconnected node: la_data_in[89]
-Cell user_project_wrapper (1) disconnected node: la_data_in[88]
-Cell user_project_wrapper (1) disconnected node: la_data_in[87]
-Cell user_project_wrapper (1) disconnected node: la_data_in[86]
-Cell user_project_wrapper (1) disconnected node: la_data_in[85]
-Cell user_project_wrapper (1) disconnected node: la_data_in[84]
-Cell user_project_wrapper (1) disconnected node: la_data_in[83]
-Cell user_project_wrapper (1) disconnected node: la_data_in[82]
-Cell user_project_wrapper (1) disconnected node: la_data_in[81]
-Cell user_project_wrapper (1) disconnected node: la_data_in[80]
-Cell user_project_wrapper (1) disconnected node: la_data_in[79]
-Cell user_project_wrapper (1) disconnected node: la_data_in[78]
-Cell user_project_wrapper (1) disconnected node: la_data_in[77]
-Cell user_project_wrapper (1) disconnected node: la_data_in[76]
-Cell user_project_wrapper (1) disconnected node: la_data_in[75]
-Cell user_project_wrapper (1) disconnected node: la_data_in[74]
-Cell user_project_wrapper (1) disconnected node: la_data_in[73]
-Cell user_project_wrapper (1) disconnected node: la_data_in[72]
-Cell user_project_wrapper (1) disconnected node: la_data_in[71]
-Cell user_project_wrapper (1) disconnected node: la_data_in[70]
-Cell user_project_wrapper (1) disconnected node: la_data_in[69]
-Cell user_project_wrapper (1) disconnected node: la_data_in[68]
-Cell user_project_wrapper (1) disconnected node: la_data_in[67]
-Cell user_project_wrapper (1) disconnected node: la_data_in[66]
-Cell user_project_wrapper (1) disconnected node: la_data_in[65]
-Cell user_project_wrapper (1) disconnected node: la_data_in[64]
-Cell user_project_wrapper (1) disconnected node: la_data_in[63]
-Cell user_project_wrapper (1) disconnected node: la_data_in[62]
-Cell user_project_wrapper (1) disconnected node: la_data_in[61]
-Cell user_project_wrapper (1) disconnected node: la_data_in[60]
-Cell user_project_wrapper (1) disconnected node: la_data_in[59]
-Cell user_project_wrapper (1) disconnected node: la_data_in[58]
-Cell user_project_wrapper (1) disconnected node: la_data_in[57]
-Cell user_project_wrapper (1) disconnected node: la_data_in[56]
-Cell user_project_wrapper (1) disconnected node: la_data_in[55]
-Cell user_project_wrapper (1) disconnected node: la_data_in[54]
-Cell user_project_wrapper (1) disconnected node: la_data_in[53]
-Cell user_project_wrapper (1) disconnected node: la_data_in[52]
-Cell user_project_wrapper (1) disconnected node: la_data_in[51]
-Cell user_project_wrapper (1) disconnected node: la_data_in[50]
-Cell user_project_wrapper (1) disconnected node: la_data_in[49]
-Cell user_project_wrapper (1) disconnected node: la_data_in[48]
-Cell user_project_wrapper (1) disconnected node: la_data_in[47]
-Cell user_project_wrapper (1) disconnected node: la_data_in[46]
-Cell user_project_wrapper (1) disconnected node: la_data_in[45]
-Cell user_project_wrapper (1) disconnected node: la_data_in[44]
-Cell user_project_wrapper (1) disconnected node: la_data_in[43]
-Cell user_project_wrapper (1) disconnected node: la_data_in[42]
-Cell user_project_wrapper (1) disconnected node: la_data_in[41]
-Cell user_project_wrapper (1) disconnected node: la_data_in[40]
-Cell user_project_wrapper (1) disconnected node: la_data_in[39]
-Cell user_project_wrapper (1) disconnected node: la_data_in[38]
-Cell user_project_wrapper (1) disconnected node: la_data_in[37]
-Cell user_project_wrapper (1) disconnected node: la_data_in[36]
-Cell user_project_wrapper (1) disconnected node: la_data_in[35]
-Cell user_project_wrapper (1) disconnected node: la_data_in[34]
-Cell user_project_wrapper (1) disconnected node: la_data_in[33]
-Cell user_project_wrapper (1) disconnected node: la_data_in[32]
-Cell user_project_wrapper (1) disconnected node: la_data_in[31]
-Cell user_project_wrapper (1) disconnected node: la_data_in[30]
-Cell user_project_wrapper (1) disconnected node: la_data_in[29]
-Cell user_project_wrapper (1) disconnected node: la_data_in[28]
-Cell user_project_wrapper (1) disconnected node: la_data_in[27]
-Cell user_project_wrapper (1) disconnected node: la_data_in[26]
-Cell user_project_wrapper (1) disconnected node: la_data_in[25]
-Cell user_project_wrapper (1) disconnected node: la_data_in[24]
-Cell user_project_wrapper (1) disconnected node: la_data_in[23]
-Cell user_project_wrapper (1) disconnected node: la_data_in[22]
-Cell user_project_wrapper (1) disconnected node: la_data_in[21]
-Cell user_project_wrapper (1) disconnected node: la_data_in[20]
-Cell user_project_wrapper (1) disconnected node: la_data_in[19]
-Cell user_project_wrapper (1) disconnected node: la_data_in[18]
-Cell user_project_wrapper (1) disconnected node: la_data_in[17]
-Cell user_project_wrapper (1) disconnected node: la_data_in[16]
-Cell user_project_wrapper (1) disconnected node: la_data_in[15]
-Cell user_project_wrapper (1) disconnected node: la_data_in[14]
-Cell user_project_wrapper (1) disconnected node: la_data_in[13]
-Cell user_project_wrapper (1) disconnected node: la_data_in[12]
-Cell user_project_wrapper (1) disconnected node: la_data_in[11]
-Cell user_project_wrapper (1) disconnected node: la_data_in[10]
-Cell user_project_wrapper (1) disconnected node: la_data_in[9]
-Cell user_project_wrapper (1) disconnected node: la_data_in[8]
 Cell user_project_wrapper (1) disconnected node: la_data_in[7]
 Cell user_project_wrapper (1) disconnected node: la_data_out[127]
 Cell user_project_wrapper (1) disconnected node: la_data_out[126]
@@ -1053,19 +1246,6 @@ Cell user_project_wrapper (1) disconnected node: la_data_out[16]
 Cell user_project_wrapper (1) disconnected node: la_data_out[15]
 Cell user_project_wrapper (1) disconnected node: la_data_out[14]
 Cell user_project_wrapper (1) disconnected node: la_data_out[13]
-Cell user_project_wrapper (1) disconnected node: la_data_out[12]
-Cell user_project_wrapper (1) disconnected node: la_data_out[11]
-Cell user_project_wrapper (1) disconnected node: la_data_out[10]
-Cell user_project_wrapper (1) disconnected node: la_data_out[9]
-Cell user_project_wrapper (1) disconnected node: la_data_out[8]
-Cell user_project_wrapper (1) disconnected node: la_data_out[7]
-Cell user_project_wrapper (1) disconnected node: la_data_out[6]
-Cell user_project_wrapper (1) disconnected node: la_data_out[5]
-Cell user_project_wrapper (1) disconnected node: la_data_out[4]
-Cell user_project_wrapper (1) disconnected node: la_data_out[3]
-Cell user_project_wrapper (1) disconnected node: la_data_out[2]
-Cell user_project_wrapper (1) disconnected node: la_data_out[1]
-Cell user_project_wrapper (1) disconnected node: la_data_out[0]
 Cell user_project_wrapper (1) disconnected node: la_oenb[127]
 Cell user_project_wrapper (1) disconnected node: la_oenb[126]
 Cell user_project_wrapper (1) disconnected node: la_oenb[125]
@@ -1300,52 +1480,179 @@ Cell user_project_wrapper (1) disconnected node: wbs_sel_i[0]
 Subcircuit summary:
 Circuit 1: user_project_wrapper            |Circuit 2: user_project_wrapper            
 -------------------------------------------|-------------------------------------------
+CF_ADC_SAR12 (1)                           |CF_ADC_SAR12 (1)                           
+CF_REFBUF (1)                              |CF_REFBUF (1)                              
 CF_BUF_HIZ (1)                             |CF_BUF_HIZ (1)                             
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 30                         |Number of nets: 30                         
+CF_ADC_SAR12_sar_refs (1)                  |CF_ADC_SAR12_sar_refs (1)                  
+CF_BGR (1)                                 |CF_BGR (1)                                 
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 204                        |Number of nets: 204                        
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: user_project_wrapper            |Circuit 2: user_project_wrapper            
 -------------------------------------------|-------------------------------------------
-la_data_in[2]                              |la_data_in[2]                              
+analog_io[26]                              |analog_io[26]                              
+analog_io[7]                               |analog_io[7]                               
 vssd1                                      |vssd1                                      
+vccd1                                      |vccd1                                      
+la_data_in[13]                             |la_data_in[13]                             
+analog_io[25]                              |analog_io[25]                              
+analog_io[27]                              |analog_io[27]                              
+la_data_in[8]                              |la_data_in[8]                              
+la_data_in[9]                              |la_data_in[9]                              
+la_data_in[15]                             |la_data_in[15]                             
+analog_io[8]                               |analog_io[8]                               
+la_data_in[20]                             |la_data_in[20]                             
+analog_io[22]                              |analog_io[22]                              
+la_data_in[21]                             |la_data_in[21]                             
+la_data_in[22]                             |la_data_in[22]                             
+la_data_in[23]                             |la_data_in[23]                             
+la_data_in[11]                             |la_data_in[11]                             
+la_data_in[24]                             |la_data_in[24]                             
+la_data_in[10]                             |la_data_in[10]                             
+la_data_out[12]                            |la_data_out[12]                            
+la_data_in[14]                             |la_data_in[14]                             
+la_data_in[12]                             |la_data_in[12]                             
+analog_io[20]                              |analog_io[20]                              
+la_data_in[16]                             |la_data_in[16]                             
+la_data_in[19]                             |la_data_in[19]                             
+user_clock2                                |user_clock2                                
+la_data_in[17]                             |la_data_in[17]                             
+la_data_in[18]                             |la_data_in[18]                             
+la_data_in[39]                             |la_data_in[39]                             
+la_data_in[38]                             |la_data_in[38]                             
+la_data_in[37]                             |la_data_in[37]                             
+la_data_out[11]                            |la_data_out[11]                            
+la_data_out[10]                            |la_data_out[10]                            
+la_data_out[9]                             |la_data_out[9]                             
+la_data_out[8]                             |la_data_out[8]                             
+la_data_out[7]                             |la_data_out[7]                             
+la_data_out[6]                             |la_data_out[6]                             
+la_data_out[5]                             |la_data_out[5]                             
+la_data_out[4]                             |la_data_out[4]                             
+la_data_out[3]                             |la_data_out[3]                             
+la_data_out[2]                             |la_data_out[2]                             
+la_data_out[1]                             |la_data_out[1]                             
+la_data_out[0]                             |la_data_out[0]                             
+la_data_in[45]                             |la_data_in[45]                             
+la_data_in[44]                             |la_data_in[44]                             
+la_data_in[43]                             |la_data_in[43]                             
+la_data_in[42]                             |la_data_in[42]                             
+la_data_in[48]                             |la_data_in[48]                             
+la_data_in[47]                             |la_data_in[47]                             
+la_data_in[46]                             |la_data_in[46]                             
+la_data_in[41]                             |la_data_in[41]                             
+la_data_in[40]                             |la_data_in[40]                             
+la_data_in[26]                             |la_data_in[26]                             
+la_data_in[25]                             |la_data_in[25]                             
+la_data_in[36]                             |la_data_in[36]                             
+la_data_in[35]                             |la_data_in[35]                             
+la_data_in[34]                             |la_data_in[34]                             
+la_data_in[33]                             |la_data_in[33]                             
+la_data_in[32]                             |la_data_in[32]                             
+la_data_in[31]                             |la_data_in[31]                             
+la_data_in[30]                             |la_data_in[30]                             
+la_data_in[29]                             |la_data_in[29]                             
+la_data_in[28]                             |la_data_in[28]                             
+la_data_in[27]                             |la_data_in[27]                             
+la_data_in[52]                             |la_data_in[52]                             
+la_data_in[51]                             |la_data_in[51]                             
+la_data_in[50]                             |la_data_in[50]                             
+la_data_in[49]                             |la_data_in[49]                             
+la_data_in[63]                             |la_data_in[63]                             
+la_data_in[108]                            |la_data_in[108]                            
+la_data_in[109]                            |la_data_in[109]                            
+analog_io[21]                              |analog_io[21]                              
+la_data_in[118]                            |la_data_in[118]                            
+la_data_in[119]                            |la_data_in[119]                            
+la_data_in[120]                            |la_data_in[120]                            
+la_data_in[121]                            |la_data_in[121]                            
+la_data_in[122]                            |la_data_in[122]                            
+la_data_in[59]                             |la_data_in[59]                             
+la_data_in[58]                             |la_data_in[58]                             
+la_data_in[117]                            |la_data_in[117]                            
+la_data_in[116]                            |la_data_in[116]                            
+la_data_in[115]                            |la_data_in[115]                            
+la_data_in[114]                            |la_data_in[114]                            
+la_data_in[113]                            |la_data_in[113]                            
+la_data_in[112]                            |la_data_in[112]                            
+la_data_in[111]                            |la_data_in[111]                            
+la_data_in[110]                            |la_data_in[110]                            
+la_data_in[62]                             |la_data_in[62]                             
+la_data_in[61]                             |la_data_in[61]                             
+la_data_in[60]                             |la_data_in[60]                             
+la_data_in[57]                             |la_data_in[57]                             
+la_data_in[56]                             |la_data_in[56]                             
+la_data_in[55]                             |la_data_in[55]                             
+la_data_in[54]                             |la_data_in[54]                             
+la_data_in[53]                             |la_data_in[53]                             
+la_data_in[96]                             |la_data_in[96]                             
+la_data_in[97]                             |la_data_in[97]                             
+la_data_in[92]                             |la_data_in[92]                             
+la_data_in[93]                             |la_data_in[93]                             
+la_data_in[95]                             |la_data_in[95]                             
+la_data_in[94]                             |la_data_in[94]                             
+analog_io[24]                              |analog_io[24]                              
+analog_io[0]                               |analog_io[0]                               
+la_data_in[82]                             |la_data_in[82]                             
+la_data_in[81]                             |la_data_in[81]                             
+la_data_in[80]                             |la_data_in[80]                             
+la_data_in[79]                             |la_data_in[79]                             
+la_data_in[78]                             |la_data_in[78]                             
+la_data_in[77]                             |la_data_in[77]                             
+la_data_in[89]                             |la_data_in[89]                             
+la_data_in[88]                             |la_data_in[88]                             
+la_data_in[87]                             |la_data_in[87]                             
+la_data_in[86]                             |la_data_in[86]                             
+la_data_in[85]                             |la_data_in[85]                             
+la_data_in[84]                             |la_data_in[84]                             
+la_data_in[83]                             |la_data_in[83]                             
+la_data_in[91]                             |la_data_in[91]                             
+la_data_in[90]                             |la_data_in[90]                             
+la_data_in[76]                             |la_data_in[76]                             
+la_data_in[75]                             |la_data_in[75]                             
+la_data_in[74]                             |la_data_in[74]                             
+la_data_in[73]                             |la_data_in[73]                             
+la_data_in[72]                             |la_data_in[72]                             
+la_data_in[71]                             |la_data_in[71]                             
+la_data_in[70]                             |la_data_in[70]                             
+la_data_in[69]                             |la_data_in[69]                             
+la_data_in[68]                             |la_data_in[68]                             
+la_data_in[67]                             |la_data_in[67]                             
+la_data_in[66]                             |la_data_in[66]                             
+la_data_in[65]                             |la_data_in[65]                             
+la_data_in[64]                             |la_data_in[64]                             
+la_data_in[2]                              |la_data_in[2]                              
 la_data_in[3]                              |la_data_in[3]                              
 la_data_in[6]                              |la_data_in[6]                              
-analog_io[10]                              |analog_io[10]                              
-analog_io[17]                              |analog_io[17]                              
-analog_io[18]                              |analog_io[18]                              
-vccd1                                      |vccd1                                      
-analog_io[0]                               |analog_io[0]                               
-analog_io[15]                              |analog_io[15]                              
-analog_io[11]                              |analog_io[11]                              
-analog_io[1]                               |analog_io[1]                               
-analog_io[8]                               |analog_io[8]                               
 analog_io[9]                               |analog_io[9]                               
-la_data_in[0]                              |la_data_in[0]                              
 analog_io[16]                              |analog_io[16]                              
-analog_io[19]                              |analog_io[19]                              
-analog_io[20]                              |analog_io[20]                              
+analog_io[17]                              |analog_io[17]                              
 analog_io[14]                              |analog_io[14]                              
+analog_io[10]                              |analog_io[10]                              
+la_data_in[0]                              |la_data_in[0]                              
+analog_io[15]                              |analog_io[15]                              
+analog_io[18]                              |analog_io[18]                              
+analog_io[19]                              |analog_io[19]                              
 analog_io[13]                              |analog_io[13]                              
-la_data_in[1]                              |la_data_in[1]                              
 analog_io[12]                              |analog_io[12]                              
+la_data_in[1]                              |la_data_in[1]                              
+analog_io[11]                              |analog_io[11]                              
+analog_io[3]                               |analog_io[3]                               
 analog_io[4]                               |analog_io[4]                               
 analog_io[5]                               |analog_io[5]                               
 analog_io[6]                               |analog_io[6]                               
-analog_io[7]                               |analog_io[7]                               
-analog_io[3]                               |analog_io[3]                               
 analog_io[2]                               |analog_io[2]                               
+analog_io[1]                               |analog_io[1]                               
 la_data_in[5]                              |la_data_in[5]                              
 la_data_in[4]                              |la_data_in[4]                              
-analog_io[21]                              |analog_io[21]                              
-analog_io[22]                              |analog_io[22]                              
+la_data_in[104]                            |la_data_in[104]                            
+la_data_in[105]                            |la_data_in[105]                            
+la_data_in[107]                            |la_data_in[107]                            
+la_data_in[106]                            |la_data_in[106]                            
 analog_io[23]                              |analog_io[23]                              
-analog_io[24]                              |analog_io[24]                              
-analog_io[25]                              |analog_io[25]                              
-analog_io[26]                              |analog_io[26]                              
-analog_io[27]                              |analog_io[27]                              
 analog_io[28]                              |analog_io[28]                              
 io_in[0]                                   |io_in[0]                                   
 io_in[10]                                  |io_in[10]                                  
@@ -1465,124 +1772,14 @@ la_data_in[100]                            |la_data_in[100]
 la_data_in[101]                            |la_data_in[101]                            
 la_data_in[102]                            |la_data_in[102]                            
 la_data_in[103]                            |la_data_in[103]                            
-la_data_in[104]                            |la_data_in[104]                            
-la_data_in[105]                            |la_data_in[105]                            
-la_data_in[106]                            |la_data_in[106]                            
-la_data_in[107]                            |la_data_in[107]                            
-la_data_in[108]                            |la_data_in[108]                            
-la_data_in[109]                            |la_data_in[109]                            
-la_data_in[10]                             |la_data_in[10]                             
-la_data_in[110]                            |la_data_in[110]                            
-la_data_in[111]                            |la_data_in[111]                            
-la_data_in[112]                            |la_data_in[112]                            
-la_data_in[113]                            |la_data_in[113]                            
-la_data_in[114]                            |la_data_in[114]                            
-la_data_in[115]                            |la_data_in[115]                            
-la_data_in[116]                            |la_data_in[116]                            
-la_data_in[117]                            |la_data_in[117]                            
-la_data_in[118]                            |la_data_in[118]                            
-la_data_in[119]                            |la_data_in[119]                            
-la_data_in[11]                             |la_data_in[11]                             
-la_data_in[120]                            |la_data_in[120]                            
-la_data_in[121]                            |la_data_in[121]                            
-la_data_in[122]                            |la_data_in[122]                            
 la_data_in[123]                            |la_data_in[123]                            
 la_data_in[124]                            |la_data_in[124]                            
 la_data_in[125]                            |la_data_in[125]                            
 la_data_in[126]                            |la_data_in[126]                            
 la_data_in[127]                            |la_data_in[127]                            
-la_data_in[12]                             |la_data_in[12]                             
-la_data_in[13]                             |la_data_in[13]                             
-la_data_in[14]                             |la_data_in[14]                             
-la_data_in[15]                             |la_data_in[15]                             
-la_data_in[16]                             |la_data_in[16]                             
-la_data_in[17]                             |la_data_in[17]                             
-la_data_in[18]                             |la_data_in[18]                             
-la_data_in[19]                             |la_data_in[19]                             
-la_data_in[20]                             |la_data_in[20]                             
-la_data_in[21]                             |la_data_in[21]                             
-la_data_in[22]                             |la_data_in[22]                             
-la_data_in[23]                             |la_data_in[23]                             
-la_data_in[24]                             |la_data_in[24]                             
-la_data_in[25]                             |la_data_in[25]                             
-la_data_in[26]                             |la_data_in[26]                             
-la_data_in[27]                             |la_data_in[27]                             
-la_data_in[28]                             |la_data_in[28]                             
-la_data_in[29]                             |la_data_in[29]                             
-la_data_in[30]                             |la_data_in[30]                             
-la_data_in[31]                             |la_data_in[31]                             
-la_data_in[32]                             |la_data_in[32]                             
-la_data_in[33]                             |la_data_in[33]                             
-la_data_in[34]                             |la_data_in[34]                             
-la_data_in[35]                             |la_data_in[35]                             
-la_data_in[36]                             |la_data_in[36]                             
-la_data_in[37]                             |la_data_in[37]                             
-la_data_in[38]                             |la_data_in[38]                             
-la_data_in[39]                             |la_data_in[39]                             
-la_data_in[40]                             |la_data_in[40]                             
-la_data_in[41]                             |la_data_in[41]                             
-la_data_in[42]                             |la_data_in[42]                             
-la_data_in[43]                             |la_data_in[43]                             
-la_data_in[44]                             |la_data_in[44]                             
-la_data_in[45]                             |la_data_in[45]                             
-la_data_in[46]                             |la_data_in[46]                             
-la_data_in[47]                             |la_data_in[47]                             
-la_data_in[48]                             |la_data_in[48]                             
-la_data_in[49]                             |la_data_in[49]                             
-la_data_in[50]                             |la_data_in[50]                             
-la_data_in[51]                             |la_data_in[51]                             
-la_data_in[52]                             |la_data_in[52]                             
-la_data_in[53]                             |la_data_in[53]                             
-la_data_in[54]                             |la_data_in[54]                             
-la_data_in[55]                             |la_data_in[55]                             
-la_data_in[56]                             |la_data_in[56]                             
-la_data_in[57]                             |la_data_in[57]                             
-la_data_in[58]                             |la_data_in[58]                             
-la_data_in[59]                             |la_data_in[59]                             
-la_data_in[60]                             |la_data_in[60]                             
-la_data_in[61]                             |la_data_in[61]                             
-la_data_in[62]                             |la_data_in[62]                             
-la_data_in[63]                             |la_data_in[63]                             
-la_data_in[64]                             |la_data_in[64]                             
-la_data_in[65]                             |la_data_in[65]                             
-la_data_in[66]                             |la_data_in[66]                             
-la_data_in[67]                             |la_data_in[67]                             
-la_data_in[68]                             |la_data_in[68]                             
-la_data_in[69]                             |la_data_in[69]                             
-la_data_in[70]                             |la_data_in[70]                             
-la_data_in[71]                             |la_data_in[71]                             
-la_data_in[72]                             |la_data_in[72]                             
-la_data_in[73]                             |la_data_in[73]                             
-la_data_in[74]                             |la_data_in[74]                             
-la_data_in[75]                             |la_data_in[75]                             
-la_data_in[76]                             |la_data_in[76]                             
-la_data_in[77]                             |la_data_in[77]                             
-la_data_in[78]                             |la_data_in[78]                             
-la_data_in[79]                             |la_data_in[79]                             
 la_data_in[7]                              |la_data_in[7]                              
-la_data_in[80]                             |la_data_in[80]                             
-la_data_in[81]                             |la_data_in[81]                             
-la_data_in[82]                             |la_data_in[82]                             
-la_data_in[83]                             |la_data_in[83]                             
-la_data_in[84]                             |la_data_in[84]                             
-la_data_in[85]                             |la_data_in[85]                             
-la_data_in[86]                             |la_data_in[86]                             
-la_data_in[87]                             |la_data_in[87]                             
-la_data_in[88]                             |la_data_in[88]                             
-la_data_in[89]                             |la_data_in[89]                             
-la_data_in[8]                              |la_data_in[8]                              
-la_data_in[90]                             |la_data_in[90]                             
-la_data_in[91]                             |la_data_in[91]                             
-la_data_in[92]                             |la_data_in[92]                             
-la_data_in[93]                             |la_data_in[93]                             
-la_data_in[94]                             |la_data_in[94]                             
-la_data_in[95]                             |la_data_in[95]                             
-la_data_in[96]                             |la_data_in[96]                             
-la_data_in[97]                             |la_data_in[97]                             
 la_data_in[98]                             |la_data_in[98]                             
 la_data_in[99]                             |la_data_in[99]                             
-la_data_in[9]                              |la_data_in[9]                              
-la_data_out[0]                             |la_data_out[0]                             
 la_data_out[100]                           |la_data_out[100]                           
 la_data_out[101]                           |la_data_out[101]                           
 la_data_out[102]                           |la_data_out[102]                           
@@ -1593,7 +1790,6 @@ la_data_out[106]                           |la_data_out[106]
 la_data_out[107]                           |la_data_out[107]                           
 la_data_out[108]                           |la_data_out[108]                           
 la_data_out[109]                           |la_data_out[109]                           
-la_data_out[10]                            |la_data_out[10]                            
 la_data_out[110]                           |la_data_out[110]                           
 la_data_out[111]                           |la_data_out[111]                           
 la_data_out[112]                           |la_data_out[112]                           
@@ -1604,7 +1800,6 @@ la_data_out[116]                           |la_data_out[116]
 la_data_out[117]                           |la_data_out[117]                           
 la_data_out[118]                           |la_data_out[118]                           
 la_data_out[119]                           |la_data_out[119]                           
-la_data_out[11]                            |la_data_out[11]                            
 la_data_out[120]                           |la_data_out[120]                           
 la_data_out[121]                           |la_data_out[121]                           
 la_data_out[122]                           |la_data_out[122]                           
@@ -1613,7 +1808,6 @@ la_data_out[124]                           |la_data_out[124]
 la_data_out[125]                           |la_data_out[125]                           
 la_data_out[126]                           |la_data_out[126]                           
 la_data_out[127]                           |la_data_out[127]                           
-la_data_out[12]                            |la_data_out[12]                            
 la_data_out[13]                            |la_data_out[13]                            
 la_data_out[14]                            |la_data_out[14]                            
 la_data_out[15]                            |la_data_out[15]                            
@@ -1621,7 +1815,6 @@ la_data_out[16]                            |la_data_out[16]
 la_data_out[17]                            |la_data_out[17]                            
 la_data_out[18]                            |la_data_out[18]                            
 la_data_out[19]                            |la_data_out[19]                            
-la_data_out[1]                             |la_data_out[1]                             
 la_data_out[20]                            |la_data_out[20]                            
 la_data_out[21]                            |la_data_out[21]                            
 la_data_out[22]                            |la_data_out[22]                            
@@ -1632,7 +1825,6 @@ la_data_out[26]                            |la_data_out[26]
 la_data_out[27]                            |la_data_out[27]                            
 la_data_out[28]                            |la_data_out[28]                            
 la_data_out[29]                            |la_data_out[29]                            
-la_data_out[2]                             |la_data_out[2]                             
 la_data_out[30]                            |la_data_out[30]                            
 la_data_out[31]                            |la_data_out[31]                            
 la_data_out[32]                            |la_data_out[32]                            
@@ -1643,7 +1835,6 @@ la_data_out[36]                            |la_data_out[36]
 la_data_out[37]                            |la_data_out[37]                            
 la_data_out[38]                            |la_data_out[38]                            
 la_data_out[39]                            |la_data_out[39]                            
-la_data_out[3]                             |la_data_out[3]                             
 la_data_out[40]                            |la_data_out[40]                            
 la_data_out[41]                            |la_data_out[41]                            
 la_data_out[42]                            |la_data_out[42]                            
@@ -1654,7 +1845,6 @@ la_data_out[46]                            |la_data_out[46]
 la_data_out[47]                            |la_data_out[47]                            
 la_data_out[48]                            |la_data_out[48]                            
 la_data_out[49]                            |la_data_out[49]                            
-la_data_out[4]                             |la_data_out[4]                             
 la_data_out[50]                            |la_data_out[50]                            
 la_data_out[51]                            |la_data_out[51]                            
 la_data_out[52]                            |la_data_out[52]                            
@@ -1665,7 +1855,6 @@ la_data_out[56]                            |la_data_out[56]
 la_data_out[57]                            |la_data_out[57]                            
 la_data_out[58]                            |la_data_out[58]                            
 la_data_out[59]                            |la_data_out[59]                            
-la_data_out[5]                             |la_data_out[5]                             
 la_data_out[60]                            |la_data_out[60]                            
 la_data_out[61]                            |la_data_out[61]                            
 la_data_out[62]                            |la_data_out[62]                            
@@ -1676,7 +1865,6 @@ la_data_out[66]                            |la_data_out[66]
 la_data_out[67]                            |la_data_out[67]                            
 la_data_out[68]                            |la_data_out[68]                            
 la_data_out[69]                            |la_data_out[69]                            
-la_data_out[6]                             |la_data_out[6]                             
 la_data_out[70]                            |la_data_out[70]                            
 la_data_out[71]                            |la_data_out[71]                            
 la_data_out[72]                            |la_data_out[72]                            
@@ -1687,7 +1875,6 @@ la_data_out[76]                            |la_data_out[76]
 la_data_out[77]                            |la_data_out[77]                            
 la_data_out[78]                            |la_data_out[78]                            
 la_data_out[79]                            |la_data_out[79]                            
-la_data_out[7]                             |la_data_out[7]                             
 la_data_out[80]                            |la_data_out[80]                            
 la_data_out[81]                            |la_data_out[81]                            
 la_data_out[82]                            |la_data_out[82]                            
@@ -1698,7 +1885,6 @@ la_data_out[86]                            |la_data_out[86]
 la_data_out[87]                            |la_data_out[87]                            
 la_data_out[88]                            |la_data_out[88]                            
 la_data_out[89]                            |la_data_out[89]                            
-la_data_out[8]                             |la_data_out[8]                             
 la_data_out[90]                            |la_data_out[90]                            
 la_data_out[91]                            |la_data_out[91]                            
 la_data_out[92]                            |la_data_out[92]                            
@@ -1709,7 +1895,6 @@ la_data_out[96]                            |la_data_out[96]
 la_data_out[97]                            |la_data_out[97]                            
 la_data_out[98]                            |la_data_out[98]                            
 la_data_out[99]                            |la_data_out[99]                            
-la_data_out[9]                             |la_data_out[9]                             
 la_oenb[0]                                 |la_oenb[0]                                 
 la_oenb[100]                               |la_oenb[100]                               
 la_oenb[101]                               |la_oenb[101]                               
@@ -1838,7 +2023,6 @@ la_oenb[97]                                |la_oenb[97]
 la_oenb[98]                                |la_oenb[98]                                
 la_oenb[99]                                |la_oenb[99]                                
 la_oenb[9]                                 |la_oenb[9]                                 
-user_clock2                                |user_clock2                                
 user_irq[0]                                |user_irq[0]                                
 user_irq[1]                                |user_irq[1]                                
 user_irq[2]                                |user_irq[2]                                

@@ -6,7 +6,7 @@
     ],
     "PNR_SDC_FILE": "dir::signoff.sdc",
 
-    "//": "Hardening strategy variables (this is for 1-Macro-First Hardening).",
+    "//": "Hardening strategy variables (elaborate-only analog macros).",
     "SYNTH_ELABORATE_ONLY": true,
     "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "RUN_POST_GPL_DESIGN_REPAIR": false,
@@ -42,13 +42,89 @@
                 "dir::../../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ_core.v",
                 "dir::../../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ.v"
             ]
+        },
+        "CF_ADC_SAR12": {
+            "gds": [
+                "dir::../../ip/CF_ADC_SAR12/layout/gds/CF_ADC_SAR12.gds"
+            ],
+            "lef": [
+                "dir::../../ip/CF_ADC_SAR12/layout/lef/CF_ADC_SAR12.lef"
+            ],
+            "instances": {
+                "u_cf_adc_sar12": {
+                    "location": [426.34, 100.64],
+                    "orientation": "N"
+                }
+            },
+            "nl": [
+                "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_core.v",
+                "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12.v"
+            ]
+        },
+        "CF_BGR": {
+            "gds": [
+                "dir::../../ip/CF_BGR/layout/gds/CF_BGR.gds"
+            ],
+            "lef": [
+                "dir::../../ip/CF_BGR/layout/lef/CF_BGR.lef"
+            ],
+            "instances": {
+                "u_cf_bgr": {
+                    "location": [99.82, 750.00],
+                    "orientation": "N"
+                }
+            },
+            "nl": [
+                "dir::../../ip/CF_BGR/hdl/gl/CF_BGR_core.v",
+                "dir::../../ip/CF_BGR/hdl/gl/CF_BGR.v"
+            ]
+        },
+        "CF_REFBUF": {
+            "gds": [
+                "dir::../../ip/CF_REFBUF/layout/gds/CF_REFBUF.gds"
+            ],
+            "lef": [
+                "dir::../../ip/CF_REFBUF/layout/lef/CF_REFBUF.lef"
+            ],
+            "instances": {
+                "u_cf_refbuf": {
+                    "location": [618.29, 750.00],
+                    "orientation": "N"
+                }
+            },
+            "nl": [
+                "dir::../../ip/CF_REFBUF/hdl/gl/CF_REFBUF_core.v",
+                "dir::../../ip/CF_REFBUF/hdl/gl/CF_REFBUF.v"
+            ]
+        },
+        "CF_ADC_SAR12_sar_refs": {
+            "gds": [
+                "dir::../../ip/CF_ADC_SAR12/layout/gds/CF_ADC_SAR12_sar_refs.gds"
+            ],
+            "lef": [
+                "dir::CF_ADC_SAR12_sar_refs.lef"
+            ],
+            "instances": {
+                "u_cf_adc_sar12_sar_refs": {
+                    "location": [1010.16, 100.64],
+                    "orientation": "N"
+                }
+            },
+            "nl": [
+                "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs_core.v",
+                "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs.v"
+            ]
         }
     },
     "PDN_MACRO_CONNECTIONS": [
-        "u_cf_buf_hiz vccd1 vssd1 vpwr vgnd"
+        "u_cf_buf_hiz vccd1 vssd1 vpwr vgnd",
+        "u_cf_adc_sar12 vccd1 vssd1 vpwr vgnd",
+        "u_cf_bgr vccd1 vssd1 vpwr vgnd",
+        "u_cf_refbuf vccd1 vssd1 vpwr vgnd",
+        "u_cf_adc_sar12_sar_refs vccd1 vssd1 vpwr vgnd"
     ],
 
-    "//": "PDN. Default LibreLane met4/met5 vias onto CF_BUF_HIZ wrapper met4 PG pins (SRAM model).",
+    "//": "PDN. Default LibreLane met4/met5 vias onto wrap met4 PG pins (SRAM model).",
     "FP_PDN_HORIZONTAL_HALO": 10,
     "FP_PDN_VERTICAL_HALO": 10,
     "FP_PDN_VOFFSET": 5,
@@ -70,7 +146,13 @@
     "MAGIC_CAPTURE_ERRORS": false,
     "PRIMARY_GDSII_STREAMOUT_TOOL": "klayout",
     "MAGIC_EXT_USE_GDS": false,
-    "MAGIC_EXT_ABSTRACT_CELLS": ["^CF_BUF_HIZ_core$"],
+    "MAGIC_EXT_ABSTRACT_CELLS": [
+        "^CF_BUF_HIZ_core$",
+        "^CF_ADC_SAR12_core$",
+        "^CF_BGR_core$",
+        "^CF_REFBUF_core$",
+        "^CF_ADC_SAR12_sar_refs_core$"
+    ],
 
     "DRT_THREADS": 1,
     "MAX_TRANSITION_CONSTRAINT": 1.5,

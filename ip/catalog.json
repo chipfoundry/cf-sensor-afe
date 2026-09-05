@@ -29,5 +29,98 @@
         "sha256": "b29febe86c5e376bc124f5cc017df5627ddd35e3aff956a83076620d683a3cd0"
       }
     }
+  },
+  "CF_ADC_SAR12": {
+    "description": "12-bit successive-approximation ADC hard macro.",
+    "repo": "github.com/chipfoundry/CF_ADC_SAR12",
+    "author": "ChipFoundry",
+    "email": "support@chipfoundry.io",
+    "owner": "ChipFoundry",
+    "category": "Analog / Mixed-Signal",
+    "technology": "sky130",
+    "license": "proprietary",
+    "tags": [
+      "adc",
+      "sar"
+    ],
+    "release": {
+      "0.2.1": {
+        "date": "9-5-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "503.24",
+        "height": "533",
+        "cell_count": "4",
+        "clock_freq_mhz": "18",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "5c83bf83bc820640acbe912ce51787e42f8802089275aef759892f05a6d6cd50"
+      }
+    }
+  },
+  "CF_BGR": {
+    "description": "Voltage and current bandgap reference hard macro.",
+    "repo": "github.com/chipfoundry/CF_BGR",
+    "author": "ChipFoundry",
+    "email": "support@chipfoundry.io",
+    "owner": "ChipFoundry",
+    "category": "Voltage References",
+    "technology": "sky130",
+    "license": "proprietary",
+    "tags": [
+      "bandgap",
+      "reference"
+    ],
+    "release": {
+      "0.2.3": {
+        "date": "9-5-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "438.465",
+        "height": "311.22",
+        "cell_count": "2",
+        "clock_freq_mhz": "0",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "5a72f37cf0239cdc49a428d5ea4eb96115a61809497e165bd39e6eeb7f78d30f"
+      }
+    }
+  },
+  "CF_REFBUF": {
+    "description": "Precision reference buffer hard macro.",
+    "repo": "github.com/chipfoundry/CF_REFBUF",
+    "author": "ChipFoundry",
+    "email": "support@chipfoundry.io",
+    "owner": "ChipFoundry",
+    "category": "Analog / Mixed-Signal",
+    "technology": "sky130",
+    "license": "proprietary",
+    "tags": [
+      "buffer",
+      "reference"
+    ],
+    "release": {
+      "0.2.2": {
+        "date": "9-5-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "153.225",
+        "height": "177.695",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "63b9250d5941fa76f522038d9ead09a3ccca1bb205657fadfbcd6ce1474d5222"
+      }
+    }
   }
 }

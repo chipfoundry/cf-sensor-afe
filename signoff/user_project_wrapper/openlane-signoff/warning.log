@@ -1,29 +1,122 @@
-19 Lint warnings found.
+57 Lint warnings found.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
+[ORD-2011] LEF master CF_ADC_SAR12 has no liberty cell.
+[ORD-2011] LEF master CF_ADC_SAR12_sar_refs has no liberty cell.
+[ORD-2011] LEF master CF_BGR has no liberty cell.
 [ORD-2011] LEF master CF_BUF_HIZ has no liberty cell.
+[ORD-2011] LEF master CF_REFBUF has no liberty cell.
 Cell 'CF_BUF_HIZ' has (11) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'CF_BUF_HIZ' has (16) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'CF_BUF_HIZ' has (1) output pin(s) without antenna diffusion information. They might not be driven.
 [PDN-0239] Core ring shape falls outside the die bounds.
+[PDN-0110] No via inserted between met4 and met5 at (443.3700, 88.7300) - (446.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (623.3700, 88.7300) - (626.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (803.3700, 88.7300) - (806.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 88.7300) - (1166.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 271.2750) - (1166.4700, 271.8300) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 88.7300) - (1346.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 271.2750) - (1346.4700, 271.8300) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 88.7300) - (1526.4700, 89.8400) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 271.2750) - (1526.4700, 271.8300) on vdda1
 Bterm vssa2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vdda2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssa1 is declared as a 'GROUND' pin. It will be ignored.
@@ -872,6 +965,12 @@ Skipping…
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
@@ -1070,6 +1169,13 @@ Skipping…
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
+[GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
@@ -1263,6 +1369,7 @@ Skipping…
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
+[GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
@@ -1455,6 +1562,12 @@ Skipping…
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
@@ -1642,26 +1755,6 @@ Skipping…
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
@@ -1686,6 +1779,44 @@ Skipping…
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/finetune
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/en_startb
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimCurr[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/CurrAbsTrim[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux2sel
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux1sel[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/mux1sel[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/dft_sel
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/pd_ibg
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/pd
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[6]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[4]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/trimTC[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[0]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[1]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/dft_curr_in
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/Vout
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/ibg_3uA
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/ibg_2p375uA
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[6]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[5]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[3]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[2]
+[DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[4]
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/tp
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/clk2_boost
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/clk1_boostr
@@ -2178,25 +2309,624 @@ Skipping…
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] message limit reached, this message will no longer print
 Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner nom_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner nom_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner min_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner min_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner min_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_tt_025C_1v80. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_tt_025C_1v80. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ss_100C_1v60. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ss_100C_1v60. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ss_100C_1v60. The module will be black-boxed.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12 at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_BGR, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_BGR at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
+Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
+No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
 Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'user_project_wrapper' has (368) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'user_project_wrapper' has (240) output pin(s) without antenna diffusion information. They might not be driven.
