@@ -15,7 +15,16 @@
 
 // Caravel user project includes		
 $USER_PROJECT_VERILOG/gl/user_project_wrapper.v
-$USER_PROJECT_ROOT/ip/CF_BGR/hdl/gl/CF_BGR.v
+$USER_PROJECT_VERILOG/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ.v
+$USER_PROJECT_VERILOG/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ_core.v
+$USER_PROJECT_VERILOG/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12.v
+$USER_PROJECT_VERILOG/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_core.v
+$USER_PROJECT_VERILOG/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs.v
+$USER_PROJECT_VERILOG/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs_core.v
+$USER_PROJECT_VERILOG/../ip/CF_BGR/hdl/gl/CF_BGR.v
+$USER_PROJECT_VERILOG/../ip/CF_BGR/hdl/gl/CF_BGR_core.v
+$USER_PROJECT_VERILOG/../ip/CF_REFBUF/hdl/gl/CF_REFBUF.v
+$USER_PROJECT_VERILOG/../ip/CF_REFBUF/hdl/gl/CF_REFBUF_core.v
 
 // Automatically generated with user I/O config from user_defines.v
 // by caravel/scripts/gen_gpio_defaults.py

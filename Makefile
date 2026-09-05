@@ -179,6 +179,10 @@ $(dv-targets-rtl): SIM=RTL
 $(dv-targets-rtl): verify-%-rtl: $(dv_base_dependencies)
 	$(docker_run_verify)
 
+# Explicit aliases so `make verify-afe_uart` is not swallowed by the Caravel catch-all.
+.PHONY: verify-afe_uart
+verify-afe_uart: verify-afe_uart-rtl
+
 $(dv-targets-gl): SIM=GL
 $(dv-targets-gl): verify-%-gl: $(dv_base_dependencies)
 	$(docker_run_verify)

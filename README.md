@@ -32,8 +32,12 @@ sensor pads → CF_BUF_HIZ → CF_ADC_SAR12 → firmware/UART
               CF_REFBUF (buffered Vout monitor)
 ```
 
-This drop 4 adds wrapped `CF_ADC_SAR12_sar_refs` to the four other catalog
-IPs. Chip PDN is Caravel's 1.8 V user supply (`vccd1`/`vssd1` → wrap
+Drop 4 places all five wrapped macros. Drop 5 is management-SoC firmware
+that enables the Logic Analyzer probes, takes the SAR out of reset, pulses
+`sof`, and prints `data_out` on UART TX (GPIO 6). Analog GPIOs 7–34 stay
+user analog.
+
+Chip PDN is Caravel's 1.8 V user supply (`vccd1`/`vssd1` → wrap
 `vpwr`/`vgnd` on every macro). On-chip analog:
 
 - `CF_BUF_HIZ.vout` → `CF_ADC_SAR12.vinp`
@@ -50,8 +54,9 @@ pads; GDS and PDN still come from the 0.2.1 wrap.
 
 `user_project_wrapper` is elaborated rather than synthesized. It contains only
 the macro instances and wiring (no taps, stdcell rails, or tie cells). The
-Logic Analyzer probes drive the macro inputs directly: firmware must enable
-the probes (`la_oenb`).
+Logic Analyzer probes drive the macro inputs: flash `verilog/dv/afe_uart`
+so firmware enables the probes (`la_oenb`), deasserts SAR `reset_n`, and
+prints codes on UART TX (GPIO 6).
 
 ### CF_BUF_HIZ connections
 
@@ -127,6 +132,26 @@ ipm install CF_BGR --version 0.2.3 --include-drafts \
 ipm install CF_REFBUF --version 0.2.2 --include-drafts \
   --local-file ip/catalog.json
 ```
+
+### Firmware
+
+Eval-board image: `verilog/dv/afe_uart/afe_uart.c`. GPIO 6 is UART TX.
+
+From the project root after `cf gpio-config` and a working `venv-cocotb`:
+
+```bash
+cf verify afe_uart
+```
+
+That runs cocotb in `chipfoundry/dv:cocotb`. Expected UART:
+
+```
+AFE ready
+ADC xxx
+```
+
+`reset_n` is LA 10 (must be 1). `sof` is LA 11. Analog `_core` cells are
+empty blackboxes, so the printed code is not a measured voltage.
 
 ---
 
