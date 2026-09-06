@@ -16,12 +16,13 @@
 # Caravel user project includes
 # Cocotb expands USER_PROJECT_VERILOG, not USER_PROJECT_ROOT.
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/afe_wb.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ_core.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12.v
--v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_core.v
+-v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/verify/beh_model/CF_ADC_SAR12_core.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs.v
--v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs_core.v
+-v $(USER_PROJECT_VERILOG)/../ip/CF_ADC_SAR12/verify/beh_model/CF_ADC_SAR12_sar_refs_core.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_BGR/hdl/gl/CF_BGR.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_BGR/hdl/gl/CF_BGR_core.v
 -v $(USER_PROJECT_VERILOG)/../ip/CF_REFBUF/hdl/gl/CF_REFBUF.v

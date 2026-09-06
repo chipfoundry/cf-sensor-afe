@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * You may obtain the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -14,24 +14,24 @@
 #include <stub.c>
 
 /*
- * Sensor AFE bring-up firmware.
+ * Sensor AFE bring-up firmware (Wishbone CSR).
  *
- * Enables Logic Analyzer probes so the management SoC can drive the analog
- * macros, takes the SAR out of reset, pulses sof, and prints data_out on UART
- * TX (GPIO 6). Analog GPIOs 7-34 match user_defines.v.
+ * User space 0x30000000, word offsets:
+ *   0 ID, 1 CTRL, 2 STATUS (data_out[11:0], eof)
  *
- * LA oenb is active-low in mgmt_protect: 0 = management drives la_data_in.
+ * CTRL: [0] reset_n [1] sof [4] enable_hv
  *
- *   reset_n    LA 10
- *   sof        LA 11
- *   enable_hv  LA 15
- *   data_out   LA out [11:0]
- *   eof        LA out 12
+ * Analog GPIOs 7-34 match user_defines.v. UART TX is GPIO 6.
  */
 
-#define LA_RESET_N    (1u << 10)
-#define LA_SOF        (1u << 11)
-#define LA_ENABLE_HV  (1u << 15)
+#define AFE_BASE          ((volatile uint32_t *)0x30000000)
+#define AFE_ID            0
+#define AFE_CTRL          1
+#define AFE_STATUS        2
+#define AFE_CTRL_RESET_N  (1u << 0)
+#define AFE_CTRL_SOF      (1u << 1)
+#define AFE_CTRL_ENABLE_HV (1u << 4)
+#define AFE_ID_VALUE      0xAFE00001u
 
 static void delay(int n)
 {
@@ -50,33 +50,18 @@ static void print_hex12(unsigned int v)
 
 static void afe_enable(void)
 {
-	/* Active-low oenb: drive all probes toward the user project. */
-	reg_la0_oenb = 0x00000000;
-	reg_la1_oenb = 0x00000000;
-	reg_la2_oenb = 0x00000000;
-	reg_la3_oenb = 0x00000000;
-	reg_la0_iena = 0xFFFFFFFF;
-	reg_la1_iena = 0xFFFFFFFF;
-	reg_la2_iena = 0xFFFFFFFF;
-	reg_la3_iena = 0xFFFFFFFF;
-
-	/* pd/pd_ana/hiz stay 0 (macros enabled). reset_n and enable_hv on. */
-	reg_la0_data = LA_RESET_N | LA_ENABLE_HV;
-	reg_la1_data = 0x00000000;
-	reg_la2_data = 0x00000000;
-	reg_la3_data = 0x00000000;
+	reg_wb_enable = 1;
+	AFE_BASE[AFE_CTRL] = AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV;
+	delay(40);
 }
 
 static unsigned int afe_sample(void)
 {
-	unsigned int la0;
-
-	reg_la0_data = LA_RESET_N | LA_ENABLE_HV | LA_SOF;
+	AFE_BASE[AFE_CTRL] = AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF;
 	delay(40);
-	reg_la0_data = LA_RESET_N | LA_ENABLE_HV;
-	delay(400);
-	la0 = reg_la0_data_in;
-	return la0 & 0xFFFu;
+	AFE_BASE[AFE_CTRL] = AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV;
+	delay(800);
+	return AFE_BASE[AFE_STATUS] & 0xFFFu;
 }
 
 void main()

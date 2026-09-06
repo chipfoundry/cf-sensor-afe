@@ -1,4 +1,4 @@
-57 Lint warnings found.
+48 Lint warnings found.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
@@ -99,6 +99,7 @@ Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner
 No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [ORD-2011] LEF master CF_ADC_SAR12 has no liberty cell.
 [ORD-2011] LEF master CF_ADC_SAR12_sar_refs has no liberty cell.
 [ORD-2011] LEF master CF_BGR has no liberty cell.
@@ -107,16 +108,11 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The mo
 Cell 'CF_BUF_HIZ' has (11) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'CF_BUF_HIZ' has (16) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'CF_BUF_HIZ' has (1) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [PDN-0239] Core ring shape falls outside the die bounds.
-[PDN-0110] No via inserted between met4 and met5 at (443.3700, 88.7300) - (446.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (623.3700, 88.7300) - (626.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (803.3700, 88.7300) - (806.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 88.7300) - (1166.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1163.3700, 271.2750) - (1166.4700, 271.8300) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 88.7300) - (1346.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1343.3700, 271.2750) - (1346.4700, 271.8300) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 88.7300) - (1526.4700, 89.8400) on vdda1
-[PDN-0110] No via inserted between met4 and met5 at (1523.3700, 271.2750) - (1526.4700, 271.8300) on vdda1
+[PDN-0110] No via inserted between met4 and met5 at (244.7700, 432.0650) - (247.8700, 433.2300) on vssd2
+[PDN-0110] No via inserted between met4 and met5 at (244.7700, 432.0650) - (247.8700, 433.2300) on vssd2
 Bterm vssa2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vdda2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssa1 is declared as a 'GROUND' pin. It will be ignored.
@@ -125,12 +121,18 @@ Bterm vssd2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssd1 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd1 is declared as a 'POWER' pin. It will be ignored.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 All instances are FIXED/FIRM.
 No need to perform global placement.
 Skipping…
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [GRT-0097] No global routing found for nets.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [GRT-0097] No global routing found for nets.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [GRT-0097] No global routing found for nets.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [GRT-0036] Pin analog_io[0] is outside die area.
 [GRT-0036] Pin analog_io[10] is outside die area.
 [GRT-0036] Pin analog_io[11] is outside die area.
@@ -971,6 +973,8 @@ Skipping…
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
+[GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
@@ -1562,6 +1566,8 @@ Skipping…
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
+[GRT-0041] Net vssd2 has wires/vias outside die area.
+[GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
@@ -1755,10 +1761,6 @@ Skipping…
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
-[GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
@@ -1769,6 +1771,9 @@ Skipping…
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] message limit reached, this message will no longer print
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
@@ -1823,16 +1828,15 @@ Skipping…
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpt
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpcis
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpci
-[DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbnt
+[DRT-0418] Term u_cf_buf_hiz/vbnt has no pins on routing grid
 [DRT-0418] Term u_cf_buf_hiz/vbnci has no pins on routing grid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpcid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbptd
-[DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbnc
-[DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpc
+[DRT-0418] Term u_cf_buf_hiz/vbnc has no pins on routing grid
+[DRT-0418] Term u_cf_buf_hiz/vbpc has no pins on routing grid
 [DRT-0418] Term u_cf_buf_hiz/vinp_n has no pins on routing grid
 [DRT-0418] Term u_cf_buf_hiz/vinp_na has no pins on routing grid
 [DRT-0418] Term u_cf_buf_hiz/vinn_na has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vinp_p has no pins on routing grid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_na_boost
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_n_boost
 [DRT-6000] Macro pin has more than 1 polygon
@@ -2836,7 +2840,11 @@ Skipping…
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] Macro pin has more than 1 polygon
 [DRT-6000] message limit reached, this message will no longer print
+[STA-1140] /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib line 1, library afe_wb already exists.
 Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[RCX-0111] Net 19 analog_io[26] has a loop at x=616860 y=667420 , on iterm u_cf_adc_sar12/vssa.
+[RCX-0111] Net 19 analog_io[26] has a loop at x=616860 y=667420 , on iterm u_cf_adc_sar12/vssa.
+[RCX-0111] Net 19 analog_io[26] has a loop at x=616860 y=667420 , on iterm u_cf_adc_sar12/vssa.
 Netlists found for macro CF_BUF_HIZ, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
 Netlists found for macro CF_ADC_SAR12, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.
@@ -2927,17 +2935,11 @@ Netlists found for macro CF_REFBUF, but no parasitics extraction found at corner
 No libs found for macro CF_REFBUF at corner max_ff_n40C_1v95. The module will be black-boxed.
 Netlists found for macro CF_ADC_SAR12_sar_refs, but no parasitics extraction found at corner max_ff_n40C_1v95. The netlist cannot be used for timing on this module.
 No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The module will be black-boxed.
-Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
-Cell 'user_project_wrapper' has (368) input pin(s) without antenna gate information. They might not be connected to a gate.
-Cell 'user_project_wrapper' has (240) output pin(s) without antenna diffusion information. They might not be driven.
+Cell 'user_project_wrapper' has (12) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
+Cell 'user_project_wrapper' has (327) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'user_project_wrapper' has (207) output pin(s) without antenna diffusion information. They might not be driven.
 Max Slew violations found in the following corners:
 * max_ff_n40C_1v95
 * max_ss_100C_1v60
 * max_tt_025C_1v80
-* min_ff_n40C_1v95
-* min_ss_100C_1v60
-* min_tt_025C_1v80
-* nom_ff_n40C_1v95
-* nom_ss_100C_1v60
-* nom_tt_025C_1v80
 magic__drc_error__count not reported. Magic.DRC may have been skipped.

@@ -1,4 +1,68 @@
-┏━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━┳━━━━━┳━━━━━━━┓
-┃ P / R ┃ Partial ┃ Required ┃ Net ┃ Pin ┃ Layer ┃
-┡━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━╇━━━━━╇━━━━━╇━━━━━━━┩
-└───────┴─────────┴──────────┴─────┴─────┴───────┘
+┏━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ P / R ┃ Partial ┃ Required ┃ Net           ┃ Pin                    ┃ Layer ┃
+┡━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ 22.82 │ 9127.21 │ 400.00   │ afe_data[2\]  │ u_afe_wb/adc_data[2]   │ met5  │
+│ 19.09 │ 7634.73 │ 400.00   │ afe_data[9\]  │ u_afe_wb/adc_data[9]   │ met3  │
+│ 17.14 │ 6856.25 │ 400.00   │ afe_data[9\]  │ u_afe_wb/adc_data[9]   │ met4  │
+│ 14.52 │ 5806.80 │ 400.00   │ afe_data[3\]  │ u_afe_wb/adc_data[3]   │ met3  │
+│ 13.50 │ 5400.90 │ 400.00   │ afe_data[5\]  │ u_afe_wb/adc_data[5]   │ met3  │
+│ 13.49 │ 5395.58 │ 400.00   │ afe_data[7\]  │ u_afe_wb/adc_data[7]   │ met3  │
+│ 12.95 │ 5179.32 │ 400.00   │ afe_data[10\] │ u_afe_wb/adc_data[10]  │ met3  │
+│ 12.88 │ 5150.25 │ 400.00   │ afe_data[8\]  │ u_afe_wb/adc_data[8]   │ met3  │
+│ 12.80 │ 5121.71 │ 400.00   │ afe_data[8\]  │ u_afe_wb/adc_data[8]   │ met4  │
+│ 12.56 │ 5025.69 │ 400.00   │ afe_data[2\]  │ u_afe_wb/adc_data[2]   │ met4  │
+│ 12.06 │ 4825.36 │ 400.00   │ afe_data[1\]  │ u_afe_wb/adc_data[1]   │ met5  │
+│ 10.38 │ 4152.86 │ 400.00   │ afe_data[5\]  │ u_afe_wb/adc_data[5]   │ met4  │
+│ 9.99  │ 3994.52 │ 400.00   │ afe_data[6\]  │ u_afe_wb/adc_data[6]   │ met4  │
+│ 9.97  │ 3989.41 │ 400.00   │ afe_data[4\]  │ u_afe_wb/adc_data[4]   │ met4  │
+│ 9.44  │ 3775.02 │ 400.00   │ afe_eof       │ u_afe_wb/adc_eof       │ met3  │
+│ 6.51  │ 2602.29 │ 400.00   │ wbs_dat_i[30] │ u_afe_wb/wbs_dat_i[30] │ met3  │
+│ 6.34  │ 2535.11 │ 400.00   │ wbs_dat_i[29] │ u_afe_wb/wbs_dat_i[29] │ met3  │
+│ 6.27  │ 2506.89 │ 400.00   │ afe_data[0\]  │ u_afe_wb/adc_data[0]   │ met3  │
+│ 6.14  │ 2456.25 │ 400.00   │ wbs_dat_i[28] │ u_afe_wb/wbs_dat_i[28] │ met3  │
+│ 5.91  │ 2365.71 │ 400.00   │ wbs_dat_i[27] │ u_afe_wb/wbs_dat_i[27] │ met3  │
+│ 5.67  │ 2269.33 │ 400.00   │ wbs_dat_i[26] │ u_afe_wb/wbs_dat_i[26] │ met3  │
+│ 5.57  │ 2227.33 │ 400.00   │ afe_eof       │ u_afe_wb/adc_eof       │ met2  │
+│ 5.51  │ 2205.08 │ 400.00   │ wbs_dat_i[25] │ u_afe_wb/wbs_dat_i[25] │ met3  │
+│ 5.26  │ 2102.86 │ 400.00   │ wbs_dat_i[24] │ u_afe_wb/wbs_dat_i[24] │ met3  │
+│ 5.05  │ 2021.08 │ 400.00   │ wbs_dat_i[23] │ u_afe_wb/wbs_dat_i[23] │ met3  │
+│ 4.83  │ 1930.54 │ 400.00   │ wbs_dat_i[22] │ u_afe_wb/wbs_dat_i[22] │ met3  │
+│ 4.59  │ 1837.08 │ 400.00   │ wbs_dat_i[21] │ u_afe_wb/wbs_dat_i[21] │ met3  │
+│ 4.42  │ 1769.90 │ 400.00   │ wbs_dat_i[20] │ u_afe_wb/wbs_dat_i[20] │ met3  │
+│ 4.18  │ 1673.52 │ 400.00   │ wbs_dat_i[19] │ u_afe_wb/wbs_dat_i[19] │ met3  │
+│ 4.04  │ 1615.11 │ 400.00   │ wbs_dat_i[18] │ u_afe_wb/wbs_dat_i[18] │ met3  │
+│ 3.75  │ 1498.29 │ 400.00   │ wbs_dat_i[17] │ u_afe_wb/wbs_dat_i[17] │ met3  │
+│ 3.57  │ 1428.19 │ 400.00   │ wbs_dat_i[16] │ u_afe_wb/wbs_dat_i[16] │ met3  │
+│ 3.37  │ 1349.33 │ 400.00   │ wbs_dat_i[15] │ u_afe_wb/wbs_dat_i[15] │ met3  │
+│ 3.15  │ 1258.79 │ 400.00   │ wbs_dat_i[14] │ u_afe_wb/wbs_dat_i[14] │ met3  │
+│ 2.93  │ 1171.17 │ 400.00   │ wbs_dat_i[13] │ u_afe_wb/wbs_dat_i[13] │ met3  │
+│ 2.62  │ 1048.51 │ 400.00   │ wbs_dat_i[31] │ u_afe_wb/wbs_dat_i[31] │ met3  │
+│ 2.56  │ 1025.14 │ 400.00   │ wbs_dat_i[11] │ u_afe_wb/wbs_dat_i[11] │ met3  │
+│ 2.19  │ 876.06  │ 400.00   │ wbs_dat_i[10] │ u_afe_wb/wbs_dat_i[10] │ met3  │
+│ 2.01  │ 803.17  │ 400.00   │ wbs_dat_i[9]  │ u_afe_wb/wbs_dat_i[9]  │ met3  │
+│ 1.85  │ 738.92  │ 400.00   │ wbs_dat_i[8]  │ u_afe_wb/wbs_dat_i[8]  │ met3  │
+│ 1.73  │ 690.14  │ 400.00   │ afe_data[9\]  │ u_afe_wb/adc_data[9]   │ met2  │
+│ 1.66  │ 665.90  │ 400.00   │ wbs_dat_i[7]  │ u_afe_wb/wbs_dat_i[7]  │ met3  │
+│ 1.65  │ 659.67  │ 400.00   │ wbs_dat_i[1]  │ u_afe_wb/wbs_dat_i[1]  │ met2  │
+│ 1.63  │ 650.67  │ 400.00   │ wbs_dat_i[0]  │ u_afe_wb/wbs_dat_i[0]  │ met2  │
+│ 1.62  │ 648.81  │ 400.00   │ wbs_dat_i[10] │ u_afe_wb/wbs_dat_i[10] │ met2  │
+│ 1.62  │ 648.56  │ 400.00   │ wbs_dat_i[12] │ u_afe_wb/wbs_dat_i[12] │ met2  │
+│ 1.58  │ 633.47  │ 400.00   │ wbs_adr_i[3]  │ u_afe_wb/wbs_adr_i[3]  │ met2  │
+│ 1.56  │ 622.14  │ 400.00   │ wbs_dat_i[8]  │ u_afe_wb/wbs_dat_i[8]  │ met2  │
+│ 1.56  │ 622.14  │ 400.00   │ wbs_dat_i[9]  │ u_afe_wb/wbs_dat_i[9]  │ met2  │
+│ 1.55  │ 618.36  │ 400.00   │ wbs_dat_i[11] │ u_afe_wb/wbs_dat_i[11] │ met2  │
+│ 1.55  │ 618.36  │ 400.00   │ wbs_dat_i[6]  │ u_afe_wb/wbs_dat_i[6]  │ met2  │
+│ 1.54  │ 617.03  │ 400.00   │ wbs_dat_i[30] │ u_afe_wb/wbs_dat_i[30] │ met2  │
+│ 1.54  │ 614.58  │ 400.00   │ wbs_adr_i[5]  │ u_afe_wb/wbs_adr_i[5]  │ met2  │
+│ 1.46  │ 584.36  │ 400.00   │ wbs_dat_i[21] │ u_afe_wb/wbs_dat_i[21] │ met2  │
+│ 1.45  │ 580.58  │ 400.00   │ wbs_dat_i[19] │ u_afe_wb/wbs_dat_i[19] │ met2  │
+│ 1.42  │ 569.52  │ 400.00   │ wbs_dat_i[6]  │ u_afe_wb/wbs_dat_i[6]  │ met3  │
+│ 1.42  │ 569.25  │ 400.00   │ wbs_dat_i[2]  │ u_afe_wb/wbs_dat_i[2]  │ met2  │
+│ 1.42  │ 569.25  │ 400.00   │ wbs_dat_i[3]  │ u_afe_wb/wbs_dat_i[3]  │ met2  │
+│ 1.25  │ 501.25  │ 400.00   │ wbs_dat_i[17] │ u_afe_wb/wbs_dat_i[17] │ met2  │
+│ 1.23  │ 490.67  │ 400.00   │ wbs_dat_i[5]  │ u_afe_wb/wbs_dat_i[5]  │ met3  │
+│ 1.17  │ 466.76  │ 400.00   │ afe_data[10\] │ u_afe_wb/adc_data[10]  │ met2  │
+│ 1.15  │ 458.54  │ 400.00   │ wbs_adr_i[5]  │ u_afe_wb/wbs_adr_i[5]  │ met3  │
+│ 1.08  │ 433.25  │ 400.00   │ wbs_dat_i[26] │ u_afe_wb/wbs_dat_i[26] │ met2  │
+│ 1.02  │ 406.81  │ 400.00   │ wbs_adr_i[2]  │ u_afe_wb/wbs_adr_i[2]  │ met2  │
+└───────┴─────────┴──────────┴───────────────┴────────────────────────┴───────┘

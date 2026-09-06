@@ -58,6 +58,21 @@
         ],
         "draft": true,
         "sha256": "5c83bf83bc820640acbe912ce51787e42f8802089275aef759892f05a6d6cd50"
+      },
+      "0.2.2": {
+        "date": "9-5-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "503.24",
+        "height": "533",
+        "cell_count": "4",
+        "clock_freq_mhz": "18",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "4d0bc94b2818ae04c6f58772bf5304d8d349ea645a03daeaef00757baa0e8720"
       }
     }
   },

@@ -164,7 +164,7 @@
                 "u_cf_buf_hiz": {
                     "location": [
                         99.82,
-                        100.64
+                        650
                     ],
                     "orientation": "N"
                 }
@@ -192,7 +192,7 @@
                 "u_cf_adc_sar12": {
                     "location": [
                         426.34,
-                        100.64
+                        650
                     ],
                     "orientation": "N"
                 }
@@ -220,7 +220,7 @@
                 "u_cf_bgr": {
                     "location": [
                         99.82,
-                        750
+                        1210
                     ],
                     "orientation": "N"
                 }
@@ -248,7 +248,7 @@
                 "u_cf_refbuf": {
                     "location": [
                         618.29,
-                        750
+                        1210
                     ],
                     "orientation": "N"
                 }
@@ -276,7 +276,7 @@
                 "u_cf_adc_sar12_sar_refs": {
                     "location": [
                         1010.16,
-                        100.64
+                        650
                     ],
                     "orientation": "N"
                 }
@@ -289,6 +289,47 @@
             "pnl": [],
             "spef": {},
             "lib": {},
+            "spice": [],
+            "sdf": {},
+            "json_h": null
+        },
+        "afe_wb": {
+            "gds": [
+                "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/gds/afe_wb.gds"
+            ],
+            "lef": [
+                "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lef/afe_wb.lef"
+            ],
+            "instances": {
+                "u_afe_wb": {
+                    "location": [
+                        15.06,
+                        115
+                    ],
+                    "orientation": "FS"
+                }
+            },
+            "vh": [],
+            "nl": [
+                "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/verilog/gl/afe_wb.v"
+            ],
+            "pnl": [],
+            "spef": {
+                "min_*": [
+                    "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/spef/multicorner/afe_wb.min.spef"
+                ],
+                "nom_*": [
+                    "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/spef/multicorner/afe_wb.nom.spef"
+                ],
+                "max_*": [
+                    "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/spef/multicorner/afe_wb.max.spef"
+                ]
+            },
+            "lib": {
+                "*": [
+                    "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/lib/afe_wb.lib"
+                ]
+            },
             "spice": [],
             "sdf": {},
             "json_h": null
@@ -381,7 +422,8 @@
         "u_cf_adc_sar12 vccd1 vssd1 vpwr vgnd",
         "u_cf_bgr vccd1 vssd1 vpwr vgnd",
         "u_cf_refbuf vccd1 vssd1 vpwr vgnd",
-        "u_cf_adc_sar12_sar_refs vccd1 vssd1 vpwr vgnd"
+        "u_cf_adc_sar12_sar_refs vccd1 vssd1 vpwr vgnd",
+        "u_afe_wb vccd1 vssd1 vccd1 vssd1"
     ],
     "PDN_ENABLE_GLOBAL_CONNECTIONS": true,
     "FP_DEF_TEMPLATE": "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/fixed_dont_change/user_project_wrapper.def",

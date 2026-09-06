@@ -196,6 +196,13 @@ module afe_uart_tb;
 	assign mprj_io[3] = 1;  // Force CSB high.
 	assign mprj_io[0] = 0;  // Disable debug mode
 
+	initial begin
+		uut.chip_core.mprj.u_cf_adc_sar12.u_core.vinp_v = 1.65;
+		uut.chip_core.mprj.u_cf_adc_sar12.u_core.vinm_v = 0.0;
+		uut.chip_core.mprj.u_cf_adc_sar12.u_core.vrefhi_v = 3.3;
+		uut.chip_core.mprj.u_cf_adc_sar12.u_core.vreflo_v = 0.0;
+	end
+
 	caravel uut (
 		.vddio	  (VDD3V3),
 		.vddio_2  (VDD3V3),

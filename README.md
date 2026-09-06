@@ -39,10 +39,11 @@ the ADC is specified at 1 Msps, 12 bits — fast enough for multiplexed
 industrial channels, battery and rail monitoring, and control loops, not a
 metering-grade 20-bit delta-sigma.
 
-Firmware on the management SoC (not a user Wishbone core) owns power-down,
-trim, and framing over the Logic Analyzer, then prints codes on UART TX
-(GPIO 6). That is the eval-board pattern: bring-up and data collection
-without a custom MCU image in the user area.
+Firmware on the management SoC owns power-down, trim, and framing through
+`afe_wb`, a synthesized Wishbone CSR hardened as its own macro and instanced
+in the elaborated wrapper. The eval image writes `CTRL`, pulses `sof`, and
+prints the 12-bit code on UART TX (GPIO 6). Caravel Logic Analyzer pins
+are unused.
 
 **Where it is used.** The same blocks appear in battery IoT nodes, factory
 0–10 V / bridge / thermocouple front-ends, HVAC and agricultural sensors,
@@ -54,7 +55,7 @@ shuttles and temperature instead of tracking a noisy pad.
 
 **Why ChipFoundry ships it as a reference app.** Characterization vehicles
 prove one IP. Integrators need a wired example: shared analog supplies,
-LA map, GPIO analog defaults, PDN wrap `vpwr`/`vgnd`, and firmware that
+Wishbone CSR, GPIO analog defaults, PDN wrap `vpwr`/`vgnd`, and firmware that
 actually converts. `cf-sensor-afe` is that example for the analog catalog.
 Tapeout still substitutes protected analog GDS into the `*_core` leaves;
 public views stay pin-accurate abstracts.
@@ -69,7 +70,7 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 | IP | Version | Role |
 | --- | --- | --- |
 | [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.0 | Sensor input buffer |
-| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.1 | 12-bit SAR + wrapped `sar_refs` |
+| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.2 | 12-bit SAR + wrapped `sar_refs` |
 | [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.3 | Bandgap bias / 1.2 V reference |
 | [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.2 | Buffered `Vout` monitor |
 
@@ -99,8 +100,9 @@ on every macro. Analog nets stay on-chip:
 `user_project_wrapper` is **elaborated**, not synthesized: macro instances
 and wiring only (no taps, stdcell rails, or tie cells).
 
-West-edge `sar_refs` controls use a local LEF overlay so OpenLane can access
-vendor-skinny pads. GDS and PDN still come from the 0.2.1 wrap.
+West-edge `sar_refs` controls use a local LEF overlay (taller met1/met2, no
+fake met3) so OpenLane can access vendor-skinny pads. GDS and PDN still come
+from the 0.2.2 wrap.
 
 ## GPIO
 
@@ -124,12 +126,12 @@ vendor-skinny pads. GDS and PDN still come from the 0.2.1 wrap.
 
 GPIO 0–4 are Caravel system pins.
 
-## Logic Analyzer
+## Analog control vector
 
-Firmware must drive `la_oenb` so the CPU can write `la_data_in`. Power-on
-zeros hold the SAR in reset (`reset_n` is LA 10).
+`analog_ctrl[122:0]` bit indices match the original LA map. Caravel
+`la_data_in` / `la_data_out` / `la_oenb` are unconnected.
 
-| LA | Use |
+| Bit | Use |
 | --- | --- |
 | 0–6 | HIZ power-down / boost |
 | 8–52 | SAR power-down, framing, trim, DFT |
@@ -139,7 +141,6 @@ zeros hold the SAR in reset (`reset_n` is LA 10).
 | 53–63, 108–122 | `sar_refs` mux / buffer enables |
 | 64–97 | BGR trim, mux, pd, `en_startb` |
 | 104–107 | REFBUF `pd`, `switchon`, `boost`, `ch_cont` |
-| out 0–12 | SAR `data_out[11:0]`, `eof` |
 
 `user_clock2` is SAR `refclk`.
 
@@ -156,10 +157,47 @@ OpenLane config is `openlane/user_project_wrapper/config.json`. There is no
 customer `pdn_cfg.tcl`; default LibreLane PDN plus `PDN_MACRO_CONNECTIONS`
 ties each wrap `vpwr`/`vgnd` to `vccd1`/`vssd1`.
 
+## Wishbone CSR (`afe_wb`)
+
+`afe_wb` is a 400 µm digital hard macro (`u_afe_wb` at the south-west
+Wishbone pins, analog row north). Orientation `FS` puts Wishbone on south
+and `analog_ctrl` on east. Analog control indices match the original LA map.
+
+Harden the CSR by itself, then the wrapper:
+
+```bash
+cf harden afe_wb
+cf harden user_project_wrapper
+```
+
+| Offset | Name | Access |
+| --- | --- | --- |
+| 0x00 | `ID` | RO `0xAFE00001` |
+| 0x04 | `CTRL` | RW `reset_n`, `sof`, `pd`, `pd_ana`, `enable_hv`, `hiz`, `iso_en`, `next` |
+| 0x08 | `STATUS` | RO `data_out[11:0]`, `eof` |
+| 0x0C | `HIZ` | RW HIZ power-down / boost |
+| 0x10 | `SAR_CFG` | RW sample width, resolution, cap trim, clocks |
+| 0x14 | `SAR_DFT` | RW scan / DFT |
+| 0x18 | `BGR` | RW trim / mux / pd |
+| 0x1C | `REFBUF` | RW buffer enables; bits 4–5 are BGR `finetune` / `en_startb` |
+| 0x20 | `REFS0` | RW `vref`, `PWR_CTRL_VREF`, `muxsarref`, `EN_RESVDA` |
+| 0x24 | `REFS1` | RW `S_LV` and remaining `sar_refs` enables |
+
+Product firmware (`User_enableIF()` required):
+
+```c
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, 1);
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF, 1);
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, 1);
+code = USER_readWord(2) & 0xFFF;
+```
+
+Word offsets are `address / 4`. PDN: `u_afe_wb vccd1 vssd1 vccd1 vssd1`.
+
 ## Firmware and RTL sim
 
 Eval-board image: `verilog/dv/afe_uart/afe_uart.c`. Cocotb copy:
-`verilog/dv/cocotb/afe_uart/`.
+`verilog/dv/cocotb/afe_uart/`. Both talk to `afe_wb` over Wishbone.
 
 GPIO defaults live in `.cf/project.json` and `verilog/rtl/user_defines.v`
 (GPIO 7–34 analog). After `cf setup --only-cocotb` (or a host `venv-cocotb`
@@ -169,23 +207,30 @@ with `caravel_cocotb`) and `python3 verilog/dv/setup-cocotb.py …`:
 cf verify afe_uart
 ```
 
-Expected UART:
+RTL sim compiles `ip/CF_ADC_SAR12/verify/beh_model/*_core.v` in place of the
+empty `hdl/gl/*_core.v` stubs (do not add those files to OpenLane). The
+cocotb test pokes `vinp_v=1.65` / `vrefhi_v=3.3` and expects:
 
 ```
 AFE ready
-ADC xxx
+ADC 800
 ```
 
-Analog `*_core` cells are empty blackboxes. The printed code is not a
-measured voltage. A passing run only proves GPIO analog defaults, LA
-enables, SAR `reset_n`/`sof`, and UART TX.
+HIZ / BGR / REFBUF `*_core` cells stay empty blackboxes. A passing run proves
+Wishbone `CTRL`/`STATUS`, SAR `reset_n`/`sof`/`enable_hv`, the ideal converter
+model, and UART TX.
 
 ## Layout notes
 
 - Customer cell `CF_<IP>`: chip PDN `vpwr` + `vgnd` only.
-- Leaf `CF_<IP>_core`: pin-only abstract (empty Verilog).
+- Leaf `CF_<IP>_core`: pin-only abstract (empty Verilog in OpenLane; SAR has
+  an ideal sim model under `verify/beh_model/`).
+- `afe_wb`: digital CSR, `vccd1`/`vssd1`.
 - Shared analog supplies on GPIO 32–34.
 - `MAGIC_EXT_ABSTRACT_CELLS` includes the analog `_core` names.
+- Caravel LA ports stay on the wrapper and are unconnected.
+- Wrapper antenna 46 (was 171 with LA routed); remaining nets are SAR
+  `data_out` and some `wbs_*`. KLayout DRC 0, LVS unique.
 
 ## References
 

@@ -15,6 +15,7 @@
 
 // Caravel user project includes		
 $USER_PROJECT_VERILOG/gl/user_project_wrapper.v
+$USER_PROJECT_VERILOG/gl/afe_wb.v
 $USER_PROJECT_VERILOG/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ.v
 $USER_PROJECT_VERILOG/../ip/CF_BUF_HIZ/hdl/gl/CF_BUF_HIZ_core.v
 $USER_PROJECT_VERILOG/../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12.v

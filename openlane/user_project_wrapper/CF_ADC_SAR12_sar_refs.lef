@@ -205,8 +205,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 142.785 6 143.045 ;
       LAYER met2 ;
         RECT 0 142.785 15.22 143.045 ;
       LAYER met1 ;
@@ -259,8 +257,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 143.62 6 143.88 ;
       LAYER met2 ;
         RECT 0 143.62 15.33 143.88 ;
       LAYER met1 ;
@@ -289,8 +285,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 142.37 6 142.63 ;
       LAYER met2 ;
         RECT 0 142.37 15.22 142.63 ;
       LAYER met1 ;
@@ -301,8 +295,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 144.04 6 144.3 ;
       LAYER met2 ;
         RECT 0 144.04 15.285 144.3 ;
       LAYER met1 ;
@@ -475,8 +467,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 144.445 6 144.835 ;
       LAYER met2 ;
         RECT 0 144.445 15.255 144.835 ;
       LAYER met1 ;
@@ -495,8 +485,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0 143.21 6 143.47 ;
       LAYER met2 ;
         RECT 0 143.21 15.245 143.47 ;
       LAYER met1 ;

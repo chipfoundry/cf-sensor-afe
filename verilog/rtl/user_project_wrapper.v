@@ -1,6 +1,6 @@
 `default_nettype none
 /*
- * user_project_wrapper — drop 4: HIZ + SAR12 + BGR + REFBUF + sar_refs
+ * user_project_wrapper — HIZ + SAR12 + BGR + REFBUF + sar_refs + afe_wb
  *
  * On-chip analog:
  *   afe_vout   : CF_BUF_HIZ.vout → CF_ADC_SAR12.vinp
@@ -11,14 +11,10 @@
  *   afe_refhi  : sar_refs.REFHI → SAR.vrefhi
  *   afe_refby2 : sar_refs.REFBY2 → SAR.refby2
  *
- * CF_ADC_SAR12_sar_refs is wrapped: chip PDN is vpwr/vgnd.
- * Elaborate-only: structural instance wiring, no assign.
+ * Analog controls come from afe_wb.analog_ctrl[i]; indices match the
+ * original LA map. Caravel la_data_in / la_data_out / la_oenb are unused.
  *
- * HIZ LA [0:6]
- * SAR LA [8:52]
- * sar_refs LA [53:63] vref/mux; [108:122] S_LV and buffer enables
- * BGR LA [64:97]
- * REFBUF LA [104:107]
+ * Elaborate-only: structural instance wiring, no assign.
  *
  * Analog: analog_io[N] is Caravel GPIO N+7.
  * JsonHeader applies USE_POWER_PINS for PDN.
@@ -70,6 +66,30 @@ module user_project_wrapper #(
     wire afe_nbias;
     wire afe_refhi;
     wire afe_refby2;
+    wire [122:0] analog_ctrl;
+    wire [11:0] afe_data;
+    wire afe_eof;
+
+afe_wb u_afe_wb (
+    .wb_clk_i(wb_clk_i),
+    .wb_rst_i(wb_rst_i),
+    .wbs_stb_i(wbs_stb_i),
+    .wbs_cyc_i(wbs_cyc_i),
+    .wbs_we_i(wbs_we_i),
+    .wbs_sel_i(wbs_sel_i),
+    .wbs_dat_i(wbs_dat_i),
+    .wbs_adr_i(wbs_adr_i),
+    .wbs_ack_o(wbs_ack_o),
+    .wbs_dat_o(wbs_dat_o),
+    .adc_data(afe_data),
+    .adc_eof(afe_eof),
+    .analog_ctrl(analog_ctrl)
+`ifdef USE_POWER_PINS
+    ,
+    .vccd1(vccd1),
+    .vssd1(vssd1)
+`endif
+);
 
 CF_BUF_HIZ u_cf_buf_hiz (
     .vout(afe_vout),
@@ -92,13 +112,13 @@ CF_BUF_HIZ u_cf_buf_hiz (
     .vbpcid(analog_io[18]),
     .vbptd(analog_io[19]),
 
-    .e_pd(la_data_in[0]),
-    .en_pd(la_data_in[1]),
-    .tp(la_data_in[2]),
-    .clk2_boost(la_data_in[3]),
-    .e_n_boost(la_data_in[4]),
-    .e_na_boost(la_data_in[5]),
-    .clk1_boostr(la_data_in[6]),
+    .e_pd(analog_ctrl[0]),
+    .en_pd(analog_ctrl[1]),
+    .tp(analog_ctrl[2]),
+    .clk2_boost(analog_ctrl[3]),
+    .e_n_boost(analog_ctrl[4]),
+    .e_na_boost(analog_ctrl[5]),
+    .clk1_boostr(analog_ctrl[6]),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),
@@ -119,33 +139,33 @@ CF_ADC_SAR12 u_cf_adc_sar12 (
     .VPUMP(analog_io[27]),
 
     .refclk(user_clock2),
-    .pd(la_data_in[8]),
-    .pd_ana(la_data_in[9]),
-    .reset_n(la_data_in[10]),
-    .sof(la_data_in[11]),
-    .next(la_data_in[12]),
-    .hiz(la_data_in[13]),
-    .iso_en(la_data_in[14]),
-    .enable_hv(la_data_in[15]),
-    .trimunit(la_data_in[16]),
-    .dly_inc(la_data_in[17]),
-    .dcen(la_data_in[18]),
-    .pumpclk(la_data_in[19]),
-    .en_pump_lv(la_data_in[20]),
-    .scan_test_mode(la_data_in[21]),
-    .test_scanin(la_data_in[22]),
-    .test_scanen(la_data_in[23]),
-    .test_sea(la_data_in[24]),
-    .resolution(la_data_in[26:25]),
-    .sample_width(la_data_in[36:27]),
-    .cap_trim(la_data_in[39:37]),
-    .icont_lv(la_data_in[41:40]),
-    .dft_inc(la_data_in[45:42]),
-    .dft_outc(la_data_in[48:46]),
-    .sel_csel_dft(la_data_in[52:49]),
+    .pd(analog_ctrl[8]),
+    .pd_ana(analog_ctrl[9]),
+    .reset_n(analog_ctrl[10]),
+    .sof(analog_ctrl[11]),
+    .next(analog_ctrl[12]),
+    .hiz(analog_ctrl[13]),
+    .iso_en(analog_ctrl[14]),
+    .enable_hv(analog_ctrl[15]),
+    .trimunit(analog_ctrl[16]),
+    .dly_inc(analog_ctrl[17]),
+    .dcen(analog_ctrl[18]),
+    .pumpclk(analog_ctrl[19]),
+    .en_pump_lv(analog_ctrl[20]),
+    .scan_test_mode(analog_ctrl[21]),
+    .test_scanin(analog_ctrl[22]),
+    .test_scanen(analog_ctrl[23]),
+    .test_sea(analog_ctrl[24]),
+    .resolution(analog_ctrl[26:25]),
+    .sample_width(analog_ctrl[36:27]),
+    .cap_trim(analog_ctrl[39:37]),
+    .icont_lv(analog_ctrl[41:40]),
+    .dft_inc(analog_ctrl[45:42]),
+    .dft_outc(analog_ctrl[48:46]),
+    .sel_csel_dft(analog_ctrl[52:49]),
 
-    .data_out(la_data_out[11:0]),
-    .eof(la_data_out[12]),
+    .data_out(afe_data),
+    .eof(afe_eof),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),
@@ -160,17 +180,17 @@ CF_BGR u_cf_bgr (
     .vb2_fast(analog_io[0]),
     .dft_curr_in(analog_io[24]),
 
-    .trimTC(la_data_in[70:64]),
-    .trimCurr(la_data_in[76:71]),
-    .CurrAbsTrim(la_data_in[82:77]),
-    .inl_ctrl(la_data_in[89:83]),
-    .mux1sel(la_data_in[91:90]),
-    .mux2sel(la_data_in[92]),
-    .dft_sel(la_data_in[93]),
-    .pd(la_data_in[94]),
-    .pd_ibg(la_data_in[95]),
-    .finetune(la_data_in[96]),
-    .en_startb(la_data_in[97]),
+    .trimTC(analog_ctrl[70:64]),
+    .trimCurr(analog_ctrl[76:71]),
+    .CurrAbsTrim(analog_ctrl[82:77]),
+    .inl_ctrl(analog_ctrl[89:83]),
+    .mux1sel(analog_ctrl[91:90]),
+    .mux2sel(analog_ctrl[92]),
+    .dft_sel(analog_ctrl[93]),
+    .pd(analog_ctrl[94]),
+    .pd_ibg(analog_ctrl[95]),
+    .finetune(analog_ctrl[96]),
+    .en_startb(analog_ctrl[97]),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),
@@ -187,10 +207,10 @@ CF_REFBUF u_cf_refbuf (
     .ng(analog_io[8]),
     .vpwre(analog_io[8]),
 
-    .pd(la_data_in[104]),
-    .switchon(la_data_in[105]),
-    .boost(la_data_in[106]),
-    .ch_cont(la_data_in[107]),
+    .pd(analog_ctrl[104]),
+    .switchon(analog_ctrl[105]),
+    .boost(analog_ctrl[106]),
+    .ch_cont(analog_ctrl[107]),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),
@@ -209,22 +229,22 @@ CF_ADC_SAR12_sar_refs u_cf_adc_sar12_sar_refs (
     .vssa_shield(analog_io[26]),
     .VPUMP(analog_io[27]),
 
-    .pd(la_data_in[8]),
-    .pd_ana(la_data_in[9]),
-    .hiz(la_data_in[13]),
-    .enable_hv(la_data_in[15]),
-    .vref(la_data_in[57:53]),
-    .PWR_CTRL_VREF(la_data_in[59:58]),
-    .muxsarref(la_data_in[62:60]),
-    .EN_RESVDA(la_data_in[63]),
-    .sw_start(la_data_in[108]),
-    .pd_vcmbuf(la_data_in[109]),
-    .S_LV(la_data_in[117:110]),
-    .refout_en(la_data_in[118]),
-    .sw_holdb(la_data_in[119]),
-    .enpdb_hv(la_data_in[120]),
-    .PD_BUF_VREF(la_data_in[121]),
-    .dft_comp_en(la_data_in[122]),
+    .pd(analog_ctrl[8]),
+    .pd_ana(analog_ctrl[9]),
+    .hiz(analog_ctrl[13]),
+    .enable_hv(analog_ctrl[15]),
+    .vref(analog_ctrl[57:53]),
+    .PWR_CTRL_VREF(analog_ctrl[59:58]),
+    .muxsarref(analog_ctrl[62:60]),
+    .EN_RESVDA(analog_ctrl[63]),
+    .sw_start(analog_ctrl[108]),
+    .pd_vcmbuf(analog_ctrl[109]),
+    .S_LV(analog_ctrl[117:110]),
+    .refout_en(analog_ctrl[118]),
+    .sw_holdb(analog_ctrl[119]),
+    .enpdb_hv(analog_ctrl[120]),
+    .PD_BUF_VREF(analog_ctrl[121]),
+    .dft_comp_en(analog_ctrl[122]),
 
 `ifdef USE_POWER_PINS
     .vgnd(vssd1),

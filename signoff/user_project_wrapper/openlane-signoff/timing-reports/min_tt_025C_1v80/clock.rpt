@@ -16,9 +16,27 @@ clk                  25.000000    0.000000 12.500000
 report_clock_latency
 ============================================================================
 Clock clk
+rise -> rise
+    min     max
+4.650000 5.570000 source latency
+5.336066         network latency u_afe_wb/_1613_/CLK
+        6.315684 network latency u_afe_wb/_1627_/CLK
+---------------
+9.986067 11.885684 latency
+        1.899617 skew
+
+fall -> fall
+    min     max
+4.650000 5.570000 source latency
+5.440690         network latency u_afe_wb/_1613_/CLK
+        6.404671 network latency u_afe_wb/_1624_/CLK
+---------------
+10.090690 11.974670 latency
+        1.883981 skew
+
 
 
 ===========================================================================
 report_clock_min_period
 ============================================================================
-clk period_min = 0.00 fmax = inf
+clk period_min = 3.00 fmax = 333.42

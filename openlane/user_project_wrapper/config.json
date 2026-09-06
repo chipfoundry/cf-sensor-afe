@@ -34,7 +34,7 @@
             ],
             "instances": {
                 "u_cf_buf_hiz": {
-                    "location": [99.82, 100.64],
+                    "location": [99.82, 650.00],
                     "orientation": "N"
                 }
             },
@@ -52,7 +52,7 @@
             ],
             "instances": {
                 "u_cf_adc_sar12": {
-                    "location": [426.34, 100.64],
+                    "location": [426.34, 650.00],
                     "orientation": "N"
                 }
             },
@@ -70,7 +70,7 @@
             ],
             "instances": {
                 "u_cf_bgr": {
-                    "location": [99.82, 750.00],
+                    "location": [99.82, 1210.00],
                     "orientation": "N"
                 }
             },
@@ -88,7 +88,7 @@
             ],
             "instances": {
                 "u_cf_refbuf": {
-                    "location": [618.29, 750.00],
+                    "location": [618.29, 1210.00],
                     "orientation": "N"
                 }
             },
@@ -106,7 +106,7 @@
             ],
             "instances": {
                 "u_cf_adc_sar12_sar_refs": {
-                    "location": [1010.16, 100.64],
+                    "location": [1010.16, 650.00],
                     "orientation": "N"
                 }
             },
@@ -114,6 +114,37 @@
                 "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs_core.v",
                 "dir::../../ip/CF_ADC_SAR12/hdl/gl/CF_ADC_SAR12_sar_refs.v"
             ]
+        },
+        "afe_wb": {
+            "gds": [
+                "dir::../../gds/afe_wb.gds"
+            ],
+            "lef": [
+                "dir::../../lef/afe_wb.lef"
+            ],
+            "instances": {
+                "u_afe_wb": {
+                    "location": [15.06, 115.00],
+                    "orientation": "FS"
+                }
+            },
+            "nl": [
+                "dir::../../verilog/gl/afe_wb.v"
+            ],
+            "spef": {
+                "min_*": [
+                    "dir::../../spef/multicorner/afe_wb.min.spef"
+                ],
+                "nom_*": [
+                    "dir::../../spef/multicorner/afe_wb.nom.spef"
+                ],
+                "max_*": [
+                    "dir::../../spef/multicorner/afe_wb.max.spef"
+                ]
+            },
+            "lib": {
+                "*": "dir::../../lib/afe_wb.lib"
+            }
         }
     },
     "PDN_MACRO_CONNECTIONS": [
@@ -121,7 +152,8 @@
         "u_cf_adc_sar12 vccd1 vssd1 vpwr vgnd",
         "u_cf_bgr vccd1 vssd1 vpwr vgnd",
         "u_cf_refbuf vccd1 vssd1 vpwr vgnd",
-        "u_cf_adc_sar12_sar_refs vccd1 vssd1 vpwr vgnd"
+        "u_cf_adc_sar12_sar_refs vccd1 vssd1 vpwr vgnd",
+        "u_afe_wb vccd1 vssd1 vccd1 vssd1"
     ],
 
     "//": "PDN. Default LibreLane met4/met5 vias onto wrap met4 PG pins (SRAM model).",
