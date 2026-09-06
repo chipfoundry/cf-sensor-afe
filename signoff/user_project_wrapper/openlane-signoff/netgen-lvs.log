@@ -1,4 +1,4 @@
-Netgen 1.5.278 compiled on Sun Sep 29 13:26:42 UTC 2024
+Netgen 1.5.316 compiled on Tue Feb 10 10:44:29 UTC 2026
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
@@ -28,6 +28,7 @@ Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
 Creating placeholder cell definition.
+Reading Verilog netlist file '/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_11_01/39-openroad-detailedrouting/user_project_wrapper.pnl.v'...
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
 Creating placeholder cell definition for module afe_wb.
 Creating placeholder cell definition for module CF_ADC_SAR12.
@@ -38,7 +39,7 @@ Creating placeholder cell definition for module CF_REFBUF.
 Treating empty subcircuits as black-box cells
 Generating JSON file result
 
-Reading setup file /nix/store/qx9hc4l6vr4pbhihbl6i832pf0ng5mlv-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/netgen/setup.tcl
+Reading setup file /nix/store/ckjsd6nb5fbsamh11i65v2b6dr9r0a90-python3-3.13.9-env/lib/python3.13/site-packages/librelane/scripts/netgen/setup.tcl
 
 Model sky130_fd_pr__res_generic_po pin 1 == 2
 No property value found for device sky130_fd_pr__res_generic_po
@@ -97,8 +98,8 @@ No property perim found for device sky130_fd_pr__special_pfet_01v8_hvt
 No property topography found for device sky130_fd_pr__special_pfet_01v8_hvt
 No property value found for device sky130_fd_pr__diode_pw2nd_05v5
 No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
-Comparison output logged to file /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_09_28/56-netgen-lvs/reports/lvs.netgen.rpt
-Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_09_28/56-netgen-lvs/reports/lvs.netgen.rpt" enabled
+Comparison output logged to file /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_11_01/58-netgen-lvs/reports/lvs.netgen.rpt
+Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_11_01/58-netgen-lvs/reports/lvs.netgen.rpt" enabled
 
 Contents of circuit 1:  Circuit: 'afe_wb'
 Circuit afe_wb contains 0 device instances.
@@ -171,14 +172,14 @@ Circuit user_project_wrapper contains 6 device instances.
   Class: CF_ADC_SAR12          instances:   1
   Class: CF_BUF_HIZ            instances:   1
   Class: CF_ADC_SAR12_sar_refs instances:   1
-Circuit contains 317 nets, and 509 disconnected pins.
+Circuit contains 278 nets, and 509 disconnected pins.
 
 Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
-Circuit 1 contains 317 nets,    Circuit 2 contains 317 nets.
+Circuit 1 contains 278 nets,    Circuit 2 contains 278 nets.
 
 
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_09_28/56-netgen-lvs/reports/lvs.netgen.rpt" disabled
+Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_06_11_01/58-netgen-lvs/reports/lvs.netgen.rpt" disabled
 LVS Done.
