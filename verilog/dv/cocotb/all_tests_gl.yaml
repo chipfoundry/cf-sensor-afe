@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 ChipFoundry
+# SPDX-License-Identifier: Apache-2.0
+
+# Gate-level analog abstracts do not convert. Prefer RTL:
+#   cf verify --all
+Tests:
+    - {name: afe_uart, sim: RTL}

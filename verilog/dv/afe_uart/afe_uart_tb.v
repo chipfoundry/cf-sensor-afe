@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2020 Efabless Corporation
+// SPDX-FileCopyrightText: 2026 ChipFoundry
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,9 +27,7 @@ module afe_uart_tb;
 	wire gpio;
 	wire uart_tx;
 	wire [37:0] mprj_io;
-	wire [15:0] checkbits;
 
-	assign checkbits  = mprj_io[31:16];
 	assign uart_tx = mprj_io[6];
 
 	always #12.5 clock <= (clock === 1'b0);
@@ -40,8 +38,7 @@ module afe_uart_tb;
 
 	`ifdef ENABLE_SDF
 		initial begin
-			$sdf_annotate("../../../sdf/user_proj_example.sdf", uut.mprj) ;
-			$sdf_annotate("../../../sdf/user_project_wrapper.sdf", uut.mprj.mprj) ;
+			$sdf_annotate("../../../sdf/user_project_wrapper.sdf", uut.chip_core.mprj) ;
 			$sdf_annotate("../../../mgmt_core_wrapper/sdf/DFFRAM.sdf", uut.soc.DFFRAM_0) ;
 			$sdf_annotate("../../../mgmt_core_wrapper/sdf/mgmt_core.sdf", uut.soc.core) ;
 			$sdf_annotate("../../../caravel/sdf/housekeeping.sdf", uut.housekeeping) ;
@@ -140,7 +137,7 @@ module afe_uart_tb;
 		$dumpvars(0, afe_uart_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-		repeat (250) begin
+		repeat (400) begin
 			repeat (1000) @(posedge clock);
 			// $display("+1000 cycles");
 		end
@@ -156,7 +153,7 @@ module afe_uart_tb;
 
 	initial begin
 		wait(mprj_io[37] === 1'b1);
-		$display("Monitor: AFE UART firmware raised GPIO 37");
+		$display("Monitor: AFE UART firmware raised GPIO 37 after Wishbone sample");
 		#10000;
 		$display("Monitor: Test AFE UART passed");
 		$finish;

@@ -186,10 +186,14 @@ cf harden user_project_wrapper
 Product firmware (`User_enableIF()` required):
 
 ```c
-USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, 1);
-USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF, 1);
-USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, 1);
-code = USER_readWord(2) & 0xFFF;
+if (USER_readWord(AFE_ID) != 0xAFE00001)
+    /* fail */;
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, AFE_CTRL);
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF, AFE_CTRL);
+USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, AFE_CTRL);
+while ((USER_readWord(AFE_STATUS) & AFE_STATUS_EOF) == 0)
+    ;
+code = USER_readWord(AFE_STATUS) & 0xFFF;
 ```
 
 Word offsets are `address / 4`. PDN: `u_afe_wb vccd1 vssd1 vccd1 vssd1`.
@@ -213,12 +217,14 @@ cocotb test pokes `vinp_v=1.65` / `vrefhi_v=3.3` and expects:
 
 ```
 AFE ready
+ID AFE00001
 ADC 800
 ```
 
 HIZ / BGR / REFBUF `*_core` cells stay empty blackboxes. A passing run proves
-Wishbone `CTRL`/`STATUS`, SAR `reset_n`/`sof`/`enable_hv`, the ideal converter
-model, and UART TX.
+Wishbone `ID`/`CTRL`/`STATUS`, SAR `reset_n`/`sof`/`enable_hv`, the ideal converter
+model, and UART TX. `cf verify --all` runs `verilog/dv/cocotb/all_tests.yaml`
+(`afe_uart` only).
 
 ## Layout notes
 

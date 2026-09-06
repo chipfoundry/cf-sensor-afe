@@ -51,15 +51,15 @@ export PDK_PATH=<pdk-location/sky130A>
 
 To run any simulation, you need to be on the top level or caravel_user_project.
 
-To run RTL simulation for one of the DV tests, 
+To run RTL simulation for `afe_uart`:
 
 ```bash
-SIM=RTL make verify-<dv-test>
+SIM=RTL make verify-afe_uart
 ```
 
-To run gate level simulation for one of the DV tests, 
+To run gate level simulation:
 
 ```bash
-SIM=GL make verify-<dv-test>
+SIM=GL make verify-afe_uart
 ```
 

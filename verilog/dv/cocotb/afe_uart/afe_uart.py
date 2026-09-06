@@ -8,6 +8,7 @@ from caravel_cocotb.caravel_interfaces import UART
 
 # Mid-scale stimulus: vinp=1.65, vrefhi=3.3 → code 0x800 (ideal unipolar 12-bit).
 ADC_MIDSCALE = "ADC 800"
+AFE_ID_LINE = "ID AFE00001"
 
 
 def _poke_sar_reals(dut):
@@ -33,8 +34,12 @@ async def afe_uart(dut):
     if "AFE ready" not in ready:
         cocotb.log.error(f"[TEST] expected AFE ready, got '{ready}'")
         return
+    ident = await uart.get_line()
+    if ident.strip() != AFE_ID_LINE:
+        cocotb.log.error(f"[TEST] expected '{AFE_ID_LINE}', got '{ident}'")
+        return
     adc = await uart.get_line()
     if adc.strip() != ADC_MIDSCALE:
         cocotb.log.error(f"[TEST] expected '{ADC_MIDSCALE}', got '{adc}'")
         return
-    cocotb.log.info(f"[TEST] Pass UART '{ready}' / '{adc}'")
+    cocotb.log.info(f"[TEST] Pass UART '{ready}' / '{ident}' / '{adc}'")

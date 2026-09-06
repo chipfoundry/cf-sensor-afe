@@ -23,7 +23,7 @@ export UPRJ_ROOT ?= $(abspath ../..)
 export MCW_ROOT ?= $(UPRJ_ROOT)/mgmt_core_wrapper
 export CARAVEL_ROOT ?= $(UPRJ_ROOT)/caravel
 
-PATTERNS = io_ports la_test1 la_test2 wb_port mprj_stimulus afe_uart
+PATTERNS = afe_uart
 
 all:  ${PATTERNS}
 

@@ -1,43 +1,31 @@
-Overview
-======== 
-This directory contain tests to verify the example user project 16 bit counter and 2 other simple tests as examples. 
+# SPDX-FileCopyrightText: 2026 ChipFoundry
+# SPDX-License-Identifier: Apache-2.0
 
-directory hierarchy
-=====================
+# Cocotb tests
 
-# counter_tests 
- 
-contain tests for 16 bit counter for more info refer to [counter_tests](counter_tests/README.md)
- 
- # hello_world 
- 
- Example test with empty firmware that only power and reset caravel the print "Hello World" 
- 
- # hello_world_uart 
- 
- Example test That uses the firmware to send "Hello World" using UART TX 
- 
-# cocotb_tests.py 
+`afe_uart` is the sensor AFE UART bring-up test. `cocotb_tests.py` imports it.
+`all_tests.yaml` is what `cf verify --all` runs.
 
-Module that should import all the tests used to be seen for cocotb as a test
+## afe_uart
 
- 
-Run tests 
-===========
-# run hello_world_uart
-    ```bash
-    caravel_cocotb -t hello_world_uart -tag hello_world 
-    ```
-# run all counter testlist
-    ```bash
-    caravel_cocotb -tl counter_tests/counter_tests.yaml -tag counter_tests 
-    ```
-# run from different directory
-    ```bash
-    caravel_cocotb -t hello_world_uart -tag hello_world -design_info <path to design_info.yaml>
-    ```      
-# run with changing the results directory
-    ```bash
-    caravel_cocotb -t hello_world_uart -tag hello_world -sim  <path to results directory>
-    ```  
+Firmware (`afe_uart/afe_uart.c`) enables the user Wishbone IF, checks CSR
+`ID == 0xAFE00001`, writes `CTRL`, pulses `sof`, polls `eof`, and prints:
 
+```
+AFE ready
+ID AFE00001
+ADC 800
+```
+
+The Python bench pokes SAR behavioral reals (`vinp_v=1.65`, `vrefhi_v=3.3`)
+after management GPIO goes high, then scores those UART lines.
+
+```bash
+cf verify afe_uart
+```
+
+Or, from this directory with `caravel_cocotb` on `PATH`:
+
+```bash
+caravel_cocotb -t afe_uart -tag afe_uart
+```

@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
- * You may obtain the License at
+ * You may obtain a copy of the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -12,12 +12,14 @@
 
 #include <firmware_apis.h>
 
-#define AFE_ID            0
-#define AFE_CTRL          1
-#define AFE_STATUS        2
-#define AFE_CTRL_RESET_N  (1u << 0)
-#define AFE_CTRL_SOF      (1u << 1)
+#define AFE_ID             0
+#define AFE_CTRL           1
+#define AFE_STATUS         2
+#define AFE_CTRL_RESET_N   (1u << 0)
+#define AFE_CTRL_SOF       (1u << 1)
 #define AFE_CTRL_ENABLE_HV (1u << 4)
+#define AFE_STATUS_EOF     (1u << 12)
+#define AFE_ID_VALUE       0xAFE00001u
 
 static void delay(int n)
 {
@@ -38,6 +40,23 @@ static void print_hex12(unsigned int v)
 	print(buf);
 }
 
+static unsigned int afe_sample(void)
+{
+	unsigned int st;
+	int i;
+
+	USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF, AFE_CTRL);
+	delay(40);
+	USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, AFE_CTRL);
+	for (i = 0; i < 4000; i++) {
+		st = USER_readWord(AFE_STATUS);
+		if (st & AFE_STATUS_EOF)
+			return st & 0xFFFu;
+		asm volatile("nop");
+	}
+	return USER_readWord(AFE_STATUS) & 0xFFFu;
+}
+
 void main()
 {
 	int i;
@@ -53,17 +72,16 @@ void main()
 	UART_enableTX(1);
 
 	User_enableIF();
+	if (USER_readWord(AFE_ID) != AFE_ID_VALUE) {
+		print("ID fail\n");
+		return;
+	}
 	USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, AFE_CTRL);
 	delay(40);
 
 	ManagmentGpio_write(1);
 	print("AFE ready\n");
-
-	USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV | AFE_CTRL_SOF, AFE_CTRL);
-	delay(40);
-	USER_writeWord(AFE_CTRL_RESET_N | AFE_CTRL_ENABLE_HV, AFE_CTRL);
-	delay(800);
-
+	print("ID AFE00001\n");
 	print("ADC ");
-	print_hex12(USER_readWord(AFE_STATUS) & 0xFFFu);
+	print_hex12(afe_sample());
 }

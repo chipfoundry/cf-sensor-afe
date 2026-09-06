@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 ChipFoundry
+# SPDX-License-Identifier: Apache-2.0
+
+includes:
+    - afe_uart/afe_uart.yaml
