@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500" role="img" aria-labelledby="title desc">
+  <title id="title">Sensor analog front-end block diagram</title>
+  <desc id="desc">Sensor pads feed CF_BUF_HIZ into CF_ADC_SAR12 and firmware over UART. CF_BGR biases the buffer and SAR. CF_ADC_SAR12_sar_refs supplies REFHI and REFBY2. CF_REFBUF monitors bandgap Vout on GPIO 14.</desc>
+  <rect width="100%" height="100%" fill="white"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6E40C9"/>
+    </marker>
+  </defs>
+
+  <text x="540" y="24" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#111">cf-sensor-afe</text>
+
+  <rect x="36" y="48" width="168" height="78" rx="10" fill="#F7F7F7" stroke="#222" stroke-width="1.75"/>
+  <text x="120" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">Sensor pads</text>
+  <text x="120" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">GPIO 8-13</text>
+
+  <rect x="252" y="48" width="200" height="78" rx="10" fill="#F4EEFB" stroke="#6E40C9" stroke-width="1.75"/>
+  <text x="352" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">CF_BUF_HIZ</text>
+  <text x="352" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">High-Z input buffer</text>
+
+  <rect x="500" y="48" width="210" height="78" rx="10" fill="#F4EEFB" stroke="#6E40C9" stroke-width="1.75"/>
+  <text x="605" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">CF_ADC_SAR12</text>
+  <text x="605" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">12-bit SAR, 1 Msps</text>
+
+  <rect x="758" y="48" width="286" height="78" rx="10" fill="#EEF3FA" stroke="#2B4C7E" stroke-width="1.75"/>
+  <text x="901" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">firmware / UART</text>
+  <text x="901" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">afe_wb, GPIO 6 TX</text>
+
+  <line x1="204" y1="87" x2="246" y2="87" stroke="#222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="225" y="78" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">vin</text>
+
+  <line x1="452" y1="87" x2="494" y2="87" stroke="#222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="473" y="78" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">vinp</text>
+
+  <line x1="710" y1="87" x2="752" y2="87" stroke="#222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="731" y="78" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">12-bit</text>
+
+  <rect x="252" y="220" width="200" height="78" rx="10" fill="#F4EEFB" stroke="#6E40C9" stroke-width="1.75"/>
+  <text x="352" y="252" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">CF_BGR</text>
+  <text x="352" y="272" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Bandgap, ~2.4 uA bias</text>
+
+  <rect x="500" y="220" width="210" height="78" rx="10" fill="#F4EEFB" stroke="#6E40C9" stroke-width="1.75"/>
+  <text x="605" y="252" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">CF_ADC_SAR12_sar_refs</text>
+  <text x="605" y="272" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">REFHI / REFBY2</text>
+
+  <line x1="352" y1="220" x2="352" y2="132" stroke="#6E40C9" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+  <text x="364" y="176" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">ibias</text>
+
+  <line x1="452" y1="259" x2="494" y2="259" stroke="#6E40C9" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+  <text x="473" y="250" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">IREF</text>
+
+  <line x1="605" y1="220" x2="605" y2="132" stroke="#6E40C9" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+  <text x="617" y="176" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">vrefhi</text>
+
+  <rect x="252" y="384" width="200" height="78" rx="10" fill="#F4EEFB" stroke="#6E40C9" stroke-width="1.75"/>
+  <text x="352" y="416" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">CF_REFBUF</text>
+  <text x="352" y="436" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Buffered Vout monitor</text>
+
+  <line x1="352" y1="298" x2="352" y2="378" stroke="#6E40C9" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+  <text x="364" y="348" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#333">Vout</text>
+
+  <line x1="452" y1="423" x2="620" y2="423" stroke="#222" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <rect x="628" y="396" width="168" height="54" rx="10" fill="#F7F7F7" stroke="#222" stroke-width="1.75"/>
+  <text x="712" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#111">GPIO 14</text>
+  <text x="712" y="436" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Vout monitor</text>
+</svg>

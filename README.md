@@ -13,13 +13,9 @@ ChipFoundry **sensor analog front-end** reference application on Caravel.
 It is the first catalog composition that takes a high-impedance sensor,
 conditions it, digitizes it, and hands a 12-bit code to on-chip firmware.
 
-```
-sensor pads → CF_BUF_HIZ → CF_ADC_SAR12 → firmware/UART
-                 ↑                ↑
-              CF_BGR bias    CF_ADC_SAR12_sar_refs
-                 ↑
-              CF_REFBUF (buffered Vout monitor)
-```
+<div align="center">
+<img src="doc/sensor_afe_block.svg" alt="Sensor analog front-end block diagram" width="100%" />
+</div>
 
 ## Application
 
