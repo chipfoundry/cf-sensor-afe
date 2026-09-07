@@ -2029,7 +2029,7 @@ CF_BUF_HIZ (1)                             |CF_BUF_HIZ (1)
 CF_ADC_SAR12_sar_refs (1)                  |CF_ADC_SAR12_sar_refs (1)                  
 CF_BGR (1)                                 |CF_BGR (1)                                 
 Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 317                        |Number of nets: 317                        
+Number of nets: 278                        |Number of nets: 278                        
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 

@@ -27,8 +27,12 @@ ifeq ($(origin LIBRELANE_RUN_TAG), undefined)
 export LIBRELANE_RUN_TAG := $(shell date '+%y_%m_%d_%H_%M')
 endif
 ifeq ($(origin CF_LIBRELANE_TAG), undefined)
-export CF_LIBRELANE_TAG := CI2511
+export CF_LIBRELANE_TAG := 3.0.13
 endif
+# Official LibreLane 3 from PyPI (native NDR). ChipFoundry `cf setup --only-openlane`
+# still installs shuttle pin CI2511 (LibreLane 2.4.6). Recreate this venv with
+# `make -C openlane librelane-venv` and do not pass --overwrite to cf setup.
+LIBRELANE_PIP_SPEC ?= librelane==$(CF_LIBRELANE_TAG)
 
 export CARAVEL_ROOT := $(CARAVEL_ROOT)
 export PDK := $(PDK)
@@ -58,7 +62,7 @@ endif
 
 ifeq ($(LIBRELANE_USE_NIX),1)
 ifeq ($(origin UPSTREAM_LIBRELANE_TAG), undefined)
-librelane_run = nix run github:chipfoundry/openlane-2/$(CF_LIBRELANE_TAG) --
+librelane_run = nix run github:librelane/librelane/$(CF_LIBRELANE_TAG) --
 else
 librelane_run = nix run github:librelane/librelane/$(UPSTREAM_LIBRELANE_TAG) --
 endif
@@ -98,7 +102,7 @@ $(PROJECT_ROOT)/openlane/.venv/manifest.txt: $(PROJECT_ROOT)/openlane/.version-$
 	rm -rf $(PROJECT_ROOT)/openlane/.venv
 	python3 -m venv $(PROJECT_ROOT)/openlane/.venv
 	PYTHONPATH= $(PROJECT_ROOT)/openlane/.venv/bin/python3 -m pip install --upgrade pip
-	PYTHONPATH= $(PROJECT_ROOT)/openlane/.venv/bin/python3 -m pip install "https://github.com/chipfoundry/openlane-2/tarball/$(CF_LIBRELANE_TAG)"
+	PYTHONPATH= $(PROJECT_ROOT)/openlane/.venv/bin/python3 -m pip install "$(LIBRELANE_PIP_SPEC)"
 	PYTHONPATH= $(PROJECT_ROOT)/openlane/.venv/bin/python3 -m pip freeze > $@
 	
 $(PROJECT_ROOT)/openlane/.version-$(CF_LIBRELANE_TAG):
@@ -112,5 +116,5 @@ librelane-nix:
 		echo "	https://librelane.readthedocs.io/en/latest/getting_started/common/nix_installation/index.html"; \
 	else \
 		echo "Activating LibreLane Nix environment…"; \
-		nix develop github:chipfoundry/openlane-2/$(CF_LIBRELANE_TAG); \
+		nix develop github:librelane/librelane/$(CF_LIBRELANE_TAG); \
 	fi

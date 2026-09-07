@@ -1,10 +1,10 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "user_project_wrapper")
- (DATE "Sun Sep  6 16:30:11 2026")
+ (DATE "Sun Sep  6 20:46:09 2026")
  (VENDOR "Parallax")
  (PROGRAM "STA")
- (VERSION "2.6.0")
+ (VERSION "2.7.0")
  (DIVIDER .)
  (VOLTAGE 1.800::1.800)
  (PROCESS "1.000::1.000")
@@ -15,67 +15,67 @@
   (INSTANCE)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT user_clock2 u_cf_adc_sar12.refclk (0.162:0.162:0.162))
+    (INTERCONNECT user_clock2 u_cf_adc_sar12.refclk (0.070:0.070:0.070))
     (INTERCONNECT wb_clk_i u_afe_wb.clkbuf_0_wb_clk_i.A (0.016:0.016:0.016) (0.016:0.016:0.016))
     (INTERCONNECT wb_rst_i u_afe_wb.input14.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_cyc_i u_afe_wb.input19.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_stb_i u_afe_wb.input52.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_we_i u_afe_wb.input53.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT analog_io[27] u_cf_adc_sar12.VPUMP (0.008:0.008:0.008))
-    (INTERCONNECT analog_io[27] u_cf_adc_sar12_sar_refs.VPUMP (0.010:0.010:0.010))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12.vssa (0.021:0.021:0.021))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa (0.027:0.027:0.027))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa_shield (0.025:0.025:0.025))
-    (INTERCONNECT analog_io[25] u_cf_adc_sar12.vdda (0.040:0.040:0.040))
-    (INTERCONNECT analog_io[25] u_cf_adc_sar12_sar_refs.vdda (0.043:0.043:0.043))
-    (INTERCONNECT analog_io[24] u_cf_bgr.dft_curr_in (0.006:0.006:0.006))
-    (INTERCONNECT analog_io[22] u_cf_adc_sar12.vreflo (0.039:0.039:0.039))
-    (INTERCONNECT analog_io[21] u_cf_adc_sar12_sar_refs.refout (0.049:0.049:0.049))
-    (INTERCONNECT analog_io[20] u_cf_adc_sar12.vinm (0.045:0.045:0.045))
-    (INTERCONNECT analog_io[19] u_cf_buf_hiz.vbptd (0.189:0.189:0.189))
-    (INTERCONNECT analog_io[18] u_cf_buf_hiz.vbpcid (0.233:0.233:0.233))
-    (INTERCONNECT analog_io[17] u_cf_buf_hiz.vbncis (0.248:0.248:0.248))
-    (INTERCONNECT analog_io[16] u_cf_buf_hiz.vbpcis (0.050:0.050:0.050))
-    (INTERCONNECT analog_io[15] u_cf_buf_hiz.vbnci (0.304:0.304:0.304))
-    (INTERCONNECT analog_io[14] u_cf_buf_hiz.vbpci (0.457:0.457:0.457))
-    (INTERCONNECT analog_io[13] u_cf_buf_hiz.vbnc (0.445:0.445:0.445))
-    (INTERCONNECT analog_io[12] u_cf_buf_hiz.vbpc (0.609:0.609:0.609))
-    (INTERCONNECT analog_io[11] u_cf_buf_hiz.vbpb (0.627:0.627:0.627))
-    (INTERCONNECT analog_io[10] u_cf_buf_hiz.vbnt (0.583:0.583:0.583))
-    (INTERCONNECT analog_io[9] u_cf_buf_hiz.vbpt (0.459:0.459:0.459))
-    (INTERCONNECT analog_io[8] u_cf_refbuf.ng (0.457:0.457:0.457))
-    (INTERCONNECT analog_io[8] u_cf_refbuf.vpwre (0.457:0.457:0.457))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.out (0.096:0.096:0.096))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.ch2 (0.096:0.096:0.096))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.ch1 (0.096:0.096:0.096))
-    (INTERCONNECT analog_io[6] u_cf_buf_hiz.vinn_na (0.311:0.311:0.311))
-    (INTERCONNECT analog_io[5] u_cf_buf_hiz.vinp_na (0.291:0.291:0.291))
-    (INTERCONNECT analog_io[4] u_cf_buf_hiz.vinn_n (0.419:0.419:0.419))
-    (INTERCONNECT analog_io[3] u_cf_buf_hiz.vinp_n (0.229:0.229:0.229))
-    (INTERCONNECT analog_io[2] u_cf_buf_hiz.vinn_p (0.322:0.322:0.322))
-    (INTERCONNECT analog_io[1] u_cf_buf_hiz.vinp_p (0.396:0.396:0.396))
-    (INTERCONNECT analog_io[0] u_cf_bgr.vb2_fast (0.042:0.042:0.042))
+    (INTERCONNECT analog_io[27] u_cf_adc_sar12.VPUMP (0.006:0.006:0.006))
+    (INTERCONNECT analog_io[27] u_cf_adc_sar12_sar_refs.VPUMP (0.007:0.007:0.007))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12.vssa (0.015:0.015:0.015))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa (0.020:0.020:0.020))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa_shield (0.018:0.018:0.018))
+    (INTERCONNECT analog_io[25] u_cf_adc_sar12.vdda (0.020:0.020:0.020))
+    (INTERCONNECT analog_io[25] u_cf_adc_sar12_sar_refs.vdda (0.023:0.023:0.023))
+    (INTERCONNECT analog_io[24] u_cf_bgr.dft_curr_in (0.003:0.003:0.003))
+    (INTERCONNECT analog_io[22] u_cf_adc_sar12.vreflo (0.020:0.020:0.020))
+    (INTERCONNECT analog_io[21] u_cf_adc_sar12_sar_refs.refout (0.035:0.035:0.035))
+    (INTERCONNECT analog_io[20] u_cf_adc_sar12.vinm (0.032:0.032:0.032))
+    (INTERCONNECT analog_io[19] u_cf_buf_hiz.vbptd (0.064:0.064:0.064))
+    (INTERCONNECT analog_io[18] u_cf_buf_hiz.vbpcid (0.082:0.082:0.082))
+    (INTERCONNECT analog_io[17] u_cf_buf_hiz.vbncis (0.089:0.089:0.089))
+    (INTERCONNECT analog_io[16] u_cf_buf_hiz.vbpcis (0.033:0.033:0.033))
+    (INTERCONNECT analog_io[15] u_cf_buf_hiz.vbnci (0.095:0.095:0.095))
+    (INTERCONNECT analog_io[14] u_cf_buf_hiz.vbpci (0.118:0.118:0.118))
+    (INTERCONNECT analog_io[13] u_cf_buf_hiz.vbnc (0.139:0.139:0.139))
+    (INTERCONNECT analog_io[12] u_cf_buf_hiz.vbpc (0.165:0.165:0.165))
+    (INTERCONNECT analog_io[11] u_cf_buf_hiz.vbpb (0.203:0.203:0.203))
+    (INTERCONNECT analog_io[10] u_cf_buf_hiz.vbnt (0.105:0.105:0.105))
+    (INTERCONNECT analog_io[9] u_cf_buf_hiz.vbpt (0.169:0.169:0.169))
+    (INTERCONNECT analog_io[8] u_cf_refbuf.ng (0.174:0.174:0.174))
+    (INTERCONNECT analog_io[8] u_cf_refbuf.vpwre (0.174:0.174:0.174))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.out (0.084:0.084:0.084))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.ch2 (0.084:0.084:0.084))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.ch1 (0.084:0.084:0.084))
+    (INTERCONNECT analog_io[6] u_cf_buf_hiz.vinn_na (0.454:0.454:0.454))
+    (INTERCONNECT analog_io[5] u_cf_buf_hiz.vinp_na (0.114:0.114:0.114))
+    (INTERCONNECT analog_io[4] u_cf_buf_hiz.vinn_n (0.184:0.184:0.184))
+    (INTERCONNECT analog_io[3] u_cf_buf_hiz.vinp_n (0.090:0.090:0.090))
+    (INTERCONNECT analog_io[2] u_cf_buf_hiz.vinn_p (0.105:0.105:0.105))
+    (INTERCONNECT analog_io[1] u_cf_buf_hiz.vinp_p (0.103:0.103:0.103))
+    (INTERCONNECT analog_io[0] u_cf_bgr.vb2_fast (0.032:0.032:0.032))
     (INTERCONNECT wbs_adr_i[5] u_afe_wb.hold23.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[4] u_afe_wb.hold4.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[3] u_afe_wb.hold7.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[2] u_afe_wb.hold16.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[31] u_afe_wb.hold1.A (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT wbs_dat_i[31] u_afe_wb.hold1.A (0.007:0.007:0.007) (0.006:0.006:0.006))
     (INTERCONNECT wbs_dat_i[30] u_afe_wb.hold63.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[29] u_afe_wb.hold108.A (0.003:0.003:0.003) (0.003:0.003:0.003))
-    (INTERCONNECT wbs_dat_i[28] u_afe_wb.hold48.A (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT wbs_dat_i[29] u_afe_wb.hold108.A (0.004:0.004:0.004) (0.004:0.004:0.004))
+    (INTERCONNECT wbs_dat_i[28] u_afe_wb.hold48.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[27] u_afe_wb.hold145.A (0.004:0.004:0.004) (0.004:0.004:0.004))
     (INTERCONNECT wbs_dat_i[26] u_afe_wb.hold82.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[25] u_afe_wb.hold80.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[24] u_afe_wb.hold85.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[23] u_afe_wb.hold13.A (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT wbs_dat_i[23] u_afe_wb.hold13.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[22] u_afe_wb.hold58.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[21] u_afe_wb.hold106.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[20] u_afe_wb.hold124.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[20] u_afe_wb.hold124.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[19] u_afe_wb.hold119.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[18] u_afe_wb.hold97.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[17] u_afe_wb.hold45.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[16] u_afe_wb.hold31.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[15] u_afe_wb.hold89.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[17] u_afe_wb.hold45.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[16] u_afe_wb.hold31.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT wbs_dat_i[15] u_afe_wb.hold89.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[14] u_afe_wb.hold171.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[13] u_afe_wb.hold20.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[12] u_afe_wb.hold54.A (0.002:0.002:0.002) (0.002:0.002:0.002))
@@ -86,7 +86,7 @@
     (INTERCONNECT wbs_dat_i[7] u_afe_wb.hold198.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[6] u_afe_wb.hold196.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[5] u_afe_wb.hold29.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[4] u_afe_wb.hold60.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[4] u_afe_wb.hold60.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[3] u_afe_wb.hold66.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[2] u_afe_wb.hold70.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[1] u_afe_wb.hold187.A (0.001:0.001:0.001) (0.001:0.001:0.001))
@@ -3774,7 +3774,7 @@
     (INTERCONNECT u_afe_wb.output101.X u_cf_adc_sar12.sample_width[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output102.X u_cf_adc_sar12.sample_width[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output103.X u_cf_adc_sar12.cap_trim[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output104.X u_cf_adc_sar12.cap_trim[1] (0.019:0.019:0.019) (0.018:0.018:0.018))
+    (INTERCONNECT u_afe_wb.output104.X u_cf_adc_sar12.cap_trim[1] (0.018:0.018:0.018) (0.017:0.017:0.017))
     (INTERCONNECT u_afe_wb.output105.X u_cf_adc_sar12.cap_trim[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output106.X u_cf_buf_hiz.clk2_boost (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.output107.X u_cf_adc_sar12.icont_lv[1] (0.000:0.000:0.000))
@@ -3784,32 +3784,32 @@
     (INTERCONNECT u_afe_wb.output111.X u_cf_adc_sar12.dft_inc[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output112.X u_cf_adc_sar12.dft_inc[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output113.X u_cf_adc_sar12.dft_outc[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output114.X u_cf_adc_sar12.dft_outc[1] (0.020:0.020:0.020) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.output114.X u_cf_adc_sar12.dft_outc[1] (0.013:0.013:0.013) (0.013:0.013:0.013))
     (INTERCONNECT u_afe_wb.output115.X u_cf_adc_sar12.dft_outc[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output116.X u_cf_adc_sar12.sel_csel_dft[3] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output117.X u_cf_buf_hiz.e_n_boost (0.036:0.036:0.036) (0.034:0.034:0.034))
+    (INTERCONNECT u_afe_wb.output117.X u_cf_buf_hiz.e_n_boost (0.014:0.014:0.014) (0.013:0.013:0.013))
     (INTERCONNECT u_afe_wb.output118.X u_cf_adc_sar12.sel_csel_dft[2] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output119.X u_cf_adc_sar12.sel_csel_dft[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output120.X u_cf_adc_sar12.sel_csel_dft[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output121.X u_cf_adc_sar12_sar_refs.vref[4] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output122.X u_cf_adc_sar12_sar_refs.vref[3] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output123.X u_cf_adc_sar12_sar_refs.vref[2] (0.015:0.015:0.015) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.output123.X u_cf_adc_sar12_sar_refs.vref[2] (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.output124.X u_cf_adc_sar12_sar_refs.vref[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output125.X u_cf_adc_sar12_sar_refs.vref[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output126.X u_cf_adc_sar12_sar_refs.PWR_CTRL_VREF[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output127.X u_cf_adc_sar12_sar_refs.PWR_CTRL_VREF[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output128.X u_cf_buf_hiz.e_na_boost (0.043:0.043:0.043) (0.041:0.041:0.041))
+    (INTERCONNECT u_afe_wb.output128.X u_cf_buf_hiz.e_na_boost (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.output129.X u_cf_adc_sar12_sar_refs.muxsarref[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output130.X u_cf_adc_sar12_sar_refs.muxsarref[1] (0.024:0.024:0.024) (0.023:0.023:0.023))
+    (INTERCONNECT u_afe_wb.output130.X u_cf_adc_sar12_sar_refs.muxsarref[1] (0.022:0.022:0.022) (0.021:0.021:0.021))
     (INTERCONNECT u_afe_wb.output131.X u_cf_adc_sar12_sar_refs.muxsarref[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output132.X u_cf_adc_sar12_sar_refs.EN_RESVDA (0.048:0.048:0.048) (0.045:0.045:0.045))
+    (INTERCONNECT u_afe_wb.output132.X u_cf_adc_sar12_sar_refs.EN_RESVDA (0.022:0.022:0.022) (0.021:0.021:0.021))
     (INTERCONNECT u_afe_wb.output133.X u_cf_bgr.trimTC[6] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output134.X u_cf_bgr.trimTC[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output135.X u_cf_bgr.trimTC[4] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output136.X u_cf_bgr.trimTC[3] (0.019:0.019:0.019) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.output136.X u_cf_bgr.trimTC[3] (0.127:0.127:0.127) (0.115:0.115:0.115))
     (INTERCONNECT u_afe_wb.output137.X u_cf_bgr.trimTC[2] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output138.X u_cf_bgr.trimTC[1] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output139.X u_cf_buf_hiz.clk1_boostr (0.016:0.016:0.016) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output139.X u_cf_buf_hiz.clk1_boostr (0.014:0.014:0.014) (0.013:0.013:0.013))
     (INTERCONNECT u_afe_wb.output140.X u_cf_bgr.trimTC[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output141.X u_cf_bgr.trimCurr[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output142.X u_cf_bgr.trimCurr[4] (0.000:0.000:0.000))
@@ -3826,63 +3826,63 @@
     (INTERCONNECT u_afe_wb.output153.X u_cf_bgr.inl_ctrl[6] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output154.X u_cf_bgr.inl_ctrl[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output155.X u_cf_bgr.inl_ctrl[4] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output156.X u_cf_bgr.inl_ctrl[3] (0.110:0.110:0.110) (0.102:0.102:0.102))
+    (INTERCONNECT u_afe_wb.output156.X u_cf_bgr.inl_ctrl[3] (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.output157.X u_cf_bgr.inl_ctrl[2] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output158.X u_cf_bgr.inl_ctrl[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output159.X u_cf_bgr.inl_ctrl[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output160.X u_cf_adc_sar12.pd (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.output160.X u_cf_adc_sar12_sar_refs.pd (0.016:0.016:0.016) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output160.X u_cf_adc_sar12.pd (0.015:0.015:0.015) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.output160.X u_cf_adc_sar12_sar_refs.pd (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.output161.X u_cf_bgr.mux1sel[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output162.X u_cf_bgr.mux1sel[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output163.X u_cf_bgr.mux2sel (0.096:0.096:0.096) (0.089:0.089:0.089))
-    (INTERCONNECT u_afe_wb.output164.X u_cf_bgr.dft_sel (0.046:0.046:0.046) (0.045:0.045:0.045))
-    (INTERCONNECT u_afe_wb.output165.X u_cf_bgr.pd (0.072:0.072:0.072) (0.069:0.069:0.069))
-    (INTERCONNECT u_afe_wb.output166.X u_cf_bgr.pd_ibg (0.042:0.042:0.042) (0.041:0.041:0.041))
-    (INTERCONNECT u_afe_wb.output167.X u_cf_bgr.finetune (0.021:0.021:0.021) (0.020:0.020:0.020))
-    (INTERCONNECT u_afe_wb.output168.X u_cf_bgr.en_startb (0.093:0.093:0.093) (0.091:0.091:0.091))
-    (INTERCONNECT u_afe_wb.output169.X u_cf_adc_sar12.pd_ana (0.025:0.025:0.025) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.output169.X u_cf_adc_sar12_sar_refs.pd_ana (0.025:0.025:0.025) (0.024:0.024:0.024))
+    (INTERCONNECT u_afe_wb.output163.X u_cf_bgr.mux2sel (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT u_afe_wb.output164.X u_cf_bgr.dft_sel (0.014:0.014:0.014) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.output165.X u_cf_bgr.pd (0.020:0.020:0.020) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.output166.X u_cf_bgr.pd_ibg (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.output167.X u_cf_bgr.finetune (0.017:0.017:0.017) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output168.X u_cf_bgr.en_startb (0.027:0.027:0.027) (0.026:0.026:0.026))
+    (INTERCONNECT u_afe_wb.output169.X u_cf_adc_sar12.pd_ana (0.032:0.032:0.032) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.output169.X u_cf_adc_sar12_sar_refs.pd_ana (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.output170.X wbs_ack_o (0.027:0.027:0.027) (0.026:0.026:0.026))
     (INTERCONNECT u_afe_wb.output171.X wbs_dat_o[0] (0.025:0.025:0.025) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.output172.X wbs_dat_o[10] (0.040:0.040:0.040) (0.039:0.039:0.039))
+    (INTERCONNECT u_afe_wb.output172.X wbs_dat_o[10] (0.039:0.039:0.039) (0.038:0.038:0.038))
     (INTERCONNECT u_afe_wb.output173.X wbs_dat_o[11] (0.030:0.030:0.030) (0.029:0.029:0.029))
-    (INTERCONNECT u_afe_wb.output174.X wbs_dat_o[12] (0.043:0.043:0.043) (0.043:0.043:0.043))
-    (INTERCONNECT u_afe_wb.output175.X wbs_dat_o[13] (0.032:0.032:0.032) (0.031:0.031:0.031))
-    (INTERCONNECT u_afe_wb.output176.X wbs_dat_o[14] (0.031:0.031:0.031) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.output177.X wbs_dat_o[15] (0.031:0.031:0.031) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.output178.X wbs_dat_o[16] (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.output174.X wbs_dat_o[12] (0.042:0.042:0.042) (0.042:0.042:0.042))
+    (INTERCONNECT u_afe_wb.output175.X wbs_dat_o[13] (0.031:0.031:0.031) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.output176.X wbs_dat_o[14] (0.032:0.032:0.032) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.output177.X wbs_dat_o[15] (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.output178.X wbs_dat_o[16] (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.output179.X wbs_dat_o[17] (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.output180.X wbs_dat_o[18] (0.034:0.034:0.034) (0.033:0.033:0.033))
-    (INTERCONNECT u_afe_wb.output181.X wbs_dat_o[19] (0.034:0.034:0.034) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.output181.X wbs_dat_o[19] (0.033:0.033:0.033) (0.032:0.032:0.032))
     (INTERCONNECT u_afe_wb.output182.X wbs_dat_o[1] (0.026:0.026:0.026) (0.025:0.025:0.025))
-    (INTERCONNECT u_afe_wb.output183.X wbs_dat_o[20] (0.034:0.034:0.034) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.output183.X wbs_dat_o[20] (0.036:0.036:0.036) (0.034:0.034:0.034))
     (INTERCONNECT u_afe_wb.output184.X wbs_dat_o[21] (0.032:0.032:0.032) (0.031:0.031:0.031))
-    (INTERCONNECT u_afe_wb.output185.X wbs_dat_o[22] (0.032:0.032:0.032) (0.031:0.031:0.031))
-    (INTERCONNECT u_afe_wb.output186.X wbs_dat_o[23] (0.034:0.034:0.034) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.output185.X wbs_dat_o[22] (0.034:0.034:0.034) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.output186.X wbs_dat_o[23] (0.033:0.033:0.033) (0.032:0.032:0.032))
     (INTERCONNECT u_afe_wb.output187.X wbs_dat_o[24] (0.036:0.036:0.036) (0.034:0.034:0.034))
     (INTERCONNECT u_afe_wb.output188.X wbs_dat_o[25] (0.034:0.034:0.034) (0.033:0.033:0.033))
     (INTERCONNECT u_afe_wb.output189.X wbs_dat_o[26] (0.038:0.038:0.038) (0.036:0.036:0.036))
-    (INTERCONNECT u_afe_wb.output190.X wbs_dat_o[27] (0.035:0.035:0.035) (0.034:0.034:0.034))
-    (INTERCONNECT u_afe_wb.output191.X wbs_dat_o[28] (0.036:0.036:0.036) (0.035:0.035:0.035))
-    (INTERCONNECT u_afe_wb.output192.X wbs_dat_o[29] (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (INTERCONNECT u_afe_wb.output190.X wbs_dat_o[27] (0.036:0.036:0.036) (0.035:0.035:0.035))
+    (INTERCONNECT u_afe_wb.output191.X wbs_dat_o[28] (0.037:0.037:0.037) (0.035:0.035:0.035))
+    (INTERCONNECT u_afe_wb.output192.X wbs_dat_o[29] (0.020:0.020:0.020) (0.019:0.019:0.019))
     (INTERCONNECT u_afe_wb.output193.X wbs_dat_o[2] (0.027:0.027:0.027) (0.026:0.026:0.026))
-    (INTERCONNECT u_afe_wb.output194.X wbs_dat_o[30] (0.014:0.014:0.014) (0.013:0.013:0.013))
-    (INTERCONNECT u_afe_wb.output195.X wbs_dat_o[31] (0.038:0.038:0.038) (0.036:0.036:0.036))
+    (INTERCONNECT u_afe_wb.output194.X wbs_dat_o[30] (0.033:0.033:0.033) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.output195.X wbs_dat_o[31] (0.018:0.018:0.018) (0.018:0.018:0.018))
     (INTERCONNECT u_afe_wb.output196.X wbs_dat_o[3] (0.027:0.027:0.027) (0.026:0.026:0.026))
     (INTERCONNECT u_afe_wb.output197.X wbs_dat_o[4] (0.027:0.027:0.027) (0.026:0.026:0.026))
     (INTERCONNECT u_afe_wb.output198.X wbs_dat_o[5] (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.output199.X wbs_dat_o[6] (0.029:0.029:0.029) (0.028:0.028:0.028))
-    (INTERCONNECT u_afe_wb.output200.X wbs_dat_o[7] (0.029:0.029:0.029) (0.028:0.028:0.028))
-    (INTERCONNECT u_afe_wb.output201.X wbs_dat_o[8] (0.029:0.029:0.029) (0.028:0.028:0.028))
-    (INTERCONNECT u_afe_wb.output202.X wbs_dat_o[9] (0.012:0.012:0.012) (0.012:0.012:0.012))
-    (INTERCONNECT u_afe_wb.output54.X u_cf_buf_hiz.e_pd (0.048:0.048:0.048) (0.046:0.046:0.046))
-    (INTERCONNECT u_afe_wb.output55.X u_cf_refbuf.pd (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.output56.X u_cf_refbuf.switchon (0.022:0.022:0.022) (0.022:0.022:0.022))
-    (INTERCONNECT u_afe_wb.output57.X u_cf_refbuf.boost (0.021:0.021:0.021) (0.020:0.020:0.020))
-    (INTERCONNECT u_afe_wb.output58.X u_cf_refbuf.ch_cont (0.021:0.021:0.021) (0.020:0.020:0.020))
-    (INTERCONNECT u_afe_wb.output59.X u_cf_adc_sar12_sar_refs.sw_start (0.018:0.018:0.018) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.output60.X u_cf_adc_sar12_sar_refs.pd_vcmbuf (0.052:0.052:0.052) (0.049:0.049:0.049))
-    (INTERCONNECT u_afe_wb.output61.X u_cf_adc_sar12.reset_n (0.076:0.076:0.076) (0.072:0.072:0.072))
+    (INTERCONNECT u_afe_wb.output199.X wbs_dat_o[6] (0.028:0.028:0.028) (0.027:0.027:0.027))
+    (INTERCONNECT u_afe_wb.output200.X wbs_dat_o[7] (0.027:0.027:0.027) (0.026:0.026:0.026))
+    (INTERCONNECT u_afe_wb.output201.X wbs_dat_o[8] (0.028:0.028:0.028) (0.027:0.027:0.027))
+    (INTERCONNECT u_afe_wb.output202.X wbs_dat_o[9] (0.029:0.029:0.029) (0.028:0.028:0.028))
+    (INTERCONNECT u_afe_wb.output54.X u_cf_buf_hiz.e_pd (0.016:0.016:0.016) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output55.X u_cf_refbuf.pd (0.020:0.020:0.020) (0.020:0.020:0.020))
+    (INTERCONNECT u_afe_wb.output56.X u_cf_refbuf.switchon (0.021:0.021:0.021) (0.020:0.020:0.020))
+    (INTERCONNECT u_afe_wb.output57.X u_cf_refbuf.boost (0.022:0.022:0.022) (0.022:0.022:0.022))
+    (INTERCONNECT u_afe_wb.output58.X u_cf_refbuf.ch_cont (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.output59.X u_cf_adc_sar12_sar_refs.sw_start (0.020:0.020:0.020) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.output60.X u_cf_adc_sar12_sar_refs.pd_vcmbuf (0.058:0.058:0.058) (0.056:0.056:0.056))
+    (INTERCONNECT u_afe_wb.output61.X u_cf_adc_sar12.reset_n (0.086:0.086:0.086) (0.082:0.082:0.082))
     (INTERCONNECT u_afe_wb.output62.X u_cf_adc_sar12_sar_refs.S_LV[7] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output63.X u_cf_adc_sar12_sar_refs.S_LV[6] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output64.X u_cf_adc_sar12_sar_refs.S_LV[5] (0.000:0.000:0.000))
@@ -3891,34 +3891,34 @@
     (INTERCONNECT u_afe_wb.output67.X u_cf_adc_sar12_sar_refs.S_LV[2] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output68.X u_cf_adc_sar12_sar_refs.S_LV[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output69.X u_cf_adc_sar12_sar_refs.S_LV[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output70.X u_cf_adc_sar12_sar_refs.refout_en (0.015:0.015:0.015) (0.014:0.014:0.014))
-    (INTERCONNECT u_afe_wb.output71.X u_cf_adc_sar12_sar_refs.sw_holdb (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.output72.X u_cf_adc_sar12.sof (0.073:0.073:0.073) (0.069:0.069:0.069))
-    (INTERCONNECT u_afe_wb.output73.X u_cf_adc_sar12_sar_refs.enpdb_hv (0.022:0.022:0.022) (0.022:0.022:0.022))
-    (INTERCONNECT u_afe_wb.output74.X u_cf_adc_sar12_sar_refs.PD_BUF_VREF (0.031:0.031:0.031) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.output75.X u_cf_adc_sar12_sar_refs.dft_comp_en (0.019:0.019:0.019) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.output76.X u_cf_adc_sar12.next (0.057:0.057:0.057) (0.054:0.054:0.054))
-    (INTERCONNECT u_afe_wb.output77.X u_cf_adc_sar12.hiz (0.076:0.076:0.076) (0.074:0.074:0.074))
-    (INTERCONNECT u_afe_wb.output77.X u_cf_adc_sar12_sar_refs.hiz (0.044:0.044:0.044) (0.042:0.042:0.042))
-    (INTERCONNECT u_afe_wb.output78.X u_cf_adc_sar12.iso_en (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.output79.X u_cf_adc_sar12.enable_hv (0.026:0.026:0.026) (0.025:0.025:0.025))
-    (INTERCONNECT u_afe_wb.output79.X u_cf_adc_sar12_sar_refs.enable_hv (0.022:0.022:0.022) (0.022:0.022:0.022))
-    (INTERCONNECT u_afe_wb.output80.X u_cf_adc_sar12.trimunit (0.013:0.013:0.013) (0.013:0.013:0.013))
-    (INTERCONNECT u_afe_wb.output81.X u_cf_adc_sar12.dly_inc (0.018:0.018:0.018) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.output82.X u_cf_adc_sar12.dcen (0.017:0.017:0.017) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.output83.X u_cf_adc_sar12.pumpclk (0.018:0.018:0.018) (0.017:0.017:0.017))
-    (INTERCONNECT u_afe_wb.output84.X u_cf_buf_hiz.en_pd (0.010:0.010:0.010) (0.010:0.010:0.010))
+    (INTERCONNECT u_afe_wb.output70.X u_cf_adc_sar12_sar_refs.refout_en (0.019:0.019:0.019) (0.018:0.018:0.018))
+    (INTERCONNECT u_afe_wb.output71.X u_cf_adc_sar12_sar_refs.sw_holdb (0.015:0.015:0.015) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.output72.X u_cf_adc_sar12.sof (0.060:0.060:0.060) (0.057:0.057:0.057))
+    (INTERCONNECT u_afe_wb.output73.X u_cf_adc_sar12_sar_refs.enpdb_hv (0.015:0.015:0.015) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.output74.X u_cf_adc_sar12_sar_refs.PD_BUF_VREF (0.128:0.128:0.128) (0.118:0.118:0.118))
+    (INTERCONNECT u_afe_wb.output75.X u_cf_adc_sar12_sar_refs.dft_comp_en (0.016:0.016:0.016) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output76.X u_cf_adc_sar12.next (0.020:0.020:0.020) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.output77.X u_cf_adc_sar12.hiz (0.030:0.030:0.030) (0.028:0.028:0.028))
+    (INTERCONNECT u_afe_wb.output77.X u_cf_adc_sar12_sar_refs.hiz (0.026:0.026:0.026) (0.025:0.025:0.025))
+    (INTERCONNECT u_afe_wb.output78.X u_cf_adc_sar12.iso_en (0.060:0.060:0.060) (0.057:0.057:0.057))
+    (INTERCONNECT u_afe_wb.output79.X u_cf_adc_sar12.enable_hv (0.024:0.024:0.024) (0.023:0.023:0.023))
+    (INTERCONNECT u_afe_wb.output79.X u_cf_adc_sar12_sar_refs.enable_hv (0.023:0.023:0.023) (0.022:0.022:0.022))
+    (INTERCONNECT u_afe_wb.output80.X u_cf_adc_sar12.trimunit (0.013:0.013:0.013) (0.012:0.012:0.012))
+    (INTERCONNECT u_afe_wb.output81.X u_cf_adc_sar12.dly_inc (0.015:0.015:0.015) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.output82.X u_cf_adc_sar12.dcen (0.015:0.015:0.015) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.output83.X u_cf_adc_sar12.pumpclk (0.028:0.028:0.028) (0.026:0.026:0.026))
+    (INTERCONNECT u_afe_wb.output84.X u_cf_buf_hiz.en_pd (0.016:0.016:0.016) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.output85.X u_cf_adc_sar12.en_pump_lv (0.015:0.015:0.015) (0.015:0.015:0.015))
-    (INTERCONNECT u_afe_wb.output86.X u_cf_adc_sar12.scan_test_mode (0.088:0.088:0.088) (0.083:0.083:0.083))
-    (INTERCONNECT u_afe_wb.output87.X u_cf_adc_sar12.test_scanin (0.034:0.034:0.034) (0.033:0.033:0.033))
-    (INTERCONNECT u_afe_wb.output88.X u_cf_adc_sar12.test_scanen (0.106:0.106:0.106) (0.101:0.101:0.101))
-    (INTERCONNECT u_afe_wb.output89.X u_cf_adc_sar12.test_sea (0.017:0.017:0.017) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.output86.X u_cf_adc_sar12.scan_test_mode (0.022:0.022:0.022) (0.021:0.021:0.021))
+    (INTERCONNECT u_afe_wb.output87.X u_cf_adc_sar12.test_scanin (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.output88.X u_cf_adc_sar12.test_scanen (0.024:0.024:0.024) (0.023:0.023:0.023))
+    (INTERCONNECT u_afe_wb.output89.X u_cf_adc_sar12.test_sea (0.024:0.024:0.024) (0.023:0.023:0.023))
     (INTERCONNECT u_afe_wb.output90.X u_cf_adc_sar12.resolution[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output91.X u_cf_adc_sar12.resolution[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output92.X u_cf_adc_sar12.sample_width[9] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output93.X u_cf_adc_sar12.sample_width[8] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output94.X u_cf_adc_sar12.sample_width[7] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.output95.X u_cf_buf_hiz.tp (0.044:0.044:0.044) (0.042:0.042:0.042))
+    (INTERCONNECT u_afe_wb.output95.X u_cf_buf_hiz.tp (0.013:0.013:0.013) (0.012:0.012:0.012))
     (INTERCONNECT u_afe_wb.output96.X u_cf_adc_sar12.sample_width[6] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output97.X u_cf_adc_sar12.sample_width[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.output98.X u_cf_adc_sar12.sample_width[4] (0.000:0.000:0.000))
@@ -12301,8 +12301,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.041:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.061:0.061:0.061))
     (SETUP (negedge D) (posedge CLK) (0.107:0.108:0.109))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.223:0.223:0.223))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -12318,8 +12318,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.034:-0.036))
     (SETUP (posedge D) (posedge CLK) (0.055:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.289:0.289:0.289))
-    (WIDTH (negedge CLK) (0.247:0.247:0.247))
+    (WIDTH (posedge CLK) (0.279:0.279:0.279))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -12335,8 +12335,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.060:0.060:0.060))
     (SETUP (negedge D) (posedge CLK) (0.104:0.106:0.109))
-    (WIDTH (posedge CLK) (0.267:0.267:0.267))
-    (WIDTH (negedge CLK) (0.234:0.234:0.234))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.245:0.245:0.245))
   )
  )
  (CELL
@@ -12352,8 +12352,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.035:-0.038:-0.040))
     (SETUP (posedge D) (posedge CLK) (0.058:0.059:0.059))
     (SETUP (negedge D) (posedge CLK) (0.101:0.104:0.106))
-    (WIDTH (posedge CLK) (0.284:0.284:0.284))
-    (WIDTH (negedge CLK) (0.244:0.244:0.244))
+    (WIDTH (posedge CLK) (0.274:0.274:0.274))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -12369,8 +12369,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.034:-0.036))
     (SETUP (posedge D) (posedge CLK) (0.055:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.289:0.289:0.289))
-    (WIDTH (negedge CLK) (0.247:0.247:0.247))
+    (WIDTH (posedge CLK) (0.279:0.279:0.279))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -12386,8 +12386,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.035:-0.038:-0.040))
     (SETUP (posedge D) (posedge CLK) (0.058:0.058:0.058))
     (SETUP (negedge D) (posedge CLK) (0.101:0.104:0.106))
-    (WIDTH (posedge CLK) (0.267:0.267:0.267))
-    (WIDTH (negedge CLK) (0.234:0.234:0.234))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.245:0.245:0.245))
   )
  )
  (CELL
@@ -12403,8 +12403,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.057:0.057:0.057))
     (SETUP (negedge D) (posedge CLK) (0.099:0.102:0.104))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.241:0.241:0.241))
+    (WIDTH (posedge CLK) (0.269:0.269:0.269))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -12420,8 +12420,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.031:-0.033:-0.036))
     (SETUP (posedge D) (posedge CLK) (0.055:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.102))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.248:0.248:0.248))
+    (WIDTH (posedge CLK) (0.280:0.280:0.280))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -12437,8 +12437,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.035:-0.037:-0.039))
     (SETUP (posedge D) (posedge CLK) (0.057:0.058:0.058))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.106))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.238:0.238:0.238))
+    (WIDTH (posedge CLK) (0.264:0.264:0.264))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -12454,8 +12454,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.036:-0.038:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.057:0.057:0.057))
     (SETUP (negedge D) (posedge CLK) (0.102:0.105:0.107))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.249:0.249:0.249))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -12471,8 +12471,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.036:-0.038:-0.040))
     (SETUP (posedge D) (posedge CLK) (0.056:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.107))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.250:0.250:0.250))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -12488,8 +12488,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.034:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.056:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.103))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.248:0.248:0.248))
+    (WIDTH (posedge CLK) (0.280:0.280:0.280))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -12505,8 +12505,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.039:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.057:0.057:0.058))
     (SETUP (negedge D) (posedge CLK) (0.103:0.106:0.108))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -12522,8 +12522,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.036:-0.039:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.057:0.057:0.057))
     (SETUP (negedge D) (posedge CLK) (0.103:0.105:0.108))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.249:0.249:0.249))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -12539,8 +12539,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.033:-0.035:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.054:0.054))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.236:0.236:0.236))
+    (WIDTH (posedge CLK) (0.268:0.268:0.268))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -12556,8 +12556,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.106))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -12573,8 +12573,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.102:0.104))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -12590,8 +12590,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.046:-0.050:-0.054))
     (SETUP (posedge D) (posedge CLK) (0.055:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.102:0.106:0.111))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -12607,8 +12607,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.058:0.058:0.059))
     (SETUP (negedge D) (posedge CLK) (0.104:0.107:0.109))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -12624,8 +12624,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.033:-0.035:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.104))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.236:0.236:0.236))
+    (WIDTH (posedge CLK) (0.268:0.268:0.268))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -12641,8 +12641,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.100))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -12658,8 +12658,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.033:-0.035:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.104))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.235:0.235:0.235))
+    (WIDTH (posedge CLK) (0.267:0.267:0.267))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12675,8 +12675,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.100:0.102))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -12692,8 +12692,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.048:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.053:0.054:0.054))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.107))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -12709,8 +12709,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.100:0.102))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -12726,8 +12726,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.101:0.103))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -12743,8 +12743,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.048:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.053:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.107))
-    (WIDTH (posedge CLK) (0.270:0.270:0.270))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.234:0.234:0.234))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -12760,8 +12760,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.102:0.104))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -12777,8 +12777,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.101:0.103))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -12794,8 +12794,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.102))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12811,8 +12811,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.103))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12828,8 +12828,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.100:0.103:0.105))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -12845,8 +12845,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.105))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -12862,8 +12862,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12879,8 +12879,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -12896,8 +12896,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -12913,8 +12913,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -12930,8 +12930,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12947,8 +12947,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -12964,8 +12964,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12981,8 +12981,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -12998,8 +12998,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13015,8 +13015,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13032,8 +13032,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13049,8 +13049,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.259:0.259:0.259))
-    (WIDTH (negedge CLK) (0.206:0.206:0.206))
+    (WIDTH (posedge CLK) (0.223:0.223:0.223))
+    (WIDTH (negedge CLK) (0.244:0.244:0.244))
   )
  )
  (CELL
@@ -13066,8 +13066,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13083,8 +13083,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13100,8 +13100,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -13117,8 +13117,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -13134,8 +13134,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13151,8 +13151,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -13168,8 +13168,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13185,8 +13185,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13202,8 +13202,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13219,8 +13219,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -13236,8 +13236,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -13253,8 +13253,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.243:0.243:0.243))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13270,8 +13270,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -13287,8 +13287,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13304,8 +13304,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.048:-0.048:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.105:0.105:0.105))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -13321,8 +13321,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -13338,8 +13338,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.270:0.270:0.270))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.234:0.234:0.234))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -13355,8 +13355,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -13372,8 +13372,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13389,8 +13389,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13406,8 +13406,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.239:0.239:0.239))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13423,8 +13423,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.053:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.239:0.239:0.239))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13440,8 +13440,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13457,8 +13457,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13474,8 +13474,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.239:0.239:0.239))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13491,8 +13491,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -13508,8 +13508,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13525,8 +13525,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.219:0.219:0.219))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13542,8 +13542,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.051:-0.051:-0.051))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.108:0.108:0.108))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -13559,8 +13559,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13576,8 +13576,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13593,8 +13593,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13610,8 +13610,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.049:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.106:0.106:0.106))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -13627,8 +13627,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13644,8 +13644,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13661,8 +13661,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.051:-0.051:-0.051))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.108:0.108:0.108))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -13678,8 +13678,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -13695,8 +13695,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.102))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -13712,8 +13712,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13729,8 +13729,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.047:-0.047:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.104:0.104:0.104))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -13746,8 +13746,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -13763,8 +13763,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -13780,8 +13780,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -13797,8 +13797,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.243:0.243:0.243))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -13814,8 +13814,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -13831,8 +13831,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -13848,8 +13848,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -13865,8 +13865,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -13882,8 +13882,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.270:0.270:0.270))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.234:0.234:0.234))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -13899,8 +13899,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.269:0.269:0.269))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.233:0.233:0.233))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -13916,8 +13916,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13933,8 +13933,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -13950,8 +13950,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.239:0.239:0.239))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -13967,8 +13967,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -13984,8 +13984,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.239:0.239:0.239))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14001,8 +14001,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.264:0.264:0.264))
-    (WIDTH (negedge CLK) (0.210:0.210:0.210))
+    (WIDTH (posedge CLK) (0.228:0.228:0.228))
+    (WIDTH (negedge CLK) (0.247:0.247:0.247))
   )
  )
  (CELL
@@ -14018,8 +14018,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.095:0.098:0.100))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -14035,8 +14035,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -14052,8 +14052,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.260:0.260:0.260))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -14069,8 +14069,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.264:0.264:0.264))
-    (WIDTH (negedge CLK) (0.210:0.210:0.210))
+    (WIDTH (posedge CLK) (0.228:0.228:0.228))
+    (WIDTH (negedge CLK) (0.247:0.247:0.247))
   )
  )
  (CELL
@@ -14086,8 +14086,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.046:-0.048:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.256:0.256:0.256))
-    (WIDTH (negedge CLK) (0.204:0.204:0.204))
+    (WIDTH (posedge CLK) (0.219:0.219:0.219))
+    (WIDTH (negedge CLK) (0.241:0.241:0.241))
   )
  )
  (CELL
@@ -14103,8 +14103,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14120,8 +14120,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14137,8 +14137,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14154,8 +14154,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14171,8 +14171,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14188,8 +14188,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -14205,8 +14205,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -14222,8 +14222,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -14239,8 +14239,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -14256,8 +14256,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14273,8 +14273,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -14290,8 +14290,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -14307,8 +14307,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -14324,8 +14324,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -14341,8 +14341,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -14358,8 +14358,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -14375,8 +14375,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -14392,8 +14392,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -14409,8 +14409,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -14426,8 +14426,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -14443,8 +14443,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.046:-0.048:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.053:0.054:0.054))
     (SETUP (negedge D) (posedge CLK) (0.103:0.105:0.107))
-    (WIDTH (posedge CLK) (0.269:0.269:0.269))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.233:0.233:0.233))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -14460,8 +14460,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -14477,8 +14477,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.048:-0.048:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.105:0.105:0.105))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -14494,8 +14494,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -14511,8 +14511,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -14528,8 +14528,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -14545,8 +14545,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -14562,8 +14562,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -14579,8 +14579,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.290:0.290:0.290))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -14596,8 +14596,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -14613,8 +14613,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.213:0.213:0.213))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.250:0.250:0.250))
   )
  )
  (CELL
@@ -14630,8 +14630,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.256:0.256:0.256))
-    (WIDTH (negedge CLK) (0.204:0.204:0.204))
+    (WIDTH (posedge CLK) (0.219:0.219:0.219))
+    (WIDTH (negedge CLK) (0.241:0.241:0.241))
   )
  )
  (CELL
@@ -14647,8 +14647,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14664,8 +14664,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.250:0.250:0.250))
   )
  )
  (CELL
@@ -14681,8 +14681,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14698,8 +14698,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14715,8 +14715,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -14732,8 +14732,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -14749,8 +14749,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14766,8 +14766,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.243:0.243:0.243))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -14783,8 +14783,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.051:-0.051:-0.051))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.108:0.108:0.108))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -14800,8 +14800,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.049:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.106:0.106:0.106))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -14817,8 +14817,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.039:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.047:0.047:0.048))
     (SETUP (negedge D) (posedge CLK) (0.093:0.095:0.097))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -14834,8 +14834,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -14851,8 +14851,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -14868,8 +14868,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.039:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.047:0.047:0.048))
     (SETUP (negedge D) (posedge CLK) (0.094:0.095:0.097))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -14885,8 +14885,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -14902,8 +14902,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.046:-0.046:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.103:0.103:0.103))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -14919,8 +14919,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -14936,8 +14936,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -14953,8 +14953,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -14970,8 +14970,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.270:0.270:0.270))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.234:0.234:0.234))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -14987,8 +14987,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.050:-0.050:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.107:0.107:0.107))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -15004,8 +15004,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.049:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.106:0.106:0.106))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -15021,8 +15021,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.050:-0.050:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.107:0.107:0.107))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15038,8 +15038,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15055,8 +15055,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -15072,8 +15072,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15089,8 +15089,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15106,8 +15106,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15123,8 +15123,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.034:-0.035))
     (SETUP (posedge D) (posedge CLK) (0.053:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.296:0.296:0.296))
-    (WIDTH (negedge CLK) (0.237:0.237:0.237))
+    (WIDTH (posedge CLK) (0.269:0.269:0.269))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -15140,8 +15140,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.031:-0.033:-0.035))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.238:0.238:0.238))
+    (WIDTH (posedge CLK) (0.271:0.271:0.271))
+    (WIDTH (negedge CLK) (0.266:0.266:0.266))
   )
  )
  (CELL
@@ -15157,8 +15157,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.033:-0.035:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.056))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15174,8 +15174,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.035:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.055:0.055:0.056))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.249:0.249:0.249))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15191,8 +15191,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.056))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15208,8 +15208,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15225,8 +15225,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.056))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.249:0.249:0.249))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15242,8 +15242,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -15259,8 +15259,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.033:-0.035))
     (SETUP (posedge D) (posedge CLK) (0.053:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.236:0.236:0.236))
+    (WIDTH (posedge CLK) (0.268:0.268:0.268))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15276,8 +15276,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -15293,8 +15293,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.056))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.250:0.250:0.250))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -15310,8 +15310,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.253:0.253:0.253))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15327,8 +15327,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.038))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15344,8 +15344,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.034:-0.036:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.253:0.253:0.253))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15361,8 +15361,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.036:-0.038:-0.039))
     (SETUP (posedge D) (posedge CLK) (0.055:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.223:0.223:0.223))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -15378,8 +15378,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.033:-0.035:-0.037))
     (SETUP (posedge D) (posedge CLK) (0.054:0.055:0.055))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.235:0.235:0.235))
+    (WIDTH (posedge CLK) (0.267:0.267:0.267))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -15395,8 +15395,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -15412,8 +15412,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.029:-0.031:-0.033))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.304:0.304:0.304))
-    (WIDTH (negedge CLK) (0.242:0.242:0.242))
+    (WIDTH (posedge CLK) (0.278:0.278:0.278))
+    (WIDTH (negedge CLK) (0.270:0.270:0.270))
   )
  )
  (CELL
@@ -15429,8 +15429,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.031:-0.033:-0.035))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.304:0.304:0.304))
-    (WIDTH (negedge CLK) (0.242:0.242:0.242))
+    (WIDTH (posedge CLK) (0.278:0.278:0.278))
+    (WIDTH (negedge CLK) (0.270:0.270:0.270))
   )
  )
  (CELL
@@ -15446,8 +15446,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.035:-0.037:-0.039))
     (SETUP (posedge D) (posedge CLK) (0.055:0.056:0.056))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.274:0.274:0.274))
-    (WIDTH (negedge CLK) (0.223:0.223:0.223))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -15463,8 +15463,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.031:-0.033:-0.035))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.296:0.296:0.296))
-    (WIDTH (negedge CLK) (0.237:0.237:0.237))
+    (WIDTH (posedge CLK) (0.269:0.269:0.269))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -15480,8 +15480,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.032:-0.034:-0.036))
     (SETUP (posedge D) (posedge CLK) (0.053:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.296:0.296:0.296))
-    (WIDTH (negedge CLK) (0.237:0.237:0.237))
+    (WIDTH (posedge CLK) (0.269:0.269:0.269))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -15497,8 +15497,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -15514,8 +15514,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -15531,8 +15531,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -15548,8 +15548,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -15565,8 +15565,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -15582,8 +15582,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.290:0.290:0.290))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -15599,8 +15599,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -15616,8 +15616,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.259:0.259:0.259))
   )
  )
  (CELL
@@ -15633,8 +15633,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -15650,8 +15650,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.290:0.290:0.290))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -15667,8 +15667,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -15684,8 +15684,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.094:0.096:0.098))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -15701,8 +15701,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -15718,8 +15718,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -15735,8 +15735,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -15752,8 +15752,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.250:0.250:0.250))
   )
  )
  (CELL
@@ -15769,8 +15769,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -15786,8 +15786,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15803,8 +15803,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -15820,8 +15820,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -15837,8 +15837,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.259:0.259:0.259))
-    (WIDTH (negedge CLK) (0.206:0.206:0.206))
+    (WIDTH (posedge CLK) (0.223:0.223:0.223))
+    (WIDTH (negedge CLK) (0.244:0.244:0.244))
   )
  )
  (CELL
@@ -15854,8 +15854,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15871,8 +15871,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15888,8 +15888,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15905,8 +15905,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -15922,8 +15922,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -15939,8 +15939,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -15956,8 +15956,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -15973,8 +15973,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -15990,8 +15990,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.039:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.047:0.047:0.048))
     (SETUP (negedge D) (posedge CLK) (0.093:0.095:0.097))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -16007,8 +16007,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16024,8 +16024,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16041,8 +16041,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16058,8 +16058,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16075,8 +16075,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16092,8 +16092,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -16109,8 +16109,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.051:-0.051:-0.051))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.107:0.107:0.107))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -16126,8 +16126,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.094:0.096:0.098))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -16143,8 +16143,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16160,8 +16160,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.290:0.290:0.290))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -16177,8 +16177,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.290:0.290:0.290))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -16194,8 +16194,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16211,8 +16211,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -16228,8 +16228,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.094:0.096:0.098))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -16245,8 +16245,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.047:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.094:0.096:0.098))
-    (WIDTH (posedge CLK) (0.297:0.297:0.297))
-    (WIDTH (negedge CLK) (0.229:0.229:0.229))
+    (WIDTH (posedge CLK) (0.263:0.263:0.263))
+    (WIDTH (negedge CLK) (0.265:0.265:0.265))
   )
  )
  (CELL
@@ -16262,8 +16262,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16279,8 +16279,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -16296,8 +16296,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.219:0.219:0.219))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16313,8 +16313,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -16330,8 +16330,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -16347,8 +16347,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.048:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.105:0.105:0.105))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -16364,8 +16364,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.050:-0.050:-0.050))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.107:0.107:0.107))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -16381,8 +16381,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -16398,8 +16398,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16415,8 +16415,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16432,8 +16432,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.097:0.099))
-    (WIDTH (posedge CLK) (0.294:0.294:0.294))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -16449,8 +16449,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16466,8 +16466,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.281:0.281:0.281))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.246:0.246:0.246))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -16483,8 +16483,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16500,8 +16500,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -16517,8 +16517,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -16534,8 +16534,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -16551,8 +16551,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16568,8 +16568,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.048))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.053))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.105))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16585,8 +16585,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -16602,8 +16602,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16619,8 +16619,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.269:0.269:0.269))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.233:0.233:0.233))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -16636,8 +16636,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.099))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -16653,8 +16653,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.049:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.106:0.106:0.106))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -16670,8 +16670,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.038:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16687,8 +16687,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16704,8 +16704,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -16721,8 +16721,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.040:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.048))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.295:0.295:0.295))
-    (WIDTH (negedge CLK) (0.228:0.228:0.228))
+    (WIDTH (posedge CLK) (0.261:0.261:0.261))
+    (WIDTH (negedge CLK) (0.264:0.264:0.264))
   )
  )
  (CELL
@@ -16738,8 +16738,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16755,8 +16755,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.100))
-    (WIDTH (posedge CLK) (0.285:0.285:0.285))
-    (WIDTH (negedge CLK) (0.222:0.222:0.222))
+    (WIDTH (posedge CLK) (0.251:0.251:0.251))
+    (WIDTH (negedge CLK) (0.258:0.258:0.258))
   )
  )
  (CELL
@@ -16772,8 +16772,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.054))
     (SETUP (negedge D) (posedge CLK) (0.101:0.103:0.106))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.237:0.237:0.237))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16789,8 +16789,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.275:0.275:0.275))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.240:0.240:0.240))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -16806,8 +16806,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16823,8 +16823,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.100:0.102))
-    (WIDTH (posedge CLK) (0.277:0.277:0.277))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -16840,8 +16840,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.280:0.280:0.280))
-    (WIDTH (negedge CLK) (0.219:0.219:0.219))
+    (WIDTH (posedge CLK) (0.245:0.245:0.245))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16857,8 +16857,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.218:0.218:0.218))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.255:0.255:0.255))
   )
  )
  (CELL
@@ -16874,8 +16874,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16891,8 +16891,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -16908,8 +16908,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -16925,8 +16925,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -16942,8 +16942,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.279:0.279:0.279))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.244:0.244:0.244))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -16959,8 +16959,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.099:0.101:0.103))
-    (WIDTH (posedge CLK) (0.271:0.271:0.271))
-    (WIDTH (negedge CLK) (0.214:0.214:0.214))
+    (WIDTH (posedge CLK) (0.235:0.235:0.235))
+    (WIDTH (negedge CLK) (0.251:0.251:0.251))
   )
  )
  (CELL
@@ -16976,8 +16976,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.273:0.273:0.273))
-    (WIDTH (negedge CLK) (0.215:0.215:0.215))
+    (WIDTH (posedge CLK) (0.238:0.238:0.238))
+    (WIDTH (negedge CLK) (0.252:0.252:0.252))
   )
  )
  (CELL
@@ -16993,8 +16993,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.037:-0.039:-0.041))
     (SETUP (posedge D) (posedge CLK) (0.047:0.047:0.048))
     (SETUP (negedge D) (posedge CLK) (0.093:0.095:0.097))
-    (WIDTH (posedge CLK) (0.303:0.303:0.303))
-    (WIDTH (negedge CLK) (0.233:0.233:0.233))
+    (WIDTH (posedge CLK) (0.270:0.270:0.270))
+    (WIDTH (negedge CLK) (0.269:0.269:0.269))
   )
  )
  (CELL
@@ -17010,8 +17010,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.046))
     (SETUP (posedge D) (posedge CLK) (0.050:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.242:0.242:0.242))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -17027,8 +17027,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.042))
     (SETUP (posedge D) (posedge CLK) (0.048:0.048:0.049))
     (SETUP (negedge D) (posedge CLK) (0.095:0.097:0.099))
-    (WIDTH (posedge CLK) (0.292:0.292:0.292))
-    (WIDTH (negedge CLK) (0.226:0.226:0.226))
+    (WIDTH (posedge CLK) (0.258:0.258:0.258))
+    (WIDTH (negedge CLK) (0.262:0.262:0.262))
   )
  )
  (CELL
@@ -17044,8 +17044,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.098:0.100))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -17061,8 +17061,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.042:-0.044:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.050:0.050:0.051))
     (SETUP (negedge D) (posedge CLK) (0.098:0.100:0.102))
-    (WIDTH (posedge CLK) (0.278:0.278:0.278))
-    (WIDTH (negedge CLK) (0.217:0.217:0.217))
+    (WIDTH (posedge CLK) (0.243:0.243:0.243))
+    (WIDTH (negedge CLK) (0.254:0.254:0.254))
   )
  )
  (CELL
@@ -17078,8 +17078,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.041:-0.043:-0.045))
     (SETUP (posedge D) (posedge CLK) (0.049:0.050:0.050))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.288:0.288:0.288))
-    (WIDTH (negedge CLK) (0.224:0.224:0.224))
+    (WIDTH (posedge CLK) (0.254:0.254:0.254))
+    (WIDTH (negedge CLK) (0.260:0.260:0.260))
   )
  )
  (CELL
@@ -17095,8 +17095,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.044:-0.046:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -17112,8 +17112,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.043:-0.045:-0.047))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.052))
     (SETUP (negedge D) (posedge CLK) (0.100:0.102:0.104))
-    (WIDTH (posedge CLK) (0.276:0.276:0.276))
-    (WIDTH (negedge CLK) (0.216:0.216:0.216))
+    (WIDTH (posedge CLK) (0.241:0.241:0.241))
+    (WIDTH (negedge CLK) (0.253:0.253:0.253))
   )
  )
  (CELL
@@ -17129,8 +17129,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.051:-0.051:-0.051))
     (SETUP (posedge D) (posedge CLK) (0.052:0.052:0.052))
     (SETUP (negedge D) (posedge CLK) (0.108:0.108:0.108))
-    (WIDTH (posedge CLK) (0.283:0.283:0.283))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.248:0.248:0.248))
+    (WIDTH (negedge CLK) (0.257:0.257:0.257))
   )
  )
  (CELL
@@ -17146,8 +17146,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.049:-0.049:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.051:0.051:0.051))
     (SETUP (negedge D) (posedge CLK) (0.106:0.106:0.106))
-    (WIDTH (posedge CLK) (0.293:0.293:0.293))
-    (WIDTH (negedge CLK) (0.227:0.227:0.227))
+    (WIDTH (posedge CLK) (0.259:0.259:0.259))
+    (WIDTH (negedge CLK) (0.263:0.263:0.263))
   )
  )
  (CELL
@@ -17163,8 +17163,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.045:-0.047:-0.049))
     (SETUP (posedge D) (posedge CLK) (0.052:0.053:0.053))
     (SETUP (negedge D) (posedge CLK) (0.102:0.104:0.106))
-    (WIDTH (posedge CLK) (0.269:0.269:0.269))
-    (WIDTH (negedge CLK) (0.212:0.212:0.212))
+    (WIDTH (posedge CLK) (0.233:0.233:0.233))
+    (WIDTH (negedge CLK) (0.249:0.249:0.249))
   )
  )
  (CELL
@@ -17180,8 +17180,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.039:-0.041:-0.043))
     (SETUP (posedge D) (posedge CLK) (0.048:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.096:0.098:0.099))
-    (WIDTH (posedge CLK) (0.291:0.291:0.291))
-    (WIDTH (negedge CLK) (0.225:0.225:0.225))
+    (WIDTH (posedge CLK) (0.256:0.256:0.256))
+    (WIDTH (negedge CLK) (0.261:0.261:0.261))
   )
  )
  (CELL
@@ -17197,8 +17197,8 @@
     (HOLD (negedge D) (posedge CLK) (-0.040:-0.042:-0.044))
     (SETUP (posedge D) (posedge CLK) (0.049:0.049:0.049))
     (SETUP (negedge D) (posedge CLK) (0.097:0.099:0.101))
-    (WIDTH (posedge CLK) (0.282:0.282:0.282))
-    (WIDTH (negedge CLK) (0.220:0.220:0.220))
+    (WIDTH (posedge CLK) (0.247:0.247:0.247))
+    (WIDTH (negedge CLK) (0.256:0.256:0.256))
   )
  )
  (CELL
@@ -19456,7 +19456,7 @@
   (INSTANCE u_afe_wb.hold1)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.542:0.594:0.645) (0.559:0.697:0.834))
+    (IOPATH A X (0.543:0.594:0.645) (0.561:0.698:0.835))
    )
   )
  )
@@ -19546,7 +19546,7 @@
   (INSTANCE u_afe_wb.hold108)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.540:0.592:0.643) (0.557:0.694:0.832))
+    (IOPATH A X (0.540:0.592:0.644) (0.557:0.695:0.832))
    )
   )
  )
@@ -19708,7 +19708,7 @@
   (INSTANCE u_afe_wb.hold124)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.540:0.592:0.644) (0.555:0.693:0.832))
+    (IOPATH A X (0.540:0.592:0.644) (0.555:0.693:0.831))
    )
   )
  )
@@ -19762,7 +19762,7 @@
   (INSTANCE u_afe_wb.hold13)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.542:0.594:0.645) (0.558:0.696:0.833))
+    (IOPATH A X (0.541:0.593:0.645) (0.556:0.694:0.833))
    )
   )
  )
@@ -19879,7 +19879,7 @@
   (INSTANCE u_afe_wb.hold141)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.543:0.595:0.647) (0.557:0.696:0.834))
+    (IOPATH A X (0.542:0.595:0.647) (0.557:0.696:0.834))
    )
   )
  )
@@ -19915,7 +19915,7 @@
   (INSTANCE u_afe_wb.hold145)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.541:0.593:0.645) (0.558:0.696:0.833))
+    (IOPATH A X (0.541:0.593:0.645) (0.558:0.696:0.834))
    )
   )
  )
@@ -20176,7 +20176,7 @@
   (INSTANCE u_afe_wb.hold171)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.539:0.592:0.644) (0.554:0.693:0.831))
+    (IOPATH A X (0.539:0.591:0.644) (0.554:0.692:0.831))
    )
   )
  )
@@ -20419,7 +20419,7 @@
   (INSTANCE u_afe_wb.hold196)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.545:0.598:0.650) (0.560:0.698:0.837))
+    (IOPATH A X (0.546:0.598:0.650) (0.560:0.699:0.837))
    )
   )
  )
@@ -20437,7 +20437,7 @@
   (INSTANCE u_afe_wb.hold198)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.543:0.595:0.648) (0.558:0.696:0.835))
+    (IOPATH A X (0.543:0.595:0.648) (0.558:0.696:0.834))
    )
   )
  )
@@ -20734,7 +20734,7 @@
   (INSTANCE u_afe_wb.hold31)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.541:0.593:0.646) (0.556:0.695:0.833))
+    (IOPATH A X (0.541:0.593:0.646) (0.556:0.694:0.833))
    )
   )
  )
@@ -20815,7 +20815,7 @@
   (INSTANCE u_afe_wb.hold4)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.545:0.599:0.654) (0.559:0.708:0.856))
+    (IOPATH A X (0.544:0.599:0.654) (0.559:0.708:0.856))
    )
   )
  )
@@ -20869,7 +20869,7 @@
   (INSTANCE u_afe_wb.hold45)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.539:0.592:0.644) (0.554:0.693:0.831))
+    (IOPATH A X (0.540:0.592:0.644) (0.555:0.693:0.831))
    )
   )
  )
@@ -20896,7 +20896,7 @@
   (INSTANCE u_afe_wb.hold48)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.538:0.590:0.642) (0.555:0.693:0.831))
+    (IOPATH A X (0.538:0.590:0.642) (0.554:0.692:0.830))
    )
   )
  )
@@ -20959,7 +20959,7 @@
   (INSTANCE u_afe_wb.hold54)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.547:0.599:0.651) (0.562:0.700:0.838))
+    (IOPATH A X (0.546:0.598:0.650) (0.561:0.699:0.837))
    )
   )
  )
@@ -21022,7 +21022,7 @@
   (INSTANCE u_afe_wb.hold60)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.558:0.610:0.662) (0.570:0.708:0.846))
+    (IOPATH A X (0.557:0.609:0.662) (0.569:0.708:0.846))
    )
   )
  )
@@ -21265,7 +21265,7 @@
   (INSTANCE u_afe_wb.hold85)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.538:0.590:0.643) (0.554:0.692:0.831))
+    (IOPATH A X (0.539:0.591:0.643) (0.555:0.693:0.831))
    )
   )
  )
@@ -21301,7 +21301,7 @@
   (INSTANCE u_afe_wb.hold89)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.542:0.594:0.646) (0.557:0.695:0.833))
+    (IOPATH A X (0.542:0.594:0.646) (0.556:0.695:0.833))
    )
   )
  )
@@ -21913,7 +21913,7 @@
   (INSTANCE u_afe_wb.output100)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.209:0.209:0.209) (0.193:0.193:0.193))
+    (IOPATH A X (0.227:0.227:0.227) (0.201:0.201:0.201))
    )
   )
  )
@@ -21922,7 +21922,7 @@
   (INSTANCE u_afe_wb.output101)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.233:0.233:0.233) (0.209:0.209:0.209))
+    (IOPATH A X (0.256:0.256:0.256) (0.221:0.221:0.221))
    )
   )
  )
@@ -21931,7 +21931,7 @@
   (INSTANCE u_afe_wb.output102)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.229:0.229:0.229) (0.197:0.197:0.197))
+    (IOPATH A X (0.228:0.228:0.228) (0.196:0.196:0.196))
    )
   )
  )
@@ -21940,7 +21940,7 @@
   (INSTANCE u_afe_wb.output103)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.227:0.227:0.227) (0.203:0.203:0.203))
+    (IOPATH A X (0.231:0.231:0.231) (0.203:0.203:0.203))
    )
   )
  )
@@ -21949,7 +21949,7 @@
   (INSTANCE u_afe_wb.output104)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.225:0.225:0.225) (0.207:0.207:0.207))
+    (IOPATH A X (0.222:0.222:0.222) (0.206:0.206:0.206))
    )
   )
  )
@@ -21958,7 +21958,7 @@
   (INSTANCE u_afe_wb.output105)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.219:0.219:0.219) (0.192:0.192:0.192))
+    (IOPATH A X (0.213:0.213:0.213) (0.190:0.190:0.190))
    )
   )
  )
@@ -21967,7 +21967,7 @@
   (INSTANCE u_afe_wb.output106)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.194:0.194:0.194) (0.169:0.169:0.169))
+    (IOPATH A X (0.188:0.188:0.188) (0.167:0.167:0.167))
    )
   )
  )
@@ -21976,7 +21976,7 @@
   (INSTANCE u_afe_wb.output107)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.205:0.205:0.205) (0.187:0.187:0.187))
+    (IOPATH A X (0.202:0.202:0.202) (0.186:0.186:0.186))
    )
   )
  )
@@ -21985,7 +21985,7 @@
   (INSTANCE u_afe_wb.output108)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.199:0.199:0.199) (0.196:0.196:0.196))
+    (IOPATH A X (0.198:0.198:0.198) (0.196:0.196:0.196))
    )
   )
  )
@@ -21994,7 +21994,7 @@
   (INSTANCE u_afe_wb.output109)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.209:0.209:0.209) (0.175:0.175:0.175))
+    (IOPATH A X (0.190:0.190:0.190) (0.168:0.168:0.168))
    )
   )
  )
@@ -22003,7 +22003,7 @@
   (INSTANCE u_afe_wb.output110)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.208:0.208:0.208) (0.175:0.175:0.175))
+    (IOPATH A X (0.200:0.200:0.200) (0.173:0.173:0.173))
    )
   )
  )
@@ -22012,7 +22012,7 @@
   (INSTANCE u_afe_wb.output111)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.201:0.201:0.201) (0.174:0.174:0.174))
+    (IOPATH A X (0.194:0.194:0.194) (0.171:0.171:0.171))
    )
   )
  )
@@ -22021,7 +22021,7 @@
   (INSTANCE u_afe_wb.output112)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.197:0.197:0.197) (0.176:0.176:0.176))
+    (IOPATH A X (0.172:0.172:0.172) (0.167:0.167:0.167))
    )
   )
  )
@@ -22030,7 +22030,7 @@
   (INSTANCE u_afe_wb.output113)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.197:0.197:0.197) (0.193:0.193:0.193))
+    (IOPATH A X (0.215:0.215:0.215) (0.199:0.199:0.199))
    )
   )
  )
@@ -22039,7 +22039,7 @@
   (INSTANCE u_afe_wb.output114)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.217:0.217:0.217) (0.193:0.193:0.193))
+    (IOPATH A X (0.198:0.198:0.198) (0.186:0.186:0.186))
    )
   )
  )
@@ -22048,7 +22048,7 @@
   (INSTANCE u_afe_wb.output115)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.191:0.191:0.191) (0.169:0.169:0.169))
+    (IOPATH A X (0.186:0.186:0.186) (0.167:0.167:0.167))
    )
   )
  )
@@ -22057,7 +22057,7 @@
   (INSTANCE u_afe_wb.output116)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.184:0.184:0.184))
+    (IOPATH A X (0.223:0.223:0.223) (0.191:0.191:0.191))
    )
   )
  )
@@ -22066,7 +22066,7 @@
   (INSTANCE u_afe_wb.output117)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.165:0.165:0.165) (0.154:0.154:0.154))
+    (IOPATH A X (0.185:0.185:0.185) (0.166:0.166:0.166))
    )
   )
  )
@@ -22075,7 +22075,7 @@
   (INSTANCE u_afe_wb.output118)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.205:0.205:0.205) (0.178:0.178:0.178))
+    (IOPATH A X (0.210:0.210:0.210) (0.183:0.183:0.183))
    )
   )
  )
@@ -22084,7 +22084,7 @@
   (INSTANCE u_afe_wb.output119)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.225:0.225:0.225) (0.183:0.183:0.183))
+    (IOPATH A X (0.254:0.254:0.254) (0.201:0.201:0.201))
    )
   )
  )
@@ -22093,7 +22093,7 @@
   (INSTANCE u_afe_wb.output120)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.189:0.189:0.189))
+    (IOPATH A X (0.226:0.226:0.226) (0.194:0.194:0.194))
    )
   )
  )
@@ -22102,7 +22102,7 @@
   (INSTANCE u_afe_wb.output121)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.202:0.202:0.202) (0.172:0.172:0.172))
+    (IOPATH A X (0.195:0.195:0.195) (0.170:0.170:0.170))
    )
   )
  )
@@ -22111,7 +22111,7 @@
   (INSTANCE u_afe_wb.output122)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.195:0.195:0.195) (0.176:0.176:0.176))
+    (IOPATH A X (0.196:0.196:0.196) (0.176:0.176:0.176))
    )
   )
  )
@@ -22120,7 +22120,7 @@
   (INSTANCE u_afe_wb.output123)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.207:0.207:0.207) (0.175:0.175:0.175))
+    (IOPATH A X (0.201:0.201:0.201) (0.172:0.172:0.172))
    )
   )
  )
@@ -22129,7 +22129,7 @@
   (INSTANCE u_afe_wb.output124)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.198:0.198:0.198) (0.171:0.171:0.171))
+    (IOPATH A X (0.192:0.192:0.192) (0.168:0.168:0.168))
    )
   )
  )
@@ -22138,7 +22138,7 @@
   (INSTANCE u_afe_wb.output125)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.195:0.195:0.195) (0.170:0.170:0.170))
+    (IOPATH A X (0.206:0.206:0.206) (0.174:0.174:0.174))
    )
   )
  )
@@ -22147,7 +22147,7 @@
   (INSTANCE u_afe_wb.output126)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.198:0.198:0.198) (0.179:0.179:0.179))
+    (IOPATH A X (0.185:0.185:0.185) (0.176:0.176:0.176))
    )
   )
  )
@@ -22156,7 +22156,7 @@
   (INSTANCE u_afe_wb.output127)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.191:0.191:0.191) (0.166:0.166:0.166))
+    (IOPATH A X (0.185:0.185:0.185) (0.164:0.164:0.164))
    )
   )
  )
@@ -22165,7 +22165,7 @@
   (INSTANCE u_afe_wb.output128)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.161:0.161:0.161) (0.152:0.152:0.152))
+    (IOPATH A X (0.161:0.161:0.161) (0.158:0.158:0.158))
    )
   )
  )
@@ -22174,7 +22174,7 @@
   (INSTANCE u_afe_wb.output129)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.177:0.177:0.177) (0.170:0.170:0.170))
+    (IOPATH A X (0.183:0.183:0.183) (0.172:0.172:0.172))
    )
   )
  )
@@ -22183,7 +22183,7 @@
   (INSTANCE u_afe_wb.output130)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.196:0.196:0.196) (0.187:0.187:0.187))
+    (IOPATH A X (0.197:0.197:0.197) (0.188:0.188:0.188))
    )
   )
  )
@@ -22192,7 +22192,7 @@
   (INSTANCE u_afe_wb.output131)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.191:0.191:0.191) (0.185:0.185:0.185))
+    (IOPATH A X (0.199:0.199:0.199) (0.187:0.187:0.187))
    )
   )
  )
@@ -22201,7 +22201,7 @@
   (INSTANCE u_afe_wb.output132)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.206:0.206:0.206) (0.169:0.169:0.169))
+    (IOPATH A X (0.186:0.186:0.186) (0.166:0.166:0.166))
    )
   )
  )
@@ -22210,7 +22210,7 @@
   (INSTANCE u_afe_wb.output133)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.200:0.200:0.200) (0.179:0.179:0.179))
+    (IOPATH A X (0.220:0.220:0.220) (0.186:0.186:0.186))
    )
   )
  )
@@ -22219,7 +22219,7 @@
   (INSTANCE u_afe_wb.output134)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.221:0.221:0.221) (0.189:0.189:0.189))
+    (IOPATH A X (0.187:0.187:0.187) (0.173:0.173:0.173))
    )
   )
  )
@@ -22228,7 +22228,7 @@
   (INSTANCE u_afe_wb.output135)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.229:0.229:0.229) (0.193:0.193:0.193))
+    (IOPATH A X (0.227:0.227:0.227) (0.194:0.194:0.194))
    )
   )
  )
@@ -22237,7 +22237,7 @@
   (INSTANCE u_afe_wb.output136)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.232:0.232:0.232) (0.195:0.195:0.195))
+    (IOPATH A X (0.182:0.182:0.182) (0.165:0.165:0.165))
    )
   )
  )
@@ -22246,7 +22246,7 @@
   (INSTANCE u_afe_wb.output137)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.174:0.174:0.174) (0.163:0.163:0.163))
+    (IOPATH A X (0.215:0.215:0.215) (0.181:0.181:0.181))
    )
   )
  )
@@ -22255,7 +22255,7 @@
   (INSTANCE u_afe_wb.output138)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.199:0.199:0.199) (0.178:0.178:0.178))
+    (IOPATH A X (0.220:0.220:0.220) (0.185:0.185:0.185))
    )
   )
  )
@@ -22264,7 +22264,7 @@
   (INSTANCE u_afe_wb.output139)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.186:0.186:0.186) (0.171:0.171:0.171))
+    (IOPATH A X (0.169:0.169:0.169) (0.164:0.164:0.164))
    )
   )
  )
@@ -22273,7 +22273,7 @@
   (INSTANCE u_afe_wb.output140)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.209:0.209:0.209) (0.183:0.183:0.183))
+    (IOPATH A X (0.221:0.221:0.221) (0.187:0.187:0.187))
    )
   )
  )
@@ -22282,7 +22282,7 @@
   (INSTANCE u_afe_wb.output141)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.174:0.174:0.174))
+    (IOPATH A X (0.170:0.170:0.170) (0.154:0.154:0.154))
    )
   )
  )
@@ -22291,7 +22291,7 @@
   (INSTANCE u_afe_wb.output142)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.179:0.179:0.179))
+    (IOPATH A X (0.178:0.178:0.178) (0.160:0.160:0.160))
    )
   )
  )
@@ -22300,7 +22300,7 @@
   (INSTANCE u_afe_wb.output143)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.176:0.176:0.176))
+    (IOPATH A X (0.216:0.216:0.216) (0.177:0.177:0.177))
    )
   )
  )
@@ -22309,7 +22309,7 @@
   (INSTANCE u_afe_wb.output144)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.177:0.177:0.177))
+    (IOPATH A X (0.178:0.178:0.178) (0.158:0.158:0.158))
    )
   )
  )
@@ -22318,7 +22318,7 @@
   (INSTANCE u_afe_wb.output145)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.230:0.230:0.230) (0.189:0.189:0.189))
+    (IOPATH A X (0.194:0.194:0.194) (0.173:0.173:0.173))
    )
   )
  )
@@ -22327,7 +22327,7 @@
   (INSTANCE u_afe_wb.output146)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.231:0.231:0.231) (0.194:0.194:0.194))
+    (IOPATH A X (0.211:0.211:0.211) (0.187:0.187:0.187))
    )
   )
  )
@@ -22336,7 +22336,7 @@
   (INSTANCE u_afe_wb.output147)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.250:0.250:0.250) (0.202:0.202:0.202))
+    (IOPATH A X (0.225:0.225:0.225) (0.182:0.182:0.182))
    )
   )
  )
@@ -22345,7 +22345,7 @@
   (INSTANCE u_afe_wb.output148)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.217:0.217:0.217) (0.180:0.180:0.180))
+    (IOPATH A X (0.223:0.223:0.223) (0.181:0.181:0.181))
    )
   )
  )
@@ -22354,7 +22354,7 @@
   (INSTANCE u_afe_wb.output149)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.238:0.238:0.238) (0.205:0.205:0.205))
+    (IOPATH A X (0.196:0.196:0.196) (0.180:0.180:0.180))
    )
   )
  )
@@ -22363,7 +22363,7 @@
   (INSTANCE u_afe_wb.output150)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.193:0.193:0.193) (0.178:0.178:0.178))
+    (IOPATH A X (0.241:0.241:0.241) (0.204:0.204:0.204))
    )
   )
  )
@@ -22372,7 +22372,7 @@
   (INSTANCE u_afe_wb.output151)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.219:0.219:0.219) (0.177:0.177:0.177))
+    (IOPATH A X (0.187:0.187:0.187) (0.168:0.168:0.168))
    )
   )
  )
@@ -22381,7 +22381,7 @@
   (INSTANCE u_afe_wb.output152)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.192:0.192:0.192) (0.173:0.173:0.173))
+    (IOPATH A X (0.206:0.206:0.206) (0.177:0.177:0.177))
    )
   )
  )
@@ -22390,7 +22390,7 @@
   (INSTANCE u_afe_wb.output153)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.230:0.230:0.230) (0.181:0.181:0.181))
+    (IOPATH A X (0.211:0.211:0.211) (0.177:0.177:0.177))
    )
   )
  )
@@ -22399,7 +22399,7 @@
   (INSTANCE u_afe_wb.output154)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.228:0.228:0.228) (0.182:0.182:0.182))
+    (IOPATH A X (0.185:0.185:0.185) (0.164:0.164:0.164))
    )
   )
  )
@@ -22408,7 +22408,7 @@
   (INSTANCE u_afe_wb.output155)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.201:0.201:0.201) (0.185:0.185:0.185))
+    (IOPATH A X (0.192:0.192:0.192) (0.180:0.180:0.180))
    )
   )
  )
@@ -22417,7 +22417,7 @@
   (INSTANCE u_afe_wb.output156)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.200:0.200:0.200) (0.177:0.177:0.177))
+    (IOPATH A X (0.283:0.283:0.283) (0.215:0.215:0.215))
    )
   )
  )
@@ -22426,7 +22426,7 @@
   (INSTANCE u_afe_wb.output157)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.231:0.231:0.231) (0.188:0.188:0.188))
+    (IOPATH A X (0.199:0.199:0.199) (0.178:0.178:0.178))
    )
   )
  )
@@ -22435,7 +22435,7 @@
   (INSTANCE u_afe_wb.output158)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.179:0.179:0.179) (0.158:0.158:0.158))
+    (IOPATH A X (0.242:0.242:0.242) (0.196:0.196:0.196))
    )
   )
  )
@@ -22444,7 +22444,7 @@
   (INSTANCE u_afe_wb.output159)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.202:0.202:0.202) (0.170:0.170:0.170))
+    (IOPATH A X (0.242:0.242:0.242) (0.194:0.194:0.194))
    )
   )
  )
@@ -22453,7 +22453,7 @@
   (INSTANCE u_afe_wb.output160)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.178:0.178:0.178))
+    (IOPATH A X (0.219:0.219:0.219) (0.181:0.181:0.181))
    )
   )
  )
@@ -22462,7 +22462,7 @@
   (INSTANCE u_afe_wb.output161)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.214:0.214:0.214) (0.171:0.171:0.171))
+    (IOPATH A X (0.206:0.206:0.206) (0.169:0.169:0.169))
    )
   )
  )
@@ -22471,7 +22471,7 @@
   (INSTANCE u_afe_wb.output162)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.262:0.262:0.262) (0.213:0.213:0.213))
+    (IOPATH A X (0.193:0.193:0.193) (0.176:0.176:0.176))
    )
   )
  )
@@ -22480,7 +22480,7 @@
   (INSTANCE u_afe_wb.output163)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.192:0.192:0.192) (0.170:0.170:0.170))
+    (IOPATH A X (0.266:0.266:0.266) (0.208:0.208:0.208))
    )
   )
  )
@@ -22489,7 +22489,7 @@
   (INSTANCE u_afe_wb.output164)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.208:0.208:0.208) (0.173:0.173:0.173))
+    (IOPATH A X (0.211:0.211:0.211) (0.184:0.184:0.184))
    )
   )
  )
@@ -22498,7 +22498,7 @@
   (INSTANCE u_afe_wb.output165)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.193:0.193:0.193) (0.169:0.169:0.169))
+    (IOPATH A X (0.222:0.222:0.222) (0.187:0.187:0.187))
    )
   )
  )
@@ -22507,7 +22507,7 @@
   (INSTANCE u_afe_wb.output166)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.207:0.207:0.207) (0.177:0.177:0.177))
+    (IOPATH A X (0.258:0.258:0.258) (0.203:0.203:0.203))
    )
   )
  )
@@ -22516,7 +22516,7 @@
   (INSTANCE u_afe_wb.output167)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.196:0.196:0.196) (0.188:0.188:0.188))
+    (IOPATH A X (0.200:0.200:0.200) (0.191:0.191:0.191))
    )
   )
  )
@@ -22525,7 +22525,7 @@
   (INSTANCE u_afe_wb.output168)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.204:0.204:0.204) (0.163:0.163:0.163))
+    (IOPATH A X (0.245:0.245:0.245) (0.192:0.192:0.192))
    )
   )
  )
@@ -22534,7 +22534,7 @@
   (INSTANCE u_afe_wb.output169)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.209:0.209:0.209) (0.173:0.173:0.173))
+    (IOPATH A X (0.206:0.206:0.206) (0.169:0.169:0.169))
    )
   )
  )
@@ -22561,7 +22561,7 @@
   (INSTANCE u_afe_wb.output172)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.257:0.257:0.257) (0.195:0.195:0.195))
+    (IOPATH A X (0.254:0.254:0.254) (0.194:0.194:0.194))
    )
   )
  )
@@ -22570,7 +22570,7 @@
   (INSTANCE u_afe_wb.output173)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.222:0.222:0.222))
+    (IOPATH A X (0.284:0.284:0.284) (0.221:0.221:0.221))
    )
   )
  )
@@ -22579,7 +22579,7 @@
   (INSTANCE u_afe_wb.output174)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.271:0.271:0.271) (0.205:0.205:0.205))
+    (IOPATH A X (0.268:0.268:0.268) (0.204:0.204:0.204))
    )
   )
  )
@@ -22588,7 +22588,7 @@
   (INSTANCE u_afe_wb.output175)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.268:0.268:0.268) (0.201:0.201:0.201))
+    (IOPATH A X (0.269:0.269:0.269) (0.202:0.202:0.202))
    )
   )
  )
@@ -22597,7 +22597,7 @@
   (INSTANCE u_afe_wb.output176)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.286:0.286:0.286) (0.225:0.225:0.225))
+    (IOPATH A X (0.289:0.289:0.289) (0.225:0.225:0.225))
    )
   )
  )
@@ -22606,7 +22606,7 @@
   (INSTANCE u_afe_wb.output177)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.280:0.280:0.280) (0.216:0.216:0.216))
+    (IOPATH A X (0.279:0.279:0.279) (0.216:0.216:0.216))
    )
   )
  )
@@ -22615,7 +22615,7 @@
   (INSTANCE u_afe_wb.output178)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.270:0.270:0.270) (0.202:0.202:0.202))
+    (IOPATH A X (0.268:0.268:0.268) (0.200:0.200:0.200))
    )
   )
  )
@@ -22624,7 +22624,7 @@
   (INSTANCE u_afe_wb.output179)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.266:0.266:0.266) (0.199:0.199:0.199))
+    (IOPATH A X (0.271:0.271:0.271) (0.201:0.201:0.201))
    )
   )
  )
@@ -22633,7 +22633,7 @@
   (INSTANCE u_afe_wb.output180)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.273:0.273:0.273) (0.203:0.203:0.203))
+    (IOPATH A X (0.275:0.275:0.275) (0.203:0.203:0.203))
    )
   )
  )
@@ -22642,7 +22642,7 @@
   (INSTANCE u_afe_wb.output181)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.287:0.287:0.287) (0.218:0.218:0.218))
+    (IOPATH A X (0.285:0.285:0.285) (0.218:0.218:0.218))
    )
   )
  )
@@ -22660,7 +22660,7 @@
   (INSTANCE u_afe_wb.output183)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.270:0.270:0.270) (0.201:0.201:0.201))
+    (IOPATH A X (0.277:0.277:0.277) (0.204:0.204:0.204))
    )
   )
  )
@@ -22678,7 +22678,7 @@
   (INSTANCE u_afe_wb.output185)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.288:0.288:0.288) (0.219:0.219:0.219))
+    (IOPATH A X (0.287:0.287:0.287) (0.217:0.217:0.217))
    )
   )
  )
@@ -22687,7 +22687,7 @@
   (INSTANCE u_afe_wb.output186)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.215:0.215:0.215))
+    (IOPATH A X (0.286:0.286:0.286) (0.216:0.216:0.216))
    )
   )
  )
@@ -22696,7 +22696,7 @@
   (INSTANCE u_afe_wb.output187)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.287:0.287:0.287) (0.213:0.213:0.213))
+    (IOPATH A X (0.290:0.290:0.290) (0.213:0.213:0.213))
    )
   )
  )
@@ -22705,7 +22705,7 @@
   (INSTANCE u_afe_wb.output188)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.283:0.283:0.283) (0.212:0.212:0.212))
+    (IOPATH A X (0.285:0.285:0.285) (0.213:0.213:0.213))
    )
   )
  )
@@ -22714,7 +22714,7 @@
   (INSTANCE u_afe_wb.output189)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.290:0.290:0.290) (0.213:0.213:0.213))
+    (IOPATH A X (0.292:0.292:0.292) (0.214:0.214:0.214))
    )
   )
  )
@@ -22723,7 +22723,7 @@
   (INSTANCE u_afe_wb.output190)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.270:0.270:0.270) (0.199:0.199:0.199))
+    (IOPATH A X (0.277:0.277:0.277) (0.203:0.203:0.203))
    )
   )
  )
@@ -22732,7 +22732,7 @@
   (INSTANCE u_afe_wb.output191)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.279:0.279:0.279) (0.206:0.206:0.206))
+    (IOPATH A X (0.284:0.284:0.284) (0.208:0.208:0.208))
    )
   )
  )
@@ -22741,7 +22741,7 @@
   (INSTANCE u_afe_wb.output192)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.281:0.281:0.281) (0.205:0.205:0.205))
+    (IOPATH A X (0.292:0.292:0.292) (0.217:0.217:0.217))
    )
   )
  )
@@ -22759,7 +22759,7 @@
   (INSTANCE u_afe_wb.output194)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.287:0.287:0.287) (0.216:0.216:0.216))
+    (IOPATH A X (0.275:0.275:0.275) (0.202:0.202:0.202))
    )
   )
  )
@@ -22768,7 +22768,7 @@
   (INSTANCE u_afe_wb.output195)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.274:0.274:0.274) (0.199:0.199:0.199))
+    (IOPATH A X (0.292:0.292:0.292) (0.216:0.216:0.216))
    )
   )
  )
@@ -22777,7 +22777,7 @@
   (INSTANCE u_afe_wb.output196)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.265:0.265:0.265) (0.204:0.204:0.204))
+    (IOPATH A X (0.264:0.264:0.264) (0.204:0.204:0.204))
    )
   )
  )
@@ -22786,7 +22786,7 @@
   (INSTANCE u_afe_wb.output197)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.266:0.266:0.266) (0.207:0.207:0.207))
+    (IOPATH A X (0.267:0.267:0.267) (0.207:0.207:0.207))
    )
   )
  )
@@ -22804,7 +22804,7 @@
   (INSTANCE u_afe_wb.output199)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.266:0.266:0.266) (0.205:0.205:0.205))
+    (IOPATH A X (0.265:0.265:0.265) (0.205:0.205:0.205))
    )
   )
  )
@@ -22813,7 +22813,7 @@
   (INSTANCE u_afe_wb.output200)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.257:0.257:0.257) (0.197:0.197:0.197))
+    (IOPATH A X (0.257:0.257:0.257) (0.198:0.198:0.198))
    )
   )
  )
@@ -22822,7 +22822,7 @@
   (INSTANCE u_afe_wb.output201)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.279:0.279:0.279) (0.214:0.214:0.214))
+    (IOPATH A X (0.276:0.276:0.276) (0.213:0.213:0.213))
    )
   )
  )
@@ -22831,7 +22831,7 @@
   (INSTANCE u_afe_wb.output202)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.296:0.296:0.296) (0.234:0.234:0.234))
+    (IOPATH A X (0.281:0.281:0.281) (0.219:0.219:0.219))
    )
   )
  )
@@ -22840,7 +22840,7 @@
   (INSTANCE u_afe_wb.output54)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.176:0.176:0.176) (0.160:0.160:0.160))
+    (IOPATH A X (0.203:0.203:0.203) (0.175:0.175:0.175))
    )
   )
  )
@@ -22849,7 +22849,7 @@
   (INSTANCE u_afe_wb.output55)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.249:0.249:0.249) (0.217:0.217:0.217))
+    (IOPATH A X (0.223:0.223:0.223) (0.207:0.207:0.207))
    )
   )
  )
@@ -22858,7 +22858,7 @@
   (INSTANCE u_afe_wb.output56)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.210:0.210:0.210) (0.181:0.181:0.181))
+    (IOPATH A X (0.206:0.206:0.206) (0.180:0.180:0.180))
    )
   )
  )
@@ -22867,7 +22867,7 @@
   (INSTANCE u_afe_wb.output57)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.240:0.240:0.240) (0.220:0.220:0.220))
+    (IOPATH A X (0.239:0.239:0.239) (0.219:0.219:0.219))
    )
   )
  )
@@ -22876,7 +22876,7 @@
   (INSTANCE u_afe_wb.output58)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.207:0.207:0.207) (0.181:0.181:0.181))
+    (IOPATH A X (0.235:0.235:0.235) (0.191:0.191:0.191))
    )
   )
  )
@@ -22885,7 +22885,7 @@
   (INSTANCE u_afe_wb.output59)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.212:0.212:0.212) (0.191:0.191:0.191))
+    (IOPATH A X (0.222:0.222:0.222) (0.195:0.195:0.195))
    )
   )
  )
@@ -22894,7 +22894,7 @@
   (INSTANCE u_afe_wb.output60)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.204:0.204:0.204) (0.178:0.178:0.178))
+    (IOPATH A X (0.214:0.214:0.214) (0.181:0.181:0.181))
    )
   )
  )
@@ -22903,7 +22903,7 @@
   (INSTANCE u_afe_wb.output61)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.195:0.195:0.195) (0.166:0.166:0.166))
+    (IOPATH A X (0.198:0.198:0.198) (0.166:0.166:0.166))
    )
   )
  )
@@ -22912,7 +22912,7 @@
   (INSTANCE u_afe_wb.output62)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.228:0.228:0.228) (0.182:0.182:0.182))
+    (IOPATH A X (0.202:0.202:0.202) (0.174:0.174:0.174))
    )
   )
  )
@@ -22921,7 +22921,7 @@
   (INSTANCE u_afe_wb.output63)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.237:0.237:0.237) (0.202:0.202:0.202))
+    (IOPATH A X (0.231:0.231:0.231) (0.201:0.201:0.201))
    )
   )
  )
@@ -22930,7 +22930,7 @@
   (INSTANCE u_afe_wb.output64)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.207:0.207:0.207) (0.186:0.186:0.186))
+    (IOPATH A X (0.230:0.230:0.230) (0.194:0.194:0.194))
    )
   )
  )
@@ -22939,7 +22939,7 @@
   (INSTANCE u_afe_wb.output65)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.224:0.224:0.224) (0.181:0.181:0.181))
+    (IOPATH A X (0.233:0.233:0.233) (0.183:0.183:0.183))
    )
   )
  )
@@ -22957,7 +22957,7 @@
   (INSTANCE u_afe_wb.output67)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.212:0.212:0.212) (0.200:0.200:0.200))
+    (IOPATH A X (0.233:0.233:0.233) (0.208:0.208:0.208))
    )
   )
  )
@@ -22966,7 +22966,7 @@
   (INSTANCE u_afe_wb.output68)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.193:0.193:0.193))
+    (IOPATH A X (0.240:0.240:0.240) (0.203:0.203:0.203))
    )
   )
  )
@@ -22975,7 +22975,7 @@
   (INSTANCE u_afe_wb.output69)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.252:0.252:0.252) (0.205:0.205:0.205))
+    (IOPATH A X (0.230:0.230:0.230) (0.198:0.198:0.198))
    )
   )
  )
@@ -22984,7 +22984,7 @@
   (INSTANCE u_afe_wb.output70)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.191:0.191:0.191))
+    (IOPATH A X (0.228:0.228:0.228) (0.194:0.194:0.194))
    )
   )
  )
@@ -22993,7 +22993,7 @@
   (INSTANCE u_afe_wb.output71)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.225:0.225:0.225) (0.197:0.197:0.197))
+    (IOPATH A X (0.223:0.223:0.223) (0.196:0.196:0.196))
    )
   )
  )
@@ -23002,7 +23002,7 @@
   (INSTANCE u_afe_wb.output72)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.213:0.213:0.213) (0.171:0.171:0.171))
+    (IOPATH A X (0.209:0.209:0.209) (0.171:0.171:0.171))
    )
   )
  )
@@ -23011,7 +23011,7 @@
   (INSTANCE u_afe_wb.output73)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.234:0.234:0.234) (0.210:0.210:0.210))
+    (IOPATH A X (0.215:0.215:0.215) (0.204:0.204:0.204))
    )
   )
  )
@@ -23020,7 +23020,7 @@
   (INSTANCE u_afe_wb.output74)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.222:0.222:0.222) (0.198:0.198:0.198))
+    (IOPATH A X (0.209:0.209:0.209) (0.186:0.186:0.186))
    )
   )
  )
@@ -23029,7 +23029,7 @@
   (INSTANCE u_afe_wb.output75)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.195:0.195:0.195))
+    (IOPATH A X (0.207:0.207:0.207) (0.192:0.192:0.192))
    )
   )
  )
@@ -23038,7 +23038,7 @@
   (INSTANCE u_afe_wb.output76)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.199:0.199:0.199) (0.174:0.174:0.174))
+    (IOPATH A X (0.204:0.204:0.204) (0.180:0.180:0.180))
    )
   )
  )
@@ -23047,7 +23047,7 @@
   (INSTANCE u_afe_wb.output77)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.224:0.224:0.224) (0.172:0.172:0.172))
+    (IOPATH A X (0.233:0.233:0.233) (0.183:0.183:0.183))
    )
   )
  )
@@ -23056,7 +23056,7 @@
   (INSTANCE u_afe_wb.output78)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.229:0.229:0.229) (0.189:0.189:0.189))
+    (IOPATH A X (0.199:0.199:0.199) (0.175:0.175:0.175))
    )
   )
  )
@@ -23065,7 +23065,7 @@
   (INSTANCE u_afe_wb.output79)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.244:0.244:0.244) (0.188:0.188:0.188))
+    (IOPATH A X (0.225:0.225:0.225) (0.179:0.179:0.179))
    )
   )
  )
@@ -23074,7 +23074,7 @@
   (INSTANCE u_afe_wb.output80)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.190:0.190:0.190) (0.168:0.168:0.168))
+    (IOPATH A X (0.192:0.192:0.192) (0.169:0.169:0.169))
    )
   )
  )
@@ -23083,7 +23083,7 @@
   (INSTANCE u_afe_wb.output81)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.209:0.209:0.209) (0.174:0.174:0.174))
+    (IOPATH A X (0.199:0.199:0.199) (0.171:0.171:0.171))
    )
   )
  )
@@ -23092,7 +23092,7 @@
   (INSTANCE u_afe_wb.output82)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.201:0.201:0.201) (0.172:0.172:0.172))
+    (IOPATH A X (0.199:0.199:0.199) (0.171:0.171:0.171))
    )
   )
  )
@@ -23101,7 +23101,7 @@
   (INSTANCE u_afe_wb.output83)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.190:0.190:0.190) (0.177:0.177:0.177))
+    (IOPATH A X (0.181:0.181:0.181) (0.171:0.171:0.171))
    )
   )
  )
@@ -23110,7 +23110,7 @@
   (INSTANCE u_afe_wb.output84)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.180:0.180:0.180) (0.164:0.164:0.164))
+    (IOPATH A X (0.194:0.194:0.194) (0.169:0.169:0.169))
    )
   )
  )
@@ -23119,7 +23119,7 @@
   (INSTANCE u_afe_wb.output85)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.186:0.186:0.186) (0.171:0.171:0.171))
+    (IOPATH A X (0.182:0.182:0.182) (0.170:0.170:0.170))
    )
   )
  )
@@ -23128,7 +23128,7 @@
   (INSTANCE u_afe_wb.output86)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.212:0.212:0.212) (0.170:0.170:0.170))
+    (IOPATH A X (0.222:0.222:0.222) (0.181:0.181:0.181))
    )
   )
  )
@@ -23137,7 +23137,7 @@
   (INSTANCE u_afe_wb.output87)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.249:0.249:0.249) (0.189:0.189:0.189))
+    (IOPATH A X (0.237:0.237:0.237) (0.185:0.185:0.185))
    )
   )
  )
@@ -23146,7 +23146,7 @@
   (INSTANCE u_afe_wb.output88)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.215:0.215:0.215) (0.170:0.170:0.170))
+    (IOPATH A X (0.226:0.226:0.226) (0.183:0.183:0.183))
    )
   )
  )
@@ -23155,7 +23155,7 @@
   (INSTANCE u_afe_wb.output89)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.208:0.208:0.208) (0.177:0.177:0.177))
+    (IOPATH A X (0.226:0.226:0.226) (0.183:0.183:0.183))
    )
   )
  )
@@ -23164,7 +23164,7 @@
   (INSTANCE u_afe_wb.output90)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.206:0.206:0.206) (0.177:0.177:0.177))
+    (IOPATH A X (0.191:0.191:0.191) (0.168:0.168:0.168))
    )
   )
  )
@@ -23173,7 +23173,7 @@
   (INSTANCE u_afe_wb.output91)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.207:0.207:0.207) (0.181:0.181:0.181))
+    (IOPATH A X (0.225:0.225:0.225) (0.188:0.188:0.188))
    )
   )
  )
@@ -23182,7 +23182,7 @@
   (INSTANCE u_afe_wb.output92)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.211:0.211:0.211) (0.182:0.182:0.182))
+    (IOPATH A X (0.203:0.203:0.203) (0.187:0.187:0.187))
    )
   )
  )
@@ -23191,7 +23191,7 @@
   (INSTANCE u_afe_wb.output93)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.218:0.218:0.218) (0.191:0.191:0.191))
+    (IOPATH A X (0.204:0.204:0.204) (0.192:0.192:0.192))
    )
   )
  )
@@ -23200,7 +23200,7 @@
   (INSTANCE u_afe_wb.output94)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.214:0.214:0.214) (0.185:0.185:0.185))
+    (IOPATH A X (0.206:0.206:0.206) (0.189:0.189:0.189))
    )
   )
  )
@@ -23209,7 +23209,7 @@
   (INSTANCE u_afe_wb.output95)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.170:0.170:0.170) (0.154:0.154:0.154))
+    (IOPATH A X (0.182:0.182:0.182) (0.164:0.164:0.164))
    )
   )
  )
@@ -23218,7 +23218,7 @@
   (INSTANCE u_afe_wb.output96)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.206:0.206:0.206) (0.177:0.177:0.177))
+    (IOPATH A X (0.195:0.195:0.195) (0.179:0.179:0.179))
    )
   )
  )
@@ -23227,7 +23227,7 @@
   (INSTANCE u_afe_wb.output97)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.220:0.220:0.220) (0.189:0.189:0.189))
+    (IOPATH A X (0.204:0.204:0.204) (0.192:0.192:0.192))
    )
   )
  )
@@ -23236,7 +23236,7 @@
   (INSTANCE u_afe_wb.output98)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.210:0.210:0.210) (0.178:0.178:0.178))
+    (IOPATH A X (0.202:0.202:0.202) (0.184:0.184:0.184))
    )
   )
  )
@@ -23245,7 +23245,7 @@
   (INSTANCE u_afe_wb.output99)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.212:0.212:0.212) (0.196:0.196:0.196))
+    (IOPATH A X (0.210:0.210:0.210) (0.199:0.199:0.199))
    )
   )
  )
