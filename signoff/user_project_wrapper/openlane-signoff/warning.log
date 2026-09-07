@@ -1840,7 +1840,6 @@ No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be
 No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 [ODB-1003] (li1) layer's width from (ANALOG_WIDE) NDR is not defined. Using the default value 0.17
 [ODB-1003] (met1) layer's width from (ANALOG_WIDE) NDR is not defined. Using the default value 0.14
-[ODB-1003] (met2) layer's width from (ANALOG_WIDE) NDR is not defined. Using the default value 0.14
 [ODB-1003] (met5) layer's width from (ANALOG_WIDE) NDR is not defined. Using the default value 1.6
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
@@ -3012,11 +3011,4 @@ Cell 'user_project_wrapper' has (327) input pin(s) without antenna gate informat
 Cell 'user_project_wrapper' has (207) output pin(s) without antenna diffusion information. They might not be driven.
 Hold violations found in the following corners:
 * max_ss_100C_1v60
-Max Slew violations found in the following corners:
-* max_ff_n40C_1v95
-* max_ss_100C_1v60
-* max_tt_025C_1v80
-* nom_ff_n40C_1v95
-* nom_ss_100C_1v60
-* nom_tt_025C_1v80
 magic__drc_error__count not reported. Magic.DRC may have been skipped.

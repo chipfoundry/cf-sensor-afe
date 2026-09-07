@@ -191,11 +191,11 @@
     "DRT_THREADS": 1,
     "MAX_TRANSITION_CONSTRAINT": 1.5,
 
-    "//": "Analog NDR. HIZ/BGR analog pins are min-width met2 (0.14 µm); SAR ibias is 0.46 µm met3/met4. Widen met3/met4 under that pin, 2x spacing for isolation. Do not NDR analog_ctrl or PDN.",
+    "//": "Analog NDR. Trunks are 0.42 µm on met2–met4. DRT TAPER shrinks at min-width analog pins (HIZ/BGR met2 0.14 µm). Do not NDR analog_ctrl or PDN.",
     "NON_DEFAULT_RULES": {
         "ANALOG_WIDE": {
-            "width": ["met3", "0.42", "met4", "0.42"],
-            "spacing": ["met2", "0.28", "met3", "0.60", "met4", "0.60"]
+            "width": ["met2", "0.42", "met3", "0.42", "met4", "0.42"],
+            "spacing": ["met2", "0.42", "met3", "0.60", "met4", "0.60"]
         }
     },
     "DRT_ASSIGN_NDR": {

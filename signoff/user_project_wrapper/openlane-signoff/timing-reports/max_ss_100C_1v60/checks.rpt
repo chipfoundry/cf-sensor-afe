@@ -83,12 +83,6 @@ No paths found.
 ============================================================================
 ======================= max_ss_100C_1v60 Corner ===================================
 
-max slew
-
-Pin                                        Limit        Slew       Slack
-------------------------------------------------------------------------
-u_cf_buf_hiz/vinn_na                    1.500000    1.948357   -0.448357 (VIOLATED)
-
 max fanout
 
 Pin                                   Limit Fanout  Slack
@@ -657,7 +651,7 @@ Found 68 partially unannotated drivers.
   u_cf_adc_sar12/sample_width[3]
 
 ===========================================================================
-max slew violation count 1
+max slew violation count 0
 max fanout violation count 73
 max cap violation count 0
 ============================================================================

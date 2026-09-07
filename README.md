@@ -160,7 +160,7 @@ This branch uses official LibreLane **3.0.13** (native analog NDR). Recreate
 (LibreLane 2.4.6).
 
 OpenLane config is `openlane/user_project_wrapper/config.json`. Analog nets
-`afe_*` and `analog_io*` use `ANALOG_WIDE` NDR (0.42 µm met3/met4, 2× spacing).
+`afe_*` and `analog_io*` use `ANALOG_WIDE` NDR (0.42 µm met2–met4; DRT tapers at skinny analog pins).
 There is no customer `pdn_cfg.tcl`; default LibreLane PDN plus
 `PDN_MACRO_CONNECTIONS` ties each wrap `vpwr`/`vgnd` to `vccd1`/`vssd1`.
 
