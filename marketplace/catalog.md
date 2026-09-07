@@ -4,7 +4,7 @@ ChipFoundry **sensor analog front-end** reference application on Caravel.
 It is the first catalog composition that takes a high-impedance sensor,
 conditions it, digitizes it, and hands a 12-bit code to on-chip firmware.
 
-<img src="https://d29iwheft2g6v5.cloudfront.net/knowledge-base/2026/09/07/dd786b33-sensor_afe_block.png" alt="Sensor analog front-end block diagram" width="100%"/>
+![Sensor analog front-end block diagram](https://d29iwheft2g6v5.cloudfront.net/knowledge-base/2026/09/07/dd786b33-sensor_afe_block.png)
 
 ## Overview
 
