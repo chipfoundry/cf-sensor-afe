@@ -1,0 +1,9 @@
+BEGIN: Wed Sep 16 21:39:35 2026
+Creating /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/verilog.cells from the following files...
+	/tmp/tmpvjn2kage/repo/verilog/gl/afe_wb.v
+	/tmp/tmpvjn2kage/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmpvjn2kage/repo/gds/user_project_wrapper.gds
+	to /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/hier.csv
+END: Wed Sep 16 21:39:37 2026
+Runtime: 0:00:02 (hh:mm:ss)

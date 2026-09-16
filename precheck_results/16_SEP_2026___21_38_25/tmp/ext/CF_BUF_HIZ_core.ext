@@ -1,0 +1,72 @@
+timestamp 1617329429
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+port "vbpb" 33 40432 41920 40513 41959 m2
+port "vbpc" 32 42145 52621 42187 52642 m2
+port "vbnc" 31 41860 62094 41923 62113 m2
+port "vbptd" 30 43132 15674 43219 15699 m2
+port "vbpcid" 29 43132 15504 43219 15529 m2
+port "vbnci" 28 42247 22581 42285 22602 m2
+port "ibias" 27 30518 63739 30545 63759 m2
+port "vbnt" 26 42247 22916 42285 22937 m2
+port "vbpci" 25 42806 27005 42884 27029 m2
+port "vout" 24 25575 15109 25721 15196 m2
+port "vbncis" 23 41527 29058 41621 29086 m2
+port "vbpcis" 22 41991 33790 42125 33818 m2
+port "vbpt" 21 41699 33926 41796 33949 m2
+port "e_n_boost" 20 18177 57344 18200 57399 m1
+port "e_na_boost" 19 18106 57344 18129 57399 m1
+port "vinp_p" 18 17332 57026 17361 57057 m1
+port "vinn_p" 17 17257 56969 17286 57000 m1
+port "vinn_na" 16 17405 57111 17434 57142 m1
+port "vinp_na" 15 17483 57111 17512 57142 m1
+port "vinn_n" 14 17638 57109 17667 57140 m1
+port "vinp_n" 13 17555 57111 17584 57142 m1
+port "en_pd" 12 42316 72920 42346 72975 m1
+port "e_pd" 11 42234 72920 42264 72975 m1
+port "iop" 10 18197 14 18231 47 m1
+port "ion" 9 17978 14 18012 47 m1
+port "vpwr_a" 8 42920 72291 43096 72397 m1
+port "clk1_boostr" 7 18004 57344 18027 57399 m1
+port "clk2_boost" 6 17911 57344 17934 57399 m1
+port "vgnd_a" 5 42647 72291 42823 72397 m1
+port "vnb" 4 43245 72291 43303 72397 m1
+port "vpb_a" 3 43145 72291 43203 72397 m1
+port "tp" 2 18251 57344 18274 57399 m1
+node "vbpb" 0 0 40432 41920 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vbpb" "vbpc"
+equiv "vbpb" "vbnc"
+equiv "vbpb" "vbptd"
+equiv "vbpb" "vbpcid"
+equiv "vbpb" "vbnci"
+equiv "vbpb" "ibias"
+equiv "vbpb" "vbnt"
+equiv "vbpb" "vbpci"
+equiv "vbpb" "vout"
+equiv "vbpb" "vbncis"
+equiv "vbpb" "vbpcis"
+equiv "vbpb" "vbpt"
+node "e_n_boost" 0 0 18177 57344 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "e_n_boost" "e_na_boost"
+equiv "e_n_boost" "vinp_p"
+equiv "e_n_boost" "vinn_p"
+equiv "e_n_boost" "vinn_na"
+equiv "e_n_boost" "vinp_na"
+equiv "e_n_boost" "vinn_n"
+equiv "e_n_boost" "vinp_n"
+equiv "e_n_boost" "en_pd"
+equiv "e_n_boost" "e_pd"
+equiv "e_n_boost" "iop"
+equiv "e_n_boost" "ion"
+equiv "e_n_boost" "vpwr_a"
+equiv "e_n_boost" "clk1_boostr"
+equiv "e_n_boost" "clk2_boost"
+equiv "e_n_boost" "vgnd_a"
+equiv "e_n_boost" "vnb"
+equiv "e_n_boost" "vpb_a"
+equiv "e_n_boost" "tp"
+node "li_0_0#" 0 0 0 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
