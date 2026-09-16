@@ -1,0 +1,396 @@
+Reading file /tmp/tmpvjn2kage/repo/gds/user_project_wrapper.gds for cell user_project_wrapper
+dbu=0.001
+cell user_project_wrapper dbu-bbox(ll;ur)=(-43630,-38270;2963250,3557950)
+cell user_project_wrapper dbu-bbox(left,bottom,right,top)=(-43630,-38270,2963250,3557950)
+cell user_project_wrapper dbu-size(width,height)=(3006880,3596220)
+cell user_project_wrapper micron-bbox(left,bottom,right,top)=(-43.63,-38.27,2963.25,3557.9500000000003)
+cell user_project_wrapper micron-size(width,height)=(3006.88,3596.2200000000003)
+Done.
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/erase_box.tcl" from command line.
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+CIF input style is now "sky130(vendor)"
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_sc_hd__or4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_1$1".
+Reading "sky130_fd_sc_hd__o21a_1$1".
+Reading "sky130_fd_sc_hd__inv_2$1".
+Reading "sky130_fd_sc_hd__nor4b_1$1".
+Reading "sky130_fd_sc_hd__o31a_1$1".
+Reading "sky130_fd_sc_hd__nor4b_2$1".
+Reading "sky130_fd_sc_hd__nand2_4$1".
+Reading "sky130_fd_sc_hd__or4_2$1".
+Reading "sky130_fd_sc_hd__nor4b_4$1".
+Reading "sky130_fd_sc_hd__nand2_8$1".
+Reading "sky130_fd_sc_hd__and4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_4$1".
+Reading "sky130_fd_sc_hd__and2_2$1".
+Reading "sky130_fd_sc_hd__and2_1$1".
+Reading "sky130_fd_sc_hd__nand2_2$1".
+Reading "sky130_fd_sc_hd__or3_1$1".
+Reading "sky130_fd_sc_hd__buf_8$1".
+Reading "sky130_fd_sc_hd__a21o_1$1".
+Reading "sky130_fd_sc_hd__buf_6$1".
+Reading "sky130_fd_sc_hd__or4_1$1".
+Reading "sky130_fd_sc_hd__dfxtp_2$1".
+Reading "sky130_fd_sc_hd__dfxtp_4$1".
+Reading "sky130_fd_sc_hd__o221a_1$1".
+Reading "sky130_fd_sc_hd__inv_8$1".
+Reading "sky130_fd_sc_hd__clkinvlp_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_16$1".
+Reading "sky130_fd_sc_hd__bufinv_16$1".
+Reading "sky130_fd_sc_hd__a221o_1$1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1$1".
+Reading "sky130_fd_sc_hd__clkinv_4$1".
+Reading "sky130_fd_sc_hd__a2111o_1$1".
+Reading "sky130_fd_sc_hd__buf_4$1".
+Reading "sky130_fd_sc_hd__clkinv_2$1".
+Reading "sky130_fd_sc_hd__inv_6$1".
+Reading "sky130_fd_sc_hd__a22o_1$1".
+Reading "sky130_fd_sc_hd__diode_2$1".
+Reading "sky130_fd_sc_hd__o211a_1$1".
+Reading "sky130_fd_sc_hd__or2_1$1".
+Reading "sky130_fd_sc_hd__inv_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_8$1".
+Reading "sky130_fd_sc_hd__dfxtp_1$1".
+Reading "sky130_fd_sc_hd__conb_1$1".
+Reading "sky130_fd_sc_hd__buf_12$1".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1$1".
+Reading "sky130_fd_sc_hd__buf_1$1".
+Reading "sky130_fd_sc_hd__clkbuf_2$1".
+Reading "sky130_fd_sc_hd__buf_2$1".
+Reading "sky130_fd_sc_hd__fill_2$1".
+Reading "sky130_fd_sc_hd__fill_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_4$1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1$1".
+Reading "sky130_fd_sc_hd__fill_8$1".
+Reading "sky130_fd_sc_hd__fill_1$1".
+Reading "sky130_fd_sc_hd__decap_3$1".
+Reading "sky130_ef_sc_hd__decap_40_12$1".
+Reading "CF_ADC_SAR12_sar_refs_core".
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382664): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382728): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 384136): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 406536): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 417672): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_REFBUF_core".
+Error while reading cell "CF_REFBUF_core" (byte position 421366): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF_core" (byte position 422710): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR_core".
+Error while reading cell "CF_BGR_core" (byte position 444248): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR_core" (byte position 444312): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR_core" (byte position 445144): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_core".
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470350): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470414): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 474446): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 485390): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 495630): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_BUF_HIZ_core".
+Reading "VIA_M1M2_PR_MR".
+Reading "VIA_M3M4_PR_MR".
+Reading "VIA_M4M5_PR".
+Reading "VIA_M2M3_PR_MR".
+Reading "VIA_M3M4_PR_M".
+Reading "VIA_M3M4_PR".
+Reading "VIA_M2M3_PR".
+Reading "VIA_M1M2_PR".
+Reading "VIA_M2M3_PR_M".
+Reading "VIA_via5_6_3100_3100_2_2_1600_1600".
+Reading "VIA_via5_6_1600_3100_2_1_1600_1600".
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 551710): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_REFBUF" (byte position 551774): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 553886): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 617564): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 617628): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 618012): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 724428): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 724492): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 725580): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863282): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863346): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863986): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 1011020): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1011084): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1015372): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+Error while reading cell "user_project_wrapper" (byte position 6387778): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390342): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390574): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390994): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6393804): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6393920): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394362): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394420): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6398630): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6398688): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6399268): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401492): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401666): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401724): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6403000): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6404884): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6405174): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6405580): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6406044): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6406102): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6407022): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6407802): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6410744): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6411570): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6411860): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6412858): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413032): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413090): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413148): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413336): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6416240): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6418310): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6418764): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6421878): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6423040): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6423344): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424276): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424638): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424920): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6425332): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6425904): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426230): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426288): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426520): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426636): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427672): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427788): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427976): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6428106): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6428222): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429302): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429642): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429700): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429910): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6434654): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435436): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435552): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435870): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6436348): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6437776): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438314): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438430): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438524): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438872): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439024): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439328): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439872): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440118): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440270): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440908): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441140): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441198): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441952): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442010): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442068): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442300): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442358): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6443516): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6445346): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6459826): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6460290): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6460978): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6461036): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6461304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462362): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462898): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6463862): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6465010): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6466486): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6466986): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467500): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467558): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467616): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6502978): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6503036): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6503710): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.630 x 3520.000  (-43.630,  0.000), ( 0.000,  3520.000)  153577.594
+lambda:   4363.00 x 352000.00  (-4363.00,  0.00 ), (  0.00,  352000.00)  1535776000.00
+internal:   8726 x 704000  ( -8726,  0    ), (     0,  704000)  6143104000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.250 x 3520.000  ( 2920.000,  0.000), ( 2963.250,  3520.000)  152240.000
+lambda:   4325.00 x 352000.00  ( 292000.00,  0.00 ), ( 296325.00,  352000.00)  1522400000.00
+internal:   8650 x 704000  ( 584000,  0    ), ( 592650,  704000)  6089600000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 38.270  (-43.630, -38.270), ( 2963.250,  0.000)  115073.289
+lambda:   300688.00 x 3827.00  (-4363.00, -3827.00), ( 296325.00,  0.00 )  1150732928.00
+internal: 601376 x 7654    ( -8726, -7654 ), ( 592650,  0    )  4602931904
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 37.950  (-43.630,  3520.000), ( 2963.250,  3557.950)  114111.086
+lambda:   300688.00 x 3795.00  (-4363.00,  352000.00), ( 296325.00,  355795.00)  1141110912.00
+internal: 601376 x 7590    ( -8726,  704000), ( 592650,  711590)  4564443840
+   Generating output for cell xor_target
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/erase_box.tcl" from command line.
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+CIF input style is now "sky130(vendor)"
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "user_project_wrapper".
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.630 x 3520.000  (-43.630,  0.000), ( 0.000,  3520.000)  153577.594
+lambda:   4363.00 x 352000.00  (-4363.00,  0.00 ), (  0.00,  352000.00)  1535776000.00
+internal:   8726 x 704000  ( -8726,  0    ), (     0,  704000)  6143104000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.250 x 3520.000  ( 2920.000,  0.000), ( 2963.250,  3520.000)  152240.000
+lambda:   4325.00 x 352000.00  ( 292000.00,  0.00 ), ( 296325.00,  352000.00)  1522400000.00
+internal:   8650 x 704000  ( 584000,  0    ), ( 592650,  704000)  6089600000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 38.270  (-43.630, -38.270), ( 2963.250,  0.000)  115073.289
+lambda:   300688.00 x 3827.00  (-4363.00, -3827.00), ( 296325.00,  0.00 )  1150732928.00
+internal: 601376 x 7654    ( -8726, -7654 ), ( 592650,  0    )  4602931904
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 37.950  (-43.630,  3520.000), ( 2963.250,  3557.950)  114111.086
+lambda:   300688.00 x 3795.00  (-4363.00,  352000.00), ( 296325.00,  355795.00)  1141110912.00
+internal: 601376 x 7590    ( -8726,  704000), ( 592650,  711590)  4564443840
+   Generating output for cell xor_target
+Reading /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/outputs/user_project_wrapper_erased.gds ..
+Reading /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/outputs/user_project_wrapper_empty_erased.gds ..
+--- Running XOR for 69/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 530 (flat)  530 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 530 (flat)  530 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+--- Running XOR for 70/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 107 (flat)  107 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 107 (flat)  107 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+--- Running XOR for 71/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+--- Running XOR for 71/44 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 128 (flat)  128 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 128 (flat)  128 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 570.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 72/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 81/14 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 1 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 1 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+Writing layout file: /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/outputs/user_project_wrapper.xor.gds ..
+Total elapsed: 0.070s  Memory: 571.00M

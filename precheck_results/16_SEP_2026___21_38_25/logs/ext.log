@@ -1,0 +1,646 @@
+BEGIN: Wed Sep 16 21:39:38 2026
+Extracting as digital. Top ports unique.
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/ext/abstract.tcl" from command line.
+Abstracting
+CIF input style is now "sky130()"
+Abstracting /tmp/tmpvjn2kage/repo/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_sc_hd__or4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_1$1".
+Reading "sky130_fd_sc_hd__o21a_1$1".
+Reading "sky130_fd_sc_hd__inv_2$1".
+Reading "sky130_fd_sc_hd__nor4b_1$1".
+Reading "sky130_fd_sc_hd__o31a_1$1".
+Reading "sky130_fd_sc_hd__nor4b_2$1".
+Reading "sky130_fd_sc_hd__nand2_4$1".
+Reading "sky130_fd_sc_hd__or4_2$1".
+Reading "sky130_fd_sc_hd__nor4b_4$1".
+Reading "sky130_fd_sc_hd__nand2_8$1".
+Reading "sky130_fd_sc_hd__and4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_4$1".
+Reading "sky130_fd_sc_hd__and2_2$1".
+Reading "sky130_fd_sc_hd__and2_1$1".
+Reading "sky130_fd_sc_hd__nand2_2$1".
+Reading "sky130_fd_sc_hd__or3_1$1".
+Reading "sky130_fd_sc_hd__buf_8$1".
+Reading "sky130_fd_sc_hd__a21o_1$1".
+Reading "sky130_fd_sc_hd__buf_6$1".
+Reading "sky130_fd_sc_hd__or4_1$1".
+Reading "sky130_fd_sc_hd__dfxtp_2$1".
+Reading "sky130_fd_sc_hd__dfxtp_4$1".
+Reading "sky130_fd_sc_hd__o221a_1$1".
+Reading "sky130_fd_sc_hd__inv_8$1".
+Reading "sky130_fd_sc_hd__clkinvlp_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_16$1".
+Reading "sky130_fd_sc_hd__bufinv_16$1".
+Reading "sky130_fd_sc_hd__a221o_1$1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1$1".
+Reading "sky130_fd_sc_hd__clkinv_4$1".
+Reading "sky130_fd_sc_hd__a2111o_1$1".
+Reading "sky130_fd_sc_hd__buf_4$1".
+Reading "sky130_fd_sc_hd__clkinv_2$1".
+Reading "sky130_fd_sc_hd__inv_6$1".
+Reading "sky130_fd_sc_hd__a22o_1$1".
+Reading "sky130_fd_sc_hd__diode_2$1".
+Reading "sky130_fd_sc_hd__o211a_1$1".
+Reading "sky130_fd_sc_hd__or2_1$1".
+Reading "sky130_fd_sc_hd__inv_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_8$1".
+Reading "sky130_fd_sc_hd__dfxtp_1$1".
+Reading "sky130_fd_sc_hd__conb_1$1".
+Reading "sky130_fd_sc_hd__buf_12$1".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1$1".
+Reading "sky130_fd_sc_hd__buf_1$1".
+Reading "sky130_fd_sc_hd__clkbuf_2$1".
+Reading "sky130_fd_sc_hd__buf_2$1".
+Reading "sky130_fd_sc_hd__fill_2$1".
+Reading "sky130_fd_sc_hd__fill_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_4$1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1$1".
+Reading "sky130_fd_sc_hd__fill_8$1".
+Reading "sky130_fd_sc_hd__fill_1$1".
+Reading "sky130_fd_sc_hd__decap_3$1".
+Reading "sky130_ef_sc_hd__decap_40_12$1".
+Reading "CF_ADC_SAR12_sar_refs_core".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382664): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382728): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 384136): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 406536): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 417672): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_REFBUF_core".
+Error while reading cell "CF_REFBUF_core" (byte position 421366): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF_core" (byte position 422710): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR_core".
+Error while reading cell "CF_BGR_core" (byte position 444248): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR_core" (byte position 444312): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR_core" (byte position 445144): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_core".
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470350): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470414): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 474446): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 485390): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 495630): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_BUF_HIZ_core".
+Reading "VIA_M1M2_PR_MR".
+Reading "VIA_M3M4_PR_MR".
+Reading "VIA_M4M5_PR".
+Reading "VIA_M2M3_PR_MR".
+Reading "VIA_M3M4_PR_M".
+Reading "VIA_M3M4_PR".
+Reading "VIA_M2M3_PR".
+Reading "VIA_M1M2_PR".
+Reading "VIA_M2M3_PR_M".
+Reading "VIA_via5_6_3100_3100_2_2_1600_1600".
+Reading "VIA_via5_6_1600_3100_2_1_1600_1600".
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 551710): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_REFBUF" (byte position 551774): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 553886): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 617564): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 617628): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 618012): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 724428): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 724492): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 725580): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863282): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863346): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863986): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 1011020): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1011084): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1015372): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+Error while reading cell "user_project_wrapper" (byte position 6387778): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390342): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390574): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6390994): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6393804): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6393920): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394362): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6394420): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6398630): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6398688): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6399268): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401492): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401666): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6401724): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6403000): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6404884): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6405174): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6405580): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6406044): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6406102): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6407022): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6407802): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6410744): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6411570): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6411860): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6412858): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413032): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413090): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413148): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6413336): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6416240): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6418310): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6418764): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6421878): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6423040): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6423344): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424276): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424638): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6424920): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6425332): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6425904): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426230): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426288): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426520): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6426636): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427672): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427788): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6427976): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6428106): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6428222): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429302): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429642): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429700): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6429910): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6434654): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435436): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435552): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6435870): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6436348): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6437776): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438314): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438430): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438524): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6438872): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439024): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439328): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6439872): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440118): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440270): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6440908): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441140): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441198): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6441952): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442010): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442068): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442300): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6442358): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6443516): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6445346): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6459826): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6460290): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6460978): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6461036): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6461304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462304): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462362): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6462898): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6463862): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6465010): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6466486): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6466986): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467500): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467558): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6467616): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6502978): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6503036): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+Error while reading cell "user_project_wrapper" (byte position 6503710): Warning: cell "VIA_via5_6_3100_3100_2_2_1600_1600" placed on top of itself.  Ignoring the extra one.
+
+TIME: read GDS: 00:00:01 
+
+
+TIME: create subcut: 00:00:00 
+
+Abstracting sky130_fd_sc_hd__fill_1$1
+instance count:0 port count:5
+Abstracting sky130_fd_sc_hd__fill_2$1
+instance count:0 port count:5
+Abstracting sky130_fd_sc_hd__fill_4$1
+instance count:0 port count:5
+Abstracting sky130_fd_sc_hd__fill_8$1
+instance count:0 port count:5
+Abstracting sky130_fd_sc_hd__tapvpwrvgnd_1$1
+instance count:0 port count:3
+
+TIME: create abstract: 00:00:00 
+
+Using technology "sky130A", version 1.0.493
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmpvjn2kage/repo/precheck_results/16_SEP_2026___21_38_25/tmp/ext/extract.tcl" from command line.
+Extracting with top ports unique (digital)
+CIF input style is now "sky130()"
+Flattening 
+
+Extracting /tmp/tmpvjn2kage/repo/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_sc_hd__or4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_1$1".
+Reading "sky130_fd_sc_hd__o21a_1$1".
+Reading "sky130_fd_sc_hd__inv_2$1".
+Reading "sky130_fd_sc_hd__nor4b_1$1".
+Reading "sky130_fd_sc_hd__o31a_1$1".
+Reading "sky130_fd_sc_hd__nor4b_2$1".
+Reading "sky130_fd_sc_hd__nand2_4$1".
+Reading "sky130_fd_sc_hd__or4_2$1".
+Reading "sky130_fd_sc_hd__nor4b_4$1".
+Reading "sky130_fd_sc_hd__nand2_8$1".
+Reading "sky130_fd_sc_hd__and4bb_4$1".
+Reading "sky130_fd_sc_hd__and4b_4$1".
+Reading "sky130_fd_sc_hd__and2_2$1".
+Reading "sky130_fd_sc_hd__and2_1$1".
+Reading "sky130_fd_sc_hd__nand2_2$1".
+Reading "sky130_fd_sc_hd__or3_1$1".
+Reading "sky130_fd_sc_hd__buf_8$1".
+Reading "sky130_fd_sc_hd__a21o_1$1".
+Reading "sky130_fd_sc_hd__buf_6$1".
+Reading "sky130_fd_sc_hd__or4_1$1".
+Reading "sky130_fd_sc_hd__dfxtp_2$1".
+Reading "sky130_fd_sc_hd__dfxtp_4$1".
+Reading "sky130_fd_sc_hd__o221a_1$1".
+Reading "sky130_fd_sc_hd__inv_8$1".
+Reading "sky130_fd_sc_hd__clkinvlp_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_16$1".
+Reading "sky130_fd_sc_hd__bufinv_16$1".
+Reading "sky130_fd_sc_hd__a221o_1$1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1$1".
+Reading "sky130_fd_sc_hd__clkinv_4$1".
+Reading "sky130_fd_sc_hd__a2111o_1$1".
+Reading "sky130_fd_sc_hd__buf_4$1".
+Reading "sky130_fd_sc_hd__clkinv_2$1".
+Reading "sky130_fd_sc_hd__inv_6$1".
+Reading "sky130_fd_sc_hd__a22o_1$1".
+Reading "sky130_fd_sc_hd__diode_2$1".
+Reading "sky130_fd_sc_hd__o211a_1$1".
+Reading "sky130_fd_sc_hd__or2_1$1".
+Reading "sky130_fd_sc_hd__inv_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_8$1".
+Reading "sky130_fd_sc_hd__dfxtp_1$1".
+Reading "sky130_fd_sc_hd__conb_1$1".
+Reading "sky130_fd_sc_hd__buf_12$1".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1$1".
+Reading "sky130_fd_sc_hd__buf_1$1".
+Reading "sky130_fd_sc_hd__clkbuf_2$1".
+Reading "sky130_fd_sc_hd__buf_2$1".
+Reading "sky130_fd_sc_hd__fill_2$1".
+Reading "sky130_fd_sc_hd__fill_4$1".
+Reading "sky130_fd_sc_hd__clkbuf_4$1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1$1".
+Reading "sky130_fd_sc_hd__fill_8$1".
+Reading "sky130_fd_sc_hd__fill_1$1".
+Reading "sky130_fd_sc_hd__decap_3$1".
+Reading "sky130_ef_sc_hd__decap_40_12$1".
+Reading "CF_ADC_SAR12_sar_refs_core".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382664): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 382728): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 384136): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 406536): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 417672): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_REFBUF_core".
+Error while reading cell "CF_REFBUF_core" (byte position 421366): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF_core" (byte position 422710): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR_core".
+Error while reading cell "CF_BGR_core" (byte position 444248): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR_core" (byte position 444312): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR_core" (byte position 445144): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_core".
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470350): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 470414): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 474446): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 485390): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "CF_ADC_SAR12_core" (byte position 495630): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_BUF_HIZ_core".
+Reading "VIA_M1M2_PR_MR".
+Saving contents of cell VIA_M1M2_PR_MR
+Reading "VIA_M3M4_PR_MR".
+Saving contents of cell VIA_M3M4_PR_MR
+Reading "VIA_M4M5_PR".
+Saving contents of cell VIA_M4M5_PR
+Reading "VIA_M2M3_PR_MR".
+Saving contents of cell VIA_M2M3_PR_MR
+Reading "VIA_M3M4_PR_M".
+Saving contents of cell VIA_M3M4_PR_M
+Reading "VIA_M3M4_PR".
+Saving contents of cell VIA_M3M4_PR
+Reading "VIA_M2M3_PR".
+Saving contents of cell VIA_M2M3_PR
+Reading "VIA_M1M2_PR".
+Saving contents of cell VIA_M1M2_PR
+Reading "VIA_M2M3_PR_M".
+Saving contents of cell VIA_M2M3_PR_M
+Reading "VIA_via5_6_3100_3100_2_2_1600_1600".
+Saving contents of cell VIA_via5_6_3100_3100_2_2_1600_1600
+Reading "VIA_via5_6_1600_3100_2_1_1600_1600".
+Saving contents of cell VIA_via5_6_1600_3100_2_1_1600_1600
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 551710): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_REFBUF" (byte position 551774): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 553886): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 617564): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 617628): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 618012): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 724428): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 724492): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 725580): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863282): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863346): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 863986): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 1011020): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1011084): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 1015372): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+
+TIME: read GDS: 00:00:02 
+
+
+TIME: add subcut: 00:00:00 
+
+Abstracting sky130_fd_sc_hd__fill_1$1
+Abstracting sky130_fd_sc_hd__fill_2$1
+Abstracting sky130_fd_sc_hd__fill_4$1
+Abstracting sky130_fd_sc_hd__fill_8$1
+Abstracting sky130_fd_sc_hd__tapvpwrvgnd_1$1
+
+TIME: set abstract: 00:00:00 
+
+Processing sky130_fd_sc_hd__decap_3$1
+Processing sky130_ef_sc_hd__decap_40_12$1
+Processing sky130_fd_sc_hd__clkbuf_2$1
+Processing sky130_fd_sc_hd__buf_12$1
+Processing sky130_fd_sc_hd__dlymetal6s2s_1$1
+Processing sky130_fd_sc_hd__buf_1$1
+Processing sky130_fd_sc_hd__conb_1$1
+Processing sky130_fd_sc_hd__inv_6$1
+Processing sky130_fd_sc_hd__dfxtp_1$1
+Processing sky130_fd_sc_hd__o211a_1$1
+Processing sky130_fd_sc_hd__clkbuf_8$1
+Processing sky130_fd_sc_hd__a22o_1$1
+Processing sky130_fd_sc_hd__diode_2$1
+Processing sky130_fd_sc_hd__clkbuf_4$1
+Processing sky130_fd_sc_hd__or2_1$1
+Processing sky130_fd_sc_hd__inv_4$1
+Processing sky130_fd_sc_hd__clkinv_4$1
+Processing sky130_fd_sc_hd__dlygate4sd3_1$1
+Processing sky130_fd_sc_hd__a2111o_1$1
+Processing sky130_fd_sc_hd__buf_4$1
+Processing sky130_fd_sc_hd__clkinv_2$1
+Processing sky130_fd_sc_hd__a221o_1$1
+Processing sky130_fd_sc_hd__buf_2$1
+Processing sky130_fd_sc_hd__dfxtp_2$1
+Processing sky130_fd_sc_hd__o221a_1$1
+Processing sky130_fd_sc_hd__inv_8$1
+Processing sky130_fd_sc_hd__clkbuf_16$1
+Processing sky130_fd_sc_hd__bufinv_16$1
+Processing sky130_fd_sc_hd__clkinvlp_4$1
+Processing sky130_fd_sc_hd__dfxtp_4$1
+Processing sky130_fd_sc_hd__or4_1$1
+Processing sky130_fd_sc_hd__buf_6$1
+Processing sky130_fd_sc_hd__a21o_1$1
+Processing sky130_fd_sc_hd__buf_8$1
+Processing sky130_fd_sc_hd__and2_2$1
+Processing sky130_fd_sc_hd__and2_1$1
+Processing sky130_fd_sc_hd__nand2_2$1
+Processing sky130_fd_sc_hd__and4b_4$1
+Processing sky130_fd_sc_hd__nand2_4$1
+Processing sky130_fd_sc_hd__and4bb_4$1
+Processing sky130_fd_sc_hd__or4bb_4$1
+Processing sky130_fd_sc_hd__inv_2$1
+Processing sky130_fd_sc_hd__o21a_1$1
+Processing sky130_fd_sc_hd__o31a_1$1
+Processing sky130_fd_sc_hd__nor4b_2$1
+Processing sky130_fd_sc_hd__nor4b_4$1
+Processing sky130_fd_sc_hd__and4b_1$1
+Processing sky130_fd_sc_hd__or3_1$1
+Processing sky130_fd_sc_hd__nand2_8$1
+Processing sky130_fd_sc_hd__nor4b_1$1
+Processing sky130_fd_sc_hd__or4_2$1
+Processing afe_wb
+Processing CF_BGR_core
+Processing CF_BGR
+Processing CF_REFBUF_core
+Processing CF_REFBUF
+Processing CF_BUF_HIZ_core
+Processing CF_BUF_HIZ
+Processing CF_ADC_SAR12_core
+Processing CF_ADC_SAR12
+Processing CF_ADC_SAR12_sar_refs_core
+Processing CF_ADC_SAR12_sar_refs
+Processing user_project_wrapper
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice()"
+Extracting sky130_fd_sc_hd__fill_4$1 into sky130_fd_sc_hd__fill_4$1.ext:
+Extracting sky130_fd_sc_hd__decap_3$1 into sky130_fd_sc_hd__decap_3$1.ext:
+sky130_fd_sc_hd__decap_3$1: 2 warnings
+Extracting sky130_fd_sc_hd__fill_2$1 into sky130_fd_sc_hd__fill_2$1.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1$1 into sky130_fd_sc_hd__tapvpwrvgnd_1$1.ext:
+Extracting sky130_fd_sc_hd__fill_1$1 into sky130_fd_sc_hd__fill_1$1.ext:
+Extracting sky130_ef_sc_hd__decap_40_12$1 into sky130_ef_sc_hd__decap_40_12$1.ext:
+sky130_ef_sc_hd__decap_40_12$1: 2 warnings
+Extracting sky130_fd_sc_hd__clkbuf_2$1 into sky130_fd_sc_hd__clkbuf_2$1.ext:
+Extracting sky130_fd_sc_hd__buf_12$1 into sky130_fd_sc_hd__buf_12$1.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1$1 into sky130_fd_sc_hd__dlymetal6s2s_1$1.ext:
+Extracting sky130_fd_sc_hd__buf_1$1 into sky130_fd_sc_hd__buf_1$1.ext:
+Extracting sky130_fd_sc_hd__conb_1$1 into sky130_fd_sc_hd__conb_1$1.ext:
+Extracting sky130_fd_sc_hd__fill_8$1 into sky130_fd_sc_hd__fill_8$1.ext:
+Extracting sky130_fd_sc_hd__inv_6$1 into sky130_fd_sc_hd__inv_6$1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1$1 into sky130_fd_sc_hd__dfxtp_1$1.ext:
+Extracting sky130_fd_sc_hd__o211a_1$1 into sky130_fd_sc_hd__o211a_1$1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8$1 into sky130_fd_sc_hd__clkbuf_8$1.ext:
+Extracting sky130_fd_sc_hd__a22o_1$1 into sky130_fd_sc_hd__a22o_1$1.ext:
+Extracting sky130_fd_sc_hd__diode_2$1 into sky130_fd_sc_hd__diode_2$1.ext:
+sky130_fd_sc_hd__diode_2$1: 1 warning
+Extracting sky130_fd_sc_hd__clkbuf_4$1 into sky130_fd_sc_hd__clkbuf_4$1.ext:
+Extracting sky130_fd_sc_hd__or2_1$1 into sky130_fd_sc_hd__or2_1$1.ext:
+Extracting sky130_fd_sc_hd__inv_4$1 into sky130_fd_sc_hd__inv_4$1.ext:
+Extracting sky130_fd_sc_hd__clkinv_4$1 into sky130_fd_sc_hd__clkinv_4$1.ext:
+Extracting sky130_fd_sc_hd__dlygate4sd3_1$1 into sky130_fd_sc_hd__dlygate4sd3_1$1.ext:
+Extracting sky130_fd_sc_hd__a2111o_1$1 into sky130_fd_sc_hd__a2111o_1$1.ext:
+Extracting sky130_fd_sc_hd__buf_4$1 into sky130_fd_sc_hd__buf_4$1.ext:
+Extracting sky130_fd_sc_hd__clkinv_2$1 into sky130_fd_sc_hd__clkinv_2$1.ext:
+Extracting sky130_fd_sc_hd__a221o_1$1 into sky130_fd_sc_hd__a221o_1$1.ext:
+Extracting sky130_fd_sc_hd__buf_2$1 into sky130_fd_sc_hd__buf_2$1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_2$1 into sky130_fd_sc_hd__dfxtp_2$1.ext:
+Extracting sky130_fd_sc_hd__o221a_1$1 into sky130_fd_sc_hd__o221a_1$1.ext:
+Extracting sky130_fd_sc_hd__inv_8$1 into sky130_fd_sc_hd__inv_8$1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16$1 into sky130_fd_sc_hd__clkbuf_16$1.ext:
+Extracting sky130_fd_sc_hd__bufinv_16$1 into sky130_fd_sc_hd__bufinv_16$1.ext:
+Extracting sky130_fd_sc_hd__clkinvlp_4$1 into sky130_fd_sc_hd__clkinvlp_4$1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4$1 into sky130_fd_sc_hd__dfxtp_4$1.ext:
+Extracting sky130_fd_sc_hd__or4_1$1 into sky130_fd_sc_hd__or4_1$1.ext:
+Extracting sky130_fd_sc_hd__buf_6$1 into sky130_fd_sc_hd__buf_6$1.ext:
+Extracting sky130_fd_sc_hd__a21o_1$1 into sky130_fd_sc_hd__a21o_1$1.ext:
+Extracting sky130_fd_sc_hd__buf_8$1 into sky130_fd_sc_hd__buf_8$1.ext:
+Extracting sky130_fd_sc_hd__and2_2$1 into sky130_fd_sc_hd__and2_2$1.ext:
+Extracting sky130_fd_sc_hd__and2_1$1 into sky130_fd_sc_hd__and2_1$1.ext:
+Extracting sky130_fd_sc_hd__nand2_2$1 into sky130_fd_sc_hd__nand2_2$1.ext:
+Extracting sky130_fd_sc_hd__and4b_4$1 into sky130_fd_sc_hd__and4b_4$1.ext:
+Extracting sky130_fd_sc_hd__nand2_4$1 into sky130_fd_sc_hd__nand2_4$1.ext:
+Extracting sky130_fd_sc_hd__and4bb_4$1 into sky130_fd_sc_hd__and4bb_4$1.ext:
+Extracting sky130_fd_sc_hd__or4bb_4$1 into sky130_fd_sc_hd__or4bb_4$1.ext:
+Extracting sky130_fd_sc_hd__inv_2$1 into sky130_fd_sc_hd__inv_2$1.ext:
+Extracting sky130_fd_sc_hd__o21a_1$1 into sky130_fd_sc_hd__o21a_1$1.ext:
+Extracting sky130_fd_sc_hd__o31a_1$1 into sky130_fd_sc_hd__o31a_1$1.ext:
+Extracting sky130_fd_sc_hd__nor4b_2$1 into sky130_fd_sc_hd__nor4b_2$1.ext:
+Extracting sky130_fd_sc_hd__nor4b_4$1 into sky130_fd_sc_hd__nor4b_4$1.ext:
+Extracting sky130_fd_sc_hd__and4b_1$1 into sky130_fd_sc_hd__and4b_1$1.ext:
+Extracting sky130_fd_sc_hd__or3_1$1 into sky130_fd_sc_hd__or3_1$1.ext:
+Extracting sky130_fd_sc_hd__nand2_8$1 into sky130_fd_sc_hd__nand2_8$1.ext:
+Extracting sky130_fd_sc_hd__nor4b_1$1 into sky130_fd_sc_hd__nor4b_1$1.ext:
+Extracting sky130_fd_sc_hd__or4_2$1 into sky130_fd_sc_hd__or4_2$1.ext:
+Extracting afe_wb into afe_wb.ext:
+Extracting CF_BGR_core into CF_BGR_core.ext:
+Extracting CF_BGR into CF_BGR.ext:
+Extracting CF_REFBUF_core into CF_REFBUF_core.ext:
+Extracting CF_REFBUF into CF_REFBUF.ext:
+Extracting CF_BUF_HIZ_core into CF_BUF_HIZ_core.ext:
+Warning:  Ports "vbpb" and "vbpc" are electrically shorted.
+Warning:  Ports "vbpb" and "vbnc" are electrically shorted.
+Warning:  Ports "vbpb" and "vbptd" are electrically shorted.
+Warning:  Ports "vbpb" and "vbpcid" are electrically shorted.
+Warning:  Ports "vbpb" and "vbnci" are electrically shorted.
+Warning:  Ports "vbpb" and "ibias" are electrically shorted.
+Warning:  Ports "vbpb" and "vbnt" are electrically shorted.
+Warning:  Ports "vbpb" and "vbpci" are electrically shorted.
+Warning:  Ports "vbpb" and "vout" are electrically shorted.
+Warning:  Ports "vbpb" and "vbncis" are electrically shorted.
+Warning:  Ports "vbpb" and "vbpcis" are electrically shorted.
+Warning:  Ports "vbpb" and "vbpt" are electrically shorted.
+Warning:  Ports "e_n_boost" and "e_na_boost" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinp_p" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinn_p" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinn_na" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinp_na" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinn_n" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vinp_n" are electrically shorted.
+Warning:  Ports "e_n_boost" and "en_pd" are electrically shorted.
+Warning:  Ports "e_n_boost" and "e_pd" are electrically shorted.
+Warning:  Ports "e_n_boost" and "iop" are electrically shorted.
+Warning:  Ports "e_n_boost" and "ion" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vpwr_a" are electrically shorted.
+Warning:  Ports "e_n_boost" and "clk1_boostr" are electrically shorted.
+Warning:  Ports "e_n_boost" and "clk2_boost" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vgnd_a" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vnb" are electrically shorted.
+Warning:  Ports "e_n_boost" and "vpb_a" are electrically shorted.
+Warning:  Ports "e_n_boost" and "tp" are electrically shorted.
+Extracting CF_BUF_HIZ into CF_BUF_HIZ.ext:
+Extracting CF_ADC_SAR12_core into CF_ADC_SAR12_core.ext:
+Extracting CF_ADC_SAR12 into CF_ADC_SAR12.ext:
+Extracting CF_ADC_SAR12_sar_refs_core into CF_ADC_SAR12_sar_refs_core.ext:
+Extracting CF_ADC_SAR12_sar_refs into CF_ADC_SAR12_sar_refs.ext:
+Extracting user_project_wrapper into user_project_wrapper.ext:
+Total of 5 warnings.
+
+TIME: extract: 00:00:19 
+
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 6
+Devs merged: 8
+Devs merged: 10
+Devs merged: 16
+Devs merged: 32
+Devs merged: 32
+Devs merged: 60
+Devs merged: 66
+Devs merged: 66
+Devs merged: 66
+Devs merged: 94
+Devs merged: 94
+Devs merged: 94
+Devs merged: 96
+Devs merged: 100
+Devs merged: 106
+Devs merged: 106
+Devs merged: 112
+Devs merged: 126
+Devs merged: 129
+Devs merged: 129
+Devs merged: 132
+Devs merged: 138
+Devs merged: 150
+Devs merged: 152
+Devs merged: 154
+Devs merged: 198
+Devs merged: 206
+Devs merged: 224
+Devs merged: 224
+Devs merged: 224
+Devs merged: 230
+Devs merged: 240
+Devs merged: 240
+Devs merged: 276
+Devs merged: 300
+Devs merged: 300
+Devs merged: 308
+Devs merged: 308
+Devs merged: 308
+Devs merged: 320
+Devs merged: 320
+Devs merged: 322
+Devs merged: 322
+Devs merged: 322
+Devs merged: 322
+Devs merged: 322
+exttospice finished.
+
+TIME: netlist: 00:00:01 
+
+Using technology "sky130A", version 1.0.493
+END: Wed Sep 16 21:40:02 2026
+Runtime: 0:00:24 (hh:mm:ss)
