@@ -5,7 +5,7 @@ report_checks -unconstrained
 ======================= max_ss_100C_1v60 Corner ===================================
 
 Startpoint: wb_rst_i (input port clocked by clk)
-Endpoint: u_afe_wb/_1714_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_afe_wb/_1668_ (rising edge-triggered flip-flop clocked by clk)
 Path Group: clk
 Path Type: max
 
@@ -14,58 +14,55 @@ Fanout         Cap        Slew       Delay        Time   Description
                                   0.000000    0.000000   clock clk (rise edge)
                                   5.570000    5.570000   clock network delay (propagated)
                                  12.500000   18.070000 v input external delay
-     1    0.015416    0.000000    0.000000   18.070000 v wb_rst_i (in)
+     1    0.016246    0.000000    0.000000   18.070000 v wb_rst_i (in)
                                                          wb_rst_i (net)
-                      0.001936    0.001016   18.071016 v u_afe_wb/input14/A (sky130_fd_sc_hd__dlymetal6s2s_1)
-     1    0.022512    0.231574    0.408551   18.479567 v u_afe_wb/input14/X (sky130_fd_sc_hd__dlymetal6s2s_1)
+                      0.002135    0.001121   18.071119 v u_afe_wb/input14/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.005331    0.103630    0.477820   18.548941 v u_afe_wb/input14/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
                                                          u_afe_wb/net14 (net)
-                      0.231628    0.003645   18.483212 v u_afe_wb/_0738_/A (sky130_fd_sc_hd__inv_2)
-     1    0.004969    0.079667    0.149237   18.632448 ^ u_afe_wb/_0738_/Y (sky130_fd_sc_hd__inv_2)
-                                                         u_afe_wb/_0479_ (net)
-                      0.079667    0.000378   18.632828 ^ u_afe_wb/fanout279/A (sky130_fd_sc_hd__clkbuf_8)
-    10    0.124030    0.340746    0.439915   19.072742 ^ u_afe_wb/fanout279/X (sky130_fd_sc_hd__clkbuf_8)
-                                                         u_afe_wb/net279 (net)
-                      0.343493    0.026230   19.098972 ^ u_afe_wb/fanout260/A (sky130_fd_sc_hd__buf_4)
-    15    0.080817    0.360740    0.557209   19.656181 ^ u_afe_wb/fanout260/X (sky130_fd_sc_hd__buf_4)
-                                                         u_afe_wb/net260 (net)
-                      0.360757    0.002229   19.658411 ^ u_afe_wb/fanout259/A (sky130_fd_sc_hd__buf_4)
-    16    0.077912    0.345805    0.559563   20.217974 ^ u_afe_wb/fanout259/X (sky130_fd_sc_hd__buf_4)
-                                                         u_afe_wb/net259 (net)
-                      0.345829    0.003448   20.221422 ^ u_afe_wb/fanout258/A (sky130_fd_sc_hd__buf_4)
-    16    0.077294    0.345891    0.548512   20.769934 ^ u_afe_wb/fanout258/X (sky130_fd_sc_hd__buf_4)
-                                                         u_afe_wb/net258 (net)
-                      0.345984    0.005054   20.774988 ^ u_afe_wb/_1373_/C1 (sky130_fd_sc_hd__o211a_1)
-     1    0.002559    0.077773    0.394813   21.169800 ^ u_afe_wb/_1373_/X (sky130_fd_sc_hd__o211a_1)
-                                                         u_afe_wb/_0238_ (net)
-                      0.077773    0.000174   21.169975 ^ u_afe_wb/hold22/A (sky130_fd_sc_hd__dlygate4sd3_1)
-     1    0.002162    0.084680    1.086125   22.256100 ^ u_afe_wb/hold22/X (sky130_fd_sc_hd__dlygate4sd3_1)
-                                                         u_afe_wb/net308 (net)
-                      0.084680    0.000151   22.256250 ^ u_afe_wb/_1714_/D (sky130_fd_sc_hd__dfxtp_1)
-                                             22.256250   data arrival time
+                      0.103630    0.000409   18.549349 v u_afe_wb/_0737_/A (sky130_fd_sc_hd__inv_2)
+     4    0.070373    0.507084    0.430491   18.979841 ^ u_afe_wb/_0737_/Y (sky130_fd_sc_hd__inv_2)
+                                                         u_afe_wb/_0478_ (net)
+                      0.507852    0.017158   18.996998 ^ u_afe_wb/fanout492/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     4    0.038238    0.616431    1.075257   20.072256 ^ u_afe_wb/fanout492/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         u_afe_wb/net492 (net)
+                      0.616443    0.003702   20.075958 ^ u_afe_wb/fanout491/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     9    0.069216    1.101268    1.471349   21.547306 ^ u_afe_wb/fanout491/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         u_afe_wb/net491 (net)
+                      1.101413    0.013261   21.560568 ^ u_afe_wb/fanout486/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+    13    0.063182    1.005390    1.523784   23.084351 ^ u_afe_wb/fanout486/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         u_afe_wb/net486 (net)
+                      1.005435    0.007983   23.092335 ^ u_afe_wb/_1281_/C1 (sky130_fd_sc_hd__o211a_2)
+     1    0.001918    0.080986    0.694296   23.786631 ^ u_afe_wb/_1281_/X (sky130_fd_sc_hd__o211a_2)
+                                                         u_afe_wb/_0194_ (net)
+                      0.080986    0.000144   23.786774 ^ u_afe_wb/hold585/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     1    0.002349    0.086617    1.090518   24.877293 ^ u_afe_wb/hold585/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                                                         u_afe_wb/net585 (net)
+                      0.086617    0.000163   24.877455 ^ u_afe_wb/_1668_/D (sky130_fd_sc_hd__dfxtp_2)
+                                             24.877455   data arrival time
 
                                  25.000000   25.000000   clock clk (rise edge)
                                   4.650000   29.650000   clock source latency
-     1    0.078569    0.610000    0.000000   29.650000 ^ wb_clk_i (in)
+     1    0.074635    0.610000    0.000000   29.650000 ^ wb_clk_i (in)
                                                          wb_clk_i (net)
-                      0.651174    0.019558   29.669556 ^ u_afe_wb/clkbuf_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
-     4    0.089817    0.167730    0.517121   30.186678 ^ u_afe_wb/clkbuf_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
+                      0.649470    0.018749   29.668749 ^ u_afe_wb/clkbuf_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.079129    0.152898    0.506962   30.175711 ^ u_afe_wb/clkbuf_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
                                                          u_afe_wb/clknet_0_wb_clk_i (net)
-                      0.168190    0.007191   30.193869 ^ u_afe_wb/clkbuf_2_2__f_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
-    13    0.143676    0.239251    0.382162   30.576029 ^ u_afe_wb/clkbuf_2_2__f_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
-                                                         u_afe_wb/clknet_2_2__leaf_wb_clk_i (net)
-                      0.240339    0.012420   30.588449 ^ u_afe_wb/clkbuf_leaf_3_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
-    10    0.036764    0.122241    0.331440   30.919889 ^ u_afe_wb/clkbuf_leaf_3_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
-                                                         u_afe_wb/clknet_leaf_3_wb_clk_i (net)
-                      0.122278    0.001901   30.921791 ^ u_afe_wb/_1714_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                                 -0.250000   30.671789   clock uncertainty
-                                  0.000000   30.671789   clock reconvergence pessimism
-                                 -0.123345   30.548443   library setup time
-                                             30.548443   data required time
+                      0.153230    0.005819   30.181530 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
+    10    0.115474    0.199086    0.346656   30.528185 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         u_afe_wb/clknet_2_3__leaf_wb_clk_i (net)
+                      0.199954    0.010083   30.538267 ^ u_afe_wb/clkbuf_leaf_16_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.035422    0.118725    0.311882   30.850149 ^ u_afe_wb/clkbuf_leaf_16_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         u_afe_wb/clknet_leaf_16_wb_clk_i (net)
+                      0.118766    0.001968   30.852118 ^ u_afe_wb/_1668_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                                 -0.250000   30.602118   clock uncertainty
+                                  0.000000   30.602118   clock reconvergence pessimism
+                                 -0.136941   30.465178   library setup time
+                                             30.465178   data required time
 ---------------------------------------------------------------------------------------------
-                                             30.548443   data required time
-                                            -22.256250   data arrival time
+                                             30.465178   data required time
+                                            -24.877455   data arrival time
 ---------------------------------------------------------------------------------------------
-                                              8.292192   slack (MET)
+                                              5.587722   slack (MET)
 
 
 
@@ -83,90 +80,254 @@ No paths found.
 ============================================================================
 ======================= max_ss_100C_1v60 Corner ===================================
 
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+u_afe_wb/_1296_/B                       1.500000    2.046218   -0.546218 (VIOLATED)
+u_afe_wb/_1298_/B                       1.500000    2.046183   -0.546183 (VIOLATED)
+u_afe_wb/_1292_/B                       1.500000    2.046141   -0.546141 (VIOLATED)
+u_afe_wb/_1302_/B                       1.500000    2.046054   -0.546054 (VIOLATED)
+u_afe_wb/_1290_/B                       1.500000    2.045950   -0.545950 (VIOLATED)
+u_afe_wb/_1282_/B                       1.500000    2.045736   -0.545736 (VIOLATED)
+u_afe_wb/_1286_/B                       1.500000    2.045605   -0.545605 (VIOLATED)
+u_afe_wb/_1278_/B                       1.500000    2.045293   -0.545293 (VIOLATED)
+u_afe_wb/_1280_/B                       1.500000    2.044865   -0.544865 (VIOLATED)
+u_afe_wb/fanout223/X                    1.498939    2.043714   -0.544775 (VIOLATED)
+u_afe_wb/_1288_/B                       1.500000    2.044492   -0.544492 (VIOLATED)
+u_afe_wb/_1338_/B                       1.500000    2.044425   -0.544426 (VIOLATED)
+u_afe_wb/_1284_/B                       1.500000    2.044300   -0.544300 (VIOLATED)
+u_afe_wb/_1336_/B                       1.500000    2.043961   -0.543961 (VIOLATED)
+u_afe_wb/_1334_/B                       1.500000    2.043868   -0.543868 (VIOLATED)
+u_afe_wb/_1320_/B                       1.500000    2.043746   -0.543746 (VIOLATED)
+u_afe_wb/_1332_/B                       1.500000    2.043720   -0.543720 (VIOLATED)
+u_afe_wb/fanout217/X                    1.498939    2.004615   -0.505676 (VIOLATED)
+u_afe_wb/_1384_/B                       1.500000    2.005145   -0.505145 (VIOLATED)
+u_afe_wb/_1360_/B                       1.500000    2.005103   -0.505103 (VIOLATED)
+u_afe_wb/_1366_/B                       1.500000    2.005102   -0.505102 (VIOLATED)
+u_afe_wb/_1378_/B                       1.500000    2.005051   -0.505051 (VIOLATED)
+u_afe_wb/_1370_/B                       1.500000    2.005003   -0.505004 (VIOLATED)
+u_afe_wb/_1372_/B                       1.500000    2.004926   -0.504927 (VIOLATED)
+u_afe_wb/_1374_/B                       1.500000    2.004844   -0.504844 (VIOLATED)
+u_afe_wb/_1380_/B                       1.500000    2.004821   -0.504821 (VIOLATED)
+u_afe_wb/fanout216/A                    1.500000    2.004791   -0.504791 (VIOLATED)
+u_afe_wb/_1396_/B                       1.500000    2.004777   -0.504777 (VIOLATED)
+u_afe_wb/_1376_/B                       1.500000    2.004757   -0.504757 (VIOLATED)
+u_afe_wb/_1394_/B                       1.500000    2.004757   -0.504757 (VIOLATED)
+u_afe_wb/ANTENNA_7/DIODE                1.500000    2.004748   -0.504748 (VIOLATED)
+u_afe_wb/_1382_/B                       1.500000    2.004736   -0.504736 (VIOLATED)
+u_afe_wb/_1392_/B                       1.500000    2.004712   -0.504712 (VIOLATED)
+u_afe_wb/_1390_/B                       1.500000    2.004655   -0.504655 (VIOLATED)
+u_afe_wb/_1388_/B                       1.500000    2.004654   -0.504654 (VIOLATED)
+u_afe_wb/fanout251/X                    1.498939    1.938498   -0.439559 (VIOLATED)
+u_afe_wb/_1054_/B                       1.500000    1.938941   -0.438941 (VIOLATED)
+u_afe_wb/_1056_/B                       1.500000    1.938941   -0.438941 (VIOLATED)
+u_afe_wb/_1052_/B                       1.500000    1.938926   -0.438926 (VIOLATED)
+u_afe_wb/_1042_/B                       1.500000    1.938912   -0.438912 (VIOLATED)
+u_afe_wb/_1044_/B                       1.500000    1.938904   -0.438904 (VIOLATED)
+u_afe_wb/_1046_/B                       1.500000    1.938859   -0.438859 (VIOLATED)
+u_afe_wb/_1058_/B                       1.500000    1.938790   -0.438790 (VIOLATED)
+u_afe_wb/_1076_/B                       1.500000    1.938771   -0.438771 (VIOLATED)
+u_afe_wb/_1070_/B                       1.500000    1.938771   -0.438771 (VIOLATED)
+u_afe_wb/_1074_/B                       1.500000    1.938768   -0.438768 (VIOLATED)
+u_afe_wb/_1072_/B                       1.500000    1.938765   -0.438765 (VIOLATED)
+u_afe_wb/_1068_/B                       1.500000    1.938729   -0.438729 (VIOLATED)
+u_afe_wb/_1066_/B                       1.500000    1.938705   -0.438705 (VIOLATED)
+u_afe_wb/_1064_/B                       1.500000    1.938672   -0.438672 (VIOLATED)
+u_afe_wb/_1062_/B                       1.500000    1.938672   -0.438672 (VIOLATED)
+u_afe_wb/_1060_/B                       1.500000    1.938498   -0.438498 (VIOLATED)
+u_afe_wb/fanout208/X                    1.498939    1.886463   -0.387524 (VIOLATED)
+u_afe_wb/_1410_/B                       1.500000    1.887406   -0.387406 (VIOLATED)
+u_afe_wb/_1466_/B                       1.500000    1.887398   -0.387398 (VIOLATED)
+u_afe_wb/_1416_/B                       1.500000    1.887397   -0.387397 (VIOLATED)
+u_afe_wb/_1414_/B                       1.500000    1.887373   -0.387373 (VIOLATED)
+u_afe_wb/_1418_/B                       1.500000    1.887362   -0.387362 (VIOLATED)
+u_afe_wb/_1420_/B                       1.500000    1.887354   -0.387354 (VIOLATED)
+u_afe_wb/_1412_/B                       1.500000    1.887301   -0.387302 (VIOLATED)
+u_afe_wb/_1438_/B                       1.500000    1.887252   -0.387252 (VIOLATED)
+u_afe_wb/_1430_/B                       1.500000    1.887187   -0.387187 (VIOLATED)
+u_afe_wb/_1428_/B                       1.500000    1.887060   -0.387060 (VIOLATED)
+u_afe_wb/_1422_/B                       1.500000    1.886988   -0.386988 (VIOLATED)
+u_afe_wb/_1424_/B                       1.500000    1.886970   -0.386970 (VIOLATED)
+u_afe_wb/_1434_/B                       1.500000    1.886927   -0.386927 (VIOLATED)
+u_afe_wb/_1452_/B                       1.500000    1.886775   -0.386776 (VIOLATED)
+u_afe_wb/_1464_/B                       1.500000    1.886543   -0.386543 (VIOLATED)
+u_afe_wb/_1462_/B                       1.500000    1.886485   -0.386485 (VIOLATED)
+u_afe_wb/fanout237/X                    1.498939    1.846793   -0.347854 (VIOLATED)
+u_afe_wb/_1176_/B                       1.500000    1.847360   -0.347360 (VIOLATED)
+u_afe_wb/_1178_/B                       1.500000    1.847352   -0.347352 (VIOLATED)
+u_afe_wb/_1192_/B                       1.500000    1.847338   -0.347338 (VIOLATED)
+u_afe_wb/_1208_/B                       1.500000    1.847332   -0.347332 (VIOLATED)
+u_afe_wb/_1174_/B                       1.500000    1.847331   -0.347331 (VIOLATED)
+u_afe_wb/_1206_/B                       1.500000    1.847324   -0.347324 (VIOLATED)
+u_afe_wb/_1190_/B                       1.500000    1.847321   -0.347321 (VIOLATED)
+u_afe_wb/_1204_/B                       1.500000    1.847304   -0.347304 (VIOLATED)
+u_afe_wb/_1182_/B                       1.500000    1.847292   -0.347293 (VIOLATED)
+u_afe_wb/_1202_/B                       1.500000    1.847291   -0.347291 (VIOLATED)
+u_afe_wb/_1184_/B                       1.500000    1.847276   -0.347276 (VIOLATED)
+u_afe_wb/_1200_/B                       1.500000    1.847199   -0.347199 (VIOLATED)
+u_afe_wb/_1188_/B                       1.500000    1.847175   -0.347175 (VIOLATED)
+u_afe_wb/_1198_/B                       1.500000    1.846951   -0.346951 (VIOLATED)
+u_afe_wb/_1196_/B                       1.500000    1.846848   -0.346848 (VIOLATED)
+u_afe_wb/_1194_/B                       1.500000    1.846811   -0.346811 (VIOLATED)
+u_afe_wb/_1014_/B                       1.500000    1.827640   -0.327640 (VIOLATED)
+u_afe_wb/_1018_/B                       1.500000    1.827637   -0.327637 (VIOLATED)
+u_afe_wb/_1020_/B                       1.500000    1.827635   -0.327635 (VIOLATED)
+u_afe_wb/_1016_/B                       1.500000    1.827625   -0.327625 (VIOLATED)
+u_afe_wb/_1024_/B                       1.500000    1.827583   -0.327584 (VIOLATED)
+u_afe_wb/_1026_/B                       1.500000    1.827546   -0.327546 (VIOLATED)
+u_afe_wb/_1022_/B                       1.500000    1.827472   -0.327472 (VIOLATED)
+u_afe_wb/fanout250/X                    1.498939    1.826366   -0.327427 (VIOLATED)
+u_afe_wb/_1032_/B                       1.500000    1.827376   -0.327376 (VIOLATED)
+u_afe_wb/_1034_/B                       1.500000    1.827147   -0.327147 (VIOLATED)
+u_afe_wb/_1050_/B                       1.500000    1.826960   -0.326960 (VIOLATED)
+u_afe_wb/_1038_/B                       1.500000    1.826951   -0.326951 (VIOLATED)
+u_afe_wb/_1028_/B                       1.500000    1.826803   -0.326803 (VIOLATED)
+u_afe_wb/_1030_/B                       1.500000    1.826524   -0.326524 (VIOLATED)
+u_afe_wb/_1036_/B                       1.500000    1.826461   -0.326461 (VIOLATED)
+u_afe_wb/_1048_/B                       1.500000    1.826422   -0.326422 (VIOLATED)
+u_afe_wb/_1040_/B                       1.500000    1.826366   -0.326366 (VIOLATED)
+u_afe_wb/_1154_/B                       1.500000    1.777310   -0.277310 (VIOLATED)
+u_afe_wb/_1146_/B                       1.500000    1.777309   -0.277309 (VIOLATED)
+u_afe_wb/_1156_/B                       1.500000    1.777308   -0.277308 (VIOLATED)
+u_afe_wb/_1152_/B                       1.500000    1.777301   -0.277302 (VIOLATED)
+u_afe_wb/_1150_/B                       1.500000    1.777244   -0.277244 (VIOLATED)
+u_afe_wb/_1148_/B                       1.500000    1.777182   -0.277182 (VIOLATED)
+u_afe_wb/_1164_/B                       1.500000    1.777079   -0.277079 (VIOLATED)
+u_afe_wb/_1158_/B                       1.500000    1.776946   -0.276946 (VIOLATED)
+u_afe_wb/_1166_/B                       1.500000    1.776885   -0.276885 (VIOLATED)
+u_afe_wb/fanout236/X                    1.498939    1.775733   -0.276794 (VIOLATED)
+u_afe_wb/_1170_/B                       1.500000    1.776713   -0.276713 (VIOLATED)
+u_afe_wb/_1160_/B                       1.500000    1.776376   -0.276376 (VIOLATED)
+u_afe_wb/_1186_/B                       1.500000    1.776292   -0.276292 (VIOLATED)
+u_afe_wb/_1168_/B                       1.500000    1.776100   -0.276100 (VIOLATED)
+u_afe_wb/_1162_/B                       1.500000    1.775929   -0.275929 (VIOLATED)
+u_afe_wb/_1172_/B                       1.500000    1.775831   -0.275831 (VIOLATED)
+u_afe_wb/_1180_/B                       1.500000    1.775751   -0.275751 (VIOLATED)
+u_afe_wb/_1350_/B                       1.500000    1.725619   -0.225619 (VIOLATED)
+u_afe_wb/_1344_/B                       1.500000    1.725619   -0.225619 (VIOLATED)
+u_afe_wb/_1348_/B                       1.500000    1.725616   -0.225617 (VIOLATED)
+u_afe_wb/_1352_/B                       1.500000    1.725608   -0.225608 (VIOLATED)
+u_afe_wb/_1356_/B                       1.500000    1.725569   -0.225569 (VIOLATED)
+u_afe_wb/_1364_/B                       1.500000    1.725504   -0.225504 (VIOLATED)
+u_afe_wb/_1358_/B                       1.500000    1.725493   -0.225493 (VIOLATED)
+u_afe_wb/_1368_/B                       1.500000    1.725490   -0.225490 (VIOLATED)
+u_afe_wb/fanout216/X                    1.498939    1.724416   -0.225477 (VIOLATED)
+u_afe_wb/_1362_/B                       1.500000    1.725466   -0.225466 (VIOLATED)
+u_afe_wb/_1346_/B                       1.500000    1.725298   -0.225298 (VIOLATED)
+u_afe_wb/_1354_/B                       1.500000    1.725294   -0.225294 (VIOLATED)
+u_afe_wb/_1386_/B                       1.500000    1.725157   -0.225157 (VIOLATED)
+u_afe_wb/_1400_/B                       1.500000    1.725059   -0.225059 (VIOLATED)
+u_afe_wb/_1404_/B                       1.500000    1.724426   -0.224426 (VIOLATED)
+u_afe_wb/_1398_/B                       1.500000    1.724416   -0.224416 (VIOLATED)
+u_afe_wb/_1402_/B                       1.500000    1.724416   -0.224416 (VIOLATED)
+u_afe_wb/fanout231/X                    1.498939    1.583631   -0.084692 (VIOLATED)
+u_afe_wb/_1226_/B                       1.500000    1.583979   -0.083979 (VIOLATED)
+u_afe_wb/_1238_/B                       1.500000    1.583964   -0.083964 (VIOLATED)
+u_afe_wb/_1234_/B                       1.500000    1.583939   -0.083939 (VIOLATED)
+u_afe_wb/_1228_/B                       1.500000    1.583934   -0.083934 (VIOLATED)
+u_afe_wb/_1252_/B                       1.500000    1.583917   -0.083917 (VIOLATED)
+u_afe_wb/_1250_/B                       1.500000    1.583916   -0.083916 (VIOLATED)
+u_afe_wb/_1248_/B                       1.500000    1.583911   -0.083911 (VIOLATED)
+u_afe_wb/_1246_/B                       1.500000    1.583905   -0.083905 (VIOLATED)
+u_afe_wb/_1244_/B                       1.500000    1.583890   -0.083890 (VIOLATED)
+u_afe_wb/_1242_/B                       1.500000    1.583835   -0.083835 (VIOLATED)
+u_afe_wb/_1258_/B                       1.500000    1.583754   -0.083754 (VIOLATED)
+u_afe_wb/_1256_/B                       1.500000    1.583709   -0.083709 (VIOLATED)
+u_afe_wb/_1264_/B                       1.500000    1.583685   -0.083685 (VIOLATED)
+u_afe_wb/fanout230/A                    1.500000    1.583684   -0.083684 (VIOLATED)
+u_afe_wb/_1262_/B                       1.500000    1.583670   -0.083670 (VIOLATED)
+u_afe_wb/_1260_/B                       1.500000    1.583651   -0.083651 (VIOLATED)
+u_afe_wb/fanout230/X                    1.498939    1.535422   -0.036483 (VIOLATED)
+u_afe_wb/_1240_/B                       1.500000    1.535737   -0.035737 (VIOLATED)
+u_afe_wb/_1214_/B                       1.500000    1.535728   -0.035728 (VIOLATED)
+u_afe_wb/_1220_/B                       1.500000    1.535722   -0.035722 (VIOLATED)
+u_afe_wb/_1216_/B                       1.500000    1.535717   -0.035718 (VIOLATED)
+u_afe_wb/_1218_/B                       1.500000    1.535682   -0.035682 (VIOLATED)
+u_afe_wb/_1212_/B                       1.500000    1.535680   -0.035680 (VIOLATED)
+u_afe_wb/_1222_/B                       1.500000    1.535631   -0.035631 (VIOLATED)
+u_afe_wb/_1230_/B                       1.500000    1.535626   -0.035626 (VIOLATED)
+u_afe_wb/_1224_/B                       1.500000    1.535615   -0.035615 (VIOLATED)
+u_afe_wb/_1232_/B                       1.500000    1.535577   -0.035577 (VIOLATED)
+u_afe_wb/_1236_/B                       1.500000    1.535533   -0.035533 (VIOLATED)
+u_afe_wb/_1272_/B                       1.500000    1.535504   -0.035504 (VIOLATED)
+u_afe_wb/_1270_/B                       1.500000    1.535488   -0.035488 (VIOLATED)
+u_afe_wb/_1268_/B                       1.500000    1.535482   -0.035483 (VIOLATED)
+u_afe_wb/_1254_/B                       1.500000    1.535478   -0.035478 (VIOLATED)
+u_afe_wb/_1266_/B                       1.500000    1.535424   -0.035424 (VIOLATED)
+u_afe_wb/fanout243/X                    1.498939    1.524408   -0.025469 (VIOLATED)
+u_afe_wb/_1088_/B                       1.500000    1.525361   -0.025361 (VIOLATED)
+u_afe_wb/_1080_/B                       1.500000    1.525353   -0.025353 (VIOLATED)
+u_afe_wb/_1084_/B                       1.500000    1.525336   -0.025336 (VIOLATED)
+u_afe_wb/_1086_/B                       1.500000    1.525325   -0.025325 (VIOLATED)
+u_afe_wb/_1082_/B                       1.500000    1.525315   -0.025315 (VIOLATED)
+u_afe_wb/_1090_/B                       1.500000    1.525273   -0.025273 (VIOLATED)
+u_afe_wb/_1100_/B                       1.500000    1.525236   -0.025236 (VIOLATED)
+u_afe_wb/_1092_/B                       1.500000    1.525130   -0.025130 (VIOLATED)
+u_afe_wb/_1098_/B                       1.500000    1.525112   -0.025112 (VIOLATED)
+u_afe_wb/_1094_/B                       1.500000    1.524965   -0.024965 (VIOLATED)
+u_afe_wb/_1102_/B                       1.500000    1.524892   -0.024893 (VIOLATED)
+u_afe_wb/_1096_/B                       1.500000    1.524723   -0.024723 (VIOLATED)
+u_afe_wb/_1114_/B                       1.500000    1.524601   -0.024601 (VIOLATED)
+u_afe_wb/_1106_/B                       1.500000    1.524463   -0.024463 (VIOLATED)
+u_afe_wb/_1116_/B                       1.500000    1.524456   -0.024456 (VIOLATED)
+u_afe_wb/_1110_/B                       1.500000    1.524413   -0.024413 (VIOLATED)
+
 max fanout
 
 Pin                                   Limit Fanout  Slack
 ---------------------------------------------------------
-u_afe_wb/fanout226/X                     10     18     -8 (VIOLATED)
-u_afe_wb/fanout209/X                     10     17     -7 (VIOLATED)
-u_afe_wb/fanout222/X                     10     17     -7 (VIOLATED)
-u_afe_wb/fanout229/X                     10     17     -7 (VIOLATED)
-u_afe_wb/fanout230/X                     10     17     -7 (VIOLATED)
-u_afe_wb/fanout254/X                     10     17     -7 (VIOLATED)
-u_afe_wb/_0947_/X                        10     16     -6 (VIOLATED)
-u_afe_wb/fanout203/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout204/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout205/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout206/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout207/X                     10     16     -6 (VIOLATED)
+u_afe_wb/fanout217/X                     10     17     -7 (VIOLATED)
+u_afe_wb/_0945_/X                        10     16     -6 (VIOLATED)
 u_afe_wb/fanout208/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout210/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout211/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout212/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout213/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout214/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout215/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout216/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout217/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout218/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout219/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout220/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout221/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout223/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout224/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout225/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout227/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout228/X                     10     16     -6 (VIOLATED)
+u_afe_wb/fanout230/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout231/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout232/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout233/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout234/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout235/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout236/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout237/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout238/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout239/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout240/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout241/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout242/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout243/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout244/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout245/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout246/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout247/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout250/X                     10     16     -6 (VIOLATED)
 u_afe_wb/fanout251/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout253/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout256/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout257/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout258/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout259/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout261/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout264/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout265/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout267/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout268/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout269/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout272/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout273/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout275/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout276/X                     10     16     -6 (VIOLATED)
-u_afe_wb/fanout260/X                     10     15     -5 (VIOLATED)
-u_afe_wb/fanout263/X                     10     14     -4 (VIOLATED)
-u_afe_wb/fanout271/X                     10     14     -4 (VIOLATED)
-u_afe_wb/clkbuf_2_2__f_wb_clk_i/X        10     13     -3 (VIOLATED)
-u_afe_wb/clkbuf_2_3__f_wb_clk_i/X        10     13     -3 (VIOLATED)
-u_afe_wb/clkbuf_2_1__f_wb_clk_i/X        10     12     -2 (VIOLATED)
-u_afe_wb/fanout262/X                     10     12     -2 (VIOLATED)
-u_afe_wb/fanout266/X                     10     12     -2 (VIOLATED)
-u_afe_wb/fanout274/X                     10     12     -2 (VIOLATED)
+u_afe_wb/load_slew475/X                  10     14     -4 (VIOLATED)
+u_afe_wb/load_slew479/X                  10     14     -4 (VIOLATED)
+u_afe_wb/load_slew490/X                  10     14     -4 (VIOLATED)
+u_afe_wb/wire467/X                       10     14     -4 (VIOLATED)
+u_afe_wb/fanout486/X                     10     13     -3 (VIOLATED)
+u_afe_wb/load_slew464/X                  10     13     -3 (VIOLATED)
+u_afe_wb/load_slew483/X                  10     13     -3 (VIOLATED)
+u_afe_wb/load_slew260/X                  10     12     -2 (VIOLATED)
+u_afe_wb/load_slew469/X                  10     12     -2 (VIOLATED)
+u_afe_wb/load_slew477/X                  10     12     -2 (VIOLATED)
+u_afe_wb/wire233/X                       10     12     -2 (VIOLATED)
+u_afe_wb/wire239/X                       10     12     -2 (VIOLATED)
+u_afe_wb/fanout465/X                     10     11        (VIOLATED)
+u_afe_wb/wire225/X                       10     11        (VIOLATED)
+u_afe_wb/wire421/X                       10     11        (VIOLATED)
+u_afe_wb/wire443/X                       10     11        (VIOLATED)
+
+max capacitance
+
+Pin                                        Limit         Cap       Slack
+------------------------------------------------------------------------
+u_afe_wb/fanout223/X                    0.094309    0.129901   -0.035592 (VIOLATED)
+u_afe_wb/fanout217/X                    0.094309    0.127541   -0.033232 (VIOLATED)
+u_afe_wb/fanout251/X                    0.094309    0.123252   -0.028943 (VIOLATED)
+u_afe_wb/fanout208/X                    0.094309    0.119835   -0.025526 (VIOLATED)
+u_afe_wb/fanout237/X                    0.094309    0.117277   -0.022968 (VIOLATED)
+u_afe_wb/fanout250/X                    0.094309    0.115994   -0.021685 (VIOLATED)
+u_afe_wb/fanout236/X                    0.094309    0.112684   -0.018375 (VIOLATED)
+u_afe_wb/fanout216/X                    0.094309    0.109343   -0.015034 (VIOLATED)
+u_afe_wb/fanout231/X                    0.094309    0.100125   -0.005816 (VIOLATED)
+u_afe_wb/fanout230/X                    0.094309    0.097112   -0.002803 (VIOLATED)
+u_afe_wb/fanout243/X                    0.094309    0.096244   -0.001935 (VIOLATED)
 
 
 
 ===========================================================================
 report_parasitic_annotation -report_unannotated
 ============================================================================
-Found 345 unannotated drivers.
+Found 389 unannotated drivers.
  analog_io[23]
  analog_io[28]
  io_in[0]
@@ -463,197 +624,241 @@ Found 345 unannotated drivers.
  la_oenb[98]
  la_oenb[99]
  la_oenb[9]
- u_afe_wb/afe_wb_280/HI
- u_afe_wb/afe_wb_281/HI
- u_afe_wb/afe_wb_282/HI
- u_afe_wb/afe_wb_283/HI
- u_afe_wb/afe_wb_284/HI
- u_afe_wb/afe_wb_285/HI
- u_afe_wb/afe_wb_286/HI
+ u_afe_wb/afe_wb/HI
+ u_afe_wb/afe_wb_502/HI
+ u_afe_wb/afe_wb_503/HI
+ u_afe_wb/afe_wb_504/HI
+ u_afe_wb/afe_wb_505/HI
+ u_afe_wb/afe_wb_506/HI
+ u_afe_wb/afe_wb_507/HI
+ u_afe_wb/afe_wb_508/HI
+ u_afe_wb/afe_wb_509/HI
+ u_afe_wb/afe_wb_510/HI
+ u_afe_wb/afe_wb_511/HI
+ u_afe_wb/afe_wb_512/HI
+ u_afe_wb/afe_wb_513/HI
+ u_afe_wb/afe_wb_514/HI
+ u_afe_wb/afe_wb_515/HI
+ u_afe_wb/afe_wb_516/HI
+ u_afe_wb/afe_wb_517/HI
+ u_afe_wb/afe_wb_518/HI
+ u_afe_wb/afe_wb_519/HI
+ u_afe_wb/afe_wb_520/HI
+ u_afe_wb/afe_wb_521/HI
+ u_afe_wb/afe_wb_522/HI
+ u_afe_wb/afe_wb_523/HI
+ u_afe_wb/afe_wb_524/HI
+ u_afe_wb/afe_wb_525/HI
+ u_afe_wb/afe_wb_526/HI
+ u_afe_wb/afe_wb_527/HI
+ u_afe_wb/afe_wb_528/HI
+ u_afe_wb/afe_wb_529/HI
+ u_afe_wb/afe_wb_530/HI
+ u_afe_wb/afe_wb_531/HI
+ u_afe_wb/afe_wb_532/HI
+ u_afe_wb/afe_wb_533/HI
+ u_afe_wb/afe_wb_534/HI
+ u_afe_wb/afe_wb_535/HI
+ u_afe_wb/afe_wb_536/LO
+ u_afe_wb/afe_wb_537/LO
+ u_afe_wb/afe_wb_538/LO
+ u_afe_wb/afe_wb_539/LO
+ u_afe_wb/afe_wb_540/LO
+ u_afe_wb/afe_wb_541/LO
+ u_afe_wb/afe_wb_542/LO
+ u_afe_wb/afe_wb_543/LO
+ u_afe_wb/afe_wb_544/LO
+ u_afe_wb/afe_wb_545/LO
+ u_afe_wb/afe_wb_546/LO
+ u_afe_wb/afe_wb_547/LO
+ u_afe_wb/afe_wb_548/LO
+ u_afe_wb/afe_wb_549/LO
+ u_afe_wb/afe_wb_550/LO
+ u_afe_wb/afe_wb_551/LO
+ u_afe_wb/afe_wb_552/LO
+ u_afe_wb/afe_wb_553/LO
+ u_afe_wb/afe_wb_554/LO
+ u_afe_wb/afe_wb_555/LO
+ u_afe_wb/afe_wb_556/LO
+ u_afe_wb/afe_wb_557/LO
+ u_afe_wb/afe_wb_558/LO
+ u_afe_wb/afe_wb_559/LO
+ u_afe_wb/afe_wb_560/LO
+ u_afe_wb/afe_wb_561/LO
+ u_afe_wb/afe_wb_562/LO
+ u_afe_wb/afe_wb_563/LO
  u_afe_wb/clkload0/Y
- u_afe_wb/clkload1/Y
- u_afe_wb/clkload10/Y
- u_afe_wb/clkload11/Y
- u_afe_wb/clkload12/Y
+ u_afe_wb/clkload1/X
+ u_afe_wb/clkload10/X
+ u_afe_wb/clkload11/X
+ u_afe_wb/clkload12/X
  u_afe_wb/clkload13/Y
  u_afe_wb/clkload14/X
  u_afe_wb/clkload15/Y
- u_afe_wb/clkload16/Y
- u_afe_wb/clkload17/Y
- u_afe_wb/clkload18/Y
+ u_afe_wb/clkload16/X
+ u_afe_wb/clkload17/X
+ u_afe_wb/clkload18/X
  u_afe_wb/clkload19/X
  u_afe_wb/clkload2/X
  u_afe_wb/clkload20/X
- u_afe_wb/clkload21/Y
- u_afe_wb/clkload22/Y
- u_afe_wb/clkload23/Y
- u_afe_wb/clkload24/Y
- u_afe_wb/clkload25/Y
- u_afe_wb/clkload26/X
- u_afe_wb/clkload27/Y
- u_afe_wb/clkload28/Y
+ u_afe_wb/clkload21/X
+ u_afe_wb/clkload22/X
+ u_afe_wb/clkload23/X
+ u_afe_wb/clkload24/X
+ u_afe_wb/clkload25/X
+ u_afe_wb/clkload26/Y
+ u_afe_wb/clkload27/X
+ u_afe_wb/clkload28/X
  u_afe_wb/clkload29/X
- u_afe_wb/clkload3/Y
- u_afe_wb/clkload30/Y
- u_afe_wb/clkload31/Y
- u_afe_wb/clkload32/Y
- u_afe_wb/clkload33/Y
- u_afe_wb/clkload34/X
- u_afe_wb/clkload35/Y
- u_afe_wb/clkload36/Y
- u_afe_wb/clkload37/X
- u_afe_wb/clkload38/Y
- u_afe_wb/clkload39/Y
- u_afe_wb/clkload4/Y
- u_afe_wb/clkload40/Y
- u_afe_wb/clkload41/Y
- u_afe_wb/clkload5/Y
+ u_afe_wb/clkload3/X
+ u_afe_wb/clkload4/X
+ u_afe_wb/clkload5/X
  u_afe_wb/clkload6/X
- u_afe_wb/clkload7/Y
- u_afe_wb/clkload8/Y
+ u_afe_wb/clkload7/X
+ u_afe_wb/clkload8/X
  u_afe_wb/clkload9/X
 Found 68 partially unannotated drivers.
- u_afe_wb/output100/X
-  u_cf_adc_sar12/sample_width[2]
- u_afe_wb/output101/X
-  u_cf_adc_sar12/sample_width[1]
- u_afe_wb/output102/X
-  u_cf_adc_sar12/sample_width[0]
- u_afe_wb/output103/X
-  u_cf_adc_sar12/cap_trim[2]
- u_afe_wb/output105/X
-  u_cf_adc_sar12/cap_trim[0]
- u_afe_wb/output107/X
-  u_cf_adc_sar12/icont_lv[1]
- u_afe_wb/output108/X
-  u_cf_adc_sar12/icont_lv[0]
- u_afe_wb/output109/X
-  u_cf_adc_sar12/dft_inc[3]
- u_afe_wb/output110/X
-  u_cf_adc_sar12/dft_inc[2]
- u_afe_wb/output111/X
-  u_cf_adc_sar12/dft_inc[1]
- u_afe_wb/output112/X
-  u_cf_adc_sar12/dft_inc[0]
- u_afe_wb/output113/X
-  u_cf_adc_sar12/dft_outc[2]
- u_afe_wb/output115/X
-  u_cf_adc_sar12/dft_outc[0]
- u_afe_wb/output116/X
-  u_cf_adc_sar12/sel_csel_dft[3]
- u_afe_wb/output118/X
-  u_cf_adc_sar12/sel_csel_dft[2]
- u_afe_wb/output119/X
-  u_cf_adc_sar12/sel_csel_dft[1]
- u_afe_wb/output120/X
-  u_cf_adc_sar12/sel_csel_dft[0]
- u_afe_wb/output121/X
-  u_cf_adc_sar12_sar_refs/vref[4]
- u_afe_wb/output122/X
-  u_cf_adc_sar12_sar_refs/vref[3]
- u_afe_wb/output124/X
-  u_cf_adc_sar12_sar_refs/vref[1]
- u_afe_wb/output125/X
-  u_cf_adc_sar12_sar_refs/vref[0]
- u_afe_wb/output126/X
-  u_cf_adc_sar12_sar_refs/PWR_CTRL_VREF[1]
- u_afe_wb/output127/X
-  u_cf_adc_sar12_sar_refs/PWR_CTRL_VREF[0]
- u_afe_wb/output129/X
-  u_cf_adc_sar12_sar_refs/muxsarref[2]
- u_afe_wb/output131/X
-  u_cf_adc_sar12_sar_refs/muxsarref[0]
- u_afe_wb/output133/X
-  u_cf_bgr/trimTC[6]
- u_afe_wb/output134/X
-  u_cf_bgr/trimTC[5]
- u_afe_wb/output135/X
-  u_cf_bgr/trimTC[4]
- u_afe_wb/output137/X
-  u_cf_bgr/trimTC[2]
- u_afe_wb/output138/X
-  u_cf_bgr/trimTC[1]
- u_afe_wb/output140/X
-  u_cf_bgr/trimTC[0]
- u_afe_wb/output141/X
-  u_cf_bgr/trimCurr[5]
- u_afe_wb/output142/X
-  u_cf_bgr/trimCurr[4]
- u_afe_wb/output143/X
-  u_cf_bgr/trimCurr[3]
- u_afe_wb/output144/X
-  u_cf_bgr/trimCurr[2]
- u_afe_wb/output145/X
-  u_cf_bgr/trimCurr[1]
- u_afe_wb/output146/X
-  u_cf_bgr/trimCurr[0]
- u_afe_wb/output147/X
-  u_cf_bgr/CurrAbsTrim[5]
- u_afe_wb/output148/X
-  u_cf_bgr/CurrAbsTrim[4]
- u_afe_wb/output149/X
-  u_cf_bgr/CurrAbsTrim[3]
- u_afe_wb/output150/X
-  u_cf_bgr/CurrAbsTrim[2]
- u_afe_wb/output151/X
-  u_cf_bgr/CurrAbsTrim[1]
- u_afe_wb/output152/X
-  u_cf_bgr/CurrAbsTrim[0]
- u_afe_wb/output153/X
-  u_cf_bgr/inl_ctrl[6]
- u_afe_wb/output154/X
-  u_cf_bgr/inl_ctrl[5]
- u_afe_wb/output155/X
-  u_cf_bgr/inl_ctrl[4]
- u_afe_wb/output157/X
-  u_cf_bgr/inl_ctrl[2]
- u_afe_wb/output158/X
-  u_cf_bgr/inl_ctrl[1]
- u_afe_wb/output159/X
-  u_cf_bgr/inl_ctrl[0]
- u_afe_wb/output161/X
-  u_cf_bgr/mux1sel[1]
- u_afe_wb/output162/X
-  u_cf_bgr/mux1sel[0]
- u_afe_wb/output62/X
-  u_cf_adc_sar12_sar_refs/S_LV[7]
- u_afe_wb/output63/X
-  u_cf_adc_sar12_sar_refs/S_LV[6]
- u_afe_wb/output64/X
-  u_cf_adc_sar12_sar_refs/S_LV[5]
- u_afe_wb/output65/X
-  u_cf_adc_sar12_sar_refs/S_LV[4]
- u_afe_wb/output66/X
-  u_cf_adc_sar12_sar_refs/S_LV[3]
- u_afe_wb/output67/X
-  u_cf_adc_sar12_sar_refs/S_LV[2]
- u_afe_wb/output68/X
-  u_cf_adc_sar12_sar_refs/S_LV[1]
- u_afe_wb/output69/X
-  u_cf_adc_sar12_sar_refs/S_LV[0]
- u_afe_wb/output90/X
-  u_cf_adc_sar12/resolution[1]
- u_afe_wb/output91/X
-  u_cf_adc_sar12/resolution[0]
- u_afe_wb/output92/X
-  u_cf_adc_sar12/sample_width[9]
- u_afe_wb/output93/X
-  u_cf_adc_sar12/sample_width[8]
- u_afe_wb/output94/X
-  u_cf_adc_sar12/sample_width[7]
- u_afe_wb/output96/X
-  u_cf_adc_sar12/sample_width[6]
- u_afe_wb/output97/X
-  u_cf_adc_sar12/sample_width[5]
- u_afe_wb/output98/X
-  u_cf_adc_sar12/sample_width[4]
- u_afe_wb/output99/X
+ u_afe_wb/wire261/X
   u_cf_adc_sar12/sample_width[3]
+ u_afe_wb/wire262/X
+  u_cf_adc_sar12/sample_width[4]
+ u_afe_wb/wire263/X
+  u_cf_adc_sar12/sample_width[5]
+ u_afe_wb/wire264/X
+  u_cf_adc_sar12/sample_width[6]
+ u_afe_wb/wire266/X
+  u_cf_adc_sar12/sample_width[7]
+ u_afe_wb/wire267/X
+  u_cf_adc_sar12/sample_width[8]
+ u_afe_wb/wire268/X
+  u_cf_adc_sar12/sample_width[9]
+ u_afe_wb/wire269/X
+  u_cf_adc_sar12/resolution[0]
+ u_afe_wb/wire270/X
+  u_cf_adc_sar12/resolution[1]
+ u_afe_wb/wire291/X
+  u_cf_adc_sar12_sar_refs/S_LV[0]
+ u_afe_wb/wire292/X
+  u_cf_adc_sar12_sar_refs/S_LV[1]
+ u_afe_wb/wire293/X
+  u_cf_adc_sar12_sar_refs/S_LV[2]
+ u_afe_wb/wire294/X
+  u_cf_adc_sar12_sar_refs/S_LV[3]
+ u_afe_wb/wire295/X
+  u_cf_adc_sar12_sar_refs/S_LV[4]
+ u_afe_wb/wire296/X
+  u_cf_adc_sar12_sar_refs/S_LV[5]
+ u_afe_wb/wire297/X
+  u_cf_adc_sar12_sar_refs/S_LV[6]
+ u_afe_wb/wire298/X
+  u_cf_adc_sar12_sar_refs/S_LV[7]
+ u_afe_wb/wire313/X
+  u_cf_adc_sar12_sar_refs/muxsarref[0]
+ u_afe_wb/wire315/X
+  u_cf_adc_sar12_sar_refs/muxsarref[2]
+ u_afe_wb/wire317/X
+  u_cf_adc_sar12_sar_refs/PWR_CTRL_VREF[0]
+ u_afe_wb/wire318/X
+  u_cf_adc_sar12_sar_refs/PWR_CTRL_VREF[1]
+ u_afe_wb/wire319/X
+  u_cf_adc_sar12_sar_refs/vref[0]
+ u_afe_wb/wire320/X
+  u_cf_adc_sar12_sar_refs/vref[1]
+ u_afe_wb/wire322/X
+  u_cf_adc_sar12_sar_refs/vref[3]
+ u_afe_wb/wire323/X
+  u_cf_adc_sar12_sar_refs/vref[4]
+ u_afe_wb/wire324/X
+  u_cf_adc_sar12/sel_csel_dft[0]
+ u_afe_wb/wire325/X
+  u_cf_adc_sar12/sel_csel_dft[1]
+ u_afe_wb/wire326/X
+  u_cf_adc_sar12/sel_csel_dft[2]
+ u_afe_wb/wire328/X
+  u_cf_adc_sar12/sel_csel_dft[3]
+ u_afe_wb/wire329/X
+  u_cf_adc_sar12/dft_outc[0]
+ u_afe_wb/wire331/X
+  u_cf_adc_sar12/dft_outc[2]
+ u_afe_wb/wire332/X
+  u_cf_adc_sar12/dft_inc[0]
+ u_afe_wb/wire333/X
+  u_cf_adc_sar12/dft_inc[1]
+ u_afe_wb/wire334/X
+  u_cf_adc_sar12/dft_inc[2]
+ u_afe_wb/wire335/X
+  u_cf_adc_sar12/dft_inc[3]
+ u_afe_wb/wire336/X
+  u_cf_adc_sar12/icont_lv[0]
+ u_afe_wb/wire337/X
+  u_cf_adc_sar12/icont_lv[1]
+ u_afe_wb/wire339/X
+  u_cf_adc_sar12/cap_trim[0]
+ u_afe_wb/wire341/X
+  u_cf_adc_sar12/cap_trim[2]
+ u_afe_wb/wire342/X
+  u_cf_adc_sar12/sample_width[0]
+ u_afe_wb/wire343/X
+  u_cf_adc_sar12/sample_width[1]
+ u_afe_wb/wire344/X
+  u_cf_adc_sar12/sample_width[2]
+ u_afe_wb/wire390/X
+  u_cf_bgr/mux1sel[0]
+ u_afe_wb/wire391/X
+  u_cf_bgr/mux1sel[1]
+ u_afe_wb/wire392/X
+  u_cf_bgr/inl_ctrl[0]
+ u_afe_wb/wire393/X
+  u_cf_bgr/inl_ctrl[1]
+ u_afe_wb/wire394/X
+  u_cf_bgr/inl_ctrl[2]
+ u_afe_wb/wire396/X
+  u_cf_bgr/inl_ctrl[4]
+ u_afe_wb/wire397/X
+  u_cf_bgr/inl_ctrl[5]
+ u_afe_wb/wire398/X
+  u_cf_bgr/inl_ctrl[6]
+ u_afe_wb/wire399/X
+  u_cf_bgr/CurrAbsTrim[0]
+ u_afe_wb/wire400/X
+  u_cf_bgr/CurrAbsTrim[1]
+ u_afe_wb/wire401/X
+  u_cf_bgr/CurrAbsTrim[2]
+ u_afe_wb/wire402/X
+  u_cf_bgr/CurrAbsTrim[3]
+ u_afe_wb/wire403/X
+  u_cf_bgr/CurrAbsTrim[4]
+ u_afe_wb/wire404/X
+  u_cf_bgr/CurrAbsTrim[5]
+ u_afe_wb/wire405/X
+  u_cf_bgr/trimCurr[0]
+ u_afe_wb/wire406/X
+  u_cf_bgr/trimCurr[1]
+ u_afe_wb/wire407/X
+  u_cf_bgr/trimCurr[2]
+ u_afe_wb/wire408/X
+  u_cf_bgr/trimCurr[3]
+ u_afe_wb/wire409/X
+  u_cf_bgr/trimCurr[4]
+ u_afe_wb/wire410/X
+  u_cf_bgr/trimCurr[5]
+ u_afe_wb/wire411/X
+  u_cf_bgr/trimTC[0]
+ u_afe_wb/wire412/X
+  u_cf_bgr/trimTC[1]
+ u_afe_wb/wire413/X
+  u_cf_bgr/trimTC[2]
+ u_afe_wb/wire415/X
+  u_cf_bgr/trimTC[4]
+ u_afe_wb/wire416/X
+  u_cf_bgr/trimTC[5]
+ u_afe_wb/wire417/X
+  u_cf_bgr/trimTC[6]
 
 ===========================================================================
-max slew violation count 0
-max fanout violation count 73
-max cap violation count 0
+max slew violation count 188
+max fanout violation count 28
+max cap violation count 11
 ============================================================================
 
 ===========================================================================
@@ -728,7 +933,7 @@ Warning: There are 68 input ports missing set_input_delay.
   io_in[8]
   io_in[9]
   user_clock2
-Warning: There are 236 unconstrained endpoints.
+Warning: There are 180 unconstrained endpoints.
   analog_io[0]
   analog_io[10]
   analog_io[11]
@@ -759,33 +964,8 @@ Warning: There are 236 unconstrained endpoints.
   analog_io[8]
   analog_io[9]
   io_oeb[0]
-  io_oeb[10]
-  io_oeb[11]
-  io_oeb[12]
-  io_oeb[13]
-  io_oeb[14]
-  io_oeb[15]
-  io_oeb[16]
-  io_oeb[17]
-  io_oeb[18]
-  io_oeb[19]
   io_oeb[1]
-  io_oeb[20]
-  io_oeb[21]
-  io_oeb[22]
-  io_oeb[23]
-  io_oeb[24]
-  io_oeb[25]
-  io_oeb[26]
-  io_oeb[27]
-  io_oeb[28]
-  io_oeb[29]
   io_oeb[2]
-  io_oeb[30]
-  io_oeb[31]
-  io_oeb[32]
-  io_oeb[33]
-  io_oeb[34]
   io_oeb[35]
   io_oeb[36]
   io_oeb[37]
@@ -793,37 +973,9 @@ Warning: There are 236 unconstrained endpoints.
   io_oeb[4]
   io_oeb[5]
   io_oeb[6]
-  io_oeb[7]
-  io_oeb[8]
-  io_oeb[9]
   io_out[0]
-  io_out[10]
-  io_out[11]
-  io_out[12]
-  io_out[13]
-  io_out[14]
-  io_out[15]
-  io_out[16]
-  io_out[17]
-  io_out[18]
-  io_out[19]
   io_out[1]
-  io_out[20]
-  io_out[21]
-  io_out[22]
-  io_out[23]
-  io_out[24]
-  io_out[25]
-  io_out[26]
-  io_out[27]
-  io_out[28]
-  io_out[29]
   io_out[2]
-  io_out[30]
-  io_out[31]
-  io_out[32]
-  io_out[33]
-  io_out[34]
   io_out[35]
   io_out[36]
   io_out[37]
@@ -831,9 +983,6 @@ Warning: There are 236 unconstrained endpoints.
   io_out[4]
   io_out[5]
   io_out[6]
-  io_out[7]
-  io_out[8]
-  io_out[9]
   la_data_out[0]
   la_data_out[100]
   la_data_out[101]

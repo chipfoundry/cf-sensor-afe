@@ -66,8 +66,12 @@ void main()
 	enableHkSpi(0);
 
 	GPIOs_configure(6, GPIO_MODE_MGMT_STD_OUTPUT);
-	for (i = 7; i <= 34; i++)
-		GPIOs_configure(i, GPIO_MODE_USER_STD_ANALOG);
+	for (i = 7; i <= 34; i++) {
+		if (i == 30)
+			GPIOs_configure(i, GPIO_MODE_MGMT_STD_INPUT_NOPULL);
+		else
+			GPIOs_configure(i, GPIO_MODE_USER_STD_ANALOG);
+	}
 	GPIOs_loadConfigs();
 	UART_enableTX(1);
 

@@ -133,7 +133,7 @@ Cell 'CF_ADC_SAR12_sar_refs' has (6) inout pin(s) without antenna gate informati
 Cell 'CF_ADC_SAR12_sar_refs' has (32) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'CF_ADC_SAR12_sar_refs' has (6) output pin(s) without antenna diffusion information. They might not be driven.
 Cell 'afe_wb' has (32) input pin(s) without antenna gate information. They might not be connected to a gate.
-Cell 'afe_wb' has (7) output pin(s) without antenna diffusion information. They might not be driven.
+Cell 'afe_wb' has (63) output pin(s) without antenna diffusion information. They might not be driven.
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
 No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
 No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.
@@ -145,8 +145,6 @@ No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be bl
 No libs found for macro CF_REFBUF at corner nom_tt_025C_1v80. The module will be black-boxed.
 No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The module will be black-boxed.
 [PDN-0239] Ring shape falls outside the die bounds.
-[PDN-0110] No via inserted between met4 and met5 at (244.7700, 432.0700) - (247.8700, 433.2300) on vssd2
-[PDN-0110] No via inserted between met4 and met5 at (244.7700, 432.0700) - (247.8700, 433.2300) on vssd2
 Bterm vssa2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vdda2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssa1 is declared as a 'GROUND' pin. It will be ignored.
@@ -3009,6 +3007,12 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner max_ff_n40C_1v95. The mo
 Cell 'user_project_wrapper' has (12) inout pin(s) without antenna gate information not antenna diffusion information. They might be disconnected.
 Cell 'user_project_wrapper' has (327) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'user_project_wrapper' has (207) output pin(s) without antenna diffusion information. They might not be driven.
-Hold violations found in the following corners:
+Max Slew violations found in the following corners:
 * max_ss_100C_1v60
+* min_ss_100C_1v60
+* nom_ss_100C_1v60
+Max Cap violations found in the following corners:
+* max_ss_100C_1v60
+* min_ss_100C_1v60
+* nom_ss_100C_1v60
 magic__drc_error__count not reported. Magic.DRC may have been skipped.

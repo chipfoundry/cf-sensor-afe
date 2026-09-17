@@ -17,6 +17,8 @@
  * Elaborate-only: structural instance wiring, no assign.
  *
  * Analog: analog_io[N] is Caravel GPIO N+7.
+ * analog_io[23] (GPIO 30) is unused; GPIO 30 is mgmt input.
+ * Analog pads GPIO 7-34 are Hi-Z from afe_wb analog_io_oeb/out.
  * JsonHeader applies USE_POWER_PINS for PDN.
  */
 
@@ -83,7 +85,9 @@ afe_wb u_afe_wb (
     .wbs_dat_o(wbs_dat_o),
     .adc_data(afe_data),
     .adc_eof(afe_eof),
-    .analog_ctrl(analog_ctrl)
+    .analog_ctrl(analog_ctrl),
+    .analog_io_oeb(io_oeb[34:7]),
+    .analog_io_out(io_out[34:7])
 `ifdef USE_POWER_PINS
     ,
     .vccd1(vccd1),

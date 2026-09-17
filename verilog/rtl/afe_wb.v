@@ -4,7 +4,8 @@
  *
  * Harden as a digital hard macro, then instance in the elaborated
  * user_project_wrapper. analog_ctrl bit indices match the original LA
- * map so analog instance wiring stays the same.
+ * map so analog instance wiring stays the same. analog_io_oeb/out
+ * drive Caravel GPIO 7-34 Hi-Z (io_oeb=1, io_out=0).
  *
  * User space is 0x30000000. Word offsets:
  *   0 ID      RO  0xAFE00001
@@ -40,7 +41,9 @@ module afe_wb (
 
     input  [11:0] adc_data,
     input         adc_eof,
-    output [122:0] analog_ctrl
+    output [122:0] analog_ctrl,
+    output [27:0] analog_io_oeb,
+    output [27:0] analog_io_out
 );
 
     localparam [31:0] ID_VALUE = 32'hAFE0_0001;
@@ -61,9 +64,11 @@ module afe_wb (
     reg [31:0] refs1;
     reg [122:0] csr_ctrl;
 
-    assign wbs_ack_o   = ack;
-    assign wbs_dat_o   = rdata;
-    assign analog_ctrl = csr_ctrl;
+    assign wbs_ack_o      = ack;
+    assign wbs_dat_o      = rdata;
+    assign analog_ctrl    = csr_ctrl;
+    assign analog_io_oeb  = {28{1'b1}};
+    assign analog_io_out  = {28{1'b0}};
 
     always @(*) begin
         csr_ctrl = 123'b0;

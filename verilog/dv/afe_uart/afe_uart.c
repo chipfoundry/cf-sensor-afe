@@ -20,7 +20,8 @@
  * CTRL: [0] reset_n [1] sof [2] pd [3] pd_ana [4] enable_hv
  *       [5] hiz [6] iso_en [7] next
  *
- * Analog GPIOs 7-34 match user_defines.v. UART TX is GPIO 6.
+ * Analog GPIOs 7-29 and 31-34 match user_defines.v. GPIO 30 is unused.
+ * UART TX is GPIO 6.
  * Caravel LA probes are unused.
  */
 
@@ -104,7 +105,7 @@ void main()
 	reg_mprj_io_27 = GPIO_MODE_USER_STD_ANALOG;
 	reg_mprj_io_28 = GPIO_MODE_USER_STD_ANALOG;
 	reg_mprj_io_29 = GPIO_MODE_USER_STD_ANALOG;
-	reg_mprj_io_30 = GPIO_MODE_USER_STD_ANALOG;
+	reg_mprj_io_30 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
 	reg_mprj_io_31 = GPIO_MODE_USER_STD_ANALOG;
 	reg_mprj_io_32 = GPIO_MODE_USER_STD_ANALOG;
 	reg_mprj_io_33 = GPIO_MODE_USER_STD_ANALOG;

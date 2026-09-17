@@ -72,7 +72,8 @@ wiring only.
 
 ## GPIO
 
-`analog_io[N]` is Caravel GPIO N+7. GPIO 7–34 are user analog at power-on.
+`analog_io[N]` is Caravel GPIO N+7. GPIO 7–29 and 31–34 are user analog
+at power-on. GPIO 30 is unused. Analog pads are held Hi-Z by `afe_wb`.
 
 | GPIO | `analog_io` | Use |
 | --- | --- | --- |
@@ -86,6 +87,7 @@ wiring only.
 | 27 | 20 | SAR `vinm` |
 | 28 | 21 | `sar_refs.refout` |
 | 29 | 22 | SAR `vreflo` |
+| 30 | 23 | Unused |
 | 31 | 24 | BGR `dft_curr_in` |
 | 32–34 | 25–27 | Shared analog `vdda`, `vssa`, `VPUMP` |
 | 35–37 | — | Unused |

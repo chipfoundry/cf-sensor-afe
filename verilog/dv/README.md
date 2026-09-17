@@ -9,7 +9,7 @@ The only DV pattern in this tree is **`afe_uart`**.
 
 Firmware talks to `afe_wb` over Wishbone (`0x30000000`): check `ID`, write
 `CTRL` (`reset_n` + `enable_hv`), pulse `sof`, poll `STATUS` `eof`, print the
-12-bit code on UART TX (GPIO 6). Analog GPIOs 7–34 match `user_defines.v`.
+12-bit code on UART TX (GPIO 6). Analog GPIOs 7–29 and 31–34 match `user_defines.v`.
 Caravel Logic Analyzer pins are unused.
 
 ## Run (ChipFoundry CLI)
