@@ -1,0 +1,19 @@
+BEGIN: Thu Sep 17 20:13:40 2026
+Creating /tmp/tmpr2wjz_re/repo/precheck_results/17_SEP_2026___20_12_29/tmp/verilog.cells from the following files...
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_BUF_HIZ_core.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_BUF_HIZ.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_ADC_SAR12_core.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_ADC_SAR12.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_ADC_SAR12_sar_refs_core.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_BGR_core.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_BGR.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_REFBUF_core.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/CF_REFBUF.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/afe_wb.v
+	/tmp/tmpr2wjz_re/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmpr2wjz_re/repo/gds/user_project_wrapper.gds
+	to /tmp/tmpr2wjz_re/repo/precheck_results/17_SEP_2026___20_12_29/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /tmp/tmpr2wjz_re/repo/precheck_results/17_SEP_2026___20_12_29/tmp/hier.csv
+END: Thu Sep 17 20:13:42 2026
+Runtime: 0:00:02 (hh:mm:ss)
