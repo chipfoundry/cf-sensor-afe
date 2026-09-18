@@ -77,9 +77,9 @@ export GITHUB_TOKEN="$(env -u GITHUB_TOKEN gh auth token)"
 ipm install-dep --include-drafts --local-file ip/catalog.json
 ```
 
-`ip/` is gitignored except `catalog.json` and `dependencies.json`. Public
-wrap/core Verilog is also copied to `verilog/gl/` so platform precheck
-(clone only, no `ipm install`) can run LVS.
+`ip/` is gitignored except `catalog.json` and `dependencies.json`. Pin-only
+wrap stubs in `verilog/gl/` are what platform precheck LVS uses (clone only,
+no `ipm install`).
 
 ## On-chip analog
 
@@ -241,11 +241,11 @@ model, and UART TX. `cf verify --all` runs `verilog/dv/cocotb/all_tests.yaml`
   an ideal sim model under `verify/beh_model/`).
 - `afe_wb`: digital CSR, `vccd1`/`vssd1`.
 - Shared analog supplies on GPIO 32–34.
-- `MAGIC_EXT_ABSTRACT_CELLS` includes the analog `_core` names. Precheck
-  LVS uses the same set in `lvs/user_project_wrapper/lvs_config.json`
-  `EXTRACT_ABSTRACT`, plus committed wrap/core stubs in `verilog/gl/`.
-  Wrap cells are `LVS_NOFLATTEN` so Magic dummy wrap nets do not get
-  flattened into the parent after a unique-with-port-errors match.
+- OpenLane `MAGIC_EXT_ABSTRACT_CELLS` abstracts analog `_core` leaves.
+  Precheck LVS instead abstracts the customer wrap cells (`CF_BUF_HIZ`,
+  `CF_ADC_SAR12`, `CF_ADC_SAR12_sar_refs`, `CF_BGR`, `CF_REFBUF`) and uses
+  empty pin-only wrap stubs in `verilog/gl/`. Extracting wrap metal was
+  creating dummy `m2_*#` ports that failed netgen even after `LVS_NOFLATTEN`.
 - Analog GPIO 7–34 `io_oeb`/`io_out` come from `afe_wb` (Hi-Z).
 - Caravel LA ports stay on the wrapper and are unconnected.
 - Wrapper antenna 48 (was 171 with LA routed); remaining nets are SAR
