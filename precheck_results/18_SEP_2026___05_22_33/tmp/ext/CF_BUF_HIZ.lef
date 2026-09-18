@@ -1,0 +1,221 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO CF_BUF_HIZ
+  CLASS BLOCK ;
+  FOREIGN CF_BUF_HIZ ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 246.520 BY 419.970 ;
+  PIN tp
+    PORT
+      LAYER met1 ;
+        RECT 106.245 301.720 106.385 301.995 ;
+    END
+  END tp
+  PIN vgnd
+    PORT
+      LAYER met1 ;
+        RECT 231.225 376.455 231.515 376.985 ;
+    END
+  END vgnd
+  PIN clk2_boost
+    PORT
+      LAYER met1 ;
+        RECT 104.545 301.720 104.685 301.995 ;
+    END
+  END clk2_boost
+  PIN clk1_boostr
+    PORT
+      LAYER met1 ;
+        RECT 105.010 301.720 105.150 301.995 ;
+    END
+  END clk1_boostr
+  PIN vpwr
+    PORT
+      LAYER met1 ;
+        RECT 230.725 376.455 231.015 376.985 ;
+    END
+  END vpwr
+  PIN ion
+    PORT
+      LAYER met1 ;
+        RECT 104.890 0.000 105.060 15.235 ;
+    END
+  END ion
+  PIN iop
+    PORT
+      LAYER met1 ;
+        RECT 105.985 0.000 106.155 15.235 ;
+    END
+  END iop
+  PIN e_pd
+    PORT
+      LAYER met1 ;
+        RECT 226.170 379.600 226.320 379.875 ;
+    END
+  END e_pd
+  PIN en_pd
+    PORT
+      LAYER met1 ;
+        RECT 226.580 379.600 226.730 379.875 ;
+    END
+  END en_pd
+  PIN vinp_n
+    PORT
+      LAYER met1 ;
+        RECT 102.775 300.555 102.920 300.710 ;
+    END
+  END vinp_n
+  PIN vinn_n
+    PORT
+      LAYER met1 ;
+        RECT 103.190 300.545 103.335 300.700 ;
+    END
+  END vinn_n
+  PIN vinp_na
+    PORT
+      LAYER met1 ;
+        RECT 102.415 300.555 102.560 300.710 ;
+    END
+  END vinp_na
+  PIN vinn_na
+    PORT
+      LAYER met1 ;
+        RECT 102.025 300.555 102.170 300.710 ;
+    END
+  END vinn_na
+  PIN vinn_p
+    PORT
+      LAYER met1 ;
+        RECT 101.285 299.845 101.430 300.000 ;
+    END
+  END vinn_p
+  PIN vinp_p
+    PORT
+      LAYER met1 ;
+        RECT 101.660 300.130 101.805 300.285 ;
+    END
+  END vinp_p
+  PIN e_na_boost
+    PORT
+      LAYER met1 ;
+        RECT 105.520 301.720 105.660 301.995 ;
+    END
+  END e_na_boost
+  PIN e_n_boost
+    PORT
+      LAYER met1 ;
+        RECT 105.875 301.720 106.015 301.995 ;
+    END
+  END e_n_boost
+  PIN vbpt
+    PORT
+      LAYER met2 ;
+        RECT 223.495 184.620 223.980 184.760 ;
+    END
+  END vbpt
+  PIN vbpcis
+    PORT
+      LAYER met2 ;
+        RECT 224.955 183.950 225.625 184.090 ;
+    END
+  END vbpcis
+  PIN vbncis
+    PORT
+      LAYER met2 ;
+        RECT 222.635 160.290 223.105 160.430 ;
+    END
+  END vbncis
+  PIN vout
+    PORT
+      LAYER met2 ;
+        RECT 142.875 90.545 143.605 90.980 ;
+    END
+  END vout
+  PIN vbpci
+    PORT
+      LAYER met2 ;
+        RECT 229.030 150.015 246.520 150.155 ;
+    END
+  END vbpci
+  PIN vbnt
+    PORT
+      LAYER met2 ;
+        RECT 226.235 129.565 226.425 129.705 ;
+    END
+  END vbnt
+  PIN ibias
+    PORT
+      LAYER met2 ;
+        RECT 167.590 333.675 167.730 333.815 ;
+    END
+  END ibias
+  PIN vbnci
+    PORT
+      LAYER met2 ;
+        RECT 226.235 127.890 226.425 128.030 ;
+    END
+  END vbnci
+  PIN vbpcid
+    PORT
+      LAYER met2 ;
+        RECT 230.660 92.515 246.520 92.655 ;
+    END
+  END vbpcid
+  PIN vbptd
+    PORT
+      LAYER met2 ;
+        RECT 230.660 93.365 246.520 93.505 ;
+    END
+  END vbptd
+  PIN vbnc
+    PORT
+      LAYER met2 ;
+        RECT 224.300 325.450 224.615 325.590 ;
+    END
+  END vbnc
+  PIN vbpc
+    PORT
+      LAYER met2 ;
+        RECT 225.725 278.090 225.935 278.230 ;
+    END
+  END vbpc
+  PIN vbpb
+    PORT
+      LAYER met2 ;
+        RECT 217.160 224.600 217.565 224.795 ;
+    END
+  END vbpb
+  OBS
+      LAYER met1 ;
+        RECT 228.235 376.455 230.445 376.985 ;
+      LAYER met2 ;
+        RECT 166.790 334.095 246.520 376.985 ;
+        RECT 166.790 333.395 167.310 334.095 ;
+        RECT 168.010 333.395 246.520 334.095 ;
+        RECT 166.790 325.870 246.520 333.395 ;
+        RECT 166.790 325.170 224.020 325.870 ;
+        RECT 224.895 325.170 246.520 325.870 ;
+        RECT 166.790 278.510 246.520 325.170 ;
+        RECT 166.790 277.810 225.445 278.510 ;
+        RECT 226.215 277.810 246.520 278.510 ;
+        RECT 166.790 225.075 246.520 277.810 ;
+        RECT 166.790 224.320 216.880 225.075 ;
+        RECT 217.845 224.320 246.520 225.075 ;
+        RECT 166.790 185.040 246.520 224.320 ;
+        RECT 166.790 184.340 223.215 185.040 ;
+        RECT 224.260 184.370 246.520 185.040 ;
+        RECT 224.260 184.340 224.675 184.370 ;
+        RECT 166.790 183.670 224.675 184.340 ;
+        RECT 225.905 183.670 246.520 184.370 ;
+        RECT 166.790 160.710 246.520 183.670 ;
+        RECT 166.790 160.010 222.355 160.710 ;
+        RECT 223.385 160.010 246.520 160.710 ;
+        RECT 166.790 150.435 246.520 160.010 ;
+        RECT 166.790 149.735 228.750 150.435 ;
+        RECT 166.790 148.335 246.520 149.735 ;
+  END
+END CF_BUF_HIZ
+END LIBRARY
+

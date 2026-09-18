@@ -43,5 +43,24 @@
       "36": "13'h0403",
       "37": "13'h0403"
     }
+  },
+  "precheck": {
+    "version": "1.3.3",
+    "timestamp": "2026-09-18T05:23:05.457889+00:00",
+    "pdk": "sky130A",
+    "passed": false,
+    "checks": {
+      "lvs": {
+        "status": "fail",
+        "duration_s": 31.11,
+        "details": "LVS FAILED (stat=1), see /tmp/tmpt_egflp6/repo/precheck_results/18_SEP_2026___05_22_33/logs/LVS_check.log"
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "94863d8f30ed6e6a7d0308699f3408238a2fd2d0"
   }
 }

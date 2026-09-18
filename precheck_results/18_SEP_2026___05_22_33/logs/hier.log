@@ -1,0 +1,14 @@
+BEGIN: Fri Sep 18 05:22:34 2026
+Creating /tmp/tmpt_egflp6/repo/precheck_results/18_SEP_2026___05_22_33/tmp/verilog.cells from the following files...
+	/tmp/tmpt_egflp6/repo/verilog/gl/CF_BUF_HIZ.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/CF_ADC_SAR12.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/CF_BGR.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/CF_REFBUF.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/afe_wb.v
+	/tmp/tmpt_egflp6/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmpt_egflp6/repo/gds/user_project_wrapper.gds
+	to /tmp/tmpt_egflp6/repo/precheck_results/18_SEP_2026___05_22_33/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /tmp/tmpt_egflp6/repo/precheck_results/18_SEP_2026___05_22_33/tmp/hier.csv
+END: Fri Sep 18 05:22:36 2026
+Runtime: 0:00:02 (hh:mm:ss)
