@@ -1,0 +1,126 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO CF_REFBUF
+  CLASS BLOCK ;
+  FOREIGN CF_REFBUF ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 153.225 BY 177.695 ;
+  PIN nbias
+    PORT
+      LAYER met1 ;
+        RECT 0.000 47.440 16.590 48.510 ;
+    END
+  END nbias
+  PIN pd
+    PORT
+      LAYER met1 ;
+        RECT 0.000 37.595 15.655 37.915 ;
+    END
+  END pd
+  PIN switchon
+    PORT
+      LAYER met1 ;
+        RECT 32.335 103.870 32.850 104.420 ;
+    END
+  END switchon
+  PIN ch_cont
+    PORT
+      LAYER met1 ;
+        RECT 0.000 131.395 16.100 132.075 ;
+    END
+  END ch_cont
+  PIN ch1
+    PORT
+      LAYER met1 ;
+        RECT 29.355 161.540 29.755 177.695 ;
+    END
+  END ch1
+  PIN out
+    PORT
+      LAYER met2 ;
+        RECT 73.015 159.050 76.545 177.695 ;
+    END
+  END out
+  PIN switchoff
+    PORT
+      LAYER met2 ;
+        RECT 0.000 109.925 16.950 110.470 ;
+    END
+  END switchoff
+  PIN ref_1v2
+    PORT
+      LAYER met2 ;
+        RECT 0.000 29.020 17.935 29.685 ;
+    END
+  END ref_1v2
+  PIN vgnd
+    PORT
+      LAYER met2 ;
+        RECT 70.295 161.480 70.800 162.695 ;
+    END
+  END vgnd
+  PIN ng
+    PORT
+      LAYER met2 ;
+        RECT 137.050 52.090 153.225 53.055 ;
+    END
+  END ng
+  PIN boost
+    PORT
+      LAYER met2 ;
+        RECT 58.775 162.180 59.125 177.695 ;
+    END
+  END boost
+  PIN vpwre
+    PORT
+      LAYER met2 ;
+        RECT 78.330 159.355 82.215 177.695 ;
+    END
+  END vpwre
+  PIN ch2
+    PORT
+      LAYER met2 ;
+        RECT 25.010 162.095 25.970 177.695 ;
+    END
+  END ch2
+  PIN vpwr
+    PORT
+      LAYER met2 ;
+        RECT 34.515 161.950 35.155 162.695 ;
+    END
+  END vpwr
+  OBS
+      LAYER met1 ;
+        RECT 15.000 161.260 29.075 162.695 ;
+        RECT 30.035 161.260 80.515 162.695 ;
+        RECT 15.000 132.355 80.515 161.260 ;
+        RECT 16.380 131.115 80.515 132.355 ;
+        RECT 15.000 104.700 80.515 131.115 ;
+        RECT 15.000 103.590 32.055 104.700 ;
+        RECT 33.130 103.590 80.515 104.700 ;
+        RECT 15.000 48.790 80.515 103.590 ;
+        RECT 16.870 47.160 80.515 48.790 ;
+        RECT 15.000 38.195 80.515 47.160 ;
+        RECT 15.935 37.315 80.515 38.195 ;
+        RECT 15.000 16.940 80.515 37.315 ;
+      LAYER met2 ;
+        RECT 6.310 161.815 24.730 177.695 ;
+        RECT 26.250 162.975 58.495 177.695 ;
+        RECT 26.250 161.815 34.235 162.975 ;
+        RECT 6.310 161.670 34.235 161.815 ;
+        RECT 35.435 161.900 58.495 162.975 ;
+        RECT 59.405 162.975 70.790 177.695 ;
+        RECT 59.405 161.900 70.015 162.975 ;
+        RECT 35.435 161.670 70.015 161.900 ;
+        RECT 6.310 161.200 70.015 161.670 ;
+        RECT 6.310 110.750 70.790 161.200 ;
+        RECT 17.230 109.645 70.790 110.750 ;
+        RECT 6.310 29.965 70.790 109.645 ;
+        RECT 18.215 28.740 70.790 29.965 ;
+        RECT 6.310 16.940 70.790 28.740 ;
+  END
+END CF_REFBUF
+END LIBRARY
+
