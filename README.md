@@ -244,6 +244,8 @@ model, and UART TX. `cf verify --all` runs `verilog/dv/cocotb/all_tests.yaml`
 - `MAGIC_EXT_ABSTRACT_CELLS` includes the analog `_core` names. Precheck
   LVS uses the same set in `lvs/user_project_wrapper/lvs_config.json`
   `EXTRACT_ABSTRACT`, plus committed wrap/core stubs in `verilog/gl/`.
+  Wrap cells are `LVS_NOFLATTEN` so Magic dummy wrap nets do not get
+  flattened into the parent after a unique-with-port-errors match.
 - Analog GPIO 7–34 `io_oeb`/`io_out` come from `afe_wb` (Hi-Z).
 - Caravel LA ports stay on the wrapper and are unconnected.
 - Wrapper antenna 48 (was 171 with LA routed); remaining nets are SAR
