@@ -1,0 +1,20 @@
+2026-09-18 15:47:41 [INFO] Extracting compressed files in: /tmp/tmpzfkqgsce/repo
+2026-09-18 15:47:41 [INFO] make uncompress produced 2 gds/*.gds file(s): afe_wb.gds, user_project_wrapper.gds (make exit 0)
+2026-09-18 15:47:41 [INFO] Project type: digital
+2026-09-18 15:47:42 [INFO] GDS hash (user_project_wrapper): 2c554cea4b780143278d4c40a8685e317fc382f0
+2026-09-18 15:47:42 [INFO] Tools: KLayout v0.29.2 | Magic v8.3.471
+2026-09-18 15:47:42 [INFO] PDK: SKY130A unknown
+2026-09-18 15:47:42 [INFO] Running 1 checks: [lvs]
+2026-09-18 15:47:42 [INFO] Loading LVS environment from /tmp/tmpzfkqgsce/repo/lvs/user_project_wrapper/lvs_config.json
+2026-09-18 15:47:42 [INFO] EXTRACT_FLATGLOB: 
+2026-09-18 15:47:42 [INFO] EXTRACT_ABSTRACT: *__fill_* *__fakediode_* *__tapvpwrvgnd_* *CF_BUF_HIZ_core *CF_ADC_SAR12_core *CF_ADC_SAR12_sar_refs_core *CF_BGR_core *CF_REFBUF_core
+2026-09-18 15:47:42 [INFO] EXTRACT_CREATE_SUBCUT: 
+2026-09-18 15:47:42 [INFO] LVS_FLATTEN: 
+2026-09-18 15:47:42 [INFO] LVS_NOFLATTEN: 
+2026-09-18 15:47:42 [INFO] LVS_IGNORE: 
+2026-09-18 15:47:42 [INFO] LVS_SPICE_FILES: /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap*.spice /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+2026-09-18 15:47:42 [INFO] LVS_VERILOG_FILES: /tmp/tmpzfkqgsce/repo/verilog/gl/CF_BUF_HIZ_core.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_BUF_HIZ.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_ADC_SAR12_core.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_ADC_SAR12.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_ADC_SAR12_sar_refs_core.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_BGR_core.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_BGR.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_REFBUF_core.v /tmp/tmpzfkqgsce/repo/verilog/gl/CF_REFBUF.v /tmp/tmpzfkqgsce/repo/verilog/gl/afe_wb.v /tmp/tmpzfkqgsce/repo/verilog/gl/user_project_wrapper.v
+2026-09-18 15:47:42 [INFO] LAYOUT_FILE: /tmp/tmpzfkqgsce/repo/gds/user_project_wrapper.gds
+2026-09-18 15:47:42 [INFO] Running: run_be_checks --nooeb
+2026-09-18 15:47:42 [INFO] LVS output directory: /tmp/tmpzfkqgsce/repo/precheck_results/18_SEP_2026___15_47_41
+2026-09-18 15:48:13 [ERROR] LVS FAILED (stat=1), see /tmp/tmpzfkqgsce/repo/precheck_results/18_SEP_2026___15_47_41/logs/LVS_check.log
