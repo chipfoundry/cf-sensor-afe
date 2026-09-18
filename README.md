@@ -65,10 +65,10 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 
 | IP | Version | Role |
 | --- | --- | --- |
-| [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.0 | Sensor input buffer |
-| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.3 | 12-bit SAR + wrapped `sar_refs` |
-| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.3 | Bandgap bias / 1.2 V reference |
-| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.2 | Buffered `Vout` monitor |
+| [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.1 | Sensor input buffer |
+| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.4 | 12-bit SAR + wrapped `sar_refs` |
+| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.4 | Bandgap bias / 1.2 V reference |
+| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.3 | Buffered `Vout` monitor |
 
 Install from the project root (private GitHub; `ipm` prefers `GITHUB_TOKEN`):
 
@@ -77,9 +77,9 @@ export GITHUB_TOKEN="$(env -u GITHUB_TOKEN gh auth token)"
 ipm install-dep --include-drafts --local-file ip/catalog.json
 ```
 
-`ip/` is gitignored except `catalog.json` and `dependencies.json`. Pin-only
-wrap stubs in `verilog/gl/` are what platform precheck LVS uses (clone only,
-no `ipm install`).
+`ip/` is gitignored except `catalog.json` and `dependencies.json`. Structural
+wrap/core Verilog in `verilog/gl/` is what platform precheck LVS uses (clone
+only, no `ipm install`).
 
 ## On-chip analog
 
@@ -241,11 +241,9 @@ model, and UART TX. `cf verify --all` runs `verilog/dv/cocotb/all_tests.yaml`
   an ideal sim model under `verify/beh_model/`).
 - `afe_wb`: digital CSR, `vccd1`/`vssd1`.
 - Shared analog supplies on GPIO 32–34.
-- OpenLane `MAGIC_EXT_ABSTRACT_CELLS` abstracts analog `_core` leaves.
-  Precheck LVS instead abstracts the customer wrap cells (`CF_BUF_HIZ`,
-  `CF_ADC_SAR12`, `CF_ADC_SAR12_sar_refs`, `CF_BGR`, `CF_REFBUF`) and uses
-  empty pin-only wrap stubs in `verilog/gl/`. Extracting wrap metal was
-  creating dummy `m2_*#` ports that failed netgen even after `LVS_NOFLATTEN`.
+- OpenLane `MAGIC_EXT_ABSTRACT_CELLS` and precheck `EXTRACT_ABSTRACT` both
+  abstract analog `_core` leaves. Wrap GDS pin names are on sky130 label
+  purpose so Magic does not invent dummy `m2_*#` / `w_400_400#` wrap ports.
 - Analog GPIO 7–34 `io_oeb`/`io_out` come from `afe_wb` (Hi-Z).
 - Caravel LA ports stay on the wrapper and are unconnected.
 - Wrapper antenna 48 (was 171 with LA routed); remaining nets are SAR

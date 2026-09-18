@@ -1,5 +1,5 @@
-// Precheck LVS blackbox for the CF_BGR wrap. Empty: EXTRACT_ABSTRACT the wrap.
-// Structural wrap+core Verilog stays in ip/CF_BGR/hdl/gl/.
+// Structural PG wrapper. Analog leaf is CF_BGR_core.
+// Customer rails are vpwr/vgnd; well taps vpb/vnb/vpbe are tied inside.
 module CF_BGR (
     Vout,
     ictat,
@@ -64,4 +64,39 @@ module CF_BGR (
     input vpwr;
     output vout_ictat;
     output pbias_ctat;
+    CF_BGR_core u_core (
+        .Vout(Vout),
+        .ictat(ictat),
+        .iptat(iptat),
+        .ibg_2p375uA(ibg_2p375uA),
+        .ibg_3uA(ibg_3uA),
+        .mux1out(mux1out),
+        .mux2out(mux2out),
+        .vbias(vbias),
+        .vbias_cascode(vbias_cascode),
+        .boost3(boost3),
+        .boost4(boost4),
+        .boost5(boost5),
+        .boost6(boost6),
+        .boost7(boost7),
+        .vb2_fast(vb2_fast),
+        .en_startb(en_startb),
+        .dft_curr_in(dft_curr_in),
+        .dft_sel(dft_sel),
+        .mux1sel(mux1sel),
+        .mux2sel(mux2sel),
+        .pd(pd),
+        .pd_ibg(pd_ibg),
+        .trimCurr(trimCurr),
+        .trimTC(trimTC),
+        .finetune(finetune),
+        .vgnd(vgnd),
+        .CurrAbsTrim(CurrAbsTrim),
+        .inl_ctrl(inl_ctrl),
+        .vnb(vgnd),
+        .vpb(vpwr),
+        .vpwr(vpwr),
+        .vout_ictat(vout_ictat),
+        .pbias_ctat(pbias_ctat)
+    );
 endmodule

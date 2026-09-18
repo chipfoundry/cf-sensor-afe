@@ -1,5 +1,5 @@
-// Precheck LVS blackbox for the CF_ADC_SAR12_sar_refs wrap. Empty: EXTRACT_ABSTRACT
-// the wrap. Structural wrap+core Verilog stays in ip/CF_ADC_SAR12/hdl/gl/.
+// Structural PG wrapper. Analog leaf is CF_ADC_SAR12_sar_refs_core.
+// Customer rails are vpwr/vgnd; well taps vpb/vnb/vpbe are tied inside.
 module CF_ADC_SAR12_sar_refs (
     vdda,
     vda_int,
@@ -66,4 +66,38 @@ module CF_ADC_SAR12_sar_refs (
     input PD_BUF_VREF;
     inout vssa_shield;
     input dft_comp_en;
+    CF_ADC_SAR12_sar_refs_core u_core (
+        .vdda(vdda),
+        .vda_int(vda_int),
+        .vccd(vpwr),
+        .vpwrd_int(vpwrd_int),
+        .VPUMP(VPUMP),
+        .vssa(vssa),
+        .vssd(vgnd),
+        .vref(vref),
+        .pd(pd),
+        .hiz(hiz),
+        .PWR_CTRL_VREF(PWR_CTRL_VREF),
+        .muxsarref(muxsarref),
+        .REFBY2(REFBY2),
+        .pd_ana(pd_ana),
+        .EN_RESVDA(EN_RESVDA),
+        .IREF_VCMBUF(IREF_VCMBUF),
+        .sw_start(sw_start),
+        .pd_vcmbuf(pd_vcmbuf),
+        .S_LV(S_LV),
+        .px_in(px_in),
+        .px(px),
+        .refout(refout),
+        .refout_en(refout_en),
+        .sw_holdb(sw_holdb),
+        .enpdb_hv(enpdb_hv),
+        .en_pxin_cap(en_pxin_cap),
+        .REFHI(REFHI),
+        .enable_hv(enable_hv),
+        .IREF_VREFBUF(IREF_VREFBUF),
+        .PD_BUF_VREF(PD_BUF_VREF),
+        .vssa_shield(vssa_shield),
+        .dft_comp_en(dft_comp_en)
+    );
 endmodule

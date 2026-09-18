@@ -27,6 +27,21 @@
         ],
         "draft": true,
         "sha256": "b29febe86c5e376bc124f5cc017df5627ddd35e3aff956a83076620d683a3cd0"
+      },
+      "0.2.1": {
+        "date": "9-17-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "246.52",
+        "height": "419.97",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "48beb0293048bc994f470b62b80b8d596c86317f35a16f5eadac9eb914eea931"
       }
     }
   },
@@ -88,6 +103,21 @@
         ],
         "draft": true,
         "sha256": "91d6a16fa64eefd96814d7eb06015b3b8db1922e7597d86fba9f79803a3087a9"
+      },
+      "0.2.4": {
+        "date": "9-17-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "503.24",
+        "height": "533",
+        "cell_count": "4",
+        "clock_freq_mhz": "18",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "51e49705b3dad184004ae2885a608bede82c69a526e8cc8872990ac1bc961e32"
       }
     }
   },
@@ -119,6 +149,21 @@
         ],
         "draft": true,
         "sha256": "5a72f37cf0239cdc49a428d5ea4eb96115a61809497e165bd39e6eeb7f78d30f"
+      },
+      "0.2.4": {
+        "date": "9-17-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "438.465",
+        "height": "311.22",
+        "cell_count": "2",
+        "clock_freq_mhz": "0",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "9f69ceed363187d267408bb8ac89f695e3f2feb976e5272f9548a0802f6d7936"
       }
     }
   },
@@ -150,6 +195,21 @@
         ],
         "draft": true,
         "sha256": "63b9250d5941fa76f522038d9ead09a3ccca1bb205657fadfbcd6ce1474d5222"
+      },
+      "0.2.3": {
+        "date": "9-17-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "153.225",
+        "height": "177.695",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "bff5f12ab2078ecce3bb0f4b4631f1b25f7c5b36a9484d4fb2a71622f4b3540c"
       }
     }
   }
