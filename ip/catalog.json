@@ -197,7 +197,7 @@
         "sha256": "63b9250d5941fa76f522038d9ead09a3ccca1bb205657fadfbcd6ce1474d5222"
       },
       "0.2.3": {
-        "date": "9-17-2026",
+        "date": "9-18-2026",
         "maturity": "Production",
         "bus": [],
         "type": "hard",
@@ -209,7 +209,7 @@
           "1.8"
         ],
         "draft": true,
-        "sha256": "bff5f12ab2078ecce3bb0f4b4631f1b25f7c5b36a9484d4fb2a71622f4b3540c"
+        "sha256": "df5954f7b5c310bef36d05e046622b9ba2149d126d5cb9c9d7bb2cd0d8d190e1"
       }
     }
   }
