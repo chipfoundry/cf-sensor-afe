@@ -8875,30 +8875,30 @@ NETS 779 ;
       NEW met4 ( 129260 980220 210 ) ( * 1207340 210 )
       NEW met3 ( 99130 1293020 210 ) ( 100740 * 210 )
       NEW met2 ( 99130 1293020 210 ) ( * 1294210 210 )
-      NEW met2 TAPER ( 99130 1294210 ) ( * 1295620 )
-      NEW met2 TAPER ( 99130 1295620 ) ( 100050 * 0 )
+      NEW met2 ( 99130 1294210 ) ( * 1295620 )
+      NEW met2 ( 99130 1295620 ) ( 100050 * 0 )
       NEW met4 ( 100740 1207340 210 ) ( * 1293020 210 )
       NEW met4 ( 1190940 668100 210 ) ( * 955060 210 )
-      NEW met2 TAPER ( 267030 980220 ) ( * 983760 0 )
-      NEW met2 TAPER ( 267490 983745 0 ) ( * 985490 )
+      NEW met2 ( 267030 980220 ) ( * 983760 0 )
+      NEW met2 ( 267490 983745 0 ) ( * 985490 )
       NEW met2 ( 267490 985490 210 ) ( * 985660 210 )
       NEW met3 ( 129260 980220 210 ) ( 267030 * 210 )
-      NEW met4 TAPER ( 914350 993395 0 ) ( 915860 * )
+      NEW met4 ( 914350 993395 0 ) ( 915860 * )
       NEW met4 ( 915860 980900 210 ) ( * 991100 210 )
-      NEW met4 TAPER ( 915860 991100 ) ( * 993395 )
+      NEW met4 ( 915860 991100 ) ( * 993395 )
       NEW met4 ( 915860 980900 210 ) ( 917700 * 210 )
       NEW met4 ( 917700 955060 210 ) ( * 980900 210 )
-      NEW met4 TAPER ( 913100 995905 ) ( 914345 * 0 )
-      NEW met4 TAPER ( 913100 993395 ) ( * 995705 )
-      NEW met4 TAPER ( 913100 995705 ) ( * 995905 )
-      NEW met4 TAPER ( 913100 993395 ) ( 914350 * 0 )
+      NEW met4 ( 913100 995905 ) ( 914345 * 0 )
+      NEW met4 ( 913100 993395 ) ( * 995705 )
+      NEW met4 ( 913100 995705 ) ( * 995905 )
+      NEW met4 ( 913100 993395 ) ( 914350 * 0 )
       NEW met3 ( 267490 985660 210 ) ( 915860 * 210 )
       NEW met3 ( 917700 955060 210 ) ( 1190940 * 210 )
-      NEW met3 TAPER ( 1194730 665190 0 ) ( 1196460 * )
-      NEW met3 TAPER ( 1196460 665190 ) ( * 665195 )
-      NEW met3 TAPER ( 1196460 665195 ) ( 1197380 * )
-      NEW met3 TAPER ( 1197380 665195 ) ( 1199630 * 0 )
-      NEW met3 TAPER ( 1194730 665525 0 ) ( * 667930 )
+      NEW met3 ( 1194730 665190 0 ) ( 1196460 * )
+      NEW met3 ( 1196460 665190 ) ( * 665195 )
+      NEW met3 ( 1196460 665195 ) ( 1197380 * )
+      NEW met3 ( 1197380 665195 ) ( 1199630 * 0 )
+      NEW met3 ( 1194730 665525 0 ) ( * 667930 )
       NEW met3 ( 1194730 667930 210 ) ( * 668100 210 )
       NEW met3 ( 1190940 668100 210 ) ( 1194730 * 210 )
       NEW met3 ( 129260 980220 ) M3M4_PR
@@ -8908,20 +8908,24 @@ NETS 779 ;
       NEW met3 ( 129260 1207340 ) M3M4_PR
       NEW met3 ( 100740 1293020 ) M3M4_PR
       NEW met2 ( 99130 1293020 ) M2M3_PR
-      NEW met2 TAPER ( 267030 980220 ) M2M3_PR
+      NEW met2 ( 267030 980220 ) M2M3_PR
       NEW met2 ( 267490 985660 ) M2M3_PR
       NEW met3 ( 917700 955060 ) M3M4_PR
       NEW met3 ( 915860 985660 ) M3M4_PR
-      NEW met4 TAPER ( 915860 985660 ) RECT ( -150 -620 150 0 )  ;
+      NEW met4 ( 915860 985660 ) RECT ( -150 -620 150 0 )
+      NEW met2 ( 99130 1070500 210 ) ( * 1293020 210 )
+      NEW met2 ( 99130 1070500 210 ) ( 267490 * 210 )
+      NEW met2 ( 267490 983745 210 ) ( * 1070500 210 )
+      NEW met3 ( 1194730 665360 ) RECT ( -210 -210 210 210 ) ;
     - afe_nbias ( u_cf_refbuf nbias ) ( u_cf_bgr ibg_3uA ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 116150 1295180 0 ) ( 117070 * )
-      NEW met2 TAPER ( 117070 1293700 ) ( * 1295180 )
+      + ROUTED met2 ( 116150 1295180 0 ) ( 117070 * )
+      NEW met2 ( 117070 1293700 ) ( * 1295180 )
       NEW met2 ( 117070 1286220 210 ) ( * 1293700 210 )
       NEW met2 ( 172730 1258340 210 ) ( * 1286220 210 )
       NEW met3 ( 117070 1286220 210 ) ( 172730 * 210 )
       NEW met2 ( 616170 1258170 210 ) ( * 1258340 210 )
       NEW met1 ( 616170 1258170 ) ( 617090 * )
-      NEW met1 TAPER ( 617090 1258170 ) ( 618470 * 0 )
+      NEW met1 ( 617090 1258170 ) ( 618470 * 0 )
       NEW met3 ( 172730 1258340 210 ) ( 616170 * 210 )
       NEW met2 ( 117070 1286220 ) M2M3_PR
       NEW met2 ( 172730 1286220 ) M2M3_PR
@@ -8931,11 +8935,11 @@ NETS 779 ;
     - afe_refby2 ( u_cf_adc_sar12_sar_refs REFBY2 ) ( u_cf_adc_sar12 refby2 ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1178980 668780 210 ) ( * 670140 210 )
       NEW met3 ( 1178980 668780 210 ) ( 1179685 * 210 )
-      NEW met3 TAPER ( 1179685 665720 0 ) ( * 668100 )
+      NEW met3 ( 1179685 665720 0 ) ( * 668100 )
       NEW met3 ( 1179685 668100 210 ) ( * 668780 210 )
       NEW met4 ( 1178980 670140 210 ) ( * 1003340 210 )
       NEW met4 ( 466900 1003340 210 ) ( * 1010650 210 )
-      NEW met4 TAPER ( 466900 1010650 ) ( * 1013460 0 )
+      NEW met4 ( 466900 1010650 ) ( * 1013460 0 )
       NEW met3 ( 466900 1003340 210 ) ( 1178980 * 210 )
       NEW met3 ( 1178980 670140 ) M3M4_PR
       NEW met3 ( 1178980 1003340 ) M3M4_PR
@@ -8943,10 +8947,10 @@ NETS 779 ;
     - afe_refhi ( u_cf_adc_sar12_sar_refs REFHI ) ( u_cf_adc_sar12 vrefhi ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 913790 952340 210 ) ( 915860 * 210 )
       NEW met4 ( 915860 952340 210 ) ( * 964410 210 )
-      NEW met4 TAPER ( 915860 964410 ) ( * 967300 )
-      NEW met4 TAPER ( 914020 967300 0 ) ( 915860 * )
-      NEW met4 TAPER ( 1223140 665695 ) ( 1225440 * 0 )
-      NEW met4 TAPER ( 1223140 665695 ) ( * 668780 )
+      NEW met4 ( 915860 964410 ) ( * 967300 )
+      NEW met4 ( 914020 967300 0 ) ( 915860 * )
+      NEW met4 ( 1223140 665695 ) ( 1225440 * 0 )
+      NEW met4 ( 1223140 665695 ) ( * 668780 )
       NEW met3 ( 1217620 668780 210 ) ( 1223140 * 210 )
       NEW met2 ( 913790 941460 210 ) ( * 952340 210 )
       NEW met3 ( 913790 941460 210 ) ( 1217620 * 210 )
@@ -8958,18 +8962,18 @@ NETS 779 ;
       NEW met2 ( 913790 941460 ) M2M3_PR
       NEW met3 ( 1217620 941460 ) M3M4_PR ;
     - afe_vout ( u_cf_buf_hiz vout ) ( u_cf_adc_sar12 vinp ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met3 TAPER ( 911950 980220 ) ( 914020 * 0 )
+      + ROUTED met3 ( 911950 980220 ) ( 914020 * 0 )
       NEW met3 ( 817650 980220 210 ) ( 911950 * 210 )
-      NEW met2 TAPER ( 244950 740860 ) ( * 742730 )
+      NEW met2 ( 244950 740860 ) ( * 742730 )
       NEW met2 ( 244950 742730 210 ) ( * 748340 210 )
-      NEW met2 TAPER ( 243340 740860 0 ) ( 244950 * )
+      NEW met2 ( 243340 740860 0 ) ( 244950 * )
       NEW met2 ( 817650 748340 210 ) ( * 980220 210 )
       NEW met3 ( 244950 748340 210 ) ( 817650 * 210 )
       NEW met2 ( 817650 980220 ) M2M3_PR
       NEW met2 ( 244950 748340 ) M2M3_PR
       NEW met2 ( 817650 748340 ) M2M3_PR ;
     - afe_vref ( u_cf_refbuf ref_1v2 ) ( u_cf_bgr Vout ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 116150 1293190 ) ( * 1294680 0 )
+      + ROUTED met2 ( 116150 1293190 ) ( * 1294680 0 )
       NEW met2 ( 116150 1272620 210 ) ( * 1293190 210 )
       NEW met2 ( 279450 1239300 210 ) ( * 1272620 210 )
       NEW met3 ( 116150 1272620 210 ) ( 279450 * 210 )
@@ -8977,7 +8981,7 @@ NETS 779 ;
       NEW met2 ( 116150 1272620 ) M2M3_PR
       NEW met2 ( 279450 1272620 ) M2M3_PR
       NEW met2 ( 279450 1239300 ) M2M3_PR
-      NEW met2 TAPER ( 618470 1239300 ) M2M3_PR_M ;
+      NEW met2 ( 618470 1239300 ) M2M3_PR_M ;
     - analog_ctrl\[0\] ( u_cf_buf_hiz e_pd ) ( u_afe_wb analog_ctrl[0] ) + USE SIGNAL
       + ROUTED met3 ( 376740 513740 ) ( 396980 * )
       NEW met3 ( 396980 513740 ) ( * 514420 )
@@ -10621,8 +10625,8 @@ NETS 779 ;
       NEW met2 ( 438150 457300 ) M2M3_PR
       NEW met4 ( 610420 709580 ) RECT ( -150 -620 150 0 )  ;
     - analog_io[0] ( PIN analog_io[0] ) ( u_cf_bgr vb2_fast ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met1 TAPER ( 313125 1520990 0 ) ( * 1521670 )
-      NEW met1 TAPER ( 313125 1521670 ) ( 314410 * )
+      + ROUTED met1 ( 313125 1520990 0 ) ( * 1521670 )
+      NEW met1 ( 313125 1521670 ) ( 314410 * )
       NEW met1 ( 314410 1521670 ) ( 556830 * )
       NEW met2 ( 556830 1426980 210 ) ( * 1521670 210 )
       NEW met3 ( 556830 1426980 210 ) ( 2917780 * 0 )
@@ -10638,12 +10642,12 @@ NETS 779 ;
       NEW met3 ( 1290300 1191700 210 ) ( 2230770 * 210 )
       NEW met4 ( 328900 779635 210 ) ( * 1191700 210 )
       NEW met2 ( 2230770 1191700 ) M2M3_PR
-      NEW met2 TAPER ( 326150 779635 ) M2M3_PR_MR
+      NEW met2 ( 326150 779635 ) M2M3_PR_MR
       NEW met3 ( 328900 779635 ) M3M4_PR
       NEW met3 ( 328900 1191700 ) M3M4_PR ;
     - analog_io[11] ( PIN analog_io[11] ) ( u_cf_buf_hiz vbpb ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 313260 876180 210 ) ( 317170 * 210 )
-      NEW met2 TAPER ( 317170 874695 0 ) ( * 876180 )
+      NEW met2 ( 317170 874695 0 ) ( * 876180 )
       NEW met4 ( 313260 876180 210 ) ( * 1097100 210 )
       NEW met4 ( 313260 1097100 210 ) ( 314180 * 210 )
       NEW met4 ( 314180 1097100 210 ) ( * 1202580 210 )
@@ -10654,7 +10658,7 @@ NETS 779 ;
       NEW met3 ( 517500 1202580 210 ) ( 1906010 * 210 )
       NEW met2 ( 1906010 1202580 210 ) ( * 3517980 0 )
       NEW met3 ( 313260 876180 ) M3M4_PR
-      NEW met2 TAPER ( 317170 876180 ) M2M3_PR
+      NEW met2 ( 317170 876180 ) M2M3_PR
       NEW met3 ( 314180 1202580 ) M3M4_PR
       NEW met2 ( 1906010 1202580 ) M2M3_PR ;
     - analog_io[12] ( PIN analog_io[12] ) ( u_cf_buf_hiz vbpc ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
@@ -10667,30 +10671,31 @@ NETS 779 ;
       NEW met2 ( 1569750 1196460 ) M2M3_PR
       NEW met2 ( 1569750 3512540 ) M2M3_PR
       NEW met3 ( 327060 928160 ) M3M4_PR
-      NEW met2 TAPER ( 325680 928160 ) M2M3_PR_MR
+      NEW met2 ( 325680 928160 ) M2M3_PR_MR
       NEW met3 ( 327060 1196460 ) M3M4_PR
       NEW met2 ( 1581710 3512540 ) M2M3_PR ;
     - analog_io[13] ( PIN analog_io[13] ) ( u_cf_buf_hiz vbnc ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met2 ( 1257410 1190340 210 ) ( * 3517980 0 )
-      NEW met2 TAPER ( 324300 975520 0 ) ( * 976820 )
+      NEW met2 ( 324300 975520 0 ) ( * 976820 )
       NEW met3 ( 324300 976820 210 ) ( 334420 * 210 )
       NEW met3 ( 334420 1190340 210 ) ( 1257410 * 210 )
       NEW met4 ( 334420 976820 210 ) ( * 1190340 210 )
       NEW met2 ( 1257410 1190340 ) M2M3_PR
-      NEW met2 TAPER ( 324300 976820 ) M2M3_PR
+      NEW met2 ( 324300 976820 ) M2M3_PR
       NEW met3 ( 334420 976820 ) M3M4_PR
       NEW met3 ( 334420 1190340 ) M3M4_PR ;
     - analog_io[14] ( PIN analog_io[14] ) ( u_cf_buf_hiz vbpci ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 347530 800020 ) ( * 800085 )
-      NEW met2 TAPER ( 346150 800085 0 ) ( 347530 * )
+      + ROUTED met2 ( 347530 800020 ) ( * 800085 )
+      NEW met2 ( 346150 800085 0 ) ( 347530 * )
       NEW met3 ( 396750 1205300 210 ) ( 932650 * 210 )
       NEW met2 ( 932650 1205300 210 ) ( * 3517980 0 )
       NEW met3 ( 347530 800020 210 ) ( 396750 * 210 )
       NEW met2 ( 396750 800020 210 ) ( * 1205300 210 )
       NEW met2 ( 396750 1205300 ) M2M3_PR
-      NEW met2 TAPER ( 347530 800020 ) M2M3_PR
+      NEW met2 ( 347530 800020 ) M2M3_PR
       NEW met2 ( 932650 1205300 ) M2M3_PR
-      NEW met2 ( 396750 800020 ) M2M3_PR ;
+      NEW met2 ( 396750 800020 ) M2M3_PR
+      NEW met2 ( 337593 800085 ) RECT ( -8558 -70 8558 70 ) ;
     - analog_io[15] ( PIN analog_io[15] ) ( u_cf_buf_hiz vbnci ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met2 ( 608350 1198500 210 ) ( * 3517980 0 )
       NEW met4 ( 325220 855600 210 ) ( 326140 * 210 )
@@ -10698,51 +10703,52 @@ NETS 779 ;
       NEW met4 ( 325220 855600 210 ) ( * 1198500 210 )
       NEW met3 ( 325220 1198500 210 ) ( 608350 * 210 )
       NEW met2 ( 608350 1198500 ) M2M3_PR
-      NEW met2 TAPER ( 326140 777960 ) M2M3_PR_MR
-      NEW met3 TAPER ( 326140 777960 ) M3M4_PR
+      NEW met2 ( 326140 777960 ) M2M3_PR_MR
+      NEW met3 ( 326140 777960 ) M3M4_PR
       NEW met3 ( 325220 1198500 ) M3M4_PR
-      NEW met3 TAPER ( 326140 777960 ) RECT ( -600 -150 0 150 )  ;
+      NEW met3 ( 326140 777960 ) RECT ( -600 -150 0 150 )  ;
     - analog_io[16] ( PIN analog_io[16] ) ( u_cf_buf_hiz vbpcis ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 284050 3498940 210 ) ( 306820 * 210 )
       NEW met4 ( 306820 833340 210 ) ( * 3498940 210 )
       NEW met2 ( 284050 3498940 210 ) ( * 3517980 0 )
-      NEW met2 TAPER ( 324990 833340 ) ( * 834020 0 )
+      NEW met2 ( 324990 833340 ) ( * 834020 0 )
       NEW met3 ( 306820 833340 210 ) ( 324990 * 210 )
       NEW met2 ( 284050 3498940 ) M2M3_PR
       NEW met3 ( 306820 3498940 ) M3M4_PR
       NEW met3 ( 306820 833340 ) M3M4_PR
-      NEW met2 TAPER ( 324990 833340 ) M2M3_PR ;
+      NEW met2 ( 324990 833340 ) M2M3_PR ;
     - analog_io[17] ( PIN analog_io[17] ) ( u_cf_buf_hiz vbncis ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 460 3484660 210 ) ( 690 * 210 )
       NEW met3 ( 460 3484660 210 ) ( * 3486700 0 )
       NEW met2 ( 690 3370420 210 ) ( * 3484660 210 )
-      NEW met2 TAPER ( 322690 810360 0 ) ( * 810900 )
+      NEW met2 ( 322690 810360 0 ) ( * 810900 )
       NEW met3 ( 690 3370420 210 ) ( 175260 * 210 )
       NEW met4 ( 175260 810900 210 ) ( * 3370420 210 )
       NEW met3 ( 175260 810900 210 ) ( 322690 * 210 )
       NEW met2 ( 690 3370420 ) M2M3_PR
       NEW met2 ( 690 3484660 ) M2M3_PR
-      NEW met2 TAPER ( 322690 810900 ) M2M3_PR
+      NEW met2 ( 322690 810900 ) M2M3_PR
       NEW met3 ( 175260 3370420 ) M3M4_PR
       NEW met3 ( 175260 810900 ) M3M4_PR ;
     - analog_io[18] ( PIN analog_io[18] ) ( u_cf_buf_hiz vbpcid ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 460 3223540 210 ) ( * 3225580 0 )
       NEW met3 ( 460 3223540 210 ) ( 17250 * 210 )
       NEW met2 ( 17250 1155660 210 ) ( * 3223540 210 )
-      NEW met2 TAPER ( 346150 742585 0 ) ( 347990 * )
+      NEW met2 ( 346150 742585 0 ) ( 347990 * )
       NEW met2 ( 347990 742585 210 ) ( * 759000 210 )
       NEW met2 ( 347990 759000 210 ) ( 348450 * 210 )
       NEW met2 ( 348450 759000 210 ) ( * 1155660 210 )
       NEW met3 ( 17250 1155660 210 ) ( 348450 * 210 )
       NEW met2 ( 17250 1155660 ) M2M3_PR
       NEW met2 ( 17250 3223540 ) M2M3_PR
-      NEW met2 ( 348450 1155660 ) M2M3_PR ;
+      NEW met2 ( 348450 1155660 ) M2M3_PR
+      NEW met2 ( 338425 742585 ) RECT ( -7725 -70 7725 70 ) ;
     - analog_io[19] ( PIN analog_io[19] ) ( u_cf_buf_hiz vbptd ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1380 2962420 210 ) ( * 2965140 0 )
       NEW met3 ( 1380 2962420 210 ) ( 37950 * 210 )
       NEW met2 ( 37950 1127780 210 ) ( * 2962420 210 )
-      NEW met2 TAPER ( 346150 743435 0 ) ( 347070 * )
-      NEW met2 TAPER ( 347070 743435 ) ( * 745110 )
+      NEW met2 ( 346150 743435 0 ) ( 347070 * )
+      NEW met2 ( 347070 743435 ) ( * 745110 )
       NEW met2 ( 347070 745110 210 ) ( * 751230 210 )
       NEW met1 ( 347070 751230 ) ( 349830 * )
       NEW met2 ( 349830 751230 210 ) ( * 1127780 210 )
@@ -10751,7 +10757,8 @@ NETS 779 ;
       NEW met2 ( 37950 2962420 ) M2M3_PR
       NEW met1 ( 347070 751230 ) M1M2_PR
       NEW met1 ( 349830 751230 ) M1M2_PR
-      NEW met2 ( 349830 1127780 ) M2M3_PR ;
+      NEW met2 ( 349830 1127780 ) M2M3_PR
+      NEW met2 ( 338425 743435 ) RECT ( -7725 -70 7725 70 ) ;
     - analog_io[1] ( PIN analog_io[1] ) ( u_cf_buf_hiz vinp_p ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 201250 972740 210 ) ( 218500 * 210 )
       NEW met2 ( 201550 950130 210 ) ( * 950980 210 )
@@ -10761,14 +10768,14 @@ NETS 779 ;
       NEW met3 ( 218500 1692860 210 ) ( 2917780 * 0 )
       NEW met2 ( 201250 972740 ) M2M3_PR
       NEW met3 ( 218500 972740 ) M3M4_PR
-      NEW met1 TAPER ( 201550 950130 ) M1M2_PR
+      NEW met1 ( 201550 950130 ) M1M2_PR
       NEW met3 ( 218500 1692860 ) M3M4_PR ;
     - analog_io[20] ( PIN analog_io[20] ) ( u_cf_adc_sar12 vinm ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1380 2701300 210 ) ( * 2704020 0 )
       NEW met4 ( 1380 2693820 210 ) ( * 2701300 210 )
       NEW met4 ( 796260 976820 210 ) ( * 2693820 210 )
       NEW met3 ( 1380 2693820 210 ) ( 796260 * 210 )
-      NEW met3 TAPER ( 911950 976820 ) ( 914020 * 0 )
+      NEW met3 ( 911950 976820 ) ( 914020 * 0 )
       NEW met3 ( 796260 976820 210 ) ( 911950 * 210 )
       NEW met3 ( 1380 2701300 ) M3M4_PR
       NEW met3 ( 1380 2693820 ) M3M4_PR
@@ -10780,7 +10787,7 @@ NETS 779 ;
       NEW met3 ( 1380 2442900 210 ) ( 34500 * 210 )
       NEW met3 ( 34500 2442900 210 ) ( * 2443580 210 )
       NEW met3 ( 34500 2443580 210 ) ( 1052020 * 210 )
-      NEW met4 TAPER ( 1215780 665695 0 ) ( * 668780 )
+      NEW met4 ( 1215780 665695 0 ) ( * 668780 )
       NEW met4 ( 1215780 668780 210 ) ( * 672180 210 )
       NEW met3 ( 1052020 672180 210 ) ( 1215780 * 210 )
       NEW met3 ( 1052020 672180 ) M3M4_PR
@@ -10790,7 +10797,7 @@ NETS 779 ;
       + ROUTED met3 ( 1380 2180420 210 ) ( * 2183140 0 )
       NEW met4 ( 1380 2176340 210 ) ( * 2180420 210 )
       NEW met4 ( 782460 982940 210 ) ( * 2176340 210 )
-      NEW met3 TAPER ( 911950 982940 ) ( 914020 * 0 )
+      NEW met3 ( 911950 982940 ) ( 914020 * 0 )
       NEW met3 ( 782460 982940 210 ) ( 911950 * 210 )
       NEW met3 ( 1380 2176340 210 ) ( 782460 * 210 )
       NEW met3 ( 782460 982940 ) M3M4_PR
@@ -10801,9 +10808,9 @@ NETS 779 ;
     - analog_io[24] ( PIN analog_io[24] ) ( u_cf_bgr dft_curr_in ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1380 1660900 210 ) ( * 1661580 0 )
       NEW met3 ( 93150 1303900 210 ) ( 98670 * 210 )
-      NEW met2 TAPER ( 98670 1298740 ) ( * 1300500 )
+      NEW met2 ( 98670 1298740 ) ( * 1300500 )
       NEW met2 ( 98670 1300500 210 ) ( * 1303900 210 )
-      NEW met2 TAPER ( 98670 1298740 ) ( 100050 * 0 )
+      NEW met2 ( 98670 1298740 ) ( 100050 * 0 )
       NEW met2 ( 93150 1303900 210 ) ( * 1661580 210 )
       NEW met3 ( 1380 1660900 210 ) ( 34500 * 210 )
       NEW met3 ( 34500 1660900 210 ) ( * 1661580 210 )
@@ -10816,9 +10823,9 @@ NETS 779 ;
       NEW met2 ( 94530 1192380 210 ) ( * 1400460 210 )
       NEW met3 ( 94530 1192380 210 ) ( 227700 * 210 )
       NEW met3 ( 227700 1192380 210 ) ( * 1193060 210 )
-      NEW met2 TAPER ( 745430 1182860 0 ) ( * 1184730 )
+      NEW met2 ( 745430 1182860 0 ) ( * 1184730 )
       NEW met2 ( 745430 1184730 210 ) ( * 1193060 210 )
-      NEW met3 TAPER ( 748420 1163140 0 ) ( 750950 * )
+      NEW met3 ( 748420 1163140 0 ) ( 750950 * )
       NEW met3 ( 750950 1163140 210 ) ( 755780 * 210 )
       NEW met3 ( 1380 1399780 210 ) ( 34500 * 210 )
       NEW met3 ( 34500 1399780 210 ) ( * 1400460 210 )
@@ -10831,7 +10838,7 @@ NETS 779 ;
       NEW met2 ( 94530 1400460 ) M2M3_PR
       NEW met2 ( 745430 1193060 ) M2M3_PR
       NEW met3 ( 755780 1163140 ) M3M4_PR
-      NEW met3 TAPER ( 1027180 791860 ) M3M4_PR_M
+      NEW met3 ( 1027180 791860 ) M3M4_PR_M
       NEW met3 ( 755780 817020 ) M3M4_PR
       NEW met3 ( 1027180 817020 ) M3M4_PR ;
     - analog_io[26] ( PIN analog_io[26] ) ( u_cf_adc_sar12_sar_refs vssa_shield ) ( u_cf_adc_sar12_sar_refs vssa ) ( u_cf_adc_sar12 vssa ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
@@ -10842,10 +10849,10 @@ NETS 779 ;
       NEW met3 ( 34500 1139340 210 ) ( * 1140020 210 )
       NEW met4 ( 615940 708900 210 ) ( * 755140 210 )
       NEW met3 ( 1025340 753100 210 ) ( * 754970 210 )
-      NEW met3 TAPER ( 1025340 754970 ) ( * 756425 0 )
+      NEW met3 ( 1025340 754970 ) ( * 756425 0 )
       NEW met2 ( 1009470 753100 210 ) ( * 754970 210 )
-      NEW met2 TAPER ( 1009470 754970 ) ( * 756500 )
-      NEW met2 TAPER ( 1009470 756500 ) ( 1010390 * 0 )
+      NEW met2 ( 1009470 754970 ) ( * 756500 )
+      NEW met2 ( 1009470 756500 ) ( 1010390 * 0 )
       NEW met3 ( 615940 753100 210 ) ( 1009470 * 210 )
       NEW met3 ( 1025340 753100 210 ) ( 1521220 * 210 )
       NEW met3 ( 34500 1140020 210 ) ( 355580 * 210 )
@@ -10853,9 +10860,9 @@ NETS 779 ;
       NEW met4 ( 355580 755140 210 ) ( * 1140020 210 )
       NEW met3 ( 1521220 678980 210 ) ( 1525590 * 210 )
       NEW met2 ( 1525590 678980 210 ) ( 1526050 * 210 )
-      NEW met2 TAPER ( 1526050 678980 ) ( 1527890 * 0 )
+      NEW met2 ( 1526050 678980 ) ( 1527890 * 0 )
       NEW met4 ( 1521220 678980 210 ) ( * 753100 210 )
-      NEW met3 TAPER ( 616860 667420 ) M3M4_PR_M
+      NEW met3 ( 616860 667420 ) M3M4_PR_M
       NEW met3 ( 355580 1140020 ) M3M4_PR
       NEW met3 ( 615940 755140 ) M3M4_PR
       NEW met3 ( 615940 753100 ) M3M4_PR
@@ -10864,7 +10871,10 @@ NETS 779 ;
       NEW met3 ( 355580 755140 ) M3M4_PR
       NEW met3 ( 1521220 678980 ) M3M4_PR
       NEW met2 ( 1525590 678980 ) M2M3_PR
-      NEW met4 TAPER ( 615940 753100 ) RECT ( -150 -620 150 0 )  ;
+      NEW met4 ( 615940 753100 ) RECT ( -150 -620 150 0 )
+      NEW met2 ( 1535690 678980 ) RECT ( -7800 -70 7760 70 )
+      NEW met2 ( 1543380 680510 ) RECT ( -70 -1530 70 1530 )
+      NEW met2 ( 1543380 682040 ) RECT ( -15715 -140 0 140 ) ;
     - analog_io[27] ( PIN analog_io[27] ) ( u_cf_adc_sar12_sar_refs VPUMP ) ( u_cf_adc_sar12 VPUMP ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1380 878900 210 ) ( * 879580 0 )
       NEW met3 ( 1380 878900 210 ) ( 34500 * 210 )
@@ -10877,23 +10887,23 @@ NETS 779 ;
       NEW met3 ( 34500 879580 210 ) ( 624220 * 210 )
       NEW met3 ( 624220 879580 ) M3M4_PR
       NEW met2 ( 624450 879580 ) M2M3_PR
-      NEW met3 TAPER ( 624220 1165180 ) M3M4_PR_M
+      NEW met3 ( 624220 1165180 ) M3M4_PR_M
       NEW met2 ( 624450 838100 ) M2M3_PR
-      NEW met3 TAPER ( 1025340 747660 ) M3M4_PR_M
+      NEW met3 ( 1025340 747660 ) M3M4_PR_M
       NEW met3 ( 1025340 838100 ) M3M4_PR
-      NEW met3 TAPER ( 624450 879580 ) RECT ( 0 -150 570 150 )  ;
+      NEW met3 ( 624450 879580 ) RECT ( 0 -150 570 150 )  ;
     - analog_io[28] ( PIN analog_io[28] ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE ;
     - analog_io[2] ( PIN analog_io[2] ) ( u_cf_buf_hiz vinn_p ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met2 ( 2912030 1941740 210 ) ( * 1958740 210 )
       NEW met3 ( 2912030 1958740 210 ) ( 2917780 * 0 )
-      NEW met1 TAPER ( 201175 949110 ) ( * 949920 0 )
+      NEW met1 ( 201175 949110 ) ( * 949920 0 )
       NEW met2 ( 201175 948940 210 ) ( * 949110 210 )
       NEW met3 ( 251620 1941740 210 ) ( 2912030 * 210 )
       NEW met3 ( 201175 948940 210 ) ( 251620 * 210 )
       NEW met4 ( 251620 948940 210 ) ( * 1941740 210 )
       NEW met2 ( 2912030 1941740 ) M2M3_PR
       NEW met2 ( 2912030 1958740 ) M2M3_PR
-      NEW met1 TAPER ( 201175 949110 ) M1M2_PR
+      NEW met1 ( 201175 949110 ) M1M2_PR
       NEW met2 ( 201175 948940 ) M2M3_PR
       NEW met3 ( 251620 1941740 ) M3M4_PR
       NEW met3 ( 251620 948940 ) M3M4_PR ;
@@ -10907,14 +10917,14 @@ NETS 779 ;
       NEW met3 ( 202860 1186940 ) M3M4_PR
       NEW met3 ( 202860 951660 ) M3M4_PR
       NEW met2 ( 202665 951660 ) M2M3_PR
-      NEW met1 TAPER ( 202665 950640 ) M1M2_PR_MR
+      NEW met1 ( 202665 950640 ) M1M2_PR_MR
       NEW met2 ( 555450 1186940 ) M2M3_PR
       NEW met2 ( 555450 2223940 ) M2M3_PR
-      NEW met3 TAPER ( 202860 951660 ) RECT ( 0 -150 425 150 )  ;
+      NEW met3 ( 202860 951660 ) RECT ( 0 -150 425 150 )  ;
     - analog_io[4] ( PIN analog_io[4] ) ( u_cf_buf_hiz vinn_n ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 201020 950300 210 ) ( 203550 * 210 )
       NEW met2 ( 203550 950300 210 ) ( * 950620 210 )
-      NEW met1 TAPER ( 203080 950620 0 ) ( 203550 * )
+      NEW met1 ( 203080 950620 0 ) ( 203550 * )
       NEW met4 ( 201020 950300 210 ) ( * 1203260 210 )
       NEW met3 ( 201020 1203260 210 ) ( 227700 * 210 )
       NEW met3 ( 227700 1203260 210 ) ( * 1203940 210 )
@@ -10923,16 +10933,16 @@ NETS 779 ;
       NEW met3 ( 227700 1203940 210 ) ( 541650 * 210 )
       NEW met3 ( 201020 950300 ) M3M4_PR
       NEW met2 ( 203550 950300 ) M2M3_PR
-      NEW met1 TAPER ( 203550 950620 ) M1M2_PR
+      NEW met1 ( 203550 950620 ) M1M2_PR
       NEW met3 ( 201020 1203260 ) M3M4_PR
       NEW met2 ( 541650 1203940 ) M2M3_PR
       NEW met2 ( 541650 2489820 ) M2M3_PR ;
     - analog_io[5] ( PIN analog_io[5] ) ( u_cf_buf_hiz vinp_na ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 206770 951660 210 ) ( 216660 * 210 )
       NEW met2 ( 206770 949790 210 ) ( * 951660 210 )
-      NEW met1 TAPER ( 202305 949790 ) ( 203780 * )
+      NEW met1 ( 202305 949790 ) ( 203780 * )
       NEW met1 ( 203780 949790 ) ( 206770 * )
-      NEW met1 TAPER ( 202305 949790 ) ( * 950630 0 )
+      NEW met1 ( 202305 949790 ) ( * 950630 0 )
       NEW met4 ( 216660 951660 210 ) ( * 2749580 210 )
       NEW met2 ( 2912030 2749580 210 ) ( * 2755700 210 )
       NEW met3 ( 2912030 2755700 210 ) ( 2917780 * 0 )
@@ -10944,9 +10954,9 @@ NETS 779 ;
       NEW met2 ( 2912030 2749580 ) M2M3_PR
       NEW met2 ( 2912030 2755700 ) M2M3_PR ;
     - analog_io[6] ( PIN analog_io[6] ) ( u_cf_buf_hiz vinn_na ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met1 TAPER ( 201915 951490 ) ( 203090 * )
+      + ROUTED met1 ( 201915 951490 ) ( 203090 * )
       NEW met1 ( 203090 951490 ) ( 204010 * )
-      NEW met1 TAPER ( 201915 950640 0 ) ( * 951490 )
+      NEW met1 ( 201915 950640 0 ) ( * 951490 )
       NEW met2 ( 204010 951490 210 ) ( * 958460 210 )
       NEW met3 ( 204010 958460 210 ) ( 237820 * 210 )
       NEW met3 ( 237820 3020900 210 ) ( 2917780 * 0 )
@@ -10956,30 +10966,30 @@ NETS 779 ;
       NEW met3 ( 237820 958460 ) M3M4_PR
       NEW met3 ( 237820 3020900 ) M3M4_PR ;
     - analog_io[7] ( PIN analog_io[7] ) ( u_cf_refbuf out ) ( u_cf_refbuf ch2 ) ( u_cf_refbuf ch1 ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 691610 1387540 0 ) ( * 1389410 )
+      + ROUTED met2 ( 691610 1387540 0 ) ( * 1389410 )
       NEW met2 ( 691610 1389410 210 ) ( * 3286780 210 )
       NEW met3 ( 691610 3286780 210 ) ( 2917780 * 0 )
-      NEW met1 TAPER ( 647910 1387370 0 ) ( * 1388730 )
+      NEW met1 ( 647910 1387370 0 ) ( * 1388730 )
       NEW met2 ( 647910 1388730 210 ) ( * 1393490 210 )
-      NEW met2 TAPER ( 643770 1387540 0 ) ( * 1388390 )
+      NEW met2 ( 643770 1387540 0 ) ( * 1388390 )
       NEW met1 ( 643770 1388390 ) ( 646530 * )
-      NEW met1 TAPER ( 646530 1388390 ) ( 647910 * )
+      NEW met1 ( 646530 1388390 ) ( 647910 * )
       NEW met1 ( 647910 1393490 ) ( 691610 * )
       NEW met2 ( 691610 3286780 ) M2M3_PR
       NEW met1 ( 691610 1393490 ) M1M2_PR
       NEW met1 ( 647910 1388730 ) M1M2_PR
       NEW met1 ( 647910 1393490 ) M1M2_PR
-      NEW met1 TAPER ( 643770 1388390 ) M1M2_PR ;
+      NEW met1 ( 643770 1388390 ) M1M2_PR ;
     - analog_io[8] ( PIN analog_io[8] ) ( u_cf_refbuf vpwre ) ( u_cf_refbuf ng ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 700350 1386860 210 ) ( 700580 * 210 )
-      NEW met2 TAPER ( 771190 1262420 0 ) ( 772570 * )
-      NEW met2 TAPER ( 772570 1262420 ) ( * 1264290 )
+      NEW met2 ( 771190 1262420 0 ) ( 772570 * )
+      NEW met2 ( 772570 1262420 ) ( * 1264290 )
       NEW met3 ( 700580 1386860 210 ) ( * 1387540 210 )
       NEW met2 ( 772570 1264290 210 ) ( * 1390260 210 )
       NEW met3 ( 700580 1387540 210 ) ( 772570 * 210 )
       NEW met3 ( 772570 1390260 210 ) ( 2879370 * 210 )
       NEW met2 ( 2879370 1390260 210 ) ( * 3517980 0 )
-      NEW met2 TAPER ( 700350 1386860 ) M2M3_PR_M
+      NEW met2 ( 700350 1386860 ) M2M3_PR_M
       NEW met2 ( 772570 1390260 ) M2M3_PR
       NEW met2 ( 772570 1387540 ) M2M3_PR
       NEW met2 ( 2879370 1390260 ) M2M3_PR ;
@@ -10988,11 +10998,11 @@ NETS 779 ;
       NEW met4 ( 323380 834690 210 ) ( * 1207340 210 )
       NEW met3 ( 323380 1207340 210 ) ( 2555070 * 210 )
       NEW met2 ( 2555070 1207340 210 ) ( * 3517980 0 )
-      NEW met2 TAPER ( 323610 834690 ) M2M3_PR_MR
+      NEW met2 ( 323610 834690 ) M2M3_PR_MR
       NEW met3 ( 323380 834690 ) M3M4_PR
       NEW met3 ( 323380 1207340 ) M3M4_PR
       NEW met2 ( 2555070 1207340 ) M2M3_PR
-      NEW met3 TAPER ( 323610 834690 ) RECT ( 0 -150 390 150 )  ;
+      NEW met3 ( 323610 834690 ) RECT ( 0 -150 390 150 )  ;
     - io_in[0] ( PIN io_in[0] ) + USE SIGNAL ;
     - io_in[10] ( PIN io_in[10] ) + USE SIGNAL ;
     - io_in[11] ( PIN io_in[11] ) + USE SIGNAL ;
