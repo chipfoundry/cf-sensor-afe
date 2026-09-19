@@ -1,0 +1,4805 @@
+[
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2"
+      ], [
+        "1",
+        "2"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2"
+      ], [
+        "1",
+        "2"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "dft_inp",
+        "dft_inm",
+        "dft_op",
+        "dft_om",
+        "pumpclk",
+        "icont_lv[0]",
+        "dly_inc",
+        "dcen",
+        "en_pump_lv",
+        "trimunit",
+        "vdda",
+        "vssd",
+        "VPUMP",
+        "cap_trim[2]",
+        "cap_trim[1]",
+        "dft_enc",
+        "cap_trim[0]",
+        "pd",
+        "pd_ana",
+        "refclk",
+        "dft_inc[3]",
+        "dft_inc[2]",
+        "dft_inc[1]",
+        "dft_inc[0]",
+        "dft_outc[2]",
+        "dft_outc[1]",
+        "vpwr_int",
+        "vccd",
+        "vpwrd_int",
+        "icont_lv[1]",
+        "ibiasin",
+        "dft_outc[0]",
+        "enable_hv",
+        "sample_width[1]",
+        "sample_width[3]",
+        "sample_width[4]",
+        "sample_width[5]",
+        "sample_width[6]",
+        "sample_width[7]",
+        "sample_width[8]",
+        "sample_width[9]",
+        "resolution[0]",
+        "resolution[1]",
+        "scan_test_mode",
+        "test_scanin",
+        "test_scanen",
+        "test_scanout",
+        "en_csel_dft",
+        "sel_csel_dft[0]",
+        "sel_csel_dft[2]",
+        "sel_csel_dft[3]",
+        "hiz",
+        "sof",
+        "test_sea",
+        "reset_n",
+        "eof",
+        "data_out[0]",
+        "data_out[3]",
+        "data_out[4]",
+        "data_out[5]",
+        "data_out[6]",
+        "data_out[10]",
+        "data_out[11]",
+        "iso_en",
+        "next",
+        "sample_width[0]",
+        "vpwr_lv_int",
+        "sel_csel_dft[1]",
+        "data_out[9]",
+        "data_out[7]",
+        "data_out[8]",
+        "vdda_q",
+        "vboost",
+        "vccd_q",
+        "sample_width[2]",
+        "vsub_vic",
+        "vsub_agr",
+        "ibias2p5u_out",
+        "data_out[2]",
+        "data_out[1]",
+        "vreflo",
+        "vinp",
+        "vinm",
+        "vrefhi",
+        "vssa_q",
+        "vssa",
+        "refby2",
+        "ibias2p5u",
+        "ibias2p5u_1"
+      ], [
+        "dft_inp",
+        "dft_inm",
+        "dft_op",
+        "dft_om",
+        "pumpclk",
+        "icont_lv[0]",
+        "dly_inc",
+        "dcen",
+        "en_pump_lv",
+        "trimunit",
+        "vdda",
+        "vssd",
+        "VPUMP",
+        "cap_trim[2]",
+        "cap_trim[1]",
+        "dft_enc",
+        "cap_trim[0]",
+        "pd",
+        "pd_ana",
+        "refclk",
+        "dft_inc[3]",
+        "dft_inc[2]",
+        "dft_inc[1]",
+        "dft_inc[0]",
+        "dft_outc[2]",
+        "dft_outc[1]",
+        "vpwr_int",
+        "vccd",
+        "vpwrd_int",
+        "icont_lv[1]",
+        "ibiasin",
+        "dft_outc[0]",
+        "enable_hv",
+        "sample_width[1]",
+        "sample_width[3]",
+        "sample_width[4]",
+        "sample_width[5]",
+        "sample_width[6]",
+        "sample_width[7]",
+        "sample_width[8]",
+        "sample_width[9]",
+        "resolution[0]",
+        "resolution[1]",
+        "scan_test_mode",
+        "test_scanin",
+        "test_scanen",
+        "test_scanout",
+        "en_csel_dft",
+        "sel_csel_dft[0]",
+        "sel_csel_dft[2]",
+        "sel_csel_dft[3]",
+        "hiz",
+        "sof",
+        "test_sea",
+        "reset_n",
+        "eof",
+        "data_out[0]",
+        "data_out[3]",
+        "data_out[4]",
+        "data_out[5]",
+        "data_out[6]",
+        "data_out[10]",
+        "data_out[11]",
+        "iso_en",
+        "next",
+        "sample_width[0]",
+        "vpwr_lv_int",
+        "sel_csel_dft[1]",
+        "data_out[9]",
+        "data_out[7]",
+        "data_out[8]",
+        "vdda_q",
+        "vboost",
+        "vccd_q",
+        "sample_width[2]",
+        "vsub_vic",
+        "vsub_agr",
+        "ibias2p5u_out",
+        "data_out[2]",
+        "data_out[1]",
+        "vreflo",
+        "vinp",
+        "vinm",
+        "vrefhi",
+        "vssa_q",
+        "vssa",
+        "refby2",
+        "ibias2p5u",
+        "ibias2p5u_1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "en_startb",
+        "vb2_fast",
+        "vpb",
+        "vgnd",
+        "vnb",
+        "vpwr",
+        "CurrAbsTrim[5]",
+        "finetune",
+        "boost4",
+        "boost7",
+        "boost6",
+        "boost5",
+        "trimCurr[5]",
+        "trimCurr[4]",
+        "trimCurr[3]",
+        "trimCurr[2]",
+        "trimCurr[0]",
+        "trimCurr[1]",
+        "CurrAbsTrim[0]",
+        "CurrAbsTrim[1]",
+        "CurrAbsTrim[2]",
+        "CurrAbsTrim[3]",
+        "CurrAbsTrim[4]",
+        "mux2sel",
+        "mux1sel[0]",
+        "mux1sel[1]",
+        "dft_sel",
+        "pd_ibg",
+        "pd",
+        "trimTC[6]",
+        "trimTC[5]",
+        "trimTC[4]",
+        "trimTC[3]",
+        "trimTC[2]",
+        "trimTC[0]",
+        "trimTC[1]",
+        "inl_ctrl[0]",
+        "inl_ctrl[1]",
+        "vbias_cascode",
+        "vbias",
+        "boost3",
+        "dft_curr_in",
+        "Vout",
+        "ibg_3uA",
+        "ibg_2p375uA",
+        "mux1out",
+        "mux2out",
+        "ictat",
+        "iptat",
+        "inl_ctrl[6]",
+        "inl_ctrl[5]",
+        "inl_ctrl[3]",
+        "inl_ctrl[2]",
+        "pbias_ctat",
+        "vout_ictat",
+        "inl_ctrl[4]"
+      ], [
+        "en_startb",
+        "vb2_fast",
+        "vpb",
+        "vgnd",
+        "vnb",
+        "vpwr",
+        "CurrAbsTrim[5]",
+        "finetune",
+        "boost4",
+        "boost7",
+        "boost6",
+        "boost5",
+        "trimCurr[5]",
+        "trimCurr[4]",
+        "trimCurr[3]",
+        "trimCurr[2]",
+        "trimCurr[0]",
+        "trimCurr[1]",
+        "CurrAbsTrim[0]",
+        "CurrAbsTrim[1]",
+        "CurrAbsTrim[2]",
+        "CurrAbsTrim[3]",
+        "CurrAbsTrim[4]",
+        "mux2sel",
+        "mux1sel[0]",
+        "mux1sel[1]",
+        "dft_sel",
+        "pd_ibg",
+        "pd",
+        "trimTC[6]",
+        "trimTC[5]",
+        "trimTC[4]",
+        "trimTC[3]",
+        "trimTC[2]",
+        "trimTC[0]",
+        "trimTC[1]",
+        "inl_ctrl[0]",
+        "inl_ctrl[1]",
+        "vbias_cascode",
+        "vbias",
+        "boost3",
+        "dft_curr_in",
+        "Vout",
+        "ibg_3uA",
+        "ibg_2p375uA",
+        "mux1out",
+        "mux2out",
+        "ictat",
+        "iptat",
+        "inl_ctrl[6]",
+        "inl_ctrl[5]",
+        "inl_ctrl[3]",
+        "inl_ctrl[2]",
+        "pbias_ctat",
+        "vout_ictat",
+        "inl_ctrl[4]"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_ef_sc_hd__decap_40_12$1",
+      "sky130_ef_sc_hd__decap_40_12"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VPWR",
+        "VGND"
+      ], [
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ], [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__decap_3$1",
+      "sky130_fd_sc_hd__decap_3"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__or2_2$1",
+      "sky130_fd_sc_hd__or2_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 3],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ]
+   ],
+   "nets": [
+    9,
+    9
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VGND",
+        "VNB",
+        "B",
+        "X",
+        "VPWR",
+        "A"
+      ], [
+        "VPB",
+        "VGND",
+        "VNB",
+        "B",
+        "X",
+        "VPWR",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__o211a_2$1",
+      "sky130_fd_sc_hd__o211a_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "VPB",
+        "VNB",
+        "VPWR",
+        "B1",
+        "C1",
+        "X",
+        "A2",
+        "A1"
+      ], [
+        "VGND",
+        "VPB",
+        "VNB",
+        "VPWR",
+        "B1",
+        "C1",
+        "X",
+        "A2",
+        "A1"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__dfxtp_2$1",
+      "sky130_fd_sc_hd__dfxtp_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 8],
+         ["sky130_fd_pr__pfet_01v8_hvt", 12],
+         ["sky130_fd_pr__special_nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 8 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 12 ],
+         ["sky130_fd_pr__special_nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    18,
+    18
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VGND",
+        "VPWR",
+        "D",
+        "Q",
+        "CLK"
+      ], [
+        "VPB",
+        "VNB",
+        "VGND",
+        "VPWR",
+        "D",
+        "Q",
+        "CLK"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__conb_1$1",
+      "sky130_fd_sc_hd__conb_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__res_generic_po", 2 ]
+       ], [
+         ["sky130_fd_pr__res_generic_po", 2 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "LO",
+        "HI",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "LO",
+        "HI",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__o221a_2$1",
+      "sky130_fd_sc_hd__o221a_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "C1",
+        "A2",
+        "B2",
+        "B1",
+        "A1",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "X",
+        "C1",
+        "A2",
+        "B2",
+        "B1",
+        "A1",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a22o_2$1",
+      "sky130_fd_sc_hd__a22o_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "X",
+        "A2",
+        "B1",
+        "A1",
+        "B2",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "X",
+        "A2",
+        "B1",
+        "A1",
+        "B2",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_12$1",
+      "sky130_fd_sc_hd__buf_12"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 2],
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 2 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ], [
+        "X",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_4$1",
+      "sky130_fd_sc_hd__buf_4"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "A"
+      ], [
+        "X",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkdlybuf4s25_1$1",
+      "sky130_fd_sc_hd__clkdlybuf4s25_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    9,
+    9
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB"
+      ], [
+        "X",
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_2$1",
+      "sky130_fd_sc_hd__buf_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nand2_2$1",
+      "sky130_fd_sc_hd__nand2_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    8,
+    8
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "Y",
+        "A",
+        "VNB",
+        "B",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "Y",
+        "A",
+        "VNB",
+        "B",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__dlygate4sd3_1$1",
+      "sky130_fd_sc_hd__dlygate4sd3_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    9,
+    9
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "A",
+        "X",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB"
+      ], [
+        "A",
+        "X",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a2111o_2$1",
+      "sky130_fd_sc_hd__a2111o_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "A1",
+        "X",
+        "A2",
+        "D1",
+        "C1",
+        "B1",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "A1",
+        "X",
+        "A2",
+        "D1",
+        "C1",
+        "B1",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_8$1",
+      "sky130_fd_sc_hd__clkbuf_8"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__diode_2$1",
+      "sky130_fd_sc_hd__diode_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__diode_pw2nd_05v5", 1 ]
+       ], [
+         ["sky130_fd_pr__diode_pw2nd_05v5", 1 ]
+       ]
+   ],
+   "nets": [
+    2,
+    2
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VNB",
+        "DIODE",
+        "VGND",
+        "VPWR",
+        "VPB"
+      ], [
+        "VNB",
+        "DIODE",
+        "VGND",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a221o_2$1",
+      "sky130_fd_sc_hd__a221o_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "B1",
+        "A1",
+        "C1",
+        "A2",
+        "B2",
+        "VPB",
+        "VNB",
+        "VPWR"
+      ], [
+        "VGND",
+        "X",
+        "B1",
+        "A1",
+        "C1",
+        "A2",
+        "B2",
+        "VPB",
+        "VNB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__or4_2$1",
+      "sky130_fd_sc_hd__or4_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "D",
+        "X",
+        "C",
+        "A",
+        "B",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "D",
+        "X",
+        "C",
+        "A",
+        "B",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__or4bb_2$1",
+      "sky130_fd_sc_hd__or4bb_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 7],
+         ["sky130_fd_pr__nfet_01v8", 7 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 7 ],
+         ["sky130_fd_pr__nfet_01v8", 7 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "X",
+        "B",
+        "D_N",
+        "C_N",
+        "A"
+      ], [
+        "VPB",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "X",
+        "B",
+        "D_N",
+        "C_N",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_6$1",
+      "sky130_fd_sc_hd__buf_6"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__and4bb_2$1",
+      "sky130_fd_sc_hd__and4bb_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 7],
+         ["sky130_fd_pr__nfet_01v8", 7 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 7 ],
+         ["sky130_fd_pr__nfet_01v8", 7 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "D",
+        "C",
+        "B_N",
+        "A_N",
+        "VNB",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "X",
+        "D",
+        "C",
+        "B_N",
+        "A_N",
+        "VNB",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__and2_2$1",
+      "sky130_fd_sc_hd__and2_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 3],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ]
+   ],
+   "nets": [
+    9,
+    9
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "VPB",
+        "VNB",
+        "X",
+        "A",
+        "B",
+        "VGND"
+      ], [
+        "VPWR",
+        "VPB",
+        "VNB",
+        "X",
+        "A",
+        "B",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__or3_2$1",
+      "sky130_fd_sc_hd__or3_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "X",
+        "B",
+        "A",
+        "C"
+      ], [
+        "VPB",
+        "VGND",
+        "VNB",
+        "VPWR",
+        "X",
+        "B",
+        "A",
+        "C"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__inv_6$1",
+      "sky130_fd_sc_hd__inv_6"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    6,
+    6
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "A",
+        "Y",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB"
+      ], [
+        "A",
+        "Y",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__and4b_2$1",
+      "sky130_fd_sc_hd__and4b_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ]
+   ],
+   "nets": [
+    14,
+    14
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "D",
+        "A_N",
+        "C",
+        "B",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "X",
+        "D",
+        "A_N",
+        "C",
+        "B",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_4$1",
+      "sky130_fd_sc_hd__clkbuf_4"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "X",
+        "VPB",
+        "A",
+        "VGND",
+        "VNB"
+      ], [
+        "VPWR",
+        "X",
+        "VPB",
+        "A",
+        "VGND",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a21o_2$1",
+      "sky130_fd_sc_hd__a21o_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VNB",
+        "VPB",
+        "A1",
+        "X",
+        "B1",
+        "A2",
+        "VPWR",
+        "VGND"
+      ], [
+        "VNB",
+        "VPB",
+        "A1",
+        "X",
+        "B1",
+        "A2",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkinv_2$1",
+      "sky130_fd_sc_hd__clkinv_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 1],
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 1 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ]
+       ]
+   ],
+   "nets": [
+    6,
+    6
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "Y",
+        "A"
+      ], [
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "Y",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_2$1",
+      "sky130_fd_sc_hd__clkbuf_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "X"
+      ], [
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "X"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_1$1",
+      "sky130_fd_sc_hd__buf_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a211o_2$1",
+      "sky130_fd_sc_hd__a211o_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB",
+        "A1",
+        "B1",
+        "C1",
+        "X",
+        "A2"
+      ], [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB",
+        "A1",
+        "B1",
+        "C1",
+        "X",
+        "A2"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nor4b_4$1",
+      "sky130_fd_sc_hd__nor4b_4"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "C",
+        "A",
+        "B",
+        "D_N",
+        "VPWR",
+        "Y",
+        "VPB",
+        "VGND",
+        "VNB"
+      ], [
+        "C",
+        "A",
+        "B",
+        "D_N",
+        "VPWR",
+        "Y",
+        "VPB",
+        "VGND",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_16$1",
+      "sky130_fd_sc_hd__clkbuf_16"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "X",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ], [
+        "VPWR",
+        "X",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nor4b_2$1",
+      "sky130_fd_sc_hd__nor4b_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ]
+   ],
+   "nets": [
+    13,
+    13
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "Y",
+        "VGND",
+        "VNB",
+        "D_N",
+        "VPWR",
+        "A",
+        "C",
+        "B"
+      ], [
+        "VPB",
+        "Y",
+        "VGND",
+        "VNB",
+        "D_N",
+        "VPWR",
+        "A",
+        "C",
+        "B"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__inv_2$1",
+      "sky130_fd_sc_hd__inv_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    6,
+    6
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "Y",
+        "A"
+      ], [
+        "VGND",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "Y",
+        "A"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "PWR_CTRL_VREF[1]",
+        "EN_RESVDA",
+        "PWR_CTRL_VREF[0]",
+        "pd_vcmbuf",
+        "enable_hv",
+        "PD_BUF_VREF",
+        "vdda",
+        "vda_int",
+        "vccd",
+        "vpwrd_int",
+        "VPUMP",
+        "muxsarref[2]",
+        "muxsarref[1]",
+        "muxsarref[0]",
+        "S_LV[7]",
+        "px_in",
+        "px",
+        "en_pxin_cap",
+        "S_LV[6]",
+        "S_LV[5]",
+        "S_LV[4]",
+        "S_LV[3]",
+        "S_LV[2]",
+        "S_LV[1]",
+        "S_LV[0]",
+        "vssa_shield",
+        "dft_comp_en",
+        "vssa",
+        "vssd",
+        "vref[4]",
+        "vref[3]",
+        "vref[2]",
+        "vref[1]",
+        "vref[0]",
+        "pd",
+        "hiz",
+        "REFBY2",
+        "pd_ana",
+        "IREF_VCMBUF",
+        "sw_start",
+        "refout_en",
+        "sw_holdb",
+        "enpdb_hv",
+        "IREF_VREFBUF",
+        "refout",
+        "REFHI"
+      ], [
+        "PWR_CTRL_VREF[1]",
+        "EN_RESVDA",
+        "PWR_CTRL_VREF[0]",
+        "pd_vcmbuf",
+        "enable_hv",
+        "PD_BUF_VREF",
+        "vdda",
+        "vda_int",
+        "vccd",
+        "vpwrd_int",
+        "VPUMP",
+        "muxsarref[2]",
+        "muxsarref[1]",
+        "muxsarref[0]",
+        "S_LV[7]",
+        "px_in",
+        "px",
+        "en_pxin_cap",
+        "S_LV[6]",
+        "S_LV[5]",
+        "S_LV[4]",
+        "S_LV[3]",
+        "S_LV[2]",
+        "S_LV[1]",
+        "S_LV[0]",
+        "vssa_shield",
+        "dft_comp_en",
+        "vssa",
+        "vssd",
+        "vref[4]",
+        "vref[3]",
+        "vref[2]",
+        "vref[1]",
+        "vref[0]",
+        "pd",
+        "hiz",
+        "REFBY2",
+        "pd_ana",
+        "IREF_VCMBUF",
+        "sw_start",
+        "refout_en",
+        "sw_holdb",
+        "enpdb_hv",
+        "IREF_VREFBUF",
+        "refout",
+        "REFHI"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "nbias",
+        "vpbe",
+        "pd",
+        "ch_cont",
+        "vpwr",
+        "ch1",
+        "switchon",
+        "out",
+        "switchoff",
+        "ref_1v2",
+        "vnb",
+        "vpb",
+        "vgnd",
+        "ng",
+        "boost",
+        "vpwre",
+        "ch2"
+      ], [
+        "nbias",
+        "vpbe",
+        "pd",
+        "ch_cont",
+        "vpwr",
+        "ch1",
+        "switchon",
+        "out",
+        "switchoff",
+        "ref_1v2",
+        "vnb",
+        "vpb",
+        "vgnd",
+        "ng",
+        "boost",
+        "vpwre",
+        "ch2"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "tp",
+        "vpb_a",
+        "vnb",
+        "vgnd_a",
+        "clk2_boost",
+        "clk1_boostr",
+        "vpwr_a",
+        "ion",
+        "iop",
+        "e_pd",
+        "en_pd",
+        "vinp_n",
+        "vinn_n",
+        "vinp_na",
+        "vinn_na",
+        "vinn_p",
+        "vinp_p",
+        "e_na_boost",
+        "e_n_boost",
+        "vbpt",
+        "vbpcis",
+        "vbncis",
+        "vout",
+        "vbpci",
+        "vbnt",
+        "ibias",
+        "vbnci",
+        "vbpcid",
+        "vbptd",
+        "vbnc",
+        "vbpc",
+        "vbpb"
+      ], [
+        "tp",
+        "vpb_a",
+        "vnb",
+        "vgnd_a",
+        "clk2_boost",
+        "clk1_boostr",
+        "vpwr_a",
+        "ion",
+        "iop",
+        "e_pd",
+        "en_pd",
+        "vinp_n",
+        "vinn_n",
+        "vinp_na",
+        "vinn_na",
+        "vinn_p",
+        "vinp_p",
+        "e_na_boost",
+        "e_n_boost",
+        "vbpt",
+        "vbpcis",
+        "vbncis",
+        "vout",
+        "vbpci",
+        "vbnt",
+        "ibias",
+        "vbnci",
+        "vbpcid",
+        "vbptd",
+        "vbnc",
+        "vbpc",
+        "vbpb"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "CF_ADC_SAR12",
+      "CF_ADC_SAR12"
+   ],
+   "devices": [
+       [
+         ["CF_ADC_SAR12_core", 1 ]
+       ], [
+         ["CF_ADC_SAR12_core", 1 ]
+       ]
+   ],
+   "nets": [
+    89,
+    89
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "en_pump_lv",
+        "sample_width[9]",
+        "sample_width[8]",
+        "sample_width[7]",
+        "sample_width[6]",
+        "sample_width[5]",
+        "sample_width[4]",
+        "sample_width[3]",
+        "sample_width[2]",
+        "sample_width[1]",
+        "sample_width[0]",
+        "vreflo",
+        "resolution[1]",
+        "resolution[0]",
+        "scan_test_mode",
+        "test_scanin",
+        "test_scanen",
+        "test_scanout",
+        "en_csel_dft",
+        "sel_csel_dft[3]",
+        "sel_csel_dft[2]",
+        "sel_csel_dft[1]",
+        "sel_csel_dft[0]",
+        "hiz",
+        "sof",
+        "test_sea",
+        "reset_n",
+        "eof",
+        "data_out[11]",
+        "data_out[10]",
+        "data_out[9]",
+        "data_out[8]",
+        "data_out[7]",
+        "data_out[6]",
+        "data_out[5]",
+        "data_out[4]",
+        "data_out[3]",
+        "data_out[2]",
+        "data_out[1]",
+        "data_out[0]",
+        "iso_en",
+        "next",
+        "vinp",
+        "vinm",
+        "vrefhi",
+        "vssa_q",
+        "dft_inp",
+        "dft_inm",
+        "dft_op",
+        "dft_om",
+        "trimunit",
+        "vpwr_lv_int",
+        "vdda",
+        "vdda_q",
+        "vgnd",
+        "VPUMP",
+        "vboost",
+        "vssa",
+        "refby2",
+        "cap_trim[2]",
+        "cap_trim[1]",
+        "cap_trim[0]",
+        "pumpclk",
+        "dft_enc",
+        "pd",
+        "pd_ana",
+        "refclk",
+        "dft_inc[3]",
+        "dft_inc[2]",
+        "dft_inc[1]",
+        "dft_inc[0]",
+        "dft_outc[2]",
+        "dft_outc[1]",
+        "dft_outc[0]",
+        "vccd_q",
+        "vpwr_int",
+        "vpwr",
+        "vpwrd_int",
+        "icont_lv[1]",
+        "icont_lv[0]",
+        "vsub_vic",
+        "vsub_agr",
+        "dly_inc",
+        "dcen",
+        "ibiasin",
+        "ibias2p5u",
+        "ibias2p5u_out",
+        "ibias2p5u_1",
+        "enable_hv"
+      ], [
+        "en_pump_lv",
+        "sample_width[9]",
+        "sample_width[8]",
+        "sample_width[7]",
+        "sample_width[6]",
+        "sample_width[5]",
+        "sample_width[4]",
+        "sample_width[3]",
+        "sample_width[2]",
+        "sample_width[1]",
+        "sample_width[0]",
+        "vreflo",
+        "resolution[1]",
+        "resolution[0]",
+        "scan_test_mode",
+        "test_scanin",
+        "test_scanen",
+        "test_scanout",
+        "en_csel_dft",
+        "sel_csel_dft[3]",
+        "sel_csel_dft[2]",
+        "sel_csel_dft[1]",
+        "sel_csel_dft[0]",
+        "hiz",
+        "sof",
+        "test_sea",
+        "reset_n",
+        "eof",
+        "data_out[11]",
+        "data_out[10]",
+        "data_out[9]",
+        "data_out[8]",
+        "data_out[7]",
+        "data_out[6]",
+        "data_out[5]",
+        "data_out[4]",
+        "data_out[3]",
+        "data_out[2]",
+        "data_out[1]",
+        "data_out[0]",
+        "iso_en",
+        "next",
+        "vinp",
+        "vinm",
+        "vrefhi",
+        "vssa_q",
+        "dft_inp",
+        "dft_inm",
+        "dft_op",
+        "dft_om",
+        "trimunit",
+        "vpwr_lv_int",
+        "vdda",
+        "vdda_q",
+        "vgnd",
+        "VPUMP",
+        "vboost",
+        "vssa",
+        "refby2",
+        "cap_trim[2]",
+        "cap_trim[1]",
+        "cap_trim[0]",
+        "pumpclk",
+        "dft_enc",
+        "pd",
+        "pd_ana",
+        "refclk",
+        "dft_inc[3]",
+        "dft_inc[2]",
+        "dft_inc[1]",
+        "dft_inc[0]",
+        "dft_outc[2]",
+        "dft_outc[1]",
+        "dft_outc[0]",
+        "vccd_q",
+        "vpwr_int",
+        "vpwr",
+        "vpwrd_int",
+        "icont_lv[1]",
+        "icont_lv[0]",
+        "vsub_vic",
+        "vsub_agr",
+        "dly_inc",
+        "dcen",
+        "ibiasin",
+        "ibias2p5u",
+        "ibias2p5u_out",
+        "ibias2p5u_1",
+        "enable_hv"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "CF_BGR",
+      "CF_BGR"
+   ],
+   "devices": [
+       [
+         ["CF_BGR_core", 1 ]
+       ], [
+         ["CF_BGR_core", 1 ]
+       ]
+   ],
+   "nets": [
+    54,
+    54
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vgnd",
+        "vpwr",
+        "Vout",
+        "ictat",
+        "iptat",
+        "ibg_2p375uA",
+        "ibg_3uA",
+        "mux1out",
+        "mux2out",
+        "vbias",
+        "vbias_cascode",
+        "boost3",
+        "boost4",
+        "boost5",
+        "boost6",
+        "boost7",
+        "vb2_fast",
+        "en_startb",
+        "dft_curr_in",
+        "dft_sel",
+        "mux1sel[1]",
+        "mux1sel[0]",
+        "mux2sel",
+        "pd",
+        "pd_ibg",
+        "trimCurr[5]",
+        "trimCurr[4]",
+        "trimCurr[3]",
+        "trimCurr[2]",
+        "trimCurr[1]",
+        "trimCurr[0]",
+        "trimTC[6]",
+        "trimTC[5]",
+        "trimTC[4]",
+        "trimTC[3]",
+        "trimTC[2]",
+        "trimTC[1]",
+        "trimTC[0]",
+        "finetune",
+        "CurrAbsTrim[5]",
+        "CurrAbsTrim[4]",
+        "CurrAbsTrim[3]",
+        "CurrAbsTrim[2]",
+        "CurrAbsTrim[1]",
+        "CurrAbsTrim[0]",
+        "inl_ctrl[6]",
+        "inl_ctrl[5]",
+        "inl_ctrl[4]",
+        "inl_ctrl[3]",
+        "inl_ctrl[2]",
+        "inl_ctrl[1]",
+        "inl_ctrl[0]",
+        "vout_ictat",
+        "pbias_ctat"
+      ], [
+        "vgnd",
+        "vpwr",
+        "Vout",
+        "ictat",
+        "iptat",
+        "ibg_2p375uA",
+        "ibg_3uA",
+        "mux1out",
+        "mux2out",
+        "vbias",
+        "vbias_cascode",
+        "boost3",
+        "boost4",
+        "boost5",
+        "boost6",
+        "boost7",
+        "vb2_fast",
+        "en_startb",
+        "dft_curr_in",
+        "dft_sel",
+        "mux1sel[1]",
+        "mux1sel[0]",
+        "mux2sel",
+        "pd",
+        "pd_ibg",
+        "trimCurr[5]",
+        "trimCurr[4]",
+        "trimCurr[3]",
+        "trimCurr[2]",
+        "trimCurr[1]",
+        "trimCurr[0]",
+        "trimTC[6]",
+        "trimTC[5]",
+        "trimTC[4]",
+        "trimTC[3]",
+        "trimTC[2]",
+        "trimTC[1]",
+        "trimTC[0]",
+        "finetune",
+        "CurrAbsTrim[5]",
+        "CurrAbsTrim[4]",
+        "CurrAbsTrim[3]",
+        "CurrAbsTrim[2]",
+        "CurrAbsTrim[1]",
+        "CurrAbsTrim[0]",
+        "inl_ctrl[6]",
+        "inl_ctrl[5]",
+        "inl_ctrl[4]",
+        "inl_ctrl[3]",
+        "inl_ctrl[2]",
+        "inl_ctrl[1]",
+        "inl_ctrl[0]",
+        "vout_ictat",
+        "pbias_ctat"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "afe_wb",
+      "afe_wb"
+   ],
+   "devices": [
+       [
+         ["sky130_ef_sc_hd__decap_40_12$1", 1],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1$1", 1],
+         ["sky130_fd_sc_hd__fill_2$1", 1],
+         ["sky130_fd_sc_hd__fill_4$1", 1],
+         ["sky130_fd_sc_hd__fill_1$1", 1],
+         ["sky130_fd_sc_hd__decap_3$1", 1],
+         ["sky130_fd_sc_hd__fill_8$1", 1],
+         ["sky130_fd_sc_hd__or2_2$1", 256],
+         ["sky130_fd_sc_hd__o211a_2$1", 256],
+         ["sky130_fd_sc_hd__dfxtp_2$1", 289],
+         ["sky130_fd_sc_hd__conb_1$1", 63],
+         ["sky130_fd_sc_hd__o221a_2$1", 32],
+         ["sky130_fd_sc_hd__a22o_2$1", 96],
+         ["sky130_fd_sc_hd__buf_12$1", 149],
+         ["sky130_fd_sc_hd__buf_4$1", 209],
+         ["sky130_fd_sc_hd__clkdlybuf4s25_1$1", 111],
+         ["sky130_fd_sc_hd__buf_2$1", 91],
+         ["sky130_fd_sc_hd__nand2_2$1", 9],
+         ["sky130_fd_sc_hd__dlygate4sd3_1$1", 250],
+         ["sky130_fd_sc_hd__a2111o_2$1", 21],
+         ["sky130_fd_sc_hd__clkbuf_8$1", 48],
+         ["sky130_fd_sc_hd__diode_2$1", 10],
+         ["sky130_fd_sc_hd__a221o_2$1", 22],
+         ["sky130_fd_sc_hd__or4_2$1", 2],
+         ["sky130_fd_sc_hd__or4bb_2$1", 1],
+         ["sky130_fd_sc_hd__buf_6$1", 13],
+         ["sky130_fd_sc_hd__and4bb_2$1", 5],
+         ["sky130_fd_sc_hd__and2_2$1", 8],
+         ["sky130_fd_sc_hd__or3_2$1", 9],
+         ["sky130_fd_sc_hd__inv_6$1", 1],
+         ["sky130_fd_sc_hd__and4b_2$1", 3],
+         ["sky130_fd_sc_hd__clkbuf_4$1", 16],
+         ["sky130_fd_sc_hd__a21o_2$1", 11],
+         ["sky130_fd_sc_hd__clkinv_2$1", 3],
+         ["sky130_fd_sc_hd__clkbuf_2$1", 2],
+         ["sky130_fd_sc_hd__buf_1$1", 8],
+         ["sky130_fd_sc_hd__a211o_2$1", 1],
+         ["sky130_fd_sc_hd__nor4b_4$1", 2],
+         ["sky130_fd_sc_hd__clkbuf_16$1", 5],
+         ["sky130_fd_sc_hd__nor4b_2$1", 2],
+         ["sky130_fd_sc_hd__inv_2$1", 1 ]
+       ], [
+         ["sky130_ef_sc_hd__decap_40_12", 1 ],
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 1 ],
+         ["sky130_fd_sc_hd__fill_2", 1 ],
+         ["sky130_fd_sc_hd__fill_4", 1 ],
+         ["sky130_fd_sc_hd__fill_1", 1 ],
+         ["sky130_fd_sc_hd__decap_3", 1 ],
+         ["sky130_fd_sc_hd__fill_8", 1 ],
+         ["sky130_fd_sc_hd__or2_2", 256 ],
+         ["sky130_fd_sc_hd__o211a_2", 256 ],
+         ["sky130_fd_sc_hd__dfxtp_2", 289 ],
+         ["sky130_fd_sc_hd__conb_1", 63 ],
+         ["sky130_fd_sc_hd__o221a_2", 32 ],
+         ["sky130_fd_sc_hd__a22o_2", 96 ],
+         ["sky130_fd_sc_hd__buf_12", 149 ],
+         ["sky130_fd_sc_hd__buf_4", 209 ],
+         ["sky130_fd_sc_hd__clkdlybuf4s25_1", 111 ],
+         ["sky130_fd_sc_hd__buf_2", 91 ],
+         ["sky130_fd_sc_hd__nand2_2", 9 ],
+         ["sky130_fd_sc_hd__dlygate4sd3_1", 250 ],
+         ["sky130_fd_sc_hd__a2111o_2", 21 ],
+         ["sky130_fd_sc_hd__clkbuf_8", 48 ],
+         ["sky130_fd_sc_hd__diode_2", 10 ],
+         ["sky130_fd_sc_hd__a221o_2", 22 ],
+         ["sky130_fd_sc_hd__or4_2", 2 ],
+         ["sky130_fd_sc_hd__or4bb_2", 1 ],
+         ["sky130_fd_sc_hd__buf_6", 13 ],
+         ["sky130_fd_sc_hd__and4bb_2", 5 ],
+         ["sky130_fd_sc_hd__and2_2", 8 ],
+         ["sky130_fd_sc_hd__or3_2", 9 ],
+         ["sky130_fd_sc_hd__inv_6", 1 ],
+         ["sky130_fd_sc_hd__and4b_2", 3 ],
+         ["sky130_fd_sc_hd__clkbuf_4", 16 ],
+         ["sky130_fd_sc_hd__a21o_2", 11 ],
+         ["sky130_fd_sc_hd__clkinv_2", 3 ],
+         ["sky130_fd_sc_hd__clkbuf_2", 2 ],
+         ["sky130_fd_sc_hd__buf_1", 8 ],
+         ["sky130_fd_sc_hd__a211o_2", 1 ],
+         ["sky130_fd_sc_hd__nor4b_4", 2 ],
+         ["sky130_fd_sc_hd__clkbuf_16", 5 ],
+         ["sky130_fd_sc_hd__nor4b_2", 2 ],
+         ["sky130_fd_sc_hd__inv_2", 1 ]
+       ]
+   ],
+   "nets": [
+    2114,
+    2114
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "analog_io_oeb[24]",
+        "analog_io_oeb[3]",
+        "analog_io_oeb[13]",
+        "analog_io_oeb[2]",
+        "analog_io_oeb[12]",
+        "analog_io_oeb[1]",
+        "analog_io_oeb[23]",
+        "analog_io_oeb[11]",
+        "analog_io_oeb[22]",
+        "analog_io_oeb[0]",
+        "analog_io_oeb[10]",
+        "analog_io_oeb[21]",
+        "analog_io_oeb[20]",
+        "analog_io_oeb[9]",
+        "analog_io_oeb[19]",
+        "analog_io_oeb[8]",
+        "analog_io_oeb[7]",
+        "analog_io_oeb[18]",
+        "analog_io_oeb[6]",
+        "analog_io_oeb[17]",
+        "analog_io_oeb[5]",
+        "analog_io_oeb[16]",
+        "analog_io_oeb[27]",
+        "analog_io_oeb[4]",
+        "analog_io_oeb[15]",
+        "analog_io_oeb[26]",
+        "analog_io_oeb[14]",
+        "analog_io_oeb[25]",
+        "analog_ctrl[7]",
+        "analog_io_out[1]",
+        "analog_io_out[11]",
+        "analog_io_out[0]",
+        "analog_io_out[21]",
+        "analog_io_out[10]",
+        "analog_ctrl[103]",
+        "analog_io_out[20]",
+        "analog_io_out[9]",
+        "analog_ctrl[102]",
+        "analog_io_out[8]",
+        "analog_io_out[19]",
+        "analog_ctrl[101]",
+        "analog_io_out[7]",
+        "analog_io_out[18]",
+        "analog_ctrl[100]",
+        "analog_io_out[6]",
+        "analog_io_out[17]",
+        "analog_ctrl[99]",
+        "analog_io_out[5]",
+        "analog_io_out[16]",
+        "analog_io_out[27]",
+        "analog_ctrl[98]",
+        "analog_io_out[4]",
+        "analog_io_out[15]",
+        "analog_io_out[26]",
+        "analog_io_out[14]",
+        "analog_io_out[25]",
+        "analog_io_out[3]",
+        "analog_io_out[13]",
+        "analog_io_out[24]",
+        "analog_io_out[2]",
+        "analog_io_out[23]",
+        "analog_io_out[12]",
+        "analog_io_out[22]",
+        "wb_clk_i",
+        "wbs_dat_i[2]",
+        "wbs_adr_i[5]",
+        "wbs_adr_i[2]",
+        "wbs_adr_i[3]",
+        "wbs_adr_i[4]",
+        "wbs_dat_i[4]",
+        "wbs_dat_i[3]",
+        "wbs_dat_i[1]",
+        "wbs_dat_i[0]",
+        "wbs_dat_i[5]",
+        "wbs_dat_i[10]",
+        "wbs_dat_i[12]",
+        "wbs_dat_i[8]",
+        "wbs_dat_i[7]",
+        "wbs_dat_i[9]",
+        "wbs_dat_i[14]",
+        "wbs_dat_i[6]",
+        "wbs_dat_i[11]",
+        "wbs_dat_i[31]",
+        "wbs_dat_i[30]",
+        "wbs_dat_i[27]",
+        "wbs_dat_i[21]",
+        "wbs_dat_i[28]",
+        "wbs_dat_i[26]",
+        "wbs_dat_i[19]",
+        "wbs_dat_i[25]",
+        "wbs_dat_i[29]",
+        "wbs_dat_i[24]",
+        "wbs_dat_i[16]",
+        "wbs_dat_i[18]",
+        "wbs_dat_i[22]",
+        "wbs_dat_i[15]",
+        "wbs_dat_i[20]",
+        "wbs_dat_i[13]",
+        "wbs_dat_i[23]",
+        "wbs_dat_i[17]",
+        "wbs_cyc_i",
+        "wbs_stb_i",
+        "wbs_we_i",
+        "wb_rst_i",
+        "adc_eof",
+        "adc_data[4]",
+        "adc_data[2]",
+        "adc_data[7]",
+        "adc_data[8]",
+        "adc_data[11]",
+        "adc_data[9]",
+        "adc_data[10]",
+        "adc_data[1]",
+        "adc_data[3]",
+        "adc_data[5]",
+        "adc_data[6]",
+        "adc_data[0]",
+        "wbs_ack_o",
+        "analog_ctrl[84]",
+        "analog_ctrl[72]",
+        "wbs_dat_o[3]",
+        "wbs_dat_o[10]",
+        "analog_ctrl[95]",
+        "analog_ctrl[94]",
+        "analog_ctrl[93]",
+        "analog_ctrl[92]",
+        "analog_ctrl[91]",
+        "analog_ctrl[90]",
+        "analog_ctrl[88]",
+        "analog_ctrl[87]",
+        "analog_ctrl[86]",
+        "analog_ctrl[89]",
+        "analog_ctrl[85]",
+        "analog_ctrl[81]",
+        "analog_ctrl[80]",
+        "analog_ctrl[82]",
+        "analog_ctrl[83]",
+        "analog_ctrl[79]",
+        "analog_ctrl[78]",
+        "analog_ctrl[77]",
+        "analog_ctrl[76]",
+        "analog_ctrl[75]",
+        "analog_ctrl[74]",
+        "analog_ctrl[73]",
+        "analog_ctrl[71]",
+        "analog_ctrl[70]",
+        "analog_ctrl[69]",
+        "analog_ctrl[68]",
+        "analog_ctrl[67]",
+        "analog_ctrl[66]",
+        "analog_ctrl[65]",
+        "analog_ctrl[64]",
+        "analog_ctrl[31]",
+        "wbs_dat_o[9]",
+        "wbs_dat_o[7]",
+        "wbs_dat_o[8]",
+        "wbs_dat_o[6]",
+        "wbs_dat_o[5]",
+        "wbs_dat_o[4]",
+        "wbs_dat_o[30]",
+        "wbs_dat_o[31]",
+        "wbs_dat_o[2]",
+        "wbs_dat_o[28]",
+        "wbs_dat_o[26]",
+        "wbs_dat_o[27]",
+        "wbs_dat_o[29]",
+        "wbs_dat_o[23]",
+        "wbs_dat_o[1]",
+        "wbs_dat_o[14]",
+        "wbs_dat_o[24]",
+        "wbs_dat_o[15]",
+        "wbs_dat_o[25]",
+        "wbs_dat_o[16]",
+        "wbs_dat_o[17]",
+        "wbs_dat_o[18]",
+        "wbs_dat_o[19]",
+        "wbs_dat_o[20]",
+        "wbs_dat_o[21]",
+        "wbs_dat_o[22]",
+        "wbs_dat_o[13]",
+        "wbs_dat_o[12]",
+        "wbs_dat_o[11]",
+        "wbs_dat_o[0]",
+        "analog_ctrl[53]",
+        "analog_ctrl[40]",
+        "analog_ctrl[42]",
+        "analog_ctrl[52]",
+        "analog_ctrl[107]",
+        "analog_ctrl[108]",
+        "analog_ctrl[34]",
+        "analog_ctrl[54]",
+        "analog_ctrl[44]",
+        "analog_ctrl[6]",
+        "analog_ctrl[35]",
+        "analog_ctrl[45]",
+        "analog_ctrl[8]",
+        "analog_ctrl[46]",
+        "analog_ctrl[36]",
+        "analog_ctrl[47]",
+        "analog_ctrl[37]",
+        "analog_ctrl[38]",
+        "analog_ctrl[26]",
+        "analog_ctrl[18]",
+        "analog_ctrl[28]",
+        "analog_ctrl[27]",
+        "analog_ctrl[119]",
+        "analog_ctrl[19]",
+        "analog_ctrl[29]",
+        "analog_ctrl[110]",
+        "analog_ctrl[120]",
+        "analog_ctrl[2]",
+        "analog_ctrl[121]",
+        "analog_ctrl[30]",
+        "analog_ctrl[112]",
+        "analog_ctrl[122]",
+        "analog_ctrl[21]",
+        "analog_ctrl[113]",
+        "analog_ctrl[111]",
+        "analog_ctrl[32]",
+        "analog_ctrl[22]",
+        "analog_ctrl[12]",
+        "analog_ctrl[33]",
+        "analog_ctrl[23]",
+        "analog_ctrl[14]",
+        "analog_ctrl[11]",
+        "analog_ctrl[24]",
+        "analog_ctrl[43]",
+        "analog_ctrl[115]",
+        "analog_ctrl[15]",
+        "analog_ctrl[25]",
+        "analog_ctrl[17]",
+        "analog_ctrl[116]",
+        "analog_ctrl[20]",
+        "analog_ctrl[16]",
+        "analog_ctrl[117]",
+        "analog_ctrl[55]",
+        "analog_ctrl[118]",
+        "analog_ctrl[114]",
+        "analog_ctrl[109]",
+        "analog_ctrl[57]",
+        "analog_ctrl[56]",
+        "analog_ctrl[97]",
+        "analog_ctrl[58]",
+        "analog_ctrl[48]",
+        "analog_ctrl[13]",
+        "analog_ctrl[10]",
+        "analog_ctrl[9]",
+        "analog_ctrl[59]",
+        "analog_ctrl[49]",
+        "analog_ctrl[39]",
+        "analog_ctrl[0]",
+        "analog_ctrl[5]",
+        "analog_ctrl[1]",
+        "analog_ctrl[4]",
+        "analog_ctrl[3]",
+        "analog_ctrl[104]",
+        "analog_ctrl[96]",
+        "analog_ctrl[50]",
+        "analog_ctrl[63]",
+        "analog_ctrl[62]",
+        "analog_ctrl[60]",
+        "analog_ctrl[105]",
+        "analog_ctrl[51]",
+        "analog_ctrl[41]",
+        "analog_ctrl[61]",
+        "analog_ctrl[106]",
+        "vssd1",
+        "vccd1",
+        "wbs_adr_i[15]",
+        "wbs_adr_i[16]",
+        "wbs_adr_i[17]",
+        "wbs_adr_i[18]",
+        "wbs_adr_i[19]",
+        "wbs_adr_i[20]",
+        "wbs_adr_i[21]",
+        "wbs_adr_i[22]",
+        "wbs_adr_i[23]",
+        "wbs_adr_i[24]",
+        "wbs_adr_i[25]",
+        "wbs_adr_i[26]",
+        "wbs_adr_i[27]",
+        "wbs_adr_i[28]",
+        "wbs_adr_i[29]",
+        "wbs_adr_i[30]",
+        "wbs_adr_i[31]",
+        "wbs_adr_i[6]",
+        "wbs_adr_i[7]",
+        "wbs_adr_i[8]",
+        "wbs_adr_i[9]",
+        "wbs_adr_i[13]",
+        "wbs_adr_i[14]",
+        "wbs_adr_i[0]",
+        "wbs_adr_i[10]",
+        "wbs_adr_i[1]",
+        "wbs_adr_i[11]",
+        "wbs_adr_i[12]",
+        "wbs_sel_i[0]",
+        "wbs_sel_i[1]",
+        "wbs_sel_i[2]",
+        "wbs_sel_i[3]"
+      ], [
+        "analog_io_oeb[24]",
+        "analog_io_oeb[3]",
+        "analog_io_oeb[13]",
+        "analog_io_oeb[2]",
+        "analog_io_oeb[12]",
+        "analog_io_oeb[1]",
+        "analog_io_oeb[23]",
+        "analog_io_oeb[11]",
+        "analog_io_oeb[22]",
+        "analog_io_oeb[0]",
+        "analog_io_oeb[10]",
+        "analog_io_oeb[21]",
+        "analog_io_oeb[20]",
+        "analog_io_oeb[9]",
+        "analog_io_oeb[19]",
+        "analog_io_oeb[8]",
+        "analog_io_oeb[7]",
+        "analog_io_oeb[18]",
+        "analog_io_oeb[6]",
+        "analog_io_oeb[17]",
+        "analog_io_oeb[5]",
+        "analog_io_oeb[16]",
+        "analog_io_oeb[27]",
+        "analog_io_oeb[4]",
+        "analog_io_oeb[15]",
+        "analog_io_oeb[26]",
+        "analog_io_oeb[14]",
+        "analog_io_oeb[25]",
+        "analog_ctrl[7]",
+        "analog_io_out[1]",
+        "analog_io_out[11]",
+        "analog_io_out[0]",
+        "analog_io_out[21]",
+        "analog_io_out[10]",
+        "analog_ctrl[103]",
+        "analog_io_out[20]",
+        "analog_io_out[9]",
+        "analog_ctrl[102]",
+        "analog_io_out[8]",
+        "analog_io_out[19]",
+        "analog_ctrl[101]",
+        "analog_io_out[7]",
+        "analog_io_out[18]",
+        "analog_ctrl[100]",
+        "analog_io_out[6]",
+        "analog_io_out[17]",
+        "analog_ctrl[99]",
+        "analog_io_out[5]",
+        "analog_io_out[16]",
+        "analog_io_out[27]",
+        "analog_ctrl[98]",
+        "analog_io_out[4]",
+        "analog_io_out[15]",
+        "analog_io_out[26]",
+        "analog_io_out[14]",
+        "analog_io_out[25]",
+        "analog_io_out[3]",
+        "analog_io_out[13]",
+        "analog_io_out[24]",
+        "analog_io_out[2]",
+        "analog_io_out[23]",
+        "analog_io_out[12]",
+        "analog_io_out[22]",
+        "wb_clk_i",
+        "wbs_dat_i[2]",
+        "wbs_adr_i[5]",
+        "wbs_adr_i[2]",
+        "wbs_adr_i[3]",
+        "wbs_adr_i[4]",
+        "wbs_dat_i[4]",
+        "wbs_dat_i[3]",
+        "wbs_dat_i[1]",
+        "wbs_dat_i[0]",
+        "wbs_dat_i[5]",
+        "wbs_dat_i[10]",
+        "wbs_dat_i[12]",
+        "wbs_dat_i[8]",
+        "wbs_dat_i[7]",
+        "wbs_dat_i[9]",
+        "wbs_dat_i[14]",
+        "wbs_dat_i[6]",
+        "wbs_dat_i[11]",
+        "wbs_dat_i[31]",
+        "wbs_dat_i[30]",
+        "wbs_dat_i[27]",
+        "wbs_dat_i[21]",
+        "wbs_dat_i[28]",
+        "wbs_dat_i[26]",
+        "wbs_dat_i[19]",
+        "wbs_dat_i[25]",
+        "wbs_dat_i[29]",
+        "wbs_dat_i[24]",
+        "wbs_dat_i[16]",
+        "wbs_dat_i[18]",
+        "wbs_dat_i[22]",
+        "wbs_dat_i[15]",
+        "wbs_dat_i[20]",
+        "wbs_dat_i[13]",
+        "wbs_dat_i[23]",
+        "wbs_dat_i[17]",
+        "wbs_cyc_i",
+        "wbs_stb_i",
+        "wbs_we_i",
+        "wb_rst_i",
+        "adc_eof",
+        "adc_data[4]",
+        "adc_data[2]",
+        "adc_data[7]",
+        "adc_data[8]",
+        "adc_data[11]",
+        "adc_data[9]",
+        "adc_data[10]",
+        "adc_data[1]",
+        "adc_data[3]",
+        "adc_data[5]",
+        "adc_data[6]",
+        "adc_data[0]",
+        "wbs_ack_o",
+        "analog_ctrl[84]",
+        "analog_ctrl[72]",
+        "wbs_dat_o[3]",
+        "wbs_dat_o[10]",
+        "analog_ctrl[95]",
+        "analog_ctrl[94]",
+        "analog_ctrl[93]",
+        "analog_ctrl[92]",
+        "analog_ctrl[91]",
+        "analog_ctrl[90]",
+        "analog_ctrl[88]",
+        "analog_ctrl[87]",
+        "analog_ctrl[86]",
+        "analog_ctrl[89]",
+        "analog_ctrl[85]",
+        "analog_ctrl[81]",
+        "analog_ctrl[80]",
+        "analog_ctrl[82]",
+        "analog_ctrl[83]",
+        "analog_ctrl[79]",
+        "analog_ctrl[78]",
+        "analog_ctrl[77]",
+        "analog_ctrl[76]",
+        "analog_ctrl[75]",
+        "analog_ctrl[74]",
+        "analog_ctrl[73]",
+        "analog_ctrl[71]",
+        "analog_ctrl[70]",
+        "analog_ctrl[69]",
+        "analog_ctrl[68]",
+        "analog_ctrl[67]",
+        "analog_ctrl[66]",
+        "analog_ctrl[65]",
+        "analog_ctrl[64]",
+        "analog_ctrl[31]",
+        "wbs_dat_o[9]",
+        "wbs_dat_o[7]",
+        "wbs_dat_o[8]",
+        "wbs_dat_o[6]",
+        "wbs_dat_o[5]",
+        "wbs_dat_o[4]",
+        "wbs_dat_o[30]",
+        "wbs_dat_o[31]",
+        "wbs_dat_o[2]",
+        "wbs_dat_o[28]",
+        "wbs_dat_o[26]",
+        "wbs_dat_o[27]",
+        "wbs_dat_o[29]",
+        "wbs_dat_o[23]",
+        "wbs_dat_o[1]",
+        "wbs_dat_o[14]",
+        "wbs_dat_o[24]",
+        "wbs_dat_o[15]",
+        "wbs_dat_o[25]",
+        "wbs_dat_o[16]",
+        "wbs_dat_o[17]",
+        "wbs_dat_o[18]",
+        "wbs_dat_o[19]",
+        "wbs_dat_o[20]",
+        "wbs_dat_o[21]",
+        "wbs_dat_o[22]",
+        "wbs_dat_o[13]",
+        "wbs_dat_o[12]",
+        "wbs_dat_o[11]",
+        "wbs_dat_o[0]",
+        "analog_ctrl[53]",
+        "analog_ctrl[40]",
+        "analog_ctrl[42]",
+        "analog_ctrl[52]",
+        "analog_ctrl[107]",
+        "analog_ctrl[108]",
+        "analog_ctrl[34]",
+        "analog_ctrl[54]",
+        "analog_ctrl[44]",
+        "analog_ctrl[6]",
+        "analog_ctrl[35]",
+        "analog_ctrl[45]",
+        "analog_ctrl[8]",
+        "analog_ctrl[46]",
+        "analog_ctrl[36]",
+        "analog_ctrl[47]",
+        "analog_ctrl[37]",
+        "analog_ctrl[38]",
+        "analog_ctrl[26]",
+        "analog_ctrl[18]",
+        "analog_ctrl[28]",
+        "analog_ctrl[27]",
+        "analog_ctrl[119]",
+        "analog_ctrl[19]",
+        "analog_ctrl[29]",
+        "analog_ctrl[110]",
+        "analog_ctrl[120]",
+        "analog_ctrl[2]",
+        "analog_ctrl[121]",
+        "analog_ctrl[30]",
+        "analog_ctrl[112]",
+        "analog_ctrl[122]",
+        "analog_ctrl[21]",
+        "analog_ctrl[113]",
+        "analog_ctrl[111]",
+        "analog_ctrl[32]",
+        "analog_ctrl[22]",
+        "analog_ctrl[12]",
+        "analog_ctrl[33]",
+        "analog_ctrl[23]",
+        "analog_ctrl[14]",
+        "analog_ctrl[11]",
+        "analog_ctrl[24]",
+        "analog_ctrl[43]",
+        "analog_ctrl[115]",
+        "analog_ctrl[15]",
+        "analog_ctrl[25]",
+        "analog_ctrl[17]",
+        "analog_ctrl[116]",
+        "analog_ctrl[20]",
+        "analog_ctrl[16]",
+        "analog_ctrl[117]",
+        "analog_ctrl[55]",
+        "analog_ctrl[118]",
+        "analog_ctrl[114]",
+        "analog_ctrl[109]",
+        "analog_ctrl[57]",
+        "analog_ctrl[56]",
+        "analog_ctrl[97]",
+        "analog_ctrl[58]",
+        "analog_ctrl[48]",
+        "analog_ctrl[13]",
+        "analog_ctrl[10]",
+        "analog_ctrl[9]",
+        "analog_ctrl[59]",
+        "analog_ctrl[49]",
+        "analog_ctrl[39]",
+        "analog_ctrl[0]",
+        "analog_ctrl[5]",
+        "analog_ctrl[1]",
+        "analog_ctrl[4]",
+        "analog_ctrl[3]",
+        "analog_ctrl[104]",
+        "analog_ctrl[96]",
+        "analog_ctrl[50]",
+        "analog_ctrl[63]",
+        "analog_ctrl[62]",
+        "analog_ctrl[60]",
+        "analog_ctrl[105]",
+        "analog_ctrl[51]",
+        "analog_ctrl[41]",
+        "analog_ctrl[61]",
+        "analog_ctrl[106]",
+        "vssd1",
+        "vccd1",
+        "wbs_adr_i[15]",
+        "wbs_adr_i[16]",
+        "wbs_adr_i[17]",
+        "wbs_adr_i[18]",
+        "wbs_adr_i[19]",
+        "wbs_adr_i[20]",
+        "wbs_adr_i[21]",
+        "wbs_adr_i[22]",
+        "wbs_adr_i[23]",
+        "wbs_adr_i[24]",
+        "wbs_adr_i[25]",
+        "wbs_adr_i[26]",
+        "wbs_adr_i[27]",
+        "wbs_adr_i[28]",
+        "wbs_adr_i[29]",
+        "wbs_adr_i[30]",
+        "wbs_adr_i[31]",
+        "wbs_adr_i[6]",
+        "wbs_adr_i[7]",
+        "wbs_adr_i[8]",
+        "wbs_adr_i[9]",
+        "wbs_adr_i[13]",
+        "wbs_adr_i[14]",
+        "wbs_adr_i[0]",
+        "wbs_adr_i[10]",
+        "wbs_adr_i[1]",
+        "wbs_adr_i[11]",
+        "wbs_adr_i[12]",
+        "wbs_sel_i[0]",
+        "wbs_sel_i[1]",
+        "wbs_sel_i[2]",
+        "wbs_sel_i[3]"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "CF_ADC_SAR12_sar_refs",
+      "CF_ADC_SAR12_sar_refs"
+   ],
+   "devices": [
+       [
+         ["CF_ADC_SAR12_sar_refs_core", 1 ]
+       ], [
+         ["CF_ADC_SAR12_sar_refs_core", 1 ]
+       ]
+   ],
+   "nets": [
+    46,
+    46
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdda",
+        "vda_int",
+        "vpwr",
+        "vpwrd_int",
+        "VPUMP",
+        "vssa",
+        "vgnd",
+        "vref[4]",
+        "vref[3]",
+        "vref[2]",
+        "vref[1]",
+        "vref[0]",
+        "pd",
+        "hiz",
+        "PWR_CTRL_VREF[1]",
+        "PWR_CTRL_VREF[0]",
+        "muxsarref[2]",
+        "muxsarref[1]",
+        "muxsarref[0]",
+        "REFBY2",
+        "pd_ana",
+        "EN_RESVDA",
+        "IREF_VCMBUF",
+        "sw_start",
+        "pd_vcmbuf",
+        "S_LV[7]",
+        "S_LV[6]",
+        "S_LV[5]",
+        "S_LV[4]",
+        "S_LV[3]",
+        "S_LV[2]",
+        "S_LV[1]",
+        "S_LV[0]",
+        "px_in",
+        "px",
+        "refout",
+        "refout_en",
+        "sw_holdb",
+        "enpdb_hv",
+        "en_pxin_cap",
+        "REFHI",
+        "enable_hv",
+        "IREF_VREFBUF",
+        "PD_BUF_VREF",
+        "vssa_shield",
+        "dft_comp_en"
+      ], [
+        "vdda",
+        "vda_int",
+        "vpwr",
+        "vpwrd_int",
+        "VPUMP",
+        "vssa",
+        "vgnd",
+        "vref[4]",
+        "vref[3]",
+        "vref[2]",
+        "vref[1]",
+        "vref[0]",
+        "pd",
+        "hiz",
+        "PWR_CTRL_VREF[1]",
+        "PWR_CTRL_VREF[0]",
+        "muxsarref[2]",
+        "muxsarref[1]",
+        "muxsarref[0]",
+        "REFBY2",
+        "pd_ana",
+        "EN_RESVDA",
+        "IREF_VCMBUF",
+        "sw_start",
+        "pd_vcmbuf",
+        "S_LV[7]",
+        "S_LV[6]",
+        "S_LV[5]",
+        "S_LV[4]",
+        "S_LV[3]",
+        "S_LV[2]",
+        "S_LV[1]",
+        "S_LV[0]",
+        "px_in",
+        "px",
+        "refout",
+        "refout_en",
+        "sw_holdb",
+        "enpdb_hv",
+        "en_pxin_cap",
+        "REFHI",
+        "enable_hv",
+        "IREF_VREFBUF",
+        "PD_BUF_VREF",
+        "vssa_shield",
+        "dft_comp_en"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "CF_REFBUF",
+      "CF_REFBUF"
+   ],
+   "devices": [
+       [
+         ["CF_REFBUF_core", 1 ]
+       ], [
+         ["CF_REFBUF_core", 1 ]
+       ]
+   ],
+   "nets": [
+    14,
+    14
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vpwr",
+        "vpwre",
+        "vgnd",
+        "out",
+        "switchoff",
+        "pd",
+        "switchon",
+        "boost",
+        "ch_cont",
+        "ch1",
+        "ch2",
+        "ref_1v2",
+        "nbias",
+        "ng"
+      ], [
+        "vpwr",
+        "vpwre",
+        "vgnd",
+        "out",
+        "switchoff",
+        "pd",
+        "switchon",
+        "boost",
+        "ch_cont",
+        "ch1",
+        "ch2",
+        "ref_1v2",
+        "nbias",
+        "ng"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "CF_BUF_HIZ",
+      "CF_BUF_HIZ"
+   ],
+   "devices": [
+       [
+         ["CF_BUF_HIZ_core", 1 ]
+       ], [
+         ["CF_BUF_HIZ_core", 1 ]
+       ]
+   ],
+   "nets": [
+    30,
+    30
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vpwr",
+        "vgnd",
+        "tp",
+        "clk2_boost",
+        "clk1_boostr",
+        "vbpt",
+        "vbpcis",
+        "vbncis",
+        "vout",
+        "vbpci",
+        "vbnt",
+        "ibias",
+        "ion",
+        "iop",
+        "e_pd",
+        "vbnci",
+        "vbpcid",
+        "vbptd",
+        "vbnc",
+        "vbpc",
+        "en_pd",
+        "vbpb",
+        "vinp_n",
+        "vinn_n",
+        "vinp_na",
+        "vinn_na",
+        "vinn_p",
+        "vinp_p",
+        "e_na_boost",
+        "e_n_boost"
+      ], [
+        "vpwr",
+        "vgnd",
+        "tp",
+        "clk2_boost",
+        "clk1_boostr",
+        "vbpt",
+        "vbpcis",
+        "vbncis",
+        "vout",
+        "vbpci",
+        "vbnt",
+        "ibias",
+        "ion",
+        "iop",
+        "e_pd",
+        "vbnci",
+        "vbpcid",
+        "vbptd",
+        "vbnc",
+        "vbpc",
+        "en_pd",
+        "vbpb",
+        "vinp_n",
+        "vinn_n",
+        "vinp_na",
+        "vinn_na",
+        "vinn_p",
+        "vinp_p",
+        "e_na_boost",
+        "e_n_boost"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "user_project_wrapper",
+      "user_project_wrapper"
+   ],
+   "devices": [
+       [
+         ["CF_ADC_SAR12", 1],
+         ["CF_BGR", 1],
+         ["afe_wb", 1],
+         ["CF_ADC_SAR12_sar_refs", 1],
+         ["CF_REFBUF", 1],
+         ["CF_BUF_HIZ", 1 ]
+       ], [
+         ["CF_ADC_SAR12", 1 ],
+         ["CF_BGR", 1 ],
+         ["afe_wb", 1 ],
+         ["CF_ADC_SAR12_sar_refs", 1 ],
+         ["CF_REFBUF", 1 ],
+         ["CF_BUF_HIZ", 1 ]
+       ]
+   ],
+   "nets": [
+    373,
+    373
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vccd1",
+        "vssd1",
+        "analog_io[26]",
+        "analog_io[7]",
+        "wb_clk_i",
+        "wb_rst_i",
+        "wbs_ack_o",
+        "wbs_cyc_i",
+        "wbs_stb_i",
+        "wbs_we_i",
+        "io_oeb[34]",
+        "io_oeb[33]",
+        "io_oeb[32]",
+        "io_oeb[31]",
+        "io_oeb[30]",
+        "io_oeb[29]",
+        "io_oeb[28]",
+        "io_oeb[27]",
+        "io_oeb[26]",
+        "io_oeb[25]",
+        "io_oeb[24]",
+        "io_oeb[23]",
+        "io_oeb[22]",
+        "io_oeb[21]",
+        "io_oeb[20]",
+        "io_oeb[19]",
+        "io_oeb[18]",
+        "io_oeb[17]",
+        "io_oeb[16]",
+        "io_oeb[15]",
+        "io_oeb[14]",
+        "io_oeb[13]",
+        "io_oeb[12]",
+        "io_oeb[11]",
+        "io_oeb[10]",
+        "io_oeb[9]",
+        "io_oeb[8]",
+        "io_oeb[7]",
+        "io_out[34]",
+        "io_out[33]",
+        "io_out[32]",
+        "io_out[31]",
+        "io_out[30]",
+        "io_out[29]",
+        "io_out[28]",
+        "io_out[27]",
+        "io_out[26]",
+        "io_out[25]",
+        "io_out[24]",
+        "io_out[23]",
+        "io_out[22]",
+        "io_out[21]",
+        "io_out[20]",
+        "io_out[19]",
+        "io_out[18]",
+        "io_out[17]",
+        "io_out[16]",
+        "io_out[15]",
+        "io_out[14]",
+        "io_out[13]",
+        "io_out[12]",
+        "io_out[11]",
+        "io_out[10]",
+        "io_out[9]",
+        "io_out[8]",
+        "io_out[7]",
+        "wbs_adr_i[31]",
+        "wbs_adr_i[30]",
+        "wbs_adr_i[29]",
+        "wbs_adr_i[28]",
+        "wbs_adr_i[27]",
+        "wbs_adr_i[26]",
+        "wbs_adr_i[25]",
+        "wbs_adr_i[24]",
+        "wbs_adr_i[23]",
+        "wbs_adr_i[22]",
+        "wbs_adr_i[21]",
+        "wbs_adr_i[20]",
+        "wbs_adr_i[19]",
+        "wbs_adr_i[18]",
+        "wbs_adr_i[17]",
+        "wbs_adr_i[16]",
+        "wbs_adr_i[15]",
+        "wbs_adr_i[14]",
+        "wbs_adr_i[13]",
+        "wbs_adr_i[12]",
+        "wbs_adr_i[11]",
+        "wbs_adr_i[10]",
+        "wbs_adr_i[9]",
+        "wbs_adr_i[8]",
+        "wbs_adr_i[7]",
+        "wbs_adr_i[6]",
+        "wbs_adr_i[5]",
+        "wbs_adr_i[4]",
+        "wbs_adr_i[3]",
+        "wbs_adr_i[2]",
+        "wbs_adr_i[1]",
+        "wbs_adr_i[0]",
+        "wbs_dat_i[31]",
+        "wbs_dat_i[30]",
+        "wbs_dat_i[29]",
+        "wbs_dat_i[28]",
+        "wbs_dat_i[27]",
+        "wbs_dat_i[26]",
+        "wbs_dat_i[25]",
+        "wbs_dat_i[24]",
+        "wbs_dat_i[23]",
+        "wbs_dat_i[22]",
+        "wbs_dat_i[21]",
+        "wbs_dat_i[20]",
+        "wbs_dat_i[19]",
+        "wbs_dat_i[18]",
+        "wbs_dat_i[17]",
+        "wbs_dat_i[16]",
+        "wbs_dat_i[15]",
+        "wbs_dat_i[14]",
+        "wbs_dat_i[13]",
+        "wbs_dat_i[12]",
+        "wbs_dat_i[11]",
+        "wbs_dat_i[10]",
+        "wbs_dat_i[9]",
+        "wbs_dat_i[8]",
+        "wbs_dat_i[7]",
+        "wbs_dat_i[6]",
+        "wbs_dat_i[5]",
+        "wbs_dat_i[4]",
+        "wbs_dat_i[3]",
+        "wbs_dat_i[2]",
+        "wbs_dat_i[1]",
+        "wbs_dat_i[0]",
+        "wbs_dat_o[31]",
+        "wbs_dat_o[30]",
+        "wbs_dat_o[29]",
+        "wbs_dat_o[28]",
+        "wbs_dat_o[27]",
+        "wbs_dat_o[26]",
+        "wbs_dat_o[25]",
+        "wbs_dat_o[24]",
+        "wbs_dat_o[23]",
+        "wbs_dat_o[22]",
+        "wbs_dat_o[21]",
+        "wbs_dat_o[20]",
+        "wbs_dat_o[19]",
+        "wbs_dat_o[18]",
+        "wbs_dat_o[17]",
+        "wbs_dat_o[16]",
+        "wbs_dat_o[15]",
+        "wbs_dat_o[14]",
+        "wbs_dat_o[13]",
+        "wbs_dat_o[12]",
+        "wbs_dat_o[11]",
+        "wbs_dat_o[10]",
+        "wbs_dat_o[9]",
+        "wbs_dat_o[8]",
+        "wbs_dat_o[7]",
+        "wbs_dat_o[6]",
+        "wbs_dat_o[5]",
+        "wbs_dat_o[4]",
+        "wbs_dat_o[3]",
+        "wbs_dat_o[2]",
+        "wbs_dat_o[1]",
+        "wbs_dat_o[0]",
+        "wbs_sel_i[3]",
+        "wbs_sel_i[2]",
+        "wbs_sel_i[1]",
+        "wbs_sel_i[0]",
+        "analog_io[22]",
+        "analog_io[20]",
+        "user_clock2",
+        "analog_io[21]",
+        "analog_io[0]",
+        "analog_io[24]",
+        "analog_io[9]",
+        "analog_io[16]",
+        "analog_io[17]",
+        "analog_io[14]",
+        "analog_io[10]",
+        "analog_io[15]",
+        "analog_io[18]",
+        "analog_io[19]",
+        "analog_io[13]",
+        "analog_io[12]",
+        "analog_io[11]",
+        "analog_io[3]",
+        "analog_io[4]",
+        "analog_io[5]",
+        "analog_io[6]",
+        "analog_io[2]",
+        "analog_io[1]",
+        "analog_io[25]",
+        "analog_io[27]",
+        "analog_io[8]",
+        "io_in[15]",
+        "io_in[16]",
+        "io_in[17]",
+        "io_in[18]",
+        "io_in[19]",
+        "io_in[20]",
+        "io_in[21]",
+        "io_in[22]",
+        "io_in[23]",
+        "la_oenb[0]",
+        "la_oenb[1]",
+        "la_oenb[2]",
+        "la_oenb[3]",
+        "la_oenb[4]",
+        "la_oenb[5]",
+        "la_data_in[0]",
+        "la_data_in[1]",
+        "la_data_in[2]",
+        "la_data_in[3]",
+        "la_data_in[4]",
+        "la_data_in[5]",
+        "la_data_out[0]",
+        "la_data_out[1]",
+        "la_data_out[2]",
+        "la_data_out[3]",
+        "la_data_out[4]",
+        "la_data_out[5]",
+        "la_data_in[23]",
+        "la_data_in[24]",
+        "la_data_in[25]",
+        "la_oenb[6]",
+        "la_oenb[7]",
+        "la_oenb[8]",
+        "la_oenb[9]",
+        "la_data_in[26]",
+        "la_data_in[11]",
+        "la_data_in[12]",
+        "la_data_in[13]",
+        "la_data_in[14]",
+        "la_data_in[6]",
+        "la_data_in[7]",
+        "la_data_in[8]",
+        "la_data_in[9]",
+        "la_data_in[15]",
+        "la_data_out[10]",
+        "la_data_out[11]",
+        "la_data_out[12]",
+        "la_data_out[13]",
+        "la_data_out[14]",
+        "la_data_out[15]",
+        "la_data_out[16]",
+        "la_data_out[17]",
+        "la_data_out[18]",
+        "la_data_out[19]",
+        "la_data_in[16]",
+        "la_data_out[20]",
+        "la_data_out[21]",
+        "la_data_out[22]",
+        "la_data_out[23]",
+        "la_data_out[24]",
+        "la_data_out[25]",
+        "la_data_in[17]",
+        "la_data_in[18]",
+        "la_data_in[19]",
+        "la_data_in[10]",
+        "la_data_out[6]",
+        "la_data_out[7]",
+        "la_data_out[8]",
+        "la_data_out[9]",
+        "la_data_in[20]",
+        "la_oenb[10]",
+        "la_oenb[11]",
+        "la_oenb[12]",
+        "la_oenb[13]",
+        "la_oenb[14]",
+        "la_oenb[15]",
+        "la_oenb[16]",
+        "la_oenb[17]",
+        "la_oenb[18]",
+        "la_oenb[19]",
+        "la_data_in[21]",
+        "la_oenb[20]",
+        "la_oenb[21]",
+        "la_oenb[22]",
+        "la_oenb[23]",
+        "la_oenb[24]",
+        "la_oenb[25]",
+        "la_data_in[22]",
+        "la_data_in[39]",
+        "la_oenb[45]",
+        "la_data_in[40]",
+        "la_data_out[26]",
+        "la_data_out[27]",
+        "la_data_out[28]",
+        "la_data_out[29]",
+        "la_data_in[41]",
+        "la_data_out[30]",
+        "la_data_out[31]",
+        "la_data_out[32]",
+        "la_data_out[33]",
+        "la_data_out[34]",
+        "la_data_out[35]",
+        "la_data_out[36]",
+        "la_data_out[37]",
+        "la_data_out[38]",
+        "la_data_out[39]",
+        "la_data_in[42]",
+        "la_data_out[40]",
+        "la_data_out[41]",
+        "la_data_out[42]",
+        "la_data_out[43]",
+        "la_data_out[44]",
+        "la_data_out[45]",
+        "la_data_out[46]",
+        "la_data_in[43]",
+        "la_data_in[44]",
+        "la_data_in[45]",
+        "la_data_in[46]",
+        "la_oenb[46]",
+        "la_oenb[38]",
+        "la_oenb[39]",
+        "la_oenb[37]",
+        "la_oenb[40]",
+        "la_oenb[41]",
+        "la_oenb[42]",
+        "la_oenb[43]",
+        "la_data_in[27]",
+        "la_data_in[28]",
+        "la_data_in[29]",
+        "la_oenb[44]",
+        "la_data_in[30]",
+        "la_data_in[31]",
+        "la_data_in[32]",
+        "la_data_in[33]",
+        "la_data_in[34]",
+        "la_data_in[35]",
+        "la_data_in[36]",
+        "la_data_in[37]",
+        "la_oenb[26]",
+        "la_oenb[27]",
+        "la_oenb[28]",
+        "la_oenb[29]",
+        "la_data_in[38]",
+        "la_oenb[30]",
+        "la_oenb[31]",
+        "la_oenb[32]",
+        "la_oenb[33]",
+        "la_oenb[34]",
+        "la_oenb[35]",
+        "la_oenb[36]",
+        "la_oenb[47]",
+        "la_oenb[48]",
+        "la_oenb[49]",
+        "la_oenb[50]",
+        "la_oenb[51]",
+        "la_oenb[52]",
+        "la_oenb[53]",
+        "la_oenb[54]",
+        "la_oenb[55]",
+        "la_oenb[56]",
+        "la_oenb[57]",
+        "la_oenb[58]",
+        "la_oenb[59]",
+        "la_oenb[60]",
+        "la_oenb[61]",
+        "la_oenb[62]",
+        "la_oenb[63]",
+        "la_oenb[64]",
+        "la_oenb[65]",
+        "la_oenb[66]",
+        "la_data_in[47]",
+        "la_data_in[48]",
+        "la_data_in[49]",
+        "la_data_in[50]",
+        "la_data_in[51]",
+        "la_data_in[52]",
+        "la_data_in[53]",
+        "la_data_in[54]",
+        "la_data_in[55]",
+        "la_data_in[56]",
+        "la_data_in[57]",
+        "la_data_in[58]",
+        "la_data_in[59]",
+        "la_data_in[60]",
+        "la_data_in[61]",
+        "la_data_in[62]",
+        "la_data_in[63]",
+        "la_data_out[47]",
+        "la_data_out[48]",
+        "la_data_out[49]",
+        "la_data_in[64]",
+        "la_data_out[50]",
+        "la_data_out[51]",
+        "la_data_out[52]",
+        "la_data_out[53]",
+        "la_data_out[54]",
+        "la_data_out[55]",
+        "la_data_out[56]",
+        "la_data_out[57]",
+        "la_data_out[58]",
+        "la_data_out[59]",
+        "la_data_in[65]",
+        "la_data_out[60]",
+        "la_data_out[61]",
+        "la_data_out[62]",
+        "la_data_out[63]",
+        "la_data_out[64]",
+        "la_data_out[65]",
+        "la_data_out[66]",
+        "la_data_out[67]",
+        "la_data_in[66]",
+        "la_data_in[67]",
+        "la_data_in[72]",
+        "la_data_in[73]",
+        "la_data_in[74]",
+        "la_data_in[75]",
+        "la_data_in[76]",
+        "la_data_in[77]",
+        "la_data_in[78]",
+        "la_data_in[79]",
+        "la_data_in[80]",
+        "la_data_in[81]",
+        "la_data_in[82]",
+        "la_data_in[83]",
+        "la_data_in[84]",
+        "la_data_in[85]",
+        "la_data_in[86]",
+        "la_data_in[87]",
+        "la_data_in[69]",
+        "la_oenb[67]",
+        "la_oenb[68]",
+        "la_oenb[69]",
+        "la_oenb[70]",
+        "la_oenb[71]",
+        "la_oenb[72]",
+        "la_oenb[73]",
+        "la_oenb[74]",
+        "la_oenb[75]",
+        "la_oenb[76]",
+        "la_oenb[77]",
+        "la_oenb[78]",
+        "la_oenb[79]",
+        "la_oenb[80]",
+        "la_oenb[81]",
+        "la_oenb[82]",
+        "la_oenb[83]",
+        "la_oenb[84]",
+        "la_oenb[85]",
+        "la_oenb[86]",
+        "la_oenb[87]",
+        "la_data_out[68]",
+        "la_data_out[69]",
+        "la_data_in[70]",
+        "la_data_out[70]",
+        "la_data_out[71]",
+        "la_data_out[72]",
+        "la_data_out[73]",
+        "la_data_out[74]",
+        "la_data_out[75]",
+        "la_data_out[76]",
+        "la_data_out[77]",
+        "la_data_out[78]",
+        "la_data_out[79]",
+        "la_data_in[71]",
+        "la_data_out[80]",
+        "la_data_out[81]",
+        "la_data_out[82]",
+        "la_data_out[83]",
+        "la_data_out[84]",
+        "la_data_out[85]",
+        "la_data_out[86]",
+        "la_data_out[87]",
+        "la_data_in[68]",
+        "la_oenb[88]",
+        "la_oenb[89]",
+        "la_oenb[90]",
+        "la_oenb[91]",
+        "la_oenb[92]",
+        "la_oenb[93]",
+        "la_oenb[94]",
+        "la_oenb[95]",
+        "la_oenb[96]",
+        "la_oenb[97]",
+        "la_oenb[98]",
+        "la_oenb[99]",
+        "la_data_in[101]",
+        "la_data_in[102]",
+        "la_data_in[103]",
+        "la_data_in[104]",
+        "la_data_in[105]",
+        "la_data_in[106]",
+        "la_data_in[107]",
+        "la_data_in[108]",
+        "la_data_in[100]",
+        "la_data_in[90]",
+        "la_data_in[91]",
+        "la_data_in[92]",
+        "la_data_in[93]",
+        "la_data_in[94]",
+        "la_data_in[95]",
+        "la_data_in[96]",
+        "la_data_in[97]",
+        "la_data_in[98]",
+        "la_data_in[99]",
+        "la_data_out[100]",
+        "la_data_out[101]",
+        "la_data_out[102]",
+        "la_data_out[103]",
+        "la_data_out[104]",
+        "la_data_out[105]",
+        "la_data_out[93]",
+        "la_data_out[106]",
+        "la_data_out[94]",
+        "la_data_out[107]",
+        "la_data_out[95]",
+        "la_data_out[96]",
+        "la_data_out[108]",
+        "la_data_out[97]",
+        "la_data_out[98]",
+        "la_data_out[99]",
+        "la_data_out[92]",
+        "la_oenb[100]",
+        "la_oenb[101]",
+        "la_oenb[102]",
+        "la_oenb[103]",
+        "la_oenb[104]",
+        "la_oenb[105]",
+        "la_oenb[106]",
+        "la_oenb[107]",
+        "la_data_in[88]",
+        "la_data_in[89]",
+        "la_data_out[88]",
+        "la_data_out[89]",
+        "la_data_out[90]",
+        "la_data_out[91]",
+        "la_data_in[119]",
+        "la_data_out[120]",
+        "la_data_out[121]",
+        "la_data_out[122]",
+        "la_data_in[116]",
+        "la_data_in[117]",
+        "la_data_out[123]",
+        "la_data_in[112]",
+        "la_data_out[124]",
+        "la_data_out[125]",
+        "la_data_out[126]",
+        "la_data_out[127]",
+        "la_data_in[118]",
+        "la_oenb[109]",
+        "la_data_in[120]",
+        "la_oenb[110]",
+        "la_data_in[121]",
+        "la_oenb[111]",
+        "la_oenb[112]",
+        "la_oenb[113]",
+        "la_oenb[114]",
+        "la_oenb[115]",
+        "la_oenb[116]",
+        "la_oenb[117]",
+        "la_oenb[118]",
+        "la_oenb[119]",
+        "la_data_in[122]",
+        "la_data_in[123]",
+        "la_oenb[120]",
+        "la_oenb[121]",
+        "la_oenb[122]",
+        "la_oenb[123]",
+        "la_oenb[124]",
+        "la_oenb[125]",
+        "la_oenb[126]",
+        "la_oenb[127]",
+        "la_data_in[124]",
+        "la_data_in[125]",
+        "la_data_in[126]",
+        "la_data_in[127]",
+        "la_data_out[110]",
+        "user_irq[0]",
+        "la_data_in[113]",
+        "user_irq[1]",
+        "la_data_in[114]",
+        "user_irq[2]",
+        "la_data_out[111]",
+        "la_data_out[112]",
+        "la_data_out[109]",
+        "la_data_in[109]",
+        "la_data_out[113]",
+        "la_data_in[110]",
+        "la_data_out[114]",
+        "la_oenb[108]",
+        "la_data_out[115]",
+        "la_data_out[116]",
+        "la_data_in[111]",
+        "la_data_out[117]",
+        "la_data_in[115]",
+        "la_data_out[118]",
+        "la_data_out[119]",
+        "io_in[10]",
+        "io_in[11]",
+        "io_in[12]",
+        "io_in[13]",
+        "io_in[14]",
+        "io_in[9]",
+        "analog_io[23]",
+        "io_in[24]",
+        "io_in[25]",
+        "io_in[26]",
+        "io_in[27]",
+        "io_in[28]",
+        "io_in[29]",
+        "io_in[30]",
+        "io_oeb[35]",
+        "io_oeb[36]",
+        "io_oeb[37]",
+        "analog_io[28]",
+        "io_in[31]",
+        "io_in[32]",
+        "io_in[33]",
+        "io_in[34]",
+        "io_in[35]",
+        "io_in[36]",
+        "io_in[37]",
+        "io_out[35]",
+        "io_out[36]",
+        "io_out[37]",
+        "io_in[8]",
+        "io_oeb[2]",
+        "io_oeb[0]",
+        "io_out[1]",
+        "io_in[2]",
+        "io_in[1]",
+        "io_in[0]",
+        "io_in[3]",
+        "io_oeb[1]",
+        "io_out[2]",
+        "io_in[4]",
+        "io_oeb[3]",
+        "io_oeb[4]",
+        "io_oeb[5]",
+        "io_oeb[6]",
+        "io_in[5]",
+        "io_in[6]",
+        "io_out[3]",
+        "io_out[4]",
+        "io_out[5]",
+        "io_out[6]",
+        "io_out[0]",
+        "io_in[7]",
+        "vccd2",
+        "vdda1",
+        "vdda2",
+        "vssa1",
+        "vssa2",
+        "vssd2"
+      ], [
+        "vccd1",
+        "vssd1",
+        "analog_io[26]",
+        "analog_io[7]",
+        "wb_clk_i",
+        "wb_rst_i",
+        "wbs_ack_o",
+        "wbs_cyc_i",
+        "wbs_stb_i",
+        "wbs_we_i",
+        "io_oeb[34]",
+        "io_oeb[33]",
+        "io_oeb[32]",
+        "io_oeb[31]",
+        "io_oeb[30]",
+        "io_oeb[29]",
+        "io_oeb[28]",
+        "io_oeb[27]",
+        "io_oeb[26]",
+        "io_oeb[25]",
+        "io_oeb[24]",
+        "io_oeb[23]",
+        "io_oeb[22]",
+        "io_oeb[21]",
+        "io_oeb[20]",
+        "io_oeb[19]",
+        "io_oeb[18]",
+        "io_oeb[17]",
+        "io_oeb[16]",
+        "io_oeb[15]",
+        "io_oeb[14]",
+        "io_oeb[13]",
+        "io_oeb[12]",
+        "io_oeb[11]",
+        "io_oeb[10]",
+        "io_oeb[9]",
+        "io_oeb[8]",
+        "io_oeb[7]",
+        "io_out[34]",
+        "io_out[33]",
+        "io_out[32]",
+        "io_out[31]",
+        "io_out[30]",
+        "io_out[29]",
+        "io_out[28]",
+        "io_out[27]",
+        "io_out[26]",
+        "io_out[25]",
+        "io_out[24]",
+        "io_out[23]",
+        "io_out[22]",
+        "io_out[21]",
+        "io_out[20]",
+        "io_out[19]",
+        "io_out[18]",
+        "io_out[17]",
+        "io_out[16]",
+        "io_out[15]",
+        "io_out[14]",
+        "io_out[13]",
+        "io_out[12]",
+        "io_out[11]",
+        "io_out[10]",
+        "io_out[9]",
+        "io_out[8]",
+        "io_out[7]",
+        "wbs_adr_i[31]",
+        "wbs_adr_i[30]",
+        "wbs_adr_i[29]",
+        "wbs_adr_i[28]",
+        "wbs_adr_i[27]",
+        "wbs_adr_i[26]",
+        "wbs_adr_i[25]",
+        "wbs_adr_i[24]",
+        "wbs_adr_i[23]",
+        "wbs_adr_i[22]",
+        "wbs_adr_i[21]",
+        "wbs_adr_i[20]",
+        "wbs_adr_i[19]",
+        "wbs_adr_i[18]",
+        "wbs_adr_i[17]",
+        "wbs_adr_i[16]",
+        "wbs_adr_i[15]",
+        "wbs_adr_i[14]",
+        "wbs_adr_i[13]",
+        "wbs_adr_i[12]",
+        "wbs_adr_i[11]",
+        "wbs_adr_i[10]",
+        "wbs_adr_i[9]",
+        "wbs_adr_i[8]",
+        "wbs_adr_i[7]",
+        "wbs_adr_i[6]",
+        "wbs_adr_i[5]",
+        "wbs_adr_i[4]",
+        "wbs_adr_i[3]",
+        "wbs_adr_i[2]",
+        "wbs_adr_i[1]",
+        "wbs_adr_i[0]",
+        "wbs_dat_i[31]",
+        "wbs_dat_i[30]",
+        "wbs_dat_i[29]",
+        "wbs_dat_i[28]",
+        "wbs_dat_i[27]",
+        "wbs_dat_i[26]",
+        "wbs_dat_i[25]",
+        "wbs_dat_i[24]",
+        "wbs_dat_i[23]",
+        "wbs_dat_i[22]",
+        "wbs_dat_i[21]",
+        "wbs_dat_i[20]",
+        "wbs_dat_i[19]",
+        "wbs_dat_i[18]",
+        "wbs_dat_i[17]",
+        "wbs_dat_i[16]",
+        "wbs_dat_i[15]",
+        "wbs_dat_i[14]",
+        "wbs_dat_i[13]",
+        "wbs_dat_i[12]",
+        "wbs_dat_i[11]",
+        "wbs_dat_i[10]",
+        "wbs_dat_i[9]",
+        "wbs_dat_i[8]",
+        "wbs_dat_i[7]",
+        "wbs_dat_i[6]",
+        "wbs_dat_i[5]",
+        "wbs_dat_i[4]",
+        "wbs_dat_i[3]",
+        "wbs_dat_i[2]",
+        "wbs_dat_i[1]",
+        "wbs_dat_i[0]",
+        "wbs_dat_o[31]",
+        "wbs_dat_o[30]",
+        "wbs_dat_o[29]",
+        "wbs_dat_o[28]",
+        "wbs_dat_o[27]",
+        "wbs_dat_o[26]",
+        "wbs_dat_o[25]",
+        "wbs_dat_o[24]",
+        "wbs_dat_o[23]",
+        "wbs_dat_o[22]",
+        "wbs_dat_o[21]",
+        "wbs_dat_o[20]",
+        "wbs_dat_o[19]",
+        "wbs_dat_o[18]",
+        "wbs_dat_o[17]",
+        "wbs_dat_o[16]",
+        "wbs_dat_o[15]",
+        "wbs_dat_o[14]",
+        "wbs_dat_o[13]",
+        "wbs_dat_o[12]",
+        "wbs_dat_o[11]",
+        "wbs_dat_o[10]",
+        "wbs_dat_o[9]",
+        "wbs_dat_o[8]",
+        "wbs_dat_o[7]",
+        "wbs_dat_o[6]",
+        "wbs_dat_o[5]",
+        "wbs_dat_o[4]",
+        "wbs_dat_o[3]",
+        "wbs_dat_o[2]",
+        "wbs_dat_o[1]",
+        "wbs_dat_o[0]",
+        "wbs_sel_i[3]",
+        "wbs_sel_i[2]",
+        "wbs_sel_i[1]",
+        "wbs_sel_i[0]",
+        "analog_io[22]",
+        "analog_io[20]",
+        "user_clock2",
+        "analog_io[21]",
+        "analog_io[0]",
+        "analog_io[24]",
+        "analog_io[9]",
+        "analog_io[16]",
+        "analog_io[17]",
+        "analog_io[14]",
+        "analog_io[10]",
+        "analog_io[15]",
+        "analog_io[18]",
+        "analog_io[19]",
+        "analog_io[13]",
+        "analog_io[12]",
+        "analog_io[11]",
+        "analog_io[3]",
+        "analog_io[4]",
+        "analog_io[5]",
+        "analog_io[6]",
+        "analog_io[2]",
+        "analog_io[1]",
+        "analog_io[25]",
+        "analog_io[27]",
+        "analog_io[8]",
+        "io_in[15]",
+        "io_in[16]",
+        "io_in[17]",
+        "io_in[18]",
+        "io_in[19]",
+        "io_in[20]",
+        "io_in[21]",
+        "io_in[22]",
+        "io_in[23]",
+        "la_oenb[0]",
+        "la_oenb[1]",
+        "la_oenb[2]",
+        "la_oenb[3]",
+        "la_oenb[4]",
+        "la_oenb[5]",
+        "la_data_in[0]",
+        "la_data_in[1]",
+        "la_data_in[2]",
+        "la_data_in[3]",
+        "la_data_in[4]",
+        "la_data_in[5]",
+        "la_data_out[0]",
+        "la_data_out[1]",
+        "la_data_out[2]",
+        "la_data_out[3]",
+        "la_data_out[4]",
+        "la_data_out[5]",
+        "la_data_in[23]",
+        "la_data_in[24]",
+        "la_data_in[25]",
+        "la_oenb[6]",
+        "la_oenb[7]",
+        "la_oenb[8]",
+        "la_oenb[9]",
+        "la_data_in[26]",
+        "la_data_in[11]",
+        "la_data_in[12]",
+        "la_data_in[13]",
+        "la_data_in[14]",
+        "la_data_in[6]",
+        "la_data_in[7]",
+        "la_data_in[8]",
+        "la_data_in[9]",
+        "la_data_in[15]",
+        "la_data_out[10]",
+        "la_data_out[11]",
+        "la_data_out[12]",
+        "la_data_out[13]",
+        "la_data_out[14]",
+        "la_data_out[15]",
+        "la_data_out[16]",
+        "la_data_out[17]",
+        "la_data_out[18]",
+        "la_data_out[19]",
+        "la_data_in[16]",
+        "la_data_out[20]",
+        "la_data_out[21]",
+        "la_data_out[22]",
+        "la_data_out[23]",
+        "la_data_out[24]",
+        "la_data_out[25]",
+        "la_data_in[17]",
+        "la_data_in[18]",
+        "la_data_in[19]",
+        "la_data_in[10]",
+        "la_data_out[6]",
+        "la_data_out[7]",
+        "la_data_out[8]",
+        "la_data_out[9]",
+        "la_data_in[20]",
+        "la_oenb[10]",
+        "la_oenb[11]",
+        "la_oenb[12]",
+        "la_oenb[13]",
+        "la_oenb[14]",
+        "la_oenb[15]",
+        "la_oenb[16]",
+        "la_oenb[17]",
+        "la_oenb[18]",
+        "la_oenb[19]",
+        "la_data_in[21]",
+        "la_oenb[20]",
+        "la_oenb[21]",
+        "la_oenb[22]",
+        "la_oenb[23]",
+        "la_oenb[24]",
+        "la_oenb[25]",
+        "la_data_in[22]",
+        "la_data_in[39]",
+        "la_oenb[45]",
+        "la_data_in[40]",
+        "la_data_out[26]",
+        "la_data_out[27]",
+        "la_data_out[28]",
+        "la_data_out[29]",
+        "la_data_in[41]",
+        "la_data_out[30]",
+        "la_data_out[31]",
+        "la_data_out[32]",
+        "la_data_out[33]",
+        "la_data_out[34]",
+        "la_data_out[35]",
+        "la_data_out[36]",
+        "la_data_out[37]",
+        "la_data_out[38]",
+        "la_data_out[39]",
+        "la_data_in[42]",
+        "la_data_out[40]",
+        "la_data_out[41]",
+        "la_data_out[42]",
+        "la_data_out[43]",
+        "la_data_out[44]",
+        "la_data_out[45]",
+        "la_data_out[46]",
+        "la_data_in[43]",
+        "la_data_in[44]",
+        "la_data_in[45]",
+        "la_data_in[46]",
+        "la_oenb[46]",
+        "la_oenb[38]",
+        "la_oenb[39]",
+        "la_oenb[37]",
+        "la_oenb[40]",
+        "la_oenb[41]",
+        "la_oenb[42]",
+        "la_oenb[43]",
+        "la_data_in[27]",
+        "la_data_in[28]",
+        "la_data_in[29]",
+        "la_oenb[44]",
+        "la_data_in[30]",
+        "la_data_in[31]",
+        "la_data_in[32]",
+        "la_data_in[33]",
+        "la_data_in[34]",
+        "la_data_in[35]",
+        "la_data_in[36]",
+        "la_data_in[37]",
+        "la_oenb[26]",
+        "la_oenb[27]",
+        "la_oenb[28]",
+        "la_oenb[29]",
+        "la_data_in[38]",
+        "la_oenb[30]",
+        "la_oenb[31]",
+        "la_oenb[32]",
+        "la_oenb[33]",
+        "la_oenb[34]",
+        "la_oenb[35]",
+        "la_oenb[36]",
+        "la_oenb[47]",
+        "la_oenb[48]",
+        "la_oenb[49]",
+        "la_oenb[50]",
+        "la_oenb[51]",
+        "la_oenb[52]",
+        "la_oenb[53]",
+        "la_oenb[54]",
+        "la_oenb[55]",
+        "la_oenb[56]",
+        "la_oenb[57]",
+        "la_oenb[58]",
+        "la_oenb[59]",
+        "la_oenb[60]",
+        "la_oenb[61]",
+        "la_oenb[62]",
+        "la_oenb[63]",
+        "la_oenb[64]",
+        "la_oenb[65]",
+        "la_oenb[66]",
+        "la_data_in[47]",
+        "la_data_in[48]",
+        "la_data_in[49]",
+        "la_data_in[50]",
+        "la_data_in[51]",
+        "la_data_in[52]",
+        "la_data_in[53]",
+        "la_data_in[54]",
+        "la_data_in[55]",
+        "la_data_in[56]",
+        "la_data_in[57]",
+        "la_data_in[58]",
+        "la_data_in[59]",
+        "la_data_in[60]",
+        "la_data_in[61]",
+        "la_data_in[62]",
+        "la_data_in[63]",
+        "la_data_out[47]",
+        "la_data_out[48]",
+        "la_data_out[49]",
+        "la_data_in[64]",
+        "la_data_out[50]",
+        "la_data_out[51]",
+        "la_data_out[52]",
+        "la_data_out[53]",
+        "la_data_out[54]",
+        "la_data_out[55]",
+        "la_data_out[56]",
+        "la_data_out[57]",
+        "la_data_out[58]",
+        "la_data_out[59]",
+        "la_data_in[65]",
+        "la_data_out[60]",
+        "la_data_out[61]",
+        "la_data_out[62]",
+        "la_data_out[63]",
+        "la_data_out[64]",
+        "la_data_out[65]",
+        "la_data_out[66]",
+        "la_data_out[67]",
+        "la_data_in[66]",
+        "la_data_in[67]",
+        "la_data_in[72]",
+        "la_data_in[73]",
+        "la_data_in[74]",
+        "la_data_in[75]",
+        "la_data_in[76]",
+        "la_data_in[77]",
+        "la_data_in[78]",
+        "la_data_in[79]",
+        "la_data_in[80]",
+        "la_data_in[81]",
+        "la_data_in[82]",
+        "la_data_in[83]",
+        "la_data_in[84]",
+        "la_data_in[85]",
+        "la_data_in[86]",
+        "la_data_in[87]",
+        "la_data_in[69]",
+        "la_oenb[67]",
+        "la_oenb[68]",
+        "la_oenb[69]",
+        "la_oenb[70]",
+        "la_oenb[71]",
+        "la_oenb[72]",
+        "la_oenb[73]",
+        "la_oenb[74]",
+        "la_oenb[75]",
+        "la_oenb[76]",
+        "la_oenb[77]",
+        "la_oenb[78]",
+        "la_oenb[79]",
+        "la_oenb[80]",
+        "la_oenb[81]",
+        "la_oenb[82]",
+        "la_oenb[83]",
+        "la_oenb[84]",
+        "la_oenb[85]",
+        "la_oenb[86]",
+        "la_oenb[87]",
+        "la_data_out[68]",
+        "la_data_out[69]",
+        "la_data_in[70]",
+        "la_data_out[70]",
+        "la_data_out[71]",
+        "la_data_out[72]",
+        "la_data_out[73]",
+        "la_data_out[74]",
+        "la_data_out[75]",
+        "la_data_out[76]",
+        "la_data_out[77]",
+        "la_data_out[78]",
+        "la_data_out[79]",
+        "la_data_in[71]",
+        "la_data_out[80]",
+        "la_data_out[81]",
+        "la_data_out[82]",
+        "la_data_out[83]",
+        "la_data_out[84]",
+        "la_data_out[85]",
+        "la_data_out[86]",
+        "la_data_out[87]",
+        "la_data_in[68]",
+        "la_oenb[88]",
+        "la_oenb[89]",
+        "la_oenb[90]",
+        "la_oenb[91]",
+        "la_oenb[92]",
+        "la_oenb[93]",
+        "la_oenb[94]",
+        "la_oenb[95]",
+        "la_oenb[96]",
+        "la_oenb[97]",
+        "la_oenb[98]",
+        "la_oenb[99]",
+        "la_data_in[101]",
+        "la_data_in[102]",
+        "la_data_in[103]",
+        "la_data_in[104]",
+        "la_data_in[105]",
+        "la_data_in[106]",
+        "la_data_in[107]",
+        "la_data_in[108]",
+        "la_data_in[100]",
+        "la_data_in[90]",
+        "la_data_in[91]",
+        "la_data_in[92]",
+        "la_data_in[93]",
+        "la_data_in[94]",
+        "la_data_in[95]",
+        "la_data_in[96]",
+        "la_data_in[97]",
+        "la_data_in[98]",
+        "la_data_in[99]",
+        "la_data_out[100]",
+        "la_data_out[101]",
+        "la_data_out[102]",
+        "la_data_out[103]",
+        "la_data_out[104]",
+        "la_data_out[105]",
+        "la_data_out[93]",
+        "la_data_out[106]",
+        "la_data_out[94]",
+        "la_data_out[107]",
+        "la_data_out[95]",
+        "la_data_out[96]",
+        "la_data_out[108]",
+        "la_data_out[97]",
+        "la_data_out[98]",
+        "la_data_out[99]",
+        "la_data_out[92]",
+        "la_oenb[100]",
+        "la_oenb[101]",
+        "la_oenb[102]",
+        "la_oenb[103]",
+        "la_oenb[104]",
+        "la_oenb[105]",
+        "la_oenb[106]",
+        "la_oenb[107]",
+        "la_data_in[88]",
+        "la_data_in[89]",
+        "la_data_out[88]",
+        "la_data_out[89]",
+        "la_data_out[90]",
+        "la_data_out[91]",
+        "la_data_in[119]",
+        "la_data_out[120]",
+        "la_data_out[121]",
+        "la_data_out[122]",
+        "la_data_in[116]",
+        "la_data_in[117]",
+        "la_data_out[123]",
+        "la_data_in[112]",
+        "la_data_out[124]",
+        "la_data_out[125]",
+        "la_data_out[126]",
+        "la_data_out[127]",
+        "la_data_in[118]",
+        "la_oenb[109]",
+        "la_data_in[120]",
+        "la_oenb[110]",
+        "la_data_in[121]",
+        "la_oenb[111]",
+        "la_oenb[112]",
+        "la_oenb[113]",
+        "la_oenb[114]",
+        "la_oenb[115]",
+        "la_oenb[116]",
+        "la_oenb[117]",
+        "la_oenb[118]",
+        "la_oenb[119]",
+        "la_data_in[122]",
+        "la_data_in[123]",
+        "la_oenb[120]",
+        "la_oenb[121]",
+        "la_oenb[122]",
+        "la_oenb[123]",
+        "la_oenb[124]",
+        "la_oenb[125]",
+        "la_oenb[126]",
+        "la_oenb[127]",
+        "la_data_in[124]",
+        "la_data_in[125]",
+        "la_data_in[126]",
+        "la_data_in[127]",
+        "la_data_out[110]",
+        "user_irq[0]",
+        "la_data_in[113]",
+        "user_irq[1]",
+        "la_data_in[114]",
+        "user_irq[2]",
+        "la_data_out[111]",
+        "la_data_out[112]",
+        "la_data_out[109]",
+        "la_data_in[109]",
+        "la_data_out[113]",
+        "la_data_in[110]",
+        "la_data_out[114]",
+        "la_oenb[108]",
+        "la_data_out[115]",
+        "la_data_out[116]",
+        "la_data_in[111]",
+        "la_data_out[117]",
+        "la_data_in[115]",
+        "la_data_out[118]",
+        "la_data_out[119]",
+        "io_in[10]",
+        "io_in[11]",
+        "io_in[12]",
+        "io_in[13]",
+        "io_in[14]",
+        "io_in[9]",
+        "analog_io[23]",
+        "io_in[24]",
+        "io_in[25]",
+        "io_in[26]",
+        "io_in[27]",
+        "io_in[28]",
+        "io_in[29]",
+        "io_in[30]",
+        "io_oeb[35]",
+        "io_oeb[36]",
+        "io_oeb[37]",
+        "analog_io[28]",
+        "io_in[31]",
+        "io_in[32]",
+        "io_in[33]",
+        "io_in[34]",
+        "io_in[35]",
+        "io_in[36]",
+        "io_in[37]",
+        "io_out[35]",
+        "io_out[36]",
+        "io_out[37]",
+        "io_in[8]",
+        "io_oeb[2]",
+        "io_oeb[0]",
+        "io_out[1]",
+        "io_in[2]",
+        "io_in[1]",
+        "io_in[0]",
+        "io_in[3]",
+        "io_oeb[1]",
+        "io_out[2]",
+        "io_in[4]",
+        "io_oeb[3]",
+        "io_oeb[4]",
+        "io_oeb[5]",
+        "io_oeb[6]",
+        "io_in[5]",
+        "io_in[6]",
+        "io_out[3]",
+        "io_out[4]",
+        "io_out[5]",
+        "io_out[6]",
+        "io_out[0]",
+        "io_in[7]",
+        "vccd2",
+        "vdda1",
+        "vdda2",
+        "vssa1",
+        "vssa2",
+        "vssd2"
+      ]
+   ]
+  }
+]

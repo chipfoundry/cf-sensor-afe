@@ -43,5 +43,23 @@
       "36": "13'h0403",
       "37": "13'h0403"
     }
+  },
+  "precheck": {
+    "version": "1.3.3",
+    "timestamp": "2026-09-19T01:32:10.230179+00:00",
+    "pdk": "sky130A",
+    "passed": true,
+    "checks": {
+      "lvs": {
+        "status": "pass",
+        "duration_s": 30.51
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "68617f6ade8789178bd3988717d2844fc8858187"
   }
 }

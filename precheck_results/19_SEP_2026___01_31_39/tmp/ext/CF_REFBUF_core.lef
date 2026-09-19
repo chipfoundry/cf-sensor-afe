@@ -1,0 +1,118 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO CF_REFBUF_core
+  CLASS BLOCK ;
+  FOREIGN CF_REFBUF_core ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 123.225 BY 147.695 ;
+  PIN nbias
+    PORT
+      LAYER met1 ;
+        RECT 0.000 32.440 1.590 33.510 ;
+    END
+  END nbias
+  PIN vpbe
+    PORT
+      LAYER met1 ;
+        RECT 15.280 147.110 16.005 147.695 ;
+    END
+  END vpbe
+  PIN pd
+    PORT
+      LAYER met1 ;
+        RECT 0.000 22.595 0.655 22.915 ;
+    END
+  END pd
+  PIN ch_cont
+    PORT
+      LAYER met1 ;
+        RECT 0.000 116.395 1.100 117.075 ;
+    END
+  END ch_cont
+  PIN vpwr
+    PORT
+      LAYER met1 ;
+        RECT 0.000 1.940 2.655 3.310 ;
+    END
+  END vpwr
+  PIN ch1
+    PORT
+      LAYER met1 ;
+        RECT 14.355 146.540 14.755 147.695 ;
+    END
+  END ch1
+  PIN switchon
+    PORT
+      LAYER met2 ;
+        RECT 37.900 147.075 38.250 147.695 ;
+    END
+  END switchon
+  PIN out
+    PORT
+      LAYER met2 ;
+        RECT 58.015 144.050 61.545 147.695 ;
+    END
+  END out
+  PIN switchoff
+    PORT
+      LAYER met2 ;
+        RECT 0.000 94.925 1.950 95.470 ;
+    END
+  END switchoff
+  PIN ref_1v2
+    PORT
+      LAYER met2 ;
+        RECT 0.000 14.020 2.935 14.685 ;
+    END
+  END ref_1v2
+  PIN vnb
+    PORT
+      LAYER met2 ;
+        RECT 55.295 146.480 55.800 147.695 ;
+    END
+  END vnb
+  PIN vpb
+    PORT
+      LAYER met2 ;
+        RECT 19.515 146.950 20.155 147.695 ;
+    END
+  END vpb
+  PIN vgnd
+    PORT
+      LAYER met2 ;
+        RECT 41.935 147.035 43.265 147.695 ;
+    END
+  END vgnd
+  PIN ng
+    PORT
+      LAYER met2 ;
+        RECT 122.050 37.090 123.225 38.055 ;
+    END
+  END ng
+  PIN boost
+    PORT
+      LAYER met2 ;
+        RECT 43.775 147.180 44.125 147.695 ;
+    END
+  END boost
+  PIN vpwre
+    PORT
+      LAYER met2 ;
+        RECT 63.330 144.355 67.215 147.695 ;
+    END
+  END vpwre
+  PIN ch2
+    PORT
+      LAYER met2 ;
+        RECT 10.010 147.095 10.970 147.695 ;
+    END
+  END ch2
+  OBS
+      LAYER met1 ;
+        RECT 17.335 88.870 17.850 89.420 ;
+  END
+END CF_REFBUF_core
+END LIBRARY
+
