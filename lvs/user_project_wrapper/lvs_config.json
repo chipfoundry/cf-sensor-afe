@@ -21,7 +21,11 @@
 		""
 	],
 	"LVS_NOFLATTEN": [
-		""
+		"CF_BUF_HIZ",
+		"CF_ADC_SAR12",
+		"CF_ADC_SAR12_sar_refs",
+		"CF_BGR",
+		"CF_REFBUF"
 	],
 	"LVS_IGNORE": [
 		""
