@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>SKY130 DRC runset</description>
+ <original-file/>
+ <generator>drc: script='/usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/sky130A_mr.drc'</generator>
+ <top-cell>user_project_wrapper</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>li.1</name>
+   <description>li.1 : min. li width outside or crossing areaid:ce : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.3</name>
+   <description>li.3 : min. li spacing outside or crossing areaid:ce : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.5</name>
+   <description>li.5 : min. li enclosure of licon of 2 adjacent edges : 0.08um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.6</name>
+   <description>li.6 : min. li area : 0.0561um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.7</name>
+   <description>li.7 : min. li core spacing : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.8</name>
+   <description>li.8 : min. li core width : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_li.WID.4</name>
+   <description>MR_li.WID.4 : li:res minimum width : 0.29um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.ANG.1</name>
+   <description>MR_mcon.ANG.1: mcon must be rectangular</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.WID.1</name>
+   <description>MR_mcon.WID.1 : minimum width of mcon : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.LEN.1</name>
+   <description>MR_mcon.LEN.1 : maximum length of mcon : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.SP.1</name>
+   <description>MR_mcon.SP.1 : min. mcon spacing : 0.19um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.WID.2</name>
+   <description>MR_mcon.WID.2 : min. width of ring-shaped mcon : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.WID.3</name>
+   <description>MR_mcon.WID.3 : max. width of ring-shaped mcon : 0.175um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.CON.1</name>
+   <description>MR_mcon.CON.1: ring-shaped mcon must be enclosed by areaid_sl</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_mcon.CON.10</name>
+   <description>MR_mcon.CON.10 : mcon should covered by li</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.WID.1</name>
+   <description>MR_met1.WID.1 : min. m1 width : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.SP.1</name>
+   <description>MR_met1.SP.1 : min. m1 spacing : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MRW_met1.SP.2</name>
+   <description>MRW_met1.SP.2 : min. 3um.m1 spacing m1 : 0.28um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.ENC.1</name>
+   <description>MR_met1.ENC.1 : min. m1 enclosure of mcon : 0.03um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.CON.1</name>
+   <description>MR_met1.CON.1 : mcon periphery must be enclosed by m1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.4a</name>
+   <description>m1.4a : min. m1 enclosure of mcon for specific cells : 0.005um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.4a_a</name>
+   <description>m1.4a_a : mcon periph must be enclosed by met1 for specific cells</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.AR.1</name>
+   <description>MR_met1.AR.1 : min. m1 area : 0.083um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met1.AR.2</name>
+   <description>MR_met1.AR.2 : min. m1 with holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.5</name>
+   <description>m1.5 : min. m1 enclosure of mcon of 2 adjacent edges : 0.06um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.1a</name>
+   <description>via.1a : via outside of moduleCut should be rectangular</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.1a_a</name>
+   <description>via.1a_a : min. width of via outside of moduleCut : 0.15um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.1a_b</name>
+   <description>via.1a_b : maximum length of via : 0.15um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.2</name>
+   <description>via.2 : min. via spacing : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3</name>
+   <description>via.3 : min. width of ring-shaped via : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3_a</name>
+   <description>via.3_a : max. width of ring-shaped via : 0.205um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3_b</name>
+   <description>via.3_b: ring-shaped via must be enclosed by areaid_sl</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via1.ENC.1</name>
+   <description>MR_via1.ENC.1 : min. m1 enclosure of 0.15um via : 0.055um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via1.CON.1</name>
+   <description>MR_via1.CON.1 : 0.15um via must be enclosed by met1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.5a</name>
+   <description>via.5a : min. m1 enclosure of 0.15um via of 2 adjacent edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met2.WID.1</name>
+   <description>MR_met2.WID.1 : min. m2 width : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.2</name>
+   <description>m2.2 : min. m2 spacing : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MRW_met2.SP.2</name>
+   <description>MRW_met2.SP.2 : min. 3um.m2 spacing m2 : 0.28um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met2.AR.1</name>
+   <description>MR_met2.AR.1 : min. m2 area : 0.0676um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met2.AR.2</name>
+   <description>MR_met2.AR.2 : min. m2 holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.4</name>
+   <description>m2.4 : min. m2 enclosure of via : 0.055um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.4_a</name>
+   <description>m2.4_a : via in periphery must be enclosed by met2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.4_b</name>
+   <description>m2.4_B : min. m2 enclosure of via inside areaid:core : 0.045um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.5</name>
+   <description>m2.5 : min. m2 enclosure of via of 2 adjacent edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.1a</name>
+   <description>via2.1a : via2 outside of moduleCut should be rectangular</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.1a_a</name>
+   <description>via2.1a_a : min. width of via2 outside of moduleCut : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via2.LEN.1</name>
+   <description>MR_via2.LEN.1 : maximum length of via2 : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.2</name>
+   <description>via2.2 : min. via2 spacing : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3</name>
+   <description>via2.3 : min. width of ring-shaped via2 : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3_a</name>
+   <description>via2.3_a : max. width of ring-shaped via2 : 0.205um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3_b</name>
+   <description>via2.3_b: ring-shaped via2 must be enclosed by areaid_sl</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.4</name>
+   <description>via2.4 : min. m2 enclosure of via2 : 0.04um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via2.CON.1</name>
+   <description>MR_via2.CON.1 : via must be enclosed by met2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.5</name>
+   <description>via2.5 : min. m3 enclosure of via2 of 2 adjacent edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met3.WID.1</name>
+   <description>MR_met3.WID.1 : min. m3 width : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.2</name>
+   <description>m3.2 : min. m3 spacing : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MRW_met3.SP.2</name>
+   <description>MRW_met3.SP.2 : min. 3um.m3 spacing m3 : 0.4um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.4</name>
+   <description>m3.4 : min. m3 enclosure of via2 : 0.065um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met3.CON.1</name>
+   <description>MR_met3.CON.1 : via2 must be enclosed by met3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met3.AR.1</name>
+   <description>MR_met3.AR.1 : min. m3 area : 0.240um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met3.AR.2</name>
+   <description>MR_met3.AR.2 : min. m3 holes area : 0.2um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.1</name>
+   <description>via3.1 : via3 outside of moduleCut should be rectangular</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.1_a</name>
+   <description>via3.1_a : min. width of via3 outside of moduleCut : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via3.LEN.1</name>
+   <description>MR_via3.LEN.1 : maximum length of via3 : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.2</name>
+   <description>via3.2 : min. via3 spacing : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.4</name>
+   <description>via3.4 : min. m3 enclosure of via3 : 0.06um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.4_a</name>
+   <description>via3.4_a : non-ring via3 must be enclosed by met3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.5</name>
+   <description>via3.5 : min. m3 enclosure of via3 of 2 adjacent edges : 0.09um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met4.WID.1</name>
+   <description>MR_met4.WID.1 : min. m4 width : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.2</name>
+   <description>m4.2 : min. m4 spacing : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met4.AR.1</name>
+   <description>MR_met4.AR.1 : min. m4 area : 0.240um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MRW_met4.SP.2</name>
+   <description>MRW_met4.SP.2 : min. 3um.m4 spacing m4 : 0.4um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.3</name>
+   <description>m4.3 : min. m4 enclosure of via3 : 0.065um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met4.CON.1</name>
+   <description>MR_met4.CON.1 : via3 must be enclosed by met4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met4.AR.2</name>
+   <description>MR_met4.AR.2 : min. m4 holes area : 0.2um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.1</name>
+   <description>via4.1 : via4 outside of moduleCut should be rectangular</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.1_a</name>
+   <description>via4.1_a : min. width of via4 outside of moduleCut : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.1_b</name>
+   <description>via4.1_b : maximum length of via4 : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via4.SP.1</name>
+   <description>MR_via4.SP.1 : min. via4 spacing : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3</name>
+   <description>via4.3 : min. width of ring-shaped via4 : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3_a</name>
+   <description>via4.3_a : max. width of ring-shaped via4 : 0.805um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3_b</name>
+   <description>via4.3_b: ring-shaped via4 must be enclosed by areaid_sl</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.4</name>
+   <description>via4.4 : min. m4 enclosure of via4 : 0.19um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_via4.CON.1</name>
+   <description>MR_via4.CON.1 : m4 must enclose all via4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met5.WID.1</name>
+   <description>MR_met5.WID.1 : min. m5 width : 1.6um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met5.SP.1</name>
+   <description>MR_met5.SP.1 : min. m5 spacing : 1.6um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.3</name>
+   <description>m5.3 : min. m5 enclosure of via4 : 0.31um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met5.CON.1</name>
+   <description>MR_met5.CON.1 : via must be enclosed by m5</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met5.AR.1</name>
+   <description>MR_met5.AR.1 : min. m5 area : 4.0um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MR_met5.AR.2</name>
+   <description>MR_met5.AR.2 : min. m5 holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pad.2</name>
+   <description>pad.2 : min. pad spacing : 1.27um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>moduleCut.1</name>
+   <description>moduleCut.1 : moduleCut layer is for SkyWater use only</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>user_project_wrapper</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>CF_ADC_SAR12_sar_refs</name>
+   <variant/>
+   <layout-name>CF_ADC_SAR12_sar_refs</layout-name>
+   <references>
+    <ref>
+     <parent>user_project_wrapper</parent>
+     <trans>r0 *1 1010.16,650</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CF_ADC_SAR12</name>
+   <variant/>
+   <layout-name>CF_ADC_SAR12</layout-name>
+   <references>
+    <ref>
+     <parent>user_project_wrapper</parent>
+     <trans>r0 *1 426.34,650</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CF_ADC_SAR12_sar_refs_core</name>
+   <variant/>
+   <layout-name>CF_ADC_SAR12_sar_refs_core</layout-name>
+   <references>
+    <ref>
+     <parent>user_project_wrapper</parent>
+     <trans>r0 *1 1025.16,665</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CF_ADC_SAR12_core</name>
+   <variant/>
+   <layout-name>CF_ADC_SAR12_core</layout-name>
+   <references>
+    <ref>
+     <parent>user_project_wrapper</parent>
+     <trans>r0 *1 441.34,665</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'MR_met1.SP.1'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1017.965,793.61;1017.685,793.61)/(1017.645,793.48;1017.925,793.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met1.SP.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.47,142.64;7.75,142.64)/(7.75,142.775;7.47,142.775)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.5a'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.535,142.84;7.535,142.99;7.685,142.99;7.685,142.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.5a'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.535,142.425;7.535,142.575;7.685,142.575;7.685,142.425)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.5a'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.57,144.1;7.57,144.25;7.72,144.25;7.72,144.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via.5a'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.55,143.265;7.55,143.415;7.7,143.415;7.7,143.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.485,143.48;7.765,143.48)/(7.805,143.61;7.525,143.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.47,142.64;7.75,142.64)/(7.75,142.775;7.47,142.775)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (533.04,29.336;533.04,31.604)/(533,31.47;533,29.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>CF_ADC_SAR12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (99.7,517.545;99.7,521.707)/(99.61,521.6;99.61,517.545)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.2'</category>
+   <cell>CF_ADC_SAR12</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (99.13,517.545;99.13,521.6)/(99.02,521.687;99.02,517.545)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (267.25,983.875;266.745,983.875)/(266.82,983.76;267.24,983.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (267.25,983.645;267.25,983.875)/(267.24,983.76;267.24,983.645)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (267.545,963.55;267.545,963.65)/(267.41,963.65;267.41,963.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (266.745,983.875;266.745,983.645)/(266.82,983.645;266.82,983.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (267.24,983.645;267.25,983.645)/(267.25,983.875;267.08,983.875)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (266.745,983.645;266.82,983.645)/(266.98,983.875;266.745,983.875)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (267.41,963.55;267.545,963.55)/(267.545,963.65;267.41,963.65)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (324.9,834.61;325.37,834.61)/(325.37,834.75;324.9,834.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (266.61,963.515;267.115,963.515)/(267.115,963.745;266.61,963.745)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (328.85,798.345;329.24,798.345)/(329.24,798.465;328.85,798.465)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MRW_met2.SP.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.417,142.085;7.803,142.085)/(7.75,142.36;7.47,142.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met2.AR.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (328.85,798.345;328.85,798.465;329.24,798.465;329.24,798.345)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met2.AR.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (324.9,834.61;324.9,834.75;325.37,834.75;325.37,834.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met2.AR.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (266.61,963.515;266.61,963.745;267.115,963.745;267.115,963.515)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met2.AR.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (267.41,963.55;267.41,963.65;267.545,963.65;267.545,963.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met2.AR.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (266.745,983.645;266.745,983.875;267.25,983.875;267.25,983.645;267.24,983.645;267.24,983.76;266.82,983.76;266.82,983.645)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.5'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.535,142.84;7.535,142.99;7.685,142.99;7.685,142.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.5'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.535,142.425;7.535,142.575;7.685,142.575;7.685,142.425)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.5'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.57,144.1;7.57,144.25;7.72,144.25;7.72,144.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.5'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.55,143.265;7.55,143.415;7.7,143.415;7.7,143.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'via2.5'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (11.945,46.215;11.945,46.415;12.145,46.415;12.145,46.215)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (503,13.77;502.505,13.77)|(502.505,14.05;503,14.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (503,10.64;502.505,10.64)|(502.505,10.92;503,10.92)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (0.495,13.05;0,13.05)|(0,13.33;0.495,13.33)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (0.495,16.18;0,16.18)|(0,16.46;0.495,16.46)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (0.495,19.31;0,19.31)|(0,19.59;0.495,19.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,300.735;472.3,300.735)|(472.3,301.015;473.24,301.015)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,304.065;472.3,304.065)|(472.3,304.345;473.24,304.345)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,309.955;472.3,309.955)|(472.3,310.235;473.24,310.235)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,313.415;472.3,313.415)|(472.3,313.695;473.24,313.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,316.875;472.3,316.875)|(472.3,317.155;473.24,317.155)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,318.925;472.3,318.925)|(472.3,319.205;473.24,319.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>user_project_wrapper</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1194.9,665.4;1195.213,665.4)/(1194.94,665.525;1194.9,665.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.385,107.22;12.462,107.22)/(12.385,107.51;12.308,107.51)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.462,107.52;12.385,107.52)/(12.308,107.23;12.385,107.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.385,107.51;12.035,107.51)/(12.035,107.23;12.385,107.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.112,107.51;12.035,107.51)/(11.958,107.22;12.035,107.22)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.035,107.23;12.112,107.23)/(12.035,107.52;11.958,107.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.035,106.6;12.112,106.6)/(12.035,106.89;11.958,106.89)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.385,106.88;12.035,106.88)/(12.035,106.6;12.385,106.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.462,106.89;12.385,106.89)/(12.308,106.6;12.385,106.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.385,106.59;12.462,106.59)/(12.385,106.88;12.308,106.88)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.112,106.88;12.035,106.88)/(11.958,106.59;12.035,106.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.285,59.115;11.935,59.115)/(11.935,58.835;12.285,58.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.2'</category>
+   <cell>CF_ADC_SAR12_sar_refs</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.285,58.485;11.935,58.485)/(11.935,58.205;12.285,58.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.AR.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (502.505,13.77;502.505,14.05;503,14.05;503,13.77)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.AR.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (502.505,10.64;502.505,10.92;503,10.92;503,10.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.AR.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0,13.05;0,13.33;0.495,13.33;0.495,13.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.AR.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0,16.18;0,16.46;0.495,16.46;0.495,16.18)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met3.AR.1'</category>
+   <cell>CF_ADC_SAR12_sar_refs_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0,19.31;0,19.59;0.495,19.59;0.495,19.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,300.735;472.3,300.735)|(472.3,301.015;473.24,301.015)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,304.065;472.3,304.065)|(472.3,304.345;473.24,304.345)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,309.955;472.3,309.955)|(472.3,310.235;473.24,310.235)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,313.415;472.3,313.415)|(472.3,313.695;473.24,313.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,316.875;472.3,316.875)|(472.3,317.155;473.24,317.155)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MR_met4.WID.1'</category>
+   <cell>CF_ADC_SAR12_core</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (473.24,318.925;472.3,318.925)|(472.3,319.205;473.24,319.205)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
