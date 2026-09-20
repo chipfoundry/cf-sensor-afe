@@ -67,8 +67,8 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 | --- | --- | --- |
 | [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.3 | Sensor input buffer |
 | [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.5 | 12-bit SAR + wrapped `sar_refs` |
-| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.5 | Bandgap bias / 1.2 V reference |
-| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.4 | Buffered `Vout` monitor |
+| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.6 | Bandgap bias / 1.2 V reference |
+| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.5 | Buffered `Vout` monitor |
 
 Install from the project root (private GitHub; `ipm` prefers `GITHUB_TOKEN`):
 
@@ -219,9 +219,12 @@ with `caravel_cocotb`) and `python3 verilog/dv/setup-cocotb.py …`:
 cf verify afe_uart
 ```
 
-RTL sim compiles `ip/CF_ADC_SAR12/verify/beh_model/*_core.v` in place of the
-empty `hdl/gl/*_core.v` stubs (do not add those files to OpenLane). The
-cocotb test pokes `vinp_v=1.65` / `vrefhi_v=3.3` and expects:
+RTL sim compiles `ip/CF_BUF_HIZ/verify/beh_model/CF_BUF_HIZ_core.v`,
+`ip/CF_ADC_SAR12/verify/beh_model/*_core.v`, `ip/CF_BGR/verify/beh_model/CF_BGR_core.v`,
+and `ip/CF_REFBUF/verify/beh_model/CF_REFBUF_core.v` in place of the empty
+`hdl/gl/*_core.v` stubs (do not add those files to OpenLane). The cocotb
+test pokes HIZ `vinp_p_v=1.65` / `vinn_p_v=0`, copies `vout_v` onto the SAR
+`vinp_v`, and pokes SAR `vrefhi_v=3.3`. Expected UART:
 
 ```
 AFE ready
@@ -229,16 +232,16 @@ ID AFE00001
 ADC 800
 ```
 
-HIZ / BGR / REFBUF `*_core` cells stay empty blackboxes. A passing run proves
-Wishbone `ID`/`CTRL`/`STATUS`, SAR `reset_n`/`sof`/`enable_hv`, the ideal converter
-model, and UART TX. `cf verify --all` runs `verilog/dv/cocotb/all_tests.yaml`
-(`afe_uart` only).
+BGR / REFBUF `*_core` cells have ideal sim models under `verify/beh_model`.
+A passing run proves Wishbone `ID`/`CTRL`/`STATUS`, SAR `reset_n`/`sof`/`enable_hv`,
+the ideal HIZ / BGR / REFBUF / converter models, and UART TX. `cf verify --all` runs
+`verilog/dv/cocotb/all_tests.yaml` (`afe_uart` only).
 
 ## Layout notes
 
 - Customer cell `CF_<IP>`: chip PDN `vpwr` + `vgnd` only.
-- Leaf `CF_<IP>_core`: pin-only abstract (empty Verilog in OpenLane; SAR has
-  an ideal sim model under `verify/beh_model/`).
+- Leaf `CF_<IP>_core`: pin-only abstract (empty Verilog in OpenLane; analog
+  macros have ideal sim models under `verify/beh_model/`).
 - `afe_wb`: digital CSR, `vccd1`/`vssd1`.
 - Shared analog supplies on GPIO 32–34.
 - OpenLane `MAGIC_EXT_ABSTRACT_CELLS` and precheck `EXTRACT_ABSTRACT` both

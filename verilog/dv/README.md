@@ -21,7 +21,10 @@ cf verify --all
 ```
 
 `--all` uses `verilog/dv/cocotb/all_tests.yaml`. RTL sim compiles
-`ip/CF_ADC_SAR12/verify/beh_model/*_core.v` in place of the empty
+`ip/CF_BUF_HIZ/verify/beh_model/CF_BUF_HIZ_core.v`,
+`ip/CF_ADC_SAR12/verify/beh_model/*_core.v`,
+`ip/CF_BGR/verify/beh_model/CF_BGR_core.v`, and
+`ip/CF_REFBUF/verify/beh_model/CF_REFBUF_core.v` in place of the empty
 `hdl/gl/*_core.v` stubs.
 
 Expected UART:
@@ -32,7 +35,8 @@ ID AFE00001
 ADC 800
 ```
 
-(`ADC 800` is mid-scale for `vinp=1.65`, `vrefhi=3.3` on the ideal SAR model.)
+(`ADC 800` is mid-scale for HIZ `vinp_p=1.65` → SAR `vinp=1.65`, `vrefhi=3.3`
+on the ideal models.)
 
 Classic Verilog TB (`verilog/dv/afe_uart/`): pass is GPIO 37 after a successful
 Wishbone sample. SDF, when enabled, annotates `user_project_wrapper`, not a

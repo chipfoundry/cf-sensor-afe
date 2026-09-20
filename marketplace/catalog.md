@@ -49,8 +49,8 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 | --- | --- | --- |
 | [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.3 | Sensor input buffer |
 | [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.5 | 12-bit SAR + wrapped `sar_refs` |
-| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.5 | Bandgap bias / 1.2 V reference |
-| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.4 | Buffered `Vout` monitor |
+| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.6 | Bandgap bias / 1.2 V reference |
+| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.5 | Buffered `Vout` monitor |
 
 This reference design is Apache-2.0. Analog macros are separate catalog
 IPs with their own licenses. Tapeout substitutes protected analog GDS

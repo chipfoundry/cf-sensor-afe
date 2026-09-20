@@ -224,6 +224,21 @@
         ],
         "draft": true,
         "sha256": "c01a3d4d1df1265757025dbcf9e6276fc487e072eb05aa2ca6cf81e415136d4b"
+      },
+      "0.2.6": {
+        "date": "9-20-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "438.465",
+        "height": "311.22",
+        "cell_count": "2",
+        "clock_freq_mhz": "0",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "be2233b245a1fd40514b44b45672087e4264ffffcbd8370e622dc49bf57e23e4"
       }
     }
   },
@@ -285,6 +300,21 @@
         ],
         "draft": true,
         "sha256": "4ba9054ef41e0a504be5c06ac2ddf9680b9c3124386f6430d166e6a09d3c09ca"
+      },
+      "0.2.5": {
+        "date": "9-20-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "153.225",
+        "height": "177.695",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": true,
+        "sha256": "a82fcf1ceae55f4ad0a7d0263a7bb1fce97171462cb0095fd50789f99b5a5af1"
       }
     }
   }
