@@ -82,29 +82,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 517.505 31.9 518 32.18 ;
-      LAYER met2 ;
-        RECT 517.505 31.9 533 32.18 ;
-      LAYER met3 ;
-        RECT 517.505 28.77 518 29.05 ;
-      LAYER met2 ;
-        RECT 517.505 28.77 533 29.05 ;
-      LAYER met3 ;
-        RECT 517.505 25.64 518 25.92 ;
-      LAYER met2 ;
-        RECT 517.505 25.64 533 25.92 ;
-      LAYER met3 ;
-        RECT 8.5 28.04 15.8 28.34 ;
-      LAYER met2 ;
-        RECT 0 28 15.495 28.38 ;
-      LAYER met3 ;
-        RECT 8.5 31.17 15.8 31.47 ;
-      LAYER met2 ;
-        RECT 0 31.13 15.495 31.51 ;
-        RECT 0 34.26 15.495 34.64 ;
-      LAYER met3 ;
-        RECT 8.5 34.3 15.8 34.6 ;
       LAYER met2 ;
         RECT 0 113.475 17.38 118.39 ;
       LAYER met3 ;
@@ -184,8 +161,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 58.51 15.8 58.81 ;
       LAYER met2 ;
         RECT 0 58.48 15.715 58.84 ;
     END
@@ -194,8 +169,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 57.88 15.8 58.18 ;
       LAYER met2 ;
         RECT 0 57.85 15.715 58.21 ;
     END
@@ -204,8 +177,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 142.795 15.595 143.035 ;
       LAYER met2 ;
         RECT 0 142.795 15.485 143.035 ;
     END
@@ -246,8 +217,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 59.14 15.8 59.44 ;
       LAYER met2 ;
         RECT 0 59.11 15.715 59.47 ;
     END
@@ -256,8 +225,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 143.62 15.535 143.88 ;
       LAYER met2 ;
         RECT 0 143.62 15.435 143.88 ;
     END
@@ -274,8 +241,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 63.5 15.8 63.8 ;
       LAYER met2 ;
         RECT 0 63.47 15.715 63.83 ;
     END
@@ -284,8 +249,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 142.38 15.595 142.62 ;
       LAYER met2 ;
         RECT 0 142.38 15.485 142.62 ;
     END
@@ -294,8 +257,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 144.05 15.57 144.3 ;
       LAYER met2 ;
         RECT 0 144.05 15.465 144.3 ;
     END
@@ -306,8 +267,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 109.11 15.915 109.54 ;
-      LAYER met3 ;
-        RECT 8.5 109.16 15.915 109.49 ;
     END
   END S_LV[7]
   PIN px_in
@@ -318,10 +277,6 @@ MACRO CF_ADC_SAR12_sar_refs
         RECT 516.565 26.35 533 28.35 ;
       LAYER met3 ;
         RECT 516.565 26.35 518 28.35 ;
-      LAYER met2 ;
-        RECT 0 28.75 16.435 30.76 ;
-      LAYER met3 ;
-        RECT 8.5 28.8 16.435 30.71 ;
     END
   END px_in
   PIN px
@@ -332,10 +287,6 @@ MACRO CF_ADC_SAR12_sar_refs
         RECT 516.565 29.47 533 31.47 ;
       LAYER met3 ;
         RECT 516.565 29.47 518 31.47 ;
-      LAYER met2 ;
-        RECT 0 31.885 16.435 33.895 ;
-      LAYER met3 ;
-        RECT 8.5 31.935 16.435 33.845 ;
     END
   END px
   PIN refout
@@ -350,8 +301,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 53.275 15.8 53.575 ;
       LAYER met2 ;
         RECT 0 53.245 15.715 53.605 ;
     END
@@ -360,8 +309,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 46.815 15.8 47.115 ;
       LAYER met2 ;
         RECT 0 46.785 15.39 47.145 ;
     END
@@ -370,8 +317,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 8.5 46.165 15.8 46.465 ;
       LAYER met2 ;
         RECT 0 46.17 15.585 46.46 ;
     END
@@ -390,8 +335,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 106.84 15.915 107.27 ;
-      LAYER met3 ;
-        RECT 8.5 106.89 15.915 107.22 ;
     END
   END S_LV[6]
   PIN S_LV[5]
@@ -400,8 +343,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 107.47 15.915 107.9 ;
-      LAYER met3 ;
-        RECT 8.5 107.52 15.915 107.85 ;
     END
   END S_LV[5]
   PIN S_LV[4]
@@ -410,8 +351,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 109.79 15.915 110.22 ;
-      LAYER met3 ;
-        RECT 8.5 109.84 15.915 110.17 ;
     END
   END S_LV[4]
   PIN S_LV[3]
@@ -420,8 +359,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 110.47 15.915 110.9 ;
-      LAYER met3 ;
-        RECT 8.5 110.52 15.915 110.85 ;
     END
   END S_LV[3]
   PIN S_LV[2]
@@ -430,8 +367,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 111.15 15.915 111.58 ;
-      LAYER met3 ;
-        RECT 8.5 111.2 15.915 111.53 ;
     END
   END S_LV[2]
   PIN S_LV[1]
@@ -440,8 +375,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 111.83 15.915 112.26 ;
-      LAYER met3 ;
-        RECT 8.5 111.88 15.915 112.21 ;
     END
   END S_LV[1]
   PIN S_LV[0]
@@ -450,8 +383,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 112.51 15.915 112.94 ;
-      LAYER met3 ;
-        RECT 8.5 112.56 15.915 112.89 ;
     END
   END S_LV[0]
   PIN REFHI
@@ -466,14 +397,12 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 144.46 15.505 144.725 ;
       LAYER met2 ;
         RECT 0 144.46 15.41 144.725 ;
+        RECT 0 144.46 0.48 159.835 ;
       LAYER met1 ;
         RECT 0 144.46 0.48 159.835 ;
-      LAYER met2 ;
-        RECT 0 144.46 0.48 159.835 ;
+        RECT 0 144.46 15.505 144.725 ;
     END
   END enable_hv
   PIN IREF_VREFBUF
@@ -488,8 +417,6 @@ MACRO CF_ADC_SAR12_sar_refs
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met1 ;
-        RECT 0 143.22 15.595 143.46 ;
       LAYER met2 ;
         RECT 0 143.22 15.485 143.46 ;
     END
@@ -500,8 +427,6 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 106.21 15.915 106.64 ;
-      LAYER met3 ;
-        RECT 8.5 106.26 15.915 106.59 ;
     END
   END vssa_shield
   PIN dft_comp_en
@@ -510,37 +435,19 @@ MACRO CF_ADC_SAR12_sar_refs
     PORT
       LAYER met2 ;
         RECT 0 108.43 15.915 108.86 ;
-      LAYER met3 ;
-        RECT 8.5 108.48 15.915 108.81 ;
     END
   END dft_comp_en
   OBS
     LAYER li1 ;
       RECT 0 0 533 159.835 ;
     LAYER met1 ;
-      RECT 0 0 0.48 142.38 ;
-      RECT 0 142.62 0.48 142.795 ;
-      RECT 0 143.035 0.48 143.22 ;
-      RECT 0 143.46 0.48 143.62 ;
-      RECT 0 143.88 0.48 144.05 ;
-      RECT 0 144.3 0.48 144.46 ;
-      RECT 0.48 0 15 142.38 ;
-      RECT 0.48 142.62 15 142.795 ;
-      RECT 0.48 143.035 15 143.22 ;
-      RECT 0.48 143.46 15 143.62 ;
-      RECT 0.48 143.88 15 144.05 ;
-      RECT 0.48 144.3 15 144.46 ;
+      RECT 0 0 15 144.46 ;
       RECT 0.48 144.725 15 159.835 ;
       RECT 518 0 533 159.835 ;
       RECT 15 0 518 15 ;
       RECT 15 144.835 518 159.835 ;
     LAYER met2 ;
-      RECT 0 0 0.48 28 ;
-      RECT 0 28.38 0.48 28.75 ;
-      RECT 0 30.76 0.48 31.13 ;
-      RECT 0 31.51 0.48 31.885 ;
-      RECT 0 33.895 0.48 34.26 ;
-      RECT 0 34.64 0.48 37.635 ;
+      RECT 0 0 0.48 37.635 ;
       RECT 0 37.985 0.48 38.395 ;
       RECT 0 38.705 0.48 38.845 ;
       RECT 0 39.18 0.48 46.17 ;
@@ -571,12 +478,7 @@ MACRO CF_ADC_SAR12_sar_refs
       RECT 0 143.46 0.48 143.62 ;
       RECT 0 143.88 0.48 144.05 ;
       RECT 0 144.3 0.48 144.46 ;
-      RECT 0.48 0 6.31 28 ;
-      RECT 0.48 28.38 6.31 28.75 ;
-      RECT 0.48 30.76 6.31 31.13 ;
-      RECT 0.48 31.51 6.31 31.885 ;
-      RECT 0.48 33.895 6.31 34.26 ;
-      RECT 0.48 34.64 6.31 37.635 ;
+      RECT 0.48 0 6.31 37.635 ;
       RECT 0.48 37.985 6.31 38.395 ;
       RECT 0.48 38.705 6.31 38.845 ;
       RECT 0.48 39.18 6.31 46.17 ;
@@ -608,12 +510,7 @@ MACRO CF_ADC_SAR12_sar_refs
       RECT 0.48 143.88 6.31 144.05 ;
       RECT 0.48 144.3 6.31 144.46 ;
       RECT 0.48 144.725 6.31 159.835 ;
-      RECT 6.31 0 15 28 ;
-      RECT 6.31 28.38 15 28.75 ;
-      RECT 6.31 30.76 15 31.13 ;
-      RECT 6.31 31.51 15 31.885 ;
-      RECT 6.31 33.895 15 34.26 ;
-      RECT 6.31 34.64 15 37.635 ;
+      RECT 6.31 0 15 37.635 ;
       RECT 6.31 37.985 15 38.395 ;
       RECT 6.31 38.705 15 38.845 ;
       RECT 6.31 39.18 15 46.17 ;
@@ -646,12 +543,9 @@ MACRO CF_ADC_SAR12_sar_refs
       RECT 6.31 143.88 15 144.05 ;
       RECT 6.31 144.3 15 144.46 ;
       RECT 6.31 144.725 15 159.835 ;
-      RECT 518 0 533 25.64 ;
-      RECT 518 25.92 533 26.35 ;
-      RECT 518 28.35 533 28.77 ;
-      RECT 518 29.05 533 29.47 ;
-      RECT 518 31.47 533 31.9 ;
-      RECT 518 32.18 533 40.72 ;
+      RECT 518 0 533 26.35 ;
+      RECT 518 28.35 533 29.47 ;
+      RECT 518 31.47 533 40.72 ;
       RECT 518 41.72 533 159.835 ;
       RECT 15 0 518 15 ;
       RECT 15 144.835 518 159.835 ;

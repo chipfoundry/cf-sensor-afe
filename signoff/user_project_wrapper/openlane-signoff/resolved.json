@@ -346,7 +346,7 @@
     "RUN_POST_CTS_RESIZER_TIMING": false,
     "RUN_POST_GRT_RESIZER_TIMING": false,
     "RUN_HEURISTIC_DIODE_INSERTION": false,
-    "RUN_ANTENNA_REPAIR": false,
+    "RUN_ANTENNA_REPAIR": true,
     "RUN_DRT": true,
     "RUN_FILL_INSERTION": false,
     "RUN_MCSTA": true,
@@ -501,7 +501,15 @@
     "PDN_EXTEND_TO": "core_ring",
     "PDN_ENABLE_PINS": true,
     "PDN_CFG": null,
-    "ROUTING_OBSTRUCTIONS": null,
+    "ROUTING_OBSTRUCTIONS": [
+        [
+            "met3",
+            441.34,
+            1166.85,
+            914.58,
+            1168.25
+        ]
+    ],
     "RT_CLOCK_MIN_LAYER": null,
     "RT_CLOCK_MAX_LAYER": null,
     "GRT_ADJUSTMENT": 0.3,
@@ -555,7 +563,7 @@
     "GRT_ANTENNA_REPAIR_ITERS": 3,
     "GRT_OVERFLOW_ITERS": 50,
     "GRT_ANTENNA_REPAIR_MARGIN": 10,
-    "GRT_ANTENNA_REPAIR_JUMPER_ONLY": false,
+    "GRT_ANTENNA_REPAIR_JUMPER_ONLY": true,
     "GRT_ANTENNA_REPAIR_DIODE_ONLY": false,
     "DESIGN_REPAIR_BUFFER_INPUT_PORTS": false,
     "DESIGN_REPAIR_BUFFER_OUTPUT_PORTS": true,

@@ -13,7 +13,8 @@
     "RUN_POST_CTS_RESIZER_TIMING": false,
     "DESIGN_REPAIR_BUFFER_INPUT_PORTS": false,
     "PDN_ENABLE_RAILS": false,
-    "RUN_ANTENNA_REPAIR": false,
+    "RUN_ANTENNA_REPAIR": true,
+    "GRT_ANTENNA_REPAIR_JUMPER_ONLY": true,
     "DRT_ANTENNA_REPAIR_ITERS": 0,
     "RUN_FILL_INSERTION": false,
     "RUN_TAP_ENDCAP_INSERTION": false,
@@ -204,6 +205,11 @@
         "^afe_(vout|ibias|vref|nbias|refhi|refby2)$": "ANALOG_WIDE",
         "^analog_io": "ANALOG_WIDE"
     },
+
+    "//": "Keep analog_ctrl off met3 on the SAR north pin row. Core met3 pads are 0.30 µm on a 0.65 µm pitch; parent met3 vias fail m3.2. Wrap LEF pins there are met2. Do not OBS wrap PG straps (parent y >= 1168.5).",
+    "ROUTING_OBSTRUCTIONS": [
+        ["met3", 441.34, 1166.85, 914.58, 1168.25]
+    ],
 
     "//": "Fixed configurations for caravel. You should NOT edit this section",
     "DESIGN_NAME": "user_project_wrapper",
