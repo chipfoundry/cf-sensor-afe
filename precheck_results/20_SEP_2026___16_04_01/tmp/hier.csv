@@ -1,0 +1,11 @@
+verilog,,layout
+CF_ADC_SAR12/CF_ADC_SAR12_core,1
+CF_ADC_SAR12_sar_refs/CF_ADC_SAR12_sar_refs_core,1
+CF_BGR/CF_BGR_core,1
+CF_BUF_HIZ/CF_BUF_HIZ_core,1
+CF_REFBUF/CF_REFBUF_core,1
+user_project_wrapper/CF_ADC_SAR12,1
+user_project_wrapper/CF_ADC_SAR12_sar_refs,1
+user_project_wrapper/CF_BGR,1
+user_project_wrapper/CF_BUF_HIZ,1
+user_project_wrapper/CF_REFBUF,1

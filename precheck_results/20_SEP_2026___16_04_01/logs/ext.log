@@ -1,0 +1,498 @@
+BEGIN: Sun Sep 20 16:05:15 2026
+Extracting as digital. Top ports unique.
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/abstract.tcl" from command line.
+Abstracting
+CIF input style is now "sky130()"
+Abstracting /tmp/tmp_k97ni63/repo/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "C0_CF_REFBUF_core".
+Error while reading cell "C0_CF_REFBUF_core" (byte position 400): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "C0_CF_REFBUF_core" (byte position 1744): Unknown layer/datatype in boundary, layer=69 type=10
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 16548): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 17060): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_REFBUF" (byte position 21920): Unknown layer/datatype in boundary, layer=67 type=10
+Reading "T2_CF_BUF_HIZ_core".
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 75634): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 75698): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 76210): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "BI_CF_BGR_core".
+Error while reading cell "BI_CF_BGR_core" (byte position 131668): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "BI_CF_BGR_core" (byte position 131732): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "BI_CF_BGR_core" (byte position 132564): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 150038): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 150102): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 150486): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "TJ_CF_ADC_SAR12_sar_refs_core".
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 263380): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 263444): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 264852): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 287252): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 298388): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313022): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313086): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313406): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "KX_CF_ADC_SAR12_core".
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 448716): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 448780): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 452812): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 463756): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 473996): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 509800): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 509864): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 510184): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "SS_sky130_ef_sc_hd__decap_40_12".
+Reading "SS_sky130_fd_sc_hd__decap_3".
+Reading "SS_sky130_fd_sc_hd__conb_1".
+Reading "SS_sky130_fd_sc_hd__fill_1".
+Reading "SS_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "SS_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "SS_sky130_fd_sc_hd__fill_4".
+Reading "SS_sky130_fd_sc_hd__fill_2".
+Reading "SS_sky130_fd_sc_hd__fill_8".
+Reading "SS_sky130_fd_sc_hd__buf_12".
+Reading "SS_sky130_fd_sc_hd__buf_4".
+Reading "SS_sky130_fd_sc_hd__buf_2".
+Reading "SS_sky130_fd_sc_hd__dfxtp_2".
+Reading "SS_sky130_fd_sc_hd__o211a_2".
+Reading "SS_sky130_fd_sc_hd__or2_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_8".
+Reading "SS_sky130_fd_sc_hd__clkbuf_4".
+Reading "SS_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "SS_sky130_fd_sc_hd__a22o_2".
+Reading "SS_sky130_fd_sc_hd__a2111o_2".
+Reading "SS_sky130_fd_sc_hd__a221o_2".
+Reading "SS_sky130_fd_sc_hd__clkinv_2".
+Reading "SS_sky130_fd_sc_hd__diode_2".
+Reading "SS_sky130_fd_sc_hd__o221a_2".
+Reading "SS_sky130_fd_sc_hd__a211o_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_16".
+Reading "SS_sky130_fd_sc_hd__inv_6".
+Reading "SS_sky130_fd_sc_hd__a21o_2".
+Reading "SS_sky130_fd_sc_hd__or4_2".
+Reading "SS_sky130_fd_sc_hd__buf_6".
+Reading "SS_sky130_fd_sc_hd__or3_2".
+Reading "SS_sky130_fd_sc_hd__and2_2".
+Reading "SS_sky130_fd_sc_hd__nand2_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_4".
+Reading "SS_sky130_fd_sc_hd__and4b_2".
+Reading "SS_sky130_fd_sc_hd__and4bb_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_2".
+Reading "SS_sky130_fd_sc_hd__inv_2".
+Reading "SS_sky130_fd_sc_hd__or4bb_2".
+Reading "SS_sky130_fd_sc_hd__buf_1".
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+
+TIME: read GDS: 00:00:02 
+
+
+TIME: create subcut: 00:00:00 
+
+Abstracting BI_CF_BGR_core
+instance count:0 port count:56
+Full size 0 0 81693 56244
+Setting deletion window size to 102400. Estimate 0 steps.
+Step 1/0: deleting 0 objects at 0 0 102400 102400
+Deleting 0 final objects
+Deleting dnwell
+Deleting obsactive
+Generating LEF output BI_CF_BGR_core.lef for cell BI_CF_BGR_core:
+Diagnostic:  Write LEF header for cell BI_CF_BGR_core
+Diagnostic:  Writing LEF output for cell BI_CF_BGR_core
+Diagnostic:  Scale value is 0.005000
+Abstracting C0_CF_REFBUF_core
+instance count:0 port count:17
+Full size 0 0 24645 29539
+Setting deletion window size to 25600. Estimate 0 steps.
+Step 1/0: deleting 0 objects at 0 0 25600 25600
+Step 2/0: deleting 0 objects at 0 25600 25600 51200
+Deleting 0 final objects
+Deleting dnwell
+Deleting obsactive
+Generating LEF output C0_CF_REFBUF_core.lef for cell C0_CF_REFBUF_core:
+Diagnostic:  Write LEF header for cell C0_CF_REFBUF_core
+Diagnostic:  Writing LEF output for cell C0_CF_REFBUF_core
+Diagnostic:  Scale value is 0.005000
+Abstracting KX_CF_ADC_SAR12_core
+instance count:0 port count:89
+Full size 0 0 94648 100600
+Setting deletion window size to 102400. Estimate 0 steps.
+Step 1/0: deleting 0 objects at 0 0 102400 102400
+Deleting 0 final objects
+Deleting dnwell
+Deleting obsactive
+Deleting metal1
+Generating LEF output KX_CF_ADC_SAR12_core.lef for cell KX_CF_ADC_SAR12_core:
+Diagnostic:  Write LEF header for cell KX_CF_ADC_SAR12_core
+Diagnostic:  Writing LEF output for cell KX_CF_ADC_SAR12_core
+Diagnostic:  Scale value is 0.005000
+Abstracting SS_sky130_fd_sc_hd__fill_1
+instance count:0 port count:5
+Abstracting SS_sky130_fd_sc_hd__fill_2
+instance count:0 port count:5
+Abstracting SS_sky130_fd_sc_hd__fill_4
+instance count:0 port count:5
+Abstracting SS_sky130_fd_sc_hd__fill_8
+instance count:0 port count:5
+Abstracting SS_sky130_fd_sc_hd__tapvpwrvgnd_1
+instance count:0 port count:3
+Abstracting T2_CF_BUF_HIZ_core
+instance count:0 port count:32
+Full size 0 0 43304 77994
+Setting deletion window size to 51200. Estimate 0 steps.
+Step 1/0: deleting 0 objects at 0 0 51200 51200
+Step 2/0: deleting 0 objects at 0 51200 51200 102400
+Deleting 0 final objects
+Deleting locali
+Generating LEF output T2_CF_BUF_HIZ_core.lef for cell T2_CF_BUF_HIZ_core:
+Diagnostic:  Write LEF header for cell T2_CF_BUF_HIZ_core
+Diagnostic:  Writing LEF output for cell T2_CF_BUF_HIZ_core
+Diagnostic:  Scale value is 0.005000
+Abstracting TJ_CF_ADC_SAR12_sar_refs_core
+instance count:0 port count:46
+Full size 0 0 100600 25967
+Setting deletion window size to 51200. Estimate 0 steps.
+Step 1/0: deleting 0 objects at 0 0 51200 51200
+Step 2/0: deleting 0 objects at 51200 0 102400 51200
+Deleting 0 final objects
+Deleting dnwell
+Deleting obsactive
+Deleting metal1
+Generating LEF output TJ_CF_ADC_SAR12_sar_refs_core.lef for cell TJ_CF_ADC_SAR12_sar_refs_core:
+Diagnostic:  Write LEF header for cell TJ_CF_ADC_SAR12_sar_refs_core
+Diagnostic:  Writing LEF output for cell TJ_CF_ADC_SAR12_sar_refs_core
+Diagnostic:  Scale value is 0.005000
+
+TIME: create abstract: 00:00:00 
+
+Using technology "sky130A", version 1.0.493
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/extract.tcl" from command line.
+Extracting with top ports unique (digital)
+CIF input style is now "sky130()"
+Using abstracted BI_CF_BGR_core
+Reading LEF data from file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/BI_CF_BGR_core.lef.
+This action cannot be undone.
+LEF read: Processed 347 lines.
+Using abstracted C0_CF_REFBUF_core
+Reading LEF data from file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/C0_CF_REFBUF_core.lef.
+This action cannot be undone.
+LEF read: Processed 117 lines.
+Using abstracted KX_CF_ADC_SAR12_core
+Reading LEF data from file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/KX_CF_ADC_SAR12_core.lef.
+This action cannot be undone.
+LEF read: Processed 590 lines.
+Using abstracted T2_CF_BUF_HIZ_core
+Reading LEF data from file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/T2_CF_BUF_HIZ_core.lef.
+This action cannot be undone.
+LEF read: Processed 273 lines.
+Using abstracted TJ_CF_ADC_SAR12_sar_refs_core
+Reading LEF data from file /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/tmp/ext/TJ_CF_ADC_SAR12_sar_refs_core.lef.
+This action cannot be undone.
+LEF read: Processed 299 lines.
+Flattening 
+
+Extracting /tmp/tmp_k97ni63/repo/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "C0_CF_REFBUF_core".
+Warning:  cell C0_CF_REFBUF_core already existed before reading GDS!
+Using pre-existing cell definition
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 16548): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 17060): Unknown layer/datatype in boundary, layer=69 type=10
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Error while reading cell "CF_REFBUF" (byte position 21920): Unknown layer/datatype in boundary, layer=67 type=10
+Reading "T2_CF_BUF_HIZ_core".
+Warning:  cell T2_CF_BUF_HIZ_core already existed before reading GDS!
+Using pre-existing cell definition
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 75634): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 75698): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 76210): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "BI_CF_BGR_core".
+Warning:  cell BI_CF_BGR_core already existed before reading GDS!
+Using pre-existing cell definition
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 150038): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 150102): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 150486): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "TJ_CF_ADC_SAR12_sar_refs_core".
+Warning:  cell TJ_CF_ADC_SAR12_sar_refs_core already existed before reading GDS!
+Using pre-existing cell definition
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313022): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313086): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313406): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "KX_CF_ADC_SAR12_core".
+Warning:  cell KX_CF_ADC_SAR12_core already existed before reading GDS!
+Using pre-existing cell definition
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 509800): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 509864): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 510184): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "SS_sky130_ef_sc_hd__decap_40_12".
+Reading "SS_sky130_fd_sc_hd__decap_3".
+Reading "SS_sky130_fd_sc_hd__conb_1".
+Reading "SS_sky130_fd_sc_hd__fill_1".
+Reading "SS_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "SS_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "SS_sky130_fd_sc_hd__fill_4".
+Reading "SS_sky130_fd_sc_hd__fill_2".
+Reading "SS_sky130_fd_sc_hd__fill_8".
+Reading "SS_sky130_fd_sc_hd__buf_12".
+Reading "SS_sky130_fd_sc_hd__buf_4".
+Reading "SS_sky130_fd_sc_hd__buf_2".
+Reading "SS_sky130_fd_sc_hd__dfxtp_2".
+Reading "SS_sky130_fd_sc_hd__o211a_2".
+Reading "SS_sky130_fd_sc_hd__or2_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_8".
+Reading "SS_sky130_fd_sc_hd__clkbuf_4".
+Reading "SS_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "SS_sky130_fd_sc_hd__a22o_2".
+Reading "SS_sky130_fd_sc_hd__a2111o_2".
+Reading "SS_sky130_fd_sc_hd__a221o_2".
+Reading "SS_sky130_fd_sc_hd__clkinv_2".
+Reading "SS_sky130_fd_sc_hd__diode_2".
+Reading "SS_sky130_fd_sc_hd__o221a_2".
+Reading "SS_sky130_fd_sc_hd__a211o_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_16".
+Reading "SS_sky130_fd_sc_hd__inv_6".
+Reading "SS_sky130_fd_sc_hd__a21o_2".
+Reading "SS_sky130_fd_sc_hd__or4_2".
+Reading "SS_sky130_fd_sc_hd__buf_6".
+Reading "SS_sky130_fd_sc_hd__or3_2".
+Reading "SS_sky130_fd_sc_hd__and2_2".
+Reading "SS_sky130_fd_sc_hd__nand2_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_4".
+Reading "SS_sky130_fd_sc_hd__and4b_2".
+Reading "SS_sky130_fd_sc_hd__and4bb_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_2".
+Reading "SS_sky130_fd_sc_hd__inv_2".
+Reading "SS_sky130_fd_sc_hd__or4bb_2".
+Reading "SS_sky130_fd_sc_hd__buf_1".
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+
+TIME: read GDS: 00:00:01 
+
+
+TIME: add subcut: 00:00:00 
+
+Abstracting BI_CF_BGR_core
+Abstracting C0_CF_REFBUF_core
+Abstracting KX_CF_ADC_SAR12_core
+Abstracting SS_sky130_fd_sc_hd__fill_1
+Abstracting SS_sky130_fd_sc_hd__fill_2
+Abstracting SS_sky130_fd_sc_hd__fill_4
+Abstracting SS_sky130_fd_sc_hd__fill_8
+Abstracting SS_sky130_fd_sc_hd__tapvpwrvgnd_1
+Abstracting T2_CF_BUF_HIZ_core
+Abstracting TJ_CF_ADC_SAR12_sar_refs_core
+
+TIME: set abstract: 00:00:00 
+
+Processing SS_sky130_fd_sc_hd__decap_3
+Processing SS_sky130_fd_sc_hd__buf_12
+Processing SS_sky130_fd_sc_hd__buf_4
+Processing SS_sky130_fd_sc_hd__clkdlybuf4s25_1
+Processing SS_sky130_fd_sc_hd__dlygate4sd3_1
+Processing SS_sky130_fd_sc_hd__buf_1
+Processing SS_sky130_fd_sc_hd__conb_1
+Processing SS_sky130_fd_sc_hd__o211a_2
+Processing SS_sky130_ef_sc_hd__decap_40_12
+Processing SS_sky130_fd_sc_hd__or2_2
+Processing SS_sky130_fd_sc_hd__buf_2
+Processing SS_sky130_fd_sc_hd__diode_2
+Processing SS_sky130_fd_sc_hd__and4b_2
+Processing SS_sky130_fd_sc_hd__dfxtp_2
+Processing SS_sky130_fd_sc_hd__and4bb_2
+Processing SS_sky130_fd_sc_hd__nor4b_2
+Processing SS_sky130_fd_sc_hd__or4bb_2
+Processing SS_sky130_fd_sc_hd__inv_2
+Processing SS_sky130_fd_sc_hd__o221a_2
+Processing SS_sky130_fd_sc_hd__buf_6
+Processing SS_sky130_fd_sc_hd__a22o_2
+Processing SS_sky130_fd_sc_hd__clkbuf_8
+Processing SS_sky130_fd_sc_hd__a221o_2
+Processing SS_sky130_fd_sc_hd__nand2_2
+Processing SS_sky130_fd_sc_hd__and2_2
+Processing SS_sky130_fd_sc_hd__clkbuf_2
+Processing SS_sky130_fd_sc_hd__clkinv_2
+Processing SS_sky130_fd_sc_hd__clkbuf_4
+Processing SS_sky130_fd_sc_hd__a2111o_2
+Processing SS_sky130_fd_sc_hd__a21o_2
+Processing SS_sky130_fd_sc_hd__nor4b_4
+Processing SS_sky130_fd_sc_hd__or4_2
+Processing SS_sky130_fd_sc_hd__or3_2
+Processing SS_sky130_fd_sc_hd__clkbuf_16
+Processing SS_sky130_fd_sc_hd__inv_6
+Processing SS_sky130_fd_sc_hd__a211o_2
+Processing afe_wb
+Processing CF_ADC_SAR12
+Processing CF_ADC_SAR12_sar_refs
+Processing CF_BGR
+Processing CF_BUF_HIZ
+Processing CF_REFBUF
+Processing user_project_wrapper
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice()"
+Extracting SS_sky130_fd_sc_hd__tapvpwrvgnd_1 into SS_sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting SS_sky130_fd_sc_hd__decap_3 into SS_sky130_fd_sc_hd__decap_3.ext:
+SS_sky130_fd_sc_hd__decap_3: 2 warnings
+Extracting SS_sky130_fd_sc_hd__fill_1 into SS_sky130_fd_sc_hd__fill_1.ext:
+Extracting SS_sky130_fd_sc_hd__fill_4 into SS_sky130_fd_sc_hd__fill_4.ext:
+Extracting SS_sky130_fd_sc_hd__buf_12 into SS_sky130_fd_sc_hd__buf_12.ext:
+Extracting SS_sky130_fd_sc_hd__buf_4 into SS_sky130_fd_sc_hd__buf_4.ext:
+Extracting SS_sky130_fd_sc_hd__clkdlybuf4s25_1 into SS_sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting SS_sky130_fd_sc_hd__fill_2 into SS_sky130_fd_sc_hd__fill_2.ext:
+Extracting SS_sky130_fd_sc_hd__dlygate4sd3_1 into SS_sky130_fd_sc_hd__dlygate4sd3_1.ext:
+Extracting SS_sky130_fd_sc_hd__buf_1 into SS_sky130_fd_sc_hd__buf_1.ext:
+Extracting SS_sky130_fd_sc_hd__conb_1 into SS_sky130_fd_sc_hd__conb_1.ext:
+Extracting SS_sky130_fd_sc_hd__o211a_2 into SS_sky130_fd_sc_hd__o211a_2.ext:
+Extracting SS_sky130_fd_sc_hd__fill_8 into SS_sky130_fd_sc_hd__fill_8.ext:
+Extracting SS_sky130_ef_sc_hd__decap_40_12 into SS_sky130_ef_sc_hd__decap_40_12.ext:
+SS_sky130_ef_sc_hd__decap_40_12: 2 warnings
+Extracting SS_sky130_fd_sc_hd__or2_2 into SS_sky130_fd_sc_hd__or2_2.ext:
+Extracting SS_sky130_fd_sc_hd__buf_2 into SS_sky130_fd_sc_hd__buf_2.ext:
+Extracting SS_sky130_fd_sc_hd__diode_2 into SS_sky130_fd_sc_hd__diode_2.ext:
+SS_sky130_fd_sc_hd__diode_2: 1 warning
+Extracting SS_sky130_fd_sc_hd__and4b_2 into SS_sky130_fd_sc_hd__and4b_2.ext:
+Extracting SS_sky130_fd_sc_hd__dfxtp_2 into SS_sky130_fd_sc_hd__dfxtp_2.ext:
+Extracting SS_sky130_fd_sc_hd__and4bb_2 into SS_sky130_fd_sc_hd__and4bb_2.ext:
+Extracting SS_sky130_fd_sc_hd__nor4b_2 into SS_sky130_fd_sc_hd__nor4b_2.ext:
+Extracting SS_sky130_fd_sc_hd__or4bb_2 into SS_sky130_fd_sc_hd__or4bb_2.ext:
+Extracting SS_sky130_fd_sc_hd__inv_2 into SS_sky130_fd_sc_hd__inv_2.ext:
+Extracting SS_sky130_fd_sc_hd__o221a_2 into SS_sky130_fd_sc_hd__o221a_2.ext:
+Extracting SS_sky130_fd_sc_hd__buf_6 into SS_sky130_fd_sc_hd__buf_6.ext:
+Extracting SS_sky130_fd_sc_hd__a22o_2 into SS_sky130_fd_sc_hd__a22o_2.ext:
+Extracting SS_sky130_fd_sc_hd__clkbuf_8 into SS_sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting SS_sky130_fd_sc_hd__a221o_2 into SS_sky130_fd_sc_hd__a221o_2.ext:
+Extracting SS_sky130_fd_sc_hd__nand2_2 into SS_sky130_fd_sc_hd__nand2_2.ext:
+Extracting SS_sky130_fd_sc_hd__and2_2 into SS_sky130_fd_sc_hd__and2_2.ext:
+Extracting SS_sky130_fd_sc_hd__clkbuf_2 into SS_sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting SS_sky130_fd_sc_hd__clkinv_2 into SS_sky130_fd_sc_hd__clkinv_2.ext:
+Extracting SS_sky130_fd_sc_hd__clkbuf_4 into SS_sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting SS_sky130_fd_sc_hd__a2111o_2 into SS_sky130_fd_sc_hd__a2111o_2.ext:
+Extracting SS_sky130_fd_sc_hd__a21o_2 into SS_sky130_fd_sc_hd__a21o_2.ext:
+Extracting SS_sky130_fd_sc_hd__nor4b_4 into SS_sky130_fd_sc_hd__nor4b_4.ext:
+Extracting SS_sky130_fd_sc_hd__or4_2 into SS_sky130_fd_sc_hd__or4_2.ext:
+Extracting SS_sky130_fd_sc_hd__or3_2 into SS_sky130_fd_sc_hd__or3_2.ext:
+Extracting SS_sky130_fd_sc_hd__clkbuf_16 into SS_sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting SS_sky130_fd_sc_hd__inv_6 into SS_sky130_fd_sc_hd__inv_6.ext:
+Extracting SS_sky130_fd_sc_hd__a211o_2 into SS_sky130_fd_sc_hd__a211o_2.ext:
+Extracting afe_wb into afe_wb.ext:
+Extracting KX_CF_ADC_SAR12_core into KX_CF_ADC_SAR12_core.ext:
+Extracting CF_ADC_SAR12 into CF_ADC_SAR12.ext:
+CF_ADC_SAR12: 2299 errors
+Extracting TJ_CF_ADC_SAR12_sar_refs_core into TJ_CF_ADC_SAR12_sar_refs_core.ext:
+Extracting CF_ADC_SAR12_sar_refs into CF_ADC_SAR12_sar_refs.ext:
+CF_ADC_SAR12_sar_refs: 21 errors
+Extracting BI_CF_BGR_core into BI_CF_BGR_core.ext:
+Extracting CF_BGR into CF_BGR.ext:
+Extracting T2_CF_BUF_HIZ_core into T2_CF_BUF_HIZ_core.ext:
+Extracting CF_BUF_HIZ into CF_BUF_HIZ.ext:
+CF_BUF_HIZ: 127 errors
+Extracting C0_CF_REFBUF_core into C0_CF_REFBUF_core.ext:
+Extracting CF_REFBUF into CF_REFBUF.ext:
+CF_REFBUF: 1 error
+Extracting user_project_wrapper into user_project_wrapper.ext:
+user_project_wrapper: 6311 errors
+Total of 8759 errors (check feedback entries).
+Total of 5 warnings.
+
+TIME: extract: 00:00:20 
+
+Devs merged: 0
+Devs merged: 0
+Devs merged: 2
+Devs merged: 4
+Devs merged: 6
+Devs merged: 6
+Devs merged: 8
+Devs merged: 10
+Devs merged: 38
+Devs merged: 44
+Devs merged: 44
+Devs merged: 46
+Devs merged: 50
+Devs merged: 52
+Devs merged: 52
+Devs merged: 68
+Devs merged: 68
+Devs merged: 70
+Devs merged: 72
+Devs merged: 74
+Devs merged: 86
+Devs merged: 88
+Devs merged: 90
+Devs merged: 92
+Devs merged: 102
+Devs merged: 104
+Devs merged: 110
+Devs merged: 112
+Devs merged: 115
+Devs merged: 117
+Devs merged: 117
+Devs merged: 119
+Devs merged: 143
+Devs merged: 179
+Devs merged: 187
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+Devs merged: 189
+exttospice finished.
+
+TIME: netlist: 00:00:02 
+
+Using technology "sky130A", version 1.0.493
+END: Sun Sep 20 16:05:41 2026
+Runtime: 0:00:26 (hh:mm:ss)

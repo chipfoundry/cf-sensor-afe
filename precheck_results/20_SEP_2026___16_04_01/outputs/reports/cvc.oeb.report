@@ -1,0 +1,68 @@
+ gpio/user/analog |   in   |   out  | analog |  oeb min/sim/max  | configuration
+   0 /  0 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 
+   1 /  1 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 
+   2 /  2 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 
+   3 /  3 /       |        |        |        |      /     /      | FIXED_STD_INPUT_PULLUP 
+   4 /  4 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 
+   5 /  5 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 
+   6 /  6 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 
+   7 /  7 /   0   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+   8 /  8 /   1   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+   9 /  9 /   2   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  10 / 10 /   3   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  11 / 11 /   4   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  12 / 12 /   5   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  13 / 13 /   6   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  14 / 14 /   7   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  15 / 15 /   8   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  16 / 16 /   9   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  17 / 17 /  10   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  18 / 18 /  11   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  19 / 19 /  12   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  20 / 20 /  13   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  21 / 21 /  14   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  22 / 22 /  15   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  23 / 23 /  16   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  24 / 24 /  17   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  25 / 25 /  18   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  26 / 26 /  19   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  27 / 27 /  20   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  28 / 28 /  21   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  29 / 29 /  22   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  30 / 30 /  23   |        |  vssd* |        | vccd*/vccd*/vccd* | MGMT_STD_INPUT_NOPULL 
+  31 / 31 /  24   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  32 / 32 /  25   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  33 / 33 /  26   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  34 / 34 /  27   |        |  vssd* |        | vccd*/vccd*/vccd* | USER_STD_ANALOG 1 warnings/errors
+  35 / 35 /  28   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 
+  36 / 36 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 
+  37 / 37 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 
+
+*** Detected the following warnings and/or errors: ***
+GPIO  7: Warning: missing analog connection to user analog gpio
+GPIO  8: Warning: missing analog connection to user analog gpio
+GPIO  9: Warning: missing analog connection to user analog gpio
+GPIO 10: Warning: missing analog connection to user analog gpio
+GPIO 11: Warning: missing analog connection to user analog gpio
+GPIO 12: Warning: missing analog connection to user analog gpio
+GPIO 13: Warning: missing analog connection to user analog gpio
+GPIO 14: Warning: missing analog connection to user analog gpio
+GPIO 15: Warning: missing analog connection to user analog gpio
+GPIO 16: Warning: missing analog connection to user analog gpio
+GPIO 17: Warning: missing analog connection to user analog gpio
+GPIO 18: Warning: missing analog connection to user analog gpio
+GPIO 19: Warning: missing analog connection to user analog gpio
+GPIO 20: Warning: missing analog connection to user analog gpio
+GPIO 21: Warning: missing analog connection to user analog gpio
+GPIO 22: Warning: missing analog connection to user analog gpio
+GPIO 23: Warning: missing analog connection to user analog gpio
+GPIO 24: Warning: missing analog connection to user analog gpio
+GPIO 25: Warning: missing analog connection to user analog gpio
+GPIO 26: Warning: missing analog connection to user analog gpio
+GPIO 27: Warning: missing analog connection to user analog gpio
+GPIO 28: Warning: missing analog connection to user analog gpio
+GPIO 29: Warning: missing analog connection to user analog gpio
+GPIO 31: Warning: missing analog connection to user analog gpio
+GPIO 32: Warning: missing analog connection to user analog gpio
+GPIO 33: Warning: missing analog connection to user analog gpio
+GPIO 34: Warning: missing analog connection to user analog gpio
