@@ -1,0 +1,272 @@
+Reading file /tmp/tmp_k97ni63/repo/gds/user_project_wrapper.gds for cell user_project_wrapper
+dbu=0.001
+cell user_project_wrapper dbu-bbox(ll;ur)=(-43630,-38270;2963250,3557950)
+cell user_project_wrapper dbu-bbox(left,bottom,right,top)=(-43630,-38270,2963250,3557950)
+cell user_project_wrapper dbu-size(width,height)=(3006880,3596220)
+cell user_project_wrapper micron-bbox(left,bottom,right,top)=(-43.63,-38.27,2963.25,3557.9500000000003)
+cell user_project_wrapper micron-size(width,height)=(3006.88,3596.2200000000003)
+Done.
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/erase_box.tcl" from command line.
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+CIF input style is now "sky130(vendor)"
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "C0_CF_REFBUF_core".
+Error while reading cell "C0_CF_REFBUF_core" (byte position 400): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "C0_CF_REFBUF_core" (byte position 1744): Unknown layer/datatype in boundary, layer=69 type=10
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Reading "CF_REFBUF".
+Error while reading cell "CF_REFBUF" (byte position 16548): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_REFBUF" (byte position 17060): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "CF_REFBUF" (byte position 21920): Unknown layer/datatype in boundary, layer=67 type=10
+Reading "T2_CF_BUF_HIZ_core".
+Reading "CF_BUF_HIZ".
+Error while reading cell "CF_BUF_HIZ" (byte position 75634): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 75698): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BUF_HIZ" (byte position 76210): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "BI_CF_BGR_core".
+Error while reading cell "BI_CF_BGR_core" (byte position 131668): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "BI_CF_BGR_core" (byte position 131732): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "BI_CF_BGR_core" (byte position 132564): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "CF_BGR".
+Error while reading cell "CF_BGR" (byte position 150038): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_BGR" (byte position 150102): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_BGR" (byte position 150486): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "TJ_CF_ADC_SAR12_sar_refs_core".
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 263380): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 263444): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 264852): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 287252): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "TJ_CF_ADC_SAR12_sar_refs_core" (byte position 298388): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_ADC_SAR12_sar_refs".
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313022): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313086): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 313406): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "KX_CF_ADC_SAR12_core".
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 448716): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 448780): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 452812): Unknown layer/datatype in boundary, layer=69 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 463756): Unknown layer/datatype in boundary, layer=70 type=10
+Error while reading cell "KX_CF_ADC_SAR12_core" (byte position 473996): Unknown layer/datatype in boundary, layer=71 type=10
+Reading "CF_ADC_SAR12".
+Error while reading cell "CF_ADC_SAR12" (byte position 509800): Unknown layer/datatype in boundary, layer=67 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 509864): Unknown layer/datatype in boundary, layer=68 type=10
+Error while reading cell "CF_ADC_SAR12" (byte position 510184): Unknown layer/datatype in boundary, layer=69 type=10
+Reading "SS_sky130_ef_sc_hd__decap_40_12".
+Reading "SS_sky130_fd_sc_hd__decap_3".
+Reading "SS_sky130_fd_sc_hd__conb_1".
+Reading "SS_sky130_fd_sc_hd__fill_1".
+Reading "SS_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "SS_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "SS_sky130_fd_sc_hd__fill_4".
+Reading "SS_sky130_fd_sc_hd__fill_2".
+Reading "SS_sky130_fd_sc_hd__fill_8".
+Reading "SS_sky130_fd_sc_hd__buf_12".
+Reading "SS_sky130_fd_sc_hd__buf_4".
+Reading "SS_sky130_fd_sc_hd__buf_2".
+Reading "SS_sky130_fd_sc_hd__dfxtp_2".
+Reading "SS_sky130_fd_sc_hd__o211a_2".
+Reading "SS_sky130_fd_sc_hd__or2_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_8".
+Reading "SS_sky130_fd_sc_hd__clkbuf_4".
+Reading "SS_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "SS_sky130_fd_sc_hd__a22o_2".
+Reading "SS_sky130_fd_sc_hd__a2111o_2".
+Reading "SS_sky130_fd_sc_hd__a221o_2".
+Reading "SS_sky130_fd_sc_hd__clkinv_2".
+Reading "SS_sky130_fd_sc_hd__diode_2".
+Reading "SS_sky130_fd_sc_hd__o221a_2".
+Reading "SS_sky130_fd_sc_hd__a211o_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_16".
+Reading "SS_sky130_fd_sc_hd__inv_6".
+Reading "SS_sky130_fd_sc_hd__a21o_2".
+Reading "SS_sky130_fd_sc_hd__or4_2".
+Reading "SS_sky130_fd_sc_hd__buf_6".
+Reading "SS_sky130_fd_sc_hd__or3_2".
+Reading "SS_sky130_fd_sc_hd__and2_2".
+Reading "SS_sky130_fd_sc_hd__nand2_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_4".
+Reading "SS_sky130_fd_sc_hd__and4b_2".
+Reading "SS_sky130_fd_sc_hd__and4bb_2".
+Reading "SS_sky130_fd_sc_hd__nor4b_2".
+Reading "SS_sky130_fd_sc_hd__clkbuf_2".
+Reading "SS_sky130_fd_sc_hd__inv_2".
+Reading "SS_sky130_fd_sc_hd__or4bb_2".
+Reading "SS_sky130_fd_sc_hd__buf_1".
+Reading "afe_wb".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "user_project_wrapper".
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.630 x 3520.000  (-43.630,  0.000), ( 0.000,  3520.000)  153577.594
+lambda:   4363.00 x 352000.00  (-4363.00,  0.00 ), (  0.00,  352000.00)  1535776000.00
+internal:   8726 x 704000  ( -8726,  0    ), (     0,  704000)  6143104000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.250 x 3520.000  ( 2920.000,  0.000), ( 2963.250,  3520.000)  152240.000
+lambda:   4325.00 x 352000.00  ( 292000.00,  0.00 ), ( 296325.00,  352000.00)  1522400000.00
+internal:   8650 x 704000  ( 584000,  0    ), ( 592650,  704000)  6089600000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 38.270  (-43.630, -38.270), ( 2963.250,  0.000)  115073.289
+lambda:   300688.00 x 3827.00  (-4363.00, -3827.00), ( 296325.00,  0.00 )  1150732928.00
+internal: 601376 x 7654    ( -8726, -7654 ), ( 592650,  0    )  4602931904
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 37.950  (-43.630,  3520.000), ( 2963.250,  3557.950)  114111.086
+lambda:   300688.00 x 3795.00  (-4363.00,  352000.00), ( 296325.00,  355795.00)  1141110912.00
+internal: 601376 x 7590    ( -8726,  704000), ( 592650,  711590)  4564443840
+   Generating output for cell xor_target
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/erase_box.tcl" from command line.
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+CIF input style is now "sky130(vendor)"
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "user_project_wrapper".
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.630 x 3520.000  (-43.630,  0.000), ( 0.000,  3520.000)  153577.594
+lambda:   4363.00 x 352000.00  (-4363.00,  0.00 ), (  0.00,  352000.00)  1535776000.00
+internal:   8726 x 704000  ( -8726,  0    ), (     0,  704000)  6143104000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  43.250 x 3520.000  ( 2920.000,  0.000), ( 2963.250,  3520.000)  152240.000
+lambda:   4325.00 x 352000.00  ( 292000.00,  0.00 ), ( 296325.00,  352000.00)  1522400000.00
+internal:   8650 x 704000  ( 584000,  0    ), ( 592650,  704000)  6089600000
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 38.270  (-43.630, -38.270), ( 2963.250,  0.000)  115073.289
+lambda:   300688.00 x 3827.00  (-4363.00, -3827.00), ( 296325.00,  0.00 )  1150732928.00
+internal: 601376 x 7654    ( -8726, -7654 ), ( 592650,  0    )  4602931904
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3006.880 x 37.950  (-43.630,  3520.000), ( 2963.250,  3557.950)  114111.086
+lambda:   300688.00 x 3795.00  (-4363.00,  352000.00), ( 296325.00,  355795.00)  1141110912.00
+internal: 601376 x 7590    ( -8726,  704000), ( 592650,  711590)  4564443840
+   Generating output for cell xor_target
+Reading /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/outputs/user_project_wrapper_erased.gds ..
+Reading /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/outputs/user_project_wrapper_empty_erased.gds ..
+--- Running XOR for 69/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 530 (flat)  530 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 530 (flat)  530 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 70/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 107 (flat)  107 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 107 (flat)  107 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 71/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 71/44 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 128 (flat)  128 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 128 (flat)  128 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 72/20 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 16 (flat)  16 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+--- Running XOR for 81/14 ---
+"input" in: xor.rb.drc:39
+    Polygons (raw): 1 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"input" in: xor.rb.drc:39
+    Polygons (raw): 1 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+"^" in: xor.rb.drc:39
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+XOR differences: 0
+"output" in: xor.rb.drc:43
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 571.00M
+Writing layout file: /tmp/tmp_k97ni63/repo/precheck_results/20_SEP_2026___16_04_01/outputs/user_project_wrapper.xor.gds ..
+Total elapsed: 0.070s  Memory: 571.00M

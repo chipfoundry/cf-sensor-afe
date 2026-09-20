@@ -1,0 +1,348 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO BI_CF_BGR_core
+  CLASS BLOCK ;
+  FOREIGN BI_CF_BGR_core ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 408.465 BY 281.220 ;
+  PIN CurrAbsTrim[5]
+    PORT
+      LAYER met2 ;
+        RECT 166.425 0.000 166.565 2.055 ;
+    END
+  END CurrAbsTrim[5]
+  PIN finetune
+    PORT
+      LAYER met2 ;
+        RECT 402.500 0.000 402.640 1.220 ;
+    END
+  END finetune
+  PIN boost4
+    PORT
+      LAYER met2 ;
+        RECT 355.790 281.005 356.110 281.220 ;
+    END
+  END boost4
+  PIN boost7
+    PORT
+      LAYER met2 ;
+        RECT 354.845 281.005 355.165 281.220 ;
+    END
+  END boost7
+  PIN boost6
+    PORT
+      LAYER met2 ;
+        RECT 353.765 281.005 354.085 281.220 ;
+    END
+  END boost6
+  PIN boost5
+    PORT
+      LAYER met2 ;
+        RECT 352.360 281.005 352.680 281.220 ;
+    END
+  END boost5
+  PIN trimCurr[5]
+    PORT
+      LAYER met2 ;
+        RECT 153.295 0.000 153.435 2.055 ;
+    END
+  END trimCurr[5]
+  PIN trimCurr[4]
+    PORT
+      LAYER met2 ;
+        RECT 157.055 0.000 157.195 2.055 ;
+    END
+  END trimCurr[4]
+  PIN trimCurr[3]
+    PORT
+      LAYER met2 ;
+        RECT 157.425 0.000 157.565 2.055 ;
+    END
+  END trimCurr[3]
+  PIN trimCurr[2]
+    PORT
+      LAYER met2 ;
+        RECT 157.795 0.000 157.935 2.055 ;
+    END
+  END trimCurr[2]
+  PIN trimCurr[0]
+    PORT
+      LAYER met2 ;
+        RECT 158.165 0.000 158.305 2.055 ;
+    END
+  END trimCurr[0]
+  PIN trimCurr[1]
+    PORT
+      LAYER met2 ;
+        RECT 161.555 0.000 161.695 2.055 ;
+    END
+  END trimCurr[1]
+  PIN CurrAbsTrim[0]
+    PORT
+      LAYER met2 ;
+        RECT 153.665 0.000 153.805 2.055 ;
+    END
+  END CurrAbsTrim[0]
+  PIN CurrAbsTrim[1]
+    PORT
+      LAYER met2 ;
+        RECT 161.925 0.000 162.065 2.055 ;
+    END
+  END CurrAbsTrim[1]
+  PIN CurrAbsTrim[2]
+    PORT
+      LAYER met2 ;
+        RECT 162.295 0.000 162.435 2.055 ;
+    END
+  END CurrAbsTrim[2]
+  PIN CurrAbsTrim[3]
+    PORT
+      LAYER met2 ;
+        RECT 162.665 0.000 162.805 2.055 ;
+    END
+  END CurrAbsTrim[3]
+  PIN CurrAbsTrim[4]
+    PORT
+      LAYER met2 ;
+        RECT 166.055 0.000 166.195 2.055 ;
+    END
+  END CurrAbsTrim[4]
+  PIN mux2sel
+    PORT
+      LAYER met2 ;
+        RECT 167.160 0.000 167.300 1.035 ;
+    END
+  END mux2sel
+  PIN mux1sel[0]
+    PORT
+      LAYER met2 ;
+        RECT 167.530 0.000 167.670 1.035 ;
+    END
+  END mux1sel[0]
+  PIN mux1sel[1]
+    PORT
+      LAYER met2 ;
+        RECT 167.900 0.000 168.040 1.035 ;
+    END
+  END mux1sel[1]
+  PIN dft_sel
+    PORT
+      LAYER met2 ;
+        RECT 168.270 0.000 168.410 1.035 ;
+    END
+  END dft_sel
+  PIN pd_ibg
+    PORT
+      LAYER met2 ;
+        RECT 168.650 0.000 168.790 1.035 ;
+    END
+  END pd_ibg
+  PIN pd
+    PORT
+      LAYER met2 ;
+        RECT 169.095 0.000 169.235 1.035 ;
+    END
+  END pd
+  PIN trimTC[6]
+    PORT
+      LAYER met2 ;
+        RECT 385.145 0.000 385.285 2.375 ;
+    END
+  END trimTC[6]
+  PIN trimTC[5]
+    PORT
+      LAYER met2 ;
+        RECT 388.535 0.000 388.675 2.375 ;
+    END
+  END trimTC[5]
+  PIN trimTC[4]
+    PORT
+      LAYER met2 ;
+        RECT 389.180 0.000 389.320 2.375 ;
+    END
+  END trimTC[4]
+  PIN trimTC[3]
+    PORT
+      LAYER met2 ;
+        RECT 392.570 0.000 392.710 1.770 ;
+    END
+  END trimTC[3]
+  PIN trimTC[2]
+    PORT
+      LAYER met2 ;
+        RECT 393.270 0.000 393.410 1.770 ;
+    END
+  END trimTC[2]
+  PIN trimTC[0]
+    PORT
+      LAYER met2 ;
+        RECT 396.660 0.000 396.800 1.465 ;
+    END
+  END trimTC[0]
+  PIN trimTC[1]
+    PORT
+      LAYER met2 ;
+        RECT 397.535 0.000 397.675 1.220 ;
+    END
+  END trimTC[1]
+  PIN inl_ctrl[0]
+    PORT
+      LAYER met2 ;
+        RECT 150.955 0.000 151.095 2.055 ;
+    END
+  END inl_ctrl[0]
+  PIN inl_ctrl[1]
+    PORT
+      LAYER met2 ;
+        RECT 150.355 0.000 150.495 2.055 ;
+    END
+  END inl_ctrl[1]
+  PIN vbias_cascode
+    PORT
+      LAYER met2 ;
+        RECT 0.000 150.000 2.075 150.140 ;
+    END
+  END vbias_cascode
+  PIN vbias
+    PORT
+      LAYER met2 ;
+        RECT 0.000 150.780 2.075 150.920 ;
+    END
+  END vbias
+  PIN boost3
+    PORT
+      LAYER met2 ;
+        RECT 330.055 281.005 330.375 281.220 ;
+    END
+  END boost3
+  PIN dft_curr_in
+    PORT
+      LAYER met2 ;
+        RECT 0.000 73.670 1.495 73.810 ;
+    END
+  END dft_curr_in
+  PIN Vout
+    PORT
+      LAYER met2 ;
+        RECT 0.000 69.610 1.750 69.750 ;
+    END
+  END Vout
+  PIN ibg_3uA
+    PORT
+      LAYER met2 ;
+        RECT 0.000 70.110 1.750 70.250 ;
+    END
+  END ibg_3uA
+  PIN ibg_2p375uA
+    PORT
+      LAYER met2 ;
+        RECT 0.000 70.550 1.750 70.690 ;
+    END
+  END ibg_2p375uA
+  PIN mux1out
+    PORT
+      LAYER met2 ;
+        RECT 0.000 71.080 1.750 71.220 ;
+    END
+  END mux1out
+  PIN mux2out
+    PORT
+      LAYER met2 ;
+        RECT 0.000 71.875 1.750 72.015 ;
+    END
+  END mux2out
+  PIN ictat
+    PORT
+      LAYER met2 ;
+        RECT 151.615 0.000 151.755 1.035 ;
+    END
+  END ictat
+  PIN iptat
+    PORT
+      LAYER met2 ;
+        RECT 152.220 0.000 152.360 1.035 ;
+    END
+  END iptat
+  PIN inl_ctrl[6]
+    PORT
+      LAYER met2 ;
+        RECT 147.285 0.000 147.425 1.945 ;
+    END
+  END inl_ctrl[6]
+  PIN inl_ctrl[5]
+    PORT
+      LAYER met2 ;
+        RECT 147.900 0.000 148.040 1.935 ;
+    END
+  END inl_ctrl[5]
+  PIN inl_ctrl[3]
+    PORT
+      LAYER met2 ;
+        RECT 149.120 0.000 149.260 1.935 ;
+    END
+  END inl_ctrl[3]
+  PIN inl_ctrl[2]
+    PORT
+      LAYER met2 ;
+        RECT 149.725 0.000 149.865 1.945 ;
+    END
+  END inl_ctrl[2]
+  PIN pbias_ctat
+    PORT
+      LAYER met2 ;
+        RECT 0.000 231.460 2.490 231.600 ;
+    END
+  END pbias_ctat
+  PIN vout_ictat
+    PORT
+      LAYER met2 ;
+        RECT 0.000 223.030 1.015 223.170 ;
+    END
+  END vout_ictat
+  PIN inl_ctrl[4]
+    PORT
+      LAYER met2 ;
+        RECT 148.505 0.000 148.645 1.945 ;
+    END
+  END inl_ctrl[4]
+  PIN en_startb
+    PORT
+      LAYER met1 ;
+        RECT 192.720 280.625 192.860 281.220 ;
+    END
+  END en_startb
+  PIN vb2_fast
+    PORT
+      LAYER met1 ;
+        RECT 198.215 280.755 198.395 281.220 ;
+    END
+  END vb2_fast
+  PIN vpb
+    PORT
+      LAYER met1 ;
+        RECT 184.955 280.820 192.080 281.220 ;
+    END
+  END vpb
+  PIN vgnd
+    PORT
+      LAYER met1 ;
+        RECT 340.210 280.820 343.780 281.220 ;
+    END
+  END vgnd
+  PIN vnb
+    PORT
+      LAYER met1 ;
+        RECT 345.205 280.820 347.975 281.220 ;
+    END
+  END vnb
+  PIN vpwr
+    PORT
+      LAYER met1 ;
+        RECT 193.455 280.820 196.235 281.220 ;
+    END
+  END vpwr
+END BI_CF_BGR_core
+END LIBRARY
+
