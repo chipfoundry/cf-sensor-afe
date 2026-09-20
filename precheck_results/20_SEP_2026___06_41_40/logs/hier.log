@@ -1,0 +1,19 @@
+BEGIN: Sun Sep 20 06:42:53 2026
+Creating /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/tmp/verilog.cells from the following files...
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ_core.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_core.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs_core.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_BGR_core.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_BGR.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF_core.v
+	/tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF.v
+	/tmp/tmpit974p1_/repo/verilog/gl/afe_wb.v
+	/tmp/tmpit974p1_/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds
+	to /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/tmp/hier.csv
+END: Sun Sep 20 06:42:55 2026
+Runtime: 0:00:02 (hh:mm:ss)
