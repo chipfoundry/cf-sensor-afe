@@ -14,58 +14,58 @@ Fanout         Cap        Slew       Delay        Time   Description
                                   0.000000    0.000000   clock clk (rise edge)
                                   5.570000    5.570000   clock network delay (propagated)
                                  12.500000   18.070000 v input external delay
-     1    0.015679    0.000000    0.000000   18.070000 v wb_rst_i (in)
+     1    0.015962    0.000000    0.000000   18.070000 v wb_rst_i (in)
                                                          wb_rst_i (net)
-                      0.001670    0.000878   18.070877 v u_afe_wb/input14/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
-     1    0.005217    0.037946    0.164265   18.235142 v u_afe_wb/input14/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                      0.001719    0.000902   18.070902 v u_afe_wb/input14/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.005217    0.037946    0.164285   18.235186 v u_afe_wb/input14/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
                                                          u_afe_wb/net14 (net)
-                      0.037946    0.000176   18.235317 v u_afe_wb/_0737_/A (sky130_fd_sc_hd__inv_2)
-     4    0.066561    0.228668    0.182098   18.417416 ^ u_afe_wb/_0737_/Y (sky130_fd_sc_hd__inv_2)
+                      0.037946    0.000176   18.235363 v u_afe_wb/_0737_/A (sky130_fd_sc_hd__inv_2)
+     4    0.066561    0.228668    0.182098   18.417459 ^ u_afe_wb/_0737_/Y (sky130_fd_sc_hd__inv_2)
                                                          u_afe_wb/_0478_ (net)
-                      0.229287    0.010267   18.427683 ^ u_afe_wb/fanout492/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
-     4    0.036528    0.276261    0.376636   18.804319 ^ u_afe_wb/fanout492/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                      0.229287    0.010267   18.427727 ^ u_afe_wb/fanout492/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     4    0.036528    0.276261    0.376636   18.804363 ^ u_afe_wb/fanout492/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
                                                          u_afe_wb/net492 (net)
-                      0.276272    0.002130   18.806448 ^ u_afe_wb/fanout491/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
-     9    0.066045    0.493728    0.536133   19.342581 ^ u_afe_wb/fanout491/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                      0.276272    0.002130   18.806494 ^ u_afe_wb/fanout491/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     9    0.066045    0.493728    0.536133   19.342627 ^ u_afe_wb/fanout491/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
                                                          u_afe_wb/net491 (net)
-                      0.493880    0.007581   19.350163 ^ u_afe_wb/fanout484/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
-     8    0.034114    0.258394    0.371966   19.722128 ^ u_afe_wb/fanout484/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                      0.493880    0.007581   19.350206 ^ u_afe_wb/fanout484/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     8    0.034114    0.258394    0.371966   19.722174 ^ u_afe_wb/fanout484/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
                                                          u_afe_wb/net484 (net)
-                      0.258397    0.001346   19.723475 ^ u_afe_wb/load_slew485/A (sky130_fd_sc_hd__buf_4)
-     9    0.044877    0.099078    0.160286   19.883760 ^ u_afe_wb/load_slew485/X (sky130_fd_sc_hd__buf_4)
+                      0.258397    0.001346   19.723520 ^ u_afe_wb/load_slew485/A (sky130_fd_sc_hd__buf_4)
+     9    0.044877    0.099078    0.160286   19.883806 ^ u_afe_wb/load_slew485/X (sky130_fd_sc_hd__buf_4)
                                                          u_afe_wb/net485 (net)
-                      0.099189    0.002826   19.886587 ^ u_afe_wb/_0977_/C1 (sky130_fd_sc_hd__o211a_2)
-     1    0.002649    0.028396    0.094468   19.981056 ^ u_afe_wb/_0977_/X (sky130_fd_sc_hd__o211a_2)
+                      0.099189    0.002826   19.886631 ^ u_afe_wb/_0977_/C1 (sky130_fd_sc_hd__o211a_2)
+     1    0.002649    0.028396    0.094468   19.981100 ^ u_afe_wb/_0977_/X (sky130_fd_sc_hd__o211a_2)
                                                          u_afe_wb/_0047_ (net)
-                      0.028396    0.000083   19.981138 ^ u_afe_wb/hold601/A (sky130_fd_sc_hd__dlygate4sd3_1)
-     1    0.002204    0.033852    0.384713   20.365852 ^ u_afe_wb/hold601/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                      0.028396    0.000083   19.981184 ^ u_afe_wb/hold601/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     1    0.002204    0.033852    0.384713   20.365896 ^ u_afe_wb/hold601/X (sky130_fd_sc_hd__dlygate4sd3_1)
                                                          u_afe_wb/net601 (net)
-                      0.033852    0.000068   20.365919 ^ u_afe_wb/_1521_/D (sky130_fd_sc_hd__dfxtp_2)
-                                             20.365919   data arrival time
+                      0.033852    0.000068   20.365963 ^ u_afe_wb/_1521_/D (sky130_fd_sc_hd__dfxtp_2)
+                                             20.365963   data arrival time
 
                                  25.000000   25.000000   clock clk (rise edge)
                                   4.650000   29.650000   clock source latency
-     1    0.069443    0.610000    0.000000   29.650000 ^ wb_clk_i (in)
+     1    0.069585    0.610000    0.000000   29.650000 ^ wb_clk_i (in)
                                                          wb_clk_i (net)
-                      0.638834    0.013697   29.663696 ^ u_afe_wb/clkbuf_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
-     4    0.075022    0.081474    0.166427   29.830124 ^ u_afe_wb/clkbuf_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
+                      0.638863    0.013710   29.663710 ^ u_afe_wb/clkbuf_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
+     4    0.075022    0.081474    0.166432   29.830141 ^ u_afe_wb/clkbuf_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
                                                          u_afe_wb/clknet_0_wb_clk_i (net)
-                      0.081848    0.003737   29.833860 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
-    10    0.110847    0.097324    0.139266   29.973127 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
+                      0.081848    0.003734   29.833876 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
+    10    0.110847    0.097324    0.139270   29.973145 ^ u_afe_wb/clkbuf_2_3__f_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
                                                          u_afe_wb/clknet_2_3__leaf_wb_clk_i (net)
-                      0.097771    0.005077   29.978205 ^ u_afe_wb/clkbuf_leaf_15_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
-     8    0.035125    0.055780    0.114476   30.092680 ^ u_afe_wb/clkbuf_leaf_15_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
+                      0.097771    0.005073   29.978218 ^ u_afe_wb/clkbuf_leaf_15_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
+     8    0.035125    0.055780    0.114476   30.092693 ^ u_afe_wb/clkbuf_leaf_15_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
                                                          u_afe_wb/clknet_leaf_15_wb_clk_i (net)
-                      0.055789    0.000654   30.093332 ^ u_afe_wb/_1521_/CLK (sky130_fd_sc_hd__dfxtp_2)
-                                 -0.250000   29.843332   clock uncertainty
-                                  0.000000   29.843332   clock reconvergence pessimism
-                                 -0.030942   29.812391   library setup time
-                                             29.812391   data required time
+                      0.055789    0.000654   30.093348 ^ u_afe_wb/_1521_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                                 -0.250000   29.843346   clock uncertainty
+                                  0.000000   29.843346   clock reconvergence pessimism
+                                 -0.030942   29.812407   library setup time
+                                             29.812407   data required time
 ---------------------------------------------------------------------------------------------
-                                             29.812391   data required time
-                                            -20.365919   data arrival time
+                                             29.812407   data required time
+                                            -20.365963   data arrival time
 ---------------------------------------------------------------------------------------------
-                                              9.446472   slack (MET)
+                                              9.446442   slack (MET)
 
 
 

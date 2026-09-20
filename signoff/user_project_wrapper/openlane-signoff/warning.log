@@ -384,10 +384,6 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
@@ -787,6 +783,9 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
+[GRT-0041] Net vccd2 has wires/vias outside die area.
+[GRT-0041] Net vccd2 has wires/vias outside die area.
+[GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
@@ -980,9 +979,7 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
@@ -1174,6 +1171,9 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
@@ -1895,12 +1895,57 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [DRT-0419] No routing tracks pass through the center of Term u_cf_bgr/inl_ctrl[4]
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/tp
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/clk1_boostr
-[DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpt
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpci
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpcid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbptd
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_na_boost
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_n_boost
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
+[DRT-6000] Macro pin has more than 1 polygon
 No libs found for macro CF_BUF_HIZ at corner nom_tt_025C_1v80. The module will be black-boxed.
 No libs found for macro CF_ADC_SAR12 at corner nom_tt_025C_1v80. The module will be black-boxed.
 No libs found for macro CF_BGR at corner nom_tt_025C_1v80. The module will be black-boxed.

@@ -55,7 +55,7 @@
             ],
             "instances": {
                 "u_cf_adc_sar12": {
-                    "location": [426.34, 650.00],
+                    "location": [655.57, 650.00],
                     "orientation": "N"
                 }
             },
@@ -73,7 +73,7 @@
             ],
             "instances": {
                 "u_cf_bgr": {
-                    "location": [99.82, 1210.00],
+                    "location": [99.82, 1483.00],
                     "orientation": "N"
                 }
             },
@@ -91,7 +91,7 @@
             ],
             "instances": {
                 "u_cf_refbuf": {
-                    "location": [618.29, 1210.00],
+                    "location": [838.29, 1483.00],
                     "orientation": "N"
                 }
             },
@@ -109,7 +109,7 @@
             ],
             "instances": {
                 "u_cf_adc_sar12_sar_refs": {
-                    "location": [1010.16, 650.00],
+                    "location": [1458.81, 650.00],
                     "orientation": "N"
                 }
             },
@@ -202,13 +202,17 @@
         }
     },
     "DRT_ASSIGN_NDR": {
-        "^afe_(vout|ibias|vref|nbias|refhi|refby2)$": "ANALOG_WIDE",
+        "^afe_(vout|vref|nbias|refhi|refby2)$": "ANALOG_WIDE",
         "^analog_io": "ANALOG_WIDE"
     },
 
-    "//": "Keep analog_ctrl off met3 on the SAR north pin row. Core met3 pads are 0.30 µm on a 0.65 µm pitch; parent met3 vias fail m3.2. Wrap LEF pins there are met2. Do not OBS wrap PG straps (parent y >= 1168.5). BUF wrap already has via2 on the ibias/vbpt island landings; parent ANALOG_WIDE must not stack a second via2 (via2.1a).",
+    "//": "Keep analog_ctrl off met3 on the SAR north pin row. Core met3 pads are 0.30 µm on a 0.65 µm pitch; parent met3 vias fail m3.2. Wrap LEF pins there are met2. Do not OBS wrap PG straps (parent y >= 1168.5). Narrow met3/met4 OBS is analog_ctrl[9] (pd_ana) through SAR vs the core south met3/met4 pad at parent (845.445,665). East met4 OBS keeps afe_ibias on the met3 PORT (m4.2 vs next analog pad); do not raise it to wrap PG at y=998.225. via3 OBS is SAR ibias2p5u / ibias2p5u_1: wrap already has via3, parent TAPER must not stack (via3.1). afe_ibias is not ANALOG_WIDE so it can land on the 0.46 µm met3 pin without TAPER. BUF wrap already has via2 on the ibias/vbpt island landings; parent ANALOG_WIDE must not stack a second via2 (via2.1a). Analog macros are spaced >=300 µm so sky130 700 µm FOM/poly windows are not analog-only (tapeout f1/pd). SAR x is aligned so wrap met4 centers hit parent PDN vias (m4.5ab).",
     "ROUTING_OBSTRUCTIONS": [
-        ["met3", 441.34, 1166.85, 914.58, 1168.25],
+        ["met3", 670.57, 1166.85, 1143.81, 1168.25],
+        ["met3", 844.50, 664.50, 850.00, 1168.00],
+        ["met4", 844.50, 664.50, 850.00, 1168.00],
+        ["met4", 1140.50, 991.00, 1144.00, 998.00],
+        ["via3", 1143.30, 992.90, 1143.90, 997.80],
         ["via2", 267.30, 983.40, 267.85, 983.95],
         ["via2", 267.30, 963.30, 267.85, 963.90],
         ["via2", 324.80, 834.40, 325.35, 834.95],

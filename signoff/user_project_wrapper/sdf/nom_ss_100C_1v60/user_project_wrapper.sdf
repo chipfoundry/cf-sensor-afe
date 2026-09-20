@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "user_project_wrapper")
- (DATE "Thu Sep 17 19:46:01 2026")
+ (DATE "Sun Sep 20 11:01:30 2026")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.7.0")
@@ -15,74 +15,74 @@
   (INSTANCE)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT user_clock2 u_cf_adc_sar12.refclk (0.068:0.068:0.068))
+    (INTERCONNECT user_clock2 u_cf_adc_sar12.refclk (0.180:0.180:0.180))
     (INTERCONNECT wb_clk_i u_afe_wb.clkbuf_0_wb_clk_i.A (0.014:0.014:0.014) (0.014:0.014:0.014))
     (INTERCONNECT wb_rst_i u_afe_wb.input14.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_cyc_i u_afe_wb.input19.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_stb_i u_afe_wb.input52.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_we_i u_afe_wb.input53.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT analog_io[27] u_cf_adc_sar12.VPUMP (0.006:0.006:0.006))
-    (INTERCONNECT analog_io[27] u_cf_adc_sar12_sar_refs.VPUMP (0.007:0.007:0.007))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12.vssa (0.014:0.014:0.014))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa (0.019:0.019:0.019))
-    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa_shield (0.017:0.017:0.017))
-    (INTERCONNECT analog_io[25] u_cf_adc_sar12.vdda (0.019:0.019:0.019))
+    (INTERCONNECT analog_io[27] u_cf_adc_sar12.VPUMP (0.003:0.003:0.003))
+    (INTERCONNECT analog_io[27] u_cf_adc_sar12_sar_refs.VPUMP (0.005:0.005:0.005))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12.vssa (0.011:0.011:0.011))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa (0.015:0.015:0.015))
+    (INTERCONNECT analog_io[26] u_cf_adc_sar12_sar_refs.vssa_shield (0.015:0.015:0.015))
+    (INTERCONNECT analog_io[25] u_cf_adc_sar12.vdda (0.017:0.017:0.017))
     (INTERCONNECT analog_io[25] u_cf_adc_sar12_sar_refs.vdda (0.021:0.021:0.021))
-    (INTERCONNECT analog_io[24] u_cf_bgr.dft_curr_in (0.003:0.003:0.003))
-    (INTERCONNECT analog_io[22] u_cf_adc_sar12.vreflo (0.019:0.019:0.019))
-    (INTERCONNECT analog_io[21] u_cf_adc_sar12_sar_refs.refout (0.035:0.035:0.035))
-    (INTERCONNECT analog_io[20] u_cf_adc_sar12.vinm (0.032:0.032:0.032))
-    (INTERCONNECT analog_io[19] u_cf_buf_hiz.vbptd (0.068:0.068:0.068))
+    (INTERCONNECT analog_io[24] u_cf_bgr.dft_curr_in (0.000:0.000:0.000))
+    (INTERCONNECT analog_io[22] u_cf_adc_sar12.vreflo (0.026:0.026:0.026))
+    (INTERCONNECT analog_io[21] u_cf_adc_sar12_sar_refs.refout (0.048:0.048:0.048))
+    (INTERCONNECT analog_io[20] u_cf_adc_sar12.vinm (0.035:0.035:0.035))
+    (INTERCONNECT analog_io[19] u_cf_buf_hiz.vbptd (0.063:0.063:0.063))
     (INTERCONNECT analog_io[18] u_cf_buf_hiz.vbpcid (0.076:0.076:0.076))
-    (INTERCONNECT analog_io[17] u_cf_buf_hiz.vbncis (0.083:0.083:0.083))
-    (INTERCONNECT analog_io[16] u_cf_buf_hiz.vbpcis (0.033:0.033:0.033))
-    (INTERCONNECT analog_io[15] u_cf_buf_hiz.vbnci (0.097:0.097:0.097))
-    (INTERCONNECT analog_io[14] u_cf_buf_hiz.vbpci (0.109:0.109:0.109))
-    (INTERCONNECT analog_io[13] u_cf_buf_hiz.vbnc (0.141:0.141:0.141))
-    (INTERCONNECT analog_io[12] u_cf_buf_hiz.vbpc (0.161:0.161:0.161))
-    (INTERCONNECT analog_io[11] u_cf_buf_hiz.vbpb (0.178:0.178:0.178))
-    (INTERCONNECT analog_io[10] u_cf_buf_hiz.vbnt (0.111:0.111:0.111))
-    (INTERCONNECT analog_io[9] u_cf_buf_hiz.vbpt (0.253:0.253:0.253))
-    (INTERCONNECT analog_io[8] u_cf_refbuf.ng (0.174:0.174:0.174))
-    (INTERCONNECT analog_io[8] u_cf_refbuf.vpwre (0.174:0.174:0.174))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.out (0.095:0.095:0.095))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.ch2 (0.095:0.095:0.095))
-    (INTERCONNECT analog_io[7] u_cf_refbuf.ch1 (0.095:0.095:0.095))
-    (INTERCONNECT analog_io[6] u_cf_buf_hiz.vinn_na (0.133:0.133:0.133))
-    (INTERCONNECT analog_io[5] u_cf_buf_hiz.vinp_na (0.089:0.089:0.089))
-    (INTERCONNECT analog_io[4] u_cf_buf_hiz.vinn_n (0.101:0.101:0.101))
-    (INTERCONNECT analog_io[3] u_cf_buf_hiz.vinp_n (0.163:0.163:0.163))
-    (INTERCONNECT analog_io[2] u_cf_buf_hiz.vinn_p (0.076:0.076:0.076))
-    (INTERCONNECT analog_io[1] u_cf_buf_hiz.vinp_p (0.102:0.102:0.102))
-    (INTERCONNECT analog_io[0] u_cf_bgr.vb2_fast (0.031:0.031:0.031))
+    (INTERCONNECT analog_io[17] u_cf_buf_hiz.vbncis (0.041:0.041:0.041))
+    (INTERCONNECT analog_io[16] u_cf_buf_hiz.vbpcis (0.034:0.034:0.034))
+    (INTERCONNECT analog_io[15] u_cf_buf_hiz.vbnci (0.039:0.039:0.039))
+    (INTERCONNECT analog_io[14] u_cf_buf_hiz.vbpci (0.099:0.099:0.099))
+    (INTERCONNECT analog_io[13] u_cf_buf_hiz.vbnc (0.117:0.117:0.117))
+    (INTERCONNECT analog_io[12] u_cf_buf_hiz.vbpc (0.140:0.140:0.140))
+    (INTERCONNECT analog_io[11] u_cf_buf_hiz.vbpb (0.159:0.159:0.159))
+    (INTERCONNECT analog_io[10] u_cf_buf_hiz.vbnt (0.199:0.199:0.199))
+    (INTERCONNECT analog_io[9] u_cf_buf_hiz.vbpt (0.210:0.210:0.210))
+    (INTERCONNECT analog_io[8] u_cf_refbuf.ng (0.136:0.136:0.136))
+    (INTERCONNECT analog_io[8] u_cf_refbuf.vpwre (0.136:0.136:0.136))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.out (0.065:0.065:0.065))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.ch2 (0.065:0.065:0.065))
+    (INTERCONNECT analog_io[7] u_cf_refbuf.ch1 (0.065:0.065:0.065))
+    (INTERCONNECT analog_io[6] u_cf_buf_hiz.vinn_na (0.123:0.123:0.123))
+    (INTERCONNECT analog_io[5] u_cf_buf_hiz.vinp_na (0.181:0.181:0.181))
+    (INTERCONNECT analog_io[4] u_cf_buf_hiz.vinn_n (0.139:0.139:0.139))
+    (INTERCONNECT analog_io[3] u_cf_buf_hiz.vinp_n (0.065:0.065:0.065))
+    (INTERCONNECT analog_io[2] u_cf_buf_hiz.vinn_p (0.055:0.055:0.055))
+    (INTERCONNECT analog_io[1] u_cf_buf_hiz.vinp_p (0.066:0.066:0.066))
+    (INTERCONNECT analog_io[0] u_cf_bgr.vb2_fast (0.038:0.038:0.038))
     (INTERCONNECT wbs_adr_i[5] u_afe_wb.hold618.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[4] u_afe_wb.hold794.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[3] u_afe_wb.hold790.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_adr_i[2] u_afe_wb.hold786.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[31] u_afe_wb.hold645.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[31] u_afe_wb.hold645.A (0.003:0.003:0.003) (0.003:0.003:0.003))
     (INTERCONNECT wbs_dat_i[30] u_afe_wb.hold646.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[29] u_afe_wb.hold708.A (0.003:0.003:0.003) (0.003:0.003:0.003))
     (INTERCONNECT wbs_dat_i[28] u_afe_wb.hold673.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[27] u_afe_wb.hold660.A (0.003:0.003:0.003) (0.003:0.003:0.003))
-    (INTERCONNECT wbs_dat_i[26] u_afe_wb.hold684.A (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT wbs_dat_i[27] u_afe_wb.hold660.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[26] u_afe_wb.hold684.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[25] u_afe_wb.hold699.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[24] u_afe_wb.hold716.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[23] u_afe_wb.hold767.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[23] u_afe_wb.hold767.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[22] u_afe_wb.hold735.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[21] u_afe_wb.hold668.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[20] u_afe_wb.hold743.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[19] u_afe_wb.hold685.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[18] u_afe_wb.hold732.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[17] u_afe_wb.hold774.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT wbs_dat_i[18] u_afe_wb.hold732.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[17] u_afe_wb.hold774.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[16] u_afe_wb.hold722.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[15] u_afe_wb.hold737.A (0.002:0.002:0.002) (0.002:0.002:0.002))
-    (INTERCONNECT wbs_dat_i[14] u_afe_wb.hold600.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT wbs_dat_i[15] u_afe_wb.hold737.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT wbs_dat_i[14] u_afe_wb.hold600.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT wbs_dat_i[13] u_afe_wb.hold758.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[12] u_afe_wb.hold565.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[11] u_afe_wb.hold567.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[10] u_afe_wb.hold621.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[9] u_afe_wb.hold622.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT wbs_dat_i[8] u_afe_wb.hold564.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT wbs_dat_i[8] u_afe_wb.hold564.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[7] u_afe_wb.hold634.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[6] u_afe_wb.hold642.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT wbs_dat_i[5] u_afe_wb.hold608.A (0.001:0.001:0.001) (0.001:0.001:0.001))
@@ -3849,34 +3849,34 @@
     (INTERCONNECT u_afe_wb.wire262.X u_cf_adc_sar12.sample_width[4] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire263.X u_cf_adc_sar12.sample_width[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire264.X u_cf_adc_sar12.sample_width[6] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire265.X u_cf_buf_hiz.tp (0.016:0.016:0.016) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.wire265.X u_cf_buf_hiz.tp (0.044:0.044:0.044) (0.041:0.041:0.041))
     (INTERCONNECT u_afe_wb.wire266.X u_cf_adc_sar12.sample_width[7] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire267.X u_cf_adc_sar12.sample_width[8] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire268.X u_cf_adc_sar12.sample_width[9] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire269.X u_cf_adc_sar12.resolution[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire270.X u_cf_adc_sar12.resolution[1] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire271.X u_cf_adc_sar12.test_sea (0.020:0.020:0.020) (0.020:0.020:0.020))
-    (INTERCONNECT u_afe_wb.wire272.X u_cf_adc_sar12.test_scanen (0.074:0.074:0.074) (0.070:0.070:0.070))
-    (INTERCONNECT u_afe_wb.wire273.X u_cf_adc_sar12.test_scanin (0.024:0.024:0.024) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.wire274.X u_cf_adc_sar12.scan_test_mode (0.024:0.024:0.024) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.wire275.X u_cf_adc_sar12.en_pump_lv (0.018:0.018:0.018) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire276.X u_cf_buf_hiz.en_pd (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.wire277.X u_cf_adc_sar12.pumpclk (0.019:0.019:0.019) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire278.X u_cf_adc_sar12.dcen (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.wire279.X u_cf_adc_sar12.dly_inc (0.072:0.072:0.072) (0.069:0.069:0.069))
+    (INTERCONNECT u_afe_wb.wire271.X u_cf_adc_sar12.test_sea (0.027:0.027:0.027) (0.027:0.027:0.027))
+    (INTERCONNECT u_afe_wb.wire272.X u_cf_adc_sar12.test_scanen (0.023:0.023:0.023) (0.023:0.023:0.023))
+    (INTERCONNECT u_afe_wb.wire273.X u_cf_adc_sar12.test_scanin (0.039:0.039:0.039) (0.037:0.037:0.037))
+    (INTERCONNECT u_afe_wb.wire274.X u_cf_adc_sar12.scan_test_mode (0.145:0.145:0.145) (0.139:0.139:0.139))
+    (INTERCONNECT u_afe_wb.wire275.X u_cf_adc_sar12.en_pump_lv (0.013:0.013:0.013) (0.013:0.013:0.013))
+    (INTERCONNECT u_afe_wb.wire276.X u_cf_buf_hiz.en_pd (0.053:0.053:0.053) (0.051:0.051:0.051))
+    (INTERCONNECT u_afe_wb.wire277.X u_cf_adc_sar12.pumpclk (0.014:0.014:0.014) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.wire278.X u_cf_adc_sar12.dcen (0.029:0.029:0.029) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.wire279.X u_cf_adc_sar12.dly_inc (0.024:0.024:0.024) (0.024:0.024:0.024))
     (INTERCONNECT u_afe_wb.wire280.X u_cf_adc_sar12.trimunit (0.018:0.018:0.018) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire281.X u_cf_adc_sar12.enable_hv (0.029:0.029:0.029) (0.028:0.028:0.028))
-    (INTERCONNECT u_afe_wb.wire281.X u_cf_adc_sar12_sar_refs.enable_hv (0.027:0.027:0.027) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.wire282.X u_cf_adc_sar12.iso_en (0.023:0.023:0.023) (0.022:0.022:0.022))
-    (INTERCONNECT u_afe_wb.wire283.X u_cf_adc_sar12.hiz (0.031:0.031:0.031) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.wire283.X u_cf_adc_sar12_sar_refs.hiz (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.wire284.X u_cf_adc_sar12.next (0.061:0.061:0.061) (0.058:0.058:0.058))
-    (INTERCONNECT u_afe_wb.wire285.X u_cf_adc_sar12_sar_refs.dft_comp_en (0.019:0.019:0.019) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire286.X u_cf_adc_sar12_sar_refs.PD_BUF_VREF (0.075:0.075:0.075) (0.072:0.072:0.072))
-    (INTERCONNECT u_afe_wb.wire287.X u_cf_adc_sar12_sar_refs.enpdb_hv (0.018:0.018:0.018) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire288.X u_cf_adc_sar12.sof (0.017:0.017:0.017) (0.017:0.017:0.017))
-    (INTERCONNECT u_afe_wb.wire289.X u_cf_adc_sar12_sar_refs.sw_holdb (0.024:0.024:0.024) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.wire290.X u_cf_adc_sar12_sar_refs.refout_en (0.015:0.015:0.015) (0.015:0.015:0.015))
+    (INTERCONNECT u_afe_wb.wire281.X u_cf_adc_sar12.enable_hv (0.038:0.038:0.038) (0.037:0.037:0.037))
+    (INTERCONNECT u_afe_wb.wire281.X u_cf_adc_sar12_sar_refs.enable_hv (0.039:0.039:0.039) (0.038:0.038:0.038))
+    (INTERCONNECT u_afe_wb.wire282.X u_cf_adc_sar12.iso_en (0.022:0.022:0.022) (0.021:0.021:0.021))
+    (INTERCONNECT u_afe_wb.wire283.X u_cf_adc_sar12.hiz (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT u_afe_wb.wire283.X u_cf_adc_sar12_sar_refs.hiz (0.038:0.038:0.038) (0.037:0.037:0.037))
+    (INTERCONNECT u_afe_wb.wire284.X u_cf_adc_sar12.next (0.139:0.139:0.139) (0.135:0.135:0.135))
+    (INTERCONNECT u_afe_wb.wire285.X u_cf_adc_sar12_sar_refs.dft_comp_en (0.047:0.047:0.047) (0.045:0.045:0.045))
+    (INTERCONNECT u_afe_wb.wire286.X u_cf_adc_sar12_sar_refs.PD_BUF_VREF (0.065:0.065:0.065) (0.062:0.062:0.062))
+    (INTERCONNECT u_afe_wb.wire287.X u_cf_adc_sar12_sar_refs.enpdb_hv (0.049:0.049:0.049) (0.047:0.047:0.047))
+    (INTERCONNECT u_afe_wb.wire288.X u_cf_adc_sar12.sof (0.037:0.037:0.037) (0.036:0.036:0.036))
+    (INTERCONNECT u_afe_wb.wire289.X u_cf_adc_sar12_sar_refs.sw_holdb (0.041:0.041:0.041) (0.040:0.040:0.040))
+    (INTERCONNECT u_afe_wb.wire290.X u_cf_adc_sar12_sar_refs.refout_en (0.044:0.044:0.044) (0.042:0.042:0.042))
     (INTERCONNECT u_afe_wb.wire291.X u_cf_adc_sar12_sar_refs.S_LV[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire292.X u_cf_adc_sar12_sar_refs.S_LV[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire293.X u_cf_adc_sar12_sar_refs.S_LV[2] (0.000:0.000:0.000))
@@ -3885,37 +3885,37 @@
     (INTERCONNECT u_afe_wb.wire296.X u_cf_adc_sar12_sar_refs.S_LV[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire297.X u_cf_adc_sar12_sar_refs.S_LV[6] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire298.X u_cf_adc_sar12_sar_refs.S_LV[7] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire299.X u_cf_adc_sar12.reset_n (0.067:0.067:0.067) (0.063:0.063:0.063))
-    (INTERCONNECT u_afe_wb.wire300.X u_cf_adc_sar12_sar_refs.pd_vcmbuf (0.051:0.051:0.051) (0.049:0.049:0.049))
-    (INTERCONNECT u_afe_wb.wire301.X u_cf_adc_sar12_sar_refs.sw_start (0.019:0.019:0.019) (0.018:0.018:0.018))
-    (INTERCONNECT u_afe_wb.wire302.X u_cf_refbuf.ch_cont (0.030:0.030:0.030) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.wire303.X u_cf_refbuf.boost (0.021:0.021:0.021) (0.021:0.021:0.021))
-    (INTERCONNECT u_afe_wb.wire304.X u_cf_refbuf.switchon (0.025:0.025:0.025) (0.024:0.024:0.024))
-    (INTERCONNECT u_afe_wb.wire305.X u_cf_refbuf.pd (0.017:0.017:0.017) (0.017:0.017:0.017))
-    (INTERCONNECT u_afe_wb.wire306.X u_cf_buf_hiz.e_pd (0.011:0.011:0.011) (0.011:0.011:0.011))
-    (INTERCONNECT u_afe_wb.wire307.X u_cf_adc_sar12.pd_ana (0.031:0.031:0.031) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.wire299.X u_cf_adc_sar12.reset_n (0.023:0.023:0.023) (0.023:0.023:0.023))
+    (INTERCONNECT u_afe_wb.wire300.X u_cf_adc_sar12_sar_refs.pd_vcmbuf (0.057:0.057:0.057) (0.054:0.054:0.054))
+    (INTERCONNECT u_afe_wb.wire301.X u_cf_adc_sar12_sar_refs.sw_start (0.051:0.051:0.051) (0.049:0.049:0.049))
+    (INTERCONNECT u_afe_wb.wire302.X u_cf_refbuf.ch_cont (0.113:0.113:0.113) (0.107:0.107:0.107))
+    (INTERCONNECT u_afe_wb.wire303.X u_cf_refbuf.boost (0.123:0.123:0.123) (0.118:0.118:0.118))
+    (INTERCONNECT u_afe_wb.wire304.X u_cf_refbuf.switchon (0.155:0.155:0.155) (0.150:0.150:0.150))
+    (INTERCONNECT u_afe_wb.wire305.X u_cf_refbuf.pd (0.116:0.116:0.116) (0.110:0.110:0.110))
+    (INTERCONNECT u_afe_wb.wire306.X u_cf_buf_hiz.e_pd (0.050:0.050:0.050) (0.048:0.048:0.048))
+    (INTERCONNECT u_afe_wb.wire307.X u_cf_adc_sar12.pd_ana (0.037:0.037:0.037) (0.036:0.036:0.036))
     (INTERCONNECT u_afe_wb.wire307.X u_cf_adc_sar12_sar_refs.pd_ana (0.031:0.031:0.031) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.wire308.X u_cf_bgr.en_startb (0.061:0.061:0.061) (0.059:0.059:0.059))
-    (INTERCONNECT u_afe_wb.wire309.X u_cf_bgr.finetune (0.019:0.019:0.019) (0.019:0.019:0.019))
-    (INTERCONNECT u_afe_wb.wire310.X u_cf_adc_sar12.pd (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.wire310.X u_cf_adc_sar12_sar_refs.pd (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.wire311.X u_cf_buf_hiz.clk1_boostr (0.016:0.016:0.016) (0.016:0.016:0.016))
-    (INTERCONNECT u_afe_wb.wire312.X u_cf_adc_sar12_sar_refs.EN_RESVDA (0.032:0.032:0.032) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.wire308.X u_cf_bgr.en_startb (0.172:0.172:0.172) (0.167:0.167:0.167))
+    (INTERCONNECT u_afe_wb.wire309.X u_cf_bgr.finetune (0.064:0.064:0.064) (0.060:0.060:0.060))
+    (INTERCONNECT u_afe_wb.wire310.X u_cf_adc_sar12.pd (0.035:0.035:0.035) (0.034:0.034:0.034))
+    (INTERCONNECT u_afe_wb.wire310.X u_cf_adc_sar12_sar_refs.pd (0.038:0.038:0.038) (0.037:0.037:0.037))
+    (INTERCONNECT u_afe_wb.wire311.X u_cf_buf_hiz.clk1_boostr (0.017:0.017:0.017) (0.016:0.016:0.016))
+    (INTERCONNECT u_afe_wb.wire312.X u_cf_adc_sar12_sar_refs.EN_RESVDA (0.047:0.047:0.047) (0.045:0.045:0.045))
     (INTERCONNECT u_afe_wb.wire313.X u_cf_adc_sar12_sar_refs.muxsarref[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire314.X u_cf_adc_sar12_sar_refs.muxsarref[1] (0.030:0.030:0.030) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire314.X u_cf_adc_sar12_sar_refs.muxsarref[1] (0.037:0.037:0.037) (0.036:0.036:0.036))
     (INTERCONNECT u_afe_wb.wire315.X u_cf_adc_sar12_sar_refs.muxsarref[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire316.X u_cf_buf_hiz.e_na_boost (0.031:0.031:0.031) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire316.X u_cf_buf_hiz.e_na_boost (0.058:0.058:0.058) (0.056:0.056:0.056))
     (INTERCONNECT u_afe_wb.wire317.X u_cf_adc_sar12_sar_refs.PWR_CTRL_VREF[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire318.X u_cf_adc_sar12_sar_refs.PWR_CTRL_VREF[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire319.X u_cf_adc_sar12_sar_refs.vref[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire320.X u_cf_adc_sar12_sar_refs.vref[1] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire321.X u_cf_adc_sar12_sar_refs.vref[2] (0.014:0.014:0.014) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.wire321.X u_cf_adc_sar12_sar_refs.vref[2] (0.028:0.028:0.028) (0.028:0.028:0.028))
     (INTERCONNECT u_afe_wb.wire322.X u_cf_adc_sar12_sar_refs.vref[3] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire323.X u_cf_adc_sar12_sar_refs.vref[4] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire324.X u_cf_adc_sar12.sel_csel_dft[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire325.X u_cf_adc_sar12.sel_csel_dft[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire326.X u_cf_adc_sar12.sel_csel_dft[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire327.X u_cf_buf_hiz.e_n_boost (0.017:0.017:0.017) (0.017:0.017:0.017))
+    (INTERCONNECT u_afe_wb.wire327.X u_cf_buf_hiz.e_n_boost (0.046:0.046:0.046) (0.044:0.044:0.044))
     (INTERCONNECT u_afe_wb.wire328.X u_cf_adc_sar12.sel_csel_dft[3] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire329.X u_cf_adc_sar12.dft_outc[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire330.X u_cf_adc_sar12.dft_outc[1] (0.020:0.020:0.020) (0.020:0.020:0.020))
@@ -3926,9 +3926,9 @@
     (INTERCONNECT u_afe_wb.wire335.X u_cf_adc_sar12.dft_inc[3] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire336.X u_cf_adc_sar12.icont_lv[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire337.X u_cf_adc_sar12.icont_lv[1] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire338.X u_cf_buf_hiz.clk2_boost (0.017:0.017:0.017) (0.017:0.017:0.017))
+    (INTERCONNECT u_afe_wb.wire338.X u_cf_buf_hiz.clk2_boost (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT u_afe_wb.wire339.X u_cf_adc_sar12.cap_trim[0] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire340.X u_cf_adc_sar12.cap_trim[1] (0.014:0.014:0.014) (0.014:0.014:0.014))
+    (INTERCONNECT u_afe_wb.wire340.X u_cf_adc_sar12.cap_trim[1] (0.033:0.033:0.033) (0.033:0.033:0.033))
     (INTERCONNECT u_afe_wb.wire341.X u_cf_adc_sar12.cap_trim[2] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire342.X u_cf_adc_sar12.sample_width[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire343.X u_cf_adc_sar12.sample_width[1] (0.000:0.000:0.000))
@@ -3942,49 +3942,49 @@
     (INTERCONNECT u_afe_wb.wire347.X u_afe_wb._0859_.B1 (0.003:0.003:0.003) (0.003:0.003:0.003))
     (INTERCONNECT u_afe_wb.wire347.X u_afe_wb._0877_.B1 (0.010:0.010:0.010) (0.010:0.010:0.010))
     (INTERCONNECT u_afe_wb.wire347.X u_afe_wb.max_cap346.A (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT u_afe_wb.wire353.X wbs_dat_o[9] (0.030:0.030:0.030) (0.029:0.029:0.029))
-    (INTERCONNECT u_afe_wb.wire354.X wbs_dat_o[8] (0.029:0.029:0.029) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.wire353.X wbs_dat_o[9] (0.030:0.030:0.030) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire354.X wbs_dat_o[8] (0.029:0.029:0.029) (0.028:0.028:0.028))
     (INTERCONNECT u_afe_wb.wire355.X wbs_dat_o[7] (0.029:0.029:0.029) (0.029:0.029:0.029))
-    (INTERCONNECT u_afe_wb.wire356.X wbs_dat_o[6] (0.029:0.029:0.029) (0.029:0.029:0.029))
-    (INTERCONNECT u_afe_wb.wire357.X wbs_dat_o[5] (0.029:0.029:0.029) (0.029:0.029:0.029))
-    (INTERCONNECT u_afe_wb.wire358.X wbs_dat_o[4] (0.028:0.028:0.028) (0.028:0.028:0.028))
+    (INTERCONNECT u_afe_wb.wire356.X wbs_dat_o[6] (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.wire357.X wbs_dat_o[5] (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.wire358.X wbs_dat_o[4] (0.029:0.029:0.029) (0.028:0.028:0.028))
     (INTERCONNECT u_afe_wb.wire359.X wbs_dat_o[3] (0.028:0.028:0.028) (0.028:0.028:0.028))
     (INTERCONNECT u_afe_wb.wire360.X wbs_dat_o[31] (0.040:0.040:0.040) (0.039:0.039:0.039))
-    (INTERCONNECT u_afe_wb.wire361.X wbs_dat_o[30] (0.040:0.040:0.040) (0.039:0.039:0.039))
-    (INTERCONNECT u_afe_wb.wire362.X wbs_dat_o[2] (0.030:0.030:0.030) (0.030:0.030:0.030))
-    (INTERCONNECT u_afe_wb.wire363.X wbs_dat_o[29] (0.038:0.038:0.038) (0.037:0.037:0.037))
-    (INTERCONNECT u_afe_wb.wire364.X wbs_dat_o[28] (0.038:0.038:0.038) (0.037:0.037:0.037))
-    (INTERCONNECT u_afe_wb.wire365.X wbs_dat_o[27] (0.040:0.040:0.040) (0.039:0.039:0.039))
+    (INTERCONNECT u_afe_wb.wire361.X wbs_dat_o[30] (0.039:0.039:0.039) (0.038:0.038:0.038))
+    (INTERCONNECT u_afe_wb.wire362.X wbs_dat_o[2] (0.031:0.031:0.031) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire363.X wbs_dat_o[29] (0.037:0.037:0.037) (0.036:0.036:0.036))
+    (INTERCONNECT u_afe_wb.wire364.X wbs_dat_o[28] (0.038:0.038:0.038) (0.038:0.038:0.038))
+    (INTERCONNECT u_afe_wb.wire365.X wbs_dat_o[27] (0.039:0.039:0.039) (0.038:0.038:0.038))
     (INTERCONNECT u_afe_wb.wire366.X wbs_dat_o[26] (0.035:0.035:0.035) (0.034:0.034:0.034))
-    (INTERCONNECT u_afe_wb.wire367.X wbs_dat_o[25] (0.039:0.039:0.039) (0.038:0.038:0.038))
+    (INTERCONNECT u_afe_wb.wire367.X wbs_dat_o[25] (0.038:0.038:0.038) (0.037:0.037:0.037))
     (INTERCONNECT u_afe_wb.wire368.X wbs_dat_o[24] (0.035:0.035:0.035) (0.035:0.035:0.035))
-    (INTERCONNECT u_afe_wb.wire369.X wbs_dat_o[23] (0.034:0.034:0.034) (0.033:0.033:0.033))
-    (INTERCONNECT u_afe_wb.wire370.X wbs_dat_o[22] (0.033:0.033:0.033) (0.032:0.032:0.032))
-    (INTERCONNECT u_afe_wb.wire371.X wbs_dat_o[21] (0.035:0.035:0.035) (0.034:0.034:0.034))
-    (INTERCONNECT u_afe_wb.wire372.X wbs_dat_o[20] (0.036:0.036:0.036) (0.035:0.035:0.035))
+    (INTERCONNECT u_afe_wb.wire369.X wbs_dat_o[23] (0.033:0.033:0.033) (0.032:0.032:0.032))
+    (INTERCONNECT u_afe_wb.wire370.X wbs_dat_o[22] (0.037:0.037:0.037) (0.036:0.036:0.036))
+    (INTERCONNECT u_afe_wb.wire371.X wbs_dat_o[21] (0.036:0.036:0.036) (0.035:0.035:0.035))
+    (INTERCONNECT u_afe_wb.wire372.X wbs_dat_o[20] (0.034:0.034:0.034) (0.033:0.033:0.033))
     (INTERCONNECT u_afe_wb.wire373.X wbs_dat_o[1] (0.027:0.027:0.027) (0.026:0.026:0.026))
-    (INTERCONNECT u_afe_wb.wire374.X wbs_dat_o[19] (0.034:0.034:0.034) (0.034:0.034:0.034))
-    (INTERCONNECT u_afe_wb.wire375.X wbs_dat_o[18] (0.033:0.033:0.033) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.wire374.X wbs_dat_o[19] (0.034:0.034:0.034) (0.033:0.033:0.033))
+    (INTERCONNECT u_afe_wb.wire375.X wbs_dat_o[18] (0.033:0.033:0.033) (0.032:0.032:0.032))
     (INTERCONNECT u_afe_wb.wire376.X wbs_dat_o[17] (0.033:0.033:0.033) (0.032:0.032:0.032))
-    (INTERCONNECT u_afe_wb.wire377.X wbs_dat_o[16] (0.032:0.032:0.032) (0.032:0.032:0.032))
+    (INTERCONNECT u_afe_wb.wire377.X wbs_dat_o[16] (0.033:0.033:0.033) (0.032:0.032:0.032))
     (INTERCONNECT u_afe_wb.wire378.X wbs_dat_o[15] (0.031:0.031:0.031) (0.031:0.031:0.031))
-    (INTERCONNECT u_afe_wb.wire379.X wbs_dat_o[14] (0.031:0.031:0.031) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire379.X wbs_dat_o[14] (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.wire380.X wbs_dat_o[13] (0.033:0.033:0.033) (0.032:0.032:0.032))
-    (INTERCONNECT u_afe_wb.wire381.X wbs_dat_o[12] (0.031:0.031:0.031) (0.030:0.030:0.030))
+    (INTERCONNECT u_afe_wb.wire381.X wbs_dat_o[12] (0.032:0.032:0.032) (0.031:0.031:0.031))
     (INTERCONNECT u_afe_wb.wire382.X wbs_dat_o[11] (0.031:0.031:0.031) (0.031:0.031:0.031))
-    (INTERCONNECT u_afe_wb.wire383.X wbs_dat_o[10] (0.030:0.030:0.030) (0.029:0.029:0.029))
+    (INTERCONNECT u_afe_wb.wire383.X wbs_dat_o[10] (0.029:0.029:0.029) (0.029:0.029:0.029))
     (INTERCONNECT u_afe_wb.wire384.X wbs_dat_o[0] (0.026:0.026:0.026) (0.025:0.025:0.025))
     (INTERCONNECT u_afe_wb.wire385.X wbs_ack_o (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.wire386.X u_cf_bgr.pd_ibg (0.050:0.050:0.050) (0.048:0.048:0.048))
-    (INTERCONNECT u_afe_wb.wire387.X u_cf_bgr.pd (0.028:0.028:0.028) (0.027:0.027:0.027))
-    (INTERCONNECT u_afe_wb.wire388.X u_cf_bgr.dft_sel (0.060:0.060:0.060) (0.057:0.057:0.057))
-    (INTERCONNECT u_afe_wb.wire389.X u_cf_bgr.mux2sel (0.018:0.018:0.018) (0.018:0.018:0.018))
+    (INTERCONNECT u_afe_wb.wire386.X u_cf_bgr.pd_ibg (0.173:0.173:0.173) (0.166:0.166:0.166))
+    (INTERCONNECT u_afe_wb.wire387.X u_cf_bgr.pd (0.057:0.057:0.057) (0.054:0.054:0.054))
+    (INTERCONNECT u_afe_wb.wire388.X u_cf_bgr.dft_sel (0.217:0.217:0.217) (0.202:0.202:0.202))
+    (INTERCONNECT u_afe_wb.wire389.X u_cf_bgr.mux2sel (0.046:0.046:0.046) (0.045:0.045:0.045))
     (INTERCONNECT u_afe_wb.wire390.X u_cf_bgr.mux1sel[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire391.X u_cf_bgr.mux1sel[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire392.X u_cf_bgr.inl_ctrl[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire393.X u_cf_bgr.inl_ctrl[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire394.X u_cf_bgr.inl_ctrl[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire395.X u_cf_bgr.inl_ctrl[3] (0.032:0.032:0.032) (0.031:0.031:0.031))
+    (INTERCONNECT u_afe_wb.wire395.X u_cf_bgr.inl_ctrl[3] (0.167:0.167:0.167) (0.162:0.162:0.162))
     (INTERCONNECT u_afe_wb.wire396.X u_cf_bgr.inl_ctrl[4] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire397.X u_cf_bgr.inl_ctrl[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire398.X u_cf_bgr.inl_ctrl[6] (0.000:0.000:0.000))
@@ -4003,7 +4003,7 @@
     (INTERCONNECT u_afe_wb.wire411.X u_cf_bgr.trimTC[0] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire412.X u_cf_bgr.trimTC[1] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire413.X u_cf_bgr.trimTC[2] (0.000:0.000:0.000))
-    (INTERCONNECT u_afe_wb.wire414.X u_cf_bgr.trimTC[3] (0.019:0.019:0.019) (0.019:0.019:0.019))
+    (INTERCONNECT u_afe_wb.wire414.X u_cf_bgr.trimTC[3] (0.062:0.062:0.062) (0.058:0.058:0.058))
     (INTERCONNECT u_afe_wb.wire415.X u_cf_bgr.trimTC[4] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire416.X u_cf_bgr.trimTC[5] (0.000:0.000:0.000))
     (INTERCONNECT u_afe_wb.wire417.X u_cf_bgr.trimTC[6] (0.000:0.000:0.000))
@@ -19509,7 +19509,7 @@
   (INSTANCE u_afe_wb.hold564)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.035:1.152:1.269) (1.114:1.291:1.467))
+    (IOPATH A X (1.034:1.152:1.269) (1.114:1.290:1.466))
    )
   )
  )
@@ -19563,7 +19563,7 @@
   (INSTANCE u_afe_wb.hold570)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.035:1.152:1.270) (1.115:1.291:1.467))
+    (IOPATH A X (1.035:1.153:1.270) (1.115:1.291:1.467))
    )
   )
  )
@@ -19608,7 +19608,7 @@
   (INSTANCE u_afe_wb.hold575)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.035:1.152:1.270) (1.115:1.291:1.467))
+    (IOPATH A X (1.035:1.153:1.270) (1.115:1.291:1.468))
    )
   )
  )
@@ -19833,7 +19833,7 @@
   (INSTANCE u_afe_wb.hold600)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.041:1.159:1.276) (1.122:1.298:1.474))
+    (IOPATH A X (1.042:1.159:1.276) (1.122:1.298:1.474))
    )
   )
  )
@@ -19905,7 +19905,7 @@
   (INSTANCE u_afe_wb.hold608)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.035:1.153:1.270) (1.115:1.291:1.467))
+    (IOPATH A X (1.035:1.153:1.270) (1.115:1.291:1.468))
    )
   )
  )
@@ -19995,7 +19995,7 @@
   (INSTANCE u_afe_wb.hold618)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.037:1.163:1.290) (1.117:1.308:1.499))
+    (IOPATH A X (1.037:1.164:1.290) (1.117:1.308:1.499))
    )
   )
  )
@@ -20139,7 +20139,7 @@
   (INSTANCE u_afe_wb.hold634)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.041:1.158:1.276) (1.121:1.297:1.474))
+    (IOPATH A X (1.041:1.159:1.276) (1.122:1.298:1.474))
    )
   )
  )
@@ -20238,7 +20238,7 @@
   (INSTANCE u_afe_wb.hold645)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.047:1.164:1.281) (1.127:1.303:1.479))
+    (IOPATH A X (1.047:1.164:1.282) (1.127:1.303:1.480))
    )
   )
  )
@@ -20247,7 +20247,7 @@
   (INSTANCE u_afe_wb.hold646)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.036:1.153:1.270) (1.114:1.291:1.467))
+    (IOPATH A X (1.036:1.153:1.270) (1.115:1.291:1.467))
    )
   )
  )
@@ -20373,7 +20373,7 @@
   (INSTANCE u_afe_wb.hold660)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.046:1.163:1.280) (1.126:1.302:1.478))
+    (IOPATH A X (1.045:1.163:1.280) (1.125:1.302:1.478))
    )
   )
  )
@@ -20445,7 +20445,7 @@
   (INSTANCE u_afe_wb.hold668)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.042:1.159:1.276) (1.121:1.298:1.474))
+    (IOPATH A X (1.042:1.159:1.276) (1.121:1.297:1.474))
    )
   )
  )
@@ -20589,7 +20589,7 @@
   (INSTANCE u_afe_wb.hold684)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.043:1.160:1.277) (1.122:1.298:1.474))
+    (IOPATH A X (1.042:1.159:1.276) (1.121:1.298:1.474))
    )
   )
  )
@@ -20805,7 +20805,7 @@
   (INSTANCE u_afe_wb.hold708)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.039:1.156:1.273) (1.118:1.294:1.470))
+    (IOPATH A X (1.038:1.155:1.272) (1.117:1.293:1.470))
    )
   )
  )
@@ -20931,7 +20931,7 @@
   (INSTANCE u_afe_wb.hold722)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.043:1.161:1.278) (1.123:1.299:1.475))
+    (IOPATH A X (1.043:1.161:1.278) (1.123:1.299:1.476))
    )
   )
  )
@@ -21021,7 +21021,7 @@
   (INSTANCE u_afe_wb.hold732)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.037:1.155:1.272) (1.117:1.293:1.469))
+    (IOPATH A X (1.038:1.155:1.272) (1.117:1.293:1.469))
    )
   )
  )
@@ -21048,7 +21048,7 @@
   (INSTANCE u_afe_wb.hold735)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.038:1.155:1.272) (1.117:1.293:1.470))
+    (IOPATH A X (1.038:1.155:1.272) (1.117:1.293:1.469))
    )
   )
  )
@@ -21066,7 +21066,7 @@
   (INSTANCE u_afe_wb.hold737)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.038:1.155:1.272) (1.117:1.293:1.469))
+    (IOPATH A X (1.037:1.155:1.272) (1.117:1.293:1.469))
    )
   )
  )
@@ -21120,7 +21120,7 @@
   (INSTANCE u_afe_wb.hold743)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.049:1.166:1.284) (1.130:1.306:1.482))
+    (IOPATH A X (1.049:1.166:1.283) (1.129:1.305:1.481))
    )
   )
  )
@@ -21255,7 +21255,7 @@
   (INSTANCE u_afe_wb.hold758)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.048:1.165:1.282) (1.128:1.304:1.480))
+    (IOPATH A X (1.047:1.165:1.282) (1.127:1.304:1.480))
    )
   )
  )
@@ -21336,7 +21336,7 @@
   (INSTANCE u_afe_wb.hold767)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.043:1.160:1.277) (1.123:1.299:1.475))
+    (IOPATH A X (1.042:1.160:1.277) (1.122:1.298:1.475))
    )
   )
  )
@@ -21507,7 +21507,7 @@
   (INSTANCE u_afe_wb.hold786)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (1.037:1.163:1.289) (1.116:1.307:1.498))
+    (IOPATH A X (1.037:1.163:1.289) (1.116:1.307:1.499))
    )
   )
  )
@@ -22182,7 +22182,7 @@
   (INSTANCE u_afe_wb.input52)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.567:0.567:0.567) (0.558:0.558:0.558))
+    (IOPATH A X (0.568:0.568:0.568) (0.558:0.558:0.558))
    )
   )
  )
@@ -24063,7 +24063,7 @@
   (INSTANCE u_afe_wb.wire261)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.314:0.314:0.314) (0.294:0.294:0.294))
+    (IOPATH A X (0.367:0.367:0.367) (0.317:0.317:0.317))
    )
   )
  )
@@ -24072,7 +24072,7 @@
   (INSTANCE u_afe_wb.wire262)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.299:0.299:0.299) (0.287:0.287:0.287))
+    (IOPATH A X (0.370:0.370:0.370) (0.318:0.318:0.318))
    )
   )
  )
@@ -24081,7 +24081,7 @@
   (INSTANCE u_afe_wb.wire263)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.308:0.308:0.308) (0.292:0.292:0.292))
+    (IOPATH A X (0.328:0.328:0.328) (0.301:0.301:0.301))
    )
   )
  )
@@ -24090,7 +24090,7 @@
   (INSTANCE u_afe_wb.wire264)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.307:0.307:0.307) (0.291:0.291:0.291))
+    (IOPATH A X (0.342:0.342:0.342) (0.306:0.306:0.306))
    )
   )
  )
@@ -24099,7 +24099,7 @@
   (INSTANCE u_afe_wb.wire265)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.288:0.288:0.288) (0.281:0.281:0.281))
+    (IOPATH A X (0.258:0.258:0.258) (0.260:0.260:0.260))
    )
   )
  )
@@ -24108,7 +24108,7 @@
   (INSTANCE u_afe_wb.wire266)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.307:0.307:0.307) (0.275:0.275:0.275))
+    (IOPATH A X (0.393:0.393:0.393) (0.327:0.327:0.327))
    )
   )
  )
@@ -24117,7 +24117,7 @@
   (INSTANCE u_afe_wb.wire267)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.295:0.295:0.295) (0.286:0.286:0.286))
+    (IOPATH A X (0.335:0.335:0.335) (0.303:0.303:0.303))
    )
   )
  )
@@ -24126,7 +24126,7 @@
   (INSTANCE u_afe_wb.wire268)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.301:0.301:0.301) (0.288:0.288:0.288))
+    (IOPATH A X (0.364:0.364:0.364) (0.316:0.316:0.316))
    )
   )
  )
@@ -24135,7 +24135,7 @@
   (INSTANCE u_afe_wb.wire269)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.358:0.358:0.358) (0.309:0.309:0.309))
+    (IOPATH A X (0.328:0.328:0.328) (0.300:0.300:0.300))
    )
   )
  )
@@ -24144,7 +24144,7 @@
   (INSTANCE u_afe_wb.wire270)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.335:0.335:0.335) (0.304:0.304:0.304))
+    (IOPATH A X (0.349:0.349:0.349) (0.309:0.309:0.309))
    )
   )
  )
@@ -24153,7 +24153,7 @@
   (INSTANCE u_afe_wb.wire271)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.331:0.331:0.331) (0.302:0.302:0.302))
+    (IOPATH A X (0.358:0.358:0.358) (0.314:0.314:0.314))
    )
   )
  )
@@ -24162,7 +24162,7 @@
   (INSTANCE u_afe_wb.wire272)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.329:0.329:0.329) (0.292:0.292:0.292))
+    (IOPATH A X (0.336:0.336:0.336) (0.304:0.304:0.304))
    )
   )
  )
@@ -24171,7 +24171,7 @@
   (INSTANCE u_afe_wb.wire273)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.337:0.337:0.337) (0.304:0.304:0.304))
+    (IOPATH A X (0.387:0.387:0.387) (0.324:0.324:0.324))
    )
   )
  )
@@ -24180,7 +24180,7 @@
   (INSTANCE u_afe_wb.wire274)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.338:0.338:0.338) (0.305:0.305:0.305))
+    (IOPATH A X (0.338:0.338:0.338) (0.280:0.280:0.280))
    )
   )
  )
@@ -24189,7 +24189,7 @@
   (INSTANCE u_afe_wb.wire275)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.288:0.288:0.288) (0.281:0.281:0.281))
+    (IOPATH A X (0.288:0.288:0.288) (0.282:0.282:0.282))
    )
   )
  )
@@ -24198,7 +24198,7 @@
   (INSTANCE u_afe_wb.wire276)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.295:0.295:0.295) (0.284:0.284:0.284))
+    (IOPATH A X (0.262:0.262:0.262) (0.260:0.260:0.260))
    )
   )
  )
@@ -24207,7 +24207,7 @@
   (INSTANCE u_afe_wb.wire277)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.296:0.296:0.296) (0.284:0.284:0.284))
+    (IOPATH A X (0.298:0.298:0.298) (0.287:0.287:0.287))
    )
   )
  )
@@ -24216,7 +24216,7 @@
   (INSTANCE u_afe_wb.wire278)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.304:0.304:0.304) (0.289:0.289:0.289))
+    (IOPATH A X (0.362:0.362:0.362) (0.314:0.314:0.314))
    )
   )
  )
@@ -24225,7 +24225,7 @@
   (INSTANCE u_afe_wb.wire279)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.285:0.285:0.285) (0.269:0.269:0.269))
+    (IOPATH A X (0.333:0.333:0.333) (0.302:0.302:0.302))
    )
   )
  )
@@ -24234,7 +24234,7 @@
   (INSTANCE u_afe_wb.wire280)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.310:0.310:0.310) (0.291:0.291:0.291))
+    (IOPATH A X (0.317:0.317:0.317) (0.296:0.296:0.296))
    )
   )
  )
@@ -24243,7 +24243,7 @@
   (INSTANCE u_afe_wb.wire281)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.344:0.344:0.344) (0.305:0.305:0.305))
+    (IOPATH A X (0.385:0.385:0.385) (0.322:0.322:0.322))
    )
   )
  )
@@ -24252,7 +24252,7 @@
   (INSTANCE u_afe_wb.wire282)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.336:0.336:0.336) (0.304:0.304:0.304))
+    (IOPATH A X (0.333:0.333:0.333) (0.303:0.303:0.303))
    )
   )
  )
@@ -24261,7 +24261,7 @@
   (INSTANCE u_afe_wb.wire283)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.357:0.357:0.357) (0.312:0.312:0.312))
+    (IOPATH A X (0.406:0.406:0.406) (0.333:0.333:0.333))
    )
   )
  )
@@ -24270,7 +24270,7 @@
   (INSTANCE u_afe_wb.wire284)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.320:0.320:0.320) (0.291:0.291:0.291))
+    (IOPATH A X (0.341:0.341:0.341) (0.282:0.282:0.282))
    )
   )
  )
@@ -24279,7 +24279,7 @@
   (INSTANCE u_afe_wb.wire285)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.310:0.310:0.310) (0.292:0.292:0.292))
+    (IOPATH A X (0.347:0.347:0.347) (0.307:0.307:0.307))
    )
   )
  )
@@ -24288,7 +24288,7 @@
   (INSTANCE u_afe_wb.wire286)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.286:0.286:0.286) (0.270:0.270:0.270))
+    (IOPATH A X (0.412:0.412:0.412) (0.331:0.331:0.331))
    )
   )
  )
@@ -24297,7 +24297,7 @@
   (INSTANCE u_afe_wb.wire287)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.312:0.312:0.312) (0.293:0.293:0.293))
+    (IOPATH A X (0.335:0.335:0.335) (0.299:0.299:0.299))
    )
   )
  )
@@ -24306,7 +24306,7 @@
   (INSTANCE u_afe_wb.wire288)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.313:0.313:0.313) (0.294:0.294:0.294))
+    (IOPATH A X (0.389:0.389:0.389) (0.326:0.326:0.326))
    )
   )
  )
@@ -24315,7 +24315,7 @@
   (INSTANCE u_afe_wb.wire289)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.349:0.349:0.349) (0.309:0.309:0.309))
+    (IOPATH A X (0.336:0.336:0.336) (0.302:0.302:0.302))
    )
   )
  )
@@ -24324,7 +24324,7 @@
   (INSTANCE u_afe_wb.wire290)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.302:0.302:0.302) (0.289:0.289:0.289))
+    (IOPATH A X (0.331:0.331:0.331) (0.299:0.299:0.299))
    )
   )
  )
@@ -24333,7 +24333,7 @@
   (INSTANCE u_afe_wb.wire291)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.315:0.315:0.315) (0.295:0.295:0.295))
+    (IOPATH A X (0.342:0.342:0.342) (0.302:0.302:0.302))
    )
   )
  )
@@ -24342,7 +24342,7 @@
   (INSTANCE u_afe_wb.wire292)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.327:0.327:0.327) (0.299:0.299:0.299))
+    (IOPATH A X (0.334:0.334:0.334) (0.300:0.300:0.300))
    )
   )
  )
@@ -24351,7 +24351,7 @@
   (INSTANCE u_afe_wb.wire293)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.351:0.351:0.351) (0.311:0.311:0.311))
+    (IOPATH A X (0.334:0.334:0.334) (0.299:0.299:0.299))
    )
   )
  )
@@ -24360,7 +24360,7 @@
   (INSTANCE u_afe_wb.wire294)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.291:0.291:0.291) (0.282:0.282:0.282))
+    (IOPATH A X (0.337:0.337:0.337) (0.304:0.304:0.304))
    )
   )
  )
@@ -24369,7 +24369,7 @@
   (INSTANCE u_afe_wb.wire295)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.338:0.338:0.338) (0.304:0.304:0.304))
+    (IOPATH A X (0.352:0.352:0.352) (0.308:0.308:0.308))
    )
   )
  )
@@ -24378,7 +24378,7 @@
   (INSTANCE u_afe_wb.wire296)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.352:0.352:0.352) (0.310:0.310:0.310))
+    (IOPATH A X (0.416:0.416:0.416) (0.335:0.335:0.335))
    )
   )
  )
@@ -24387,7 +24387,7 @@
   (INSTANCE u_afe_wb.wire297)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.356:0.356:0.356) (0.312:0.312:0.312))
+    (IOPATH A X (0.342:0.342:0.342) (0.305:0.305:0.305))
    )
   )
  )
@@ -24396,7 +24396,7 @@
   (INSTANCE u_afe_wb.wire298)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.305:0.305:0.305) (0.288:0.288:0.288))
+    (IOPATH A X (0.335:0.335:0.335) (0.300:0.300:0.300))
    )
   )
  )
@@ -24405,7 +24405,7 @@
   (INSTANCE u_afe_wb.wire299)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.326:0.326:0.326) (0.293:0.293:0.293))
+    (IOPATH A X (0.339:0.339:0.339) (0.305:0.305:0.305))
    )
   )
  )
@@ -24414,7 +24414,7 @@
   (INSTANCE u_afe_wb.wire300)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.318:0.318:0.318) (0.291:0.291:0.291))
+    (IOPATH A X (0.358:0.358:0.358) (0.310:0.310:0.310))
    )
   )
  )
@@ -24423,7 +24423,7 @@
   (INSTANCE u_afe_wb.wire301)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.315:0.315:0.315) (0.294:0.294:0.294))
+    (IOPATH A X (0.347:0.347:0.347) (0.305:0.305:0.305))
    )
   )
  )
@@ -24432,7 +24432,7 @@
   (INSTANCE u_afe_wb.wire302)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.353:0.353:0.353) (0.311:0.311:0.311))
+    (IOPATH A X (0.325:0.325:0.325) (0.291:0.291:0.291))
    )
   )
  )
@@ -24441,7 +24441,7 @@
   (INSTANCE u_afe_wb.wire303)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.331:0.331:0.331) (0.302:0.302:0.302))
+    (IOPATH A X (0.317:0.317:0.317) (0.282:0.282:0.282))
    )
   )
  )
@@ -24450,7 +24450,7 @@
   (INSTANCE u_afe_wb.wire304)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.323:0.323:0.323) (0.297:0.297:0.297))
+    (IOPATH A X (0.310:0.310:0.310) (0.271:0.271:0.271))
    )
   )
  )
@@ -24459,7 +24459,7 @@
   (INSTANCE u_afe_wb.wire305)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.315:0.315:0.315) (0.295:0.295:0.295))
+    (IOPATH A X (0.299:0.299:0.299) (0.276:0.276:0.276))
    )
   )
  )
@@ -24468,7 +24468,7 @@
   (INSTANCE u_afe_wb.wire306)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.276:0.276:0.276) (0.276:0.276:0.276))
+    (IOPATH A X (0.257:0.257:0.257) (0.259:0.259:0.259))
    )
   )
  )
@@ -24477,7 +24477,7 @@
   (INSTANCE u_afe_wb.wire307)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.323:0.323:0.323) (0.294:0.294:0.294))
+    (IOPATH A X (0.405:0.405:0.405) (0.335:0.335:0.335))
    )
   )
  )
@@ -24486,7 +24486,7 @@
   (INSTANCE u_afe_wb.wire308)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.321:0.321:0.321) (0.284:0.284:0.284))
+    (IOPATH A X (0.304:0.304:0.304) (0.261:0.261:0.261))
    )
   )
  )
@@ -24495,7 +24495,7 @@
   (INSTANCE u_afe_wb.wire309)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.287:0.287:0.287) (0.280:0.280:0.280))
+    (IOPATH A X (0.284:0.284:0.284) (0.276:0.276:0.276))
    )
   )
  )
@@ -24504,7 +24504,7 @@
   (INSTANCE u_afe_wb.wire310)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.331:0.331:0.331) (0.303:0.303:0.303))
+    (IOPATH A X (0.402:0.402:0.402) (0.332:0.332:0.332))
    )
   )
  )
@@ -24513,7 +24513,7 @@
   (INSTANCE u_afe_wb.wire311)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.287:0.287:0.287) (0.280:0.280:0.280))
+    (IOPATH A X (0.294:0.294:0.294) (0.284:0.284:0.284))
    )
   )
  )
@@ -24522,7 +24522,7 @@
   (INSTANCE u_afe_wb.wire312)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.293:0.293:0.293) (0.282:0.282:0.282))
+    (IOPATH A X (0.342:0.342:0.342) (0.304:0.304:0.304))
    )
   )
  )
@@ -24531,7 +24531,7 @@
   (INSTANCE u_afe_wb.wire313)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.279:0.279:0.279) (0.277:0.277:0.277))
+    (IOPATH A X (0.329:0.329:0.329) (0.298:0.298:0.298))
    )
   )
  )
@@ -24540,7 +24540,7 @@
   (INSTANCE u_afe_wb.wire314)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.297:0.297:0.297) (0.284:0.284:0.284))
+    (IOPATH A X (0.329:0.329:0.329) (0.299:0.299:0.299))
    )
   )
  )
@@ -24549,7 +24549,7 @@
   (INSTANCE u_afe_wb.wire315)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.285:0.285:0.285) (0.279:0.279:0.279))
+    (IOPATH A X (0.334:0.334:0.334) (0.301:0.301:0.301))
    )
   )
  )
@@ -24558,7 +24558,7 @@
   (INSTANCE u_afe_wb.wire316)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.251:0.251:0.251) (0.261:0.261:0.261))
+    (IOPATH A X (0.280:0.280:0.280) (0.266:0.266:0.266))
    )
   )
  )
@@ -24567,7 +24567,7 @@
   (INSTANCE u_afe_wb.wire317)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.285:0.285:0.285) (0.279:0.279:0.279))
+    (IOPATH A X (0.343:0.343:0.343) (0.303:0.303:0.303))
    )
   )
  )
@@ -24576,7 +24576,7 @@
   (INSTANCE u_afe_wb.wire318)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.296:0.296:0.296) (0.284:0.284:0.284))
+    (IOPATH A X (0.352:0.352:0.352) (0.308:0.308:0.308))
    )
   )
  )
@@ -24585,7 +24585,7 @@
   (INSTANCE u_afe_wb.wire319)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.313:0.313:0.313) (0.294:0.294:0.294))
+    (IOPATH A X (0.367:0.367:0.367) (0.317:0.317:0.317))
    )
   )
  )
@@ -24594,7 +24594,7 @@
   (INSTANCE u_afe_wb.wire320)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.299:0.299:0.299) (0.287:0.287:0.287))
+    (IOPATH A X (0.349:0.349:0.349) (0.310:0.310:0.310))
    )
   )
  )
@@ -24603,7 +24603,7 @@
   (INSTANCE u_afe_wb.wire321)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.296:0.296:0.296) (0.286:0.286:0.286))
+    (IOPATH A X (0.359:0.359:0.359) (0.314:0.314:0.314))
    )
   )
  )
@@ -24612,7 +24612,7 @@
   (INSTANCE u_afe_wb.wire322)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.307:0.307:0.307) (0.291:0.291:0.291))
+    (IOPATH A X (0.355:0.355:0.355) (0.313:0.313:0.313))
    )
   )
  )
@@ -24621,7 +24621,7 @@
   (INSTANCE u_afe_wb.wire323)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.294:0.294:0.294) (0.285:0.285:0.285))
+    (IOPATH A X (0.356:0.356:0.356) (0.314:0.314:0.314))
    )
   )
  )
@@ -24630,7 +24630,7 @@
   (INSTANCE u_afe_wb.wire324)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.338:0.338:0.338) (0.300:0.300:0.300))
+    (IOPATH A X (0.335:0.335:0.335) (0.298:0.298:0.298))
    )
   )
  )
@@ -24639,7 +24639,7 @@
   (INSTANCE u_afe_wb.wire325)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.340:0.340:0.340) (0.305:0.305:0.305))
+    (IOPATH A X (0.348:0.348:0.348) (0.309:0.309:0.309))
    )
   )
  )
@@ -24648,7 +24648,7 @@
   (INSTANCE u_afe_wb.wire326)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.341:0.341:0.341) (0.304:0.304:0.304))
+    (IOPATH A X (0.363:0.363:0.363) (0.315:0.315:0.315))
    )
   )
  )
@@ -24657,7 +24657,7 @@
   (INSTANCE u_afe_wb.wire327)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.278:0.278:0.278))
+    (IOPATH A X (0.261:0.261:0.261) (0.261:0.261:0.261))
    )
   )
  )
@@ -24666,7 +24666,7 @@
   (INSTANCE u_afe_wb.wire328)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.341:0.341:0.341) (0.306:0.306:0.306))
+    (IOPATH A X (0.400:0.400:0.400) (0.329:0.329:0.329))
    )
   )
  )
@@ -24675,7 +24675,7 @@
   (INSTANCE u_afe_wb.wire329)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.323:0.323:0.323) (0.297:0.297:0.297))
+    (IOPATH A X (0.307:0.307:0.307) (0.291:0.291:0.291))
    )
   )
  )
@@ -24684,7 +24684,7 @@
   (INSTANCE u_afe_wb.wire330)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.318:0.318:0.318) (0.295:0.295:0.295))
+    (IOPATH A X (0.323:0.323:0.323) (0.298:0.298:0.298))
    )
   )
  )
@@ -24693,7 +24693,7 @@
   (INSTANCE u_afe_wb.wire331)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.331:0.331:0.331) (0.301:0.301:0.301))
+    (IOPATH A X (0.314:0.314:0.314) (0.294:0.294:0.294))
    )
   )
  )
@@ -24702,7 +24702,7 @@
   (INSTANCE u_afe_wb.wire332)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.292:0.292:0.292) (0.284:0.284:0.284))
+    (IOPATH A X (0.312:0.312:0.312) (0.293:0.293:0.293))
    )
   )
  )
@@ -24711,7 +24711,7 @@
   (INSTANCE u_afe_wb.wire333)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.323:0.323:0.323) (0.297:0.297:0.297))
+    (IOPATH A X (0.294:0.294:0.294) (0.275:0.275:0.275))
    )
   )
  )
@@ -24720,7 +24720,7 @@
   (INSTANCE u_afe_wb.wire334)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.280:0.280:0.280))
+    (IOPATH A X (0.341:0.341:0.341) (0.306:0.306:0.306))
    )
   )
  )
@@ -24729,7 +24729,7 @@
   (INSTANCE u_afe_wb.wire335)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.288:0.288:0.288) (0.270:0.270:0.270))
+    (IOPATH A X (0.336:0.336:0.336) (0.304:0.304:0.304))
    )
   )
  )
@@ -24738,7 +24738,7 @@
   (INSTANCE u_afe_wb.wire336)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.310:0.310:0.310) (0.292:0.292:0.292))
+    (IOPATH A X (0.304:0.304:0.304) (0.289:0.289:0.289))
    )
   )
  )
@@ -24747,7 +24747,7 @@
   (INSTANCE u_afe_wb.wire337)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.303:0.303:0.303) (0.289:0.289:0.289))
+    (IOPATH A X (0.314:0.314:0.314) (0.294:0.294:0.294))
    )
   )
  )
@@ -24756,7 +24756,7 @@
   (INSTANCE u_afe_wb.wire338)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.294:0.294:0.294) (0.283:0.283:0.283))
+    (IOPATH A X (0.284:0.284:0.284) (0.279:0.279:0.279))
    )
   )
  )
@@ -24765,7 +24765,7 @@
   (INSTANCE u_afe_wb.wire339)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.312:0.312:0.312) (0.292:0.292:0.292))
+    (IOPATH A X (0.373:0.373:0.373) (0.318:0.318:0.318))
    )
   )
  )
@@ -24774,7 +24774,7 @@
   (INSTANCE u_afe_wb.wire340)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.292:0.292:0.292) (0.284:0.284:0.284))
+    (IOPATH A X (0.375:0.375:0.375) (0.319:0.319:0.319))
    )
   )
  )
@@ -24783,7 +24783,7 @@
   (INSTANCE u_afe_wb.wire341)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.283:0.283:0.283) (0.280:0.280:0.280))
+    (IOPATH A X (0.339:0.339:0.339) (0.304:0.304:0.304))
    )
   )
  )
@@ -24792,7 +24792,7 @@
   (INSTANCE u_afe_wb.wire342)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.335:0.335:0.335) (0.299:0.299:0.299))
+    (IOPATH A X (0.337:0.337:0.337) (0.304:0.304:0.304))
    )
   )
  )
@@ -24801,7 +24801,7 @@
   (INSTANCE u_afe_wb.wire343)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.369:0.369:0.369) (0.317:0.317:0.317))
+    (IOPATH A X (0.337:0.337:0.337) (0.305:0.305:0.305))
    )
   )
  )
@@ -24810,7 +24810,7 @@
   (INSTANCE u_afe_wb.wire344)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.300:0.300:0.300) (0.288:0.288:0.288))
+    (IOPATH A X (0.335:0.335:0.335) (0.279:0.279:0.279))
    )
   )
  )
@@ -24828,7 +24828,7 @@
   (INSTANCE u_afe_wb.wire353)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.391:0.391:0.391) (0.325:0.325:0.325))
+    (IOPATH A X (0.394:0.394:0.394) (0.327:0.327:0.327))
    )
   )
  )
@@ -24837,7 +24837,7 @@
   (INSTANCE u_afe_wb.wire354)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.392:0.392:0.392) (0.327:0.327:0.327))
+    (IOPATH A X (0.390:0.390:0.390) (0.326:0.326:0.326))
    )
   )
  )
@@ -24846,7 +24846,7 @@
   (INSTANCE u_afe_wb.wire355)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.390:0.390:0.390) (0.325:0.325:0.325))
+    (IOPATH A X (0.391:0.391:0.391) (0.326:0.326:0.326))
    )
   )
  )
@@ -24855,7 +24855,7 @@
   (INSTANCE u_afe_wb.wire356)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.391:0.391:0.391) (0.326:0.326:0.326))
+    (IOPATH A X (0.390:0.390:0.390) (0.325:0.325:0.325))
    )
   )
  )
@@ -24864,7 +24864,7 @@
   (INSTANCE u_afe_wb.wire357)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.387:0.387:0.387) (0.324:0.324:0.324))
+    (IOPATH A X (0.389:0.389:0.389) (0.325:0.325:0.325))
    )
   )
  )
@@ -24873,7 +24873,7 @@
   (INSTANCE u_afe_wb.wire358)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.388:0.388:0.388) (0.324:0.324:0.324))
+    (IOPATH A X (0.391:0.391:0.391) (0.326:0.326:0.326))
    )
   )
  )
@@ -24882,7 +24882,7 @@
   (INSTANCE u_afe_wb.wire359)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.385:0.385:0.385) (0.323:0.323:0.323))
+    (IOPATH A X (0.386:0.386:0.386) (0.324:0.324:0.324))
    )
   )
  )
@@ -24891,7 +24891,7 @@
   (INSTANCE u_afe_wb.wire360)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.421:0.421:0.421) (0.339:0.339:0.339))
+    (IOPATH A X (0.428:0.428:0.428) (0.343:0.343:0.343))
    )
   )
  )
@@ -24900,7 +24900,7 @@
   (INSTANCE u_afe_wb.wire361)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.434:0.434:0.434) (0.346:0.346:0.346))
+    (IOPATH A X (0.429:0.429:0.429) (0.344:0.344:0.344))
    )
   )
  )
@@ -24909,7 +24909,7 @@
   (INSTANCE u_afe_wb.wire362)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.383:0.383:0.383) (0.321:0.321:0.321))
+    (IOPATH A X (0.384:0.384:0.384) (0.321:0.321:0.321))
    )
   )
  )
@@ -24918,7 +24918,7 @@
   (INSTANCE u_afe_wb.wire363)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.412:0.412:0.412) (0.335:0.335:0.335))
+    (IOPATH A X (0.408:0.408:0.408) (0.333:0.333:0.333))
    )
   )
  )
@@ -24927,7 +24927,7 @@
   (INSTANCE u_afe_wb.wire364)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.436:0.436:0.436) (0.348:0.348:0.348))
+    (IOPATH A X (0.438:0.438:0.438) (0.349:0.349:0.349))
    )
   )
  )
@@ -24936,7 +24936,7 @@
   (INSTANCE u_afe_wb.wire365)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.423:0.423:0.423) (0.339:0.339:0.339))
+    (IOPATH A X (0.413:0.413:0.413) (0.335:0.335:0.335))
    )
   )
  )
@@ -24945,7 +24945,7 @@
   (INSTANCE u_afe_wb.wire366)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.405:0.405:0.405) (0.332:0.332:0.332))
+    (IOPATH A X (0.399:0.399:0.399) (0.328:0.328:0.328))
    )
   )
  )
@@ -24954,7 +24954,7 @@
   (INSTANCE u_afe_wb.wire367)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.413:0.413:0.413) (0.335:0.335:0.335))
+    (IOPATH A X (0.417:0.417:0.417) (0.337:0.337:0.337))
    )
   )
  )
@@ -24963,7 +24963,7 @@
   (INSTANCE u_afe_wb.wire368)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.423:0.423:0.423) (0.342:0.342:0.342))
+    (IOPATH A X (0.420:0.420:0.420) (0.341:0.341:0.341))
    )
   )
  )
@@ -24972,7 +24972,7 @@
   (INSTANCE u_afe_wb.wire369)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.402:0.402:0.402) (0.330:0.330:0.330))
+    (IOPATH A X (0.397:0.397:0.397) (0.329:0.329:0.329))
    )
   )
  )
@@ -24981,7 +24981,7 @@
   (INSTANCE u_afe_wb.wire370)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.400:0.400:0.400) (0.330:0.330:0.330))
+    (IOPATH A X (0.414:0.414:0.414) (0.336:0.336:0.336))
    )
   )
  )
@@ -24999,7 +24999,7 @@
   (INSTANCE u_afe_wb.wire372)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.408:0.408:0.408) (0.332:0.332:0.332))
+    (IOPATH A X (0.399:0.399:0.399) (0.329:0.329:0.329))
    )
   )
  )
@@ -25017,7 +25017,7 @@
   (INSTANCE u_afe_wb.wire374)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.409:0.409:0.409) (0.334:0.334:0.334))
+    (IOPATH A X (0.404:0.404:0.404) (0.331:0.331:0.331))
    )
   )
  )
@@ -25026,7 +25026,7 @@
   (INSTANCE u_afe_wb.wire375)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.409:0.409:0.409) (0.334:0.334:0.334))
+    (IOPATH A X (0.402:0.402:0.402) (0.331:0.331:0.331))
    )
   )
  )
@@ -25035,7 +25035,7 @@
   (INSTANCE u_afe_wb.wire376)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.399:0.399:0.399) (0.329:0.329:0.329))
+    (IOPATH A X (0.401:0.401:0.401) (0.329:0.329:0.329))
    )
   )
  )
@@ -25044,7 +25044,7 @@
   (INSTANCE u_afe_wb.wire377)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.402:0.402:0.402) (0.331:0.331:0.331))
+    (IOPATH A X (0.405:0.405:0.405) (0.332:0.332:0.332))
    )
   )
  )
@@ -25053,7 +25053,7 @@
   (INSTANCE u_afe_wb.wire378)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.392:0.392:0.392) (0.326:0.326:0.326))
+    (IOPATH A X (0.393:0.393:0.393) (0.326:0.326:0.326))
    )
   )
  )
@@ -25062,7 +25062,7 @@
   (INSTANCE u_afe_wb.wire379)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.394:0.394:0.394) (0.328:0.328:0.328))
+    (IOPATH A X (0.405:0.405:0.405) (0.333:0.333:0.333))
    )
   )
  )
@@ -25071,7 +25071,7 @@
   (INSTANCE u_afe_wb.wire380)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.403:0.403:0.403) (0.331:0.331:0.331))
+    (IOPATH A X (0.402:0.402:0.402) (0.330:0.330:0.330))
    )
   )
  )
@@ -25080,7 +25080,7 @@
   (INSTANCE u_afe_wb.wire381)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.393:0.393:0.393) (0.327:0.327:0.327))
+    (IOPATH A X (0.399:0.399:0.399) (0.329:0.329:0.329))
    )
   )
  )
@@ -25089,7 +25089,7 @@
   (INSTANCE u_afe_wb.wire382)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.398:0.398:0.398) (0.328:0.328:0.328))
+    (IOPATH A X (0.394:0.394:0.394) (0.326:0.326:0.326))
    )
   )
  )
@@ -25098,7 +25098,7 @@
   (INSTANCE u_afe_wb.wire383)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.397:0.397:0.397) (0.328:0.328:0.328))
+    (IOPATH A X (0.392:0.392:0.392) (0.326:0.326:0.326))
    )
   )
  )
@@ -25116,7 +25116,7 @@
   (INSTANCE u_afe_wb.wire385)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.382:0.382:0.382) (0.323:0.323:0.323))
+    (IOPATH A X (0.384:0.384:0.384) (0.324:0.324:0.324))
    )
   )
  )
@@ -25125,7 +25125,7 @@
   (INSTANCE u_afe_wb.wire386)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.292:0.292:0.292) (0.273:0.273:0.273))
+    (IOPATH A X (0.289:0.289:0.289) (0.257:0.257:0.257))
    )
   )
  )
@@ -25134,7 +25134,7 @@
   (INSTANCE u_afe_wb.wire387)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.361:0.361:0.361) (0.314:0.314:0.314))
+    (IOPATH A X (0.407:0.407:0.407) (0.332:0.332:0.332))
    )
   )
  )
@@ -25143,7 +25143,7 @@
   (INSTANCE u_afe_wb.wire388)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.281:0.281:0.281) (0.269:0.269:0.269))
+    (IOPATH A X (0.279:0.279:0.279) (0.255:0.255:0.255))
    )
   )
  )
@@ -25152,7 +25152,7 @@
   (INSTANCE u_afe_wb.wire389)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.333:0.333:0.333) (0.304:0.304:0.304))
+    (IOPATH A X (0.436:0.436:0.436) (0.347:0.347:0.347))
    )
   )
  )
@@ -25161,7 +25161,7 @@
   (INSTANCE u_afe_wb.wire390)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.309:0.309:0.309) (0.292:0.292:0.292))
+    (IOPATH A X (0.371:0.371:0.371) (0.321:0.321:0.321))
    )
   )
  )
@@ -25170,7 +25170,7 @@
   (INSTANCE u_afe_wb.wire391)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.387:0.387:0.387) (0.326:0.326:0.326))
+    (IOPATH A X (0.283:0.283:0.283) (0.266:0.266:0.266))
    )
   )
  )
@@ -25179,7 +25179,7 @@
   (INSTANCE u_afe_wb.wire392)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.286:0.286:0.286) (0.270:0.270:0.270))
+    (IOPATH A X (0.290:0.290:0.290) (0.267:0.267:0.267))
    )
   )
  )
@@ -25188,7 +25188,7 @@
   (INSTANCE u_afe_wb.wire393)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.327:0.327:0.327) (0.300:0.300:0.300))
+    (IOPATH A X (0.322:0.322:0.322) (0.298:0.298:0.298))
    )
   )
  )
@@ -25197,7 +25197,7 @@
   (INSTANCE u_afe_wb.wire394)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.320:0.320:0.320) (0.285:0.285:0.285))
+    (IOPATH A X (0.292:0.292:0.292) (0.265:0.265:0.265))
    )
   )
  )
@@ -25206,7 +25206,7 @@
   (INSTANCE u_afe_wb.wire395)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.379:0.379:0.379) (0.320:0.320:0.320))
+    (IOPATH A X (0.303:0.303:0.303) (0.265:0.265:0.265))
    )
   )
  )
@@ -25215,7 +25215,7 @@
   (INSTANCE u_afe_wb.wire396)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.304:0.304:0.304) (0.274:0.274:0.274))
+    (IOPATH A X (0.373:0.373:0.373) (0.321:0.321:0.321))
    )
   )
  )
@@ -25224,7 +25224,7 @@
   (INSTANCE u_afe_wb.wire397)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.275:0.275:0.275) (0.266:0.266:0.266))
+    (IOPATH A X (0.291:0.291:0.291) (0.258:0.258:0.258))
    )
   )
  )
@@ -25233,7 +25233,7 @@
   (INSTANCE u_afe_wb.wire398)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.302:0.302:0.302) (0.278:0.278:0.278))
+    (IOPATH A X (0.294:0.294:0.294) (0.274:0.274:0.274))
    )
   )
  )
@@ -25242,7 +25242,7 @@
   (INSTANCE u_afe_wb.wire399)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.273:0.273:0.273) (0.259:0.259:0.259))
+    (IOPATH A X (0.308:0.308:0.308) (0.270:0.270:0.270))
    )
   )
  )
@@ -25251,7 +25251,7 @@
   (INSTANCE u_afe_wb.wire400)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.317:0.317:0.317) (0.283:0.283:0.283))
+    (IOPATH A X (0.285:0.285:0.285) (0.257:0.257:0.257))
    )
   )
  )
@@ -25260,7 +25260,7 @@
   (INSTANCE u_afe_wb.wire401)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.341:0.341:0.341) (0.294:0.294:0.294))
+    (IOPATH A X (0.307:0.307:0.307) (0.270:0.270:0.270))
    )
   )
  )
@@ -25269,7 +25269,7 @@
   (INSTANCE u_afe_wb.wire402)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.351:0.351:0.351) (0.296:0.296:0.296))
+    (IOPATH A X (0.285:0.285:0.285) (0.271:0.271:0.271))
    )
   )
  )
@@ -25278,7 +25278,7 @@
   (INSTANCE u_afe_wb.wire403)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.319:0.319:0.319) (0.286:0.286:0.286))
+    (IOPATH A X (0.346:0.346:0.346) (0.295:0.295:0.295))
    )
   )
  )
@@ -25287,7 +25287,7 @@
   (INSTANCE u_afe_wb.wire404)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.281:0.281:0.281) (0.257:0.257:0.257))
+    (IOPATH A X (0.316:0.316:0.316) (0.284:0.284:0.284))
    )
   )
  )
@@ -25296,7 +25296,7 @@
   (INSTANCE u_afe_wb.wire405)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.270:0.270:0.270))
+    (IOPATH A X (0.329:0.329:0.329) (0.289:0.289:0.289))
    )
   )
  )
@@ -25305,7 +25305,7 @@
   (INSTANCE u_afe_wb.wire406)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.283:0.283:0.283) (0.263:0.263:0.263))
+    (IOPATH A X (0.313:0.313:0.313) (0.271:0.271:0.271))
    )
   )
  )
@@ -25314,7 +25314,7 @@
   (INSTANCE u_afe_wb.wire407)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.305:0.305:0.305) (0.282:0.282:0.282))
+    (IOPATH A X (0.301:0.301:0.301) (0.268:0.268:0.268))
    )
   )
  )
@@ -25323,7 +25323,7 @@
   (INSTANCE u_afe_wb.wire408)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.301:0.301:0.301) (0.274:0.274:0.274))
+    (IOPATH A X (0.306:0.306:0.306) (0.263:0.263:0.263))
    )
   )
  )
@@ -25332,7 +25332,7 @@
   (INSTANCE u_afe_wb.wire409)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.292:0.292:0.292) (0.272:0.272:0.272))
+    (IOPATH A X (0.308:0.308:0.308) (0.265:0.265:0.265))
    )
   )
  )
@@ -25341,7 +25341,7 @@
   (INSTANCE u_afe_wb.wire410)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.317:0.317:0.317) (0.287:0.287:0.287))
+    (IOPATH A X (0.306:0.306:0.306) (0.265:0.265:0.265))
    )
   )
  )
@@ -25350,7 +25350,7 @@
   (INSTANCE u_afe_wb.wire411)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.281:0.281:0.281) (0.274:0.274:0.274))
+    (IOPATH A X (0.270:0.270:0.270) (0.267:0.267:0.267))
    )
   )
  )
@@ -25359,7 +25359,7 @@
   (INSTANCE u_afe_wb.wire412)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.284:0.284:0.284) (0.280:0.280:0.280))
+    (IOPATH A X (0.274:0.274:0.274) (0.271:0.271:0.271))
    )
   )
  )
@@ -25368,7 +25368,7 @@
   (INSTANCE u_afe_wb.wire413)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.254:0.254:0.254) (0.262:0.262:0.262))
+    (IOPATH A X (0.276:0.276:0.276) (0.272:0.272:0.272))
    )
   )
  )
@@ -25377,7 +25377,7 @@
   (INSTANCE u_afe_wb.wire414)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.317:0.317:0.317) (0.295:0.295:0.295))
+    (IOPATH A X (0.273:0.273:0.273) (0.270:0.270:0.270))
    )
   )
  )
@@ -25386,7 +25386,7 @@
   (INSTANCE u_afe_wb.wire415)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.334:0.334:0.334) (0.303:0.303:0.303))
+    (IOPATH A X (0.274:0.274:0.274) (0.271:0.271:0.271))
    )
   )
  )
@@ -25395,7 +25395,7 @@
   (INSTANCE u_afe_wb.wire416)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.271:0.271:0.271) (0.271:0.271:0.271))
+    (IOPATH A X (0.275:0.275:0.275) (0.272:0.272:0.272))
    )
   )
  )
@@ -25404,7 +25404,7 @@
   (INSTANCE u_afe_wb.wire417)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.293:0.293:0.293) (0.284:0.284:0.284))
+    (IOPATH A X (0.272:0.272:0.272) (0.270:0.270:0.270))
    )
   )
  )
