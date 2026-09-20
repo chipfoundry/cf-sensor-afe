@@ -1,0 +1,60 @@
+Error while reading cell "CF_BUF_HIZ" (byte position 19624): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_BUF_HIZ" (byte position 19688): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_BUF_HIZ" (byte position 20200): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 384): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 448): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 4480): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 15424): Unknown layer/datatype in boundary, layer=70 type=10
+
+Error while reading cell "CF_ADC_SAR12_core" (byte position 25664): Unknown layer/datatype in boundary, layer=71 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 61466): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 61530): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12" (byte position 63514): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 378): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 442): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_BGR_core" (byte position 1274): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_BGR" (byte position 18746): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_BGR" (byte position 18810): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_BGR" (byte position 19194): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF_core" (byte position 380): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_REFBUF_core" (byte position 1724): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 16524): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 17036): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_REFBUF" (byte position 21896): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 392): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 456): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 1864): Unknown layer/datatype in boundary, layer=69 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 24264): Unknown layer/datatype in boundary, layer=70 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs_core" (byte position 35400): Unknown layer/datatype in boundary, layer=71 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 50030): Unknown layer/datatype in boundary, layer=67 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 50094): Unknown layer/datatype in boundary, layer=68 type=10
+
+Error while reading cell "CF_ADC_SAR12_sar_refs" (byte position 51118): Unknown layer/datatype in boundary, layer=69 type=10
+

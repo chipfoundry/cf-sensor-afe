@@ -1893,15 +1893,8 @@ No libs found for macro CF_ADC_SAR12_sar_refs at corner nom_tt_025C_1v80. The mo
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpt
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpcis
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpci
-[DRT-0418] Term u_cf_buf_hiz/vbnt has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vbnci has no pins on routing grid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbpcid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/vbptd
-[DRT-0418] Term u_cf_buf_hiz/vbnc has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vbpc has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vinp_n has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vinp_na has no pins on routing grid
-[DRT-0418] Term u_cf_buf_hiz/vinn_na has no pins on routing grid
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_na_boost
 [DRT-0419] No routing tracks pass through the center of Term u_cf_buf_hiz/e_n_boost
 [DRT-6000] Macro pin has more than 1 polygon

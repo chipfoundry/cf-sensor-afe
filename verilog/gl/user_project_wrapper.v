@@ -5,14 +5,6 @@ module user_project_wrapper (user_clock2,
     wbs_cyc_i,
     wbs_stb_i,
     wbs_we_i,
-    vssa2,
-    vdda2,
-    vssa1,
-    vdda1,
-    vssd2,
-    vccd2,
-    vssd1,
-    vccd1,
     analog_io,
     io_in,
     io_oeb,
@@ -32,14 +24,6 @@ module user_project_wrapper (user_clock2,
  input wbs_cyc_i;
  input wbs_stb_i;
  input wbs_we_i;
- inout vssa2;
- inout vdda2;
- inout vssa1;
- inout vdda1;
- inout vssd2;
- inout vccd2;
- inout vssd1;
- inout vccd1;
  inout [28:0] analog_io;
  input [37:0] io_in;
  output [37:0] io_oeb;
@@ -197,8 +181,6 @@ module user_project_wrapper (user_clock2,
  wire \analog_ctrl[9] ;
 
  afe_wb u_afe_wb (.adc_eof(afe_eof),
-    .vccd1(vccd1),
-    .vssd1(vssd1),
     .wb_clk_i(wb_clk_i),
     .wb_rst_i(wb_rst_i),
     .wbs_ack_o(wbs_ack_o),
@@ -513,7 +495,6 @@ module user_project_wrapper (user_clock2,
     .vrefhi(afe_refhi),
     .trimunit(\analog_ctrl[16] ),
     .vdda(analog_io[25]),
-    .vgnd(vssd1),
     .VPUMP(analog_io[27]),
     .vssa(analog_io[26]),
     .refby2(afe_refby2),
@@ -521,7 +502,6 @@ module user_project_wrapper (user_clock2,
     .pd(\analog_ctrl[8] ),
     .pd_ana(\analog_ctrl[9] ),
     .refclk(user_clock2),
-    .vpwr(vccd1),
     .dly_inc(\analog_ctrl[17] ),
     .dcen(\analog_ctrl[18] ),
     .ibias2p5u(afe_ibias),
@@ -568,10 +548,8 @@ module user_project_wrapper (user_clock2,
     \analog_ctrl[50] ,
     \analog_ctrl[49] }));
  CF_ADC_SAR12_sar_refs u_cf_adc_sar12_sar_refs (.vdda(analog_io[25]),
-    .vpwr(vccd1),
     .VPUMP(analog_io[27]),
     .vssa(analog_io[26]),
-    .vgnd(vssd1),
     .pd(\analog_ctrl[8] ),
     .hiz(\analog_ctrl[13] ),
     .REFBY2(afe_refby2),
@@ -619,8 +597,6 @@ module user_project_wrapper (user_clock2,
     .Vout(afe_vref),
     .ibg_3uA(afe_nbias),
     .ibg_2p375uA(afe_ibias),
-    .vgnd(vssd1),
-    .vpwr(vccd1),
     .CurrAbsTrim({\analog_ctrl[82] ,
     \analog_ctrl[81] ,
     \analog_ctrl[80] ,
@@ -650,13 +626,11 @@ module user_project_wrapper (user_clock2,
     \analog_ctrl[65] ,
     \analog_ctrl[64] }));
  CF_BUF_HIZ u_cf_buf_hiz (.tp(\analog_ctrl[2] ),
-    .vgnd(vssd1),
     .clk2_boost(\analog_ctrl[3] ),
     .clk1_boostr(\analog_ctrl[6] ),
     .vbpt(analog_io[9]),
     .vbpcis(analog_io[16]),
     .vbncis(analog_io[17]),
-    .vpwr(vccd1),
     .vout(afe_vout),
     .vbpci(analog_io[14]),
     .vbnt(analog_io[10]),
@@ -680,7 +654,6 @@ module user_project_wrapper (user_clock2,
  CF_REFBUF u_cf_refbuf (.nbias(afe_nbias),
     .out(analog_io[7]),
     .ref_1v2(afe_vref),
-    .vgnd(vssd1),
     .pd(\analog_ctrl[104] ),
     .ng(analog_io[8]),
     .switchon(\analog_ctrl[105] ),
@@ -688,6 +661,5 @@ module user_project_wrapper (user_clock2,
     .boost(\analog_ctrl[106] ),
     .vpwre(analog_io[8]),
     .ch2(analog_io[7]),
-    .vpwr(vccd1),
     .ch1(analog_io[7]));
 endmodule

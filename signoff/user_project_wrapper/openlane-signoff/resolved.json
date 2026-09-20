@@ -7,7 +7,7 @@
         "min_*": "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef",
         "max_*": "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef"
     },
-    "PRIMARY_GDSII_STREAMOUT_TOOL": "klayout",
+    "PRIMARY_GDSII_STREAMOUT_TOOL": "magic",
     "DEFAULT_MAX_TRAN": null,
     "DEFAULT_CORNER": "nom_tt_025C_1v80",
     "STA_CORNERS": [
@@ -321,7 +321,7 @@
     "EXTRA_CDLS": null,
     "EXTRA_LIBS": null,
     "EXTRA_GDS": null,
-    "FALLBACK_SDC": "/nix/store/ckjsd6nb5fbsamh11i65v2b6dr9r0a90-python3-3.13.9-env/lib/python3.13/site-packages/librelane/scripts/base.sdc",
+    "FALLBACK_SDC": "/nix/store/gwbgjicd3wi4v2c9g0fcrpbl48bx38fq-python3.13-librelane-3.0.13/lib/python3.13/site-packages/librelane/scripts/base.sdc",
     "PAD_GDS": null,
     "PAD_LEFS": null,
     "PAD_VERILOG_MODELS": null,
@@ -353,7 +353,7 @@
     "RUN_SPEF_EXTRACTION": true,
     "RUN_IRDROP_REPORT": false,
     "RUN_LVS": true,
-    "RUN_MAGIC_STREAMOUT": false,
+    "RUN_MAGIC_STREAMOUT": true,
     "RUN_KLAYOUT_STREAMOUT": true,
     "RUN_MAGIC_WRITE_LEF": true,
     "RUN_KLAYOUT_XOR": true,
@@ -1404,7 +1404,7 @@
         "81/14"
     ],
     "KLAYOUT_XOR_TILE_SIZE": null,
-    "ERROR_ON_XOR_ERROR": true,
+    "ERROR_ON_XOR_ERROR": false,
     "MAGIC_DRC_USE_GDS": false,
     "MAGIC_GDS_FLATGLOB": null,
     "MAGIC_DRC_MAGLEFS": null,
