@@ -1,0 +1,10 @@
+BI_CF_BGR_core
+C0_CF_REFBUF_core
+KX_CF_ADC_SAR12_core
+SS_sky130_fd_sc_hd__fill_1
+SS_sky130_fd_sc_hd__fill_2
+SS_sky130_fd_sc_hd__fill_4
+SS_sky130_fd_sc_hd__fill_8
+SS_sky130_fd_sc_hd__tapvpwrvgnd_1
+T2_CF_BUF_HIZ_core
+TJ_CF_ADC_SAR12_sar_refs_core

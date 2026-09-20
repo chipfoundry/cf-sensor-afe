@@ -1,0 +1,51 @@
+2026-09-20 06:41:40 [INFO] Extracting compressed files in: /tmp/tmpit974p1_/repo
+2026-09-20 06:41:40 [INFO] make uncompress produced 2 gds/*.gds file(s): afe_wb.gds, user_project_wrapper.gds (make exit 0)
+2026-09-20 06:41:40 [INFO] Project type: digital
+2026-09-20 06:41:40 [INFO] GDS hash (user_project_wrapper): c28efe4b953542bb07c3fe6c34a86afb62370207
+2026-09-20 06:41:40 [INFO] Tools: KLayout v0.29.2 | Magic v8.3.471
+2026-09-20 06:41:40 [INFO] PDK: SKY130A unknown
+2026-09-20 06:41:40 [INFO] Running 13 checks: [topcell_check, gpio_defines, xor, klayout_feol, klayout_beol, klayout_offgrid, klayout_met_min_ca_density, klayout_pin_label_purposes_overlapping_drawing, klayout_zeroarea, spike_check, illegal_cellname_check, lvs, oeb]
+2026-09-20 06:41:40 [INFO] Single top cell 'user_project_wrapper' found
+2026-09-20 06:41:40 [INFO] GPIO defines: parsing verilog/rtl/user_defines.v
+2026-09-20 06:41:41 [INFO] GPIO defines report: /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/gpio_defines.report
+2026-09-20 06:41:47 [INFO] Total XOR differences: 0
+2026-09-20 06:41:47 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/sky130A_mr.drc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_feol_check.xml -rd thr=2 -rd feol=true
+2026-09-20 06:42:00 [INFO] No DRC violations found
+2026-09-20 06:42:00 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/sky130A_mr.drc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_beol_check.xml -rd thr=2 -rd beol=true
+2026-09-20 06:42:32 [INFO] No DRC violations found
+2026-09-20 06:42:32 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/sky130A_mr.drc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_offgrid_check.xml -rd thr=2 -rd offgrid=true
+2026-09-20 06:42:40 [INFO] No DRC violations found
+2026-09-20 06:42:40 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/met_min_ca_density.lydrc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_met_min_ca_density_check.xml -rd thr=2
+2026-09-20 06:42:44 [INFO] No DRC violations found
+2026-09-20 06:42:44 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd thr=2 -rd top_cell_name=user_project_wrapper
+2026-09-20 06:42:48 [INFO] No DRC violations found
+2026-09-20 06:42:48 [INFO] Running: klayout -b -r /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/zeroarea.rb.drc -rd input=/tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/klayout_zeroarea_check.xml -rd thr=2 -rd cleaned_output=/tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/user_project_wrapper_no_zero_areas.gds
+2026-09-20 06:42:50 [INFO] No DRC violations found
+2026-09-20 06:42:50 [INFO] Running: bash /usr/local/lib/python3.9/site-packages/cf_precheck/drc_scripts/gdsArea0 -V -m /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/outputs/reports/spike_check.xml /tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds
+2026-09-20 06:42:53 [INFO] No spikes found
+2026-09-20 06:42:53 [INFO] Loading LVS environment from /tmp/tmpit974p1_/repo/lvs/user_project_wrapper/lvs_config.json
+2026-09-20 06:42:53 [INFO] EXTRACT_FLATGLOB: 
+2026-09-20 06:42:53 [INFO] EXTRACT_ABSTRACT: *__fill_* *__fakediode_* *__tapvpwrvgnd_* *CF_BUF_HIZ_core *CF_ADC_SAR12_core *CF_ADC_SAR12_sar_refs_core *CF_BGR_core *CF_REFBUF_core
+2026-09-20 06:42:53 [INFO] EXTRACT_CREATE_SUBCUT: 
+2026-09-20 06:42:53 [INFO] LVS_FLATTEN: 
+2026-09-20 06:42:53 [INFO] LVS_NOFLATTEN: CF_BUF_HIZ CF_ADC_SAR12 CF_ADC_SAR12_sar_refs CF_BGR CF_REFBUF
+2026-09-20 06:42:53 [INFO] LVS_IGNORE: 
+2026-09-20 06:42:53 [INFO] LVS_SPICE_FILES: /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap*.spice /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+2026-09-20 06:42:53 [INFO] LVS_VERILOG_FILES: /tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BGR_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BGR.v /tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF.v /tmp/tmpit974p1_/repo/verilog/gl/afe_wb.v /tmp/tmpit974p1_/repo/verilog/gl/user_project_wrapper.v
+2026-09-20 06:42:53 [INFO] LAYOUT_FILE: /tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds
+2026-09-20 06:42:53 [INFO] Running: run_be_checks --nooeb
+2026-09-20 06:42:53 [INFO] LVS output directory: /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40
+2026-09-20 06:43:24 [WARNING] ERC check failed (stat=4), see /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/logs/LVS_check.log
+2026-09-20 06:43:24 [INFO] Loading LVS environment from /tmp/tmpit974p1_/repo/lvs/user_project_wrapper/lvs_config.json
+2026-09-20 06:43:24 [INFO] EXTRACT_FLATGLOB: 
+2026-09-20 06:43:24 [INFO] EXTRACT_ABSTRACT: *__fill_* *__fakediode_* *__tapvpwrvgnd_* *CF_BUF_HIZ_core *CF_ADC_SAR12_core *CF_ADC_SAR12_sar_refs_core *CF_BGR_core *CF_REFBUF_core
+2026-09-20 06:43:24 [INFO] EXTRACT_CREATE_SUBCUT: 
+2026-09-20 06:43:24 [INFO] LVS_FLATTEN: 
+2026-09-20 06:43:24 [INFO] LVS_NOFLATTEN: CF_BUF_HIZ CF_ADC_SAR12 CF_ADC_SAR12_sar_refs CF_BGR CF_REFBUF
+2026-09-20 06:43:24 [INFO] LVS_IGNORE: 
+2026-09-20 06:43:24 [INFO] LVS_SPICE_FILES: /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap*.spice /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+2026-09-20 06:43:24 [INFO] LVS_VERILOG_FILES: /tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BUF_HIZ.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_ADC_SAR12_sar_refs.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BGR_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_BGR.v /tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF_core.v /tmp/tmpit974p1_/repo/verilog/gl/CF_REFBUF.v /tmp/tmpit974p1_/repo/verilog/gl/afe_wb.v /tmp/tmpit974p1_/repo/verilog/gl/user_project_wrapper.v
+2026-09-20 06:43:24 [INFO] LAYOUT_FILE: /tmp/tmpit974p1_/repo/gds/user_project_wrapper.gds
+2026-09-20 06:43:24 [INFO] Running: run_oeb_check --noextract
+2026-09-20 06:43:24 [INFO] OEB output directory: /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40
+2026-09-20 06:43:24 [WARNING] ERC check failed (stat=4), see /tmp/tmpit974p1_/repo/precheck_results/20_SEP_2026___06_41_40/logs/OEB_check.log

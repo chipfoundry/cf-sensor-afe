@@ -1,0 +1,591 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO KX_CF_ADC_SAR12_core
+  CLASS BLOCK ;
+  FOREIGN KX_CF_ADC_SAR12_core ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 473.240 BY 503.000 ;
+  PIN sample_width[1]
+    PORT
+      LAYER met2 ;
+        RECT 408.500 502.335 408.780 503.000 ;
+    END
+  END sample_width[1]
+  PIN sample_width[3]
+    PORT
+      LAYER met2 ;
+        RECT 410.590 502.335 410.870 503.000 ;
+    END
+  END sample_width[3]
+  PIN sample_width[4]
+    PORT
+      LAYER met2 ;
+        RECT 411.660 502.335 411.940 503.000 ;
+    END
+  END sample_width[4]
+  PIN sample_width[5]
+    PORT
+      LAYER met2 ;
+        RECT 412.630 502.335 412.910 503.000 ;
+    END
+  END sample_width[5]
+  PIN sample_width[6]
+    PORT
+      LAYER met2 ;
+        RECT 413.750 502.335 414.030 503.000 ;
+    END
+  END sample_width[6]
+  PIN sample_width[7]
+    PORT
+      LAYER met2 ;
+        RECT 414.720 502.335 415.000 503.000 ;
+    END
+  END sample_width[7]
+  PIN sample_width[8]
+    PORT
+      LAYER met2 ;
+        RECT 415.715 502.335 415.995 503.000 ;
+    END
+  END sample_width[8]
+  PIN sample_width[9]
+    PORT
+      LAYER met2 ;
+        RECT 417.500 502.335 417.780 503.000 ;
+    END
+  END sample_width[9]
+  PIN resolution[0]
+    PORT
+      LAYER met2 ;
+        RECT 430.760 502.335 431.040 503.000 ;
+    END
+  END resolution[0]
+  PIN resolution[1]
+    PORT
+      LAYER met2 ;
+        RECT 431.720 502.335 432.000 503.000 ;
+    END
+  END resolution[1]
+  PIN scan_test_mode
+    PORT
+      LAYER met2 ;
+        RECT 442.350 502.335 442.630 503.000 ;
+    END
+  END scan_test_mode
+  PIN test_scanin
+    PORT
+      LAYER met2 ;
+        RECT 443.585 502.335 443.865 503.000 ;
+    END
+  END test_scanin
+  PIN test_scanen
+    PORT
+      LAYER met2 ;
+        RECT 444.545 502.335 444.825 503.000 ;
+    END
+  END test_scanen
+  PIN test_scanout
+    PORT
+      LAYER met2 ;
+        RECT 445.505 502.335 445.785 503.000 ;
+    END
+  END test_scanout
+  PIN en_csel_dft
+    PORT
+      LAYER met2 ;
+        RECT 446.465 502.335 446.745 503.000 ;
+    END
+  END en_csel_dft
+  PIN sel_csel_dft[0]
+    PORT
+      LAYER met2 ;
+        RECT 447.500 502.335 447.780 503.000 ;
+    END
+  END sel_csel_dft[0]
+  PIN sel_csel_dft[2]
+    PORT
+      LAYER met2 ;
+        RECT 448.935 502.335 449.215 503.000 ;
+    END
+  END sel_csel_dft[2]
+  PIN sel_csel_dft[3]
+    PORT
+      LAYER met2 ;
+        RECT 450.305 502.335 450.585 503.000 ;
+    END
+  END sel_csel_dft[3]
+  PIN hiz
+    PORT
+      LAYER met2 ;
+        RECT 451.340 502.335 451.620 503.000 ;
+    END
+  END hiz
+  PIN sof
+    PORT
+      LAYER met2 ;
+        RECT 452.740 502.335 453.020 503.000 ;
+    END
+  END sof
+  PIN test_sea
+    PORT
+      LAYER met2 ;
+        RECT 453.750 502.335 454.030 503.000 ;
+    END
+  END test_sea
+  PIN reset_n
+    PORT
+      LAYER met2 ;
+        RECT 454.400 502.335 454.680 503.000 ;
+    END
+  END reset_n
+  PIN eof
+    PORT
+      LAYER met2 ;
+        RECT 457.580 502.335 457.860 503.000 ;
+    END
+  END eof
+  PIN data_out[0]
+    PORT
+      LAYER met2 ;
+        RECT 458.230 502.335 458.510 503.000 ;
+    END
+  END data_out[0]
+  PIN data_out[3]
+    PORT
+      LAYER met2 ;
+        RECT 460.180 502.335 460.460 503.000 ;
+    END
+  END data_out[3]
+  PIN data_out[4]
+    PORT
+      LAYER met2 ;
+        RECT 460.830 502.335 461.110 503.000 ;
+    END
+  END data_out[4]
+  PIN data_out[5]
+    PORT
+      LAYER met2 ;
+        RECT 461.480 502.335 461.760 503.000 ;
+    END
+  END data_out[5]
+  PIN data_out[6]
+    PORT
+      LAYER met2 ;
+        RECT 466.585 502.335 466.865 503.000 ;
+    END
+  END data_out[6]
+  PIN data_out[10]
+    PORT
+      LAYER met2 ;
+        RECT 469.185 502.335 469.465 503.000 ;
+    END
+  END data_out[10]
+  PIN data_out[11]
+    PORT
+      LAYER met2 ;
+        RECT 469.835 502.335 470.115 503.000 ;
+    END
+  END data_out[11]
+  PIN iso_en
+    PORT
+      LAYER met2 ;
+        RECT 470.485 502.335 470.765 503.000 ;
+    END
+  END iso_en
+  PIN next
+    PORT
+      LAYER met2 ;
+        RECT 471.135 502.335 471.415 503.000 ;
+    END
+  END next
+  PIN sample_width[0]
+    PORT
+      LAYER met2 ;
+        RECT 407.530 502.335 407.810 503.000 ;
+    END
+  END sample_width[0]
+  PIN vssa_q
+    PORT
+      LAYER met2 ;
+        RECT 156.655 500.500 160.655 503.000 ;
+    END
+  END vssa_q
+  PIN dft_inp
+    PORT
+      LAYER met2 ;
+        RECT 31.810 502.535 32.070 503.000 ;
+    END
+  END dft_inp
+  PIN dft_inm
+    PORT
+      LAYER met2 ;
+        RECT 37.390 502.535 37.650 503.000 ;
+    END
+  END dft_inm
+  PIN dft_op
+    PORT
+      LAYER met2 ;
+        RECT 42.970 502.535 43.230 503.000 ;
+    END
+  END dft_op
+  PIN dft_om
+    PORT
+      LAYER met2 ;
+        RECT 48.550 502.535 48.810 503.000 ;
+    END
+  END dft_om
+  PIN vpwr_lv_int
+    PORT
+      LAYER met2 ;
+        RECT 383.330 501.345 388.330 503.000 ;
+    END
+  END vpwr_lv_int
+  PIN sel_csel_dft[1]
+    PORT
+      LAYER met2 ;
+        RECT 448.235 502.335 448.515 503.000 ;
+    END
+  END sel_csel_dft[1]
+  PIN data_out[9]
+    PORT
+      LAYER met2 ;
+        RECT 468.535 502.335 468.815 503.000 ;
+    END
+  END data_out[9]
+  PIN data_out[7]
+    PORT
+      LAYER met2 ;
+        RECT 467.235 502.335 467.515 503.000 ;
+    END
+  END data_out[7]
+  PIN data_out[8]
+    PORT
+      LAYER met2 ;
+        RECT 467.885 502.335 468.165 503.000 ;
+    END
+  END data_out[8]
+  PIN vdda_q
+    PORT
+      LAYER met2 ;
+        RECT 233.215 498.475 239.215 503.000 ;
+    END
+  END vdda_q
+  PIN vboost
+    PORT
+      LAYER met2 ;
+        RECT 133.615 500.270 135.150 503.000 ;
+    END
+  END vboost
+  PIN vssa
+    PORT
+      LAYER met2 ;
+        RECT 173.650 500.500 177.650 503.000 ;
+    END
+  END vssa
+  PIN pumpclk
+    PORT
+      LAYER met2 ;
+        RECT 83.760 502.545 84.020 503.000 ;
+    END
+  END pumpclk
+  PIN vccd_q
+    PORT
+      LAYER met2 ;
+        RECT 462.260 499.850 466.115 503.000 ;
+    END
+  END vccd_q
+  PIN sample_width[2]
+    PORT
+      LAYER met2 ;
+        RECT 409.620 502.335 409.900 503.000 ;
+    END
+  END sample_width[2]
+  PIN vsub_vic
+    PORT
+      LAYER met2 ;
+        RECT 154.480 500.500 155.480 503.000 ;
+    END
+  END vsub_vic
+  PIN vsub_agr
+    PORT
+      LAYER met2 ;
+        RECT 148.255 500.500 149.255 503.000 ;
+    END
+  END vsub_agr
+  PIN icont_lv[0]
+    PORT
+      LAYER met2 ;
+        RECT 150.970 502.535 151.230 503.000 ;
+    END
+  END icont_lv[0]
+  PIN dly_inc
+    PORT
+      LAYER met2 ;
+        RECT 151.810 502.535 152.070 503.000 ;
+    END
+  END dly_inc
+  PIN dcen
+    PORT
+      LAYER met2 ;
+        RECT 153.910 502.535 154.170 503.000 ;
+    END
+  END dcen
+  PIN data_out[2]
+    PORT
+      LAYER met2 ;
+        RECT 459.530 502.335 459.810 503.000 ;
+    END
+  END data_out[2]
+  PIN data_out[1]
+    PORT
+      LAYER met2 ;
+        RECT 458.880 502.335 459.160 503.000 ;
+    END
+  END data_out[1]
+  PIN en_pump_lv
+    PORT
+      LAYER met2 ;
+        RECT 84.700 502.545 84.960 503.000 ;
+    END
+  END en_pump_lv
+  PIN trimunit
+    PORT
+      LAYER met2 ;
+        RECT 166.865 502.535 167.125 503.000 ;
+    END
+  END trimunit
+  PIN vdda
+    PORT
+      LAYER met2 ;
+        RECT 301.910 498.600 307.910 503.000 ;
+    END
+  END vdda
+  PIN vssd
+    PORT
+      LAYER met2 ;
+        RECT 84.240 502.545 84.500 503.000 ;
+    END
+  END vssd
+  PIN VPUMP
+    PORT
+      LAYER met2 ;
+        RECT 182.370 501.070 183.870 503.000 ;
+    END
+  END VPUMP
+  PIN cap_trim[2]
+    PORT
+      LAYER met2 ;
+        RECT 164.225 502.535 164.485 503.000 ;
+    END
+  END cap_trim[2]
+  PIN cap_trim[1]
+    PORT
+      LAYER met2 ;
+        RECT 164.685 502.535 164.945 503.000 ;
+    END
+  END cap_trim[1]
+  PIN dft_enc
+    PORT
+      LAYER met2 ;
+        RECT 161.245 502.535 161.505 503.000 ;
+    END
+  END dft_enc
+  PIN cap_trim[0]
+    PORT
+      LAYER met2 ;
+        RECT 165.145 502.535 165.405 503.000 ;
+    END
+  END cap_trim[0]
+  PIN pd
+    PORT
+      LAYER met2 ;
+        RECT 172.785 502.535 173.045 503.000 ;
+    END
+  END pd
+  PIN pd_ana
+    PORT
+      LAYER met2 ;
+        RECT 172.125 502.535 172.385 503.000 ;
+    END
+  END pd_ana
+  PIN refclk
+    PORT
+      LAYER met2 ;
+        RECT 178.610 502.535 178.870 503.000 ;
+    END
+  END refclk
+  PIN dft_inc[3]
+    PORT
+      LAYER met2 ;
+        RECT 168.705 502.535 168.965 503.000 ;
+    END
+  END dft_inc[3]
+  PIN dft_inc[2]
+    PORT
+      LAYER met2 ;
+        RECT 169.165 502.535 169.425 503.000 ;
+    END
+  END dft_inc[2]
+  PIN dft_inc[1]
+    PORT
+      LAYER met2 ;
+        RECT 169.625 502.535 169.885 503.000 ;
+    END
+  END dft_inc[1]
+  PIN dft_inc[0]
+    PORT
+      LAYER met2 ;
+        RECT 170.085 502.535 170.345 503.000 ;
+    END
+  END dft_inc[0]
+  PIN dft_outc[2]
+    PORT
+      LAYER met2 ;
+        RECT 170.545 502.535 170.805 503.000 ;
+    END
+  END dft_outc[2]
+  PIN dft_outc[1]
+    PORT
+      LAYER met2 ;
+        RECT 171.005 502.535 171.265 503.000 ;
+    END
+  END dft_outc[1]
+  PIN vpwr_int
+    PORT
+      LAYER met2 ;
+        RECT 286.945 500.060 292.945 503.000 ;
+    END
+  END vpwr_int
+  PIN vccd
+    PORT
+      LAYER met2 ;
+        RECT 393.770 499.870 398.770 503.000 ;
+    END
+  END vccd
+  PIN vpwrd_int
+    PORT
+      LAYER met2 ;
+        RECT 402.255 501.355 406.995 503.000 ;
+    END
+  END vpwrd_int
+  PIN icont_lv[1]
+    PORT
+      LAYER met2 ;
+        RECT 150.550 502.535 150.810 503.000 ;
+    END
+  END icont_lv[1]
+  PIN ibiasin
+    PORT
+      LAYER met2 ;
+        RECT 21.195 0.000 22.445 1.015 ;
+    END
+  END ibiasin
+  PIN dft_outc[0]
+    PORT
+      LAYER met2 ;
+        RECT 171.465 502.535 171.725 503.000 ;
+    END
+  END dft_outc[0]
+  PIN enable_hv
+    PORT
+      LAYER met2 ;
+        RECT 166.405 502.535 166.665 503.000 ;
+    END
+  END enable_hv
+  PIN ibias2p5u_out
+    PORT
+      LAYER met3 ;
+        RECT 25.240 328.035 25.790 328.755 ;
+    END
+  END ibias2p5u_out
+  PIN vreflo
+    PORT
+      LAYER met4 ;
+        RECT 472.300 317.580 473.240 318.500 ;
+    END
+  END vreflo
+  PIN vinp
+    PORT
+      LAYER met4 ;
+        RECT 472.300 314.220 473.240 315.720 ;
+    END
+  END vinp
+  PIN vinm
+    PORT
+      LAYER met4 ;
+        RECT 472.300 311.390 473.240 312.890 ;
+    END
+  END vinm
+  PIN vrefhi
+    PORT
+      LAYER met4 ;
+        RECT 472.300 301.540 473.240 303.540 ;
+    END
+  END vrefhi
+  PIN refby2
+    PORT
+      LAYER met4 ;
+        RECT 25.240 348.200 25.705 348.720 ;
+    END
+  END refby2
+  PIN ibias2p5u
+    PORT
+      LAYER met4 ;
+        RECT 472.780 328.050 473.240 328.740 ;
+    END
+  END ibias2p5u
+  PIN ibias2p5u_1
+    PORT
+      LAYER met4 ;
+        RECT 472.775 330.545 473.240 331.265 ;
+    END
+  END ibias2p5u_1
+  OBS
+      LAYER met2 ;
+        RECT 83.280 502.265 83.480 503.000 ;
+        RECT 85.240 502.265 133.335 503.000 ;
+        RECT 83.280 500.060 133.335 502.265 ;
+        RECT 135.430 500.220 147.975 503.000 ;
+        RECT 149.535 502.255 150.270 503.000 ;
+        RECT 151.510 502.255 151.530 503.000 ;
+        RECT 152.350 502.255 153.630 503.000 ;
+        RECT 149.535 500.220 154.200 502.255 ;
+        RECT 155.760 500.220 156.375 503.000 ;
+        RECT 160.935 502.255 160.965 503.000 ;
+        RECT 161.785 502.255 163.945 503.000 ;
+        RECT 165.685 502.255 166.125 503.000 ;
+        RECT 167.405 502.255 168.425 503.000 ;
+        RECT 173.325 502.255 173.370 503.000 ;
+        RECT 160.935 500.220 173.370 502.255 ;
+        RECT 177.930 502.255 178.330 503.000 ;
+        RECT 179.150 502.255 182.090 503.000 ;
+        RECT 177.930 500.790 182.090 502.255 ;
+        RECT 184.150 500.790 232.935 503.000 ;
+        RECT 177.930 500.220 232.935 500.790 ;
+        RECT 135.430 500.060 232.935 500.220 ;
+        RECT 239.495 500.060 286.665 503.000 ;
+        RECT 293.225 500.060 301.630 503.000 ;
+        RECT 308.190 500.060 333.405 503.000 ;
+      LAYER met3 ;
+        RECT 25.240 329.155 473.240 503.000 ;
+        RECT 26.190 327.635 473.240 329.155 ;
+        RECT 25.240 0.000 473.240 327.635 ;
+      LAYER met4 ;
+        RECT 25.240 331.665 473.240 332.725 ;
+        RECT 25.240 330.145 472.375 331.665 ;
+        RECT 25.240 329.140 473.240 330.145 ;
+        RECT 25.240 327.650 472.380 329.140 ;
+        RECT 25.240 318.900 473.240 327.650 ;
+        RECT 25.240 317.180 471.900 318.900 ;
+        RECT 25.240 316.120 473.240 317.180 ;
+        RECT 25.240 313.820 471.900 316.120 ;
+        RECT 25.240 313.290 473.240 313.820 ;
+        RECT 25.240 310.990 471.900 313.290 ;
+        RECT 25.240 303.940 473.240 310.990 ;
+        RECT 25.240 301.140 471.900 303.940 ;
+        RECT 25.240 0.000 473.240 301.140 ;
+  END
+END KX_CF_ADC_SAR12_core
+END LIBRARY
+
