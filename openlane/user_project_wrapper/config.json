@@ -206,9 +206,13 @@
         "^analog_io": "ANALOG_WIDE"
     },
 
-    "//": "Keep analog_ctrl off met3 on the SAR north pin row. Core met3 pads are 0.30 µm on a 0.65 µm pitch; parent met3 vias fail m3.2. Wrap LEF pins there are met2. Do not OBS wrap PG straps (parent y >= 1168.5).",
+    "//": "Keep analog_ctrl off met3 on the SAR north pin row. Core met3 pads are 0.30 µm on a 0.65 µm pitch; parent met3 vias fail m3.2. Wrap LEF pins there are met2. Do not OBS wrap PG straps (parent y >= 1168.5). BUF wrap already has via2 on the ibias/vbpt island landings; parent ANALOG_WIDE must not stack a second via2 (via2.1a).",
     "ROUTING_OBSTRUCTIONS": [
-        ["met3", 441.34, 1166.85, 914.58, 1168.25]
+        ["met3", 441.34, 1166.85, 914.58, 1168.25],
+        ["via2", 267.30, 983.40, 267.85, 983.95],
+        ["via2", 267.30, 963.30, 267.85, 963.90],
+        ["via2", 324.80, 834.40, 325.35, 834.95],
+        ["via2", 328.70, 798.10, 329.25, 798.70]
     ],
 
     "//": "Fixed configurations for caravel. You should NOT edit this section",

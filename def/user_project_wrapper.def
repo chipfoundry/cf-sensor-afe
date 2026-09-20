@@ -8657,109 +8657,104 @@ END SPECIALNETS
 NETS 779 ;
     - afe_data\[0\] ( u_cf_adc_sar12 data_out[0] ) ( u_afe_wb adc_data[0] ) + USE SIGNAL
       + ROUTED met2 ( 32770 514860 0 ) ( * 515780 )
-      NEW met2 ( 386170 515270 ) ( * 516460 )
       NEW met2 ( 899760 1182860 0 ) ( * 1183540 )
       NEW met2 ( 899530 1183540 ) ( 899760 * )
-      NEW met2 ( 899530 1183540 ) ( * 1185070 )
       NEW met4 ( 40940 515100 ) ( * 515780 )
       NEW met5 ( 40940 515100 ) ( 51060 * )
-      NEW met4 ( 51060 515100 ) ( * 516460 )
+      NEW met4 ( 51060 515100 ) ( * 517140 )
       NEW met3 ( 32770 515780 ) ( 40940 * )
-      NEW met2 ( 828230 515270 ) ( * 515780 )
-      NEW met3 ( 828230 515780 ) ( 833060 * )
-      NEW met1 ( 386170 515270 ) ( 828230 * )
-      NEW met3 ( 833060 1184900 ) ( 833290 * )
-      NEW met2 ( 833290 1184900 ) ( * 1185070 )
-      NEW met1 ( 833290 1185070 ) ( 899530 * )
-      NEW met4 ( 833060 515780 ) ( * 1184900 )
-      NEW met3 ( 51060 516460 ) ( 386170 * )
+      NEW met3 ( 51060 517140 ) ( 393070 * )
+      NEW met1 ( 393070 1187110 ) ( 899530 * )
+      NEW met2 ( 393070 517140 ) ( * 1187110 )
+      NEW met2 ( 899530 1183540 ) ( * 1187110 )
       NEW met2 ( 32770 515780 ) M2M3_PR
-      NEW met2 ( 386170 516460 ) M2M3_PR
-      NEW met1 ( 386170 515270 ) M1M2_PR
-      NEW met1 ( 899530 1185070 ) M1M2_PR
       NEW met3 ( 40940 515780 ) M3M4_PR
       NEW met4 ( 40940 515100 ) M4M5_PR
       NEW met4 ( 51060 515100 ) M4M5_PR
-      NEW met3 ( 51060 516460 ) M3M4_PR
-      NEW met1 ( 828230 515270 ) M1M2_PR
-      NEW met2 ( 828230 515780 ) M2M3_PR
-      NEW met3 ( 833060 515780 ) M3M4_PR
-      NEW met3 ( 833060 1184900 ) M3M4_PR
-      NEW met2 ( 833290 1184900 ) M2M3_PR
-      NEW met1 ( 833290 1185070 ) M1M2_PR
-      NEW met3 ( 833060 1184900 ) RECT ( -390 -150 0 150 )  ;
+      NEW met3 ( 51060 517140 ) M3M4_PR
+      NEW met2 ( 393070 517140 ) M2M3_PR
+      NEW met1 ( 393070 1187110 ) M1M2_PR
+      NEW met1 ( 899530 1187110 ) M1M2_PR ;
     - afe_data\[10\] ( u_cf_adc_sar12 data_out[10] ) ( u_afe_wb adc_data[10] ) + USE SIGNAL
-      + ROUTED met2 ( 336370 514860 0 ) ( * 515780 )
-      NEW met3 ( 336370 515780 ) ( 337180 * )
-      NEW met4 ( 337180 515100 ) ( * 515780 )
-      NEW met5 ( 337180 515100 ) ( 810060 * )
-      NEW met3 ( 810060 1186260 ) ( 842030 * )
-      NEW met2 ( 842030 1184730 ) ( * 1186260 )
-      NEW met2 ( 910570 1184220 ) ( * 1184730 )
-      NEW met2 ( 910570 1184220 ) ( 910665 * )
-      NEW met2 ( 910665 1182860 0 ) ( * 1184220 )
-      NEW met1 ( 842030 1184730 ) ( 910570 * )
-      NEW met4 ( 810060 515100 ) ( * 1186260 )
+      + ROUTED met3 ( 377660 512380 ) ( * 515780 )
+      NEW met3 ( 377660 515780 ) ( 393990 * )
+      NEW met2 ( 393990 515270 ) ( * 515780 )
+      NEW met2 ( 336370 514860 0 ) ( * 515780 )
+      NEW met3 ( 336370 515780 ) ( 338100 * )
+      NEW met4 ( 338100 515100 ) ( * 515780 )
+      NEW met5 ( 338100 515100 ) ( 351900 * )
+      NEW met4 ( 351900 512380 ) ( * 515100 )
+      NEW met3 ( 351900 512380 ) ( 377660 * )
+      NEW met2 ( 808450 515270 ) ( * 515780 )
+      NEW met3 ( 808450 515780 ) ( 810060 * )
+      NEW met1 ( 393990 515270 ) ( 808450 * )
+      NEW met3 ( 810060 1186260 ) ( 810290 * )
+      NEW met2 ( 810290 1184050 ) ( * 1186260 )
+      NEW met2 ( 910665 1182860 0 ) ( * 1184050 )
+      NEW met1 ( 810290 1184050 ) ( 910665 * )
+      NEW met4 ( 810060 515780 ) ( * 1186260 )
+      NEW met2 ( 393990 515780 ) M2M3_PR
+      NEW met1 ( 393990 515270 ) M1M2_PR
       NEW met2 ( 336370 515780 ) M2M3_PR
-      NEW met3 ( 337180 515780 ) M3M4_PR
-      NEW met4 ( 337180 515100 ) M4M5_PR
-      NEW met4 ( 810060 515100 ) M4M5_PR
+      NEW met3 ( 338100 515780 ) M3M4_PR
+      NEW met4 ( 338100 515100 ) M4M5_PR
+      NEW met4 ( 351900 515100 ) M4M5_PR
+      NEW met3 ( 351900 512380 ) M3M4_PR
+      NEW met1 ( 808450 515270 ) M1M2_PR
+      NEW met2 ( 808450 515780 ) M2M3_PR
+      NEW met3 ( 810060 515780 ) M3M4_PR
       NEW met3 ( 810060 1186260 ) M3M4_PR
-      NEW met2 ( 842030 1186260 ) M2M3_PR
-      NEW met1 ( 842030 1184730 ) M1M2_PR
-      NEW met1 ( 910570 1184730 ) M1M2_PR ;
+      NEW met2 ( 810290 1186260 ) M2M3_PR
+      NEW met1 ( 810290 1184050 ) M1M2_PR
+      NEW met1 ( 910665 1184050 ) M1M2_PR
+      NEW met3 ( 810060 1186260 ) RECT ( -390 -150 0 150 )  ;
     - afe_data\[11\] ( u_cf_adc_sar12 data_out[11] ) ( u_afe_wb adc_data[11] ) + USE SIGNAL
-      + ROUTED met2 ( 491970 1186940 ) ( * 1187110 )
-      NEW met1 ( 491970 1187110 ) ( 494730 * )
-      NEW met2 ( 494730 1187110 ) ( * 1191020 )
-      NEW met2 ( 366730 514860 0 ) ( * 515780 )
-      NEW met2 ( 557750 1186940 ) ( * 1191020 )
-      NEW met3 ( 494730 1191020 ) ( 557750 * )
+      + ROUTED met2 ( 366730 514860 0 ) ( * 515780 )
+      NEW met3 ( 366730 515780 ) ( 375820 * )
       NEW met2 ( 911260 1182860 0 ) ( * 1183540 )
       NEW met2 ( 911030 1183540 ) ( 911260 * )
-      NEW met2 ( 911030 1183540 ) ( * 1186940 )
-      NEW met3 ( 557750 1186940 ) ( 911030 * )
-      NEW met2 ( 387550 515780 ) ( * 1186940 )
-      NEW met3 ( 366730 515780 ) ( 387550 * )
-      NEW met3 ( 387550 1186940 ) ( 491970 * )
-      NEW met2 ( 491970 1186940 ) M2M3_PR
-      NEW met1 ( 491970 1187110 ) M1M2_PR
-      NEW met1 ( 494730 1187110 ) M1M2_PR
-      NEW met2 ( 494730 1191020 ) M2M3_PR
+      NEW met2 ( 911030 1183540 ) ( * 1193740 )
+      NEW met4 ( 375820 515780 ) ( * 1193740 )
+      NEW met3 ( 545100 1193740 ) ( 911030 * )
+      NEW met3 ( 498180 1193740 ) ( * 1194420 )
+      NEW met3 ( 498180 1194420 ) ( 545100 * )
+      NEW met3 ( 545100 1193740 ) ( * 1194420 )
+      NEW met3 ( 375820 1193740 ) ( 498180 * )
+      NEW met3 ( 375820 515780 ) M3M4_PR
+      NEW met3 ( 375820 1193740 ) M3M4_PR
       NEW met2 ( 366730 515780 ) M2M3_PR
-      NEW met2 ( 557750 1191020 ) M2M3_PR
-      NEW met2 ( 557750 1186940 ) M2M3_PR
-      NEW met2 ( 911030 1186940 ) M2M3_PR
-      NEW met2 ( 387550 515780 ) M2M3_PR
-      NEW met2 ( 387550 1186940 ) M2M3_PR ;
+      NEW met2 ( 911030 1193740 ) M2M3_PR ;
     - afe_data\[1\] ( u_cf_adc_sar12 data_out[1] ) ( u_afe_wb adc_data[1] ) + USE SIGNAL
       + ROUTED met2 ( 900360 1182860 0 ) ( * 1183540 )
       NEW met2 ( 900360 1183540 ) ( 900450 * )
-      NEW met2 ( 900450 1183540 ) ( * 1193740 )
-      NEW met3 ( 375820 1193740 ) ( 900450 * )
       NEW met2 ( 63130 514860 0 ) ( * 515780 )
       NEW met3 ( 63130 515780 ) ( 74060 * )
       NEW met4 ( 74060 515100 ) ( * 515780 )
       NEW met5 ( 74060 515100 ) ( 87860 * )
       NEW met4 ( 87860 513060 ) ( * 515100 )
-      NEW met3 ( 87860 513060 ) ( 375820 * )
-      NEW met4 ( 375820 513060 ) ( * 1193740 )
-      NEW met3 ( 375820 513060 ) M3M4_PR
-      NEW met3 ( 375820 1193740 ) M3M4_PR
-      NEW met2 ( 900450 1193740 ) M2M3_PR
+      NEW met3 ( 87860 513060 ) ( 376740 * )
+      NEW met3 ( 376740 1193060 ) ( 376970 * )
+      NEW met2 ( 376970 1192890 ) ( * 1193060 )
+      NEW met1 ( 376970 1192890 ) ( 900450 * )
+      NEW met4 ( 376740 513060 ) ( * 1193060 )
+      NEW met2 ( 900450 1183540 ) ( * 1192890 )
+      NEW met3 ( 376740 513060 ) M3M4_PR
       NEW met2 ( 63130 515780 ) M2M3_PR
       NEW met3 ( 74060 515780 ) M3M4_PR
       NEW met4 ( 74060 515100 ) M4M5_PR
       NEW met4 ( 87860 515100 ) M4M5_PR
-      NEW met3 ( 87860 513060 ) M3M4_PR ;
+      NEW met3 ( 87860 513060 ) M3M4_PR
+      NEW met3 ( 376740 1193060 ) M3M4_PR
+      NEW met2 ( 376970 1193060 ) M2M3_PR
+      NEW met1 ( 376970 1192890 ) M1M2_PR
+      NEW met1 ( 900450 1192890 ) M1M2_PR
+      NEW met3 ( 376740 1193060 ) RECT ( -390 -150 0 150 )  ;
     - afe_data\[2\] ( u_cf_adc_sar12 data_out[2] ) ( u_afe_wb adc_data[2] ) + USE SIGNAL
       + ROUTED met3 ( 96370 1181500 ) ( 97060 * )
       NEW met5 ( 97060 1181500 ) ( 110860 * )
       NEW met4 ( 110860 1181500 ) ( * 1182860 )
       NEW met2 ( 586270 1183540 ) ( * 1183710 )
       NEW met2 ( 901010 1182860 0 ) ( * 1183710 )
-      NEW met3 ( 517500 1182860 ) ( * 1183540 )
-      NEW met3 ( 517500 1183540 ) ( 586270 * )
       NEW met1 ( 586270 1183710 ) ( 901010 * )
       NEW met2 ( 93490 514860 0 ) ( * 515780 )
       NEW met2 ( 93490 515780 ) ( 93610 * )
@@ -8768,7 +8763,9 @@ NETS 779 ;
       NEW met4 ( 94300 523940 ) ( * 531420 )
       NEW met3 ( 94300 531420 ) ( 96370 * )
       NEW met2 ( 96370 531420 ) ( * 1181500 )
-      NEW met3 ( 110860 1182860 ) ( 517500 * )
+      NEW met3 ( 110860 1182860 ) ( 496800 * )
+      NEW met3 ( 496800 1182860 ) ( * 1183540 )
+      NEW met3 ( 496800 1183540 ) ( 586270 * )
       NEW met2 ( 96370 1181500 ) M2M3_PR
       NEW met3 ( 97060 1181500 ) M3M4_PR
       NEW met4 ( 97060 1181500 ) M4M5_PR
@@ -8799,43 +8796,25 @@ NETS 779 ;
       NEW met2 ( 901830 1165860 ) M2M3_PR
       NEW met3 ( 902060 1165860 ) RECT ( 0 -150 390 150 )  ;
     - afe_data\[4\] ( u_cf_adc_sar12 data_out[4] ) ( u_afe_wb adc_data[4] ) + USE SIGNAL
-      + ROUTED met3 ( 396060 514420 ) ( * 515780 )
-      NEW met3 ( 396060 515780 ) ( 396290 * )
-      NEW met2 ( 396290 515610 ) ( * 515780 )
-      NEW met2 ( 902290 1182860 0 ) ( * 1184050 )
+      + ROUTED met3 ( 875380 1184900 ) ( 902290 * )
+      NEW met2 ( 902290 1182860 0 ) ( * 1184900 )
+      NEW met4 ( 875380 1046180 ) ( * 1184900 )
       NEW met2 ( 154210 514860 0 ) ( * 515780 )
-      NEW met3 ( 154210 515780 ) ( 158700 * )
-      NEW met4 ( 158700 515100 ) ( * 515780 )
-      NEW met5 ( 158700 515100 ) ( 172500 * )
-      NEW met4 ( 172500 514420 ) ( * 515100 )
-      NEW met3 ( 172500 514420 ) ( 396060 * )
-      NEW met2 ( 752330 515610 ) ( * 515780 )
-      NEW met3 ( 752330 515780 ) ( 755780 * )
-      NEW met1 ( 396290 515610 ) ( 752330 * )
-      NEW met3 ( 755780 1183540 ) ( 756010 * )
-      NEW met2 ( 756010 1183540 ) ( * 1184050 )
-      NEW met1 ( 756010 1184050 ) ( 902290 * )
-      NEW met4 ( 755780 515780 ) ( * 1183540 )
-      NEW met2 ( 396290 515780 ) M2M3_PR
-      NEW met1 ( 396290 515610 ) M1M2_PR
-      NEW met1 ( 902290 1184050 ) M1M2_PR
+      NEW met3 ( 154210 515780 ) ( 155020 * )
+      NEW met4 ( 155020 515780 ) ( * 1046180 )
+      NEW met3 ( 155020 1046180 ) ( 875380 * )
+      NEW met3 ( 875380 1184900 ) M3M4_PR
+      NEW met2 ( 902290 1184900 ) M2M3_PR
+      NEW met3 ( 875380 1046180 ) M3M4_PR
       NEW met2 ( 154210 515780 ) M2M3_PR
-      NEW met3 ( 158700 515780 ) M3M4_PR
-      NEW met4 ( 158700 515100 ) M4M5_PR
-      NEW met4 ( 172500 515100 ) M4M5_PR
-      NEW met3 ( 172500 514420 ) M3M4_PR
-      NEW met1 ( 752330 515610 ) M1M2_PR
-      NEW met2 ( 752330 515780 ) M2M3_PR
-      NEW met3 ( 755780 515780 ) M3M4_PR
-      NEW met3 ( 755780 1183540 ) M3M4_PR
-      NEW met2 ( 756010 1183540 ) M2M3_PR
-      NEW met1 ( 756010 1184050 ) M1M2_PR
-      NEW met3 ( 755780 1183540 ) RECT ( -390 -150 0 150 )  ;
+      NEW met3 ( 155020 515780 ) M3M4_PR
+      NEW met3 ( 155020 1046180 ) M3M4_PR ;
     - afe_data\[5\] ( u_cf_adc_sar12 data_out[5] ) ( u_afe_wb adc_data[5] ) + USE SIGNAL
       + ROUTED met2 ( 184570 514860 0 ) ( * 515780 )
       NEW met2 ( 184570 515780 ) ( 184690 * )
-      NEW met2 ( 902980 1182860 0 ) ( * 1184050 )
-      NEW met1 ( 902980 1184050 ) ( * 1184390 )
+      NEW met2 ( 902980 1182860 0 ) ( * 1183540 )
+      NEW met2 ( 902750 1183540 ) ( 902980 * )
+      NEW met2 ( 902750 1183540 ) ( * 1184390 )
       NEW met3 ( 184690 523940 ) ( 185380 * )
       NEW met4 ( 185380 523940 ) ( * 531420 )
       NEW met3 ( 185380 531420 ) ( 186070 * )
@@ -8847,10 +8826,10 @@ NETS 779 ;
       NEW met4 ( 799020 647700 ) ( * 1184900 )
       NEW met2 ( 831450 1184390 ) ( * 1184900 )
       NEW met3 ( 799020 1184900 ) ( 831450 * )
-      NEW met1 ( 831450 1184390 ) ( 902980 * )
+      NEW met1 ( 831450 1184390 ) ( 902750 * )
       NEW met3 ( 200100 647700 ) ( 799020 * )
       NEW met3 ( 799020 1184900 ) M3M4_PR
-      NEW met1 ( 902980 1184050 ) M1M2_PR
+      NEW met1 ( 902750 1184390 ) M1M2_PR
       NEW met2 ( 184690 523940 ) M2M3_PR
       NEW met3 ( 185380 523940 ) M3M4_PR
       NEW met3 ( 185380 531420 ) M3M4_PR
@@ -8986,10 +8965,10 @@ NETS 779 ;
       NEW met3 TAPER ( 1194730 665525 0 ) ( * 667930 )
       NEW met3 ( 1194730 667930 210 ) ( * 668100 210 )
       NEW met3 ( 1190940 668100 210 ) ( 1194730 * 210 )
-      NEW met2 TAPER ( 267755 983620 0 ) ( 268870 * )
-      NEW met2 TAPER ( 268870 983620 ) ( * 984980 )
-      NEW met3 ( 129260 983620 210 ) ( 267490 * 210 )
-      NEW met3 ( 268870 984980 210 ) ( 917700 * 210 )
+      NEW met2 TAPER ( 267755 983620 0 ) ( * 984980 )
+      NEW met2 TAPER ( 266110 983620 ) ( 267490 * 0 )
+      NEW met3 ( 129260 983620 210 ) ( 266110 * 210 )
+      NEW met3 ( 267755 984980 210 ) ( 917700 * 210 )
       NEW met3 ( 129260 983620 ) M3M4_PR
       NEW met3 ( 100740 1186940 ) M3M4_PR
       NEW met3 ( 129260 1186940 ) M3M4_PR
@@ -8999,8 +8978,8 @@ NETS 779 ;
       NEW met2 ( 99130 1293020 ) M2M3_PR
       NEW met3 ( 917700 955060 ) M3M4_PR
       NEW met3 ( 917700 984980 ) M3M4_PR
-      NEW met2 TAPER ( 268870 984980 ) M2M3_PR
-      NEW met2 TAPER ( 267490 983620 ) M2M3_PR_MR
+      NEW met2 TAPER ( 267755 984980 ) M2M3_PR
+      NEW met2 TAPER ( 266110 983620 ) M2M3_PR
       NEW met4 TAPER ( 917700 984980 ) RECT ( -150 -620 150 0 )  ;
     - afe_nbias ( u_cf_refbuf nbias ) ( u_cf_bgr ibg_3uA ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met2 TAPER ( 116150 1295180 0 ) ( 117070 * )
@@ -9065,34 +9044,34 @@ NETS 779 ;
     - analog_ctrl\[0\] ( u_cf_buf_hiz e_pd ) ( u_afe_wb analog_ctrl[0] ) + USE SIGNAL
       + ROUTED met3 ( 417220 482160 ) ( * 482460 )
       NEW met3 ( 414760 482160 0 ) ( 417220 * )
-      NEW met2 ( 428030 482460 ) ( * 511020 )
-      NEW met3 ( 417220 482460 ) ( 428030 * )
-      NEW met2 ( 330510 1029010 ) ( * 1029180 )
-      NEW met1 ( 326140 1029010 ) ( 330510 * )
-      NEW met1 ( 326140 1029010 ) ( * 1029520 0 )
-      NEW met4 ( 391460 511020 ) ( * 1029180 )
-      NEW met3 ( 330510 1029180 ) ( 391460 * )
-      NEW met3 ( 391460 511020 ) ( 428030 * )
-      NEW met2 ( 428030 482460 ) M2M3_PR
-      NEW met2 ( 428030 511020 ) M2M3_PR
-      NEW met2 ( 330510 1029180 ) M2M3_PR
-      NEW met1 ( 330510 1029010 ) M1M2_PR
-      NEW met3 ( 391460 1029180 ) M3M4_PR
-      NEW met3 ( 391460 511020 ) M3M4_PR ;
+      NEW met2 ( 428490 482460 ) ( * 516460 )
+      NEW met3 ( 417220 482460 ) ( 428490 * )
+      NEW met3 ( 377660 516460 ) ( 428490 * )
+      NEW met2 ( 330510 1029860 ) ( * 1030370 )
+      NEW met1 ( 326140 1030370 ) ( 330510 * )
+      NEW met1 ( 326140 1029860 0 ) ( * 1030370 )
+      NEW met3 ( 330510 1029860 ) ( 377660 * )
+      NEW met4 ( 377660 516460 ) ( * 1029860 )
+      NEW met3 ( 377660 516460 ) M3M4_PR
+      NEW met3 ( 377660 1029860 ) M3M4_PR
+      NEW met2 ( 428490 482460 ) M2M3_PR
+      NEW met2 ( 428490 516460 ) M2M3_PR
+      NEW met2 ( 330510 1029860 ) M2M3_PR
+      NEW met1 ( 330510 1030370 ) M1M2_PR ;
     - analog_ctrl\[100\] ( u_afe_wb analog_ctrl[100] ) + USE SIGNAL ;
     - analog_ctrl\[101\] ( u_afe_wb analog_ctrl[101] ) + USE SIGNAL ;
     - analog_ctrl\[102\] ( u_afe_wb analog_ctrl[102] ) + USE SIGNAL ;
     - analog_ctrl\[103\] ( u_afe_wb analog_ctrl[103] ) + USE SIGNAL ;
     - analog_ctrl\[104\] ( u_cf_refbuf pd ) ( u_afe_wb analog_ctrl[104] ) + USE SIGNAL
-      + ROUTED met2 ( 416990 199280 ) ( * 203660 )
-      NEW met3 ( 414760 199280 0 ) ( 416990 * )
-      NEW met3 ( 416990 203660 ) ( 542340 * )
+      + ROUTED met2 ( 416530 199280 ) ( * 203660 )
+      NEW met3 ( 414760 199280 0 ) ( 416530 * )
+      NEW met3 ( 416530 203660 ) ( 542340 * )
       NEW met2 ( 616170 1247460 ) ( * 1247630 )
       NEW met1 ( 616170 1247630 ) ( 618470 * 0 )
       NEW met3 ( 542340 1247460 ) ( 616170 * )
       NEW met4 ( 542340 203660 ) ( * 1247460 )
-      NEW met2 ( 416990 203660 ) M2M3_PR
-      NEW met2 ( 416990 199280 ) M2M3_PR
+      NEW met2 ( 416530 203660 ) M2M3_PR
+      NEW met2 ( 416530 199280 ) M2M3_PR
       NEW met3 ( 542340 203660 ) M3M4_PR
       NEW met3 ( 542340 1247460 ) M3M4_PR
       NEW met2 ( 616170 1247460 ) M2M3_PR
@@ -9102,8 +9081,8 @@ NETS 779 ;
       NEW met3 ( 414760 196560 0 ) ( 416070 * )
       NEW met2 ( 671370 1387540 0 ) ( * 1389580 )
       NEW met3 ( 416070 210460 ) ( 541420 * )
-      NEW met4 ( 541420 210460 ) ( * 1389580 )
       NEW met3 ( 541420 1389580 ) ( 671370 * )
+      NEW met4 ( 541420 210460 ) ( * 1389580 )
       NEW met2 ( 416070 210460 ) M2M3_PR
       NEW met2 ( 416070 196560 ) M2M3_PR
       NEW met2 ( 671370 1389580 ) M2M3_PR
@@ -9141,15 +9120,17 @@ NETS 779 ;
       NEW met2 ( 997510 713660 ) M2M3_PR
       NEW met2 ( 1010390 713660 ) M2M3_PR_MR ;
     - analog_ctrl\[109\] ( u_cf_adc_sar12_sar_refs pd_vcmbuf ) ( u_afe_wb analog_ctrl[109] ) + USE SIGNAL
-      + ROUTED met2 ( 415610 185680 ) ( * 202980 )
-      NEW met3 ( 414760 185680 0 ) ( 415610 * )
+      + ROUTED met2 ( 418830 185980 ) ( * 202980 )
+      NEW met3 ( 417220 185980 ) ( 418830 * )
+      NEW met3 ( 417220 185680 ) ( * 185980 )
+      NEW met3 ( 414760 185680 0 ) ( 417220 * )
       NEW met2 ( 990150 202980 ) ( * 794580 )
-      NEW met3 ( 415610 202980 ) ( 990150 * )
+      NEW met3 ( 418830 202980 ) ( 990150 * )
       NEW met2 ( 1009010 794175 ) ( * 794580 )
       NEW met2 ( 1009010 794175 ) ( 1010390 * 0 )
       NEW met3 ( 990150 794580 ) ( 1009010 * )
-      NEW met2 ( 415610 202980 ) M2M3_PR
-      NEW met2 ( 415610 185680 ) M2M3_PR
+      NEW met2 ( 418830 202980 ) M2M3_PR
+      NEW met2 ( 418830 185980 ) M2M3_PR
       NEW met2 ( 990150 202980 ) M2M3_PR
       NEW met2 ( 990150 794580 ) M2M3_PR
       NEW met2 ( 1009010 794580 ) M2M3_PR ;
@@ -9189,15 +9170,15 @@ NETS 779 ;
       NEW met2 ( 935410 761940 ) M2M3_PR
       NEW met2 ( 1008550 761940 ) M2M3_PR ;
     - analog_ctrl\[112\] ( u_cf_adc_sar12_sar_refs S_LV[2] ) ( u_afe_wb analog_ctrl[112] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 177520 0 ) ( 416530 * )
-      NEW met2 ( 416530 177520 ) ( * 230860 )
+      + ROUTED met3 ( 414760 177520 0 ) ( 416990 * )
+      NEW met2 ( 416990 177520 ) ( * 230860 )
       NEW met2 ( 997050 230860 ) ( * 761260 )
       NEW met2 ( 1008550 761260 ) ( 1010390 * 0 )
       NEW met3 ( 997050 761260 ) ( 1008550 * )
-      NEW met3 ( 416530 230860 ) ( 997050 * )
+      NEW met3 ( 416990 230860 ) ( 997050 * )
       NEW met2 ( 997050 761260 ) M2M3_PR
-      NEW met2 ( 416530 177520 ) M2M3_PR
-      NEW met2 ( 416530 230860 ) M2M3_PR
+      NEW met2 ( 416990 177520 ) M2M3_PR
+      NEW met2 ( 416990 230860 ) M2M3_PR
       NEW met2 ( 997050 230860 ) M2M3_PR
       NEW met2 ( 1008550 761260 ) M2M3_PR ;
     - analog_ctrl\[113\] ( u_cf_adc_sar12_sar_refs S_LV[3] ) ( u_afe_wb analog_ctrl[113] ) + USE SIGNAL
@@ -9229,10 +9210,10 @@ NETS 779 ;
       NEW met1 ( 1008550 757010 ) M1M2_PR
       NEW met1 ( 1008550 758370 ) M1M2_PR ;
     - analog_ctrl\[115\] ( u_cf_adc_sar12_sar_refs S_LV[5] ) ( u_afe_wb analog_ctrl[115] ) + USE SIGNAL
-      + ROUTED met2 ( 415150 179400 ) ( * 217260 )
-      NEW met2 ( 415150 179400 ) ( 415610 * )
-      NEW met2 ( 415610 169360 ) ( * 179400 )
-      NEW met3 ( 414760 169360 0 ) ( 415610 * )
+      + ROUTED met3 ( 415150 170340 ) ( 416300 * )
+      NEW met3 ( 416300 169360 ) ( * 170340 )
+      NEW met3 ( 414760 169360 0 ) ( 416300 * )
+      NEW met2 ( 415150 170340 ) ( * 217260 )
       NEW met2 ( 963010 217260 ) ( * 757860 )
       NEW met3 ( 415150 217260 ) ( 963010 * )
       NEW met2 ( 1009010 757685 ) ( * 757860 )
@@ -9240,7 +9221,7 @@ NETS 779 ;
       NEW met3 ( 963010 757860 ) ( 1009010 * )
       NEW met2 ( 415150 217260 ) M2M3_PR
       NEW met2 ( 963010 217260 ) M2M3_PR
-      NEW met2 ( 415610 169360 ) M2M3_PR
+      NEW met2 ( 415150 170340 ) M2M3_PR
       NEW met2 ( 963010 757860 ) M2M3_PR
       NEW met2 ( 1009010 757860 ) M2M3_PR ;
     - analog_ctrl\[116\] ( u_cf_adc_sar12_sar_refs S_LV[6] ) ( u_afe_wb analog_ctrl[116] ) + USE SIGNAL
@@ -9277,32 +9258,32 @@ NETS 779 ;
       NEW met2 ( 956110 160820 ) M2M3_PR
       NEW met2 ( 1010390 703460 ) M2M3_PR_MR ;
     - analog_ctrl\[119\] ( u_cf_adc_sar12_sar_refs sw_holdb ) ( u_afe_wb analog_ctrl[119] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 158100 ) ( 417910 * )
-      NEW met3 ( 417220 158100 ) ( * 158200 )
-      NEW met3 ( 414760 158200 0 ) ( 417220 * )
-      NEW met2 ( 417910 158100 ) ( * 237660 )
+      + ROUTED met3 ( 414760 158480 0 ) ( 415610 * )
+      NEW met2 ( 415610 158480 ) ( * 236300 )
       NEW met2 ( 991070 237660 ) ( * 697340 )
       NEW met3 ( 991070 697340 ) ( 1000500 * )
       NEW met3 ( 1000500 697340 ) ( * 698020 )
       NEW met3 ( 1000500 698020 ) ( 1006940 * )
       NEW met3 ( 1006940 697000 ) ( * 698020 )
       NEW met3 ( 1006940 697000 ) ( 1010390 * )
-      NEW met3 ( 417910 237660 ) ( 991070 * )
+      NEW met3 ( 415610 236300 ) ( 420900 * )
+      NEW met3 ( 420900 236300 ) ( * 237660 )
+      NEW met3 ( 420900 237660 ) ( 991070 * )
       NEW met2 ( 991070 697340 ) M2M3_PR
-      NEW met2 ( 417910 158100 ) M2M3_PR
-      NEW met2 ( 417910 237660 ) M2M3_PR
+      NEW met2 ( 415610 158480 ) M2M3_PR
+      NEW met2 ( 415610 236300 ) M2M3_PR
       NEW met2 ( 991070 237660 ) M2M3_PR
       NEW met2 ( 1010390 697000 ) M2M3_PR_MR ;
     - analog_ctrl\[11\] ( u_cf_adc_sar12 sof ) ( u_afe_wb analog_ctrl[11] ) + USE SIGNAL
-      + ROUTED met3 ( 875380 1183540 ) ( 894240 * )
+      + ROUTED met3 ( 874460 1183540 ) ( 894240 * )
       NEW met2 ( 894240 1182860 0 ) ( * 1183540 )
       NEW met3 ( 417220 451860 ) ( * 451960 )
       NEW met3 ( 414760 451960 0 ) ( 417220 * )
-      NEW met4 ( 875380 451860 ) ( * 1183540 )
-      NEW met3 ( 417220 451860 ) ( 875380 * )
-      NEW met3 ( 875380 1183540 ) M3M4_PR
+      NEW met4 ( 874460 451860 ) ( * 1183540 )
+      NEW met3 ( 417220 451860 ) ( 874460 * )
+      NEW met3 ( 874460 1183540 ) M3M4_PR
       NEW met2 ( 894240 1183540 ) M2M3_PR
-      NEW met3 ( 875380 451860 ) M3M4_PR ;
+      NEW met3 ( 874460 451860 ) M3M4_PR ;
     - analog_ctrl\[120\] ( u_cf_adc_sar12_sar_refs enpdb_hv ) ( u_afe_wb analog_ctrl[120] ) + USE SIGNAL
       + ROUTED met3 ( 417220 155380 ) ( * 155480 )
       NEW met3 ( 414760 155480 0 ) ( 417220 * )
@@ -9317,20 +9298,18 @@ NETS 779 ;
       NEW met2 ( 1010390 696320 ) M2M3_PR_MR
       NEW met2 ( 942310 155380 ) M2M3_PR ;
     - analog_ctrl\[121\] ( u_cf_adc_sar12_sar_refs PD_BUF_VREF ) ( u_afe_wb analog_ctrl[121] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 153340 ) ( 420670 * )
-      NEW met3 ( 417220 153040 ) ( * 153340 )
-      NEW met3 ( 414760 153040 0 ) ( 417220 * )
-      NEW met2 ( 420670 153340 ) ( * 189380 )
+      + ROUTED met3 ( 414760 153040 0 ) ( 416530 * )
+      NEW met2 ( 416530 153040 ) ( * 189380 )
       NEW met2 ( 962550 189380 ) ( * 793220 )
-      NEW met3 ( 420670 189380 ) ( 962550 * )
+      NEW met3 ( 416530 189380 ) ( 962550 * )
       NEW met3 ( 1009700 793220 ) ( * 793340 )
       NEW met3 ( 1009470 793340 ) ( 1009700 * )
       NEW met2 ( 1009470 793340 ) ( 1010390 * 0 )
       NEW met3 ( 962550 793220 ) ( 1009700 * )
-      NEW met2 ( 420670 189380 ) M2M3_PR
+      NEW met2 ( 416530 189380 ) M2M3_PR
       NEW met2 ( 962550 189380 ) M2M3_PR
       NEW met2 ( 962550 793220 ) M2M3_PR
-      NEW met2 ( 420670 153340 ) M2M3_PR
+      NEW met2 ( 416530 153040 ) M2M3_PR
       NEW met2 ( 1009470 793340 ) M2M3_PR ;
     - analog_ctrl\[122\] ( u_cf_adc_sar12_sar_refs dft_comp_en ) ( u_afe_wb analog_ctrl[122] ) + USE SIGNAL
       + ROUTED met2 ( 983250 149940 ) ( * 758540 )
@@ -9464,18 +9443,21 @@ NETS 779 ;
     - analog_ctrl\[1\] ( u_cf_buf_hiz en_pd ) ( u_afe_wb analog_ctrl[1] ) + USE SIGNAL
       + ROUTED met3 ( 417220 479440 ) ( * 479740 )
       NEW met3 ( 414760 479440 0 ) ( 417220 * )
-      NEW met2 ( 428490 479740 ) ( * 513060 )
-      NEW met3 ( 417220 479740 ) ( 428490 * )
-      NEW met3 ( 376740 513060 ) ( 428490 * )
-      NEW met1 ( 326475 1029860 0 ) ( 327750 * )
-      NEW met3 ( 327750 1029860 ) ( 376740 * )
-      NEW met4 ( 376740 513060 ) ( * 1029860 )
-      NEW met3 ( 376740 513060 ) M3M4_PR
-      NEW met3 ( 376740 1029860 ) M3M4_PR
-      NEW met2 ( 428490 479740 ) M2M3_PR
-      NEW met2 ( 428490 513060 ) M2M3_PR
-      NEW met1 ( 327750 1029860 ) M1M2_PR
-      NEW met2 ( 327750 1029860 ) M2M3_PR ;
+      NEW met3 ( 396980 512380 ) ( * 513060 )
+      NEW met2 ( 428030 479740 ) ( * 512380 )
+      NEW met3 ( 417220 479740 ) ( 428030 * )
+      NEW met3 ( 396980 512380 ) ( 428030 * )
+      NEW met2 ( 330050 1029180 ) ( * 1029690 )
+      NEW met1 ( 326475 1029690 0 ) ( 330050 * )
+      NEW met4 ( 391460 513060 ) ( * 1029180 )
+      NEW met3 ( 330050 1029180 ) ( 391460 * )
+      NEW met3 ( 391460 513060 ) ( 396980 * )
+      NEW met2 ( 428030 479740 ) M2M3_PR
+      NEW met2 ( 428030 512380 ) M2M3_PR
+      NEW met2 ( 330050 1029180 ) M2M3_PR
+      NEW met1 ( 330050 1029690 ) M1M2_PR
+      NEW met3 ( 391460 1029180 ) M3M4_PR
+      NEW met3 ( 391460 513060 ) M3M4_PR ;
     - analog_ctrl\[20\] ( u_cf_adc_sar12 en_pump_lv ) ( u_afe_wb analog_ctrl[20] ) + USE SIGNAL
       + ROUTED met3 ( 417220 427380 ) ( * 427480 )
       NEW met3 ( 414760 427480 0 ) ( 417220 * )
@@ -9494,27 +9476,27 @@ NETS 779 ;
       NEW met2 ( 445050 427380 ) M2M3_PR
       NEW met3 ( 526700 1165860 ) RECT ( 0 -150 390 150 )  ;
     - analog_ctrl\[21\] ( u_cf_adc_sar12 scan_test_mode ) ( u_afe_wb analog_ctrl[21] ) + USE SIGNAL
-      + ROUTED met3 ( 879060 1165860 ) ( 883890 * )
+      + ROUTED met3 ( 879980 1165860 ) ( 883890 * )
       NEW met2 ( 883890 1165860 ) ( * 1167900 0 )
       NEW met3 ( 417220 424660 ) ( * 424760 )
       NEW met3 ( 414760 424760 0 ) ( 417220 * )
-      NEW met4 ( 879060 424660 ) ( * 1165860 )
-      NEW met3 ( 417220 424660 ) ( 879060 * )
-      NEW met3 ( 879060 1165860 ) M3M4_PR
+      NEW met4 ( 879980 424660 ) ( * 1165860 )
+      NEW met3 ( 417220 424660 ) ( 879980 * )
+      NEW met3 ( 879980 1165860 ) M3M4_PR
       NEW met2 ( 883890 1165860 ) M2M3_PR
-      NEW met3 ( 879060 424660 ) M3M4_PR ;
+      NEW met3 ( 879980 424660 ) M3M4_PR ;
     - analog_ctrl\[22\] ( u_cf_adc_sar12 test_scanin ) ( u_afe_wb analog_ctrl[22] ) + USE SIGNAL
-      + ROUTED met3 ( 879980 1165180 ) ( 884810 * )
+      + ROUTED met3 ( 879060 1165180 ) ( 884810 * )
       NEW met2 ( 884810 1165180 ) ( * 1166540 )
       NEW met2 ( 884810 1166540 ) ( 885040 * )
       NEW met2 ( 885040 1166540 ) ( * 1167900 0 )
       NEW met3 ( 417220 421940 ) ( * 422040 )
       NEW met3 ( 414760 422040 0 ) ( 417220 * )
-      NEW met4 ( 879980 421940 ) ( * 1165180 )
-      NEW met3 ( 417220 421940 ) ( 879980 * )
-      NEW met3 ( 879980 1165180 ) M3M4_PR
+      NEW met4 ( 879060 421940 ) ( * 1165180 )
+      NEW met3 ( 417220 421940 ) ( 879060 * )
+      NEW met3 ( 879060 1165180 ) M3M4_PR
       NEW met2 ( 884810 1165180 ) M2M3_PR
-      NEW met3 ( 879980 421940 ) M3M4_PR ;
+      NEW met3 ( 879060 421940 ) M3M4_PR ;
     - analog_ctrl\[23\] ( u_cf_adc_sar12 test_scanen ) ( u_afe_wb analog_ctrl[23] ) + USE SIGNAL
       + ROUTED met3 ( 417220 419220 ) ( * 419320 )
       NEW met3 ( 414760 419320 0 ) ( 417220 * )
@@ -9530,16 +9512,21 @@ NETS 779 ;
     - analog_ctrl\[24\] ( u_cf_adc_sar12 test_sea ) ( u_afe_wb analog_ctrl[24] ) + USE SIGNAL
       + ROUTED met3 ( 417220 416500 ) ( * 416600 )
       NEW met3 ( 414760 416600 0 ) ( 417220 * )
-      NEW met3 ( 895390 1165860 ) ( 895620 * )
-      NEW met2 ( 895390 1165860 ) ( * 1166540 )
-      NEW met2 ( 895160 1166540 ) ( 895390 * )
-      NEW met2 ( 895160 1166540 ) ( * 1167900 0 )
-      NEW met4 ( 895620 416500 ) ( * 1165860 )
-      NEW met3 ( 417220 416500 ) ( 895620 * )
-      NEW met3 ( 895620 416500 ) M3M4_PR
-      NEW met3 ( 895620 1165860 ) M3M4_PR
-      NEW met2 ( 895390 1165860 ) M2M3_PR
-      NEW met3 ( 895620 1165860 ) RECT ( 0 -150 390 150 )  ;
+      NEW met2 ( 895160 1182860 0 ) ( * 1183540 )
+      NEW met2 ( 894930 1183540 ) ( 895160 * )
+      NEW met2 ( 894930 1183540 ) ( * 1184730 )
+      NEW met3 ( 417220 416500 ) ( 721740 * )
+      NEW met3 ( 721740 1182180 ) ( 807300 * )
+      NEW met3 ( 807300 1182180 ) ( * 1183540 )
+      NEW met3 ( 807300 1183540 ) ( 842030 * )
+      NEW met2 ( 842030 1183540 ) ( * 1184730 )
+      NEW met1 ( 842030 1184730 ) ( 894930 * )
+      NEW met4 ( 721740 416500 ) ( * 1182180 )
+      NEW met1 ( 894930 1184730 ) M1M2_PR
+      NEW met3 ( 721740 416500 ) M3M4_PR
+      NEW met3 ( 721740 1182180 ) M3M4_PR
+      NEW met2 ( 842030 1183540 ) M2M3_PR
+      NEW met1 ( 842030 1184730 ) M1M2_PR ;
     - analog_ctrl\[25\] ( u_cf_adc_sar12 resolution[0] ) ( u_afe_wb analog_ctrl[25] ) + USE SIGNAL
       + ROUTED met3 ( 417220 413780 ) ( * 413880 )
       NEW met3 ( 414760 413880 0 ) ( 417220 * )
@@ -9586,12 +9573,12 @@ NETS 779 ;
     - analog_ctrl\[28\] ( u_cf_adc_sar12 sample_width[1] ) ( u_afe_wb analog_ctrl[28] ) + USE SIGNAL
       + ROUTED met3 ( 417220 405620 ) ( * 405720 )
       NEW met3 ( 414760 405720 0 ) ( 417220 * )
-      NEW met3 ( 417220 405620 ) ( 832140 * )
-      NEW met3 ( 832140 1180820 ) ( 849980 * )
-      NEW met4 ( 832140 405620 ) ( * 1180820 )
-      NEW met3 ( 832140 405620 ) M3M4_PR
-      NEW met3 ( 832140 1180820 ) M3M4_PR
-      NEW met2 ( 849980 1180820 ) M2M3_PR_M ;
+      NEW met3 ( 417220 405620 ) ( 833980 * )
+      NEW met3 ( 833980 1180140 ) ( 849980 * )
+      NEW met4 ( 833980 405620 ) ( * 1180140 )
+      NEW met3 ( 833980 405620 ) M3M4_PR
+      NEW met3 ( 833980 1180140 ) M3M4_PR
+      NEW met2 ( 849980 1180140 ) M2M3_PR_M ;
     - analog_ctrl\[29\] ( u_cf_adc_sar12 sample_width[2] ) ( u_afe_wb analog_ctrl[29] ) + USE SIGNAL
       + ROUTED met3 ( 417220 402900 ) ( * 403000 )
       NEW met3 ( 414760 403000 0 ) ( 417220 * )
@@ -9609,46 +9596,48 @@ NETS 779 ;
       NEW met1 ( 205850 949790 ) ( * 950130 )
       NEW met1 ( 205850 950130 ) ( 206135 * )
       NEW met1 ( 206135 950130 ) ( * 951660 0 )
-      NEW met4 ( 206540 521900 ) ( * 945540 )
+      NEW met4 ( 206540 521220 ) ( * 945540 )
       NEW met3 ( 417220 477020 ) ( 430790 * )
-      NEW met3 ( 206540 521900 ) ( 430790 * )
-      NEW met2 ( 430790 477020 ) ( * 521900 )
-      NEW met3 ( 206540 521900 ) M3M4_PR
+      NEW met3 ( 206540 521220 ) ( 430790 * )
+      NEW met2 ( 430790 477020 ) ( * 521220 )
+      NEW met3 ( 206540 521220 ) M3M4_PR
       NEW met3 ( 206540 945540 ) M3M4_PR
       NEW met2 ( 205850 945540 ) M2M3_PR
       NEW met1 ( 205850 949790 ) M1M2_PR
       NEW met2 ( 430790 477020 ) M2M3_PR
-      NEW met2 ( 430790 521900 ) M2M3_PR ;
+      NEW met2 ( 430790 521220 ) M2M3_PR ;
     - analog_ctrl\[30\] ( u_cf_adc_sar12 sample_width[3] ) ( u_afe_wb analog_ctrl[30] ) + USE SIGNAL
       + ROUTED met3 ( 416300 400180 ) ( * 400310 )
       NEW met3 ( 414760 400310 0 ) ( 416300 * )
       NEW met3 ( 416300 400180 ) ( 845020 * )
-      NEW met3 ( 845020 1180140 ) ( 852070 * )
-      NEW met4 ( 845020 400180 ) ( * 1180140 )
+      NEW met3 ( 845020 1180820 ) ( 852070 * )
+      NEW met4 ( 845020 400180 ) ( * 1180820 )
       NEW met3 ( 845020 400180 ) M3M4_PR
-      NEW met3 ( 845020 1180140 ) M3M4_PR
-      NEW met2 ( 852070 1180140 ) M2M3_PR_M ;
+      NEW met3 ( 845020 1180820 ) M3M4_PR
+      NEW met2 ( 852070 1180820 ) M2M3_PR_M ;
     - analog_ctrl\[31\] ( u_cf_adc_sar12 sample_width[4] ) ( u_afe_wb analog_ctrl[31] ) + USE SIGNAL
       + ROUTED met3 ( 417220 397460 ) ( * 397560 )
       NEW met3 ( 414760 397560 0 ) ( 417220 * )
-      NEW met3 ( 417220 397460 ) ( 831220 * )
-      NEW met3 ( 831220 1183540 ) ( 853070 * )
+      NEW met3 ( 417220 397460 ) ( 833060 * )
+      NEW met3 ( 833060 1182860 ) ( 843180 * )
+      NEW met3 ( 843180 1182860 ) ( * 1183540 )
+      NEW met3 ( 843180 1183540 ) ( 853070 * )
       NEW met2 ( 853070 1182860 0 ) ( * 1183540 )
-      NEW met4 ( 831220 397460 ) ( * 1183540 )
-      NEW met3 ( 831220 397460 ) M3M4_PR
-      NEW met3 ( 831220 1183540 ) M3M4_PR
+      NEW met4 ( 833060 397460 ) ( * 1182860 )
+      NEW met3 ( 833060 397460 ) M3M4_PR
+      NEW met3 ( 833060 1182860 ) M3M4_PR
       NEW met2 ( 853070 1183540 ) M2M3_PR ;
     - analog_ctrl\[32\] ( u_cf_adc_sar12 sample_width[5] ) ( u_afe_wb analog_ctrl[32] ) + USE SIGNAL
       + ROUTED met3 ( 417220 394740 ) ( * 394840 )
       NEW met3 ( 414760 394840 0 ) ( 417220 * )
-      NEW met3 ( 417220 394740 ) ( 721740 * )
+      NEW met3 ( 417220 394740 ) ( 727260 * )
       NEW met2 ( 854110 1182860 0 ) ( * 1183540 )
       NEW met2 ( 853990 1183540 ) ( 854110 * )
       NEW met2 ( 853990 1183540 ) ( * 1185580 )
-      NEW met3 ( 721740 1185580 ) ( 853990 * )
-      NEW met4 ( 721740 394740 ) ( * 1185580 )
-      NEW met3 ( 721740 394740 ) M3M4_PR
-      NEW met3 ( 721740 1185580 ) M3M4_PR
+      NEW met3 ( 727260 1185580 ) ( 853990 * )
+      NEW met4 ( 727260 394740 ) ( * 1185580 )
+      NEW met3 ( 727260 394740 ) M3M4_PR
+      NEW met3 ( 727260 1185580 ) M3M4_PR
       NEW met2 ( 853990 1185580 ) M2M3_PR ;
     - analog_ctrl\[33\] ( u_cf_adc_sar12 sample_width[6] ) ( u_afe_wb analog_ctrl[33] ) + USE SIGNAL
       + ROUTED met3 ( 417220 392020 ) ( * 392120 )
@@ -9678,16 +9667,12 @@ NETS 779 ;
     - analog_ctrl\[34\] ( u_cf_adc_sar12 sample_width[7] ) ( u_afe_wb analog_ctrl[34] ) + USE SIGNAL
       + ROUTED met3 ( 417220 389300 ) ( * 389400 )
       NEW met3 ( 414760 389400 0 ) ( 417220 * )
-      NEW met3 ( 856060 1181500 ) ( 856200 * )
-      NEW met3 ( 417220 389300 ) ( 727260 * )
-      NEW met5 ( 727260 1181500 ) ( 856060 * )
-      NEW met4 ( 727260 389300 ) ( * 1181500 )
-      NEW met3 ( 856060 1181500 ) M3M4_PR
-      NEW met4 ( 856060 1181500 ) M4M5_PR
-      NEW met2 ( 856200 1181500 ) M2M3_PR_M
-      NEW met3 ( 727260 389300 ) M3M4_PR
-      NEW met4 ( 727260 1181500 ) M4M5_PR
-      NEW met3 ( 856200 1181500 ) RECT ( 0 -150 480 150 )  ;
+      NEW met3 ( 417220 389300 ) ( 831220 * )
+      NEW met3 ( 831220 1172660 ) ( 856200 * )
+      NEW met4 ( 831220 389300 ) ( * 1172660 )
+      NEW met2 ( 856200 1172660 ) M2M3_PR_M
+      NEW met3 ( 831220 389300 ) M3M4_PR
+      NEW met3 ( 831220 1172660 ) M3M4_PR ;
     - analog_ctrl\[35\] ( u_cf_adc_sar12 sample_width[8] ) ( u_afe_wb analog_ctrl[35] ) + USE SIGNAL
       + ROUTED met3 ( 417220 386580 ) ( * 386680 )
       NEW met3 ( 414760 386680 0 ) ( 417220 * )
@@ -9756,19 +9741,21 @@ NETS 779 ;
     - analog_ctrl\[3\] ( u_cf_buf_hiz clk2_boost ) ( u_afe_wb analog_ctrl[3] ) + USE SIGNAL
       + ROUTED met3 ( 417220 474000 ) ( * 474300 )
       NEW met3 ( 414760 474000 0 ) ( 417220 * )
-      NEW met3 ( 204470 950300 ) ( 204700 * )
-      NEW met1 ( 204470 950300 ) ( * 951660 0 )
-      NEW met4 ( 204700 521220 ) ( * 950300 )
-      NEW met3 ( 417220 474300 ) ( 428950 * )
-      NEW met3 ( 204700 521220 ) ( 428950 * )
-      NEW met2 ( 428950 474300 ) ( * 521220 )
-      NEW met3 ( 204700 521220 ) M3M4_PR
-      NEW met3 ( 204700 950300 ) M3M4_PR
-      NEW met1 ( 204470 950300 ) M1M2_PR
-      NEW met2 ( 204470 950300 ) M2M3_PR
-      NEW met2 ( 428950 474300 ) M2M3_PR
-      NEW met2 ( 428950 521220 ) M2M3_PR
-      NEW met3 ( 204700 950300 ) RECT ( 0 -150 390 150 )  ;
+      NEW met3 ( 204470 945540 ) ( 204700 * )
+      NEW met2 ( 204470 945540 ) ( * 951660 )
+      NEW met4 ( 204700 520540 ) ( * 945540 )
+      NEW met2 ( 430330 474300 ) ( * 515100 )
+      NEW met2 ( 428950 515100 ) ( 430330 * )
+      NEW met3 ( 417220 474300 ) ( 430330 * )
+      NEW met3 ( 204700 520540 ) ( 428950 * )
+      NEW met2 ( 428950 515100 ) ( * 520540 )
+      NEW met3 ( 204700 520540 ) M3M4_PR
+      NEW met3 ( 204700 945540 ) M3M4_PR
+      NEW met2 ( 204470 945540 ) M2M3_PR
+      NEW met1 ( 204470 951660 ) M1M2_PR
+      NEW met2 ( 430330 474300 ) M2M3_PR
+      NEW met2 ( 428950 520540 ) M2M3_PR
+      NEW met3 ( 204700 945540 ) RECT ( 0 -150 390 150 )  ;
     - analog_ctrl\[40\] ( u_cf_adc_sar12 icont_lv[0] ) ( u_afe_wb analog_ctrl[40] ) + USE SIGNAL
       + ROUTED met3 ( 417220 372980 ) ( * 373080 )
       NEW met3 ( 414760 373080 0 ) ( 417220 * )
@@ -9893,23 +9880,28 @@ NETS 779 ;
       NEW met3 ( 720820 348500 ) M3M4_PR
       NEW met3 ( 720820 1141380 ) M3M4_PR ;
     - analog_ctrl\[4\] ( u_cf_buf_hiz e_n_boost ) ( u_afe_wb analog_ctrl[4] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 471280 ) ( * 471580 )
+      + ROUTED met3 ( 378580 515100 ) ( 414230 * )
+      NEW met2 ( 414230 513740 ) ( * 515100 )
+      NEW met3 ( 417220 471280 ) ( * 471580 )
       NEW met3 ( 414760 471280 0 ) ( 417220 * )
-      NEW met2 ( 205765 950980 ) ( * 951150 )
-      NEW met1 ( 205765 951150 ) ( * 951660 0 )
-      NEW met2 ( 429410 471580 ) ( * 517140 )
-      NEW met3 ( 417220 471580 ) ( 429410 * )
-      NEW met3 ( 377660 517140 ) ( 429410 * )
-      NEW met3 ( 205765 950980 ) ( 227700 * )
-      NEW met3 ( 227700 950300 ) ( * 950980 )
-      NEW met3 ( 227700 950300 ) ( 377660 * )
-      NEW met4 ( 377660 517140 ) ( * 950300 )
-      NEW met3 ( 377660 517140 ) M3M4_PR
-      NEW met2 ( 205765 950980 ) M2M3_PR
-      NEW met1 ( 205765 951150 ) M1M2_PR
-      NEW met2 ( 429410 471580 ) M2M3_PR
-      NEW met2 ( 429410 517140 ) M2M3_PR
-      NEW met3 ( 377660 950300 ) M3M4_PR ;
+      NEW met2 ( 205390 947580 ) ( * 950470 )
+      NEW met1 ( 205390 950470 ) ( 205765 * )
+      NEW met1 ( 205765 950470 ) ( * 951660 0 )
+      NEW met2 ( 428950 471580 ) ( * 513740 )
+      NEW met3 ( 417220 471580 ) ( 428950 * )
+      NEW met3 ( 414230 513740 ) ( 428950 * )
+      NEW met3 ( 276000 947580 ) ( * 949620 )
+      NEW met3 ( 205390 947580 ) ( 276000 * )
+      NEW met3 ( 276000 949620 ) ( 378580 * )
+      NEW met4 ( 378580 515100 ) ( * 949620 )
+      NEW met3 ( 378580 515100 ) M3M4_PR
+      NEW met2 ( 414230 515100 ) M2M3_PR
+      NEW met2 ( 414230 513740 ) M2M3_PR
+      NEW met2 ( 205390 947580 ) M2M3_PR
+      NEW met1 ( 205390 950470 ) M1M2_PR
+      NEW met2 ( 428950 471580 ) M2M3_PR
+      NEW met2 ( 428950 513740 ) M2M3_PR
+      NEW met3 ( 378580 949620 ) M3M4_PR ;
     - analog_ctrl\[50\] ( u_cf_adc_sar12 sel_csel_dft[1] ) ( u_afe_wb analog_ctrl[50] ) + USE SIGNAL
       + ROUTED met3 ( 887340 1165180 ) ( 889410 * )
       NEW met2 ( 889410 1165180 ) ( * 1166540 )
@@ -9927,14 +9919,21 @@ NETS 779 ;
       NEW met3 ( 741980 1079500 ) M3M4_PR
       NEW met3 ( 741980 345780 ) M3M4_PR ;
     - analog_ctrl\[51\] ( u_cf_adc_sar12 sel_csel_dft[2] ) ( u_afe_wb analog_ctrl[51] ) + USE SIGNAL
-      + ROUTED met3 ( 874460 1180140 ) ( 890415 * )
+      + ROUTED met3 ( 890330 1165180 ) ( 891020 * )
+      NEW met2 ( 890330 1165180 ) ( * 1166540 )
+      NEW met2 ( 890330 1166540 ) ( 890415 * )
+      NEW met2 ( 890415 1166540 ) ( * 1167900 0 )
       NEW met3 ( 417220 343060 ) ( * 343160 )
       NEW met3 ( 414760 343160 0 ) ( 417220 * )
-      NEW met4 ( 874460 343060 ) ( * 1180140 )
-      NEW met3 ( 417220 343060 ) ( 874460 * )
-      NEW met3 ( 874460 1180140 ) M3M4_PR
-      NEW met2 ( 890415 1180140 ) M2M3_PR_M
-      NEW met3 ( 874460 343060 ) M3M4_PR ;
+      NEW met4 ( 694140 343060 ) ( * 1134580 )
+      NEW met4 ( 891020 1134580 ) ( * 1165180 )
+      NEW met3 ( 417220 343060 ) ( 694140 * )
+      NEW met3 ( 694140 1134580 ) ( 891020 * )
+      NEW met3 ( 891020 1165180 ) M3M4_PR
+      NEW met2 ( 890330 1165180 ) M2M3_PR
+      NEW met3 ( 694140 343060 ) M3M4_PR
+      NEW met3 ( 694140 1134580 ) M3M4_PR
+      NEW met3 ( 891020 1134580 ) M3M4_PR ;
     - analog_ctrl\[52\] ( u_cf_adc_sar12 sel_csel_dft[3] ) ( u_afe_wb analog_ctrl[52] ) + USE SIGNAL
       + ROUTED met3 ( 891710 1165860 ) ( 891940 * )
       NEW met2 ( 891710 1165860 ) ( * 1166540 )
@@ -10030,23 +10029,23 @@ NETS 779 ;
       NEW met2 ( 997970 789140 ) M2M3_PR
       NEW met2 ( 1008090 789140 ) M2M3_PR ;
     - analog_ctrl\[5\] ( u_cf_buf_hiz e_na_boost ) ( u_afe_wb analog_ctrl[5] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 468560 ) ( * 468860 )
+      + ROUTED met3 ( 383180 513740 ) ( 397900 * )
+      NEW met3 ( 397900 513060 ) ( * 513740 )
+      NEW met3 ( 417220 468560 ) ( * 468860 )
       NEW met3 ( 414760 468560 0 ) ( 417220 * )
-      NEW met2 ( 430330 479230 ) ( * 515950 )
-      NEW met1 ( 428490 479230 ) ( 430330 * )
-      NEW met1 ( 393530 515950 ) ( 430330 * )
-      NEW met3 ( 417220 468860 ) ( 428490 * )
-      NEW met2 ( 428490 468860 ) ( * 479230 )
-      NEW met3 ( 205410 951660 ) ( 393530 * )
-      NEW met2 ( 393530 515950 ) ( * 951660 )
-      NEW met1 ( 393530 515950 ) M1M2_PR
+      NEW met2 ( 429410 470900 ) ( * 513060 )
+      NEW met2 ( 428030 470900 ) ( 429410 * )
+      NEW met3 ( 397900 513060 ) ( 429410 * )
+      NEW met3 ( 417220 468860 ) ( 428030 * )
+      NEW met2 ( 428030 468860 ) ( * 470900 )
+      NEW met3 ( 205410 951660 ) ( 383180 * )
+      NEW met4 ( 383180 513740 ) ( * 951660 )
+      NEW met3 ( 383180 513740 ) M3M4_PR
       NEW met1 ( 205410 951660 ) M1M2_PR_MR
       NEW met2 ( 205410 951660 ) M2M3_PR
-      NEW met1 ( 430330 515950 ) M1M2_PR
-      NEW met1 ( 430330 479230 ) M1M2_PR
-      NEW met1 ( 428490 479230 ) M1M2_PR
-      NEW met2 ( 428490 468860 ) M2M3_PR
-      NEW met2 ( 393530 951660 ) M2M3_PR ;
+      NEW met2 ( 429410 513060 ) M2M3_PR
+      NEW met2 ( 428030 468860 ) M2M3_PR
+      NEW met3 ( 383180 951660 ) M3M4_PR ;
     - analog_ctrl\[60\] ( u_cf_adc_sar12_sar_refs muxsarref[0] ) ( u_afe_wb analog_ctrl[60] ) + USE SIGNAL
       + ROUTED met3 ( 417220 318580 ) ( * 318680 )
       NEW met3 ( 414760 318680 0 ) ( 417220 * )
@@ -10084,10 +10083,10 @@ NETS 779 ;
       NEW met2 ( 935870 688500 ) M2M3_PR
       NEW met2 ( 1010390 689010 ) M2M3_PR_MR ;
     - analog_ctrl\[63\] ( u_cf_adc_sar12_sar_refs EN_RESVDA ) ( u_afe_wb analog_ctrl[63] ) + USE SIGNAL
-      + ROUTED met3 ( 416070 310420 ) ( * 310520 )
-      NEW met3 ( 414760 310520 0 ) ( 416070 * )
+      + ROUTED met3 ( 415610 310420 ) ( * 310520 )
+      NEW met3 ( 414760 310520 0 ) ( 415610 * )
       NEW met2 ( 956570 310420 ) ( * 793900 )
-      NEW met3 ( 416070 310420 ) ( 956570 * )
+      NEW met3 ( 415610 310420 ) ( 956570 * )
       NEW met2 ( 1008550 793750 ) ( * 793900 )
       NEW met2 ( 1008550 793750 ) ( 1010390 * 0 )
       NEW met3 ( 956570 793900 ) ( 1008550 * )
@@ -10097,111 +10096,111 @@ NETS 779 ;
     - analog_ctrl\[64\] ( u_cf_bgr trimTC[0] ) ( u_afe_wb analog_ctrl[64] ) + USE SIGNAL
       + ROUTED met3 ( 417220 307700 ) ( * 307800 )
       NEW met3 ( 414760 307800 0 ) ( 417220 * )
-      NEW met3 ( 487140 1195100 ) ( 511290 * )
-      NEW met2 ( 511290 1195100 ) ( * 1208700 )
+      NEW met4 ( 487140 307700 ) ( * 1194420 )
+      NEW met3 ( 417220 307700 ) ( 487140 * )
+      NEW met2 ( 497490 1194420 ) ( * 1194590 )
+      NEW met1 ( 497490 1194590 ) ( 511290 * )
+      NEW met2 ( 511290 1194590 ) ( * 1208700 )
       NEW met2 ( 511290 1208700 ) ( 511550 * )
       NEW met2 ( 511550 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 487140 307700 ) ( * 1195100 )
-      NEW met3 ( 417220 307700 ) ( 487140 * )
+      NEW met3 ( 487140 1194420 ) ( 497490 * )
       NEW met3 ( 487140 307700 ) M3M4_PR
-      NEW met3 ( 487140 1195100 ) M3M4_PR
-      NEW met2 ( 511290 1195100 ) M2M3_PR ;
+      NEW met3 ( 487140 1194420 ) M3M4_PR
+      NEW met2 ( 497490 1194420 ) M2M3_PR
+      NEW met1 ( 497490 1194590 ) M1M2_PR
+      NEW met1 ( 511290 1194590 ) M1M2_PR ;
     - analog_ctrl\[65\] ( u_cf_bgr trimTC[1] ) ( u_afe_wb analog_ctrl[65] ) + USE SIGNAL
       + ROUTED met3 ( 417220 305360 ) ( * 305660 )
       NEW met3 ( 414760 305360 0 ) ( 417220 * )
-      NEW met3 ( 512425 1208700 ) ( 513820 * )
-      NEW met2 ( 512425 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 513820 639540 ) ( * 1208700 )
       NEW met3 ( 417220 305660 ) ( 431250 * )
       NEW met2 ( 431250 305660 ) ( * 639540 )
       NEW met3 ( 431250 639540 ) ( 513820 * )
+      NEW met3 ( 512425 1208700 ) ( 513820 * )
+      NEW met2 ( 512425 1208700 ) ( * 1210060 0 )
+      NEW met4 ( 513820 639540 ) ( * 1208700 )
       NEW met3 ( 513820 639540 ) M3M4_PR
-      NEW met3 ( 513820 1208700 ) M3M4_PR
-      NEW met2 ( 512425 1208700 ) M2M3_PR
       NEW met2 ( 431250 305660 ) M2M3_PR
-      NEW met2 ( 431250 639540 ) M2M3_PR ;
+      NEW met2 ( 431250 639540 ) M2M3_PR
+      NEW met3 ( 513820 1208700 ) M3M4_PR
+      NEW met2 ( 512425 1208700 ) M2M3_PR ;
     - analog_ctrl\[66\] ( u_cf_bgr trimTC[2] ) ( u_afe_wb analog_ctrl[66] ) + USE SIGNAL
       + ROUTED met3 ( 417220 302260 ) ( * 302360 )
       NEW met3 ( 414760 302360 0 ) ( 417220 * )
-      NEW met3 ( 473340 1185580 ) ( 508070 * )
-      NEW met4 ( 473340 302260 ) ( * 1185580 )
+      NEW met4 ( 473340 302260 ) ( * 1186260 )
+      NEW met3 ( 417220 302260 ) ( 473340 * )
+      NEW met2 ( 508070 1186260 ) ( * 1208700 )
       NEW met2 ( 508070 1208700 ) ( 508160 * )
       NEW met2 ( 508160 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 508070 1185580 ) ( * 1208700 )
-      NEW met3 ( 417220 302260 ) ( 473340 * )
+      NEW met3 ( 473340 1186260 ) ( 508070 * )
       NEW met3 ( 473340 302260 ) M3M4_PR
-      NEW met3 ( 473340 1185580 ) M3M4_PR
-      NEW met2 ( 508070 1185580 ) M2M3_PR ;
+      NEW met3 ( 473340 1186260 ) M3M4_PR
+      NEW met2 ( 508070 1186260 ) M2M3_PR ;
     - analog_ctrl\[67\] ( u_cf_bgr trimTC[3] ) ( u_afe_wb analog_ctrl[67] ) + USE SIGNAL
       + ROUTED met3 ( 417220 299540 ) ( * 299640 )
       NEW met3 ( 414760 299640 0 ) ( 417220 * )
-      NEW met3 ( 472420 1195780 ) ( 507610 * )
-      NEW met2 ( 507610 1195780 ) ( * 1208700 )
+      NEW met4 ( 472420 299540 ) ( * 1195100 )
+      NEW met3 ( 417220 299540 ) ( 472420 * )
+      NEW met2 ( 507610 1195100 ) ( * 1208700 )
       NEW met2 ( 507460 1208700 ) ( 507610 * )
       NEW met2 ( 507460 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 472420 299540 ) ( * 1195780 )
-      NEW met3 ( 417220 299540 ) ( 472420 * )
+      NEW met3 ( 472420 1195100 ) ( 507610 * )
       NEW met3 ( 472420 299540 ) M3M4_PR
-      NEW met3 ( 472420 1195780 ) M3M4_PR
-      NEW met2 ( 507610 1195780 ) M2M3_PR ;
+      NEW met3 ( 472420 1195100 ) M3M4_PR
+      NEW met2 ( 507610 1195100 ) M2M3_PR ;
     - analog_ctrl\[68\] ( u_cf_bgr trimTC[4] ) ( u_afe_wb analog_ctrl[68] ) + USE SIGNAL
       + ROUTED met3 ( 417220 296820 ) ( * 296920 )
       NEW met3 ( 414760 296920 0 ) ( 417220 * )
-      NEW met3 ( 486220 1201220 ) ( 503930 * )
+      NEW met4 ( 486220 296820 ) ( * 1201220 )
+      NEW met3 ( 417220 296820 ) ( 486220 * )
       NEW met2 ( 503930 1201220 ) ( * 1208700 )
       NEW met2 ( 503930 1208700 ) ( 504070 * )
       NEW met2 ( 504070 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 486220 296820 ) ( * 1201220 )
-      NEW met3 ( 417220 296820 ) ( 486220 * )
+      NEW met3 ( 486220 1201220 ) ( 503930 * )
       NEW met3 ( 486220 296820 ) M3M4_PR
       NEW met3 ( 486220 1201220 ) M3M4_PR
       NEW met2 ( 503930 1201220 ) M2M3_PR ;
     - analog_ctrl\[69\] ( u_cf_bgr trimTC[5] ) ( u_afe_wb analog_ctrl[69] ) + USE SIGNAL
       + ROUTED met3 ( 417220 294100 ) ( * 294200 )
       NEW met3 ( 414760 294200 0 ) ( 417220 * )
-      NEW met2 ( 485530 1201220 ) ( * 1201390 )
-      NEW met1 ( 485530 1201390 ) ( 503470 * )
-      NEW met2 ( 503470 1201390 ) ( * 1208700 )
+      NEW met3 ( 417220 294100 ) ( 451260 * )
+      NEW met4 ( 451260 294100 ) ( * 1200540 )
+      NEW met2 ( 503470 1200540 ) ( * 1208700 )
       NEW met2 ( 503425 1208700 ) ( 503470 * )
       NEW met2 ( 503425 1208700 ) ( * 1210060 0 )
-      NEW met3 ( 417220 294100 ) ( 451260 * )
-      NEW met4 ( 451260 294100 ) ( * 1201220 )
-      NEW met3 ( 451260 1201220 ) ( 485530 * )
-      NEW met2 ( 485530 1201220 ) M2M3_PR
-      NEW met1 ( 485530 1201390 ) M1M2_PR
-      NEW met1 ( 503470 1201390 ) M1M2_PR
+      NEW met3 ( 451260 1200540 ) ( 503470 * )
       NEW met3 ( 451260 294100 ) M3M4_PR
-      NEW met3 ( 451260 1201220 ) M3M4_PR ;
+      NEW met3 ( 451260 1200540 ) M3M4_PR
+      NEW met2 ( 503470 1200540 ) M2M3_PR ;
     - analog_ctrl\[6\] ( u_cf_buf_hiz clk1_boostr ) ( u_afe_wb analog_ctrl[6] ) + USE SIGNAL
-      + ROUTED met2 ( 205390 948260 ) ( * 950130 )
-      NEW met1 ( 204900 950130 ) ( 205390 * )
+      + ROUTED met2 ( 204930 948260 ) ( * 950130 )
+      NEW met1 ( 204900 950130 ) ( 204930 * )
       NEW met1 ( 204900 950130 ) ( * 951660 0 )
       NEW met3 ( 417220 465840 ) ( * 466140 )
       NEW met3 ( 414760 465840 0 ) ( 417220 * )
-      NEW met3 ( 378580 512380 ) ( 429870 * )
-      NEW met2 ( 251850 948260 ) ( * 950980 )
-      NEW met3 ( 205390 948260 ) ( 251850 * )
-      NEW met3 ( 417220 466140 ) ( 429870 * )
-      NEW met2 ( 429870 466140 ) ( * 512380 )
-      NEW met3 ( 251850 950980 ) ( 378580 * )
-      NEW met4 ( 378580 512380 ) ( * 950980 )
-      NEW met3 ( 378580 512380 ) M3M4_PR
-      NEW met2 ( 205390 948260 ) M2M3_PR
-      NEW met1 ( 205390 950130 ) M1M2_PR
-      NEW met2 ( 429870 512380 ) M2M3_PR
-      NEW met2 ( 251850 948260 ) M2M3_PR
-      NEW met2 ( 251850 950980 ) M2M3_PR
-      NEW met2 ( 429870 466140 ) M2M3_PR
-      NEW met3 ( 378580 950980 ) M3M4_PR ;
+      NEW met2 ( 429870 470220 ) ( * 514420 )
+      NEW met2 ( 429410 470220 ) ( 429870 * )
+      NEW met3 ( 382260 514420 ) ( 429870 * )
+      NEW met3 ( 204930 948260 ) ( 227700 * )
+      NEW met3 ( 227700 948260 ) ( * 950980 )
+      NEW met3 ( 417220 466140 ) ( 429410 * )
+      NEW met2 ( 429410 466140 ) ( * 470220 )
+      NEW met3 ( 227700 950980 ) ( 382260 * )
+      NEW met4 ( 382260 514420 ) ( * 950980 )
+      NEW met3 ( 382260 514420 ) M3M4_PR
+      NEW met2 ( 204930 948260 ) M2M3_PR
+      NEW met1 ( 204930 950130 ) M1M2_PR
+      NEW met2 ( 429870 514420 ) M2M3_PR
+      NEW met2 ( 429410 466140 ) M2M3_PR
+      NEW met3 ( 382260 950980 ) M3M4_PR ;
     - analog_ctrl\[70\] ( u_cf_bgr trimTC[6] ) ( u_afe_wb analog_ctrl[70] ) + USE SIGNAL
       + ROUTED met3 ( 417220 291380 ) ( * 291480 )
       NEW met3 ( 414760 291480 0 ) ( 417220 * )
       NEW met3 ( 493350 634780 ) ( 498180 * )
       NEW met2 ( 493350 291380 ) ( * 634780 )
+      NEW met3 ( 417220 291380 ) ( 493350 * )
       NEW met3 ( 498180 1208700 ) ( 500035 * )
       NEW met2 ( 500035 1208700 ) ( * 1210060 0 )
       NEW met4 ( 498180 634780 ) ( * 1208700 )
-      NEW met3 ( 417220 291380 ) ( 493350 * )
       NEW met2 ( 493350 291380 ) M2M3_PR
       NEW met2 ( 493350 634780 ) M2M3_PR
       NEW met3 ( 498180 634780 ) M3M4_PR
@@ -10211,121 +10210,125 @@ NETS 779 ;
       + ROUTED met3 ( 417220 289040 ) ( * 289340 )
       NEW met3 ( 414760 289040 0 ) ( 417220 * )
       NEW met3 ( 417220 289340 ) ( 430100 * )
-      NEW met3 ( 382260 511700 ) ( 430100 * )
+      NEW met3 ( 396060 511700 ) ( 430100 * )
       NEW met4 ( 430100 289340 ) ( * 511700 )
-      NEW met3 ( 303600 1078820 ) ( 382260 * )
-      NEW met3 ( 273010 1078140 ) ( 303600 * )
-      NEW met3 ( 303600 1078140 ) ( * 1078820 )
+      NEW met3 ( 273010 1082220 ) ( 396060 * )
       NEW met2 ( 273010 1208700 ) ( 273055 * )
       NEW met2 ( 273055 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 273010 1078140 ) ( * 1208700 )
-      NEW met4 ( 382260 511700 ) ( * 1078820 )
-      NEW met3 ( 382260 511700 ) M3M4_PR
-      NEW met3 ( 382260 1078820 ) M3M4_PR
+      NEW met2 ( 273010 1082220 ) ( * 1208700 )
+      NEW met4 ( 396060 511700 ) ( * 1082220 )
+      NEW met3 ( 396060 511700 ) M3M4_PR
+      NEW met3 ( 396060 1082220 ) M3M4_PR
       NEW met3 ( 430100 289340 ) M3M4_PR
       NEW met3 ( 430100 511700 ) M3M4_PR
-      NEW met2 ( 273010 1078140 ) M2M3_PR ;
+      NEW met2 ( 273010 1082220 ) M2M3_PR ;
     - analog_ctrl\[72\] ( u_cf_bgr trimCurr[1] ) ( u_afe_wb analog_ctrl[72] ) + USE SIGNAL
       + ROUTED met3 ( 417220 286320 ) ( * 286620 )
       NEW met3 ( 414760 286320 0 ) ( 417220 * )
-      NEW met4 ( 396060 565800 ) ( 396980 * )
-      NEW met4 ( 396980 514420 ) ( * 565800 )
-      NEW met3 ( 417220 286620 ) ( 432630 * )
-      NEW met3 ( 396980 514420 ) ( 432630 * )
-      NEW met2 ( 432630 286620 ) ( * 514420 )
-      NEW met3 ( 276690 1082220 ) ( 396060 * )
+      NEW met3 ( 417220 286620 ) ( 429870 * )
+      NEW met2 ( 432170 469710 ) ( * 517140 )
+      NEW met1 ( 429870 469710 ) ( 432170 * )
+      NEW met3 ( 397670 517140 ) ( 432170 * )
+      NEW met2 ( 429870 286620 ) ( * 469710 )
+      NEW met3 ( 276690 1078140 ) ( 397670 * )
       NEW met2 ( 276445 1208700 ) ( 276690 * )
       NEW met2 ( 276445 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 276690 1082220 ) ( * 1208700 )
-      NEW met4 ( 396060 565800 ) ( * 1082220 )
-      NEW met3 ( 396980 514420 ) M3M4_PR
-      NEW met3 ( 396060 1082220 ) M3M4_PR
-      NEW met2 ( 432630 286620 ) M2M3_PR
-      NEW met2 ( 432630 514420 ) M2M3_PR
-      NEW met2 ( 276690 1082220 ) M2M3_PR ;
+      NEW met2 ( 276690 1078140 ) ( * 1208700 )
+      NEW met2 ( 397670 517140 ) ( * 1078140 )
+      NEW met2 ( 397670 517140 ) M2M3_PR
+      NEW met2 ( 397670 1078140 ) M2M3_PR
+      NEW met2 ( 429870 286620 ) M2M3_PR
+      NEW met2 ( 432170 517140 ) M2M3_PR
+      NEW met1 ( 432170 469710 ) M1M2_PR
+      NEW met1 ( 429870 469710 ) M1M2_PR
+      NEW met2 ( 276690 1078140 ) M2M3_PR ;
     - analog_ctrl\[73\] ( u_cf_bgr trimCurr[2] ) ( u_afe_wb analog_ctrl[73] ) + USE SIGNAL
       + ROUTED met3 ( 417220 283600 ) ( * 283900 )
       NEW met3 ( 414760 283600 0 ) ( 417220 * )
-      NEW met2 ( 405490 524620 ) ( * 1079500 )
+      NEW met2 ( 403650 524620 ) ( * 1080180 )
       NEW met3 ( 417220 283900 ) ( 423430 * )
-      NEW met3 ( 405490 524620 ) ( 423430 * )
+      NEW met3 ( 403650 524620 ) ( 423430 * )
       NEW met2 ( 423430 283900 ) ( * 524620 )
-      NEW met3 ( 272550 1078820 ) ( 283820 * )
-      NEW met3 ( 283820 1078820 ) ( * 1079500 )
-      NEW met3 ( 283820 1079500 ) ( 405490 * )
+      NEW met3 ( 272550 1080180 ) ( 403650 * )
       NEW met2 ( 272550 1208020 ) ( 272685 * )
       NEW met2 ( 272685 1208020 ) ( * 1210060 0 )
-      NEW met2 ( 272550 1078820 ) ( * 1208020 )
-      NEW met2 ( 405490 1079500 ) M2M3_PR
-      NEW met2 ( 405490 524620 ) M2M3_PR
+      NEW met2 ( 272550 1080180 ) ( * 1208020 )
+      NEW met2 ( 403650 1080180 ) M2M3_PR
+      NEW met2 ( 403650 524620 ) M2M3_PR
       NEW met2 ( 423430 283900 ) M2M3_PR
       NEW met2 ( 423430 524620 ) M2M3_PR
-      NEW met2 ( 272550 1078820 ) M2M3_PR ;
+      NEW met2 ( 272550 1080180 ) M2M3_PR ;
     - analog_ctrl\[74\] ( u_cf_bgr trimCurr[3] ) ( u_afe_wb analog_ctrl[74] ) + USE SIGNAL
       + ROUTED met3 ( 417220 280880 ) ( * 281180 )
       NEW met3 ( 414760 280880 0 ) ( 417220 * )
-      NEW met2 ( 403650 525300 ) ( * 1080180 )
+      NEW met2 ( 404570 525300 ) ( * 1079500 )
       NEW met3 ( 417220 281180 ) ( 429180 * )
-      NEW met3 ( 403650 525300 ) ( 429180 * )
+      NEW met3 ( 404570 525300 ) ( 429180 * )
       NEW met4 ( 429180 281180 ) ( * 525300 )
-      NEW met3 ( 272090 1080180 ) ( 403650 * )
+      NEW met3 ( 272090 1080860 ) ( 283590 * )
+      NEW met2 ( 283590 1079500 ) ( * 1080860 )
+      NEW met3 ( 283590 1079500 ) ( 404570 * )
       NEW met2 ( 272090 1208700 ) ( 272315 * )
       NEW met2 ( 272315 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 272090 1080180 ) ( * 1208700 )
-      NEW met2 ( 403650 1080180 ) M2M3_PR
-      NEW met2 ( 403650 525300 ) M2M3_PR
+      NEW met2 ( 272090 1080860 ) ( * 1208700 )
+      NEW met2 ( 404570 1079500 ) M2M3_PR
+      NEW met2 ( 404570 525300 ) M2M3_PR
       NEW met3 ( 429180 281180 ) M3M4_PR
       NEW met3 ( 429180 525300 ) M3M4_PR
-      NEW met2 ( 272090 1080180 ) M2M3_PR ;
+      NEW met2 ( 272090 1080860 ) M2M3_PR
+      NEW met2 ( 283590 1080860 ) M2M3_PR
+      NEW met2 ( 283590 1079500 ) M2M3_PR ;
     - analog_ctrl\[75\] ( u_cf_bgr trimCurr[4] ) ( u_afe_wb analog_ctrl[75] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 278460 ) ( 417910 * )
+      + ROUTED met3 ( 417220 278460 ) ( 418370 * )
       NEW met3 ( 417220 278160 ) ( * 278460 )
       NEW met3 ( 414760 278160 0 ) ( 417220 * )
-      NEW met2 ( 417910 278460 ) ( * 527340 )
-      NEW met3 ( 273700 527340 ) ( 417910 * )
+      NEW met2 ( 418370 278460 ) ( * 527340 )
+      NEW met3 ( 273700 527340 ) ( 418370 * )
       NEW met3 ( 271630 1208020 ) ( 273700 * )
       NEW met2 ( 271630 1208020 ) ( * 1209380 )
       NEW met2 ( 271630 1209380 ) ( 271945 * )
       NEW met2 ( 271945 1209380 ) ( * 1210060 0 )
       NEW met4 ( 273700 527340 ) ( * 1208020 )
-      NEW met2 ( 417910 278460 ) M2M3_PR
-      NEW met2 ( 417910 527340 ) M2M3_PR
+      NEW met2 ( 418370 278460 ) M2M3_PR
+      NEW met2 ( 418370 527340 ) M2M3_PR
       NEW met3 ( 273700 527340 ) M3M4_PR
       NEW met3 ( 273700 1208020 ) M3M4_PR
       NEW met2 ( 271630 1208020 ) M2M3_PR ;
     - analog_ctrl\[76\] ( u_cf_bgr trimCurr[5] ) ( u_afe_wb analog_ctrl[76] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 275440 0 ) ( 416070 * )
-      NEW met2 ( 416070 275440 ) ( * 1183540 )
-      NEW met2 ( 267950 1183540 ) ( * 1209380 )
+      + ROUTED met3 ( 414760 275440 0 ) ( 415610 * )
+      NEW met2 ( 267950 1200540 ) ( * 1209380 )
       NEW met2 ( 267950 1209380 ) ( 268185 * )
       NEW met2 ( 268185 1209380 ) ( * 1210060 0 )
-      NEW met3 ( 267950 1183540 ) ( 416070 * )
-      NEW met2 ( 416070 1183540 ) M2M3_PR
-      NEW met2 ( 416070 275440 ) M2M3_PR
-      NEW met2 ( 267950 1183540 ) M2M3_PR ;
+      NEW met3 ( 267950 1200540 ) ( 415610 * )
+      NEW met2 ( 415610 275440 ) ( * 1200540 )
+      NEW met2 ( 415610 275440 ) M2M3_PR
+      NEW met2 ( 267950 1200540 ) M2M3_PR
+      NEW met2 ( 415610 1200540 ) M2M3_PR ;
     - analog_ctrl\[77\] ( u_cf_bgr CurrAbsTrim[0] ) ( u_afe_wb analog_ctrl[77] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 272720 0 ) ( 415610 * )
-      NEW met2 ( 415610 272720 ) ( * 1195780 )
-      NEW met2 ( 268410 1195780 ) ( * 1208700 )
+      + ROUTED met3 ( 414760 272720 0 ) ( 416530 * )
+      NEW met2 ( 416530 272720 ) ( * 1169260 )
+      NEW met3 ( 268410 1169260 ) ( 416530 * )
       NEW met2 ( 268410 1208700 ) ( 268555 * )
       NEW met2 ( 268555 1208700 ) ( * 1210060 0 )
-      NEW met3 ( 268410 1195780 ) ( 415610 * )
-      NEW met2 ( 415610 272720 ) M2M3_PR
-      NEW met2 ( 415610 1195780 ) M2M3_PR
-      NEW met2 ( 268410 1195780 ) M2M3_PR ;
+      NEW met2 ( 268410 1169260 ) ( * 1208700 )
+      NEW met2 ( 416530 1169260 ) M2M3_PR
+      NEW met2 ( 416530 272720 ) M2M3_PR
+      NEW met2 ( 268410 1169260 ) M2M3_PR ;
     - analog_ctrl\[78\] ( u_cf_bgr CurrAbsTrim[1] ) ( u_afe_wb analog_ctrl[78] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 270300 ) ( 418370 * )
+      + ROUTED met3 ( 417220 270300 ) ( 417910 * )
       NEW met3 ( 417220 270000 ) ( * 270300 )
       NEW met3 ( 414760 270000 0 ) ( 417220 * )
-      NEW met2 ( 418370 270300 ) ( * 522580 )
-      NEW met3 ( 279220 522580 ) ( 418370 * )
-      NEW met3 ( 276815 1209380 ) ( 279220 * )
+      NEW met2 ( 417910 270300 ) ( * 521900 )
+      NEW met3 ( 277380 521900 ) ( 417910 * )
+      NEW met3 ( 277380 1208700 ) ( 278300 * )
+      NEW met3 ( 278300 1208700 ) ( * 1209380 )
+      NEW met3 ( 276815 1209380 ) ( 278300 * )
       NEW met2 ( 276815 1209380 ) ( * 1210060 0 )
-      NEW met4 ( 279220 522580 ) ( * 1209380 )
-      NEW met3 ( 279220 522580 ) M3M4_PR
-      NEW met2 ( 418370 270300 ) M2M3_PR
-      NEW met2 ( 418370 522580 ) M2M3_PR
-      NEW met3 ( 279220 1209380 ) M3M4_PR
+      NEW met4 ( 277380 521900 ) ( * 1208700 )
+      NEW met3 ( 277380 521900 ) M3M4_PR
+      NEW met2 ( 417910 270300 ) M2M3_PR
+      NEW met2 ( 417910 521900 ) M2M3_PR
+      NEW met3 ( 277380 1208700 ) M3M4_PR
       NEW met2 ( 276815 1209380 ) M2M3_PR ;
     - analog_ctrl\[79\] ( u_cf_bgr CurrAbsTrim[2] ) ( u_afe_wb analog_ctrl[79] ) + USE SIGNAL
       + ROUTED met3 ( 417220 266900 ) ( * 267000 )
@@ -10333,84 +10336,82 @@ NETS 779 ;
       NEW met3 ( 417220 266900 ) ( 435850 * )
       NEW met3 ( 389850 528700 ) ( 435850 * )
       NEW met2 ( 435850 266900 ) ( * 528700 )
-      NEW met3 ( 277150 1082900 ) ( 389850 * )
+      NEW met3 ( 277150 1078820 ) ( 389850 * )
       NEW met2 ( 277150 1208700 ) ( 277185 * )
       NEW met2 ( 277185 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 277150 1082900 ) ( * 1208700 )
-      NEW met2 ( 389850 528700 ) ( * 1082900 )
-      NEW met2 ( 389850 1082900 ) M2M3_PR
+      NEW met2 ( 277150 1078820 ) ( * 1208700 )
+      NEW met2 ( 389850 528700 ) ( * 1078820 )
+      NEW met2 ( 389850 1078820 ) M2M3_PR
       NEW met2 ( 389850 528700 ) M2M3_PR
       NEW met2 ( 435850 266900 ) M2M3_PR
       NEW met2 ( 435850 528700 ) M2M3_PR
-      NEW met2 ( 277150 1082900 ) M2M3_PR ;
+      NEW met2 ( 277150 1078820 ) M2M3_PR ;
     - analog_ctrl\[7\] ( u_afe_wb analog_ctrl[7] ) + USE SIGNAL ;
     - analog_ctrl\[80\] ( u_cf_bgr CurrAbsTrim[3] ) ( u_afe_wb analog_ctrl[80] ) + USE SIGNAL
       + ROUTED met3 ( 417220 264860 ) ( 417450 * )
       NEW met3 ( 417220 264560 ) ( * 264860 )
       NEW met3 ( 414760 264560 0 ) ( 417220 * )
-      NEW met2 ( 417450 264860 ) ( * 523260 )
-      NEW met3 ( 278300 523260 ) ( 417450 * )
-      NEW met3 ( 277555 1208700 ) ( 278300 * )
+      NEW met2 ( 417450 264860 ) ( * 522580 )
+      NEW met3 ( 276460 522580 ) ( 417450 * )
+      NEW met3 ( 276460 1208020 ) ( 277610 * )
+      NEW met2 ( 277610 1208020 ) ( * 1208700 )
+      NEW met2 ( 277555 1208700 ) ( 277610 * )
       NEW met2 ( 277555 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 278300 523260 ) ( * 1208700 )
-      NEW met3 ( 278300 523260 ) M3M4_PR
+      NEW met4 ( 276460 522580 ) ( * 1208020 )
+      NEW met3 ( 276460 522580 ) M3M4_PR
       NEW met2 ( 417450 264860 ) M2M3_PR
-      NEW met2 ( 417450 523260 ) M2M3_PR
-      NEW met3 ( 278300 1208700 ) M3M4_PR
-      NEW met2 ( 277555 1208700 ) M2M3_PR ;
+      NEW met2 ( 417450 522580 ) M2M3_PR
+      NEW met3 ( 276460 1208020 ) M3M4_PR
+      NEW met2 ( 277610 1208020 ) M2M3_PR ;
     - analog_ctrl\[81\] ( u_cf_bgr CurrAbsTrim[4] ) ( u_afe_wb analog_ctrl[81] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 261840 0 ) ( 416530 * )
-      NEW met2 ( 416530 261840 ) ( * 528020 )
-      NEW met3 ( 280140 528020 ) ( 416530 * )
-      NEW met3 ( 280140 1208700 ) ( 280945 * )
-      NEW met2 ( 280945 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 280140 528020 ) ( * 1208700 )
+      + ROUTED met3 ( 414760 261840 0 ) ( 416990 * )
+      NEW met2 ( 416990 261840 ) ( * 528020 )
+      NEW met3 ( 280140 528020 ) ( 416990 * )
+      NEW met3 ( 280140 1209380 ) ( 280945 * )
+      NEW met2 ( 280945 1209380 ) ( * 1210060 0 )
+      NEW met4 ( 280140 528020 ) ( * 1209380 )
       NEW met3 ( 280140 528020 ) M3M4_PR
-      NEW met2 ( 416530 261840 ) M2M3_PR
-      NEW met2 ( 416530 528020 ) M2M3_PR
-      NEW met3 ( 280140 1208700 ) M3M4_PR
-      NEW met2 ( 280945 1208700 ) M2M3_PR ;
+      NEW met2 ( 416990 261840 ) M2M3_PR
+      NEW met2 ( 416990 528020 ) M2M3_PR
+      NEW met3 ( 280140 1209380 ) M3M4_PR
+      NEW met2 ( 280945 1209380 ) M2M3_PR ;
     - analog_ctrl\[82\] ( u_cf_bgr CurrAbsTrim[5] ) ( u_afe_wb analog_ctrl[82] ) + USE SIGNAL
-      + ROUTED met2 ( 415150 259120 ) ( 415610 * )
-      NEW met3 ( 414760 259120 0 ) ( 415610 * )
-      NEW met2 ( 415150 259120 ) ( * 1201220 )
-      NEW met2 ( 281750 1201220 ) ( * 1208700 )
-      NEW met2 ( 281315 1208700 ) ( 281750 * )
+      + ROUTED met3 ( 414760 259120 0 ) ( 416070 * )
+      NEW met2 ( 416070 259120 ) ( * 1169940 )
+      NEW met3 ( 281290 1169940 ) ( 416070 * )
+      NEW met2 ( 281290 1208700 ) ( 281315 * )
       NEW met2 ( 281315 1208700 ) ( * 1210060 0 )
-      NEW met3 ( 281750 1201220 ) ( 415150 * )
-      NEW met2 ( 415610 259120 ) M2M3_PR
-      NEW met2 ( 415150 1201220 ) M2M3_PR
-      NEW met2 ( 281750 1201220 ) M2M3_PR ;
+      NEW met2 ( 281290 1169940 ) ( * 1208700 )
+      NEW met2 ( 416070 1169940 ) M2M3_PR
+      NEW met2 ( 416070 259120 ) M2M3_PR
+      NEW met2 ( 281290 1169940 ) M2M3_PR ;
     - analog_ctrl\[83\] ( u_cf_bgr inl_ctrl[0] ) ( u_afe_wb analog_ctrl[83] ) + USE SIGNAL
-      + ROUTED met3 ( 417220 256700 ) ( 419290 * )
-      NEW met3 ( 417220 256400 ) ( * 256700 )
-      NEW met3 ( 414760 256400 0 ) ( 417220 * )
-      NEW met2 ( 395370 1203770 ) ( * 1203940 )
-      NEW met1 ( 395370 1203770 ) ( 419290 * )
-      NEW met2 ( 419290 256700 ) ( * 1203770 )
-      NEW met2 ( 266110 1203940 ) ( * 1208700 )
+      + ROUTED met2 ( 415150 256400 ) ( 415610 * )
+      NEW met3 ( 414760 256400 0 ) ( 415610 * )
+      NEW met2 ( 266110 1201220 ) ( * 1208700 )
       NEW met2 ( 265845 1208700 ) ( 266110 * )
       NEW met2 ( 265845 1208700 ) ( * 1210060 0 )
-      NEW met3 ( 266110 1203940 ) ( 395370 * )
-      NEW met2 ( 419290 256700 ) M2M3_PR
-      NEW met2 ( 395370 1203940 ) M2M3_PR
-      NEW met1 ( 395370 1203770 ) M1M2_PR
-      NEW met1 ( 419290 1203770 ) M1M2_PR
-      NEW met2 ( 266110 1203940 ) M2M3_PR ;
+      NEW met3 ( 266110 1201220 ) ( 415150 * )
+      NEW met2 ( 415150 256400 ) ( * 1201220 )
+      NEW met2 ( 415610 256400 ) M2M3_PR
+      NEW met2 ( 266110 1201220 ) M2M3_PR
+      NEW met2 ( 415150 1201220 ) M2M3_PR ;
     - analog_ctrl\[84\] ( u_cf_bgr inl_ctrl[1] ) ( u_afe_wb analog_ctrl[84] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 253680 0 ) ( 416990 * )
-      NEW met2 ( 416990 253680 ) ( * 513740 )
-      NEW met3 ( 293020 513740 ) ( 416990 * )
+      + ROUTED met3 ( 414760 253680 0 ) ( 416300 * )
+      NEW met4 ( 415380 469200 ) ( * 511700 )
+      NEW met4 ( 415380 469200 ) ( 416300 * )
+      NEW met4 ( 416300 253680 ) ( * 469200 )
+      NEW met5 ( 293020 511700 ) ( 415380 * )
       NEW met3 ( 270940 1210060 ) ( 293020 * )
       NEW met3 ( 270940 1208020 ) ( * 1210060 )
       NEW met3 ( 265190 1208020 ) ( 270940 * )
       NEW met2 ( 265190 1208020 ) ( * 1208700 )
       NEW met2 ( 265190 1208700 ) ( 265245 * )
       NEW met2 ( 265245 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 293020 513740 ) ( * 1210060 )
-      NEW met3 ( 293020 513740 ) M3M4_PR
-      NEW met2 ( 416990 513740 ) M2M3_PR
-      NEW met2 ( 416990 253680 ) M2M3_PR
+      NEW met4 ( 293020 511700 ) ( * 1210060 )
+      NEW met4 ( 293020 511700 ) M4M5_PR
+      NEW met4 ( 415380 511700 ) M4M5_PR
+      NEW met3 ( 416300 253680 ) M3M4_PR
       NEW met3 ( 293020 1210060 ) M3M4_PR
       NEW met2 ( 265190 1208020 ) M2M3_PR ;
     - analog_ctrl\[85\] ( u_cf_bgr inl_ctrl[2] ) ( u_afe_wb analog_ctrl[85] ) + USE SIGNAL
@@ -10419,16 +10420,20 @@ NETS 779 ;
       NEW met3 ( 417220 250580 ) ( 435390 * )
       NEW met3 ( 390770 529380 ) ( 435390 * )
       NEW met2 ( 435390 250580 ) ( * 529380 )
-      NEW met3 ( 264730 1080860 ) ( 390770 * )
+      NEW met3 ( 264730 1082900 ) ( 284510 * )
+      NEW met2 ( 284510 1080860 ) ( * 1082900 )
+      NEW met3 ( 284510 1080860 ) ( 390770 * )
       NEW met2 ( 264615 1208700 ) ( 264730 * )
       NEW met2 ( 264615 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 264730 1080860 ) ( * 1208700 )
+      NEW met2 ( 264730 1082900 ) ( * 1208700 )
       NEW met2 ( 390770 529380 ) ( * 1080860 )
       NEW met2 ( 390770 1080860 ) M2M3_PR
       NEW met2 ( 390770 529380 ) M2M3_PR
       NEW met2 ( 435390 250580 ) M2M3_PR
       NEW met2 ( 435390 529380 ) M2M3_PR
-      NEW met2 ( 264730 1080860 ) M2M3_PR ;
+      NEW met2 ( 264730 1082900 ) M2M3_PR
+      NEW met2 ( 284510 1082900 ) M2M3_PR
+      NEW met2 ( 284510 1080860 ) M2M3_PR ;
     - analog_ctrl\[86\] ( u_cf_bgr inl_ctrl[3] ) ( u_afe_wb analog_ctrl[86] ) + USE SIGNAL
       + ROUTED met3 ( 417220 247860 ) ( * 247960 )
       NEW met3 ( 414760 247960 0 ) ( 417220 * )
@@ -10444,15 +10449,15 @@ NETS 779 ;
       NEW met3 ( 262660 1208700 ) M3M4_PR
       NEW met2 ( 264010 1208700 ) M2M3_PR ;
     - analog_ctrl\[87\] ( u_cf_bgr inl_ctrl[4] ) ( u_afe_wb analog_ctrl[87] ) + USE SIGNAL
-      + ROUTED met3 ( 414760 245520 0 ) ( 416300 * )
-      NEW met4 ( 416300 245520 ) ( * 1129140 )
-      NEW met3 ( 263350 1129140 ) ( 416300 * )
+      + ROUTED met3 ( 414760 245520 0 ) ( 417220 * )
+      NEW met2 ( 263350 1183540 ) ( * 1208700 )
       NEW met2 ( 263350 1208700 ) ( 263395 * )
       NEW met2 ( 263395 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 263350 1129140 ) ( * 1208700 )
-      NEW met3 ( 416300 245520 ) M3M4_PR
-      NEW met3 ( 416300 1129140 ) M3M4_PR
-      NEW met2 ( 263350 1129140 ) M2M3_PR ;
+      NEW met3 ( 263350 1183540 ) ( 417220 * )
+      NEW met4 ( 417220 245520 ) ( * 1183540 )
+      NEW met3 ( 417220 245520 ) M3M4_PR
+      NEW met2 ( 263350 1183540 ) M2M3_PR
+      NEW met3 ( 417220 1183540 ) M3M4_PR ;
     - analog_ctrl\[88\] ( u_cf_bgr inl_ctrl[5] ) ( u_afe_wb analog_ctrl[88] ) + USE SIGNAL
       + ROUTED met3 ( 417220 242800 ) ( * 243100 )
       NEW met3 ( 414760 242800 0 ) ( 417220 * )
@@ -10474,18 +10479,18 @@ NETS 779 ;
       NEW met3 ( 417220 239700 ) ( 441830 * )
       NEW met1 ( 404110 527850 ) ( 441830 * )
       NEW met2 ( 441830 239700 ) ( * 527850 )
-      NEW met3 ( 261970 1082900 ) ( 276230 * )
-      NEW met2 ( 276230 1076610 ) ( * 1082900 )
+      NEW met3 ( 261970 1081540 ) ( 276230 * )
+      NEW met2 ( 276230 1076610 ) ( * 1081540 )
       NEW met1 ( 276230 1076610 ) ( 404110 * )
       NEW met2 ( 261970 1208700 ) ( 262175 * )
       NEW met2 ( 262175 1208700 ) ( * 1210060 0 )
-      NEW met2 ( 261970 1082900 ) ( * 1208700 )
+      NEW met2 ( 261970 1081540 ) ( * 1208700 )
       NEW met1 ( 404110 1076610 ) M1M2_PR
       NEW met1 ( 404110 527850 ) M1M2_PR
       NEW met2 ( 441830 239700 ) M2M3_PR
       NEW met1 ( 441830 527850 ) M1M2_PR
-      NEW met2 ( 261970 1082900 ) M2M3_PR
-      NEW met2 ( 276230 1082900 ) M2M3_PR
+      NEW met2 ( 261970 1081540 ) M2M3_PR
+      NEW met2 ( 276230 1081540 ) M2M3_PR
       NEW met1 ( 276230 1076610 ) M1M2_PR ;
     - analog_ctrl\[8\] ( u_cf_adc_sar12_sar_refs pd ) ( u_cf_adc_sar12 pd ) ( u_afe_wb analog_ctrl[8] ) + USE SIGNAL
       + ROUTED met3 ( 417220 460400 ) ( * 460700 )
@@ -10513,31 +10518,33 @@ NETS 779 ;
       NEW met3 ( 616860 465460 ) M3M4_PR
       NEW met4 ( 616860 708220 ) RECT ( -150 -620 150 0 )  ;
     - analog_ctrl\[90\] ( u_cf_bgr mux1sel[0] ) ( u_afe_wb analog_ctrl[90] ) + USE SIGNAL
-      + ROUTED met4 ( 414760 239700 ) ( 415380 * )
-      NEW met4 ( 414760 237360 ) ( * 239700 )
-      NEW met4 ( 415380 239700 ) ( * 1176060 )
-      NEW met2 ( 280370 1176060 ) ( * 1209210 )
-      NEW met1 ( 280370 1209210 ) ( 282420 * )
+      + ROUTED met3 ( 417220 237660 ) ( 419290 * )
+      NEW met3 ( 417220 237360 ) ( * 237660 )
+      NEW met3 ( 414760 237360 0 ) ( 417220 * )
+      NEW met2 ( 419290 237660 ) ( * 1184900 )
+      NEW met2 ( 281750 1184900 ) ( * 1208190 )
+      NEW met1 ( 281750 1208190 ) ( 282420 * )
+      NEW met1 ( 282420 1208190 ) ( * 1209210 )
       NEW met2 ( 282420 1209210 ) ( * 1210060 0 )
-      NEW met3 ( 280370 1176060 ) ( 415380 * )
-      NEW met3 ( 415380 1176060 ) M3M4_PR
-      NEW met3 ( 414760 237360 ) M3M4_PR_M
-      NEW met2 ( 280370 1176060 ) M2M3_PR
-      NEW met1 ( 280370 1209210 ) M1M2_PR
+      NEW met3 ( 281750 1184900 ) ( 419290 * )
+      NEW met2 ( 419290 237660 ) M2M3_PR
+      NEW met2 ( 419290 1184900 ) M2M3_PR
+      NEW met2 ( 281750 1184900 ) M2M3_PR
+      NEW met1 ( 281750 1208190 ) M1M2_PR
       NEW met1 ( 282420 1209210 ) M1M2_PR ;
     - analog_ctrl\[91\] ( u_cf_bgr mux1sel[1] ) ( u_afe_wb analog_ctrl[91] ) + USE SIGNAL
       + ROUTED met3 ( 417220 234260 ) ( * 234360 )
       NEW met3 ( 414760 234360 0 ) ( 417220 * )
-      NEW met2 ( 404570 530060 ) ( * 1081540 )
+      NEW met2 ( 405490 530060 ) ( * 1081540 )
       NEW met3 ( 417220 234260 ) ( 434930 * )
-      NEW met3 ( 404570 530060 ) ( 434930 * )
+      NEW met3 ( 405490 530060 ) ( 434930 * )
       NEW met2 ( 434930 234260 ) ( * 530060 )
-      NEW met3 ( 282670 1081540 ) ( 404570 * )
+      NEW met3 ( 282670 1081540 ) ( 405490 * )
       NEW met2 ( 282670 1208700 ) ( 282790 * )
       NEW met2 ( 282790 1208700 ) ( * 1210060 0 )
       NEW met2 ( 282670 1081540 ) ( * 1208700 )
-      NEW met2 ( 404570 1081540 ) M2M3_PR
-      NEW met2 ( 404570 530060 ) M2M3_PR
+      NEW met2 ( 405490 1081540 ) M2M3_PR
+      NEW met2 ( 405490 530060 ) M2M3_PR
       NEW met2 ( 434930 234260 ) M2M3_PR
       NEW met2 ( 434930 530060 ) M2M3_PR
       NEW met2 ( 282670 1081540 ) M2M3_PR ;
@@ -10546,51 +10553,53 @@ NETS 779 ;
       NEW met3 ( 417220 231920 ) ( * 232220 )
       NEW met3 ( 414760 231920 0 ) ( 417220 * )
       NEW met4 ( 419980 232220 ) ( * 1079500 )
-      NEW met3 ( 282210 1079500 ) ( 282900 * )
       NEW met5 ( 282900 1079500 ) ( 419980 * )
-      NEW met2 ( 282050 1208700 ) ( 282210 * )
-      NEW met2 ( 282050 1208700 ) ( * 1210060 0 )
+      NEW met3 ( 282210 1079500 ) ( 282900 * )
       NEW met2 ( 282210 1079500 ) ( * 1208700 )
+      NEW met2 ( 281750 1208700 ) ( 282210 * )
+      NEW met2 ( 281750 1208700 ) ( * 1209380 )
+      NEW met2 ( 281750 1209380 ) ( 282050 * )
+      NEW met2 ( 282050 1209380 ) ( * 1210060 0 )
       NEW met4 ( 419980 1079500 ) M4M5_PR
       NEW met3 ( 419980 232220 ) M3M4_PR
-      NEW met2 ( 282210 1079500 ) M2M3_PR
       NEW met3 ( 282900 1079500 ) M3M4_PR
-      NEW met4 ( 282900 1079500 ) M4M5_PR ;
+      NEW met4 ( 282900 1079500 ) M4M5_PR
+      NEW met2 ( 282210 1079500 ) M2M3_PR ;
     - analog_ctrl\[93\] ( u_cf_bgr dft_sel ) ( u_afe_wb analog_ctrl[93] ) + USE SIGNAL
-      + ROUTED met4 ( 403420 276000 ) ( 414460 * )
-      NEW met4 ( 414460 243100 ) ( * 276000 )
-      NEW met4 ( 413540 243100 ) ( 414460 * )
-      NEW met4 ( 413540 236300 ) ( * 243100 )
-      NEW met4 ( 413540 236300 ) ( 414460 * )
-      NEW met4 ( 414460 229500 ) ( * 236300 )
-      NEW met4 ( 414460 229500 ) ( 414760 * )
+      + ROUTED met5 ( 403420 280500 ) ( 414460 * )
+      NEW met4 ( 414460 276000 ) ( * 280500 )
+      NEW met4 ( 414460 276000 ) ( 415380 * )
+      NEW met4 ( 415380 229500 ) ( * 276000 )
+      NEW met4 ( 414760 229500 ) ( 415380 * )
       NEW met4 ( 414760 229200 ) ( * 229500 )
-      NEW met4 ( 403420 276000 ) ( * 1210060 )
       NEW met3 ( 324300 1209380 ) ( * 1210060 )
-      NEW met3 ( 324300 1210060 ) ( 403420 * )
       NEW met2 ( 283160 1209380 ) ( * 1210060 0 )
       NEW met3 ( 283160 1209380 ) ( 324300 * )
+      NEW met3 ( 324300 1210060 ) ( 403420 * )
+      NEW met4 ( 403420 280500 ) ( * 1210060 )
+      NEW met4 ( 403420 280500 ) M4M5_PR
+      NEW met4 ( 414460 280500 ) M4M5_PR
       NEW met3 ( 414760 229200 ) M3M4_PR_M
-      NEW met3 ( 403420 1210060 ) M3M4_PR
-      NEW met2 ( 283160 1209380 ) M2M3_PR ;
+      NEW met2 ( 283160 1209380 ) M2M3_PR
+      NEW met3 ( 403420 1210060 ) M3M4_PR ;
     - analog_ctrl\[94\] ( u_cf_bgr pd ) ( u_afe_wb analog_ctrl[94] ) + USE SIGNAL
       + ROUTED met3 ( 417220 226780 ) ( 418830 * )
       NEW met3 ( 417220 226480 ) ( * 226780 )
       NEW met3 ( 414760 226480 0 ) ( 417220 * )
       NEW met3 ( 418140 282540 ) ( 418830 * )
       NEW met2 ( 418830 226780 ) ( * 282540 )
-      NEW met4 ( 418140 282540 ) ( * 523940 )
-      NEW met3 ( 293940 523940 ) ( 418140 * )
+      NEW met4 ( 418140 282540 ) ( * 523260 )
+      NEW met3 ( 293940 523260 ) ( 418140 * )
       NEW met3 ( 284050 1208020 ) ( 293940 * )
       NEW met2 ( 284050 1208020 ) ( * 1208700 )
       NEW met2 ( 283985 1208700 ) ( 284050 * )
       NEW met2 ( 283985 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 293940 523940 ) ( * 1208020 )
+      NEW met4 ( 293940 523260 ) ( * 1208020 )
       NEW met2 ( 418830 226780 ) M2M3_PR
       NEW met3 ( 418140 282540 ) M3M4_PR
       NEW met2 ( 418830 282540 ) M2M3_PR
-      NEW met3 ( 293940 523940 ) M3M4_PR
-      NEW met3 ( 418140 523940 ) M3M4_PR
+      NEW met3 ( 293940 523260 ) M3M4_PR
+      NEW met3 ( 418140 523260 ) M3M4_PR
       NEW met3 ( 293940 1208020 ) M3M4_PR
       NEW met2 ( 284050 1208020 ) M2M3_PR ;
     - analog_ctrl\[95\] ( u_cf_bgr pd_ibg ) ( u_afe_wb analog_ctrl[95] ) + USE SIGNAL
@@ -10612,17 +10621,17 @@ NETS 779 ;
     - analog_ctrl\[96\] ( u_cf_bgr finetune ) ( u_afe_wb analog_ctrl[96] ) + USE SIGNAL
       + ROUTED met3 ( 417220 220660 ) ( * 220760 )
       NEW met3 ( 414760 220760 0 ) ( 417220 * )
-      NEW met3 ( 516580 1208700 ) ( 517390 * )
-      NEW met2 ( 517390 1208700 ) ( * 1210060 0 )
-      NEW met4 ( 516580 251260 ) ( * 1208700 )
       NEW met3 ( 417220 220660 ) ( 431250 * )
       NEW met2 ( 431250 220660 ) ( * 251260 )
       NEW met3 ( 431250 251260 ) ( 516580 * )
+      NEW met3 ( 516580 1208700 ) ( 517390 * )
+      NEW met2 ( 517390 1208700 ) ( * 1210060 0 )
+      NEW met4 ( 516580 251260 ) ( * 1208700 )
       NEW met3 ( 516580 251260 ) M3M4_PR
-      NEW met3 ( 516580 1208700 ) M3M4_PR
-      NEW met2 ( 517390 1208700 ) M2M3_PR
       NEW met2 ( 431250 220660 ) M2M3_PR
-      NEW met2 ( 431250 251260 ) M2M3_PR ;
+      NEW met2 ( 431250 251260 ) M2M3_PR
+      NEW met3 ( 516580 1208700 ) M3M4_PR
+      NEW met2 ( 517390 1208700 ) M2M3_PR ;
     - analog_ctrl\[97\] ( u_cf_bgr en_startb ) ( u_afe_wb analog_ctrl[97] ) + USE SIGNAL
       + ROUTED met3 ( 417220 218320 ) ( * 218620 )
       NEW met3 ( 414760 218320 0 ) ( 417220 * )
@@ -10630,10 +10639,10 @@ NETS 779 ;
       NEW met2 ( 308430 1505180 ) ( * 1505350 )
       NEW met1 ( 307610 1505350 ) ( 308430 * )
       NEW met1 ( 307610 1505350 ) ( * 1506370 0 )
-      NEW met4 ( 308660 555220 ) ( * 1505180 )
       NEW met3 ( 417220 218620 ) ( 422510 * )
       NEW met3 ( 308660 555220 ) ( 422510 * )
       NEW met2 ( 422510 218620 ) ( * 555220 )
+      NEW met4 ( 308660 555220 ) ( * 1505180 )
       NEW met3 ( 308660 555220 ) M3M4_PR
       NEW met3 ( 308660 1505180 ) M3M4_PR
       NEW met2 ( 308430 1505180 ) M2M3_PR
@@ -10669,122 +10678,132 @@ NETS 779 ;
     - analog_io[0] ( PIN analog_io[0] ) ( u_cf_bgr vb2_fast ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met1 TAPER ( 313125 1520990 0 ) ( * 1521670 )
       NEW met1 TAPER ( 313125 1521670 ) ( 314410 * )
-      NEW met1 ( 314410 1521670 ) ( 557750 * )
-      NEW met2 ( 557750 1426980 210 ) ( * 1521670 210 )
-      NEW met3 ( 557750 1426980 210 ) ( 2917780 * 0 )
-      NEW met2 ( 557750 1426980 ) M2M3_PR
-      NEW met1 ( 557750 1521670 ) M1M2_PR ;
+      NEW met1 ( 314410 1521670 ) ( 556830 * )
+      NEW met2 ( 556830 1426980 210 ) ( * 1521670 210 )
+      NEW met3 ( 556830 1426980 210 ) ( 2917780 * 0 )
+      NEW met2 ( 556830 1426980 ) M2M3_PR
+      NEW met1 ( 556830 1521670 ) M1M2_PR ;
     - analog_io[10] ( PIN analog_io[10] ) ( u_cf_buf_hiz vbnt ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 ( 2230770 1188300 210 ) ( * 3517980 0 )
-      NEW met3 ( 327750 779690 210 ) ( 328900 * 210 )
-      NEW met2 TAPER ( 326205 779690 0 ) ( 327750 * )
-      NEW met3 ( 328900 1186940 210 ) ( 372600 * 210 )
-      NEW met3 ( 372600 1186940 210 ) ( * 1188300 210 )
-      NEW met3 ( 372600 1188300 210 ) ( 2230770 * 210 )
-      NEW met4 ( 328900 779690 210 ) ( * 1186940 210 )
-      NEW met2 ( 2230770 1188300 ) M2M3_PR
+      + ROUTED met2 ( 2230770 1188980 210 ) ( * 3517980 0 )
+      NEW met3 ( 326160 779690 210 ) ( 328900 * 210 )
+      NEW met4 ( 328900 779690 210 ) ( * 1188980 210 )
+      NEW met2 ( 400430 1188810 210 ) ( * 1188980 210 )
+      NEW met1 ( 400430 1188810 ) ( 404570 * )
+      NEW met2 ( 404570 1188810 210 ) ( * 1188980 210 )
+      NEW met3 ( 328900 1188980 210 ) ( 400430 * 210 )
+      NEW met3 ( 404570 1188980 210 ) ( 2230770 * 210 )
+      NEW met2 ( 2230770 1188980 ) M2M3_PR
       NEW met3 ( 328900 779690 ) M3M4_PR
-      NEW met2 TAPER ( 327750 779690 ) M2M3_PR
-      NEW met3 ( 328900 1186940 ) M3M4_PR ;
+      NEW met2 TAPER ( 326160 779690 ) M2M3_PR_MR
+      NEW met3 ( 328900 1188980 ) M3M4_PR
+      NEW met2 ( 400430 1188980 ) M2M3_PR
+      NEW met1 ( 400430 1188810 ) M1M2_PR
+      NEW met1 ( 404570 1188810 ) M1M2_PR
+      NEW met2 ( 404570 1188980 ) M2M3_PR ;
     - analog_io[11] ( PIN analog_io[11] ) ( u_cf_buf_hiz vbpb ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 313260 876180 210 ) ( 317120 * 210 )
       NEW met2 TAPER ( 317120 874820 0 ) ( * 876180 )
       NEW met4 ( 313260 876180 210 ) ( * 1097100 210 )
       NEW met4 ( 313260 1097100 210 ) ( 314180 * 210 )
-      NEW met4 ( 314180 1097100 210 ) ( * 1202580 210 )
-      NEW met3 ( 314180 1202580 210 ) ( 1906010 * 210 )
-      NEW met2 ( 1906010 1202580 210 ) ( * 3517980 0 )
+      NEW met4 ( 314180 1097100 210 ) ( * 1203940 210 )
+      NEW met2 ( 1906010 1203940 210 ) ( * 3517980 0 )
+      NEW met3 ( 314180 1203940 210 ) ( 1906010 * 210 )
       NEW met3 ( 313260 876180 ) M3M4_PR
       NEW met2 TAPER ( 317120 876180 ) M2M3_PR
-      NEW met3 ( 314180 1202580 ) M3M4_PR
-      NEW met2 ( 1906010 1202580 ) M2M3_PR ;
+      NEW met3 ( 314180 1203940 ) M3M4_PR
+      NEW met2 ( 1906010 1203940 ) M2M3_PR ;
     - analog_io[12] ( PIN analog_io[12] ) ( u_cf_buf_hiz vbpc ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met4 ( 323380 1014220 210 ) ( * 1197140 210 )
-      NEW met2 ( 1569750 1197140 210 ) ( * 3512540 210 )
-      NEW met3 ( 325705 929220 210 ) ( 327060 * 210 )
-      NEW met2 TAPER ( 325705 928220 0 ) ( * 929220 )
-      NEW met3 ( 323380 1014220 210 ) ( 327060 * 210 )
-      NEW met4 ( 327060 929220 210 ) ( * 1014220 210 )
-      NEW met3 ( 323380 1197140 210 ) ( 1569750 * 210 )
+      + ROUTED met2 ( 1569750 1196460 210 ) ( * 3512540 210 )
+      NEW met3 ( 325220 931260 210 ) ( 325450 * 210 )
+      NEW met2 TAPER ( 325450 928220 ) ( * 929900 )
+      NEW met2 ( 325450 929900 210 ) ( * 931260 210 )
+      NEW met2 TAPER ( 325450 928220 ) ( 325595 * 0 )
+      NEW met4 ( 325220 931260 210 ) ( * 1196460 210 )
       NEW met2 ( 1581710 3512540 210 ) ( * 3517980 0 )
       NEW met3 ( 1569750 3512540 210 ) ( 1581710 * 210 )
-      NEW met3 ( 323380 1014220 ) M3M4_PR
-      NEW met3 ( 323380 1197140 ) M3M4_PR
-      NEW met2 ( 1569750 1197140 ) M2M3_PR
+      NEW met3 ( 325220 1196460 210 ) ( 1569750 * 210 )
+      NEW met2 ( 1569750 1196460 ) M2M3_PR
       NEW met2 ( 1569750 3512540 ) M2M3_PR
-      NEW met3 ( 327060 929220 ) M3M4_PR
-      NEW met2 TAPER ( 325705 929220 ) M2M3_PR
-      NEW met3 ( 327060 1014220 ) M3M4_PR
-      NEW met2 ( 1581710 3512540 ) M2M3_PR ;
+      NEW met3 ( 325220 931260 ) M3M4_PR
+      NEW met2 ( 325450 931260 ) M2M3_PR
+      NEW met3 ( 325220 1196460 ) M3M4_PR
+      NEW met2 ( 1581710 3512540 ) M2M3_PR
+      NEW met3 TAPER ( 325220 931260 ) RECT ( -390 -150 0 150 )  ;
     - analog_io[13] ( PIN analog_io[13] ) ( u_cf_buf_hiz vbnc ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met2 TAPER ( 323610 975575 ) ( 324225 * 0 )
       NEW met2 TAPER ( 323610 975575 ) ( * 977330 )
       NEW met2 ( 323610 977330 210 ) ( * 979540 210 )
       NEW met3 ( 323380 979540 210 ) ( 323610 * 210 )
-      NEW met3 ( 311420 1071340 210 ) ( 317860 * 210 )
-      NEW met3 ( 311420 1012860 210 ) ( 323380 * 210 )
-      NEW met4 ( 311420 1012860 210 ) ( * 1071340 210 )
-      NEW met4 ( 323380 979540 210 ) ( * 1012860 210 )
-      NEW met4 ( 317860 1071340 210 ) ( * 1190340 210 )
-      NEW met2 ( 1257410 1189660 210 ) ( * 3517980 0 )
-      NEW met3 ( 348220 1189660 210 ) ( * 1190340 210 )
-      NEW met3 ( 317860 1190340 210 ) ( 348220 * 210 )
-      NEW met3 ( 348220 1189660 210 ) ( 1257410 * 210 )
+      NEW met4 ( 323380 979540 210 ) ( * 1193060 210 )
+      NEW met2 ( 1257410 1190340 210 ) ( * 3517980 0 )
+      NEW met2 ( 348450 1190340 210 ) ( * 1193060 210 )
+      NEW met3 ( 323380 1193060 210 ) ( 348450 * 210 )
+      NEW met2 ( 400430 1190170 210 ) ( * 1190340 210 )
+      NEW met1 ( 400430 1190170 ) ( 404570 * )
+      NEW met2 ( 404570 1190170 210 ) ( * 1190340 210 )
+      NEW met3 ( 404570 1190340 210 ) ( 446430 * 210 )
+      NEW met2 ( 446430 1190340 210 ) ( 448500 * 210 )
+      NEW met3 ( 348450 1190340 210 ) ( 400430 * 210 )
+      NEW met3 ( 448500 1190340 210 ) ( 1257410 * 210 )
       NEW met2 ( 323610 979540 ) M2M3_PR
       NEW met3 ( 323380 979540 ) M3M4_PR
-      NEW met3 ( 311420 1071340 ) M3M4_PR
-      NEW met3 ( 317860 1071340 ) M3M4_PR
-      NEW met3 ( 317860 1190340 ) M3M4_PR
-      NEW met2 ( 1257410 1189660 ) M2M3_PR
-      NEW met3 ( 311420 1012860 ) M3M4_PR
-      NEW met3 ( 323380 1012860 ) M3M4_PR
+      NEW met3 ( 323380 1193060 ) M3M4_PR
+      NEW met2 ( 1257410 1190340 ) M2M3_PR
+      NEW met2 ( 348450 1193060 ) M2M3_PR
+      NEW met2 ( 348450 1190340 ) M2M3_PR
+      NEW met2 ( 400430 1190340 ) M2M3_PR
+      NEW met1 ( 400430 1190170 ) M1M2_PR
+      NEW met1 ( 404570 1190170 ) M1M2_PR
+      NEW met2 ( 404570 1190340 ) M2M3_PR
+      NEW met2 ( 446430 1190340 ) M2M3_PR
+      NEW met2 ( 448500 1190340 ) M2M3_PR
       NEW met3 TAPER ( 323610 979540 ) RECT ( 0 -150 390 150 )  ;
     - analog_io[14] ( PIN analog_io[14] ) ( u_cf_buf_hiz vbpci ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 347530 800020 ) ( * 800085 )
-      NEW met2 TAPER ( 346150 800085 0 ) ( 347530 * )
-      NEW met3 ( 396750 1203940 210 ) ( 932650 * 210 )
-      NEW met2 ( 932650 1203940 210 ) ( * 3517980 0 )
-      NEW met3 ( 347530 800020 210 ) ( 396750 * 210 )
-      NEW met2 ( 396750 800020 210 ) ( * 1203940 210 )
-      NEW met2 ( 396750 1203940 ) M2M3_PR
-      NEW met2 TAPER ( 347530 800020 ) M2M3_PR
-      NEW met2 ( 932650 1203940 ) M2M3_PR
-      NEW met2 ( 396750 800020 ) M2M3_PR ;
+      + ROUTED met2 ( 932650 1207340 210 ) ( * 3517980 0 )
+      NEW met2 ( 396750 800020 210 ) ( * 1207340 210 )
+      NEW met2 TAPER ( 347070 800020 ) ( * 800085 )
+      NEW met2 TAPER ( 346150 800085 0 ) ( 347070 * )
+      NEW met3 ( 347070 800020 210 ) ( 396750 * 210 )
+      NEW met3 ( 396750 1207340 210 ) ( 932650 * 210 )
+      NEW met2 ( 396750 1207340 ) M2M3_PR
+      NEW met2 ( 932650 1207340 ) M2M3_PR
+      NEW met2 ( 396750 800020 ) M2M3_PR
+      NEW met2 TAPER ( 347070 800020 ) M2M3_PR ;
     - analog_io[15] ( PIN analog_io[15] ) ( u_cf_buf_hiz vbnci ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 ( 608350 1199860 210 ) ( * 3517980 0 )
-      NEW met3 ( 325220 778015 210 ) ( 325450 * 210 )
-      NEW met2 TAPER ( 325450 778015 ) ( 326095 * 0 )
-      NEW met4 ( 325220 1048800 210 ) ( 326140 * 210 )
-      NEW met4 ( 325220 778015 210 ) ( * 1048800 210 )
-      NEW met4 ( 326140 1048800 210 ) ( * 1199860 210 )
-      NEW met3 ( 326140 1199860 210 ) ( 608350 * 210 )
-      NEW met2 ( 608350 1199860 ) M2M3_PR
-      NEW met3 ( 325220 778015 ) M3M4_PR
-      NEW met2 TAPER ( 325450 778015 ) M2M3_PR
-      NEW met3 ( 326140 1199860 ) M3M4_PR
-      NEW met3 TAPER ( 325220 778015 ) RECT ( -390 -150 0 150 )  ;
+      + ROUTED met2 ( 608350 3513220 210 ) ( * 3517980 0 )
+      NEW met2 TAPER ( 327290 778015 ) ( * 779580 )
+      NEW met2 TAPER ( 326205 778015 0 ) ( 327290 * )
+      NEW met3 ( 327290 1054340 210 ) ( 334420 * 210 )
+      NEW met4 ( 334420 1054340 210 ) ( * 3513220 210 )
+      NEW met3 ( 334420 3513220 210 ) ( 608350 * 210 )
+      NEW met2 ( 327290 779580 210 ) ( * 1054340 210 )
+      NEW met2 ( 608350 3513220 ) M2M3_PR
+      NEW met2 ( 327290 1054340 ) M2M3_PR
+      NEW met3 ( 334420 1054340 ) M3M4_PR
+      NEW met3 ( 334420 3513220 ) M3M4_PR ;
     - analog_io[16] ( PIN analog_io[16] ) ( u_cf_buf_hiz vbpcis ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 284050 3498940 210 ) ( 306820 * 210 )
-      NEW met4 ( 306820 834020 210 ) ( * 3498940 210 )
       NEW met2 ( 284050 3498940 210 ) ( * 3517980 0 )
-      NEW met3 ( 306820 834020 210 ) ( 324990 * 210 )
+      NEW met3 ( 306820 834020 210 ) ( 324070 * 210 )
+      NEW met2 TAPER ( 324070 834020 ) ( 324990 * 0 )
+      NEW met4 ( 306820 834020 210 ) ( * 3498940 210 )
       NEW met2 ( 284050 3498940 ) M2M3_PR
       NEW met3 ( 306820 3498940 ) M3M4_PR
       NEW met3 ( 306820 834020 ) M3M4_PR
-      NEW met2 TAPER ( 324990 834020 ) M2M3_PR_M ;
+      NEW met2 TAPER ( 324070 834020 ) M2M3_PR ;
     - analog_io[17] ( PIN analog_io[17] ) ( u_cf_buf_hiz vbncis ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 460 3484660 210 ) ( 690 * 210 )
       NEW met3 ( 460 3484660 210 ) ( * 3486700 0 )
       NEW met2 ( 690 3370420 210 ) ( * 3484660 210 )
-      NEW met2 TAPER ( 322460 810365 0 ) ( * 810900 )
       NEW met3 ( 690 3370420 210 ) ( 175260 * 210 )
       NEW met4 ( 175260 810900 210 ) ( * 3370420 210 )
+      NEW met2 TAPER ( 322460 810365 0 ) ( * 810900 )
       NEW met3 ( 175260 810900 210 ) ( 322460 * 210 )
       NEW met2 ( 690 3370420 ) M2M3_PR
       NEW met2 ( 690 3484660 ) M2M3_PR
-      NEW met2 TAPER ( 322460 810900 ) M2M3_PR
       NEW met3 ( 175260 3370420 ) M3M4_PR
-      NEW met3 ( 175260 810900 ) M3M4_PR ;
+      NEW met3 ( 175260 810900 ) M3M4_PR
+      NEW met2 TAPER ( 322460 810900 ) M2M3_PR ;
     - analog_io[18] ( PIN analog_io[18] ) ( u_cf_buf_hiz vbpcid ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 460 3223540 210 ) ( * 3225580 0 )
       NEW met3 ( 460 3223540 210 ) ( 17250 * 210 )
@@ -10792,8 +10811,8 @@ NETS 779 ;
       NEW met2 TAPER ( 346150 742585 0 ) ( 347990 * )
       NEW met2 ( 347990 742585 210 ) ( * 759000 210 )
       NEW met2 ( 347990 759000 210 ) ( 348450 * 210 )
-      NEW met2 ( 348450 759000 210 ) ( * 1155660 210 )
       NEW met3 ( 17250 1155660 210 ) ( 348450 * 210 )
+      NEW met2 ( 348450 759000 210 ) ( * 1155660 210 )
       NEW met2 ( 17250 1155660 ) M2M3_PR
       NEW met2 ( 17250 3223540 ) M2M3_PR
       NEW met2 ( 348450 1155660 ) M2M3_PR ;
@@ -10805,38 +10824,44 @@ NETS 779 ;
       NEW met2 TAPER ( 347070 743435 ) ( * 745110 )
       NEW met2 ( 347070 745110 210 ) ( * 751230 210 )
       NEW met1 ( 347070 751230 ) ( 349830 * )
-      NEW met2 ( 349830 751230 210 ) ( * 1127780 210 )
       NEW met3 ( 37950 1127780 210 ) ( 349830 * 210 )
+      NEW met2 ( 349830 751230 210 ) ( * 1127780 210 )
       NEW met2 ( 37950 1127780 ) M2M3_PR
       NEW met2 ( 37950 2962420 ) M2M3_PR
       NEW met1 ( 347070 751230 ) M1M2_PR
       NEW met1 ( 349830 751230 ) M1M2_PR
       NEW met2 ( 349830 1127780 ) M2M3_PR ;
     - analog_io[1] ( PIN analog_io[1] ) ( u_cf_buf_hiz vinp_p ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 ( 493350 1186940 210 ) ( * 1191020 210 )
-      NEW met3 ( 200790 950980 210 ) ( 201940 * 210 )
+      + ROUTED met3 ( 200790 950980 210 ) ( 201940 * 210 )
       NEW met2 ( 200790 950980 210 ) ( * 951150 210 )
       NEW met1 TAPER ( 200790 951150 ) ( 201550 * )
       NEW met1 TAPER ( 201550 950470 0 ) ( * 951150 )
-      NEW met4 ( 201940 950980 210 ) ( * 1188980 210 )
-      NEW met3 ( 324300 1188300 210 ) ( * 1188980 210 )
-      NEW met3 ( 324300 1188300 210 ) ( 349370 * 210 )
-      NEW met2 ( 349370 1188300 210 ) ( * 1191020 210 )
-      NEW met3 ( 349370 1191020 210 ) ( 493350 * 210 )
-      NEW met3 ( 493350 1186940 210 ) ( 556370 * 210 )
-      NEW met2 ( 556370 1186940 210 ) ( * 1692860 210 )
-      NEW met3 ( 556370 1692860 210 ) ( 2917780 * 0 )
-      NEW met3 ( 201940 1188980 210 ) ( 324300 * 210 )
-      NEW met3 ( 201940 1188980 ) M3M4_PR
-      NEW met2 ( 493350 1191020 ) M2M3_PR
-      NEW met2 ( 493350 1186940 ) M2M3_PR
+      NEW met4 ( 201940 950980 210 ) ( * 1191700 210 )
+      NEW met2 ( 555450 1191870 210 ) ( * 1692860 210 )
+      NEW met3 ( 555450 1692860 210 ) ( 2917780 * 0 )
+      NEW met2 ( 400430 1191530 210 ) ( * 1191700 210 )
+      NEW met1 ( 400430 1191530 ) ( 404570 * )
+      NEW met2 ( 404570 1191530 210 ) ( * 1191700 210 )
+      NEW met3 ( 404570 1191700 210 ) ( 446430 * 210 )
+      NEW met2 ( 446430 1191700 210 ) ( 448500 * 210 )
+      NEW met3 ( 201940 1191700 210 ) ( 400430 * 210 )
+      NEW met2 ( 543030 1191700 210 ) ( * 1191870 210 )
+      NEW met3 ( 448500 1191700 210 ) ( 543030 * 210 )
+      NEW met1 ( 543030 1191870 ) ( 555450 * )
+      NEW met3 ( 201940 1191700 ) M3M4_PR
       NEW met3 ( 201940 950980 ) M3M4_PR
       NEW met2 ( 200790 950980 ) M2M3_PR
       NEW met1 TAPER ( 200790 951150 ) M1M2_PR
-      NEW met2 ( 349370 1188300 ) M2M3_PR
-      NEW met2 ( 349370 1191020 ) M2M3_PR
-      NEW met2 ( 556370 1186940 ) M2M3_PR
-      NEW met2 ( 556370 1692860 ) M2M3_PR ;
+      NEW met1 ( 555450 1191870 ) M1M2_PR
+      NEW met2 ( 555450 1692860 ) M2M3_PR
+      NEW met2 ( 400430 1191700 ) M2M3_PR
+      NEW met1 ( 400430 1191530 ) M1M2_PR
+      NEW met1 ( 404570 1191530 ) M1M2_PR
+      NEW met2 ( 404570 1191700 ) M2M3_PR
+      NEW met2 ( 446430 1191700 ) M2M3_PR
+      NEW met2 ( 448500 1191700 ) M2M3_PR
+      NEW met2 ( 543030 1191700 ) M2M3_PR
+      NEW met1 ( 543030 1191870 ) M1M2_PR ;
     - analog_io[20] ( PIN analog_io[20] ) ( u_cf_adc_sar12 vinm ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met3 ( 1380 2701300 210 ) ( * 2704020 0 )
       NEW met4 ( 1380 2693820 210 ) ( * 2701300 210 )
@@ -10989,30 +11014,44 @@ NETS 779 ;
       NEW met1 TAPER ( 203090 951490 ) ( 203550 * )
       NEW met2 ( 203550 951490 210 ) ( * 951660 210 )
       NEW met3 ( 203550 951660 210 ) ( 203780 * 210 )
-      NEW met4 ( 203780 951660 210 ) ( * 1192380 210 )
-      NEW met2 ( 576150 1192380 210 ) ( * 2489820 210 )
+      NEW met4 ( 203780 951660 210 ) ( * 1198500 210 )
+      NEW met2 ( 576150 1198500 210 ) ( * 2489820 210 )
       NEW met3 ( 576150 2489820 210 ) ( 2917780 * 0 )
-      NEW met3 ( 203780 1192380 210 ) ( 576150 * 210 )
-      NEW met3 ( 203780 1192380 ) M3M4_PR
-      NEW met2 ( 576150 1192380 ) M2M3_PR
+      NEW met3 ( 203780 1198500 210 ) ( 576150 * 210 )
       NEW met1 TAPER ( 203550 951490 ) M1M2_PR
       NEW met2 ( 203550 951660 ) M2M3_PR
       NEW met3 ( 203780 951660 ) M3M4_PR
+      NEW met3 ( 203780 1198500 ) M3M4_PR
+      NEW met2 ( 576150 1198500 ) M2M3_PR
       NEW met2 ( 576150 2489820 ) M2M3_PR
       NEW met3 TAPER ( 203550 951660 ) RECT ( -390 -150 0 150 )  ;
     - analog_io[5] ( PIN analog_io[5] ) ( u_cf_buf_hiz vinp_na ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met3 ( 200100 949620 210 ) ( 202305 * 210 )
+      + ROUTED met2 ( 392150 1187620 210 ) ( * 1189490 210 )
       NEW met2 ( 202305 949620 210 ) ( * 950470 210 )
-      NEW met4 ( 200100 949620 210 ) ( * 2749580 210 )
-      NEW met2 ( 2912030 2749580 210 ) ( * 2755700 210 )
-      NEW met3 ( 2912030 2755700 210 ) ( 2917780 * 0 )
-      NEW met3 ( 200100 2749580 210 ) ( 2912030 * 210 )
-      NEW met3 ( 200100 949620 ) M3M4_PR
-      NEW met2 ( 202305 949620 ) M2M3_PR
+      NEW met3 ( 202305 949620 210 ) ( 205620 * 210 )
+      NEW met4 ( 205620 949620 210 ) ( * 1189660 210 )
+      NEW met2 ( 583050 1191700 210 ) ( * 2755700 210 )
+      NEW met3 ( 324300 1187620 210 ) ( * 1189660 210 )
+      NEW met3 ( 324300 1187620 210 ) ( 392150 * 210 )
+      NEW met3 ( 557980 1191700 210 ) ( * 1192380 210 )
+      NEW met3 ( 557980 1191700 210 ) ( 583050 * 210 )
+      NEW met3 ( 583050 2755700 210 ) ( 2917780 * 0 )
+      NEW met3 ( 205620 1189660 210 ) ( 324300 * 210 )
+      NEW met2 ( 499790 1189490 210 ) ( * 1193060 210 )
+      NEW met3 ( 499790 1193060 210 ) ( 544180 * 210 )
+      NEW met3 ( 544180 1192380 210 ) ( * 1193060 210 )
+      NEW met1 ( 392150 1189490 ) ( 499790 * )
+      NEW met3 ( 544180 1192380 210 ) ( 557980 * 210 )
+      NEW met3 ( 205620 1189660 ) M3M4_PR
+      NEW met2 ( 392150 1187620 ) M2M3_PR
+      NEW met1 ( 392150 1189490 ) M1M2_PR
+      NEW met2 ( 583050 1191700 ) M2M3_PR
       NEW met1 TAPER ( 202305 950470 ) M1M2_PR_MR
-      NEW met3 ( 200100 2749580 ) M3M4_PR
-      NEW met2 ( 2912030 2749580 ) M2M3_PR
-      NEW met2 ( 2912030 2755700 ) M2M3_PR ;
+      NEW met2 ( 202305 949620 ) M2M3_PR
+      NEW met3 ( 205620 949620 ) M3M4_PR
+      NEW met2 ( 583050 2755700 ) M2M3_PR
+      NEW met1 ( 499790 1189490 ) M1M2_PR
+      NEW met2 ( 499790 1193060 ) M2M3_PR ;
     - analog_io[6] ( PIN analog_io[6] ) ( u_cf_buf_hiz vinn_na ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
       + ROUTED met1 TAPER ( 201710 951490 ) ( 201915 * )
       NEW met1 TAPER ( 201915 950810 0 ) ( * 951490 )
@@ -11053,16 +11092,15 @@ NETS 779 ;
       NEW met2 ( 772570 1387540 ) M2M3_PR
       NEW met2 ( 2879370 1390260 ) M2M3_PR ;
     - analog_io[9] ( PIN analog_io[9] ) ( u_cf_buf_hiz vbpt ) + USE SIGNAL + NONDEFAULTRULE ANALOG_WIDE
-      + ROUTED met2 TAPER ( 347530 798405 ) ( * 798660 )
-      NEW met2 TAPER ( 346150 798405 0 ) ( 347530 * )
-      NEW met3 ( 398590 1207340 210 ) ( 2555070 * 210 )
-      NEW met2 ( 2555070 1207340 210 ) ( * 3517980 0 )
-      NEW met3 ( 347530 798660 210 ) ( 398590 * 210 )
-      NEW met2 ( 398590 798660 210 ) ( * 1207340 210 )
-      NEW met2 ( 398590 1207340 ) M2M3_PR
-      NEW met2 TAPER ( 347530 798660 ) M2M3_PR
-      NEW met2 ( 2555070 1207340 ) M2M3_PR
-      NEW met2 ( 398590 798660 ) M2M3_PR ;
+      + ROUTED met2 ( 2555070 1202580 210 ) ( * 3517980 0 )
+      NEW met3 TAPER ( 325910 834700 ) ( 327060 * )
+      NEW met2 TAPER ( 324990 834700 0 ) ( 325910 * )
+      NEW met4 ( 327060 834700 210 ) ( * 1202580 210 )
+      NEW met3 ( 327060 1202580 210 ) ( 2555070 * 210 )
+      NEW met3 ( 327060 1202580 ) M3M4_PR
+      NEW met2 ( 2555070 1202580 ) M2M3_PR
+      NEW met3 TAPER ( 327060 834700 ) M3M4_PR
+      NEW met2 TAPER ( 325910 834700 ) M2M3_PR ;
     - io_in[0] ( PIN io_in[0] ) + USE SIGNAL ;
     - io_in[10] ( PIN io_in[10] ) + USE SIGNAL ;
     - io_in[11] ( PIN io_in[11] ) + USE SIGNAL ;
@@ -11113,37 +11151,37 @@ NETS 779 ;
       NEW met2 ( 2917090 506940 ) M2M3_PR
       NEW met2 ( 2917090 2423180 ) M2M3_PR ;
     - io_oeb[11] ( PIN io_oeb[11] ) ( u_afe_wb analog_io_oeb[4] ) + USE SIGNAL
-      + ROUTED met4 ( 147660 474300 ) ( * 2689060 )
-      NEW met3 ( 147660 2689060 ) ( 2917780 * 0 )
+      + ROUTED met4 ( 161460 474300 ) ( * 2689060 )
+      NEW met3 ( 161460 2689060 ) ( 2917780 * 0 )
       NEW met4 ( 15500 474300 ) ( 17020 * )
       NEW met4 ( 15500 474300 ) ( * 475320 )
-      NEW met5 ( 17020 474300 ) ( 147660 * )
-      NEW met4 ( 147660 474300 ) M4M5_PR
-      NEW met3 ( 147660 2689060 ) M3M4_PR
+      NEW met5 ( 17020 474300 ) ( 161460 * )
+      NEW met4 ( 161460 474300 ) M4M5_PR
+      NEW met3 ( 161460 2689060 ) M3M4_PR
       NEW met4 ( 17020 474300 ) M4M5_PR
       NEW met3 ( 15500 475320 ) M3M4_PR_MR ;
     - io_oeb[12] ( PIN io_oeb[12] ) ( u_afe_wb analog_io_oeb[5] ) + USE SIGNAL
-      + ROUTED met2 ( 11270 468180 ) ( * 513740 )
-      NEW met2 ( 872850 1198500 ) ( * 2935900 )
+      + ROUTED met1 ( 11730 491470 ) ( 13570 * )
+      NEW met2 ( 11730 491470 ) ( * 513740 )
+      NEW met2 ( 13570 468520 ) ( * 491470 )
       NEW met4 ( 255300 513740 ) ( * 528700 )
-      NEW met3 ( 255300 528700 ) ( 355350 * )
-      NEW met3 ( 355350 1198500 ) ( 872850 * )
-      NEW met2 ( 2863730 2935900 ) ( * 2954940 )
-      NEW met3 ( 872850 2935900 ) ( 2863730 * )
-      NEW met3 ( 2863730 2954940 ) ( 2917780 * 0 )
-      NEW met3 ( 11270 513740 ) ( 255300 * )
-      NEW met2 ( 355350 528700 ) ( * 1198500 )
-      NEW met3 ( 11270 468180 ) ( 15360 * 0 )
-      NEW met2 ( 11270 513740 ) M2M3_PR
-      NEW met2 ( 11270 468180 ) M2M3_PR
-      NEW met2 ( 872850 1198500 ) M2M3_PR
-      NEW met2 ( 872850 2935900 ) M2M3_PR
+      NEW met3 ( 255300 528700 ) ( 354660 * )
+      NEW met4 ( 810060 1195100 ) ( * 2954940 )
+      NEW met3 ( 810060 2954940 ) ( 2917780 * 0 )
+      NEW met3 ( 11730 513740 ) ( 255300 * )
+      NEW met4 ( 354660 528700 ) ( * 1195100 )
+      NEW met3 ( 13570 468520 ) ( 15220 * 0 )
+      NEW met5 ( 354660 1195100 ) ( 810060 * )
+      NEW met1 ( 13570 491470 ) M1M2_PR
+      NEW met1 ( 11730 491470 ) M1M2_PR
+      NEW met2 ( 11730 513740 ) M2M3_PR
+      NEW met2 ( 13570 468520 ) M2M3_PR
       NEW met3 ( 255300 513740 ) M3M4_PR
       NEW met3 ( 255300 528700 ) M3M4_PR
-      NEW met2 ( 355350 528700 ) M2M3_PR
-      NEW met2 ( 355350 1198500 ) M2M3_PR
-      NEW met2 ( 2863730 2935900 ) M2M3_PR
-      NEW met2 ( 2863730 2954940 ) M2M3_PR ;
+      NEW met3 ( 354660 528700 ) M3M4_PR
+      NEW met4 ( 354660 1195100 ) M4M5_PR
+      NEW met4 ( 810060 1195100 ) M4M5_PR
+      NEW met3 ( 810060 2954940 ) M3M4_PR ;
     - io_oeb[13] ( PIN io_oeb[13] ) ( u_afe_wb analog_io_oeb[6] ) + USE SIGNAL
       + ROUTED met3 ( 2530 508300 ) ( 31740 * )
       NEW met2 ( 2530 461380 ) ( * 508300 )
@@ -11180,71 +11218,65 @@ NETS 779 ;
       NEW met2 ( 2636030 3515260 ) M2M3_PR
       NEW met3 ( 98900 504900 ) M3M4_PR ;
     - io_oeb[16] ( PIN io_oeb[16] ) ( u_afe_wb analog_io_oeb[9] ) + USE SIGNAL
-      + ROUTED met2 ( 11730 440980 ) ( * 517140 )
-      NEW met2 ( 577070 1195780 ) ( * 1386860 )
+      + ROUTED met2 ( 11270 440980 ) ( * 516460 )
+      NEW met2 ( 577530 1199860 ) ( * 1386860 )
       NEW met4 ( 613180 1386900 ) ( * 1395700 )
       NEW met2 ( 2311730 3094340 ) ( * 3517980 0 )
-      NEW met3 ( 355810 1184220 ) ( 524630 * )
-      NEW met3 ( 577070 1386860 ) ( 614100 * )
+      NEW met3 ( 577530 1386860 ) ( 614100 * )
       NEW met3 ( 631350 3094340 ) ( 2311730 * )
-      NEW met3 ( 340860 642260 ) ( 355810 * )
-      NEW met4 ( 340860 517140 ) ( * 642260 )
-      NEW met2 ( 524630 1184220 ) ( * 1195780 )
-      NEW met3 ( 524630 1195780 ) ( 577070 * )
+      NEW met3 ( 340860 642260 ) ( 355350 * )
+      NEW met4 ( 340860 516460 ) ( * 642260 )
       NEW met4 ( 614100 1386860 ) ( * 1386900 )
       NEW met4 ( 613180 1386900 ) ( 614100 * )
       NEW met4 ( 613180 1395700 ) ( 614100 * )
       NEW met3 ( 614100 1395700 ) ( 631350 * )
       NEW met2 ( 631350 1395700 ) ( * 3094340 )
-      NEW met3 ( 11730 517140 ) ( 340860 * )
-      NEW met2 ( 355810 642260 ) ( * 1184220 )
-      NEW met3 ( 11730 440980 ) ( 15360 * 0 )
-      NEW met2 ( 11730 517140 ) M2M3_PR
-      NEW met2 ( 577070 1386860 ) M2M3_PR
+      NEW met3 ( 11270 516460 ) ( 340860 * )
+      NEW met2 ( 355350 642260 ) ( * 1199860 )
+      NEW met3 ( 11270 440980 ) ( 15360 * 0 )
+      NEW met3 ( 355350 1199860 ) ( 577530 * )
+      NEW met2 ( 11270 516460 ) M2M3_PR
+      NEW met2 ( 577530 1386860 ) M2M3_PR
       NEW met2 ( 2311730 3094340 ) M2M3_PR
-      NEW met2 ( 11730 440980 ) M2M3_PR
-      NEW met2 ( 577070 1195780 ) M2M3_PR
-      NEW met3 ( 340860 517140 ) M3M4_PR
-      NEW met2 ( 355810 1184220 ) M2M3_PR
-      NEW met2 ( 524630 1184220 ) M2M3_PR
+      NEW met2 ( 11270 440980 ) M2M3_PR
+      NEW met2 ( 577530 1199860 ) M2M3_PR
+      NEW met3 ( 340860 516460 ) M3M4_PR
       NEW met3 ( 614100 1386860 ) M3M4_PR
       NEW met2 ( 631350 3094340 ) M2M3_PR
       NEW met3 ( 340860 642260 ) M3M4_PR
-      NEW met2 ( 355810 642260 ) M2M3_PR
-      NEW met2 ( 524630 1195780 ) M2M3_PR
+      NEW met2 ( 355350 642260 ) M2M3_PR
+      NEW met2 ( 355350 1199860 ) M2M3_PR
       NEW met3 ( 614100 1395700 ) M3M4_PR
       NEW met2 ( 631350 1395700 ) M2M3_PR ;
     - io_oeb[17] ( PIN io_oeb[17] ) ( u_afe_wb analog_io_oeb[10] ) + USE SIGNAL
       + ROUTED met2 ( 6670 498100 ) ( 7130 * )
-      NEW met2 ( 7130 498100 ) ( * 511020 )
-      NEW met3 ( 7130 511020 ) ( 15410 * )
-      NEW met2 ( 7130 434180 ) ( * 462740 )
-      NEW met2 ( 6670 462740 ) ( 7130 * )
-      NEW met2 ( 6670 462740 ) ( * 498100 )
-      NEW met2 ( 15410 511020 ) ( * 1520820 )
-      NEW met2 ( 577070 2483700 ) ( * 2880140 )
-      NEW met3 ( 15410 1520820 ) ( 517500 * )
-      NEW met3 ( 517500 1520820 ) ( * 1522180 )
-      NEW met3 ( 517500 1522180 ) ( 534750 * )
-      NEW met3 ( 534750 1690140 ) ( 555450 * )
-      NEW met2 ( 534750 1522180 ) ( * 1690140 )
-      NEW met2 ( 555450 1690140 ) ( * 2483700 )
-      NEW met3 ( 555450 2483700 ) ( 577070 * )
-      NEW met3 ( 577070 2880140 ) ( 1976850 * )
+      NEW met2 ( 7130 498100 ) ( * 511700 )
+      NEW met3 ( 7130 511700 ) ( 15410 * )
+      NEW met2 ( 7130 434180 ) ( * 463420 )
+      NEW met2 ( 6670 463420 ) ( 7130 * )
+      NEW met2 ( 6670 463420 ) ( * 498100 )
+      NEW met2 ( 15410 511700 ) ( * 1072700 )
+      NEW met3 ( 566030 1200540 ) ( 610650 * )
+      NEW met2 ( 566030 1184220 ) ( * 1200540 )
+      NEW met2 ( 610650 1200540 ) ( * 2880140 )
+      NEW met3 ( 15410 1072700 ) ( 341550 * )
+      NEW met2 ( 341550 1072700 ) ( * 1184220 )
+      NEW met3 ( 610650 2880140 ) ( 1976850 * )
       NEW met3 ( 1976850 3514580 ) ( 1987430 * )
       NEW met2 ( 1987430 3514580 ) ( * 3517980 0 )
       NEW met2 ( 1976850 2880140 ) ( * 3514580 )
       NEW met3 ( 7130 434180 ) ( 15360 * 0 )
-      NEW met2 ( 7130 511020 ) M2M3_PR
-      NEW met2 ( 15410 511020 ) M2M3_PR
+      NEW met3 ( 341550 1184220 ) ( 566030 * )
+      NEW met2 ( 7130 511700 ) M2M3_PR
+      NEW met2 ( 15410 511700 ) M2M3_PR
+      NEW met2 ( 15410 1072700 ) M2M3_PR
+      NEW met2 ( 566030 1184220 ) M2M3_PR
       NEW met2 ( 7130 434180 ) M2M3_PR
-      NEW met2 ( 15410 1520820 ) M2M3_PR
-      NEW met2 ( 577070 2483700 ) M2M3_PR
-      NEW met2 ( 577070 2880140 ) M2M3_PR
-      NEW met2 ( 534750 1522180 ) M2M3_PR
-      NEW met2 ( 534750 1690140 ) M2M3_PR
-      NEW met2 ( 555450 1690140 ) M2M3_PR
-      NEW met2 ( 555450 2483700 ) M2M3_PR
+      NEW met2 ( 566030 1200540 ) M2M3_PR
+      NEW met2 ( 610650 1200540 ) M2M3_PR
+      NEW met2 ( 610650 2880140 ) M2M3_PR
+      NEW met2 ( 341550 1072700 ) M2M3_PR
+      NEW met2 ( 341550 1184220 ) M2M3_PR
       NEW met2 ( 1976850 2880140 ) M2M3_PR
       NEW met2 ( 1976850 3514580 ) M2M3_PR
       NEW met2 ( 1987430 3514580 ) M2M3_PR ;
@@ -11297,22 +11329,22 @@ NETS 779 ;
       NEW met4 ( 56580 436900 ) M4M5_PR
       NEW met3 ( 6670 436900 ) RECT ( -390 -150 0 150 )  ;
     - io_oeb[21] ( PIN io_oeb[21] ) ( u_afe_wb analog_io_oeb[14] ) + USE SIGNAL
-      + ROUTED met4 ( 183540 419900 ) ( * 1046180 )
+      + ROUTED met4 ( 183540 419900 ) ( * 1046860 )
       NEW met2 ( 689310 3515940 ) ( * 3517980 0 )
       NEW met4 ( 166060 406300 ) ( * 419900 )
       NEW met5 ( 166060 419900 ) ( 183540 * )
-      NEW met3 ( 183540 1046180 ) ( 547860 * )
-      NEW met4 ( 547860 1046180 ) ( * 3515940 )
+      NEW met3 ( 183540 1046860 ) ( 547860 * )
+      NEW met4 ( 547860 1046860 ) ( * 3515940 )
       NEW met3 ( 547860 3515940 ) ( 689310 * )
       NEW met4 ( 15360 406300 ) ( 17020 * )
       NEW met4 ( 15360 406300 ) ( * 407080 )
       NEW met5 ( 17020 406300 ) ( 166060 * )
       NEW met4 ( 183540 419900 ) M4M5_PR
-      NEW met3 ( 183540 1046180 ) M3M4_PR
+      NEW met3 ( 183540 1046860 ) M3M4_PR
       NEW met2 ( 689310 3515940 ) M2M3_PR
       NEW met4 ( 166060 406300 ) M4M5_PR
       NEW met4 ( 166060 419900 ) M4M5_PR
-      NEW met3 ( 547860 1046180 ) M3M4_PR
+      NEW met3 ( 547860 1046860 ) M3M4_PR
       NEW met3 ( 547860 3515940 ) M3M4_PR
       NEW met4 ( 17020 406300 ) M4M5_PR
       NEW met3 ( 15360 407080 ) M3M4_PR_M ;
@@ -11344,11 +11376,13 @@ NETS 779 ;
       NEW met4 ( 58420 440300 ) M4M5_PR ;
     - io_oeb[23] ( PIN io_oeb[23] ) ( u_afe_wb analog_io_oeb[16] ) + USE SIGNAL
       + ROUTED met3 ( 12190 393380 ) ( 15360 * 0 )
-      NEW met2 ( 12190 393380 ) ( * 517820 )
-      NEW met3 ( 12190 517820 ) ( 40710 * )
+      NEW met2 ( 11270 517140 ) ( 12190 * )
+      NEW met2 ( 12190 393380 ) ( * 517140 )
+      NEW met2 ( 11270 517140 ) ( * 517820 )
+      NEW met3 ( 11270 517820 ) ( 40710 * )
       NEW met2 ( 40710 517820 ) ( * 3517980 0 )
       NEW met2 ( 12190 393380 ) M2M3_PR
-      NEW met2 ( 12190 517820 ) M2M3_PR
+      NEW met2 ( 11270 517820 ) M2M3_PR
       NEW met2 ( 40710 517820 ) M2M3_PR ;
     - io_oeb[24] ( PIN io_oeb[24] ) ( u_afe_wb analog_io_oeb[17] ) + USE SIGNAL
       + ROUTED met3 ( 9430 386580 ) ( 15360 * 0 )
@@ -11440,17 +11474,17 @@ NETS 779 ;
       NEW met3 ( 5060 2245020 ) M3M4_PR
       NEW met2 ( 12650 359720 ) M2M3_PR ;
     - io_oeb[29] ( PIN io_oeb[29] ) ( u_afe_wb analog_io_oeb[22] ) + USE SIGNAL
-      + ROUTED met3 ( 10810 352580 ) ( 15360 * 0 )
-      NEW met3 ( 4830 449140 ) ( 10810 * )
-      NEW met2 ( 10810 352580 ) ( * 449140 )
+      + ROUTED met3 ( 10350 352580 ) ( 15360 * 0 )
+      NEW met3 ( 4830 449140 ) ( 10350 * )
+      NEW met2 ( 10350 352580 ) ( * 449140 )
       NEW met3 ( 3220 1207340 ) ( 4830 * )
       NEW met2 ( 4830 449140 ) ( * 1207340 )
       NEW met3 ( 1380 1987300 0 ) ( * 1987980 )
       NEW met3 ( 1380 1987980 ) ( 3220 * )
       NEW met4 ( 3220 1207340 ) ( * 1987980 )
-      NEW met2 ( 10810 352580 ) M2M3_PR
+      NEW met2 ( 10350 352580 ) M2M3_PR
       NEW met2 ( 4830 449140 ) M2M3_PR
-      NEW met2 ( 10810 449140 ) M2M3_PR
+      NEW met2 ( 10350 449140 ) M2M3_PR
       NEW met3 ( 3220 1207340 ) M3M4_PR
       NEW met2 ( 4830 1207340 ) M2M3_PR
       NEW met3 ( 3220 1987980 ) M3M4_PR ;
@@ -11466,33 +11500,35 @@ NETS 779 ;
       NEW met4 ( 44620 530740 ) ( * 1021020 )
       NEW met5 ( 17020 464100 ) ( 56580 * )
       NEW met4 ( 56580 464100 ) ( * 530740 )
-      NEW met3 ( 10350 345780 ) ( 15360 * 0 )
-      NEW met3 ( 10350 430100 ) ( 14260 * )
-      NEW met4 ( 14260 430100 ) ( 17020 * )
-      NEW met2 ( 10350 345780 ) ( * 430100 )
-      NEW met4 ( 17020 430100 ) ( * 464100 )
+      NEW met3 ( 10810 345780 ) ( 15360 * 0 )
+      NEW met4 ( 17020 448500 ) ( * 464100 )
+      NEW met3 ( 10810 430100 ) ( 14260 * )
+      NEW met4 ( 14260 430100 ) ( 15180 * )
+      NEW met4 ( 15180 430100 ) ( * 448500 )
+      NEW met4 ( 15180 448500 ) ( 17020 * )
+      NEW met2 ( 10810 345780 ) ( * 430100 )
       NEW met3 ( 4140 1277380 ) M3M4_PR
       NEW met3 ( 7820 1277380 ) M3M4_PR
       NEW met3 ( 4140 1726180 ) M3M4_PR
-      NEW met2 ( 10350 345780 ) M2M3_PR
+      NEW met2 ( 10810 345780 ) M2M3_PR
       NEW met3 ( 7820 1021020 ) M3M4_PR
       NEW met3 ( 44620 530740 ) M3M4_PR
       NEW met3 ( 56580 530740 ) M3M4_PR
       NEW met3 ( 44620 1021020 ) M3M4_PR
       NEW met4 ( 17020 464100 ) M4M5_PR
       NEW met4 ( 56580 464100 ) M4M5_PR
-      NEW met2 ( 10350 430100 ) M2M3_PR
+      NEW met2 ( 10810 430100 ) M2M3_PR
       NEW met3 ( 14260 430100 ) M3M4_PR ;
     - io_oeb[31] ( PIN io_oeb[31] ) ( u_afe_wb analog_io_oeb[24] ) + USE SIGNAL
       + ROUTED met3 ( 460 1463020 ) ( * 1465740 0 )
-      NEW met3 ( 460 523260 ) ( 3910 * )
-      NEW met2 ( 3910 338980 ) ( * 523260 )
-      NEW met4 ( 460 523260 ) ( * 1463020 )
-      NEW met3 ( 3910 338980 ) ( 15360 * 0 )
+      NEW met3 ( 460 523940 ) ( 1610 * )
+      NEW met2 ( 1610 338980 ) ( * 523940 )
+      NEW met4 ( 460 523940 ) ( * 1463020 )
+      NEW met3 ( 1610 338980 ) ( 15360 * 0 )
       NEW met3 ( 460 1463020 ) M3M4_PR
-      NEW met2 ( 3910 338980 ) M2M3_PR
-      NEW met3 ( 460 523260 ) M3M4_PR
-      NEW met2 ( 3910 523260 ) M2M3_PR ;
+      NEW met2 ( 1610 338980 ) M2M3_PR
+      NEW met3 ( 460 523940 ) M3M4_PR
+      NEW met2 ( 1610 523940 ) M2M3_PR ;
     - io_oeb[32] ( PIN io_oeb[32] ) ( u_afe_wb analog_io_oeb[25] ) + USE SIGNAL
       + ROUTED met3 ( 1380 1202580 ) ( * 1205300 0 )
       NEW met4 ( 1380 332180 ) ( * 1202580 )
@@ -11548,19 +11584,24 @@ NETS 779 ;
       NEW met3 ( 74980 1626220 ) M3M4_PR
       NEW met3 ( 71300 507620 ) M3M4_PR ;
     - io_oeb[8] ( PIN io_oeb[8] ) ( u_afe_wb analog_io_oeb[1] ) + USE SIGNAL
-      + ROUTED met2 ( 13570 495720 ) ( * 520540 )
-      NEW met2 ( 1928550 520540 ) ( * 1879860 )
-      NEW met2 ( 2863730 1879860 ) ( * 1892100 )
-      NEW met3 ( 1928550 1879860 ) ( 2863730 * )
-      NEW met3 ( 2863730 1892100 ) ( 2917780 * 0 )
-      NEW met3 ( 13570 520540 ) ( 1928550 * )
+      + ROUTED met2 ( 13570 495720 ) ( * 511020 )
+      NEW met4 ( 395140 511020 ) ( * 515780 )
+      NEW met3 ( 395140 515780 ) ( 395370 * )
+      NEW met2 ( 395370 515780 ) ( * 517310 )
+      NEW met1 ( 395370 517310 ) ( 1873350 * )
+      NEW met2 ( 1873350 517310 ) ( * 1892100 )
+      NEW met3 ( 1873350 1892100 ) ( 2917780 * 0 )
+      NEW met3 ( 13570 511020 ) ( 395140 * )
       NEW met3 ( 13570 495720 ) ( 15220 * 0 )
       NEW met2 ( 13570 495720 ) M2M3_PR
-      NEW met2 ( 13570 520540 ) M2M3_PR
-      NEW met2 ( 1928550 520540 ) M2M3_PR
-      NEW met2 ( 1928550 1879860 ) M2M3_PR
-      NEW met2 ( 2863730 1879860 ) M2M3_PR
-      NEW met2 ( 2863730 1892100 ) M2M3_PR ;
+      NEW met2 ( 13570 511020 ) M2M3_PR
+      NEW met3 ( 395140 511020 ) M3M4_PR
+      NEW met3 ( 395140 515780 ) M3M4_PR
+      NEW met2 ( 395370 515780 ) M2M3_PR
+      NEW met1 ( 395370 517310 ) M1M2_PR
+      NEW met1 ( 1873350 517310 ) M1M2_PR
+      NEW met2 ( 1873350 1892100 ) M2M3_PR
+      NEW met3 ( 395140 515780 ) RECT ( -390 -150 0 150 )  ;
     - io_oeb[9] ( PIN io_oeb[9] ) ( u_afe_wb analog_io_oeb[2] ) + USE SIGNAL
       + ROUTED met3 ( 14490 506260 ) ( 37260 * )
       NEW met3 ( 37260 2157980 ) ( 2917780 * 0 )
@@ -11645,45 +11686,45 @@ NETS 779 ;
       NEW met2 ( 13110 264180 ) M2M3_PR
       NEW met2 ( 2917550 3419380 ) M2M3_PR ;
     - io_out[15] ( PIN io_out[15] ) ( u_afe_wb analog_io_out[8] ) + USE SIGNAL
-      + ROUTED met3 ( 12650 257380 ) ( 15360 * 0 )
-      NEW met2 ( 12650 124100 ) ( * 257380 )
+      + ROUTED met3 ( 12190 257380 ) ( 15360 * 0 )
+      NEW met2 ( 12190 124100 ) ( * 257380 )
       NEW met2 ( 2717450 124100 ) ( * 3517980 0 )
-      NEW met3 ( 12650 124100 ) ( 2717450 * )
-      NEW met2 ( 12650 124100 ) M2M3_PR
+      NEW met3 ( 12190 124100 ) ( 2717450 * )
+      NEW met2 ( 12190 124100 ) M2M3_PR
       NEW met2 ( 2717450 124100 ) M2M3_PR
-      NEW met2 ( 12650 257380 ) M2M3_PR ;
+      NEW met2 ( 12190 257380 ) M2M3_PR ;
     - io_out[16] ( PIN io_out[16] ) ( u_afe_wb analog_io_out[9] ) + USE SIGNAL
       + ROUTED met2 ( 407330 112540 ) ( * 114070 )
-      NEW met3 ( 13570 250580 ) ( 15360 * 0 )
-      NEW met2 ( 13570 112540 ) ( * 250580 )
-      NEW met3 ( 13570 112540 ) ( 407330 * )
+      NEW met3 ( 12650 250580 ) ( 15360 * 0 )
+      NEW met2 ( 12650 112540 ) ( * 250580 )
+      NEW met3 ( 12650 112540 ) ( 407330 * )
       NEW met1 ( 407330 114070 ) ( 2392690 * )
       NEW met2 ( 2392690 114070 ) ( * 3517980 0 )
-      NEW met2 ( 13570 112540 ) M2M3_PR
+      NEW met2 ( 12650 112540 ) M2M3_PR
       NEW met2 ( 407330 112540 ) M2M3_PR
       NEW met1 ( 407330 114070 ) M1M2_PR
-      NEW met2 ( 13570 250580 ) M2M3_PR
+      NEW met2 ( 12650 250580 ) M2M3_PR
       NEW met1 ( 2392690 114070 ) M1M2_PR ;
     - io_out[17] ( PIN io_out[17] ) ( u_afe_wb analog_io_out[10] ) + USE SIGNAL
-      + ROUTED met3 ( 12190 243780 ) ( 15360 * 0 )
-      NEW met2 ( 12190 111180 ) ( * 243780 )
-      NEW met2 ( 2052750 111180 ) ( * 3512540 )
-      NEW met3 ( 12190 111180 ) ( 2052750 * )
+      + ROUTED met3 ( 11730 243780 ) ( 15360 * 0 )
+      NEW met2 ( 11730 115940 ) ( * 243780 )
+      NEW met2 ( 2052750 115940 ) ( * 3512540 )
+      NEW met3 ( 11730 115940 ) ( 2052750 * )
       NEW met2 ( 2068390 3512540 ) ( * 3517980 0 )
       NEW met3 ( 2052750 3512540 ) ( 2068390 * )
-      NEW met2 ( 12190 111180 ) M2M3_PR
-      NEW met2 ( 2052750 111180 ) M2M3_PR
-      NEW met2 ( 12190 243780 ) M2M3_PR
+      NEW met2 ( 11730 115940 ) M2M3_PR
+      NEW met2 ( 2052750 115940 ) M2M3_PR
+      NEW met2 ( 11730 243780 ) M2M3_PR
       NEW met2 ( 2052750 3512540 ) M2M3_PR
       NEW met2 ( 2068390 3512540 ) M2M3_PR ;
     - io_out[18] ( PIN io_out[18] ) ( u_afe_wb analog_io_out[11] ) + USE SIGNAL
-      + ROUTED met3 ( 11730 236980 ) ( 15360 * 0 )
-      NEW met2 ( 11730 109820 ) ( * 236980 )
+      + ROUTED met3 ( 13570 236980 ) ( 15360 * 0 )
+      NEW met2 ( 13570 109820 ) ( * 236980 )
       NEW met2 ( 1744090 109820 ) ( * 3517980 0 )
-      NEW met3 ( 11730 109820 ) ( 1744090 * )
-      NEW met2 ( 11730 109820 ) M2M3_PR
+      NEW met3 ( 13570 109820 ) ( 1744090 * )
+      NEW met2 ( 13570 109820 ) M2M3_PR
       NEW met2 ( 1744090 109820 ) M2M3_PR
-      NEW met2 ( 11730 236980 ) M2M3_PR ;
+      NEW met2 ( 13570 236980 ) M2M3_PR ;
     - io_out[19] ( PIN io_out[19] ) ( u_afe_wb analog_io_out[12] ) + USE SIGNAL
       + ROUTED met3 ( 6670 230180 ) ( 15360 * 0 )
       NEW met2 ( 6670 109140 ) ( * 230180 )
@@ -11726,24 +11767,24 @@ NETS 779 ;
       + ROUTED met3 ( 6210 209780 ) ( 15360 * 0 )
       NEW met2 ( 6210 123420 ) ( * 209780 )
       NEW met2 ( 417450 123420 ) ( * 151300 )
-      NEW met2 ( 420670 648380 ) ( * 1183540 )
       NEW met3 ( 6210 123420 ) ( 417450 * )
-      NEW met3 ( 420670 1183540 ) ( 430100 * )
       NEW met3 ( 417450 151300 ) ( 421130 * )
       NEW met2 ( 420670 648380 ) ( 421130 * )
       NEW met2 ( 421130 151300 ) ( * 648380 )
       NEW met3 ( 430100 3515940 ) ( 445970 * )
       NEW met2 ( 445970 3515940 ) ( * 3517980 0 )
-      NEW met4 ( 430100 1183540 ) ( * 3515940 )
+      NEW met3 ( 420670 1186260 ) ( 430100 * )
+      NEW met2 ( 420670 648380 ) ( * 1186260 )
+      NEW met4 ( 430100 1186260 ) ( * 3515940 )
       NEW met2 ( 6210 123420 ) M2M3_PR
       NEW met2 ( 6210 209780 ) M2M3_PR
       NEW met2 ( 417450 123420 ) M2M3_PR
-      NEW met2 ( 420670 1183540 ) M2M3_PR
       NEW met2 ( 417450 151300 ) M2M3_PR
-      NEW met3 ( 430100 1183540 ) M3M4_PR
       NEW met2 ( 421130 151300 ) M2M3_PR
       NEW met3 ( 430100 3515940 ) M3M4_PR
-      NEW met2 ( 445970 3515940 ) M2M3_PR ;
+      NEW met2 ( 445970 3515940 ) M2M3_PR
+      NEW met2 ( 420670 1186260 ) M2M3_PR
+      NEW met3 ( 430100 1186260 ) M3M4_PR ;
     - io_out[23] ( PIN io_out[23] ) ( u_afe_wb analog_io_out[16] ) + USE SIGNAL
       + ROUTED met3 ( 9890 202980 ) ( 15360 * 0 )
       NEW met2 ( 9890 202980 ) ( * 1528300 )
@@ -11920,23 +11961,23 @@ NETS 779 ;
       NEW met3 ( 15500 312120 ) M3M4_PR_MR ;
     - io_out[8] ( PIN io_out[8] ) ( u_afe_wb analog_io_out[1] ) + USE SIGNAL
       + ROUTED met3 ( 59340 1825460 ) ( 2917780 * 0 )
-      NEW met3 ( 14260 521220 ) ( 59340 * )
-      NEW met4 ( 59340 521220 ) ( * 1825460 )
+      NEW met3 ( 14260 520540 ) ( 59340 * )
+      NEW met4 ( 59340 520540 ) ( * 1825460 )
       NEW met3 ( 14260 305320 ) ( 15220 * 0 )
-      NEW met3 ( 14030 429420 ) ( 14260 * )
-      NEW met2 ( 14030 429420 ) ( * 430780 )
+      NEW met3 ( 14030 406980 ) ( 14260 * )
+      NEW met2 ( 14030 406980 ) ( * 430780 )
       NEW met3 ( 14030 430780 ) ( 14260 * )
-      NEW met4 ( 14260 305320 ) ( * 429420 )
-      NEW met4 ( 14260 430780 ) ( * 521220 )
-      NEW met3 ( 14260 521220 ) M3M4_PR
+      NEW met4 ( 14260 305320 ) ( * 406980 )
+      NEW met4 ( 14260 430780 ) ( * 520540 )
+      NEW met3 ( 14260 520540 ) M3M4_PR
       NEW met3 ( 59340 1825460 ) M3M4_PR
-      NEW met3 ( 59340 521220 ) M3M4_PR
+      NEW met3 ( 59340 520540 ) M3M4_PR
       NEW met3 ( 14260 305320 ) M3M4_PR
-      NEW met3 ( 14260 429420 ) M3M4_PR
-      NEW met2 ( 14030 429420 ) M2M3_PR
+      NEW met3 ( 14260 406980 ) M3M4_PR
+      NEW met2 ( 14030 406980 ) M2M3_PR
       NEW met2 ( 14030 430780 ) M2M3_PR
       NEW met3 ( 14260 430780 ) M3M4_PR
-      NEW met3 ( 14260 429420 ) RECT ( 0 -150 390 150 ) 
+      NEW met3 ( 14260 406980 ) RECT ( 0 -150 390 150 ) 
       NEW met3 ( 14030 430780 ) RECT ( -390 -150 0 150 )  ;
     - io_out[9] ( PIN io_out[9] ) ( u_afe_wb analog_io_out[2] ) + USE SIGNAL
       + ROUTED met3 ( 5060 298180 ) ( 15360 * 0 )
@@ -12593,44 +12634,44 @@ NETS 779 ;
       NEW met4 ( 100740 96220 ) ( * 103700 )
       NEW met3 ( 100740 103700 ) ( 102810 * )
       NEW met2 ( 102810 103700 ) ( * 115140 0 )
-      NEW met3 ( 103270 5100 ) ( 106260 * )
-      NEW met2 ( 103270 5100 ) ( * 96220 )
+      NEW met3 ( 103270 6460 ) ( 106260 * )
+      NEW met4 ( 106260 1700 ) ( * 6460 )
+      NEW met2 ( 103270 6460 ) ( * 96220 )
       NEW met2 ( 131330 1700 ) ( 132710 * 0 )
-      NEW met2 ( 131330 1700 ) ( * 5100 )
-      NEW met3 ( 119140 5100 ) ( 131330 * )
-      NEW met5 ( 106260 5100 ) ( 119140 * )
+      NEW met3 ( 119140 1700 ) ( 131330 * )
+      NEW met5 ( 106260 1700 ) ( 119140 * )
       NEW met2 ( 103270 96220 ) M2M3_PR
       NEW met3 ( 100740 96220 ) M3M4_PR
       NEW met3 ( 100740 103700 ) M3M4_PR
       NEW met2 ( 102810 103700 ) M2M3_PR
-      NEW met2 ( 103270 5100 ) M2M3_PR
-      NEW met3 ( 106260 5100 ) M3M4_PR
-      NEW met4 ( 106260 5100 ) M4M5_PR
-      NEW met2 ( 131330 5100 ) M2M3_PR
-      NEW met3 ( 119140 5100 ) M3M4_PR
-      NEW met4 ( 119140 5100 ) M4M5_PR ;
+      NEW met2 ( 103270 6460 ) M2M3_PR
+      NEW met3 ( 106260 6460 ) M3M4_PR
+      NEW met4 ( 106260 1700 ) M4M5_PR
+      NEW met2 ( 131330 1700 ) M2M3_PR
+      NEW met3 ( 119140 1700 ) M3M4_PR
+      NEW met4 ( 119140 1700 ) M4M5_PR ;
     - wbs_adr_i[5] ( PIN wbs_adr_i[5] ) ( u_afe_wb wbs_adr_i[5] ) + USE SIGNAL
       + ROUTED met3 ( 116380 96220 ) ( 117070 * )
       NEW met4 ( 116380 96220 ) ( * 103700 )
       NEW met3 ( 113850 103700 ) ( 116380 * )
       NEW met2 ( 113850 103700 ) ( * 115140 0 )
-      NEW met2 ( 149270 340 ) ( 150650 * 0 )
-      NEW met3 ( 133860 340 ) ( 149270 * )
-      NEW met4 ( 133860 340 ) ( * 1700 )
-      NEW met5 ( 119140 1700 ) ( 133860 * )
-      NEW met4 ( 119140 1700 ) ( * 2380 )
-      NEW met3 ( 117070 2380 ) ( 119140 * )
-      NEW met2 ( 117070 2380 ) ( * 96220 )
+      NEW met2 ( 149270 1700 ) ( 150650 * 0 )
+      NEW met3 ( 133860 1700 ) ( 149270 * )
+      NEW met4 ( 133860 1700 ) ( * 5100 )
+      NEW met5 ( 117300 5100 ) ( 133860 * )
+      NEW met3 ( 117070 5100 ) ( 117300 * )
+      NEW met2 ( 117070 5100 ) ( * 96220 )
       NEW met2 ( 117070 96220 ) M2M3_PR
       NEW met3 ( 116380 96220 ) M3M4_PR
       NEW met3 ( 116380 103700 ) M3M4_PR
       NEW met2 ( 113850 103700 ) M2M3_PR
-      NEW met2 ( 149270 340 ) M2M3_PR
-      NEW met3 ( 133860 340 ) M3M4_PR
-      NEW met4 ( 133860 1700 ) M4M5_PR
-      NEW met4 ( 119140 1700 ) M4M5_PR
-      NEW met3 ( 119140 2380 ) M3M4_PR
-      NEW met2 ( 117070 2380 ) M2M3_PR ;
+      NEW met2 ( 149270 1700 ) M2M3_PR
+      NEW met3 ( 133860 1700 ) M3M4_PR
+      NEW met4 ( 133860 5100 ) M4M5_PR
+      NEW met3 ( 117300 5100 ) M3M4_PR
+      NEW met4 ( 117300 5100 ) M4M5_PR
+      NEW met2 ( 117070 5100 ) M2M3_PR
+      NEW met3 ( 117300 5100 ) RECT ( 0 -150 390 150 )  ;
     - wbs_adr_i[6] ( PIN wbs_adr_i[6] ) ( u_afe_wb wbs_adr_i[6] ) + USE SIGNAL
       + ROUTED met2 ( 166750 1700 ) ( 168130 * 0 )
       NEW met2 ( 166750 1700 ) ( * 9860 )
@@ -13093,16 +13134,16 @@ NETS 779 ;
       NEW met4 ( 96140 96220 ) ( * 103700 )
       NEW met3 ( 91770 103700 ) ( 96140 * )
       NEW met2 ( 91770 103700 ) ( * 115140 0 )
-      NEW met2 ( 96370 6460 ) ( * 96220 )
+      NEW met2 ( 96370 5780 ) ( * 96220 )
       NEW met2 ( 113390 1700 ) ( 115230 * 0 )
-      NEW met2 ( 113390 1700 ) ( * 6460 )
-      NEW met3 ( 96370 6460 ) ( 113390 * )
+      NEW met2 ( 113390 1700 ) ( * 5780 )
+      NEW met3 ( 96370 5780 ) ( 113390 * )
       NEW met2 ( 96370 96220 ) M2M3_PR
       NEW met3 ( 96140 96220 ) M3M4_PR
       NEW met3 ( 96140 103700 ) M3M4_PR
       NEW met2 ( 91770 103700 ) M2M3_PR
-      NEW met2 ( 96370 6460 ) M2M3_PR
-      NEW met2 ( 113390 6460 ) M2M3_PR
+      NEW met2 ( 96370 5780 ) M2M3_PR
+      NEW met2 ( 113390 5780 ) M2M3_PR
       NEW met3 ( 96370 96220 ) RECT ( 0 -150 390 150 )  ;
     - wbs_dat_i[4] ( PIN wbs_dat_i[4] ) ( u_afe_wb wbs_dat_i[4] ) + USE SIGNAL
       + ROUTED met5 ( 114540 100300 ) ( 124660 * )
@@ -13127,20 +13168,21 @@ NETS 779 ;
       NEW met3 ( 117530 103700 ) ( 119140 * )
       NEW met2 ( 117530 103700 ) ( * 115140 0 )
       NEW met2 ( 154790 1700 ) ( 156630 * 0 )
-      NEW met3 ( 151340 1700 ) ( 154790 * )
-      NEW met5 ( 137540 1700 ) ( 151340 * )
-      NEW met3 ( 123970 1700 ) ( 137540 * )
-      NEW met2 ( 123970 1700 ) ( * 96220 )
+      NEW met2 ( 154790 1700 ) ( * 5100 )
+      NEW met3 ( 151340 5100 ) ( 154790 * )
+      NEW met5 ( 137540 5100 ) ( 151340 * )
+      NEW met3 ( 123970 5100 ) ( 137540 * )
+      NEW met2 ( 123970 5100 ) ( * 96220 )
       NEW met2 ( 123970 96220 ) M2M3_PR
       NEW met3 ( 119140 96220 ) M3M4_PR
       NEW met3 ( 119140 103700 ) M3M4_PR
       NEW met2 ( 117530 103700 ) M2M3_PR
-      NEW met2 ( 154790 1700 ) M2M3_PR
-      NEW met3 ( 151340 1700 ) M3M4_PR
-      NEW met4 ( 151340 1700 ) M4M5_PR
-      NEW met3 ( 137540 1700 ) M3M4_PR
-      NEW met4 ( 137540 1700 ) M4M5_PR
-      NEW met2 ( 123970 1700 ) M2M3_PR ;
+      NEW met2 ( 154790 5100 ) M2M3_PR
+      NEW met3 ( 151340 5100 ) M3M4_PR
+      NEW met4 ( 151340 5100 ) M4M5_PR
+      NEW met3 ( 137540 5100 ) M3M4_PR
+      NEW met4 ( 137540 5100 ) M4M5_PR
+      NEW met2 ( 123970 5100 ) M2M3_PR ;
     - wbs_dat_i[6] ( PIN wbs_dat_i[6] ) ( u_afe_wb wbs_dat_i[6] ) + USE SIGNAL
       + ROUTED met3 ( 130180 96220 ) ( 130870 * )
       NEW met4 ( 130180 96220 ) ( * 103700 )
@@ -13390,14 +13432,14 @@ NETS 779 ;
       NEW met2 ( 386170 5100 ) M2M3_PR
       NEW met2 ( 586730 5100 ) M2M3_PR ;
     - wbs_dat_o[2] ( PIN wbs_dat_o[2] ) ( u_afe_wb wbs_dat_o[2] ) + USE SIGNAL
-      + ROUTED met2 ( 80730 82800 ) ( * 115140 0 )
-      NEW met2 ( 80730 82800 ) ( 81650 * )
-      NEW met2 ( 95910 1020 ) ( 97290 * 0 )
-      NEW met2 ( 95910 1020 ) ( * 1190 )
-      NEW met1 ( 81650 1190 ) ( 95910 * )
-      NEW met2 ( 81650 1190 ) ( * 82800 )
-      NEW met1 ( 95910 1190 ) M1M2_PR
-      NEW met1 ( 81650 1190 ) M1M2_PR ;
+      + ROUTED met2 ( 80730 13800 ) ( * 115140 0 )
+      NEW met2 ( 80730 13800 ) ( 81650 * )
+      NEW met2 ( 95910 1700 ) ( 97290 * 0 )
+      NEW met2 ( 95910 1700 ) ( * 2210 )
+      NEW met1 ( 81650 2210 ) ( 95910 * )
+      NEW met2 ( 81650 2210 ) ( * 13800 )
+      NEW met1 ( 95910 2210 ) M1M2_PR
+      NEW met1 ( 81650 2210 ) M1M2_PR ;
     - wbs_dat_o[30] ( PIN wbs_dat_o[30] ) ( u_afe_wb wbs_dat_o[30] ) + USE SIGNAL
       + ROUTED met2 ( 397210 113220 ) ( * 115140 0 )
       NEW met2 ( 603750 1700 ) ( 605590 * 0 )
@@ -13492,11 +13534,11 @@ NETS 779 ;
       NEW met2 ( 78430 1700 ) M2M3_PR
       NEW met2 ( 69690 1700 ) M2M3_PR ;
     - wbs_sel_i[2] ( PIN wbs_sel_i[2] ) ( u_afe_wb wbs_sel_i[2] ) + USE SIGNAL
-      + ROUTED met2 ( 101890 1700 ) ( 103270 * 0 )
-      NEW met2 ( 101890 1700 ) ( * 5100 )
-      NEW met3 ( 84410 5100 ) ( 101890 * )
+      + ROUTED met2 ( 101430 1700 ) ( 103270 * 0 )
+      NEW met2 ( 101430 1700 ) ( * 5100 )
+      NEW met3 ( 84410 5100 ) ( 101430 * )
       NEW met2 ( 84410 5100 ) ( * 115140 0 )
-      NEW met2 ( 101890 5100 ) M2M3_PR
+      NEW met2 ( 101430 5100 ) M2M3_PR
       NEW met2 ( 84410 5100 ) M2M3_PR ;
     - wbs_sel_i[3] ( PIN wbs_sel_i[3] ) ( u_afe_wb wbs_sel_i[3] ) + USE SIGNAL
       + ROUTED met2 ( 99130 13260 ) ( * 115140 0 )

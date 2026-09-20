@@ -17,8 +17,9 @@ ID AFE00001
 ADC 800
 ```
 
-The Python bench pokes SAR behavioral reals (`vinp_v=1.65`, `vrefhi_v=3.3`)
-after management GPIO goes high, then scores those UART lines.
+The Python bench pokes HIZ behavioral reals (`vinp_p_v=1.65`, `vinn_p_v=0`),
+copies `vout_v` onto the SAR `vinp_v`, and pokes SAR `vrefhi_v=3.3` after
+management GPIO goes high, then scores those UART lines.
 
 ```bash
 cf verify afe_uart
