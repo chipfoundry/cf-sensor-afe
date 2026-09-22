@@ -28,7 +28,7 @@ Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
 Creating placeholder cell definition.
-Reading Verilog netlist file '/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_20_11_08/40-openroad-detailedrouting/user_project_wrapper.pnl.v'...
+Reading Verilog netlist file '/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_21_19_45/40-openroad-detailedrouting/user_project_wrapper.pnl.v'...
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
 Creating placeholder cell definition for module afe_wb.
 Creating placeholder cell definition for module CF_ADC_SAR12.
@@ -98,8 +98,8 @@ No property perim found for device sky130_fd_pr__special_pfet_01v8_hvt
 No property topography found for device sky130_fd_pr__special_pfet_01v8_hvt
 No property value found for device sky130_fd_pr__diode_pw2nd_05v5
 No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
-Comparison output logged to file /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_20_11_08/62-netgen-lvs/reports/lvs.netgen.rpt
-Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_20_11_08/62-netgen-lvs/reports/lvs.netgen.rpt" enabled
+Comparison output logged to file /Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_21_19_45/62-netgen-lvs/reports/lvs.netgen.rpt
+Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_21_19_45/62-netgen-lvs/reports/lvs.netgen.rpt" enabled
 
 Contents of circuit 1:  Circuit: 'afe_wb'
 Circuit afe_wb contains 0 device instances.
@@ -181,5 +181,5 @@ Circuit 1 contains 334 nets,    Circuit 2 contains 334 nets.
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_20_11_08/62-netgen-lvs/reports/lvs.netgen.rpt" disabled
+Logging to file "/Users/jeffdi/Projects/chipignite-ip/cf-sensor-afe/openlane/user_project_wrapper/runs/26_09_21_19_45/62-netgen-lvs/reports/lvs.netgen.rpt" disabled
 LVS Done.
