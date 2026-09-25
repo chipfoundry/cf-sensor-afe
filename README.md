@@ -70,10 +70,9 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 | [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.9 | Bandgap bias / 1.2 V reference |
 | [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.8 | Buffered `Vout` monitor |
 
-Install from the project root (private GitHub; `ipm` prefers `GITHUB_TOKEN`):
+Install from the project root:
 
 ```bash
-export GITHUB_TOKEN="$(env -u GITHUB_TOKEN gh auth token)"
 ipm install-dep --local-file ip/catalog.json
 ```
 
