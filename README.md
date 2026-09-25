@@ -65,16 +65,16 @@ Caravel’s management SoC and treat the AFE as a co-processor.
 
 | IP | Version | Role |
 | --- | --- | --- |
-| [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.5 | Sensor input buffer |
-| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.7 | 12-bit SAR + wrapped `sar_refs` |
-| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.8 | Bandgap bias / 1.2 V reference |
-| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.7 | Buffered `Vout` monitor |
+| [CF_BUF_HIZ](https://github.com/chipfoundry/CF_BUF_HIZ) | 0.2.6 | Sensor input buffer |
+| [CF_ADC_SAR12](https://github.com/chipfoundry/CF_ADC_SAR12) | 0.2.8 | 12-bit SAR + wrapped `sar_refs` |
+| [CF_BGR](https://github.com/chipfoundry/CF_BGR) | 0.2.9 | Bandgap bias / 1.2 V reference |
+| [CF_REFBUF](https://github.com/chipfoundry/CF_REFBUF) | 0.2.8 | Buffered `Vout` monitor |
 
 Install from the project root (private GitHub; `ipm` prefers `GITHUB_TOKEN`):
 
 ```bash
 export GITHUB_TOKEN="$(env -u GITHUB_TOKEN gh auth token)"
-ipm install-dep --include-drafts --local-file ip/catalog.json
+ipm install-dep --local-file ip/catalog.json
 ```
 
 `ip/` is gitignored except `catalog.json` and `dependencies.json`. Structural
@@ -100,7 +100,7 @@ and wiring only (no taps, stdcell rails, or tie cells).
 
 West-edge `sar_refs` controls use a local LEF overlay (taller met1/met2, no
 fake met3) so OpenLane can access vendor-skinny pads. GDS and PDN still come
-from the 0.2.7 wrap.
+from the 0.2.8 wrap.
 
 ## GPIO
 

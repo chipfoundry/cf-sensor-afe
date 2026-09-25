@@ -101,7 +101,22 @@
           "1.8"
         ],
         "draft": true,
-        "sha256": "f0fa43397f51bf05a61ff6b374795e3374109711f2201b9076dea3749db7df50"
+        "sha256": "35f6a258182da2e5e0f1b4a21b7a2f9482bd127c38da427a8d0fe335eb7c0167"
+      },
+      "0.2.6": {
+        "date": "9-25-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "246.52",
+        "height": "419.97",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": false,
+        "sha256": "12c39906b2a92fdce39b99d085ce96ffbf03448010b1c2a0c296369324065f75"
       }
     }
   },
@@ -222,7 +237,22 @@
           "1.8"
         ],
         "draft": true,
-        "sha256": "67e8a40c6c712409fd9a040a805a6c08196dfb45d4cddc055d6a1427550627eb"
+        "sha256": "1b8dd99121519a2767b18e10c8a442f6863b0b4978e35b6687e8814c8c97ab5d"
+      },
+      "0.2.8": {
+        "date": "9-25-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "503.24",
+        "height": "533",
+        "cell_count": "4",
+        "clock_freq_mhz": "18",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": false,
+        "sha256": "0c676e3c73ab49313d7d29538a3d839ed3d0fa5d3b6103de16759d89a8247eb7"
       }
     }
   },
@@ -328,7 +358,22 @@
           "1.8"
         ],
         "draft": true,
-        "sha256": "ef9ab1600add75b2925122e89bcebdc8a237691177d752a0458d3d8137e4d8ef"
+        "sha256": "b0145e9f79b1a8196c41497f9e3cd6071e1266e2cd149b9b98952fae6b84e031"
+      },
+      "0.2.9": {
+        "date": "9-25-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "438.465",
+        "height": "311.22",
+        "cell_count": "2",
+        "clock_freq_mhz": "0",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": false,
+        "sha256": "5451ca7531f6c9cab774bed0c3649becfb76c807715fdefaa8818ffb931f7c93"
       }
     }
   },
@@ -434,7 +479,22 @@
           "1.8"
         ],
         "draft": true,
-        "sha256": "5f094a2346054c27f7f8940f087e8f02583b78afe450b6ab1dcfdbb63825887a"
+        "sha256": "49b0a3f5f7b8559e8094df4f64bf50e7221c309b55d22d3be531aab714592c8d"
+      },
+      "0.2.8": {
+        "date": "9-25-2026",
+        "maturity": "Production",
+        "bus": [],
+        "type": "hard",
+        "width": "153.225",
+        "height": "177.695",
+        "cell_count": "2",
+        "clock_freq_mhz": "n/a",
+        "supply_voltage": [
+          "1.8"
+        ],
+        "draft": false,
+        "sha256": "2970c4563dd4aa709c77fab52cc7c79f615efce3ad2c8ba504119b87d3260e73"
       }
     }
   }
